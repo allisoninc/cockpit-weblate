@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-09-20 17:29+0000\n"
-"Last-Translator: Daniel Lara Souza <daniellarasouza@yahoo.com.br>\n"
+"PO-Revision-Date: 2021-01-19 06:36+0000\n"
+"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel8/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -173,7 +173,7 @@ msgstr "$0 de $1 em $2"
 #: pkg/lib/plot.js:974
 msgid "$0 hour"
 msgid_plural "$0 hours"
-msgstr[0] "$0 horas"
+msgstr[0] "$0 hora"
 msgstr[1] "$0 horas"
 
 #: pkg/systemd/overview-cards/insights.jsx:160
@@ -210,7 +210,7 @@ msgstr "$0 mortos com sinal $1"
 #: pkg/systemd/overview-cards/insights.jsx:170
 msgid "$0 low severity hit"
 msgid_plural "$0 low severity hits"
-msgstr[0] "$0 hit  de baixa gravidade"
+msgstr[0] "$0 hit de baixa gravidade"
 msgstr[1] "$0 hits de baixas gravidades"
 
 #: pkg/lib/plot.js:977
@@ -1600,8 +1600,8 @@ msgid ""
 "Cockpit could not contact the given host $0. Make sure it has ssh running on "
 "port $1, or specify another port in the address."
 msgstr ""
-"Cockpit não pode contactar o host $0. Tenha certeza que o ssh  esteja "
-"rodando na porta $1, ou especifique outra porta no endereço."
+"Cockpit não pode contactar o host $0. Tenha certeza que o ssh esteja rodando "
+"na porta $1, ou especifique outra porta no endereço."
 
 #: src/base1/cockpit.js:4065
 msgid "Cockpit could not contact the given host."
@@ -1929,7 +1929,7 @@ msgstr ""
 
 #: pkg/docker/console.html:4
 msgid "Container"
-msgstr "Container"
+msgstr ""
 
 #: pkg/users/account-roles.js:63
 msgid "Container Administrator"
@@ -1956,12 +1956,12 @@ msgstr "Contêiner:"
 
 #: pkg/docker/index.html:23 pkg/docker/containers-view.jsx:382
 msgid "Containers"
-msgstr "Containers"
+msgstr ""
 
 #: pkg/docker/details.js:46
 msgctxt "page-title"
 msgid "Containers"
-msgstr "Containers"
+msgstr ""
 
 #: pkg/shell/nav.jsx:199
 #, fuzzy
@@ -4726,10 +4726,10 @@ msgid "Netmask"
 msgstr ""
 
 #: pkg/machines/components/aggregateStatusCards.jsx:72
-#, fuzzy
 msgid "Network"
 msgid_plural "Networks"
 msgstr[0] "Rede"
+msgstr[1] "Redes"
 
 #: pkg/dashboard/index.html:75
 msgctxt "label"
@@ -5029,7 +5029,7 @@ msgid ""
 "crashkernel=512M"
 msgstr ""
 "Nenhuma memória reservada. Acrescente uma opção crashkernel à linha de "
-"comando do kernel (por exemplo, em  /etc/default/grub) para reservar memória "
+"comando do kernel (por exemplo, em /etc/default/grub) para reservar memória "
 "no momento de inicialização. Exemplo: crashkernel=512M"
 
 #: pkg/machines/components/vmnetworktab.jsx:297
@@ -5651,7 +5651,7 @@ msgstr "Pool"
 
 #: pkg/storaged/utils.js:192
 msgid "Pool for Thin Logical Volumes"
-msgstr "Buscando por  Thin Logical Volumes"
+msgstr "Buscando por Thin Logical Volumes"
 
 #: pkg/storaged/content-views.jsx:669
 msgid "Pool for Thin Volumes"
@@ -7605,7 +7605,7 @@ msgid ""
 "The user name can only consist of letters from a-z, digits, dots, dashes and "
 "underscores."
 msgstr ""
-"O nome de usuário coniste em letas de  a-z, digitos, pontos, barras e "
+"O nome de usuário coniste em letas de a-z, digitos, pontos, barras e "
 "underline."
 
 #: src/ws/login.js:135 src/ws/login.js:158
@@ -8378,7 +8378,7 @@ msgstr "Dispositivo VDO $0"
 
 #: pkg/storaged/lvol-tabs.jsx:86 pkg/storaged/lvol-tabs.jsx:173
 msgid "VDO backing devices can not be made smaller"
-msgstr "Dispositivos de suporte VDO não podem ser  menores"
+msgstr "Dispositivos de suporte VDO não podem ser menores"
 
 #: pkg/networkmanager/interfaces.js:2519 pkg/networkmanager/interfaces.js:2531
 #: pkg/networkmanager/interfaces.js:2910
