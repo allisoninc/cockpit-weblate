@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2020-08-04 23:29+0000\n"
+"PO-Revision-Date: 2021-01-18 20:36+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel-7/pt_BR/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -2051,7 +2051,7 @@ msgstr ""
 #: pkg/kubernetes/views/image-page.html:23
 #: node_modules/registry-image-widgets/views/image-panel.html:12
 msgid "Container"
-msgstr "Container"
+msgstr ""
 
 #: pkg/users/local.js:748
 msgid "Container Administrator"
@@ -2090,12 +2090,12 @@ msgstr "Contêiner:"
 #: pkg/kubernetes/views/dashboard-page.html:199
 #: pkg/kubernetes/views/pod-page.html:36 pkg/docker/containers-view.jsx:375
 msgid "Containers"
-msgstr "Containers"
+msgstr ""
 
 #: pkg/docker/details.js:46
 msgctxt "page-title"
 msgid "Containers"
-msgstr "Containers"
+msgstr ""
 
 #: pkg/storaged/content-views.jsx:557
 msgid "Content"
