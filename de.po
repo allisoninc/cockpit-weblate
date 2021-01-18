@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2021-01-09 06:36+0000\n"
+"PO-Revision-Date: 2021-01-19 06:36+0000\n"
 "Last-Translator: Martin Pitt <mpitt@redhat.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/de/>\n"
@@ -32,7 +32,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -763,7 +763,7 @@ msgstr "Schlüssel hinzufügen"
 
 #: pkg/shell/hosts.jsx:243
 msgid "Add new host"
-msgstr "Neue Zone hinzufügen"
+msgstr "Neuen Host hinzufügen"
 
 #: pkg/networkmanager/firewall.jsx:470
 msgid "Add ports to $0 zone"
