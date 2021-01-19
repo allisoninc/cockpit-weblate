@@ -12,17 +12,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2020-07-15 19:39+0000\n"
+"PO-Revision-Date: 2021-01-23 16:37+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit/"
-"master/pl/>\n"
+"rhel8/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: pkg/machines/components/diskAdd.jsx:234
 msgid " Attaching it will make this disk shareable for every VM using it."
@@ -973,10 +973,8 @@ msgid "Applications"
 msgstr "Aplikacje"
 
 #: pkg/apps/application-list.jsx:175
-#, fuzzy
-#| msgid "Applications"
 msgid "Applications list"
-msgstr "Aplikacje"
+msgstr "Lista aplikacji"
 
 #: pkg/networkmanager/index.html:497 pkg/networkmanager/index.html:525
 #: pkg/networkmanager/index.html:552 pkg/networkmanager/index.html:579
@@ -5042,10 +5040,8 @@ msgid "No such file or directory"
 msgstr "Nie ma takiego pliku lub katalogu"
 
 #: pkg/lib/cockpit-components-file-autocomplete.jsx:153
-#, fuzzy
-#| msgid "No such file or directory"
 msgid "No such file or directory '$0'"
-msgstr "Nie ma takiego pliku lub katalogu"
+msgstr "Nie ma takiego pliku lub katalogu „$0”"
 
 #: pkg/packagekit/updates.jsx:54
 msgid "No updates pending"
