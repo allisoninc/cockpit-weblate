@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-01-25 20:38+0000\n"
+"PO-Revision-Date: 2021-01-27 14:40+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/fi/>\n"
@@ -153,7 +153,7 @@ msgstr "$0 tapettu signaalilla $1"
 msgid "$0 occurrence"
 msgid_plural "$1 occurrences"
 msgstr[0] "$0 tapahtuma"
-msgstr[1] "$0 tapahtumat"
+msgstr[1] "$1 tapahtumaa"
 
 #: pkg/storaged/fsys-tab.jsx:60
 msgid "$0 of $1"
@@ -1789,7 +1789,7 @@ msgstr "Yhdistetty muistin käyttö"
 msgid "Combined usage of $0 CPU core"
 msgid_plural "Combined usage of $0 CPU cores"
 msgstr[0] "Yhdistetty $0 CPU-ytimen käyttö"
-msgstr[1] "Yhdistetty $0 CPU-ydinten käyttö"
+msgstr[1] "Yhdistetty $0 CPU-ytimien käyttö"
 
 #: pkg/networkmanager/firewall.jsx:527
 msgid "Comma-separated ports, ranges, and aliases are accepted"
@@ -3269,7 +3269,7 @@ msgstr "Hälytyksen tuhoaminen epäonnistui: $0"
 
 #: pkg/tuned/dialog.js:169
 msgid "Failed to disable tuned"
-msgstr "tuned:n käytöstä poistaminen epäonnistui:"
+msgstr "tuned:n käytöstä poistaminen epäonnistui"
 
 #: pkg/tuned/dialog.js:134
 msgid "Failed to disable tuned profile"
@@ -3285,7 +3285,7 @@ msgstr "tuned:n käyttöönotto epäonnistui"
 
 #: pkg/users/index.html:393
 msgid "Failed to load authorized keys."
-msgstr "Valtuutettujen avainten lataaminen  epäonnistui."
+msgstr "Valtuutettujen avainten lataaminen epäonnistui."
 
 #: pkg/networkmanager/firewall.jsx:594
 msgid "Failed to remove service"
@@ -4984,7 +4984,7 @@ msgstr "Nimi ei voi olla tyhjä."
 
 #: pkg/storaged/utils.js:159
 msgid "Name cannot be longer than $0 bytes"
-msgstr ""
+msgstr "Nimi voi olla enintään $0 merkkiä pitkä"
 
 #: pkg/storaged/utils.js:157
 msgid "Name cannot be longer than $0 characters"
@@ -7057,7 +7057,7 @@ msgstr ""
 #: pkg/storaged/jobs-panel.jsx:40 pkg/storaged/jobs-panel.jsx:46
 #: pkg/storaged/jobs-panel.jsx:78
 msgid "Resizing $target"
-msgstr ""
+msgstr "Muutetaan $target kokoa"
 
 #: pkg/storaged/lvol-tabs.jsx:225 pkg/storaged/lvol-tabs.jsx:307
 msgid ""
@@ -7102,7 +7102,7 @@ msgstr "Palautetaan yhteys"
 
 #: pkg/machines/components/vm/vmActions.jsx:84
 msgid "Resume"
-msgstr ""
+msgstr "Jatka"
 
 #: pkg/kubernetes/scripts/volumes.js:217
 msgid "Retain"
@@ -8256,7 +8256,7 @@ msgstr ""
 
 #: pkg/systemd/terminal.html:4
 msgid "Terminal"
-msgstr ""
+msgstr "Terminaali"
 
 #: pkg/users/index.html:78
 msgid "Terminate Session"
@@ -9128,7 +9128,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:333
 msgid "Unknown service name"
-msgstr ""
+msgstr "Tuntematon palvelun nimi"
 
 #: pkg/storaged/crypto-keyslots.jsx:562
 msgid "Unknown type"
@@ -9805,7 +9805,7 @@ msgstr "silta"
 
 #: pkg/packagekit/updates.jsx:267
 msgid "bug fix"
-msgstr ""
+msgstr "viankorjaus"
 
 #: pkg/storaged/utils.js:97
 msgctxt "format-bytes"
