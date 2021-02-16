@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-02-12 10:40+0000\n"
+"PO-Revision-Date: 2021-02-17 12:40+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/fi/>\n"
@@ -3881,6 +3881,7 @@ msgid ""
 "In most configurations, macvtap does not work for host to guest network "
 "communication."
 msgstr ""
+"Useimmissa kokoonpanoissa macvtap ei toimi isäntä-vieras-verkkoyhteydessä."
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:81
 msgid ""
@@ -5351,7 +5352,7 @@ msgstr ""
 
 #: pkg/docker/containers-view.jsx:707
 msgid "No images that match the current filter"
-msgstr ""
+msgstr "Ei nykyistä suodatusta vastaavia kuvia"
 
 #: pkg/apps/utils.jsx:96
 msgid "No installation package found for this application."
@@ -5854,7 +5855,7 @@ msgstr "Tunnuslause ei voi olla tyhjä"
 
 #: pkg/storaged/crypto-keyslots.jsx:356
 msgid "Passphrase removal may prevent unlocking $0."
-msgstr ""
+msgstr "Salalauseen poisto voi estää lukituksen avaamisen $0."
 
 #: pkg/storaged/format-dialog.jsx:306 pkg/storaged/crypto-keyslots.jsx:219
 #: pkg/storaged/crypto-keyslots.jsx:257
@@ -6435,7 +6436,7 @@ msgstr "Projektit"
 
 #: pkg/users/local.js:91
 msgid "Prompting via passwd timed out"
-msgstr ""
+msgstr "Kysely 'passwd':n kautta aikakatkaistiin"
 
 #: pkg/lib/credentials.js:260
 msgid "Prompting via ssh-add timed out"
@@ -6729,7 +6730,7 @@ msgstr "Palautetaan"
 
 #: pkg/storaged/jobs-panel.jsx:65
 msgid "Recovering RAID Device $target"
-msgstr ""
+msgstr "Palautetaan RAID-laite $target"
 
 #: pkg/kubernetes/scripts/volumes.js:219
 msgid "Recycle"
@@ -7155,7 +7156,7 @@ msgstr "Reitti"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:98
 msgid "Route to $0"
-msgstr ""
+msgstr "Reitti $0:een"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:100
 msgid "Routed Network"
@@ -8207,7 +8208,7 @@ msgstr "Kohde"
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:57
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:125
 msgid "Target Path"
-msgstr ""
+msgstr "Kohteen polku"
 
 #: pkg/kubernetes/views/volume-body.html:75
 msgid "Target Portal"
@@ -8268,7 +8269,7 @@ msgstr ""
 
 #: pkg/kdump/kdump-view.jsx:476 pkg/kdump/kdump-view.jsx:484
 msgid "Test Configuration"
-msgstr ""
+msgstr "Testimääritys"
 
 #: pkg/kdump/kdump-view.jsx:480
 msgid "Test is only available while the kdump service is running."
@@ -9856,7 +9857,7 @@ msgstr "Oletus"
 
 #: pkg/machines/helpers.js:210
 msgid "direct"
-msgstr ""
+msgstr "suora"
 
 #: pkg/machines/helpers.js:177 pkg/machines/helpers.js:180
 #: pkg/ovirt/components/OVirtTab.jsx:123
@@ -9914,7 +9915,7 @@ msgstr ""
 
 #: pkg/machines/helpers.js:203
 msgid "host device"
-msgstr ""
+msgstr "isäntälaite"
 
 #: pkg/machines/helpers.js:215
 msgid "hostdev"
