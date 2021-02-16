@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2021-02-12 10:40+0000\n"
+"PO-Revision-Date: 2021-02-17 12:40+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/fi/>\n"
@@ -3533,6 +3533,7 @@ msgid ""
 "In most configurations, macvtap does not work for host to guest network "
 "communication."
 msgstr ""
+"Useimmissa kokoonpanoissa macvtap ei toimi isäntä-vieras-verkkoyhteydessä."
 
 #: pkg/lib/machine-sync-users.html:52
 msgid ""
@@ -3943,6 +3944,7 @@ msgstr ""
 msgid ""
 "Libvirt did not detect any UEFI/OVMF firmware image installed on the host"
 msgstr ""
+"Libvirt ei havainnut isäntään asennettuja UEFI/OVMF-laiteohjelmistokuvia"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:243
 msgid "Libvirt or hypervisor does not support UEFI"
@@ -4620,7 +4622,7 @@ msgstr "Nimi sisältää laittomia merkkejä"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:128
 msgid "Name must not be empty"
-msgstr ""
+msgstr "Nimi ei saa olla tyhjä"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:54
 #: pkg/machines/components/networks/createNetworkDialog.jsx:54
@@ -4911,7 +4913,7 @@ msgstr ""
 
 #: pkg/docker/containers-view.jsx:597
 msgid "No images that match the current filter"
-msgstr ""
+msgstr "Ei nykyistä suodatusta vastaavia kuvia"
 
 #: pkg/apps/utils.jsx:92
 msgid "No installation package found for this application."
@@ -5314,7 +5316,7 @@ msgstr "Tunnuslause ei voi olla tyhjä"
 
 #: pkg/storaged/crypto-keyslots.jsx:364
 msgid "Passphrase removal may prevent unlocking $0."
-msgstr ""
+msgstr "Salalauseen poisto voi estää lukituksen avaamisen $0."
 
 #: pkg/storaged/format-dialog.jsx:225 pkg/storaged/crypto-keyslots.jsx:225
 #: pkg/storaged/crypto-keyslots.jsx:263
@@ -5686,7 +5688,7 @@ msgstr "Projektin verkkosivusto"
 
 #: pkg/users/password-dialogs.js:56
 msgid "Prompting via passwd timed out"
-msgstr ""
+msgstr "Kysely 'passwd':n kautta aikakatkaistiin"
 
 #: pkg/lib/credentials.js:260
 msgid "Prompting via ssh-add timed out"
@@ -5890,7 +5892,7 @@ msgstr "Palautetaan"
 
 #: pkg/storaged/jobs-panel.jsx:65
 msgid "Recovering RAID Device $target"
-msgstr ""
+msgstr "Palautetaan RAID-laite $target"
 
 #: pkg/packagekit/updates.jsx:53
 msgid "Refreshing package information"
@@ -6210,7 +6212,7 @@ msgstr ""
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:98
 msgid "Route to $0"
-msgstr ""
+msgstr "Reitti $0:een"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:100
 msgid "Routed Network"
@@ -6298,7 +6300,7 @@ msgstr "SPICE-TLS-portti:"
 
 #: pkg/shell/index.html:79 pkg/shell/index.html:231
 msgid "SSH Keys"
-msgstr ""
+msgstr "SSH-avaimet"
 
 #: pkg/networkmanager/index.html:241
 msgid "STP Forward delay"
@@ -6398,7 +6400,7 @@ msgstr ""
 
 #: pkg/systemd/reporting.jsx:246
 msgid "Send"
-msgstr ""
+msgstr "Lähetä"
 
 #: pkg/machines/components/vm/vmActions.jsx:93
 msgid "Send Non-Maskable Interrupt"
@@ -7150,7 +7152,7 @@ msgstr "Kohde"
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:112
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:62
 msgid "Target Path"
-msgstr ""
+msgstr "Kohteen polku"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:121
 msgid "Target path should not be empty"
@@ -7187,7 +7189,7 @@ msgstr ""
 
 #: pkg/kdump/kdump-view.jsx:479 pkg/kdump/kdump-view.jsx:487
 msgid "Test Configuration"
-msgstr ""
+msgstr "Testimääritys"
 
 #: pkg/kdump/kdump-view.jsx:483
 msgid "Test is only available while the kdump service is running."
@@ -8726,7 +8728,7 @@ msgstr "Virtuaalikoneen luominen"
 
 #: pkg/machines/hostvmslist.jsx:50
 msgid "creating VM installation"
-msgstr ""
+msgstr "luodaan virtuaalikoneen asennus"
 
 #: pkg/machines/helpers.js:214
 msgid "custom"
@@ -8750,7 +8752,7 @@ msgstr ""
 
 #: pkg/machines/helpers.js:218
 msgid "direct"
-msgstr ""
+msgstr "suora"
 
 #: pkg/systemd/manifest.json.in
 msgid "disable"
@@ -8868,7 +8870,7 @@ msgstr ""
 
 #: pkg/machines/helpers.js:211
 msgid "host device"
-msgstr ""
+msgstr "isäntälaite"
 
 #: pkg/machines/helpers.js:223
 msgid "hostdev"
