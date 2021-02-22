@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-01-18 20:36+0000\n"
+"PO-Revision-Date: 2021-02-23 00:40+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel-7/pt_BR/>\n"
@@ -777,7 +777,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:779
 msgid "Add zone"
-msgstr ""
+msgstr "Adicionar zona"
 
 #: pkg/networkmanager/interfaces.js:3102
 msgid ""
@@ -788,10 +788,13 @@ msgstr ""
 "administração da interface do usuário indisponível."
 
 #: pkg/networkmanager/firewall.jsx:559
+#, fuzzy
 msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
 msgstr ""
+"Adicionar portas personalizadas recarregará o firewalld. Uma recarga "
+"resultará na perda de qualquer configuração somente em tempo de execução!"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -886,7 +889,7 @@ msgstr "Admin"
 
 #: org.cockpit-project.cockpit-bridge.policy.in.h:1
 msgid "Administration with Cockpit Web Console"
-msgstr ""
+msgstr "Administração com o Console Web do Cockpit"
 
 #: pkg/realmd/operation.js:336
 msgid "Administrator Password"
@@ -1144,8 +1147,9 @@ msgstr "Usando automaticamente servidores NTP específicos"
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:64
 #: pkg/machines/components/networks/networkOverviewTab.jsx:86
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:166
+#, fuzzy
 msgid "Autostart"
-msgstr ""
+msgstr "Auto-iniciar"
 
 #: pkg/lib/machine-change-auth.html:66
 #: pkg/machines/components/vm/vmUsageTab.jsx:65
@@ -1219,13 +1223,14 @@ msgstr "Vincula a"
 
 #: pkg/systemd/terminal.jsx:98
 msgid "Black"
-msgstr ""
+msgstr "Preto"
 
 #: pkg/lib/machine-info.js:91
 msgid "Blade"
 msgstr "Blade"
 
 #: pkg/lib/machine-info.js:92
+#, fuzzy
 msgid "Blade enclosure"
 msgstr "Blade enclosure"
 
@@ -1269,8 +1274,9 @@ msgstr "Vinculado pela"
 
 #: pkg/networkmanager/interfaces.js:2516 pkg/networkmanager/interfaces.js:2528
 #: pkg/networkmanager/interfaces.js:2868
+#, fuzzy
 msgid "Bridge"
-msgstr "Bridge"
+msgstr "Ponte"
 
 #: pkg/networkmanager/index.html:586
 msgid "Bridge Port Settings"
@@ -1356,8 +1362,9 @@ msgstr "A ação CRiar VM falhou"
 
 #: pkg/machines/components/vmDiskColumns.jsx:75
 #: pkg/machines/components/diskAdd.jsx:246
+#, fuzzy
 msgid "Cache"
-msgstr ""
+msgstr "Cache"
 
 #: pkg/systemd/index.html:259 pkg/systemd/host.js:1695
 msgid "Cached"
@@ -2050,8 +2057,9 @@ msgstr ""
 #: pkg/kubernetes/views/container-panel.html:4
 #: pkg/kubernetes/views/image-page.html:23
 #: node_modules/registry-image-widgets/views/image-panel.html:12
+#, fuzzy
 msgid "Container"
-msgstr ""
+msgstr "Contêiner"
 
 #: pkg/users/local.js:748
 msgid "Container Administrator"
@@ -2089,13 +2097,15 @@ msgstr "Contêiner:"
 #: pkg/kubernetes/views/dashboard-page.html:158
 #: pkg/kubernetes/views/dashboard-page.html:199
 #: pkg/kubernetes/views/pod-page.html:36 pkg/docker/containers-view.jsx:375
+#, fuzzy
 msgid "Containers"
-msgstr ""
+msgstr "Contêineres"
 
 #: pkg/docker/details.js:46
+#, fuzzy
 msgctxt "page-title"
 msgid "Containers"
-msgstr ""
+msgstr "Contêineres"
 
 #: pkg/storaged/content-views.jsx:557
 msgid "Content"
@@ -2118,7 +2128,7 @@ msgstr "Conversível"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:100
 msgid "Copy"
-msgstr ""
+msgstr "Copiar"
 
 #: pkg/machines/components/vcpuModal.jsx:209
 #: pkg/ovirt/components/vcpuModal.jsx:67
@@ -2374,7 +2384,7 @@ msgstr "Criando grupo de volume $target"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:554
 msgid "Creation of VM $0 failed"
-msgstr ""
+msgstr "Criação da vm $0 falhou"
 
 #: pkg/systemd/logs.html:58
 msgid "Critical and above"
@@ -2386,7 +2396,7 @@ msgstr "Ctrl+Alt+Del"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:101
 msgid "Ctrl+Insert"
-msgstr ""
+msgstr "Ctrl+Insert"
 
 #: pkg/machines/components/vm/memoryModal.jsx:130
 msgid "Current Allocation"
@@ -2451,7 +2461,7 @@ msgstr "Domínios de Pesquisa DNS $val"
 
 #: pkg/systemd/terminal.jsx:99
 msgid "Dark"
-msgstr ""
+msgstr "Escuro"
 
 #: pkg/dashboard/index.html:22
 msgid "Dashboard"
@@ -2986,7 +2996,7 @@ msgstr "Ejetando $target"
 
 #: pkg/lib/machine-info.js:97
 msgid "Embedded PC"
-msgstr "Embedded PC"
+msgstr ""
 
 #: pkg/playground/translate.html:57 src/base1/test-locale.js:44
 #: src/base1/test-locale.js:54 pkg/playground/translate.js:13
@@ -3033,7 +3043,7 @@ msgstr "Habilitado"
 
 #: pkg/storaged/format-dialog.jsx:292
 msgid "Encrypt data"
-msgstr ""
+msgstr "Criptografar dados"
 
 #: pkg/storaged/utils.js:273
 msgid "Encrypted $0"
@@ -3201,11 +3211,11 @@ msgstr "Tudo"
 
 #: pkg/networkmanager/firewall.jsx:534
 msgid "Example: 22,ssh,8080,5900-5910"
-msgstr ""
+msgstr "Exemplo: 22,ssh,8080,5900-5910"
 
 #: pkg/networkmanager/firewall.jsx:542
 msgid "Example: 88,2019,nfs,rsync"
-msgstr ""
+msgstr "Exemplo: 88,2019,nfs,rsync"
 
 #: pkg/users/local.js:473 pkg/users/local.js:1417
 msgid "Excellent password"
@@ -3261,7 +3271,7 @@ msgstr ""
 
 #: pkg/networkmanager/firewall.jsx:682
 msgid "Failed to add zone"
-msgstr ""
+msgstr "Falha ao adicionar zona"
 
 #: pkg/lib/credentials.js:228 pkg/users/local.js:130 pkg/users/local.js:162
 msgid "Failed to change password"
@@ -3621,8 +3631,9 @@ msgid "Hardware Information"
 msgstr "Informação de Hardware"
 
 #: pkg/networkmanager/interfaces.js:2863
+#, fuzzy
 msgid "Hello time $hello_time"
-msgstr "Hello time $hello_time"
+msgstr "Tempo Hello $hello_time"
 
 #: pkg/machines/components/diskAdd.jsx:238
 msgid "Hide Performance Options"
@@ -3753,6 +3764,7 @@ msgstr "Id:"
 
 #: node_modules/registry-image-widgets/views/image-listing.html:7
 #: node_modules/registry-image-widgets/views/image-body.html:24
+#, fuzzy
 msgid "Identifier"
 msgstr "Identificador"
 
@@ -3883,10 +3895,13 @@ msgid "In Sync"
 msgstr "Em Sincronização"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:171
+#, fuzzy
 msgid ""
 "In most configurations, macvtap does not work for host to guest network "
 "communication."
 msgstr ""
+"Na maioria das configurações, macvtap não funciona para a comunicação da "
+"rede entre host para convidado."
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:81
 msgid ""
@@ -4024,6 +4039,7 @@ msgstr "Instanciar"
 
 #: pkg/kubernetes/views/pv-modify.html:170
 #: pkg/kubernetes/views/volume-body.html:81
+#, fuzzy
 msgid "Interface"
 msgstr "Interface"
 
@@ -4197,8 +4213,9 @@ msgid "Kernel"
 msgstr "Kernel"
 
 #: pkg/kdump/index.html:23
+#, fuzzy
 msgid "Kernel Dump"
-msgstr "Kernel Dump"
+msgstr "Dump do Kernel"
 
 #: pkg/kubernetes/views/node-body.html:19
 msgid "Kernel Version"
@@ -4221,8 +4238,9 @@ msgid "Keys"
 msgstr "Chaves"
 
 #: pkg/storaged/crypto-keyslots.jsx:557
+#, fuzzy
 msgid "Keyserver"
-msgstr "Keyserver"
+msgstr "Servidor de chaves"
 
 #: pkg/storaged/crypto-keyslots.jsx:222 pkg/storaged/crypto-keyslots.jsx:272
 msgid "Keyserver address"
@@ -4381,8 +4399,9 @@ msgid "Loading ..."
 msgstr "Carregando ..."
 
 #: pkg/packagekit/updates.jsx:46
+#, fuzzy
 msgid "Loading available updates failed"
-msgstr "Falhou ao carregar as atualizações disponíveis"
+msgstr "Carregando as atualizações disponíveis que falhou"
 
 #: pkg/packagekit/updates.jsx:39
 msgid "Loading available updates, please wait..."
@@ -4475,8 +4494,9 @@ msgid "Logged In"
 msgstr "Logado"
 
 #: pkg/storaged/vdo-details.jsx:289
+#, fuzzy
 msgid "Logical"
-msgstr "Logical"
+msgstr "Lógico"
 
 #: pkg/storaged/vdo-details.jsx:220 pkg/storaged/vdos-panel.jsx:63
 msgid "Logical Size"
@@ -5117,8 +5137,9 @@ msgstr "Logs de rede"
 
 #: pkg/machines/components/networks/networkList.jsx:42
 #: pkg/machines/components/networks/networkList.jsx:46
+#, fuzzy
 msgid "Networks"
-msgstr "Networks"
+msgstr "Redes"
 
 #: pkg/users/local.js:963
 msgid "Never"
@@ -5676,8 +5697,9 @@ msgid "Old Password"
 msgstr "Senha Atual"
 
 #: pkg/storaged/crypto-keyslots.jsx:249
+#, fuzzy
 msgid "Old passphrase"
-msgstr "Old passphrase"
+msgstr "Senha antiga"
 
 #: pkg/lib/credentials.js:218 pkg/users/local.js:86
 msgid "Old password not accepted"
@@ -5836,7 +5858,7 @@ msgstr "Parente"
 
 #: pkg/networkmanager/interfaces.js:2903
 msgid "Parent $parent"
-msgstr "Parent $parent"
+msgstr ""
 
 #: pkg/systemd/init.js:721
 msgid "Part Of"
@@ -5943,7 +5965,7 @@ msgstr "Custo do Caminho"
 
 #: pkg/networkmanager/interfaces.js:2885
 msgid "Path cost $path_cost"
-msgstr "Path cost $path_cost"
+msgstr ""
 
 #: pkg/storaged/nfs-details.jsx:151
 msgid "Path on Server"
@@ -6205,8 +6227,9 @@ msgstr ""
 "Por favor, aguarde até que a lista de modelos seja carregada do servidor."
 
 #: pkg/machines/components/vmnetworktab.jsx:139
+#, fuzzy
 msgid "Plug"
-msgstr "Plug"
+msgstr "Plugue"
 
 #: pkg/kubernetes/views/containers-listing.html:12
 #: pkg/kubernetes/views/topology-page.html:14
@@ -7974,8 +7997,9 @@ msgid "Stick PC"
 msgstr "Stick PC"
 
 #: pkg/networkmanager/index.html:367
+#, fuzzy
 msgid "Sticky"
-msgstr "Sticky"
+msgstr "Pegajoso"
 
 #: pkg/docker/index.html:134 pkg/storaged/swap-tab.jsx:76
 #: pkg/storaged/vdo-details.jsx:157 pkg/storaged/vdo-details.jsx:258
@@ -8076,6 +8100,7 @@ msgid "Stored Passphrase"
 msgstr "Frase-senha armazenada"
 
 #: pkg/storaged/crypto-tab.jsx:126
+#, fuzzy
 msgid "Stored passphrase"
 msgstr "Senha armazenada"
 
@@ -8252,8 +8277,9 @@ msgid "Tags"
 msgstr "Tags"
 
 #: pkg/storaged/crypto-keyslots.jsx:207
+#, fuzzy
 msgid "Tang keyserver"
-msgstr "Tang keyserver"
+msgstr "Servidor de chaves Tang"
 
 #: pkg/kubernetes/views/pv-modify.html:137
 #: pkg/machines/components/vm/bootOrderModal.jsx:133
@@ -8489,6 +8515,7 @@ msgstr ""
 "Os contêineres a seguir dependem dessa imagem e ficarão inutilizáveis."
 
 #: pkg/sosreport/index.html:51
+#, fuzzy
 msgid ""
 "The generated archive contains data considered sensitive and its content "
 "should be reviewed by the originating organization before being passed to "
@@ -9043,8 +9070,9 @@ msgid "Try Again"
 msgstr "Tentar novamente"
 
 #: pkg/docker/index.html:71 pkg/docker/index.html:74
+#, fuzzy
 msgid "Try again"
-msgstr "Tente novamente"
+msgstr "Tentar novamente"
 
 #: pkg/shell/simple.html:107
 msgid "Try to reconnect"
@@ -9454,8 +9482,9 @@ msgstr "Senha de Usuário"
 
 #: pkg/lib/machine-sync-users.html:54 pkg/lib/machine-change-auth.html:18
 #: src/ws/login.html:43
+#, fuzzy
 msgid "User name"
-msgstr "Nome de usuário"
+msgstr "Nome do usuário"
 
 #: src/ws/login.js:447
 msgid "User name cannot be empty"
@@ -9932,7 +9961,7 @@ msgstr "no"
 
 #: pkg/machines/helpers.js:212
 msgid "bridge"
-msgstr "bridge"
+msgstr "ponte"
 
 #: pkg/packagekit/updates.jsx:267
 msgid "bug fix"
@@ -10095,8 +10124,9 @@ msgid "key"
 msgstr "chave"
 
 #: pkg/storaged/crypto-keyslots.jsx:350
+#, fuzzy
 msgid "key slot $0"
-msgstr "key slot $0"
+msgstr "slot chave $0"
 
 #: pkg/kdump/kdump-view.jsx:380 pkg/kdump/kdump-view.jsx:382
 msgid "locally in $0"
