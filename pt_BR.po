@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 18:27+0200\n"
-"PO-Revision-Date: 2021-01-19 06:36+0000\n"
+"PO-Revision-Date: 2021-02-23 01:40+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel8/pt_BR/>\n"
@@ -98,10 +98,11 @@ msgstr[0] "$0 byte"
 msgstr[1] "$0 bytes"
 
 #: pkg/systemd/overview-cards/insights.jsx:155
+#, fuzzy
 msgid "$0 critical hit"
 msgid_plural "$0 hits, including critical"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 Problema Crítico"
+msgstr[1] "$0 Problemas, incluindo críticos"
 
 #: pkg/storaged/vdo-details.jsx:279
 msgid "$0 data + $1 overhead used of $2 ($3)"
@@ -249,7 +250,7 @@ msgstr "$0 of $1"
 #| msgid "$0 of $1"
 msgctxt "<date> on <terminal>"
 msgid "$0 on $1"
-msgstr "$0 of $1"
+msgstr "$0 de $1"
 
 #: pkg/systemd/services/services.jsx:662
 msgid "$0 service has failed"
@@ -649,7 +650,7 @@ msgstr "Contas"
 #, fuzzy
 #| msgid "Applications"
 msgid "Actions"
-msgstr "Aplicações"
+msgstr "Ações"
 
 #: pkg/storaged/content-views.jsx:287
 #: pkg/machines/components/storagePools/storagePool.jsx:161
@@ -679,7 +680,7 @@ msgstr "Ativo desde"
 
 #: pkg/systemd/services/service-details.jsx:436
 msgid "Active since "
-msgstr "Ativo desde"
+msgstr "Ativo desde "
 
 #: pkg/networkmanager/interfaces.js:1980
 msgid "Adaptive load balancing"
@@ -802,10 +803,13 @@ msgstr ""
 "administração da interface do usuário indisponível."
 
 #: pkg/networkmanager/firewall.jsx:559
+#, fuzzy
 msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
 msgstr ""
+"Adicionar portas personalizadas recarregará o firewalld. Uma recarga "
+"resultará na perda de qualquer configuração somente em tempo de execução!"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -866,8 +870,9 @@ msgstr "O endereço não é um URL válido"
 #: pkg/machines/components/networks/createNetworkDialog.jsx:80
 #: pkg/machines/components/networks/createNetworkDialog.jsx:101
 #: pkg/machines/components/networks/createNetworkDialog.jsx:108
+#, fuzzy
 msgid "Address not within subnet"
-msgstr ""
+msgstr "Endereço não está dentro da sub-rede"
 
 #: pkg/machines/components/desktopConsole.jsx:153
 msgid "Address:"
@@ -1018,8 +1023,9 @@ msgid "Assessment"
 msgstr ""
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:116
+#, fuzzy
 msgid "Asset tag"
-msgstr ""
+msgstr "Tag do Recurso"
 
 #: pkg/storaged/mdraids-panel.jsx:116
 msgid "At least $0 disks are needed."
@@ -1042,7 +1048,7 @@ msgstr "Log de auditoria"
 #, fuzzy
 #| msgid "Authenticating"
 msgid "Authenticate"
-msgstr "Autenticando"
+msgstr "Autenticado"
 
 #: pkg/networkmanager/interfaces.js:828
 msgid "Authenticating"
@@ -1129,8 +1135,9 @@ msgstr ""
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:70
 #: pkg/machines/components/networks/networkOverviewTab.jsx:87
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:275
+#, fuzzy
 msgid "Autostart"
-msgstr ""
+msgstr "Auto-iniciar"
 
 #: pkg/lib/machine-change-auth.html:66
 #: pkg/machines/components/vm/vmUsageTab.jsx:63
@@ -1200,6 +1207,7 @@ msgid "Blade"
 msgstr "Blade"
 
 #: pkg/lib/machine-info.js:95
+#, fuzzy
 msgid "Blade enclosure"
 msgstr "Blade enclosure"
 
@@ -1239,8 +1247,9 @@ msgstr "Vinculado pela"
 
 #: pkg/networkmanager/interfaces.js:2521 pkg/networkmanager/interfaces.js:2533
 #: pkg/networkmanager/interfaces.js:2872
+#, fuzzy
 msgid "Bridge"
-msgstr "Bridge"
+msgstr "Ponte"
 
 #: pkg/networkmanager/index.html:619
 msgid "Bridge Port Settings"
@@ -1319,8 +1328,9 @@ msgstr "Uso da CPU:"
 
 #: pkg/machines/components/diskAdd.jsx:165
 #: pkg/machines/components/vmDiskColumns.jsx:75
+#, fuzzy
 msgid "Cache"
-msgstr ""
+msgstr "Cache"
 
 #: pkg/systemd/graphs.html:159 pkg/systemd/graphs.js:394
 msgid "Cached"
@@ -1554,7 +1564,7 @@ msgstr "Limpar pesquisa"
 #, fuzzy
 #| msgid "Clear All Filters"
 msgid "Clear all filters"
-msgstr "Limpar todos filtros"
+msgstr "Limpar todos os filtros"
 
 #: pkg/storaged/fsys-tab.jsx:250
 msgid "Clear mount point configuration"
@@ -1928,8 +1938,9 @@ msgid "Contacted domain"
 msgstr ""
 
 #: pkg/docker/console.html:4
+#, fuzzy
 msgid "Container"
-msgstr ""
+msgstr "Contêiner"
 
 #: pkg/users/account-roles.js:63
 msgid "Container Administrator"
@@ -1955,19 +1966,21 @@ msgid "Container:"
 msgstr "Contêiner:"
 
 #: pkg/docker/index.html:23 pkg/docker/containers-view.jsx:382
+#, fuzzy
 msgid "Containers"
-msgstr ""
+msgstr "Contêineres"
 
 #: pkg/docker/details.js:46
+#, fuzzy
 msgctxt "page-title"
 msgid "Containers"
-msgstr ""
+msgstr "Contêineres"
 
 #: pkg/shell/nav.jsx:199
 #, fuzzy
 #| msgid "Container:"
 msgid "Contains:"
-msgstr "Contêiner:"
+msgstr "Contém:"
 
 #: pkg/storaged/content-views.jsx:632
 msgid "Content"
@@ -2373,9 +2386,11 @@ msgid "Delete $0"
 msgstr "Deletar $0"
 
 #: pkg/machines/components/storagePools/storageVolumeDelete.jsx:63
+#, fuzzy
 msgid "Delete $0 volume"
 msgid_plural "Delete $0 volumes"
-msgstr[0] ""
+msgstr[0] "Delete $0 volume"
+msgstr[1] "Delete $0 volumes"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:164
 msgid "Delete Content"
@@ -2586,8 +2601,9 @@ msgstr "Senha de disco"
 
 #: pkg/machines/components/diskAdd.jsx:463
 #: pkg/machines/components/diskEdit.jsx:165
+#, fuzzy
 msgid "Disk settings could not be saved"
-msgstr ""
+msgstr "Não foi possível salvar as configurações do disco"
 
 #: pkg/storaged/vgroups-panel.jsx:79 pkg/storaged/mdraids-panel.jsx:110
 #: pkg/storaged/vgroup-details.jsx:56 pkg/storaged/mdraid-details.jsx:49
@@ -2597,8 +2613,9 @@ msgid "Disks"
 msgstr "Discos"
 
 #: pkg/selinux/setroubleshoot-view.jsx:397
+#, fuzzy
 msgid "Dismiss"
-msgstr ""
+msgstr "Descartar"
 
 #: pkg/shell/index.html:72 pkg/shell/index.html:180
 msgid "Display Language"
@@ -2751,7 +2768,7 @@ msgstr "Ejetando $target"
 
 #: pkg/lib/machine-info.js:100
 msgid "Embedded PC"
-msgstr "Embedded PC"
+msgstr ""
 
 #: pkg/playground/translate.html:56 src/base1/test-locale.js:47
 #: src/base1/test-locale.js:57 pkg/playground/translate.js:13
@@ -2918,7 +2935,7 @@ msgstr ""
 
 #: pkg/users/authorized-keys.js:121
 msgid "Error saving authorized keys: "
-msgstr "Erro ao salvar chaves autorizadas:"
+msgstr "Erro ao salvar chaves autorizadas: "
 
 #: pkg/selinux/setroubleshoot-client.js:193
 msgid "Error while deleting alert: $0"
@@ -3098,10 +3115,8 @@ msgid "Filter Services"
 msgstr "Serviços de filtro"
 
 #: pkg/systemd/services/services.jsx:739
-#, fuzzy
-#| msgid "Filter by name or description..."
 msgid "Filter by name or description"
-msgstr "Filtrar por nome ou descrição..."
+msgstr "Filtrar por nome ou descrição"
 
 #: pkg/shell/index.html:345 pkg/lib/machine-unknown-hostkey.html:10
 msgid "Fingerprint"
@@ -3320,8 +3335,9 @@ msgid "Health"
 msgstr ""
 
 #: pkg/networkmanager/interfaces.js:2867
+#, fuzzy
 msgid "Hello time $hello_time"
-msgstr "Hello time $hello_time"
+msgstr "Tempo Hello $hello_time"
 
 #: pkg/shell/index.html:57
 msgid "Help"
@@ -3505,8 +3521,9 @@ msgid "Id:"
 msgstr "Id:"
 
 #: pkg/systemd/logs.html:63
+#, fuzzy
 msgid "Identifier"
-msgstr ""
+msgstr "Identificador"
 
 #: pkg/storaged/crypto-keyslots.jsx:333
 msgid "If tang-show-keys is not available, run the following:"
@@ -3575,12 +3592,13 @@ msgid "In Sync"
 msgstr "Em Sincronização"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:247
+#, fuzzy
 msgid ""
 "In most configurations, macvtap does not work for host to guest network "
 "communication."
 msgstr ""
 "Na maioria das configurações, macvtap não funciona para a comunicação da "
-"rede entre host e convidado."
+"rede entre host para convidado."
 
 #: pkg/lib/machine-sync-users.html:52
 msgid ""
@@ -3893,8 +3911,9 @@ msgid "Kernel"
 msgstr "Kernel"
 
 #: pkg/kdump/index.html:23 pkg/kdump/manifest.json.in
+#, fuzzy
 msgid "Kernel Dump"
-msgstr "Kernel Dump"
+msgstr "Dump do Kernel"
 
 #: pkg/storaged/crypto-keyslots.jsx:576
 msgid "Key slots with unknown types can not be edited here"
@@ -3909,8 +3928,9 @@ msgid "Keys"
 msgstr "Chaves"
 
 #: pkg/storaged/crypto-keyslots.jsx:570
+#, fuzzy
 msgid "Keyserver"
-msgstr "Keyserver"
+msgstr "Servidor de chaves"
 
 #: pkg/storaged/crypto-keyslots.jsx:228 pkg/storaged/crypto-keyslots.jsx:278
 msgid "Keyserver address"
@@ -3957,10 +3977,8 @@ msgid "Last failed login:"
 msgstr "Último Login"
 
 #: pkg/systemd/overview.jsx:135
-#, fuzzy
-#| msgid "Last Login"
 msgid "Last login:"
-msgstr "Último Login"
+msgstr "Último login:"
 
 #: pkg/machines/components/desktopConsole.jsx:128
 msgid "Launch Remote Viewer"
@@ -4079,8 +4097,9 @@ msgid "Loading Resources"
 msgstr ""
 
 #: pkg/packagekit/updates.jsx:58
+#, fuzzy
 msgid "Loading available updates failed"
-msgstr "Falhou ao carregar as atualizações disponíveis "
+msgstr "Carregando as atualizações disponíveis que falhou"
 
 #: pkg/packagekit/updates.jsx:51
 msgid "Loading available updates, please wait..."
@@ -4161,8 +4180,9 @@ msgid "Logged In"
 msgstr "Logado"
 
 #: pkg/storaged/vdo-details.jsx:288
+#, fuzzy
 msgid "Logical"
-msgstr "Logical"
+msgstr "Lógico"
 
 #: pkg/storaged/vdo-details.jsx:218 pkg/storaged/vdos-panel.jsx:99
 msgid "Logical Size"
@@ -4587,7 +4607,7 @@ msgstr ""
 
 #: pkg/storaged/nfs-details.jsx:163
 msgid "Mount point cannot be empty."
-msgstr "O ponto de montagem não pode estar vazio"
+msgstr "O ponto de montagem não pode estar vazio."
 
 #: pkg/storaged/fsys-tab.jsx:87
 msgid "Mount point is already used for $0"
@@ -4699,10 +4719,8 @@ msgid "Name cannot contain whitespace."
 msgstr "Nome não pode conter espaço em branco."
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:54
-#, fuzzy
-#| msgid "Name cannot contain the character '$0'."
 msgid "Name contains invalid characters"
-msgstr "O nome não pode conter o caractere '$0'."
+msgstr "O nome contém caracteres inválidos"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:128
 msgid "Name must not be empty"
@@ -4802,8 +4820,9 @@ msgstr "Logs de rede"
 
 #: pkg/machines/components/networks/networkList.jsx:50
 #: pkg/machines/components/networks/networkList.jsx:54
+#, fuzzy
 msgid "Networks"
-msgstr "Networks"
+msgstr "Redes"
 
 #: pkg/users/account-details.js:228
 msgid "Never"
@@ -5222,8 +5241,9 @@ msgid "Old Password"
 msgstr "Senha Atual"
 
 #: pkg/storaged/crypto-keyslots.jsx:257
+#, fuzzy
 msgid "Old passphrase"
-msgstr "Old passphrase"
+msgstr "Senha antiga"
 
 #: pkg/users/password-dialogs.js:51 pkg/lib/credentials.js:218
 msgid "Old password not accepted"
@@ -5371,7 +5391,7 @@ msgstr "Parente"
 
 #: pkg/networkmanager/interfaces.js:2907
 msgid "Parent $parent"
-msgstr "Parent $parent"
+msgstr ""
 
 #: pkg/systemd/services/service-details.jsx:503
 msgid "Part Of"
@@ -5379,7 +5399,7 @@ msgstr "Parte de"
 
 #: pkg/networkmanager/interfaces.js:1444
 msgid "Part of "
-msgstr "Parte de"
+msgstr "Parte de "
 
 #: pkg/storaged/content-views.jsx:147
 msgid "Partition"
@@ -5468,7 +5488,7 @@ msgstr "Custo do Caminho"
 
 #: pkg/networkmanager/interfaces.js:2889
 msgid "Path cost $path_cost"
-msgstr "Path cost $path_cost"
+msgstr ""
 
 #: pkg/storaged/nfs-details.jsx:146
 msgid "Path on Server"
@@ -5639,8 +5659,9 @@ msgid "Please try another term"
 msgstr "Por favor, tente outro termo"
 
 #: pkg/machines/components/vmnetworktab.jsx:245
+#, fuzzy
 msgid "Plug"
-msgstr "Plug"
+msgstr "Plugue"
 
 #: pkg/storaged/content-views.jsx:139 pkg/machines/components/diskAdd.jsx:117
 #: pkg/machines/components/vm/bootOrderModal.jsx:95
@@ -7000,8 +7021,9 @@ msgid "Stick PC"
 msgstr "Stick PC"
 
 #: pkg/networkmanager/index.html:380
+#, fuzzy
 msgid "Sticky"
-msgstr "Sticky"
+msgstr "Pegajoso"
 
 #: pkg/docker/index.html:130 pkg/storaged/content-views.jsx:304
 #: pkg/storaged/vdo-details.jsx:140 pkg/storaged/vdo-details.jsx:257
@@ -7116,6 +7138,7 @@ msgid "Stored Passphrase"
 msgstr "Frase-senha armazenada"
 
 #: pkg/storaged/crypto-tab.jsx:127
+#, fuzzy
 msgid "Stored passphrase"
 msgstr "Senha armazenada"
 
@@ -7237,7 +7260,7 @@ msgstr "Serviços do Sistema"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:105
 msgid "System information"
-msgstr ""
+msgstr "Informação do sistema"
 
 #: pkg/packagekit/updates.jsx:941 pkg/packagekit/updates.jsx:951
 msgid "System is up to date"
@@ -7272,8 +7295,9 @@ msgid "Tags"
 msgstr "Tags"
 
 #: pkg/storaged/crypto-keyslots.jsx:210
+#, fuzzy
 msgid "Tang keyserver"
-msgstr "Tang keyserver"
+msgstr "Servidor de chaves Tang"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:133
 msgid "Target"
@@ -7514,11 +7538,15 @@ msgid "The following containers depend on this image and will become unusable."
 msgstr "Os contêineres a seguir dependem dessa imagem e ficarão inutilizáveis."
 
 #: pkg/sosreport/index.html:51
+#, fuzzy
 msgid ""
 "The generated archive contains data considered sensitive and its content "
 "should be reviewed by the originating organization before being passed to "
 "any third party."
 msgstr ""
+"O arquivo gerado contém dados considerados confidenciais e seu conteúdo deve "
+"ser revisado pela organização de origem antes de ser passado para quaisquer "
+"terceiros."
 
 #: pkg/lib/machine-invalid-hostkey.html:8
 msgid ""
@@ -7744,7 +7772,7 @@ msgstr ""
 
 #: pkg/lib/machine-dialogs.js:351
 msgid "This machine has already been added."
-msgstr "Esta máquina já foi adicionada"
+msgstr "Esta máquina já foi adicionada."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:83
 msgid "This may take a while"
@@ -7942,8 +7970,9 @@ msgid "Try Again"
 msgstr "Tentar novamente"
 
 #: pkg/docker/index.html:70 pkg/docker/index.html:73
+#, fuzzy
 msgid "Try again"
-msgstr "Tente novamente"
+msgstr "Tentar novamente"
 
 #: pkg/systemd/overview-cards/serverTime.js:385
 #, fuzzy
@@ -8003,10 +8032,8 @@ msgid "Type a password"
 msgstr "Digite uma senha"
 
 #: pkg/systemd/logs.html:72
-#, fuzzy
-#| msgid "Type to filter…"
 msgid "Type to filter"
-msgstr "Tipo para filtrar..."
+msgstr "Tipo para filtrar"
 
 #: pkg/docker/containers-view.jsx:119
 msgid "Type to filter…"
@@ -8340,8 +8367,9 @@ msgstr "Senha de Usuário"
 
 #: pkg/lib/machine-change-auth.html:18 pkg/lib/machine-sync-users.html:56
 #: src/ws/login.html:50
+#, fuzzy
 msgid "User name"
-msgstr "Nome de usuário"
+msgstr "Nome do usuário"
 
 #: src/ws/login.js:472
 msgid "User name cannot be empty"
@@ -8867,7 +8895,7 @@ msgstr ""
 
 #: pkg/machines/helpers.js:220 pkg/networkmanager/manifest.json.in
 msgid "bridge"
-msgstr "bridge"
+msgstr "ponte"
 
 #: pkg/packagekit/updates.jsx:281
 msgid "bug fix"
@@ -9144,8 +9172,9 @@ msgid "key"
 msgstr "chave"
 
 #: pkg/storaged/crypto-keyslots.jsx:358
+#, fuzzy
 msgid "key slot $0"
-msgstr "key slot $0"
+msgstr "slot chave $0"
 
 #: pkg/users/manifest.json.in
 msgid "keys"
@@ -9555,8 +9584,9 @@ msgid "vdo"
 msgstr ""
 
 #: pkg/systemd/manifest.json.in
+#, fuzzy
 msgid "version"
-msgstr ""
+msgstr "versão"
 
 #: pkg/machines/helpers.js:227
 msgid "vhostuser"
@@ -9567,6 +9597,8 @@ msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
 msgstr ""
+"o pacote virt-install precisa estar instalado no sistema para poder criar "
+"novas VMs"
 
 #: pkg/networkmanager/manifest.json.in
 msgid "vlan"
@@ -9577,12 +9609,13 @@ msgid "vm"
 msgstr ""
 
 #: pkg/storaged/manifest.json.in
+#, fuzzy
 msgid "volume"
-msgstr ""
+msgstr "volume"
 
 #: pkg/systemd/manifest.json.in
 msgid "warning"
-msgstr ""
+msgstr "aviso"
 
 #: pkg/machines/helpers.js:241
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:67
@@ -9593,11 +9626,11 @@ msgstr "sim"
 
 #: pkg/packagekit/manifest.json.in
 msgid "yum"
-msgstr ""
+msgstr "yum"
 
 #: pkg/networkmanager/manifest.json.in
 msgid "zone"
-msgstr ""
+msgstr "zona"
 
 #~ msgid "Master"
 #~ msgstr "Mestre"
