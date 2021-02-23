@@ -28,7 +28,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
 "PO-Revision-Date: 2021-02-28 12:40+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/tr/>\n"
 "Language: tr\n"
@@ -39,29 +39,22 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 
 #: pkg/metrics/metrics.jsx:379
-#, fuzzy
-#| msgid "of $0 CPU"
-#| msgid_plural "of $0 CPUs"
 msgid "$0 CPU"
 msgid_plural "$0 CPUs"
-msgstr[0] "$0 CPU'nun"
-msgstr[1] "$0 CPU'nun"
+msgstr[0] "$0 CPU"
+msgstr[1] "$0 CPU"
 
 #: pkg/machines/components/vm/overview/cpuTypeModal.jsx:60
-#, fuzzy
-#| msgid "Configuration"
 msgid "$0 CPU configuration"
-msgstr "Yapılandırma"
+msgstr "$0 CPU yapılandırması"
 
 #: pkg/metrics/metrics.jsx:402 pkg/metrics/metrics.jsx:473
-#, fuzzy
-#| msgid "Not available"
 msgid "$0 GiB available"
-msgstr "Mevcut değil"
+msgstr "$0 GiB kullanılabilir"
 
 #: pkg/metrics/metrics.jsx:394 pkg/metrics/metrics.jsx:464
 msgid "$0 GiB total"
-msgstr ""
+msgstr "$0 GiB toplam"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:77
 msgid "$0 Network"
