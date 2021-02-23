@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
-"PO-Revision-Date: 2021-02-23 10:18+0000\n"
+"PO-Revision-Date: 2021-02-28 12:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit/rhel8/uk/>\n"
@@ -261,9 +261,9 @@ msgstr[2] "$0 пакунків"
 #: pkg/packagekit/updates.jsx:635 pkg/packagekit/updates.jsx:747
 msgid "$0 package needs a system reboot"
 msgid_plural "$0 packages need a system reboot"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 пакунок потребує перезавантаження системи"
+msgstr[1] "$0 пакунки потребують перезавантаження системи"
+msgstr[2] "$0 пакунків потребують перезавантаження системи"
 
 #: pkg/metrics/metrics.jsx:106
 msgid "$0 page"
@@ -273,14 +273,11 @@ msgstr[1] "$0 сторінки"
 msgstr[2] "$0 сторінок"
 
 #: pkg/packagekit/updates.jsx:719
-#, fuzzy
-#| msgid "$1 security fix"
-#| msgid_plural "$1 security fixes"
 msgid "$0 security fix available"
 msgid_plural "$0 security fixes available"
-msgstr[0] "$1 виправлення захисту"
-msgstr[1] "$1 виправлення захисту"
-msgstr[2] "$1 виправлень захисту"
+msgstr[0] "доступне $0 виправлення захисту"
+msgstr[1] "доступні $0 виправлення захисту"
+msgstr[2] "доступні $0 виправлень захисту"
 
 #: pkg/systemd/services/services.jsx:654
 msgid "$0 service has failed"
@@ -290,14 +287,11 @@ msgstr[1] "Критична помилка $0 служб"
 msgstr[2] "Критична помилка $0 служб"
 
 #: pkg/packagekit/updates.jsx:652 pkg/packagekit/updates.jsx:759
-#, fuzzy
-#| msgid "$0 service has failed"
-#| msgid_plural "$0 services have failed"
 msgid "$0 service needs to be restarted"
 msgid_plural "$0 services need to be restarted"
-msgstr[0] "Критична помилка $0 служби"
-msgstr[1] "Критична помилка $0 служб"
-msgstr[2] "Критична помилка $0 служб"
+msgstr[0] "Слід перезапустити $0 службу"
+msgstr[1] "Слід перезапустити $0 служби"
+msgstr[2] "Слід перезапустити $0 служб"
 
 #: pkg/storaged/crypto-keyslots.jsx:592
 msgid "$0 slot remains"
@@ -311,13 +305,11 @@ msgid "$0 total"
 msgstr "Загалом $0"
 
 #: pkg/packagekit/updates.jsx:727
-#, fuzzy
-#| msgid "Updates Available"
 msgid "$0 update available"
 msgid_plural "$0 updates available"
-msgstr[0] "Доступні оновлення"
-msgstr[1] "Доступні оновлення"
-msgstr[2] "Доступні оновлення"
+msgstr[0] "Доступне $0 оновлення"
+msgstr[1] "Доступні $0 оновлення"
+msgstr[2] "Доступні $0 оновлень"
 
 #: pkg/storaged/vdo-details.jsx:301
 msgid "$0 used of $1 ($2 saved)"
@@ -639,22 +631,20 @@ msgstr ""
 "додано до файла ${afile} ${ruser} на ${rhost}."
 
 #: pkg/packagekit/updates.jsx:1364
-#, fuzzy
-#| msgid "Updated packages may require a restart to take effect."
 msgid "A package needs a system reboot for the updates to take effect:"
 msgid_plural ""
 "Some packages need a system reboot for the updates to take effect:"
-msgstr[0] "Використання оновлених пакунків може потребувати перезапуску."
-msgstr[1] "Використання оновлених пакунків може потребувати перезапуску."
-msgstr[2] "Використання оновлених пакунків може потребувати перезапуску."
+msgstr[0] "Пакунки потребують перезавантаження, щоб оновлення набули чинності:"
+msgstr[1] "Пакунки потребують перезавантаження, щоб оновлення набули чинності:"
+msgstr[2] "Пакунки потребують перезавантаження, щоб оновлення набули чинності:"
 
 #: pkg/packagekit/updates.jsx:1368
 msgid "A service needs to be restarted for the updates to take effect:"
 msgid_plural ""
 "Some services need to be restarted for the updates to take effect:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Для набуття чинності оновленнями слід перезапустити служби:"
+msgstr[1] "Для набуття чинності оновленнями слід перезапустити служби:"
+msgstr[2] "Для набуття чинності оновленнями слід перезапустити служби:"
 
 #: pkg/storaged/mdraid-details.jsx:130
 msgid "A spare disk needs to be added first before this disk can be removed."
@@ -721,7 +711,7 @@ msgstr "Задіяти"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:115
 msgid "Activate the storage pool to administer volumes"
-msgstr ""
+msgstr "Активувати буфер зберігання даних для адміністрування томів"
 
 #: pkg/storaged/jobs-panel.jsx:71
 msgid "Activating $target"
@@ -805,10 +795,8 @@ msgid "Add key"
 msgstr "Додати ключ"
 
 #: pkg/networkmanager/network-interface-members.jsx:197
-#, fuzzy
-#| msgid "RAID Member"
 msgid "Add member"
-msgstr "Елемент RAID"
+msgstr "Додати учасника"
 
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:88
 msgid "Add network interface"
@@ -1365,7 +1353,7 @@ msgstr ""
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:263
 msgid "CD/DVD disc"
-msgstr ""
+msgstr "Диск CD/DVD"
 
 #: pkg/metrics/metrics.jsx:429 pkg/metrics/metrics.jsx:1007
 #: pkg/machines/components/vm/vmUsageCard.jsx:71 pkg/systemd/hwinfo.jsx:113
@@ -1601,10 +1589,8 @@ msgid "Checking installed software"
 msgstr "Перевіряємо встановлене програмне забезпечення"
 
 #: pkg/packagekit/updates.jsx:1255
-#, fuzzy
-#| msgid "Checking $target"
 msgid "Checking software status"
-msgstr "Перевіряємо $target"
+msgstr "Перевіряємо стан програмного забезпечення"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:370
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:371
@@ -1644,14 +1630,11 @@ msgid "Click $0 again to use the password anyway."
 msgstr "Натисніть $0 ще раз, якщо слід використовувати саме цей пароль."
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:58
-#, fuzzy
-#| msgid ""
-#| "Clicking \"Launch Remote Viewer\" will download a .vv file and launch $0."
 msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgstr ""
-"У результаті натискання «Запустити віддалений переглядач» буде отримано "
-"файл .vv і запущено $0."
+"У результаті натискання «Запустити віддалений переглядач» буде отримано файл "
+".vv і запущено $0."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:21
 msgid "Client software"
@@ -1940,10 +1923,8 @@ msgid "Content"
 msgstr "Вміст"
 
 #: pkg/packagekit/updates.jsx:694
-#, fuzzy
-#| msgid "Container"
 msgid "Continue"
-msgstr "Контейнер"
+msgstr "Продовжити"
 
 #: pkg/shell/shell-modals.jsx:106
 msgid "Continue session"
@@ -1971,10 +1952,8 @@ msgid "Copy to clipboard"
 msgstr "Копіювати до буфера"
 
 #: pkg/metrics/metrics.jsx:411
-#, fuzzy
-#| msgid "Remove $0"
 msgid "Core $0"
-msgstr "Вилучити $0"
+msgstr "Ядро $0"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:225
 msgid "Cores per socket"
@@ -2251,10 +2230,8 @@ msgstr "Нетипові параметри монтування"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:248
 #: pkg/machines/components/vm/disks/diskAdd.jsx:576
-#, fuzzy
-#| msgid "Custom Ports"
 msgid "Custom path"
-msgstr "Нетипові порти"
+msgstr "Нетиповий шлях"
 
 #: pkg/networkmanager/firewall.jsx:545
 msgid "Custom ports"
@@ -2291,7 +2268,7 @@ msgstr "Домени пошуку DNS $val"
 
 #: pkg/packagekit/updates.jsx:844
 msgid "Danger alert:"
-msgstr ""
+msgstr "Попередження про небезпеку:"
 
 #: pkg/systemd/terminal.jsx:108
 msgid "Dark"
@@ -2574,7 +2551,7 @@ msgstr "Не вдалося створити диск"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:261
 msgid "Disk image file"
-msgstr ""
+msgstr "Файл образу диска"
 
 #: pkg/storaged/drive-details.jsx:64
 msgid "Disk is OK"
@@ -2775,10 +2752,8 @@ msgid "Emulated machine"
 msgstr "Емульована машина"
 
 #: pkg/networkmanager/network-interface.jsx:732
-#, fuzzy
-#| msgid "Failed to disable tuned"
 msgid "Enable or disabnle the device"
-msgstr "Не вдалося вимкнути tuned"
+msgstr "Увімкнути або вимкнути пристрій"
 
 #: pkg/networkmanager/app.jsx:96
 msgid "Enable service"
@@ -3016,10 +2991,8 @@ msgid "Failed to load authorized keys."
 msgstr "Не вдалося завантажити уповноважені ключі."
 
 #: pkg/packagekit/updates.jsx:420
-#, fuzzy
-#| msgid "Failed to add service"
 msgid "Failed to restart service"
-msgstr "Не вдалося додати службу"
+msgstr "Не вдалося перезапустити службу"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:97
 msgid "Failed to save changes in /etc/motd"
@@ -3121,10 +3094,8 @@ msgid "Force password change"
 msgstr "Примусова зміна пароля"
 
 #: pkg/machines/components/vm/vmActions.jsx:254
-#, fuzzy
-#| msgid "Force Delete"
 msgid "Force reboot"
-msgstr "Примусове вилучення"
+msgstr "Примусове перезавантаження"
 
 #: pkg/storaged/crypto-keyslots.jsx:384
 msgid "Force remove passphrase in $0"
@@ -3231,7 +3202,7 @@ msgstr "ГіБ"
 
 #: pkg/machines/app.jsx:150
 msgid "Go to VMs list"
-msgstr ""
+msgstr "Перейти до списку ВМ"
 
 #: pkg/apps/application.jsx:113
 msgid "Go to application"
@@ -3552,7 +3523,7 @@ msgstr "Пам'ять покажчика"
 
 #: pkg/packagekit/updates.jsx:685
 msgid "Info"
-msgstr ""
+msgstr "Інформація"
 
 #: pkg/systemd/logs.html:58
 msgid "Info and above"
@@ -3641,10 +3612,8 @@ msgstr "Інтерфейс"
 
 #: pkg/networkmanager/network-interface-members.jsx:208
 #: pkg/networkmanager/network-interface-members.jsx:213
-#, fuzzy
-#| msgid "Interfaces"
 msgid "Interface members"
-msgstr "Інтерфейси"
+msgstr "Учасники інтерфейсу"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:122
 msgid "Interface type"
@@ -4198,72 +4167,52 @@ msgid "Make sure the key hash from the Tang server matches:"
 msgstr "Переконайтеся, що хеш ключа з сервера Tang є таким:"
 
 #: pkg/networkmanager/network-main.jsx:176
-#, fuzzy
-#| msgid "Unmanaged Interfaces"
 msgid "Managed interfaces"
-msgstr "Некеровані інтерфейси"
+msgstr "Керовані інтерфейси"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing LVMs"
-msgstr "Керування службами"
+msgstr "Керування LVM"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing user accounts"
 msgid "Managing NFS mounts"
-msgstr "Керування обліковими записами користувачів"
+msgstr "Керування монтуванням NFS"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing RAIDs"
-msgstr "Керування службами"
+msgstr "Керування RAID"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing VDOs"
-msgstr "Керування службами"
+msgstr "Керування VDO"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing VLANs"
-msgstr "Керування службами"
+msgstr "Керування VLAN"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "Managing firewall"
 msgstr "Керування брандмауером"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking bonds"
-msgstr "Керування роботою у мережі"
+msgstr "Керування зв'язками у мережі"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking bridges"
-msgstr "Керування роботою у мережі"
+msgstr "Керування містками у мережі"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking teams"
-msgstr "Керування роботою у мережі"
+msgstr "Керування командами у мережі"
 
 #: pkg/storaged/manifest.json.in:0
 msgid "Managing partitions"
 msgstr "Керування розділами диска"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing physical drives"
-msgstr "Керування службами"
+msgstr "Керування фізичними дисками"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Managing services"
@@ -4498,7 +4447,7 @@ msgstr "Докладніше"
 
 #: pkg/packagekit/updates.jsx:851
 msgid "More info..."
-msgstr ""
+msgstr "Докладніше…"
 
 #: pkg/storaged/fsys-tab.jsx:289 pkg/storaged/content-views.jsx:377
 #: pkg/storaged/nfs-details.jsx:313 pkg/kdump/kdump-view.jsx:103
@@ -4720,12 +4669,10 @@ msgid "Network boot (PXE)"
 msgstr "Мережеве завантаження (PXE)"
 
 #: pkg/networkmanager/app.jsx:95
-#, fuzzy
-#| msgid "Network devices and graphs require NetworkManager."
 msgid "Network devices and graphs require NetworkManager"
 msgstr ""
 "Для отримання списку пристроїв мережі та графіків слід встановити "
-"NetworkManager."
+"NetworkManager"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:59
 msgid "Network file system"
@@ -4749,16 +4696,12 @@ msgid "Network usage"
 msgstr "Використання мережі"
 
 #: pkg/networkmanager/app.jsx:87
-#, fuzzy
-#| msgid "NetworkManager is not running."
 msgid "NetworkManager is not installed"
-msgstr "NetworkManager не запущено."
+msgstr "NetworkManager не встановлено"
 
 #: pkg/networkmanager/app.jsx:71
-#, fuzzy
-#| msgid "NetworkManager is not running."
 msgid "NetworkManager is not running"
-msgstr "NetworkManager не запущено."
+msgstr "NetworkManager не запущено"
 
 #: pkg/networkmanager/index.html:23
 #: pkg/networkmanager/network-interface.jsx:751
@@ -4859,10 +4802,8 @@ msgid "No configuration found"
 msgstr "Не знайдено налаштувань"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:45
-#, fuzzy
-#| msgid "No description available"
 msgid "No connection available"
-msgstr "Немає опису"
+msgstr "Немає доступних з'єднань"
 
 #: pkg/metrics/metrics.jsx:966
 msgid "No data available"
@@ -5008,10 +4949,8 @@ msgid "No rule hits"
 msgstr "Немає збігів з правилами"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:244
-#, fuzzy
-#| msgid "No disks defined for this VM"
 msgid "No snapshots defined for this VM"
-msgstr "Для цієї ВМ не визначено дисків"
+msgstr "Для цієї ВМ не визначено знімків"
 
 #: pkg/machines/helpers.js:220
 msgid "No state"
@@ -5471,10 +5410,8 @@ msgid "Path to file"
 msgstr "Шлях до файла"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:250
-#, fuzzy
-#| msgid "Path to ISO file on host's file system"
 msgid "Path to file on host's file system"
-msgstr "Шлях до ISO у файловій системі основної системи"
+msgstr "Шлях до файла у файловій системі основної системи"
 
 #: pkg/systemd/services/service-tabs.jsx:42
 msgid "Paths"
@@ -5604,7 +5541,7 @@ msgstr "Будь ласка, встановіть пакунок $0"
 
 #: pkg/packagekit/updates.jsx:1344
 msgid "Please reload the page after resolving the issue."
-msgstr ""
+msgstr "Будь ласка, перезавантажте сторінку після усування проблеми."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:195
 msgid "Please set a root password"
@@ -5649,7 +5586,7 @@ msgstr "Буфер для тонких резервованих томів"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:157
 msgid "Pool needs to be active to create volume"
-msgstr ""
+msgstr "Для створення тому буфер має бути активним"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:157
 msgid "Pool type doesn't support volume creation"
@@ -5961,15 +5898,13 @@ msgid "Reboot"
 msgstr "Перезавантажити"
 
 #: pkg/packagekit/updates.jsx:1361
-#, fuzzy
-#| msgid "recommended"
 msgid "Reboot recommended"
-msgstr "найліпший"
+msgstr "Рекомендовано перезавантажити"
 
 #: pkg/packagekit/updates.jsx:617 pkg/packagekit/updates.jsx:690
 #: pkg/packagekit/updates.jsx:753
 msgid "Reboot system..."
-msgstr ""
+msgstr "Перезавантажити систему/"
 
 #: pkg/networkmanager/network-interface-members.jsx:218
 #: pkg/networkmanager/network-main.jsx:182
@@ -6023,7 +5958,7 @@ msgstr "Поширене перезавантаження з"
 
 #: pkg/packagekit/updates.jsx:431
 msgid "Reloading the state of remaining services"
-msgstr ""
+msgstr "Перезавантажуємо стан решти служб"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:273
 msgid "Remote URL"
@@ -6265,16 +6200,12 @@ msgid "Restart"
 msgstr "Перезапустити"
 
 #: pkg/packagekit/updates.jsx:445 pkg/packagekit/updates.jsx:460
-#, fuzzy
-#| msgid "Start Service"
 msgid "Restart services"
-msgstr "Запустити службу"
+msgstr "Перезапустити служби"
 
 #: pkg/packagekit/updates.jsx:691 pkg/packagekit/updates.jsx:765
-#, fuzzy
-#| msgid "Start Service"
 msgid "Restart services..."
-msgstr "Запустити службу"
+msgstr "Перезапустити служби…"
 
 #: pkg/packagekit/updates.jsx:1408
 msgid "Restarting"
@@ -6392,22 +6323,16 @@ msgid "SMART self-test of $target"
 msgstr "Самоперевірка SMART $target"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:52
-#, fuzzy
-#| msgid "SPICE TLS Port:"
 msgid "SPICE TLS port"
-msgstr "Порт TLS SPICE:"
+msgstr "Порт TLS SPICE"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:48
-#, fuzzy
-#| msgid "SPICE Address:"
 msgid "SPICE address"
-msgstr "Адреса SPICE:"
+msgstr "Адреса SPICE"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:50
-#, fuzzy
-#| msgid "SPICE Port:"
 msgid "SPICE port"
-msgstr "Порт SPICE:"
+msgstr "Порт SPICE"
 
 #: pkg/shell/machines/machine-change-auth.html:46
 msgid "SSH key"
@@ -6529,10 +6454,8 @@ msgid "Select console type"
 msgstr "Вибір типу консолі"
 
 #: pkg/systemd/services/services.jsx:735
-#, fuzzy
-#| msgid "select container"
 msgid "Select unit state"
-msgstr "вибрати контейнер"
+msgstr "Виберіть стан модуля"
 
 #: pkg/systemd/reporting.jsx:245
 msgid "Send"
@@ -6888,7 +6811,7 @@ msgstr ""
 #: pkg/packagekit/updates.jsx:669 pkg/packagekit/updates.jsx:773
 #: pkg/packagekit/updates.jsx:1372
 msgid "Some software needs to be restarted manually"
-msgstr ""
+msgstr "Частину програмного забезпечення доведеться перезавантажити вручну"
 
 #: pkg/shell/superuser.jsx:297
 msgid "Something went wrong"
@@ -7181,10 +7104,8 @@ msgid "Swap space"
 msgstr "Резервна пам’ять"
 
 #: pkg/networkmanager/network-interface-members.jsx:70
-#, fuzzy
-#| msgid "Switch off $0"
 msgid "Switch of $0"
-msgstr "Вимкнути $0"
+msgstr "Перемикання $0"
 
 #: pkg/networkmanager/network-interface-members.jsx:96
 #: pkg/networkmanager/network-interface.jsx:167
@@ -7522,9 +7443,9 @@ msgstr "Файлову систему не змонтовано."
 #: pkg/packagekit/updates.jsx:435
 msgid "The following service will be restarted:"
 msgid_plural "The following services will be restarted:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Буде перезавантажено такі служби:"
+msgstr[1] "Буде перезавантажено такі служби:"
+msgstr[2] "Буде перезавантажено такі служби:"
 
 #: pkg/sosreport/index.html:59
 msgid ""
@@ -7567,8 +7488,6 @@ msgstr ""
 "системи"
 
 #: pkg/shell/indexes.js:484
-#, fuzzy
-#| msgid "The machine is restarting"
 msgid "The machine is rebooting"
 msgstr "Комп’ютер перезавантажується"
 
@@ -7962,7 +7881,7 @@ msgstr "Сьогодні"
 
 #: pkg/storaged/mdraid-details.jsx:205
 msgid "Toggle bitmap"
-msgstr ""
+msgstr "Перемкнути бітову карту"
 
 #: pkg/shell/index.html:63
 msgid "Toggle session settings"
@@ -8012,10 +7931,8 @@ msgid "Troubleshoot"
 msgstr "Діагностика проблем"
 
 #: pkg/networkmanager/app.jsx:78
-#, fuzzy
-#| msgid "Troubleshoot"
 msgid "Troubleshoot…"
-msgstr "Діагностика проблем"
+msgstr "Діагностика проблем…"
 
 #: pkg/storaged/crypto-keyslots.jsx:342
 msgid "Trust key"
@@ -8352,10 +8269,8 @@ msgid "Update"
 msgstr "Оновити"
 
 #: pkg/packagekit/updates.jsx:684
-#, fuzzy
-#| msgid "Updates Available"
 msgid "Update Success Table"
-msgstr "Доступні оновлення"
+msgstr "Таблиця успіху оновлення"
 
 #: pkg/packagekit/updates.jsx:866
 msgid "Update history"
@@ -8371,15 +8286,13 @@ msgstr "Оновити дані щодо пакунків"
 
 #: pkg/packagekit/updates.jsx:611 pkg/packagekit/updates.jsx:679
 msgid "Update was successful"
-msgstr ""
+msgstr "Успішне оновлення"
 
 #: pkg/packagekit/updates.jsx:92
 msgid "Updated"
 msgstr "Оновлено"
 
 #: pkg/packagekit/updates.jsx:614
-#, fuzzy
-#| msgid "Updated packages may require a restart to take effect."
 msgid "Updated packages may require a reboot to take effect."
 msgstr "Використання оновлених пакунків може потребувати перезапуску."
 
@@ -8424,26 +8337,20 @@ msgid "Use 512 byte emulation"
 msgstr "Емуляція 512 байтів"
 
 #: pkg/storaged/vdo-details.jsx:320
-#, fuzzy
-#| msgid "Compression"
 msgid "Use compression"
-msgstr "Стискання"
+msgstr "Скористатися стисканням"
 
 #: pkg/storaged/vdo-details.jsx:329
-#, fuzzy
-#| msgid "Deduplication"
 msgid "Use deduplication"
-msgstr "Скасування дублювання"
+msgstr "Скористатися скасуванням дублювання"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:571
 msgid "Use existing"
 msgstr "Використати наявний"
 
 #: pkg/shell/credentials.js:76
-#, fuzzy
-#| msgid "ssh key"
 msgid "Use key"
-msgstr "ключ ssh"
+msgstr "Використати ключ"
 
 #: pkg/shell/index.html:122
 msgid "Use the following keys to authenticate against other systems"
@@ -8483,16 +8390,12 @@ msgid "Username"
 msgstr "Користувач"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "encryption"
 msgid "Using LUKS encryption"
-msgstr "шифрування"
+msgstr "З використанням шифрування LUKS"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Edit Tang keyserver"
 msgid "Using Tang server"
-msgstr "Редагувати сервер ключів Tang"
+msgstr "З використанням сервера Tang"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:160
 msgid "VCPU settings could not be saved"
@@ -8539,7 +8442,7 @@ msgstr "ВМ із назвою $0 вже існує"
 
 #: pkg/machines/app.jsx:146
 msgid "VM $0 does not exist on $1 connection"
-msgstr ""
+msgstr "На з'єднання $1 не існує ВМ $0"
 
 #: pkg/machines/components/vm/vmActions.jsx:110
 msgid "VM $0 failed to force reboot"
@@ -8587,26 +8490,20 @@ msgid "VM state"
 msgstr "Стан ВМ"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:53
-#, fuzzy
-#| msgid "VNC TLS Port:"
 msgid "VNC TLS port"
-msgstr "Порт TLS VNC:"
+msgstr "Порт TLS VNC"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:49
-#, fuzzy
-#| msgid "VNC Address:"
 msgid "VNC address"
-msgstr "Адреса VNC:"
+msgstr "Адреса VNC"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:99
 msgid "VNC console"
 msgstr "Консоль VNC"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:51
-#, fuzzy
-#| msgid "VNC Port:"
 msgid "VNC port"
-msgstr "Порт VNC:"
+msgstr "Порт VNC"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:166
 msgid "Validating address"
@@ -8782,10 +8679,8 @@ msgid "Web Console for Linux servers"
 msgstr "Вебконсоль для серверів під керуванням Linux"
 
 #: pkg/packagekit/updates.jsx:451 pkg/packagekit/updates.jsx:845
-#, fuzzy
-#| msgid "Web Console for Linux servers"
 msgid "Web Console will restart"
-msgstr "Вебконсоль для серверів під керуванням Linux"
+msgstr "Вебконсоль буде перезапущено"
 
 #: pkg/systemd/superuser-alert.jsx:60
 msgid "Web console is running in limited access mode."
@@ -8821,6 +8716,9 @@ msgid ""
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
 msgstr ""
+"Після перезапуску вебконсолі ви вже не побачите відомостей щодо поступу. "
+"Втім, процес оновлення продовжуватиметься у фоновому режимі. Встановіть "
+"з'єднання повторно щодо продовжити спостереження за процедурою оновлення."
 
 #: pkg/systemd/terminal.jsx:110
 msgid "White"
