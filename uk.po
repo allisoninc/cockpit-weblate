@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
-"PO-Revision-Date: 2020-09-12 18:29+0000\n"
+"PO-Revision-Date: 2021-02-23 10:18+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit/rhel8/uk/>\n"
@@ -20,73 +20,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: pkg/metrics/metrics.jsx:379
-#, fuzzy
-#| msgid "of $0 CPU"
-#| msgid_plural "of $0 CPUs"
 msgid "$0 CPU"
 msgid_plural "$0 CPUs"
-msgstr[0] "з $0 процесора"
-msgstr[1] "з $0 процесорів"
-msgstr[2] "з $0 процесорів"
+msgstr[0] "$0 процесор"
+msgstr[1] "$0 процесори"
+msgstr[2] "$0 процесорів"
 
 #: pkg/machines/components/vm/overview/cpuTypeModal.jsx:60
-#, fuzzy
-#| msgid "Configuration"
 msgid "$0 CPU configuration"
-msgstr "Налаштування"
+msgstr "Налаштування процесора $0"
 
 #: pkg/metrics/metrics.jsx:402 pkg/metrics/metrics.jsx:473
-#, fuzzy
-#| msgid "Not available"
 msgid "$0 GiB available"
-msgstr "Недоступний"
+msgstr "Доступно $0 ГіБ"
 
 #: pkg/metrics/metrics.jsx:394 pkg/metrics/metrics.jsx:464
 msgid "$0 GiB total"
-msgstr ""
+msgstr "Загалом $0 ГіБ"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:77
-#, fuzzy
-#| msgid "$0 Network"
 msgid "$0 Network"
 msgid_plural "$0 Networks"
-msgstr[0] "Мережа $0"
-msgstr[1] "Мережа $0"
-msgstr[2] "Мережа $0"
+msgstr[0] "$0 мережа"
+msgstr[1] "$0 мережі"
+msgstr[2] "$0 мереж"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:52
-#, fuzzy
-#| msgid "Storage pool"
 msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
-msgstr[0] "Буфер сховища"
-msgstr[1] "Буфер сховища"
-msgstr[2] "Буфер сховища"
+msgstr[0] "$0 буфер сховища"
+msgstr[1] "$0 буфери сховищ"
+msgstr[2] "$0 буферів сховищ"
 
 #: pkg/networkmanager/network-main.jsx:167
-#, fuzzy
-#| msgid "$0 Active Zone"
 msgid "$0 active zone"
 msgstr "Активна зона $0"
 
 #: pkg/networkmanager/network-main.jsx:167
-#, fuzzy
-#| msgid "$0 Active Zones"
 msgid "$0 active zones"
 msgstr "Активні зони $0"
 
 #: pkg/storaged/others-panel.jsx:57
-#, fuzzy
-#| msgid "$0 Block Device"
 msgid "$0 block device"
 msgstr "$0, блоковий пристрій"
 
 #: pkg/storaged/mdraid-details.jsx:192
-#, fuzzy
-#| msgid "$0 Chunk Size"
 msgid "$0 chunk size"
 msgstr "Розмір фрагмента $0"
 
@@ -125,8 +106,6 @@ msgstr[1] "Не вистачає $0 дисків"
 msgstr[2] "Не вистачає $0 дисків"
 
 #: pkg/storaged/mdraid-details.jsx:190
-#, fuzzy
-#| msgid "$0 Disks"
 msgid "$0 disks"
 msgstr "Диски $0"
 
@@ -147,9 +126,6 @@ msgid "$0 failed"
 msgstr "Помилка $0"
 
 #: pkg/storaged/content-views.jsx:394
-#, fuzzy
-#| msgctxt "storage-id-desc"
-#| msgid "$0 File System"
 msgctxt "storage-id-desc"
 msgid "$0 file system"
 msgstr "Файлова система $0"
@@ -167,10 +143,8 @@ msgid "$0 filesystems can not be resized here."
 msgstr "Тут не можна змінювати розмір файлових систем $0."
 
 #: pkg/metrics/metrics.jsx:515
-#, fuzzy
-#| msgid "$0, $1 free"
 msgid "$0 free"
-msgstr "$0, вільно $1"
+msgstr "Вільно $0"
 
 #: pkg/systemd/overview.jsx:98
 msgctxt "<date> from <host>"
@@ -219,7 +193,7 @@ msgstr "$0 немає у жодному зі сховищ."
 
 #: pkg/static/login.js:642
 msgid "$0 key changed"
-msgstr ""
+msgstr "Змінено ключ $0"
 
 #: pkg/base1/cockpit.js:2798
 msgid "$0 killed with signal $1"
@@ -234,7 +208,7 @@ msgstr[2] "$0 збігів із низькою важливістю"
 
 #: pkg/machines/components/vm/overview/memoryModal.jsx:134
 msgid "$0 memory adjustment"
-msgstr ""
+msgstr "Коригування пам'яті $0"
 
 #: pkg/lib/cockpit-components-plot.jsx:238
 msgid "$0 minute"
@@ -258,15 +232,10 @@ msgstr[1] "$0 місяці"
 msgstr[2] "$0 місяців"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:105
-#, fuzzy
-#| msgid "$0 Network"
 msgid "$0 network"
 msgstr "Мережа $0"
 
 #: pkg/selinux/setroubleshoot-view.jsx:430
-#, fuzzy
-#| msgid "$0 occurrence"
-#| msgid_plural "$1 occurrences"
 msgid "$0 occurrence"
 msgid_plural "$0 occurrences"
 msgstr[0] "$0 відповідник"
@@ -283,9 +252,6 @@ msgid "$0 on $1"
 msgstr "$0 на $1"
 
 #: pkg/packagekit/history.jsx:87
-#, fuzzy
-#| msgid "$0 Package"
-#| msgid_plural "$0 Packages"
 msgid "$0 package"
 msgid_plural "$0 packages"
 msgstr[0] "$0 пакунок"
@@ -302,9 +268,9 @@ msgstr[2] ""
 #: pkg/metrics/metrics.jsx:106
 msgid "$0 page"
 msgid_plural "$0 pages"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 сторінка"
+msgstr[1] "$0 сторінки"
+msgstr[2] "$0 сторінок"
 
 #: pkg/packagekit/updates.jsx:719
 #, fuzzy
@@ -334,19 +300,15 @@ msgstr[1] "Критична помилка $0 служб"
 msgstr[2] "Критична помилка $0 служб"
 
 #: pkg/storaged/crypto-keyslots.jsx:592
-#, fuzzy
-#| msgid "$0 slots remain"
 msgid "$0 slot remains"
 msgid_plural "$0 slots remain"
-msgstr[0] "Лишилося $0 слотів"
-msgstr[1] "Лишилося $0 слотів"
+msgstr[0] "Лишився $0 слот"
+msgstr[1] "Лишилося $0 слоти"
 msgstr[2] "Лишилося $0 слотів"
 
 #: pkg/metrics/metrics.jsx:523
-#, fuzzy
-#| msgid "Total"
 msgid "$0 total"
-msgstr "Загалом"
+msgstr "Загалом $0"
 
 #: pkg/packagekit/updates.jsx:727
 #, fuzzy
@@ -362,25 +324,19 @@ msgid "$0 used of $1 ($2 saved)"
 msgstr "$0 використано з $1 ($2 заощаджено)"
 
 #: pkg/machines/components/vm/vmUsageCard.jsx:49
-#, fuzzy
-#| msgid "vCPUs"
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
-msgstr[0] "Вірт. проц."
-msgstr[1] "Вірт. проц."
-msgstr[2] "Вірт. проц."
+msgstr[0] "$0 вірт. проц."
+msgstr[1] "$0 вірт. проц."
+msgstr[2] "$0 вірт. проц."
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:246
-#, fuzzy
-#| msgid "Problem details"
 msgid "$0 vCPU details"
-msgstr "Подробиці щодо проблеми"
+msgstr "Подробиці щодо віртуального процесора $0"
 
 #: pkg/machines/components/vm/nics/nicEdit.jsx:160
-#, fuzzy
-#| msgid "Add Virtual Network Interface"
 msgid "$0 virtual network interface settings"
-msgstr "Додати інтерфейс віртуальної мережі"
+msgstr "Параметри інтерфейсу віртуальної мережі $0"
 
 #: pkg/lib/cockpit-components-plot.jsx:229
 msgid "$0 week"
@@ -448,8 +404,6 @@ msgid "1 min"
 msgstr "1 хв."
 
 #: pkg/lib/cockpit-components-shutdown.jsx:168
-#, fuzzy
-#| msgid "1 Minute"
 msgid "1 minute"
 msgstr "1 хвилина"
 
@@ -482,10 +436,8 @@ msgid "14th"
 msgstr "14-е"
 
 #: pkg/metrics/metrics.jsx:285
-#, fuzzy
-#| msgid "5 min"
 msgid "15 min"
-msgstr "5 хв."
+msgstr "15 хв."
 
 #: pkg/systemd/services.html:95
 msgid "15th"
@@ -520,8 +472,6 @@ msgid "2 MiB"
 msgstr "2 МіБ"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:170
-#, fuzzy
-#| msgid "20 Minutes"
 msgid "20 minutes"
 msgstr "20 хвилин"
 
@@ -590,8 +540,6 @@ msgid "4 KiB"
 msgstr "4 КіБ"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:171
-#, fuzzy
-#| msgid "40 Minutes"
 msgid "40 minutes"
 msgstr "40 хвилин"
 
@@ -621,8 +569,6 @@ msgid "6 hours"
 msgstr "6 годин"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:172
-#, fuzzy
-#| msgid "60 Minutes"
 msgid "60 minutes"
 msgstr "60 хвилин"
 
@@ -689,6 +635,8 @@ msgid ""
 "A new SSH key at ${key} will be created for ${luser} on ${lhost} and it will "
 "be added to the ${afile} file of ${ruser} on ${rhost}."
 msgstr ""
+"Буде створено новий ключ SSH у ${key} для ${luser} на ${lhost} і його буде "
+"додано до файла ${afile} ${ruser} на ${rhost}."
 
 #: pkg/packagekit/updates.jsx:1364
 #, fuzzy
@@ -717,14 +665,10 @@ msgid "ARP"
 msgstr "ARP"
 
 #: pkg/networkmanager/network-interface.jsx:470
-#, fuzzy
-#| msgid "ARP Monitoring"
 msgid "ARP monitoring"
 msgstr "Стеження за ARP"
 
 #: pkg/networkmanager/interfaces.js:1497
-#, fuzzy
-#| msgid "ARP Ping"
 msgid "ARP ping"
 msgstr "Луна-імпульс ARP"
 
@@ -739,11 +683,11 @@ msgstr "Відсутній"
 #: pkg/shell/machines/machine-invalid-hostkey.html:27
 #: pkg/shell/machines/machine-unknown-hostkey.html:19
 msgid "Accept key and connect"
-msgstr ""
+msgstr "Прийняти ключ і з'єднатися"
 
 #: pkg/static/login.js:563
 msgid "Accept key and log in"
-msgstr ""
+msgstr "Прийняти ключ і увійти"
 
 #: pkg/machines/components/vm/disks/vmDisksCard.jsx:227
 #: pkg/machines/components/vm/disks/diskEdit.jsx:84
@@ -752,8 +696,6 @@ msgid "Access"
 msgstr "Доступ"
 
 #: pkg/users/expiration-dialogs.js:96
-#, fuzzy
-#| msgid "Account Expiration"
 msgid "Account expiration"
 msgstr "Строк дії облікового запису"
 
@@ -790,15 +732,11 @@ msgid "Active"
 msgstr "Активний"
 
 #: pkg/networkmanager/interfaces.js:1465 pkg/networkmanager/interfaces.js:1482
-#, fuzzy
-#| msgid "Active Backup"
 msgid "Active backup"
 msgstr "Активне резервування"
 
 #: pkg/shell/index.html:74 pkg/shell/active-pages.js:95
 #: pkg/shell/active-pages-dialog.jsx:68
-#, fuzzy
-#| msgid "Active Pages"
 msgid "Active pages"
 msgstr "Активні сторінки"
 
@@ -841,33 +779,23 @@ msgid "Add a new zone"
 msgstr "Додати нову зону"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:211
-#, fuzzy
-#| msgid "Add Bond"
 msgid "Add bond"
 msgstr "Додати зв’язок"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:219
-#, fuzzy
-#| msgid "Add Bridge"
 msgid "Add bridge"
 msgstr "Додати місток"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:617
 #: pkg/machines/components/vm/disks/vmDisksCard.jsx:90
-#, fuzzy
-#| msgid "Add Disk"
 msgid "Add disk"
 msgstr "Додати диск"
 
 #: pkg/storaged/vgroup-details.jsx:63 pkg/storaged/mdraid-details.jsx:59
-#, fuzzy
-#| msgid "Add Disks"
 msgid "Add disks"
 msgstr "Додати диски"
 
 #: pkg/storaged/iscsi-panel.jsx:42
-#, fuzzy
-#| msgid "Add iSCSI Portal"
 msgid "Add iSCSI portal"
 msgstr "Додати портал iSCSI"
 
@@ -883,8 +811,6 @@ msgid "Add member"
 msgstr "Елемент RAID"
 
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:88
-#, fuzzy
-#| msgid "Add Network Interface"
 msgid "Add network interface"
 msgstr "Додати інтерфейс мережі"
 
@@ -893,8 +819,6 @@ msgid "Add new host"
 msgstr "Додати новий вузол"
 
 #: pkg/networkmanager/firewall.jsx:507
-#, fuzzy
-#| msgid "Add Ports"
 msgid "Add ports"
 msgstr "Додати порти"
 
@@ -907,8 +831,6 @@ msgid "Add public key"
 msgstr "Додати відкритий ключ"
 
 #: pkg/networkmanager/firewall.jsx:168 pkg/networkmanager/firewall.jsx:507
-#, fuzzy
-#| msgid "Add Services"
 msgid "Add services"
 msgstr "Додавання служб"
 
@@ -921,14 +843,10 @@ msgid "Add services to zone $0"
 msgstr "Додати служби до зони $0"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:216
-#, fuzzy
-#| msgid "Add Team"
 msgid "Add team"
 msgstr "Додати команду"
 
 #: pkg/machines/components/vm/nics/nicAdd.jsx:164
-#, fuzzy
-#| msgid "Add Virtual Network Interface"
 msgid "Add virtual network interface"
 msgstr "Додати інтерфейс віртуальної мережі"
 
@@ -970,8 +888,6 @@ msgid "Additional DNS $val"
 msgstr "Додатковий DNS $val"
 
 #: pkg/networkmanager/network-interface.jsx:324
-#, fuzzy
-#| msgid "Additional DNS Search Domains $val"
 msgid "Additional DNS search domains $val"
 msgstr "Додаткові домени пошуку DNS $val"
 
@@ -1031,8 +947,6 @@ msgid "Administrative access"
 msgstr "Адміністративний доступ"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:339
-#, fuzzy
-#| msgid "Administrator Password"
 msgid "Administrator password"
 msgstr "Пароль адміністратора"
 
@@ -1041,10 +955,8 @@ msgid "Advanced TCA"
 msgstr "Розширене TCA"
 
 #: pkg/storaged/dialog.jsx:951
-#, fuzzy
-#| msgid "Current Allocation"
 msgid "Affected locations"
-msgstr "Поточне отримання"
+msgstr "Задіяні місця"
 
 #: pkg/systemd/services/service-details.jsx:395
 msgid "After"
@@ -1057,7 +969,7 @@ msgstr "ПІсля"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:201
 msgid "After deleting the snapshot, all its captured content will be lost."
-msgstr ""
+msgstr "Після вилучення знімка, усі захоплені у ньому дані буде втрачено."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:28
 msgid ""
@@ -1077,7 +989,7 @@ msgstr "Після завантаження системи"
 
 #: pkg/selinux/setroubleshoot-view.jsx:454
 msgid "Alert"
-msgstr ""
+msgstr "Попередження"
 
 #: pkg/systemd/logs.html:53
 msgid "Alert and above"
@@ -1094,22 +1006,18 @@ msgid "All logs"
 msgstr "Усі журнали"
 
 #: pkg/packagekit/autoupdates.jsx:367
-#, fuzzy
-#| msgid "Apply all updates"
 msgid "All updates"
-msgstr "Застосувати усі оновлення"
+msgstr "Усі оновлення"
 
 #: pkg/lib/machine-info.js:79
 msgid "All-in-one"
-msgstr ""
+msgstr "Усе в одному"
 
 #: pkg/systemd/services/service-details.jsx:118
 msgid "Allow running (unmask)"
 msgstr "Дозволити запуск (зняти маску)"
 
 #: pkg/networkmanager/firewall.jsx:756
-#, fuzzy
-#| msgid "Allowed Addresses"
 msgid "Allowed addresses"
 msgstr "Дозволені адреси"
 
@@ -1127,10 +1035,8 @@ msgid "Ansible roles documentation"
 msgstr "Документація з ролей Ansible"
 
 #: pkg/systemd/terminal.jsx:100 pkg/systemd/terminal.jsx:104
-#, fuzzy
-#| msgid "Appearance:"
 msgid "Appearance"
-msgstr "Вигляд:"
+msgstr "Вигляд"
 
 #: pkg/apps/index.html:23 pkg/apps/application.jsx:148
 #: pkg/apps/application-list.jsx:169 pkg/apps/manifest.json.in:0
@@ -1138,10 +1044,8 @@ msgid "Applications"
 msgstr "Програми"
 
 #: pkg/apps/application-list.jsx:177
-#, fuzzy
-#| msgid "Applications"
 msgid "Applications list"
-msgstr "Програми"
+msgstr "Список програм"
 
 #: pkg/networkmanager/index.html:293 pkg/networkmanager/index.html:328
 #: pkg/networkmanager/index.html:357 pkg/networkmanager/index.html:386
@@ -1186,13 +1090,11 @@ msgid "Asset tag"
 msgstr "Мітка активу"
 
 #: pkg/storaged/mdraids-panel.jsx:116
-#, fuzzy
-#| msgid "At least one disk is needed."
 msgid "At least $0 disk is needed."
 msgid_plural "At least $0 disks are needed."
-msgstr[0] "Потрібен принаймні один диск."
-msgstr[1] "Потрібен принаймні один диск."
-msgstr[2] "Потрібен принаймні один диск."
+msgstr[0] "Потрібен принаймні $0 диск."
+msgstr[1] "Потрібно принаймні $0 диски."
+msgstr[2] "Потрібно принаймні $0 дисків."
 
 #: pkg/storaged/vgroups-panel.jsx:84 pkg/storaged/vgroup-details.jsx:70
 #: pkg/storaged/mdraid-details.jsx:66
@@ -1204,11 +1106,9 @@ msgid "At specific time"
 msgstr "У вказаний момент часу"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:214
-#, fuzzy
-#| msgid " Attaching it will make this disk shareable for every VM using it."
 msgid "Attaching it will make this disk shareable for every VM using it."
 msgstr ""
-" Долучення диска надасть доступ до нього для усіх віртуальних машин, які ним "
+"Долучення диска надасть доступ до нього для усіх віртуальних машин, які ним "
 "користуватимуться."
 
 #: pkg/selinux/setroubleshoot-view.jsx:415
@@ -1233,8 +1133,6 @@ msgid "Authentication failed"
 msgstr "Не вдалось пройти розпізнавання"
 
 #: pkg/static/login.js:804
-#, fuzzy
-#| msgid "Authentication Failed: Server closed connection"
 msgid "Authentication failed: Server closed connection"
 msgstr "Не вдалося пройти розпізнавання: з’єднання розірвано сервером"
 
@@ -1251,14 +1149,10 @@ msgid "Authentication required"
 msgstr "Слід пройти розпізнавання"
 
 #: pkg/shell/machines/machine-dialogs.js:752
-#, fuzzy
-#| msgid "Authorized Public SSH Keys"
 msgid "Authorize SSH key."
-msgstr "Уповноважені відкриті ключі SSH"
+msgstr "Уповноважити ключ SSH."
 
 #: pkg/users/authorized-keys-panel.js:149
-#, fuzzy
-#| msgid "Authorized Public SSH Keys"
 msgid "Authorized public SSH keys"
 msgstr "Уповноважені відкриті ключі SSH"
 
@@ -1281,22 +1175,16 @@ msgstr "Автоматично (DHCP)"
 
 #: pkg/shell/machines/machine-change-auth.html:39
 #: pkg/shell/machines/machine-change-auth.html:57
-#, fuzzy
-#| msgid "Automatic"
 msgid "Automatic login"
-msgstr "Автоматично"
+msgstr "Автоматичний вхід"
 
 #: pkg/packagekit/autoupdates.jsx:416 pkg/packagekit/updates.jsx:825
-#, fuzzy
-#| msgid "Automatic Updates"
 msgid "Automatic updates"
 msgstr "Автоматичні оновлення"
 
 #: pkg/packagekit/autoupdates.jsx:272
-#, fuzzy
-#| msgid "Automatic Updates"
 msgid "Automatic updates are not set up"
-msgstr "Автоматичні оновлення"
+msgstr "Автоматичні оновлення не налаштовано"
 
 #: pkg/machines/components/libvirtSlate.jsx:94
 msgid "Automatically start libvirt on boot"
@@ -1316,8 +1204,6 @@ msgid "Automatically using specific NTP servers"
 msgstr "Автоматично за допомогою певних серверів NTP"
 
 #: pkg/lib/cockpit-components-modifications.jsx:88
-#, fuzzy
-#| msgid "Automation Script"
 msgid "Automation script"
 msgstr "Скрипт автоматизації"
 
@@ -1332,8 +1218,6 @@ msgid "Available targets on $0"
 msgstr "Доступні призначення на $0"
 
 #: pkg/packagekit/updates.jsx:367 pkg/packagekit/updates.jsx:837
-#, fuzzy
-#| msgid "Available Updates"
 msgid "Available updates"
 msgstr "Доступні оновлення"
 
@@ -1350,14 +1234,10 @@ msgid "BIOS version"
 msgstr "Версія BIOS"
 
 #: pkg/users/account-details.js:221
-#, fuzzy
-#| msgid "Back to Accounts"
 msgid "Back to accounts"
 msgstr "Назад до облікових записів"
 
 #: pkg/storaged/vdo-details.jsx:275
-#, fuzzy
-#| msgid "Backing Device"
 msgid "Backing device"
 msgstr "Резервний пристрій"
 
@@ -1370,8 +1250,6 @@ msgid "Before"
 msgstr "До"
 
 #: pkg/systemd/services/service-details.jsx:385
-#, fuzzy
-#| msgid "Binds To"
 msgid "Binds to"
 msgstr "Пов'язано з"
 
@@ -1411,15 +1289,11 @@ msgid "Bond"
 msgstr "Прив’язка"
 
 #: pkg/networkmanager/index.html:310
-#, fuzzy
-#| msgid "Bond Settings"
 msgid "Bond settings"
-msgstr "Параметри зв’язку"
+msgstr "Параметри прив'язки"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:235
 #: pkg/machines/components/vm/overview/bootOrder.jsx:279
-#, fuzzy
-#| msgid "Boot Order"
 msgid "Boot order"
 msgstr "Порядок завантаження"
 
@@ -1428,8 +1302,6 @@ msgid "Boot order settings could not be saved"
 msgstr "Не вдалося зберегти параметри порядку завантаження"
 
 #: pkg/systemd/services/service-details.jsx:390
-#, fuzzy
-#| msgid "Bound By"
 msgid "Bound by"
 msgstr "Пов'язано"
 
@@ -1444,14 +1316,10 @@ msgid "Bridge port"
 msgstr "Порт містка"
 
 #: pkg/networkmanager/index.html:431
-#, fuzzy
-#| msgid "Bridge Port Settings"
 msgid "Bridge port settings"
 msgstr "Параметри порту містка"
 
 #: pkg/networkmanager/index.html:402
-#, fuzzy
-#| msgid "Bridge Settings"
 msgid "Bridge settings"
 msgstr "Параметри містка"
 
@@ -1465,16 +1333,12 @@ msgid "Broken configuration"
 msgstr "Помилки у налаштуваннях"
 
 #: pkg/packagekit/updates.jsx:1283
-#, fuzzy
-#| msgid "Bug Fix Updates Available"
 msgid "Bug fix updates available"
 msgstr "Доступні оновлення із виправленнями вад"
 
 #: pkg/packagekit/updates.jsx:311
-#, fuzzy
-#| msgid "Bugs:"
 msgid "Bugs"
-msgstr "Вади:"
+msgstr "Вади"
 
 #: pkg/machines/components/vm/overview/bootOrder.jsx:100
 #: pkg/machines/components/vm/overview/bootOrder.jsx:112
@@ -1486,8 +1350,6 @@ msgid "Bus"
 msgstr "Канал"
 
 #: pkg/lib/machine-info.js:86
-#, fuzzy
-#| msgid "Bus Expansion Chassis"
 msgid "Bus expansion chassis"
 msgstr "Апаратний блок розширення каналу"
 
@@ -1497,6 +1359,9 @@ msgid ""
 "${luser} on ${lhost}, the key will be automatically made available and you "
 "can log in to ${rhost} without password in the future."
 msgstr ""
+"Після зміни пароля до ключа SSH ${key} на пароль для входу до системи "
+"${luser} на ${lhost} доступ до ключа буде автоматично відкрито і ви зможете "
+"надалі входити до ${rhost} без пароля."
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:263
 msgid "CD/DVD disc"
@@ -1509,44 +1374,32 @@ msgid "CPU"
 msgstr "Процесор"
 
 #: pkg/machines/components/vm/overview/cpuTypeModal.jsx:26
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "CPU configuration could not be saved"
-msgstr "Не вдалося зберегти параметри віртуальних процесорів"
+msgstr "Не вдалося зберегти параметри процесорів"
 
 #: pkg/systemd/hwinfo.jsx:118
-#, fuzzy
-#| msgid "CPU Security"
 msgid "CPU security"
 msgstr "Захист процесора"
 
 #: pkg/systemd/hwinfo.jsx:252
-#, fuzzy
-#| msgid "CPU Security Toggles"
 msgid "CPU security toggles"
 msgstr "Перемикачі захисту процесора"
 
 #: pkg/metrics/metrics.jsx:81
-#, fuzzy
-#| msgid "CPU Type"
 msgid "CPU spike"
-msgstr "Тип процесора"
+msgstr "Пік процесора"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:230
-#, fuzzy
-#| msgid "CPU Type"
 msgid "CPU type"
 msgstr "Тип процесора"
 
 #: pkg/metrics/metrics.jsx:80
-#, fuzzy
-#| msgid "CPU usage:"
 msgid "CPU usage"
-msgstr "Використання процесора:"
+msgstr "Використання процесора"
 
 #: pkg/packagekit/updates.jsx:299
 msgid "CVE"
-msgstr ""
+msgstr "CVE"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:149
 #: pkg/machines/components/vm/disks/vmDiskColumns.jsx:75
@@ -1556,6 +1409,7 @@ msgstr "Кеш"
 #: pkg/shell/machines/machine-add.html:26
 msgid "Can be a hostname, IP address, alias name, or ssh:// URI"
 msgstr ""
+"Це може бути назва вузла, IP-адреса, альтернативна назва або адреса ssh://"
 
 #: pkg/systemd/logs.js:140 pkg/systemd/logs.js:268
 msgid "Can not find any logs using the current combination of filters."
@@ -1614,10 +1468,8 @@ msgid "Cannot be enabled"
 msgstr "Не може бути увімкнено"
 
 #: pkg/shell/indexes.js:492
-#, fuzzy
-#| msgid "Cannot connect to an unknown machine"
 msgid "Cannot connect to an unknown host"
-msgstr "Неможливо встановити з’єднання із невідомим комп’ютером"
+msgstr "Не вдалося з'єднатися зі невідомим вузлом"
 
 #: pkg/base1/cockpit.js:4063
 msgid "Cannot forward login credentials"
@@ -1652,20 +1504,14 @@ msgid "Change"
 msgstr "Змінити"
 
 #: pkg/machines/components/vm/overview/firmware.jsx:58
-#, fuzzy
-#| msgid "Change Firmware"
 msgid "Change firmware"
 msgstr "Змінити мікропрограму"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:431
-#, fuzzy
-#| msgid "Change Host Name"
 msgid "Change host name"
 msgstr "Змінити назву вузла"
 
 #: pkg/storaged/iscsi-panel.jsx:183
-#, fuzzy
-#| msgid "Change iSCSI Initiator Name"
 msgid "Change iSCSI initiator name"
 msgstr "Змінити назву ініціатора iSCSI"
 
@@ -1674,34 +1520,24 @@ msgid "Change passphrase"
 msgstr "Змінити пароль"
 
 #: pkg/shell/index.html:276
-#, fuzzy
-#| msgid "Change Password"
 msgid "Change password"
 msgstr "Змінити пароль"
 
 #: pkg/tuned/dialog.js:187
-#, fuzzy
-#| msgid "Change Performance Profile"
 msgid "Change performance profile"
 msgstr "Зміна профілю швидкодії"
 
 #: pkg/tuned/dialog.js:197
-#, fuzzy
-#| msgid "Change Profile"
 msgid "Change profile"
 msgstr "Змінити профіль"
 
 #: pkg/lib/serverTime.js:678
-#, fuzzy
-#| msgid "Change System Time"
 msgid "Change system time"
 msgstr "Змінити системний час"
 
 #: pkg/shell/machines/machine-dialogs.js:742
-#, fuzzy
-#| msgid "Change Password"
 msgid "Change the password of ${key}."
-msgstr "Змінити пароль"
+msgstr "Змінити пароль до ${key}."
 
 #: pkg/networkmanager/interfaces.js:1725
 msgid "Change the settings"
@@ -1713,6 +1549,9 @@ msgid ""
 "However, an unexpected change may indicate a third-party attempt to "
 "intercept your connection."
 msgstr ""
+"Зміна ключів часто є результатом перевстановлення операційної системи. Втім, "
+"неочікувана зміна може вказувати на сторонню спробу перехопити дані вашого "
+"з'єднання."
 
 #: pkg/machines/components/common/warningInactive.jsx:12
 #: pkg/machines/components/vm/nics/nicEdit.jsx:154
@@ -1730,8 +1569,6 @@ msgstr ""
 "адміністративний інтерфейс користувача недоступним."
 
 #: pkg/packagekit/updates.jsx:813
-#, fuzzy
-#| msgid "Check for Updates"
 msgid "Check for updates"
 msgstr "Перевірити наявність оновлень"
 
@@ -1744,14 +1581,10 @@ msgid "Checking IP"
 msgstr "Перевіряємо IP"
 
 #: pkg/storaged/jobs-panel.jsx:66
-#, fuzzy
-#| msgid "Checking RAID Device $target"
 msgid "Checking RAID device $target"
 msgstr "Перевіряємо пристрій RAID $target"
 
 #: pkg/storaged/jobs-panel.jsx:67
-#, fuzzy
-#| msgid "Checking and Repairing RAID Device $target"
 msgid "Checking and repairing RAID device $target"
 msgstr "Перевіряємо і відновлюємо пристрій RAID $target"
 
@@ -1779,8 +1612,6 @@ msgid "Choose an operating system"
 msgstr "Виберіть операційну систему"
 
 #: pkg/storaged/mdraids-panel.jsx:92
-#, fuzzy
-#| msgid "Chunk Size"
 msgid "Chunk size"
 msgstr "Розмір фрагмента"
 
@@ -1805,14 +1636,12 @@ msgid "Clear mount point configuration"
 msgstr "Вилучити налаштування точки монтування"
 
 #: pkg/shell/nav.jsx:129
-#, fuzzy
-#| msgid "Clear Search"
 msgid "Clear search"
 msgstr "Очистити критерій пошуку"
 
 #: pkg/users/account-create-dialog.js:209 pkg/users/password-dialogs.js:213
 msgid "Click $0 again to use the password anyway."
-msgstr ""
+msgstr "Натисніть $0 ще раз, якщо слід використовувати саме цей пароль."
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:58
 #, fuzzy
@@ -1825,15 +1654,13 @@ msgstr ""
 "файл .vv і запущено $0."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:21
-#, fuzzy
-#| msgid "Client Software"
 msgid "Client software"
 msgstr "Клієнтське програмне забезпечення"
 
 #: pkg/machines/components/vm/vmCloneDialog.jsx:72
 #: pkg/machines/components/vm/vmActions.jsx:289
 msgid "Clone"
-msgstr ""
+msgstr "Клонувати"
 
 #: pkg/networkmanager/index.html:276 pkg/networkmanager/index.html:305
 #: pkg/networkmanager/index.html:340 pkg/networkmanager/index.html:369
@@ -1851,8 +1678,6 @@ msgid "Close"
 msgstr "Закрити"
 
 #: pkg/shell/active-pages.js:104
-#, fuzzy
-#| msgid "Close Selected Pages"
 msgid "Close selected pages"
 msgstr "Закрити позначені сторінки"
 
@@ -1870,7 +1695,7 @@ msgstr "Cockpit не вдалося встановити зв’язок із в
 
 #: pkg/shell/shell-modals.jsx:119
 msgid "Cockpit had an unexpected internal error."
-msgstr ""
+msgstr "У Cockpit сталася неочікувана внутрішня помилка."
 
 #: src/ws/cockpit.appdata.xml.in:10
 msgid ""
@@ -1997,20 +1822,14 @@ msgid "Confirm"
 msgstr "Підтвердити"
 
 #: pkg/shell/machines/machine-dialogs.js:736
-#, fuzzy
-#| msgid "Confirm New Password"
 msgid "Confirm key password"
-msgstr "Підтвердження нового пароля"
+msgstr "Підтвердження пароля до ключа"
 
 #: pkg/shell/machines/machine-dialogs.js:747
-#, fuzzy
-#| msgid "Confirm New Password"
 msgid "Confirm new key password"
-msgstr "Підтвердження нового пароля"
+msgstr "Підтвердження нового пароля до ключа"
 
 #: pkg/users/password-dialogs.js:151
-#, fuzzy
-#| msgid "Confirm New Password"
 msgid "Confirm new password"
 msgstr "Підтвердження нового пароля"
 
@@ -2027,8 +1846,6 @@ msgid "Confirm this action"
 msgstr "Підтвердьте цю дію"
 
 #: pkg/systemd/services/service-details.jsx:393
-#, fuzzy
-#| msgid "Conflicted By"
 msgid "Conflicted by"
 msgstr "Конфліктує за"
 
@@ -2049,10 +1866,9 @@ msgid "Connect to"
 msgstr "З’єднатися з"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:46
-#, fuzzy
-#| msgid "Connect with any $0 viewer application."
 msgid "Connect with any viewer application for following protocols"
-msgstr "З’єднатися із будь-якою програмою перегляду $0."
+msgstr ""
+"З’єднатися із будь-якою програмою перегляду для вказаних нижче протоколів"
 
 #: pkg/shell/machines/machine-add.html:46
 msgid ""
@@ -2070,8 +1886,6 @@ msgid "Connecting to the machine"
 msgstr "Встановлюємо з’єднання із комп’ютером"
 
 #: pkg/machines/components/libvirtSlate.jsx:79
-#, fuzzy
-#| msgid "Connecting to Virtualization Service"
 msgid "Connecting to virtualization service"
 msgstr "Встановлюємо зв'язок із службою віртуалізації"
 
@@ -2084,8 +1898,6 @@ msgid "Connection"
 msgstr "З’єднання"
 
 #: pkg/shell/hosts.jsx:178
-#, fuzzy
-#| msgid "Connection Error"
 msgid "Connection error"
 msgstr "Помилка з'єднання"
 
@@ -2102,25 +1914,19 @@ msgid "Connection will be lost"
 msgstr "З’єднання буде розірвано"
 
 #: pkg/systemd/services/service-details.jsx:391
-#, fuzzy
-#| msgid "Consists Of"
 msgid "Consists of"
 msgstr "Складається з"
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:89
 #: pkg/machines/components/vm/vmDetailsPage.jsx:117
-#, fuzzy
-#| msgid "Consoles"
 msgid "Console"
-msgstr "Консолі"
+msgstr "Консоль"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:279
 msgid "Contacted domain"
 msgstr "Пов'язаний домен"
 
 #: pkg/users/account-roles.js:64
-#, fuzzy
-#| msgid "Container Administrator"
 msgid "Container administrator"
 msgstr "Адміністратор контейнера"
 
@@ -2140,8 +1946,6 @@ msgid "Continue"
 msgstr "Контейнер"
 
 #: pkg/shell/shell-modals.jsx:106
-#, fuzzy
-#| msgid "Continue Session"
 msgid "Continue session"
 msgstr "Продовжити сеанс"
 
@@ -2181,18 +1985,14 @@ msgid "Could not contact {{host}}"
 msgstr "Не вдалося встановити зв’язок із {{host}}"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:50
-#, fuzzy
-#| msgid "Could not reset the storage pool"
 msgid "Could not revert to snapshot"
-msgstr "Не вдалося скинути резервне сховище даних"
+msgstr "Не вдалося скинути систему до знімка"
 
 #: pkg/kdump/kdump-view.jsx:341 pkg/kdump/kdump-view.jsx:523
 msgid "Crash dump location"
 msgstr "Розташування дампу аварійного завершення"
 
 #: pkg/systemd/reporting.jsx:474
-#, fuzzy
-#| msgid "Crash Reporting"
 msgid "Crash reporting"
 msgstr "Звітування щодо аварій"
 
@@ -2201,10 +2001,8 @@ msgid "Crash system"
 msgstr "Аварійно завершити роботу системи"
 
 #: pkg/machines/helpers.js:216
-#, fuzzy
-#| msgid "crashed"
 msgid "Crashed"
-msgstr "аварійне завершення"
+msgstr "Аварійне завершення"
 
 #: pkg/storaged/content-views.jsx:132 pkg/storaged/content-views.jsx:278
 #: pkg/storaged/content-views.jsx:785 pkg/storaged/vgroups-panel.jsx:90
@@ -2221,14 +2019,10 @@ msgid "Create"
 msgstr "Створити"
 
 #: pkg/storaged/mdraids-panel.jsx:59 pkg/storaged/things-panel.jsx:67
-#, fuzzy
-#| msgid "Create RAID Device"
 msgid "Create RAID device"
 msgstr "Створити пристрій RAID"
 
 #: pkg/storaged/vdos-panel.jsx:80 pkg/storaged/things-panel.jsx:69
-#, fuzzy
-#| msgid "Create VDO Device"
 msgid "Create VDO device"
 msgstr "Створити пристрій VDO"
 
@@ -2237,26 +2031,20 @@ msgid "Create VM"
 msgstr "Створення ВМ"
 
 #: pkg/machines/components/vm/vmCloneDialog.jsx:63
-#, fuzzy
-#| msgid "Create Partition on $0"
 msgid "Create a clone VM based on $0"
-msgstr "Створити розділ на $0"
+msgstr "Створити клон ВМ на основі $0"
 
 #: pkg/shell/machines/machine-dialogs.js:731
 msgid "Create a new SSH key and authorize it."
-msgstr ""
+msgstr "Створити ключ SSH і уповноважити його."
 
 #: pkg/storaged/things-panel.jsx:66
-#, fuzzy
-#| msgid "Create Devices"
 msgid "Create devices"
 msgstr "Створити пристрої"
 
 #: pkg/sosreport/index.html:52
-#, fuzzy
-#| msgid "Create diagnostic report"
 msgid "Create diagnostic report                    "
-msgstr "Створити діагностичний звіт"
+msgstr "Створити діагностичний звіт                    "
 
 #: pkg/networkmanager/interfaces.js:2404 pkg/networkmanager/interfaces.js:2608
 #: pkg/networkmanager/interfaces.js:2865 pkg/networkmanager/interfaces.js:3073
@@ -2264,26 +2052,18 @@ msgid "Create it"
 msgstr "Створити"
 
 #: pkg/storaged/content-views.jsx:729
-#, fuzzy
-#| msgid "Create Logical Volume"
 msgid "Create logical volume"
 msgstr "Створити логічний том"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:566
-#, fuzzy
-#| msgid "Create New"
 msgid "Create new"
 msgstr "Створити"
 
 #: pkg/users/account-create-dialog.js:246 pkg/users/accounts-list.js:76
-#, fuzzy
-#| msgid "Create New Account"
 msgid "Create new account"
 msgstr "Створити новий рахунок"
 
 #: pkg/storaged/content-views.jsx:803
-#, fuzzy
-#| msgid "Create new Logical Volume"
 msgid "Create new logical volume"
 msgstr "Створити логічний том"
 
@@ -2292,115 +2072,79 @@ msgid "Create new task file with this content."
 msgstr "Створити файл завдання із цим вмістом."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:916
-#, fuzzy
-#| msgid "Create New Virtual Machine"
 msgid "Create new virtual machine"
 msgstr "Створити віртуальну машину"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:515
-#, fuzzy
-#| msgid "Create New Volume"
 msgid "Create new volume"
 msgstr "Створити том"
 
 #: pkg/storaged/format-dialog.jsx:260 pkg/storaged/content-views.jsx:506
-#, fuzzy
-#| msgid "Create Partition"
 msgid "Create partition"
 msgstr "Створити розділ"
 
 #: pkg/storaged/format-dialog.jsx:133
-#, fuzzy
-#| msgid "Create Partition on $0"
 msgid "Create partition on $0"
 msgstr "Створити розділ на $0"
 
 #: pkg/storaged/content-views.jsx:633
-#, fuzzy
-#| msgid "Create Partition Table"
 msgid "Create partition table"
 msgstr "Створити таблицю розділів"
 
 #: pkg/sosreport/index.html:41
-#, fuzzy
-#| msgid "Create Report"
 msgid "Create report"
 msgstr "Створити звіт"
 
 #: pkg/storaged/content-views.jsx:272 pkg/storaged/content-views.jsx:293
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCreateModal.jsx:128
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:78
-#, fuzzy
-#| msgid "Create Snapshot"
 msgid "Create snapshot"
 msgstr "Створення знімка"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:429
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:473
-#, fuzzy
-#| msgid "Create Storage Pool"
 msgid "Create storage pool"
 msgstr "Створити резервне сховище"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:97
-#, fuzzy
-#| msgid "Create Storage Volume"
 msgid "Create storage volume"
 msgstr "Створити том сховища даних"
 
 #: pkg/storaged/content-views.jsx:116 pkg/storaged/content-views.jsx:143
-#, fuzzy
-#| msgid "Create Thin Volume"
 msgid "Create thin volume"
 msgstr "Створити тонкий том"
 
 #: pkg/systemd/services/services.jsx:750
-#, fuzzy
-#| msgid "Create Timer"
 msgid "Create timer"
 msgstr "Створити таймер"
 
 #: pkg/systemd/services.html:151
-#, fuzzy
-#| msgid "Create Timers"
 msgid "Create timers"
 msgstr "Створити таймери"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:395
 #: pkg/machines/components/networks/createNetworkDialog.jsx:441
-#, fuzzy
-#| msgid "Create Virtual Network"
 msgid "Create virtual network"
 msgstr "Створити віртуальну мережу"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:151
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:162
-#, fuzzy
-#| msgid "Create Volume"
 msgid "Create volume"
 msgstr "Створити том"
 
 #: pkg/storaged/vgroups-panel.jsx:72 pkg/storaged/things-panel.jsx:68
-#, fuzzy
-#| msgid "Create Volume Group"
 msgid "Create volume group"
 msgstr "Створити групу томів"
 
 #: pkg/storaged/jobs-panel.jsx:65
-#, fuzzy
-#| msgid "Creating RAID Device $target"
 msgid "Creating RAID device $target"
 msgstr "Створюємо пристрій RAID $target"
 
 #: pkg/machines/components/vms/hostvmslist.jsx:49
-#, fuzzy
-#| msgid "creating VM"
 msgid "Creating VM"
 msgstr "створення ВМ"
 
 #: pkg/machines/components/vms/hostvmslist.jsx:47
-#, fuzzy
-#| msgid "creating VM installation"
 msgid "Creating VM installation"
 msgstr "створення встановленої ВМ"
 
@@ -2461,10 +2205,8 @@ msgid "Creation of VM $0 failed"
 msgstr "Не вдалося створити ВМ $0"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:103
-#, fuzzy
-#| msgid "Create Timer"
 msgid "Creation time"
-msgstr "Створити таймер"
+msgstr "Час створення"
 
 #: pkg/systemd/logs.html:54
 msgid "Critical and above"
@@ -2480,17 +2222,13 @@ msgstr "Ctrl+Insert"
 
 #: pkg/shell/shell-modals.jsx:123
 msgid "Ctrl-Shift-J"
-msgstr ""
+msgstr "Ctrl-Shift-J"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:109
-#, fuzzy
-#| msgid "Current boot"
 msgid "Current"
-msgstr "Поточне завантаження"
+msgstr "Поточний"
 
 #: pkg/machines/components/vm/overview/memoryModal.jsx:108
-#, fuzzy
-#| msgid "Current Allocation"
 msgid "Current allocation"
 msgstr "Поточне отримання"
 
@@ -2519,8 +2257,6 @@ msgid "Custom path"
 msgstr "Нетипові порти"
 
 #: pkg/networkmanager/firewall.jsx:545
-#, fuzzy
-#| msgid "Custom Ports"
 msgid "Custom ports"
 msgstr "Нетипові порти"
 
@@ -2530,8 +2266,6 @@ msgstr "Нетипові зони"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:130
 #: pkg/machines/components/networks/networkOverviewTab.jsx:155
-#, fuzzy
-#| msgid "DHCP Range"
 msgid "DHCP range"
 msgstr "Діапазон DHCP"
 
@@ -2548,14 +2282,10 @@ msgid "DNS $val"
 msgstr "DNS $val"
 
 #: pkg/networkmanager/interfaces.js:1895
-#, fuzzy
-#| msgid "DNS Search Domains"
 msgid "DNS search domains"
 msgstr "Домени пошуку DNS"
 
 #: pkg/networkmanager/network-interface.jsx:324
-#, fuzzy
-#| msgid "DNS Search Domains $val"
 msgid "DNS search domains $val"
 msgstr "Домени пошуку DNS $val"
 
@@ -2568,8 +2298,6 @@ msgid "Dark"
 msgstr "Темний"
 
 #: pkg/storaged/lvol-tabs.jsx:462
-#, fuzzy
-#| msgid "Data Used"
 msgid "Data used"
 msgstr "Використано даних"
 
@@ -2637,26 +2365,18 @@ msgid "Delete associated storage files:"
 msgstr "Вилучити пов’язані файли у сховищі даних:"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:162
-#, fuzzy
-#| msgid "Delete Content"
 msgid "Delete content"
 msgstr "Вилучити дані"
 
 #: pkg/users/delete-account-dialog.js:33
-#, fuzzy
-#| msgid "Delete Files"
 msgid "Delete files"
 msgstr "Вилучити файли"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:214
-#, fuzzy
-#| msgid "Delete Storage Pool $0"
 msgid "Delete storage pool $0"
 msgstr "Вилучити буфер зберігання даних $0"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:165
-#, fuzzy
-#| msgid "Delete the Volumes inside this Pool"
 msgid "Delete the volumes inside this pool"
 msgstr "Вилучити томи у цьому буфері"
 
@@ -2698,10 +2418,6 @@ msgstr ""
 "зберігаються."
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:168
-#, fuzzy
-#| msgid ""
-#| "Deleting an inactive Storage Pool will only undefine the Pool. Its "
-#| "content will not be deleted."
 msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
@@ -2725,10 +2441,8 @@ msgid "Desktop"
 msgstr "Робоча станція"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:100
-#, fuzzy
-#| msgid "Desktop"
 msgid "Desktop viewer"
-msgstr "Робоча станція"
+msgstr "Стільничний переглядач"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:152
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:179
@@ -2767,14 +2481,10 @@ msgid "Device"
 msgstr "Пристрій"
 
 #: pkg/storaged/vdo-details.jsx:270
-#, fuzzy
-#| msgid "Device File"
 msgid "Device file"
 msgstr "Файл пристрою"
 
 #: pkg/storaged/block-details.jsx:52 pkg/storaged/drive-details.jsx:86
-#, fuzzy
-#| msgid "Device File"
 msgctxt "storage"
 msgid "Device file"
 msgstr "Файл пристрою"
@@ -2835,8 +2545,6 @@ msgid "Disconnected"
 msgstr "Роз'єднано"
 
 #: pkg/machines/components/vm/consoles/serialConsole.jsx:76
-#, fuzzy
-#| msgid "Disconnected from serial console. Click the Connect button."
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "Від'єднано від послідовної консолі. Натисніть кнопку «З'єднатися»."
 
@@ -2853,10 +2561,8 @@ msgid "Disk I/O"
 msgstr "Дисковий ввід/вивід"
 
 #: pkg/metrics/metrics.jsx:110
-#, fuzzy
-#| msgid "Disk I/O"
 msgid "Disk I/O spike"
-msgstr "Дисковий ввід/вивід"
+msgstr "Пік дискового введення-виведення"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:526
 msgid "Disk failed to be attached"
@@ -2886,7 +2592,7 @@ msgstr "Не вдалося зберегти параметри диска"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:148
 msgid "Disk-only snapshot"
-msgstr ""
+msgstr "Знімок лише на диску"
 
 #: pkg/storaged/vgroups-panel.jsx:79 pkg/storaged/mdraids-panel.jsx:110
 #: pkg/storaged/vgroup-details.jsx:65 pkg/storaged/mdraid-details.jsx:61
@@ -2901,8 +2607,6 @@ msgid "Dismiss"
 msgstr "Відкинути"
 
 #: pkg/shell/index.html:70 pkg/shell/shell-modals.jsx:84
-#, fuzzy
-#| msgid "Display Language"
 msgid "Display language"
 msgstr "Мова перекладу"
 
@@ -2911,8 +2615,6 @@ msgid "Do not mount automatically on boot"
 msgstr "Не монтувати автоматично під час завантаження"
 
 #: pkg/lib/machine-info.js:78
-#, fuzzy
-#| msgid "Docking Station"
 msgid "Docking station"
 msgstr "Станція заряджання"
 
@@ -2935,30 +2637,24 @@ msgid "Domain $0 is not supported"
 msgstr "Підтримки домену $0 не передбачено"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:34
-#, fuzzy
-#| msgid "Domain Address"
 msgid "Domain address"
 msgstr "Адреса домену"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:63
-#, fuzzy
-#| msgid "Domain Administrator Name"
 msgid "Domain administrator name"
 msgstr "Ім’я адміністратора домену"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:66
-#, fuzzy
-#| msgid "Domain Administrator Password"
 msgid "Domain administrator password"
 msgstr "Пароль адміністратора домену"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:150
 msgid "Domain has crashed"
-msgstr ""
+msgstr "Домен завершив роботу аварійно"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:149
 msgid "Domain is blocked on resource"
-msgstr ""
+msgstr "Домен заблоковано на ресурсі"
 
 #: pkg/storaged/format-dialog.jsx:196 pkg/storaged/content-views.jsx:593
 msgid "Don't overwrite existing data"
@@ -2966,8 +2662,6 @@ msgstr "Не перезаписувати наявні дані"
 
 #: pkg/systemd/services.html:241 pkg/systemd/services.html:245
 #: pkg/systemd/services/timer-dialog.js:305
-#, fuzzy
-#| msgid "Don't Repeat"
 msgid "Don't repeat"
 msgstr "Не повторювати"
 
@@ -3008,16 +2702,12 @@ msgid "Drives"
 msgstr "Диски"
 
 #: pkg/lib/machine-info.js:248
-#, fuzzy
-#| msgid "Dual Rank"
 msgid "Dual rank"
 msgstr "Подвійний ранг"
 
 #: pkg/machines/helpers.js:217
-#, fuzzy
-#| msgid "dying"
 msgid "Dying"
-msgstr "вмирає"
+msgstr "Вмирає"
 
 #: pkg/storaged/crypto-tab.jsx:136 pkg/storaged/nfs-details.jsx:318
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:287
@@ -3028,37 +2718,31 @@ msgstr "Змінити"
 
 #: pkg/machines/components/vm/disks/diskEdit.jsx:199
 msgid "Edit $0 attributes"
-msgstr ""
+msgstr "Редагувати атрибути $0"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:87
-#, fuzzy
-#| msgid "Edit Host"
 msgid "Edit /etc/motd"
-msgstr "Редагувати вузол"
+msgstr "Редагувати /etc/motd"
 
 #: pkg/storaged/crypto-keyslots.jsx:279
 msgid "Edit Tang keyserver"
 msgstr "Редагувати сервер ключів Tang"
 
 #: pkg/shell/machines/machine-add.html:8
-#, fuzzy
-#| msgid "Edit hosts"
 msgid "Edit host"
-msgstr "Редагувати вузли"
+msgstr "Редагувати вузол"
 
 #: pkg/shell/hosts.jsx:211
 msgid "Edit hosts"
 msgstr "Редагувати вузли"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:77
-#, fuzzy
-#| msgid "Edit Host"
 msgid "Edit motd"
-msgstr "Редагувати вузол"
+msgstr "Редагувати motd"
 
 #: pkg/networkmanager/network-main.jsx:158
 msgid "Edit rules and zones"
-msgstr ""
+msgstr "Редагування правил і зон"
 
 #: pkg/storaged/crypto-keyslots.jsx:551
 msgid "Editing a key requires a free slot"
@@ -3087,8 +2771,6 @@ msgid "Emptying $target"
 msgstr "Спорожняємо $target"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:257
-#, fuzzy
-#| msgid "Emulated Machine"
 msgid "Emulated machine"
 msgstr "Емульована машина"
 
@@ -3099,8 +2781,6 @@ msgid "Enable or disabnle the device"
 msgstr "Не вдалося вимкнути tuned"
 
 #: pkg/networkmanager/app.jsx:96
-#, fuzzy
-#| msgid "Enable Service"
 msgid "Enable service"
 msgstr "Увімкнути службу"
 
@@ -3130,14 +2810,10 @@ msgid "Encrypted data"
 msgstr "Зашифровані дані"
 
 #: pkg/storaged/utils.js:266
-#, fuzzy
-#| msgid "Encrypted Logical Volume of $0"
 msgid "Encrypted logical volume of $0"
 msgstr "Зашифрований логічний том $0"
 
 #: pkg/storaged/utils.js:268
-#, fuzzy
-#| msgid "Encrypted Partition of $0"
 msgid "Encrypted partition of $0"
 msgstr "Шифрований розділ $0"
 
@@ -3156,8 +2832,6 @@ msgid "Encryption"
 msgstr "Шифрування"
 
 #: pkg/storaged/crypto-tab.jsx:111
-#, fuzzy
-#| msgid "Encryption Options"
 msgid "Encryption options"
 msgstr "Параметри шифрування"
 
@@ -3175,8 +2849,6 @@ msgid "Enforcing"
 msgstr "Примусово"
 
 #: pkg/packagekit/updates.jsx:1285
-#, fuzzy
-#| msgid "Enhancement Updates Available"
 msgid "Enhancement updates available"
 msgstr "Доступні оновлення із поліпшеннями"
 
@@ -3197,10 +2869,8 @@ msgid "Erasing $target"
 msgstr "Витираємо $target"
 
 #: pkg/packagekit/updates.jsx:307
-#, fuzzy
-#| msgid "Errata:"
 msgid "Errata"
-msgstr "Помилки:"
+msgstr "Відомі помилки"
 
 #: pkg/playground/translate.html:100 pkg/playground/translate.html:105
 #: pkg/storaged/fsys-tab.jsx:304 pkg/storaged/multipath.jsx:61
@@ -3214,18 +2884,14 @@ msgid "Error and above"
 msgstr "Помилка і вище"
 
 #: pkg/metrics/metrics.jsx:949
-#, fuzzy
-#| msgid "Error and above"
 msgid "Error has occurred"
-msgstr "Помилка і вище"
+msgstr "Сталася помилка"
 
 #: pkg/lib/cockpit-components-inline-notification.jsx:92
 #: pkg/systemd/overview-cards/configurationCard.jsx:317
 #: pkg/selinux/setroubleshoot-view.jsx:454
-#, fuzzy
-#| msgid "Log messages"
 msgid "Error message"
-msgstr "Повідомлення журналу"
+msgstr "Повідомлення про помилку"
 
 #: pkg/lib/cockpit-components-modifications.jsx:143
 msgid "Error running semanage to discover system modifications"
@@ -3273,23 +2939,17 @@ msgstr "Наявний образ диска у файловій системі 
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:125
 msgid "Expand"
-msgstr ""
+msgstr "Розгорнути"
 
 #: pkg/lib/machine-info.js:84
-#, fuzzy
-#| msgid "Expansion Chassis"
 msgid "Expansion chassis"
 msgstr "Апаратний блок розширення"
 
 #: pkg/systemd/abrtLog.jsx:244
-#, fuzzy
-#| msgid "Extended Information"
 msgid "Extended information"
 msgstr "Розширена інформація"
 
 #: pkg/storaged/format-dialog.jsx:159 pkg/storaged/content-views.jsx:528
-#, fuzzy
-#| msgid "Extended Partition"
 msgid "Extended partition"
 msgstr "Розширений розділ"
 
@@ -3324,10 +2984,8 @@ msgid "Failed to change password"
 msgstr "Не вдалося змінити пароль"
 
 #: pkg/machines/components/vm/vmCloneDialog.jsx:56
-#, fuzzy
-#| msgid "Failed to add machine: $0"
 msgid "Failed to clone VM $0"
-msgstr "Не вдалося додати комп’ютер: $0"
+msgstr "Не вдалося клонувати ВМ $0"
 
 #: pkg/selinux/setroubleshoot-client.js:188
 msgid "Failed to delete alert: $0"
@@ -3364,10 +3022,8 @@ msgid "Failed to restart service"
 msgstr "Не вдалося додати службу"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:97
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to save changes in /etc/motd"
-msgstr "Не вдалося змінити мікропрограму"
+msgstr "Не вдалося зберегти зміни до /etc/motd"
 
 #: pkg/machines/components/vm/consoles/vnc.jsx:130
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
@@ -3397,14 +3053,10 @@ msgid "Filesystem"
 msgstr "Файлова система"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:58
-#, fuzzy
-#| msgid "Filesystem Directory"
 msgid "Filesystem directory"
 msgstr "Каталог файлової системи"
 
 #: pkg/storaged/fsys-tab.jsx:359
-#, fuzzy
-#| msgid "Filesystem Name"
 msgid "Filesystem name"
 msgstr "Назва файлової системи"
 
@@ -3417,18 +3069,14 @@ msgid "Filter"
 msgstr "Фільтрування"
 
 #: pkg/machines/components/vms/hostvmslist.jsx:91
-#, fuzzy
-#| msgid "Filter by name or description"
 msgid "Filter by name"
-msgstr "Фільтрувати за назвою або описом"
+msgstr "Фільтрувати за назвою"
 
 #: pkg/systemd/services/services.jsx:731
 msgid "Filter by name or description"
 msgstr "Фільтрувати за назвою або описом"
 
 #: pkg/networkmanager/firewall.jsx:234
-#, fuzzy
-#| msgid "Filter Services"
 msgid "Filter services"
 msgstr "Фільтрувати служби"
 
@@ -3451,9 +3099,6 @@ msgid "Firmware"
 msgstr "Мікропрограма"
 
 #: pkg/storaged/drive-details.jsx:81
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Firmware Version"
 msgctxt "storage"
 msgid "Firmware version"
 msgstr "Версія мікропрограми"
@@ -3468,8 +3113,6 @@ msgid "Forbidden from running"
 msgstr "Заборонено запускати"
 
 #: pkg/users/account-details.js:336
-#, fuzzy
-#| msgid "Force Change"
 msgid "Force change"
 msgstr "Примусова зміна"
 
@@ -3488,8 +3131,6 @@ msgid "Force remove passphrase in $0"
 msgstr "Примусово вилучити пароль у $0"
 
 #: pkg/machines/components/vm/vmActions.jsx:228
-#, fuzzy
-#| msgid "Force Shut Down"
 msgid "Force shut down"
 msgstr "Примусово вимкнути"
 
@@ -3505,8 +3146,6 @@ msgid "Format $0"
 msgstr "Форматувати $0"
 
 #: pkg/storaged/content-views.jsx:587
-#, fuzzy
-#| msgid "Format Disk $0"
 msgid "Format disk $0"
 msgstr "Форматувати диск $0"
 
@@ -3526,8 +3165,6 @@ msgid "Forward delay $forward_delay"
 msgstr "Затримка переспрямування $forward_delay"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:135
-#, fuzzy
-#| msgid "Forward Mode"
 msgid "Forward mode"
 msgstr "Режим переспрямовування"
 
@@ -3536,19 +3173,14 @@ msgid "Forwarding mode"
 msgstr "Режим переспрямовування"
 
 #: pkg/systemd/abrtLog.jsx:74
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Serial Number"
 msgid "Frame number"
-msgstr "Серійний номер"
+msgstr "Кількість кадрів"
 
 #: pkg/storaged/pvol-tabs.jsx:51
 msgid "Free"
 msgstr "Вільно"
 
 #: pkg/storaged/content-views.jsx:513
-#, fuzzy
-#| msgid "Free Space"
 msgid "Free space"
 msgstr "Вільне місце"
 
@@ -3569,14 +3201,12 @@ msgid "Fridays"
 msgstr "П'ятниці"
 
 #: pkg/users/account-details.js:277 pkg/users/account-create-dialog.js:40
-#, fuzzy
-#| msgid "Full Name"
 msgid "Full name"
 msgstr "Повне ім'я"
 
 #: pkg/shell/shell-modals.jsx:45
 msgid "GNU LGPL version 2.1"
-msgstr ""
+msgstr "GNU LGPL, версія 2.1"
 
 #: pkg/networkmanager/network-interface.jsx:368
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:202
@@ -3604,8 +3234,6 @@ msgid "Go to VMs list"
 msgstr ""
 
 #: pkg/apps/application.jsx:113
-#, fuzzy
-#| msgid "Go to Application"
 msgid "Go to application"
 msgstr "Перейти до програми"
 
@@ -3624,8 +3252,6 @@ msgid "Grow"
 msgstr "Збільшити"
 
 #: pkg/storaged/lvol-tabs.jsx:416
-#, fuzzy
-#| msgid "Grow Content"
 msgid "Grow content"
 msgstr "Збільшити вміст"
 
@@ -3634,8 +3260,6 @@ msgid "Grow logical size of $0"
 msgstr "Збільшити логічний розмір $0"
 
 #: pkg/storaged/lvol-tabs.jsx:242
-#, fuzzy
-#| msgid "Grow Logical Volume"
 msgid "Grow logical volume"
 msgstr "Збільшити логічний том"
 
@@ -3644,24 +3268,18 @@ msgid "Grow to take all space"
 msgstr "Збільшити так, щоб використати усе місце"
 
 #: pkg/networkmanager/index.html:141
-#, fuzzy
-#| msgid "Hairpin mode"
 msgid "Hair pin mode"
-msgstr "Режим початкової зони (hairpin)"
+msgstr "Режим початкової зони"
 
 #: pkg/networkmanager/network-interface.jsx:571
 msgid "Hairpin mode"
 msgstr "Режим початкової зони (hairpin)"
 
 #: pkg/lib/machine-info.js:77
-#, fuzzy
-#| msgid "Hand Held"
 msgid "Handheld"
-msgstr "Портативний"
+msgstr "Кишеньковий пристрій"
 
 #: pkg/systemd/hwinfo.html:4 pkg/systemd/hwinfo.jsx:322
-#, fuzzy
-#| msgid "Hardware Information"
 msgid "Hardware information"
 msgstr "Дані щодо обладнання"
 
@@ -3678,8 +3296,6 @@ msgid "Help"
 msgstr "Довідка"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:146
-#, fuzzy
-#| msgid "Hide Additional Options"
 msgid "Hide additional options"
 msgstr "Приховати додаткові параметри"
 
@@ -3688,10 +3304,8 @@ msgid "Hide filters"
 msgstr "Приховати фільтри"
 
 #: pkg/packagekit/history.jsx:108
-#, fuzzy
-#| msgid "Your account"
 msgid "History package count"
-msgstr "Ваш обліковий запис"
+msgstr "Кількість пакунків у журналі"
 
 #: pkg/shell/machines/machine-add.html:14
 #: pkg/machines/components/vm/overview/bootOrder.jsx:96
@@ -3703,18 +3317,14 @@ msgid "Host"
 msgstr "Вузол"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:166
-#, fuzzy
-#| msgid "host device"
 msgid "Host device"
-msgstr "пристрій основної системи"
+msgstr "Пристрій основної системи"
 
 #: pkg/base1/cockpit.js:4055
 msgid "Host key is incorrect"
 msgstr "Ключ вузла є неправильним"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:125
-#, fuzzy
-#| msgid "Hostname"
 msgid "Host name"
 msgstr "Назва вузла"
 
@@ -3752,8 +3362,6 @@ msgid "Hours must be a number between 0 and 23"
 msgstr "Години слід вказувати у форматі числа від 0 до 23"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:253
-#, fuzzy
-#| msgid "Hypervisor Details"
 msgid "Hypervisor details"
 msgstr "Докладніше про гіпервізор"
 
@@ -3763,16 +3371,12 @@ msgid "ID"
 msgstr "Ід."
 
 #: pkg/networkmanager/network-interface.jsx:588
-#, fuzzy
-#| msgid "Id $id"
 msgid "ID $id"
 msgstr "Ід. $id"
 
 #: pkg/networkmanager/network-main.jsx:180
 #: pkg/networkmanager/network-main.jsx:195
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:222
-#, fuzzy
-#| msgid "IP Address"
 msgid "IP address"
 msgstr "IP-адреса"
 
@@ -3785,14 +3389,10 @@ msgstr ""
 "комами. Приклад: 192.0.2.0/24, 2001:db8::/32"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:175
-#, fuzzy
-#| msgid "IP Configuration"
 msgid "IP configuration"
 msgstr "Налаштування IP"
 
 #: pkg/networkmanager/index.html:280
-#, fuzzy
-#| msgid "IP Settings"
 msgid "IP settings"
 msgstr "Параметри IP"
 
@@ -3801,8 +3401,6 @@ msgid "IPv4"
 msgstr "IPv4"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:116
-#, fuzzy
-#| msgid "IPv4 Address"
 msgid "IPv4 address"
 msgstr "Адреса IPv4"
 
@@ -3811,14 +3409,10 @@ msgid "IPv4 and IPv6"
 msgstr "IPv4 і IPv6"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:236
-#, fuzzy
-#| msgid "IPv4 Network"
 msgid "IPv4 network"
 msgstr "Мережа IPv4"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:58
-#, fuzzy
-#| msgid "IPv4 Network should not be empty"
 msgid "IPv4 network should not be empty"
 msgstr "Мережа IPv4 не повинна бути порожньою"
 
@@ -3827,8 +3421,6 @@ msgid "IPv4 only"
 msgstr "Лише IPv4"
 
 #: pkg/networkmanager/interfaces.js:1934
-#, fuzzy
-#| msgid "IPv4 Settings"
 msgid "IPv4 settings"
 msgstr "Параметри IPv4"
 
@@ -3837,20 +3429,14 @@ msgid "IPv6"
 msgstr "IPv6"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:141
-#, fuzzy
-#| msgid "IPv6 Address"
 msgid "IPv6 address"
 msgstr "Адреса IPv6"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:268
-#, fuzzy
-#| msgid "IPv6 Network"
 msgid "IPv6 network"
 msgstr "Мережа IPv6"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:86
-#, fuzzy
-#| msgid "IPv6 Network should not be empty"
 msgid "IPv6 network should not be empty"
 msgstr "Мережа IPv6 не повинна бути порожньою"
 
@@ -3859,8 +3445,6 @@ msgid "IPv6 only"
 msgstr "Лише IPv6"
 
 #: pkg/networkmanager/interfaces.js:1934
-#, fuzzy
-#| msgid "IPv6 Settings"
 msgid "IPv6 settings"
 msgstr "Параметри IPv6"
 
@@ -3870,7 +3454,7 @@ msgstr "Ідентифікатор"
 
 #: pkg/machines/helpers.js:212
 msgid "Idle"
-msgstr ""
+msgstr "Бездіяльність"
 
 #: pkg/storaged/crypto-keyslots.jsx:336
 msgid "If tang-show-keys is not available, run the following:"
@@ -3882,12 +3466,16 @@ msgid ""
 "If the fingerprint matches, click \"Accept key and connect\". Otherwise, do "
 "not connect and contact your administrator."
 msgstr ""
+"Якщо відбиток є відповідним, натисніть «Прийняти ключ і з'єднатися». Якщо ж "
+"це не так, не встановлюйте з'єднання і повідомте про подію адміністратору."
 
 #: pkg/static/login.html:67
 msgid ""
 "If the fingerprint matches, click \"Accept key and log in\". Otherwise, do "
 "not log in and contact your administrator."
 msgstr ""
+"Якщо відбиток є відповідним, натисніть «Прийняти ключ і увійти». Якщо ж це "
+"не так, не входьте і повідомте про подію адміністратору."
 
 #: pkg/networkmanager/interfaces.js:1459 pkg/packagekit/updates.jsx:618
 #: pkg/packagekit/updates.jsx:693
@@ -3895,14 +3483,10 @@ msgid "Ignore"
 msgstr "Ігнорувати"
 
 #: pkg/users/account-roles.js:65
-#, fuzzy
-#| msgid "Image Builder"
 msgid "Image builder"
 msgstr "Побудова образів"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:812
-#, fuzzy
-#| msgid "Immediately Start VM"
 msgid "Immediately start VM"
 msgstr "Негайно запустити ВМ"
 
@@ -3915,14 +3499,12 @@ msgid "Import VM"
 msgstr "Імпортувати ВМ"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:916
-#, fuzzy
-#| msgid "Import A Virtual Machine"
 msgid "Import a virtual machine"
 msgstr "Імпортувати віртуальну машину"
 
 #: pkg/metrics/metrics.jsx:544
 msgid "In"
-msgstr ""
+msgstr "Вхід"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:246
 msgid ""
@@ -3938,10 +3520,13 @@ msgid ""
 "future, use the login password of ${luser} on ${lhost} as the key password, "
 "or leave the key password blank."
 msgstr ""
+"Щоб уможливити вхід до ${rhost} від імені ${ruser} без пароля надалі, "
+"скористайтеся паролем для входу до системи ${luser} на ${lhost} як паролем "
+"до ключа або не заповнюйте поле пароля ключа."
 
 #: pkg/storaged/mdraid-details.jsx:108
 msgid "In sync"
-msgstr ""
+msgstr "Синхронізовано"
 
 #: pkg/networkmanager/interfaces.js:745 pkg/networkmanager/interfaces.js:1331
 #: pkg/networkmanager/interfaces.js:1338
@@ -3962,8 +3547,6 @@ msgid "Inconsistent filesystem mount"
 msgstr "Несумісне монтування файлових систем"
 
 #: pkg/storaged/vdo-details.jsx:312 pkg/storaged/vdos-panel.jsx:106
-#, fuzzy
-#| msgid "Index Memory"
 msgid "Index memory"
 msgstr "Пам'ять покажчика"
 
@@ -3998,30 +3581,22 @@ msgid "Install"
 msgstr "Встановити"
 
 #: pkg/storaged/nfs-panel.jsx:94
-#, fuzzy
-#| msgid "Install NFS Support"
 msgid "Install NFS support"
 msgstr "Встановити підтримку NFS"
 
 #: pkg/storaged/vdos-panel.jsx:44
-#, fuzzy
-#| msgid "Install VDO Support"
 msgid "Install VDO support"
 msgstr "Встановити підтримку VDO"
 
 #: pkg/packagekit/updates.jsx:1270
-#, fuzzy
-#| msgid "Install All Updates"
 msgid "Install all updates"
 msgstr "Встановити усі оновлення"
 
 #: pkg/metrics/metrics.jsx:937
 msgid "Install cockpit-pcp"
-msgstr ""
+msgstr "Встановити cockpit-pcp"
 
 #: pkg/packagekit/updates.jsx:1270 pkg/packagekit/updates.jsx:1276
-#, fuzzy
-#| msgid "Install Security Updates"
 msgid "Install security updates"
 msgstr "Встановити оновлення захисту"
 
@@ -4032,26 +3607,18 @@ msgstr ""
 "SELinux."
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:105
-#, fuzzy
-#| msgid "Install Software"
 msgid "Install software"
 msgstr "Встановити програмне забезпечення"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:305
-#, fuzzy
-#| msgid "Installation Source"
 msgid "Installation source"
 msgstr "Джерело для встановлення"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:162
-#, fuzzy
-#| msgid "Installation Source must not be empty"
 msgid "Installation source must not be empty"
 msgstr "Запис джерела встановлення не може бути порожнім"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:285
-#, fuzzy
-#| msgid "Installation Type"
 msgid "Installation type"
 msgstr "Тип встановлення"
 
@@ -4069,10 +3636,8 @@ msgid "Installing $0"
 msgstr "Встановлюємо $0"
 
 #: pkg/metrics/metrics.jsx:544
-#, fuzzy
-#| msgid "Interfaces"
 msgid "Interface"
-msgstr "Інтерфейси"
+msgstr "Інтерфейс"
 
 #: pkg/networkmanager/network-interface-members.jsx:208
 #: pkg/networkmanager/network-interface-members.jsx:213
@@ -4082,8 +3647,6 @@ msgid "Interface members"
 msgstr "Інтерфейси"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:122
-#, fuzzy
-#| msgid "Interface Type"
 msgid "Interface type"
 msgstr "Тип інтерфейсу"
 
@@ -4099,8 +3662,6 @@ msgid "Internal error"
 msgstr "Внутрішня помилка"
 
 #: pkg/static/login.js:796
-#, fuzzy
-#| msgid "Internal Error: Invalid challenge header"
 msgid "Internal error: Invalid challenge header"
 msgstr "Внутрішня помилка: некоректний заголовок виклику"
 
@@ -4197,22 +3758,18 @@ msgid "Invalid username or password"
 msgstr "Некоректне ім’я користувача чи пароль"
 
 #: pkg/lib/machine-info.js:99
-#, fuzzy
-#| msgid "IoT Gateway"
 msgid "IoT gateway"
 msgstr "Шлюз IoT"
 
 #: pkg/metrics/metrics.jsx:943
 msgid "Is 'pmlogger' service running?"
-msgstr ""
+msgstr "Чи запущено службу «pmlogger»?"
 
 #: pkg/shell/machines/machine-change-port.html:10
 msgid "Is sshd running on a different port?"
 msgstr "sshd працює на іншому порті?"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:108
-#, fuzzy
-#| msgid "Isolated Network"
 msgid "Isolated network"
 msgstr "Ізольована мережа"
 
@@ -4225,14 +3782,10 @@ msgid "Join"
 msgstr "З'єднати"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:117
-#, fuzzy
-#| msgid "Join a Domain"
 msgid "Join a domain"
 msgstr "Долучитися до домену"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:610
-#, fuzzy
-#| msgid "Join Domain"
 msgid "Join domain"
 msgstr "Долучитися до домену"
 
@@ -4245,8 +3798,6 @@ msgid "Joining this domain is not supported"
 msgstr "Підтримки долучення до цього домену не передбачено"
 
 #: pkg/systemd/services/service-details.jsx:401
-#, fuzzy
-#| msgid "Joins Namespace Of"
 msgid "Joins namespace of"
 msgstr "Долучається до простору назв"
 
@@ -4264,7 +3815,7 @@ msgstr "Не знайдено запису журналу"
 
 #: pkg/metrics/metrics.jsx:998
 msgid "Jump to"
-msgstr ""
+msgstr "Перейти"
 
 #: pkg/kdump/kdump-view.jsx:465
 msgid ""
@@ -4278,8 +3829,6 @@ msgid "Keep connection"
 msgstr "Підтримувати з’єднання"
 
 #: pkg/shell/machines/machine-auth-failed.html:10
-#, fuzzy
-#| msgid "Kerberos Based SSO"
 msgid "Kerberos based SSO"
 msgstr "SSO на основі Kerberos"
 
@@ -4288,18 +3837,14 @@ msgid "Kernel Dump"
 msgstr "Дамп ядра"
 
 #: pkg/kdump/index.html:23
-#, fuzzy
-#| msgid "Kernel Dump"
 msgid "Kernel dump"
 msgstr "Дамп ядра"
 
 #: pkg/shell/machines/machine-change-auth.html:38
 #: pkg/shell/machines/machine-change-auth.html:53
 #: pkg/shell/machines/machine-dialogs.js:734
-#, fuzzy
-#| msgid "password"
 msgid "Key password"
-msgstr "пароль"
+msgstr "Пароль до ключа"
 
 #: pkg/storaged/crypto-keyslots.jsx:579
 msgid "Key slots with unknown types can not be edited here"
@@ -4326,14 +3871,10 @@ msgid "Keyserver removal may prevent unlocking $0."
 msgstr "Вилучення сервера ключів може завадити розблокуванню $0."
 
 #: pkg/networkmanager/index.html:266
-#, fuzzy
-#| msgid "LACP Key"
 msgid "LACP key"
 msgstr "Ключ LACP"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:62
-#, fuzzy
-#| msgid "LVM Volume Group"
 msgid "LVM volume group"
 msgstr "Група томів LVM"
 
@@ -4358,18 +3899,14 @@ msgid "Last failed login:"
 msgstr "Останній невдалий вхід:"
 
 #: pkg/users/account-details.js:304
-#, fuzzy
-#| msgid "Last login:"
 msgid "Last login"
-msgstr "Останній вхід:"
+msgstr "Останній вхід"
 
 #: pkg/systemd/overview.jsx:134
 msgid "Last login:"
 msgstr "Останній вхід:"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:54
-#, fuzzy
-#| msgid "Launch Remote Viewer"
 msgid "Launch remote viewer"
 msgstr "Запустити віддалений переглядач"
 
@@ -4381,8 +3918,6 @@ msgstr "Докладніше"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:25
 #: pkg/systemd/overview-cards/realmd-operation.html:29
-#, fuzzy
-#| msgid "Leave Domain"
 msgid "Leave domain"
 msgstr "Полишити домен"
 
@@ -4437,8 +3972,6 @@ msgid "Link local"
 msgstr "Пов’язати локальний"
 
 #: pkg/networkmanager/index.html:183
-#, fuzzy
-#| msgid "Link Monitoring"
 msgid "Link monitoring"
 msgstr "Спостереження за зв’язком"
 
@@ -4447,27 +3980,21 @@ msgid "Link up delay"
 msgstr "Затримка встановлення зв’язку"
 
 #: pkg/networkmanager/index.html:227
-#, fuzzy
-#| msgid "Link Watch"
 msgid "Link watch"
 msgstr "Спостереження за посиланнями"
 
 #: pkg/metrics/metrics.jsx:87 pkg/metrics/metrics.jsx:440
 #: pkg/metrics/metrics.jsx:1007
 msgid "Load"
-msgstr ""
+msgstr "Завантажити"
 
 #: pkg/networkmanager/interfaces.js:1483
-#, fuzzy
-#| msgid "Load Balancing"
 msgid "Load balancing"
 msgstr "Збалансовування навантаження"
 
 #: pkg/metrics/metrics.jsx:1023
-#, fuzzy
-#| msgid "Load earlier entries"
 msgid "Load earlier data"
-msgstr "Завантажити попередні записи"
+msgstr "Завантажити попередні дані"
 
 #: pkg/systemd/logs.js:115
 msgid "Load earlier entries"
@@ -4475,7 +4002,7 @@ msgstr "Завантажити попередні записи"
 
 #: pkg/metrics/metrics.jsx:88
 msgid "Load spike"
-msgstr ""
+msgstr "Завантажити пік"
 
 #: pkg/packagekit/updates.jsx:78
 msgid "Loading available updates failed"
@@ -4486,20 +4013,14 @@ msgid "Loading available updates, please wait..."
 msgstr "Завантажуємо доступні оновлення, зачекайте…"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:320
-#, fuzzy
-#| msgid "Loading..."
 msgid "Loading keys..."
-msgstr "Завантаження…"
+msgstr "Завантаження ключів…"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:316
-#, fuzzy
-#| msgid "Loading available updates failed"
 msgid "Loading of SSH keys failed"
-msgstr "Не вдалося завантажити список доступних оновлень"
+msgstr "Не вдалося завантажити ключі SSH"
 
 #: pkg/machines/components/libvirtSlate.jsx:82
-#, fuzzy
-#| msgid "Loading Resources"
 msgid "Loading resources"
 msgstr "Завантаження ресурсів"
 
@@ -4517,26 +4038,18 @@ msgid "Loading..."
 msgstr "Завантаження…"
 
 #: pkg/users/index.html:23
-#, fuzzy
-#| msgid "Local Accounts"
 msgid "Local accounts"
 msgstr "Локальні облікові записи"
 
 #: pkg/kdump/kdump-view.jsx:140
-#, fuzzy
-#| msgid "Local Filesystem"
 msgid "Local filesystem"
 msgstr "Локальна файлова система"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:295
-#, fuzzy
-#| msgid "Local Install Media"
 msgid "Local install media"
 msgstr "Локальні носії для встановлення"
 
 #: pkg/storaged/nfs-details.jsx:168
-#, fuzzy
-#| msgid "Local Mount Point"
 msgid "Local mount point"
 msgstr "Локальна точка монтування"
 
@@ -4549,8 +4062,6 @@ msgid "Lock"
 msgstr "Заблокувати"
 
 #: pkg/users/account-details.js:313 pkg/users/account-create-dialog.js:71
-#, fuzzy
-#| msgid "Lock Account"
 msgid "Lock account"
 msgstr "Заблокувати обліковий запис"
 
@@ -4559,10 +4070,8 @@ msgid "Lock account on $0"
 msgstr "Заблокувати обліковий запис $0"
 
 #: pkg/storaged/crypto-panel.jsx:72 pkg/storaged/crypto-panel.jsx:75
-#, fuzzy
-#| msgid "Remove device"
 msgid "Locked devices"
-msgstr "Вилучити пристрій"
+msgstr "Заблоковані пристрої"
 
 #: pkg/storaged/jobs-panel.jsx:41
 msgid "Locking $target"
@@ -4570,8 +4079,6 @@ msgstr "Блокуємо $target"
 
 #: pkg/static/login.html:100 pkg/shell/index.html:307
 #: pkg/shell/machines/machine-change-auth.html:74 pkg/static/login.js:563
-#, fuzzy
-#| msgid "Log In"
 msgid "Log in"
 msgstr "Увійти"
 
@@ -4588,14 +4095,10 @@ msgid "Log messages"
 msgstr "Повідомлення журналу"
 
 #: pkg/shell/index.html:80 pkg/metrics/metrics.jsx:931
-#, fuzzy
-#| msgid "Log Out"
 msgid "Log out"
 msgstr "Вийти"
 
 #: pkg/users/account-details.js:241
-#, fuzzy
-#| msgid "Logged In"
 msgid "Logged in"
 msgstr "Вхід"
 
@@ -4604,38 +4107,26 @@ msgid "Logical"
 msgstr "Логічний"
 
 #: pkg/storaged/vdo-details.jsx:221 pkg/storaged/vdos-panel.jsx:99
-#, fuzzy
-#| msgid "Logical Size"
 msgid "Logical size"
 msgstr "Логічний розмір"
 
 #: pkg/storaged/utils.js:198
-#, fuzzy
-#| msgid "Logical Volume"
 msgid "Logical volume"
 msgstr "Логічний том"
 
 #: pkg/storaged/utils.js:196
-#, fuzzy
-#| msgid "Logical Volume (Snapshot)"
 msgid "Logical volume (snapshot)"
 msgstr "Логічний том (знімок)"
 
 #: pkg/storaged/utils.js:270
-#, fuzzy
-#| msgid "Logical Volume of $0"
 msgid "Logical volume of $0"
 msgstr "Логічний том $0"
 
 #: pkg/storaged/content-views.jsx:810 pkg/storaged/content-views.jsx:815
-#, fuzzy
-#| msgid "Logical Volume"
 msgid "Logical volumes"
-msgstr "Логічний том"
+msgstr "Логічні томи"
 
 #: pkg/static/login.js:350
-#, fuzzy
-#| msgid "Login Again"
 msgid "Login again"
 msgstr "Користувач ще раз"
 
@@ -4644,14 +4135,10 @@ msgid "Login failed"
 msgstr "Невдала спроба увійти"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:15
-#, fuzzy
-#| msgid "Login Format"
 msgid "Login format"
 msgstr "Формат входу"
 
 #: pkg/static/login.js:351
-#, fuzzy
-#| msgid "Logout Successful"
 msgid "Logout successful"
 msgstr "Успішний вихід"
 
@@ -4660,14 +4147,10 @@ msgid "Logs"
 msgstr "Журнали"
 
 #: pkg/lib/machine-info.js:70
-#, fuzzy
-#| msgid "Low Profile Desktop"
 msgid "Low profile desktop"
 msgstr "Низькопрофільна робоча станція"
 
 #: pkg/lib/machine-info.js:82
-#, fuzzy
-#| msgid "Lunch Box"
 msgid "Lunch box"
 msgstr "Пусковий комп'ютер"
 
@@ -4679,14 +4162,10 @@ msgstr "MAC"
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:220
 #: pkg/machines/components/vm/nics/nicEdit.jsx:38
 #: pkg/machines/components/vm/nics/nicAdd.jsx:36
-#, fuzzy
-#| msgid "MAC Address"
 msgid "MAC address"
 msgstr "MAC-адреса"
 
 #: pkg/networkmanager/interfaces.js:1475
-#, fuzzy
-#| msgid "MII (Recommended)"
 msgid "MII (recommended)"
 msgstr "MII (рекомендоване)"
 
@@ -4703,8 +4182,6 @@ msgid "Machine ID"
 msgstr "Ід. комп’ютера"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:337
-#, fuzzy
-#| msgid "Machine SSH Key Fingerprints"
 msgid "Machine SSH key fingerprints"
 msgstr "Відбитки ключів SSH комп’ютерів"
 
@@ -4713,8 +4190,6 @@ msgid "Machine must be shut off before changing bus type"
 msgstr "До внесення змін до типу каналу машину слід вимкнути"
 
 #: pkg/lib/machine-info.js:83
-#, fuzzy
-#| msgid "Main Server Chassis"
 msgid "Main server chassis"
 msgstr "Апаратний блок основного сервера"
 
@@ -4811,8 +4286,6 @@ msgid "Manual"
 msgstr "Вручну"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:44
-#, fuzzy
-#| msgid "Manual Connection"
 msgid "Manual connection"
 msgstr "З’єднання вручну"
 
@@ -4829,21 +4302,15 @@ msgid "Marking $target as faulty"
 msgstr "Позначаємо $target як помилковий"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:244
-#, fuzzy
-#| msgid "Mask or Prefix Length"
 msgid "Mask or prefix length"
 msgstr "Довжина маски або префікса"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:63
-#, fuzzy
-#| msgid "Mask or Prefix Length should not be empty"
 msgid "Mask or prefix length should not be empty"
 msgstr "Довжина маски або префікса повинна бути непорожньою"
 
 #: pkg/systemd/services/service-details.jsx:158
 #: pkg/systemd/services/service-details.jsx:161
-#, fuzzy
-#| msgid "Mask Service"
 msgid "Mask service"
 msgstr "Замаскувати службу"
 
@@ -4862,8 +4329,6 @@ msgstr ""
 "замаскувати цей модуль."
 
 #: pkg/machines/components/vm/overview/memoryModal.jsx:118
-#, fuzzy
-#| msgid "Maximum Allocation"
 msgid "Maximum allocation"
 msgstr "Максимальне отримання"
 
@@ -4876,14 +4341,10 @@ msgid "Maximum message age $max_age"
 msgstr "Максимальний вік повідомлення $max_age"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:199
-#, fuzzy
-#| msgid ""
-#| "Maximum number of virtual CPUs allocated for the guest OS, which must be "
-#| "between 1 and $0"
 msgid "Maximum number of virtual CPUs allocated for the guest OS"
 msgstr ""
 "Максимальна кількість віртуальних процесорів, наданих для гостьової "
-"операційної системи, має бути у межах від 1 до $0"
+"операційної системи"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:198
 msgid ""
@@ -4894,20 +4355,14 @@ msgstr ""
 "операційної системи, має бути у межах від 1 до $0"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:107
-#, fuzzy
-#| msgid "Maximum Transmission Unit"
 msgid "Maximum transmission unit"
 msgstr "Максимальна одиниця передавання"
 
 #: pkg/storaged/content-views.jsx:405
-#, fuzzy
-#| msgid "Member of RAID Device"
 msgid "Member of RAID device"
 msgstr "Елемент пристрою RAID"
 
 #: pkg/storaged/content-views.jsx:401
-#, fuzzy
-#| msgid "Member of RAID Device $0"
 msgid "Member of RAID device $0"
 msgstr "Елемент пристрою RAID $0"
 
@@ -4930,22 +4385,16 @@ msgid "Memory must not be 0"
 msgstr "Об'єм пам'яті не може бути нульовим"
 
 #: pkg/metrics/metrics.jsx:95
-#, fuzzy
-#| msgid "Memory usage:"
 msgid "Memory spike"
-msgstr "Використання пам'яті:"
+msgstr "Пік пам'яті"
 
 #: pkg/systemd/hwinfo.jsx:308
-#, fuzzy
-#| msgid "Memory Technology"
 msgid "Memory technology"
 msgstr "Технологія пам'яті"
 
 #: pkg/metrics/metrics.jsx:94
-#, fuzzy
-#| msgid "Memory usage:"
 msgid "Memory usage"
-msgstr "Використання пам'яті:"
+msgstr "Використання пам'яті"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:193
 msgid "Message to logged in users"
@@ -4956,8 +4405,6 @@ msgid "Messages related to the failure might be found in the journal:"
 msgstr "Повідомлення, пов'язані із аварією, яких може не бути у журналі:"
 
 #: pkg/storaged/lvol-tabs.jsx:467
-#, fuzzy
-#| msgid "Metadata Used"
 msgid "Metadata used"
 msgstr "Використано метаданих"
 
@@ -4966,10 +4413,8 @@ msgid "Method"
 msgstr "Метод"
 
 #: pkg/metrics/metrics.jsx:942
-#, fuzzy
-#| msgid "Memory could not be saved"
 msgid "Metrics history could not be loaded"
-msgstr "Не вдалося зберегти дані щодо обсягу пам'яті"
+msgstr "Не вдалося завантажити журнал метрики"
 
 #: pkg/machines/components/vm/overview/memorySelectRow.jsx:85
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:102
@@ -4981,8 +4426,6 @@ msgid "Mini PC"
 msgstr "Міні-ПК"
 
 #: pkg/lib/machine-info.js:72
-#, fuzzy
-#| msgid "Mini Tower"
 msgid "Mini tower"
 msgstr "Міні-башточка"
 
@@ -5038,14 +4481,10 @@ msgid "Mondays"
 msgstr "Понеділки"
 
 #: pkg/networkmanager/index.html:188
-#, fuzzy
-#| msgid "Monitoring Interval"
 msgid "Monitoring interval"
 msgstr "Інтервал оновлення"
 
 #: pkg/networkmanager/index.html:192
-#, fuzzy
-#| msgid "Monitoring Targets"
 msgid "Monitoring targets"
 msgstr "Спостерігаємо за цілями"
 
@@ -5079,14 +4518,10 @@ msgid "Mount automatically on $0 on boot"
 msgstr "Монтувати автоматично до $0 під час завантаження"
 
 #: pkg/storaged/fsys-tab.jsx:285
-#, fuzzy
-#| msgid "Mount Configuration"
 msgid "Mount configuration"
 msgstr "Налаштування монтування"
 
 #: pkg/storaged/fsys-tab.jsx:283
-#, fuzzy
-#| msgid "Mount Filesystem"
 msgid "Mount filesystem"
 msgstr "Змонтувати файлову систему"
 
@@ -5100,16 +4535,12 @@ msgstr "Змонтувати до $0 зараз"
 
 #: pkg/storaged/fsys-tab.jsx:254 pkg/storaged/format-dialog.jsx:237
 #: pkg/storaged/nfs-details.jsx:179
-#, fuzzy
-#| msgid "Mount Options"
 msgid "Mount options"
 msgstr "Параметри монтування"
 
 #: pkg/storaged/fsys-tab.jsx:249 pkg/storaged/fsys-tab.jsx:526
 #: pkg/storaged/format-dialog.jsx:231 pkg/storaged/nfs-panel.jsx:103
 #: pkg/storaged/fsys-panel.jsx:95 pkg/storaged/nfs-details.jsx:334
-#, fuzzy
-#| msgid "Mount Point"
 msgid "Mount point"
 msgstr "Точка монтування"
 
@@ -5139,15 +4570,10 @@ msgid "Mounting $target"
 msgstr "Монтуємо $target"
 
 #: pkg/lib/machine-info.js:91
-#, fuzzy
-#| msgid "Multi-system Chassis"
 msgid "Multi-system chassis"
 msgstr "Багатосистемний апаратний блок"
 
 #: pkg/storaged/drive-details.jsx:88
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Multipathed Devices"
 msgctxt "storage"
 msgid "Multipathed devices"
 msgstr "Пристрої із багатьма шляхами"
@@ -5157,20 +4583,14 @@ msgid "NAT to $0"
 msgstr "NAT до $0"
 
 #: pkg/storaged/nfs-details.jsx:144
-#, fuzzy
-#| msgid "NFS Mount"
 msgid "NFS mount"
 msgstr "Змонтована NFS"
 
 #: pkg/storaged/nfs-panel.jsx:90 pkg/storaged/nfs-panel.jsx:97
-#, fuzzy
-#| msgid "NFS Mounts"
 msgid "NFS mounts"
 msgstr "Монтування NFS"
 
 #: pkg/storaged/nfs-panel.jsx:93
-#, fuzzy
-#| msgid "NFS Support not installed"
 msgid "NFS support not installed"
 msgstr "Не встановлено підтримки NFS"
 
@@ -5179,14 +4599,10 @@ msgid "NIC $0 of VM $1 failed to change state"
 msgstr "NIC $0 ВМ $1, не вдалося змінити стан"
 
 #: pkg/networkmanager/interfaces.js:1498
-#, fuzzy
-#| msgid "NSNA Ping"
 msgid "NSNA ping"
 msgstr "Луна-імпульс NSNA"
 
 #: pkg/lib/serverTime.js:491
-#, fuzzy
-#| msgid "NTP Server"
 msgid "NTP server"
 msgstr "Сервер NTP"
 
@@ -5276,9 +4692,6 @@ msgid "Netmask"
 msgstr "Маска мережі"
 
 #: pkg/metrics/metrics.jsx:534 pkg/metrics/metrics.jsx:1010
-#, fuzzy
-#| msgid "Network"
-#| msgid_plural "Networks"
 msgid "Network"
 msgstr "Мережа"
 
@@ -5291,25 +4704,18 @@ msgid "Network $0 failed to get deactivated"
 msgstr "Не вдалося деактивувати мережу $0"
 
 #: pkg/metrics/metrics.jsx:116
-#, fuzzy
-#| msgid "Network"
-#| msgid_plural "Networks"
 msgid "Network I/O"
-msgstr "Мережа"
+msgstr "Вхід-вихід мережі"
 
 #: pkg/metrics/metrics.jsx:117
-#, fuzzy
-#| msgid "Networks"
 msgid "Network I/O spike"
-msgstr "Мережі"
+msgstr "Пік входу-виходу мережі"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:80
 msgid "Network bond"
 msgstr "Мережевий зв'язок"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:300
-#, fuzzy
-#| msgid "Network Boot (PXE)"
 msgid "Network boot (PXE)"
 msgstr "Мережеве завантаження (PXE)"
 
@@ -5322,8 +4728,6 @@ msgstr ""
 "NetworkManager."
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:59
-#, fuzzy
-#| msgid "Network File System"
 msgid "Network file system"
 msgstr "Мережева файлова система"
 
@@ -5333,22 +4737,16 @@ msgid "Network interface settings could not be saved"
 msgstr "Не вдалося зберегти параметри інтерфейсу мережі"
 
 #: pkg/networkmanager/network-main.jsx:201
-#, fuzzy
-#| msgid "Networking Logs"
 msgid "Network logs"
 msgstr "Журнали роботи у мережі"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:252
-#, fuzzy
-#| msgid "Network Selection does not support PXE."
 msgid "Network selection does not support PXE."
 msgstr "Для вибору мережі не передбачено підтримки PXE."
 
 #: pkg/metrics/metrics.jsx:543
-#, fuzzy
-#| msgid "Networks"
 msgid "Network usage"
-msgstr "Мережі"
+msgstr "Використання мережі"
 
 #: pkg/networkmanager/app.jsx:87
 #, fuzzy
@@ -5388,30 +4786,22 @@ msgid "Never lock account"
 msgstr "Ніколи не блокувати обліковий запис"
 
 #: pkg/storaged/nfs-details.jsx:144
-#, fuzzy
-#| msgid "New NFS Mount"
 msgid "New NFS mount"
 msgstr "Нове монтування NFS"
 
 #: pkg/shell/machines/machine-unknown-hostkey.html:2 pkg/static/login.js:646
-#, fuzzy
-#| msgid "Add new host"
 msgid "New host"
-msgstr "Додати новий вузол"
+msgstr "Новий вузол"
 
 #: pkg/shell/machines/machine-dialogs.js:745
-#, fuzzy
-#| msgid "New Password"
 msgid "New key password"
-msgstr "Новий пароль"
+msgstr "Новий пароль до ключа"
 
 #: pkg/storaged/crypto-keyslots.jsx:217 pkg/storaged/crypto-keyslots.jsx:263
 msgid "New passphrase"
 msgstr "Новий пароль"
 
 #: pkg/shell/index.html:251 pkg/users/password-dialogs.js:150
-#, fuzzy
-#| msgid "New Password"
 msgid "New password"
 msgstr "Новий пароль"
 
@@ -5420,8 +4810,6 @@ msgid "New password was not accepted"
 msgstr "Новий пароль не прийнято"
 
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:42
-#, fuzzy
-#| msgid "New Volume Name"
 msgid "New volume name"
 msgstr "Назва нового тому"
 
@@ -5477,28 +4865,20 @@ msgid "No connection available"
 msgstr "Немає опису"
 
 #: pkg/metrics/metrics.jsx:966
-#, fuzzy
-#| msgid "Not available"
 msgid "No data available"
-msgstr "Недоступний"
+msgstr "Немає доступним даних"
 
 #: pkg/metrics/metrics.jsx:962
-#, fuzzy
-#| msgid "Occurred between $0 and $1"
 msgid "No data available between $0 and $1"
-msgstr "Сталося між $0 і $1"
+msgstr "Немає доступних даних між $0 і $1"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:166
-#, fuzzy
-#| msgid "No Delay"
 msgid "No delay"
 msgstr "Без затримки"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:128
-#, fuzzy
-#| msgid "Description"
 msgid "No description"
-msgstr "Опис"
+msgstr "Немає опису"
 
 #: pkg/networkmanager/firewall.jsx:728
 msgid "No description available"
@@ -5509,8 +4889,6 @@ msgid "No description provided."
 msgstr "Опису не надано."
 
 #: pkg/storaged/things-panel.jsx:81
-#, fuzzy
-#| msgid "No Devices"
 msgid "No devices"
 msgstr "Немає пристроїв"
 
@@ -5529,8 +4907,6 @@ msgid "No drives attached"
 msgstr "Не долучено жодного диска"
 
 #: pkg/storaged/format-dialog.jsx:157
-#, fuzzy
-#| msgid "No Filesystem"
 msgid "No filesystem"
 msgstr "Немає файлової системи"
 
@@ -5563,14 +4939,10 @@ msgid "No log entries"
 msgstr "Немає записів у журналі"
 
 #: pkg/storaged/content-views.jsx:814
-#, fuzzy
-#| msgid "No Logical Volumes"
 msgid "No logical volumes"
 msgstr "Немає логічних томів"
 
 #: pkg/systemd/logs.js:113 pkg/systemd/logs.js:140 pkg/systemd/logs.js:268
-#, fuzzy
-#| msgid "No Logs Found"
 msgid "No logs found"
 msgstr "Журналів не знайдено"
 
@@ -5593,8 +4965,6 @@ msgstr ""
 "час завантаження. Приклад: crashkernel=512M"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:111
-#, fuzzy
-#| msgid "No Network Devices"
 msgid "No network devices"
 msgstr "Немає пристроїв мережі"
 
@@ -5611,10 +4981,8 @@ msgid "No networks available"
 msgstr "Немає доступних мереж"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:170
-#, fuzzy
-#| msgid "Parent"
 msgid "No parent"
-msgstr "Батьківський"
+msgstr "Немає батьківського запису"
 
 #: pkg/storaged/content-views.jsx:606
 msgid "No partitioning"
@@ -5646,14 +5014,10 @@ msgid "No snapshots defined for this VM"
 msgstr "Для цієї ВМ не визначено дисків"
 
 #: pkg/machines/helpers.js:220
-#, fuzzy
-#| msgid "State"
 msgid "No state"
-msgstr "Стан"
+msgstr "Немає стану"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:516
-#, fuzzy
-#| msgid "No Storage"
 msgid "No storage"
 msgstr "Немає сховища даних"
 
@@ -5662,14 +5026,10 @@ msgid "No storage pool is defined on this host"
 msgstr "На цьому вузлі не визначено буфера зберігання даних"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:130
-#, fuzzy
-#| msgid "No Storage Pools available"
 msgid "No storage pools available"
 msgstr "Немає доступних буферів зберігання даних"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:115
-#, fuzzy
-#| msgid "No Storage Volumes defined for this Storage Pool"
 msgid "No storage volumes defined for this storage pool"
 msgstr "Для цього буфера зберігання сховища не визначено томів сховища"
 
@@ -5679,25 +5039,18 @@ msgid "No such file or directory"
 msgstr "Немає такого файла або каталогу"
 
 #: pkg/lib/cockpit-components-modifications.jsx:142
-#, fuzzy
-#| msgid "No System Modifications"
 msgid "No system modifications"
 msgstr "Немає модифікацій системи"
 
 #: pkg/packagekit/autoupdates.jsx:355
-#, fuzzy
-#| msgid "$0 update"
-#| msgid_plural "$0 updates"
 msgid "No updates"
-msgstr "$0 оновлення"
+msgstr "Немає оновлень"
 
 #: pkg/users/account-create-dialog.js:87
 msgid "No user name specified"
 msgstr "Не вказано імені користувача"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:109
-#, fuzzy
-#| msgid "No Virtual Networks"
 msgid "No virtual networks"
 msgstr "Немає віртуальних мереж"
 
@@ -5723,8 +5076,6 @@ msgid "None"
 msgstr "Немає"
 
 #: pkg/machines/helpers.js:250
-#, fuzzy
-#| msgid "None (Isolated Network)"
 msgid "None (isolated network)"
 msgstr "Немає (ізольована мережа)"
 
@@ -5757,10 +5108,8 @@ msgid "Not connected to Insights"
 msgstr "Не з'єднано із Insights"
 
 #: pkg/shell/indexes.js:490
-#, fuzzy
-#| msgid "Not connected to Insights"
 msgid "Not connected to host"
-msgstr "Не з'єднано із Insights"
+msgstr "Не з'єднано із вузлом"
 
 #: pkg/storaged/lvol-tabs.jsx:368
 msgid "Not enough space to grow."
@@ -5783,14 +5132,10 @@ msgid "Not permitted to perform this action."
 msgstr "Немає дозволу на виконання цієї дії."
 
 #: pkg/playground/translate.html:29
-#, fuzzy
-#| msgid "Not Ready"
 msgid "Not ready"
 msgstr "Не готовий"
 
 #: pkg/packagekit/updates.jsx:1222
-#, fuzzy
-#| msgid "Not Registered"
 msgid "Not registered"
 msgstr "Не зареєстровано"
 
@@ -5817,11 +5162,8 @@ msgid "Notice and above"
 msgstr "Зауваження і вище"
 
 #: pkg/selinux/setroubleshoot-view.jsx:454
-#, fuzzy
-#| msgid "$0 occurrence"
-#| msgid_plural "$1 occurrences"
 msgid "Occurances"
-msgstr "$0 відповідник"
+msgstr "Випадки"
 
 #: pkg/selinux/setroubleshoot-view.jsx:392
 msgid "Occurred $0"
@@ -5840,8 +5182,6 @@ msgid "Old passphrase"
 msgstr "Старий пароль"
 
 #: pkg/shell/index.html:242 pkg/users/password-dialogs.js:141
-#, fuzzy
-#| msgid "Old Password"
 msgid "Old password"
 msgstr "Старий пароль"
 
@@ -5854,8 +5194,6 @@ msgid "On a mounted device"
 msgstr "На змонтованому пристрої"
 
 #: pkg/systemd/services/service-details.jsx:396
-#, fuzzy
-#| msgid "On Failure"
 msgid "On failure"
 msgstr "Якщо помилка"
 
@@ -5877,8 +5215,6 @@ msgstr ""
 
 #: pkg/systemd/overview-cards/realmd-operation.html:69
 #: pkg/systemd/overview-cards/realmd-operation.js:341
-#, fuzzy
-#| msgid "One Time Password"
 msgid "One time password"
 msgstr "Одноразовий пароль"
 
@@ -5896,8 +5232,6 @@ msgid "Only editable when the guest is shut off"
 msgstr "Можна редагувати, лише якщо гостьову систему вимкнено"
 
 #: pkg/systemd/logs.html:52
-#, fuzzy
-#| msgid "Only Emergency"
 msgid "Only emergency"
 msgstr "Лише критичне"
 
@@ -5910,10 +5244,8 @@ msgid "Open"
 msgstr "Відкрита"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:363
-#, fuzzy
-#| msgid "operating system"
 msgid "Operating system"
-msgstr "операційна система"
+msgstr "Операційна система"
 
 #: pkg/storaged/jobs-panel.jsx:87
 msgid "Operation '$operation' on $target"
@@ -5925,9 +5257,6 @@ msgid "Operation is in progress"
 msgstr "Виконується дія"
 
 #: pkg/storaged/drives-panel.jsx:76
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Optical Drive"
 msgctxt "storage"
 msgid "Optical drive"
 msgstr "Пристрій читання оптичних дисків"
@@ -5945,30 +5274,21 @@ msgid "Other"
 msgstr "Інше"
 
 #: pkg/storaged/content-views.jsx:413
-#, fuzzy
-#| msgctxt "storage-id-desc"
-#| msgid "Other Data"
 msgctxt "storage-id-desc"
 msgid "Other data"
 msgstr "Інші дані"
 
 #: pkg/storaged/others-panel.jsx:71
-#, fuzzy
-#| msgid "Other Devices"
 msgid "Other devices"
 msgstr "Інші пристрої"
 
 #: pkg/static/login.html:84
-#, fuzzy
-#| msgid "Other Options"
 msgid "Other options"
 msgstr "Інші параметри"
 
 #: pkg/metrics/metrics.jsx:544
-#, fuzzy
-#| msgid "Log Out"
 msgid "Out"
-msgstr "Вийти"
+msgstr "Вихід"
 
 #: pkg/metrics/metrics.jsx:1035
 #: pkg/machines/components/vm/vmDetailsPage.jsx:104
@@ -5992,7 +5312,7 @@ msgstr "PCP"
 
 #: pkg/metrics/metrics.jsx:936
 msgid "Package cockpit-pcp is missing for metrics history"
-msgstr ""
+msgstr "Не вистачає пакунка cockpit-pcp для журналу метрики"
 
 #: pkg/packagekit/updates.jsx:622 pkg/packagekit/updates.jsx:699
 msgid "Package information"
@@ -6011,16 +5331,12 @@ msgid "PackageKit reported error code $0"
 msgstr "PackageKit повідомлено про помилку із кодом $0"
 
 #: pkg/packagekit/updates.jsx:295
-#, fuzzy
-#| msgid "package"
 msgid "Packages"
-msgstr "пакунок"
+msgstr "Пакунки"
 
 #: pkg/shell/active-pages-dialog.jsx:67
-#, fuzzy
-#| msgid "User name"
 msgid "Page name"
-msgstr "Ім'я користувача"
+msgstr "Назва сторінки"
 
 #: pkg/networkmanager/index.html:45
 msgid "Parent"
@@ -6031,16 +5347,12 @@ msgid "Parent $parent"
 msgstr "Батьківський $parent"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:169
-#, fuzzy
-#| msgid "Create Snapshot"
 msgid "Parent snapshot"
-msgstr "Створення знімка"
+msgstr "Батьківський знімок"
 
 #: pkg/systemd/services/service-details.jsx:386
-#, fuzzy
-#| msgid "Part of "
 msgid "Part of"
-msgstr "Є частиною "
+msgstr "Частина"
 
 #: pkg/networkmanager/interfaces.js:1364
 msgid "Part of "
@@ -6093,8 +5405,6 @@ msgid "Password"
 msgstr "Пароль"
 
 #: pkg/users/expiration-dialogs.js:199
-#, fuzzy
-#| msgid "Password Expiration"
 msgid "Password expiration"
 msgstr "Строк дії пароля"
 
@@ -6141,8 +5451,6 @@ msgid "Path on host's filesystem"
 msgstr "Шлях у файловій системі вузла"
 
 #: pkg/storaged/nfs-details.jsx:156
-#, fuzzy
-#| msgid "Path on Server"
 msgid "Path on server"
 msgstr "Шлях на сервері"
 
@@ -6178,24 +5486,18 @@ msgid "Pause"
 msgstr "Призупинити"
 
 #: pkg/machines/helpers.js:213
-#, fuzzy
-#| msgid "Pause"
 msgid "Paused"
-msgstr "Призупинити"
+msgstr "Призупинено"
 
 #: pkg/metrics/index.html:20 pkg/metrics/metrics.jsx:1036
-#, fuzzy
-#| msgid "Performance profile"
 msgid "Performance Metrics"
-msgstr "Профіль швидкодії"
+msgstr "Метрика швидкодії"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:192
 msgid "Performance profile"
 msgstr "Профіль швидкодії"
 
 #: pkg/lib/machine-info.js:87
-#, fuzzy
-#| msgid "Peripheral Chassis"
 msgid "Peripheral chassis"
 msgstr "Периферійний апаратний блок"
 
@@ -6226,8 +5528,6 @@ msgid "Physical"
 msgstr "Фізичний"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:61
-#, fuzzy
-#| msgid "Physical Disk Device"
 msgid "Physical disk device"
 msgstr "Фізичний пристрій диска"
 
@@ -6236,8 +5536,6 @@ msgid "Physical disk device on host"
 msgstr "Фізичний пристрій у основній системі"
 
 #: pkg/storaged/content-views.jsx:161 pkg/storaged/content-views.jsx:403
-#, fuzzy
-#| msgid "Physical Volume"
 msgid "Physical volume"
 msgstr "Фізичний том"
 
@@ -6246,8 +5544,6 @@ msgid "Physical volume of $0"
 msgstr "Фізичний том $0"
 
 #: pkg/storaged/vgroup-details.jsx:127
-#, fuzzy
-#| msgid "Physical Volumes"
 msgid "Physical volumes"
 msgstr "Фізичні томи"
 
@@ -6256,26 +5552,18 @@ msgid "Physical volumes can not be resized here."
 msgstr "Тут не можна змінювати розміри фізичних томів."
 
 #: pkg/lib/cockpit-components-shutdown.jsx:205
-#, fuzzy
-#| msgid "date"
 msgid "Pick date"
-msgstr "дата"
+msgstr "Вибрати дату"
 
 #: pkg/networkmanager/index.html:232
-#, fuzzy
-#| msgid "Ping Interval"
 msgid "Ping interval"
 msgstr "Проміжок між імпульсами"
 
 #: pkg/networkmanager/index.html:236
-#, fuzzy
-#| msgid "Ping Target"
 msgid "Ping target"
 msgstr "Ціль тестування луною"
 
 #: pkg/lib/machine-info.js:71
-#, fuzzy
-#| msgid "Pizza Box"
 msgid "Pizza box"
 msgstr "З коробку для піци"
 
@@ -6304,6 +5592,7 @@ msgstr "Будь ласка, підтвердьте зупинку $0"
 #: pkg/static/login.html:34
 msgid "Please enable JavaScript to use the Web Console."
 msgstr ""
+"Щоб мати змогу користуватися вебконсоллю, будь ласка, увімкніть JavaScript."
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:334
 msgid "Please enter new volume name"
@@ -6347,14 +5636,10 @@ msgid "Pool"
 msgstr "Буфер"
 
 #: pkg/storaged/utils.js:192
-#, fuzzy
-#| msgid "Pool for Thin Logical Volumes"
 msgid "Pool for thin logical volumes"
 msgstr "Буфер для тонких логічних томів"
 
 #: pkg/storaged/content-views.jsx:683
-#, fuzzy
-#| msgid "Pool for Thin Volumes"
 msgid "Pool for thin volumes"
 msgstr "Буфер для тонких томів"
 
@@ -6411,14 +5696,10 @@ msgid "Prefix length"
 msgstr "Довжина префікса"
 
 #: pkg/networkmanager/interfaces.js:1881
-#, fuzzy
-#| msgid "Prefix length or Netmask"
 msgid "Prefix length or netmask"
 msgstr "Довжина префікса або маска мережі"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:91
-#, fuzzy
-#| msgid "Prefix Length should not be empty"
 msgid "Prefix length should not be empty"
 msgstr "Довжина префікса повинна бути непорожньою"
 
@@ -6435,8 +5716,6 @@ msgid "Preserve"
 msgstr "Зберегти"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:438
-#, fuzzy
-#| msgid "Pretty Host Name"
 msgid "Pretty host name"
 msgstr "Зручна назва вузла"
 
@@ -6449,6 +5728,8 @@ msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
 msgstr ""
+"За допомогою раніше зроблених знімків ви зможете повернутися до попереднього "
+"стану, якщо щось піде не так"
 
 #: pkg/networkmanager/index.html:178
 msgid "Primary"
@@ -6506,8 +5787,6 @@ msgid "Prompting via ssh-keygen timed out"
 msgstr "Час очікування відповіді на запит за допомогою ssh-keygen вичерпано"
 
 #: pkg/systemd/services/service-details.jsx:399
-#, fuzzy
-#| msgid "Propagates Reload To"
 msgid "Propagates reload to"
 msgstr "Поширює перезавантаження на"
 
@@ -6518,8 +5797,6 @@ msgid "Protocol"
 msgstr "Протокол"
 
 #: pkg/shell/index.html:188 pkg/shell/machines/machine-auth-failed.html:9
-#, fuzzy
-#| msgid "Public Key"
 msgid "Public key"
 msgstr "Відкритий ключ"
 
@@ -6536,8 +5813,6 @@ msgid "RAID 0"
 msgstr "RAID 0"
 
 #: pkg/storaged/mdraids-panel.jsx:68
-#, fuzzy
-#| msgid "RAID 0 (Stripe)"
 msgid "RAID 0 (stripe)"
 msgstr "RAID 0 (Стрічка)"
 
@@ -6546,8 +5821,6 @@ msgid "RAID 1"
 msgstr "RAID 1"
 
 #: pkg/storaged/mdraids-panel.jsx:72
-#, fuzzy
-#| msgid "RAID 1 (Mirror)"
 msgid "RAID 1 (mirror)"
 msgstr "RAID 1 (Дзеркало)"
 
@@ -6556,8 +5829,6 @@ msgid "RAID 10"
 msgstr "RAID 10"
 
 #: pkg/storaged/mdraids-panel.jsx:88
-#, fuzzy
-#| msgid "RAID 10 (Stripe of Mirrors)"
 msgid "RAID 10 (stripe of mirrors)"
 msgstr "RAID 10 (Стрічка дзеркал)"
 
@@ -6566,8 +5837,6 @@ msgid "RAID 4"
 msgstr "RAID 4"
 
 #: pkg/storaged/mdraids-panel.jsx:76
-#, fuzzy
-#| msgid "RAID 4 (Dedicated Parity)"
 msgid "RAID 4 (dedicated parity)"
 msgstr "RAID 4 (Пов’язана парність)"
 
@@ -6576,8 +5845,6 @@ msgid "RAID 5"
 msgstr "RAID 5"
 
 #: pkg/storaged/mdraids-panel.jsx:80
-#, fuzzy
-#| msgid "RAID 5 (Distributed Parity)"
 msgid "RAID 5 (distributed parity)"
 msgstr "RAID 5 (Розподілена парність)"
 
@@ -6586,55 +5853,39 @@ msgid "RAID 6"
 msgstr "RAID 6"
 
 #: pkg/storaged/mdraids-panel.jsx:84
-#, fuzzy
-#| msgid "RAID 6 (Double Distributed Parity)"
 msgid "RAID 6 (double distributed parity)"
 msgstr "RAID 6 (Подвійна розподілена парність)"
 
 #: pkg/lib/machine-info.js:88
-#, fuzzy
-#| msgid "RAID Chassis"
 msgid "RAID chassis"
 msgstr "Апаратний блок RAID"
 
 #: pkg/storaged/pvol-tabs.jsx:66 pkg/storaged/mdraids-panel.jsx:41
-#, fuzzy
-#| msgid "RAID Device"
 msgid "RAID device"
 msgstr "пристрій RAID"
 
 #: pkg/storaged/mdraid-details.jsx:315 pkg/storaged/utils.js:242
-#, fuzzy
-#| msgid "RAID Device $0"
 msgid "RAID device $0"
 msgstr "Пристій RAID $0"
 
 #: pkg/storaged/mdraids-panel.jsx:62
-#, fuzzy
-#| msgid "RAID Level"
 msgid "RAID level"
 msgstr "Рівень RAID"
 
 #: pkg/storaged/mdraid-details.jsx:343
-#, fuzzy
-#| msgid "RAID Level"
 msgctxt "storage"
 msgid "RAID level"
 msgstr "Рівень RAID"
 
 #: pkg/storaged/content-views.jsx:164
-#, fuzzy
-#| msgid "RAID Member"
 msgid "RAID member"
 msgstr "Елемент RAID"
 
 #: pkg/metrics/metrics.jsx:468
 msgid "RAM"
-msgstr ""
+msgstr "Пам'ять"
 
 #: pkg/lib/machine-info.js:89
-#, fuzzy
-#| msgid "Rack Mount Chassis"
 msgid "Rack mount chassis"
 msgstr "Апаратний блок монтування стійок"
 
@@ -6659,10 +5910,8 @@ msgid "Raw to a device"
 msgstr "Без обробки на пристрій"
 
 #: pkg/metrics/metrics.jsx:497
-#, fuzzy
-#| msgid "Ready"
 msgid "Read"
-msgstr "Готовий"
+msgstr "Читання"
 
 #: pkg/systemd/hwinfo.jsx:218
 msgid "Read more..."
@@ -6688,8 +5937,6 @@ msgid "Ready"
 msgstr "Готово"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:441
-#, fuzzy
-#| msgid "Real Host Name"
 msgid "Real host name"
 msgstr "Справжня назва вузла"
 
@@ -6743,8 +5990,6 @@ msgid "Recovering"
 msgstr "Відновлюємо"
 
 #: pkg/storaged/jobs-panel.jsx:68
-#, fuzzy
-#| msgid "Recovering RAID Device $target"
 msgid "Recovering RAID device $target"
 msgstr "Відновлюємо пристрій RAID $target"
 
@@ -6773,8 +6018,6 @@ msgid "Reload"
 msgstr "Перезавантажити"
 
 #: pkg/systemd/services/service-details.jsx:400
-#, fuzzy
-#| msgid "Reload Propagated From"
 msgid "Reload propagated from"
 msgstr "Поширене перезавантаження з"
 
@@ -6795,15 +6038,10 @@ msgid "Remote over SSH"
 msgstr "Віддалене на основі SSH"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:55
-#, fuzzy
-#| msgid "Remote over NFS"
 msgid "Remote viewer details"
-msgstr "Віддалене на основі NFS"
+msgstr "Параметри віддаленого переглядача"
 
 #: pkg/storaged/drives-panel.jsx:72 pkg/storaged/drives-panel.jsx:74
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Removable Drive"
 msgctxt "storage"
 msgid "Removable drive"
 msgstr "Портативний диск"
@@ -6866,8 +6104,6 @@ msgid "Removing $0"
 msgstr "Вилучаємо $0"
 
 #: pkg/storaged/jobs-panel.jsx:64
-#, fuzzy
-#| msgid "Removing $target from RAID Device"
 msgid "Removing $target from RAID device"
 msgstr "Вилучаємо $target з пристрою RAID"
 
@@ -6903,14 +6139,10 @@ msgid "Rename"
 msgstr "Перейменувати"
 
 #: pkg/storaged/lvol-tabs.jsx:39
-#, fuzzy
-#| msgid "Rename Logical Volume"
 msgid "Rename logical volume"
 msgstr "Перейменувати логічний том"
 
 #: pkg/storaged/vgroup-details.jsx:164
-#, fuzzy
-#| msgid "Rename Volume Group"
 msgid "Rename volume group"
 msgstr "Перейменувати групу томів"
 
@@ -6923,20 +6155,14 @@ msgid "Repairing $target"
 msgstr "Відновлюємо $target"
 
 #: pkg/systemd/services.html:247
-#, fuzzy
-#| msgid "Repeat Daily"
 msgid "Repeat daily"
 msgstr "Повторювати щодня"
 
 #: pkg/systemd/services.html:246
-#, fuzzy
-#| msgid "Repeat Hourly"
 msgid "Repeat hourly"
 msgstr "Повторювати щогодини"
 
 #: pkg/systemd/services.html:249
-#, fuzzy
-#| msgid "Repeat Monthly"
 msgid "Repeat monthly"
 msgstr "Повторювати щомісяця"
 
@@ -6946,14 +6172,10 @@ msgid "Repeat passphrase"
 msgstr "Повторіть пароль"
 
 #: pkg/systemd/services.html:248
-#, fuzzy
-#| msgid "Repeat Weekly"
 msgid "Repeat weekly"
 msgstr "Повторювати щотижня"
 
 #: pkg/systemd/services.html:250
-#, fuzzy
-#| msgid "Repeat Yearly"
 msgid "Repeat yearly"
 msgstr "Повторювати щороку"
 
@@ -6990,10 +6212,8 @@ msgid "Require password change on $0"
 msgstr "Вимагати зміну пароля $0"
 
 #: pkg/systemd/services/service-details.jsx:387
-#, fuzzy
-#| msgid "Required by "
 msgid "Required by"
-msgstr "Потрібен для "
+msgstr "Потрібен для"
 
 #: pkg/systemd/services/service-details.jsx:339
 msgid "Required by "
@@ -7012,8 +6232,6 @@ msgid "Requisite"
 msgstr "Потрібний"
 
 #: pkg/systemd/services/service-details.jsx:388
-#, fuzzy
-#| msgid "Requisite Of"
 msgid "Requisite of"
 msgstr "Потрібний для"
 
@@ -7026,10 +6244,8 @@ msgid "Reset"
 msgstr "Скинути"
 
 #: pkg/users/password-dialogs.js:276
-#, fuzzy
-#| msgid "Set Password"
 msgid "Reset password"
-msgstr "Встановити пароль"
+msgstr "Скинути пароль"
 
 #: pkg/storaged/jobs-panel.jsx:43 pkg/storaged/jobs-panel.jsx:49
 #: pkg/storaged/jobs-panel.jsx:81
@@ -7075,14 +6291,12 @@ msgstr "Відновити"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:68
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:192
-#, fuzzy
-#| msgid "Never"
 msgid "Revert"
-msgstr "Ніколи"
+msgstr "Повернутися"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:63
 msgid "Revert to snapshot $0"
-msgstr ""
+msgstr "Повернутися до знімка $0"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:76
 msgid ""
@@ -7090,6 +6304,9 @@ msgid ""
 "and the current state will be lost, along with any data not captured in a "
 "snapshot"
 msgstr ""
+"Повернення до цього знімка переведе віртуальну машину до стану на момент "
+"створення знімка — поточний стан буде втрачено разом із усіма даними, які не "
+"захоплено до знімка"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Reviewing logs"
@@ -7100,14 +6317,10 @@ msgid "Roles"
 msgstr "Ролі"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:464
-#, fuzzy
-#| msgid "Root Password"
 msgid "Root password"
 msgstr "Пароль root"
 
 #: pkg/networkmanager/interfaces.js:1464 pkg/networkmanager/interfaces.js:1481
-#, fuzzy
-#| msgid "Round Robin"
 msgid "Round robin"
 msgstr "Циклічне"
 
@@ -7116,8 +6329,6 @@ msgid "Route to $0"
 msgstr "Маршрут до $0"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:100
-#, fuzzy
-#| msgid "Routed Network"
 msgid "Routed network"
 msgstr "Маршрутизована мережа"
 
@@ -7153,8 +6364,6 @@ msgid "SELinux"
 msgstr "SELinux"
 
 #: pkg/selinux/setroubleshoot-view.jsx:362
-#, fuzzy
-#| msgid "SELinux Access Control Errors"
 msgid "SELinux access control errors"
 msgstr "Помилка керування доступом SELinux"
 
@@ -7167,8 +6376,6 @@ msgid "SELinux is disabled on the system."
 msgstr "SELinux вимкнено у системі."
 
 #: pkg/selinux/setroubleshoot-view.jsx:293
-#, fuzzy
-#| msgid "SELinux Policy"
 msgid "SELinux policy"
 msgstr "Правила SELinux"
 
@@ -7177,8 +6384,6 @@ msgid "SELinux system status is unknown."
 msgstr "Стан системи SELinux є невідомим."
 
 #: pkg/selinux/setroubleshoot.html:23
-#, fuzzy
-#| msgid "SELinux Troubleshoot"
 msgid "SELinux troubleshoot"
 msgstr "Усування вад SELinux"
 
@@ -7205,38 +6410,26 @@ msgid "SPICE port"
 msgstr "Порт SPICE:"
 
 #: pkg/shell/machines/machine-change-auth.html:46
-#, fuzzy
-#| msgid "SSH Keys"
 msgid "SSH key"
-msgstr "Ключі SSH"
+msgstr "Ключ SSH"
 
 #: pkg/shell/index.html:77 pkg/shell/index.html:115
-#, fuzzy
-#| msgid "SSH Keys"
 msgid "SSH keys"
 msgstr "Ключі SSH"
 
 #: pkg/networkmanager/index.html:117
-#, fuzzy
-#| msgid "STP Forward delay"
 msgid "STP forward delay"
 msgstr "Затримка переспрямування STP"
 
 #: pkg/networkmanager/index.html:121
-#, fuzzy
-#| msgid "STP Hello time"
 msgid "STP hello time"
 msgstr "Час вітання STP"
 
 #: pkg/networkmanager/index.html:125
-#, fuzzy
-#| msgid "STP Maximum message age"
 msgid "STP maximum message age"
 msgstr "Максимальний вік повідомлення STP"
 
 #: pkg/networkmanager/index.html:113
-#, fuzzy
-#| msgid "STP Priority"
 msgid "STP priority"
 msgstr "Пріоритет STP"
 
@@ -7272,7 +6465,7 @@ msgstr "Зберегти і перезавантажити"
 #: pkg/packagekit/autoupdates.jsx:424
 #: pkg/systemd/overview-cards/motdCard.jsx:98
 msgid "Save changes"
-msgstr ""
+msgstr "Зберегти зміни"
 
 #: pkg/storaged/vdos-panel.jsx:121
 msgid "Save space by compressing individual blocks with LZ4"
@@ -7308,8 +6501,6 @@ msgid "Seconds"
 msgstr "Секунди"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:197
-#, fuzzy
-#| msgid "Secure Shell keys"
 msgid "Secure shell keys"
 msgstr "Ключі SSH"
 
@@ -7318,32 +6509,24 @@ msgid "Securely erasing $target"
 msgstr "Безпечно витираємо $target"
 
 #: pkg/packagekit/autoupdates.jsx:269
-#, fuzzy
-#| msgid "Apply security updates"
 msgid "Security updates "
-msgstr "Застосувати оновлення захисту"
+msgstr "Оновлення захисту "
 
 #: pkg/packagekit/updates.jsx:1281
-#, fuzzy
-#| msgid "Security Updates Available"
 msgid "Security updates available"
 msgstr "Доступні оновлення захисту"
 
 #: pkg/packagekit/autoupdates.jsx:361
-#, fuzzy
-#| msgid "Security Updates Available"
 msgid "Security updates only"
-msgstr "Доступні оновлення захисту"
+msgstr "Лише оновлення захисту"
 
 #: pkg/shell/shell-modals.jsx:86
 msgid "Select"
 msgstr "Вибрати"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:97
-#, fuzzy
-#| msgid "Console Type"
 msgid "Select console type"
-msgstr "Тип консолі"
+msgstr "Вибір типу консолі"
 
 #: pkg/systemd/services/services.jsx:735
 #, fuzzy
@@ -7360,8 +6543,6 @@ msgid "Send key"
 msgstr "Надіслати ключ"
 
 #: pkg/machines/components/vm/vmActions.jsx:236
-#, fuzzy
-#| msgid "Send Non-Maskable Interrupt"
 msgid "Send non-maskable interrupt"
 msgstr "Надіслати немасковане переривання"
 
@@ -7372,15 +6553,10 @@ msgid "Sending"
 msgstr "Надсилання"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:98
-#, fuzzy
-#| msgid "Serial Console"
 msgid "Serial console"
 msgstr "Послідовна консоль"
 
 #: pkg/storaged/drive-details.jsx:82
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Serial Number"
 msgctxt "storage"
 msgid "Serial number"
 msgstr "Серійний номер"
@@ -7391,8 +6567,6 @@ msgid "Server"
 msgstr "Сервер"
 
 #: pkg/storaged/iscsi-panel.jsx:44 pkg/storaged/nfs-details.jsx:147
-#, fuzzy
-#| msgid "Server Address"
 msgid "Server address"
 msgstr "Адреса сервера"
 
@@ -7401,8 +6575,6 @@ msgid "Server address cannot be empty."
 msgstr "Адреса сервера не може бути порожньою."
 
 #: pkg/users/account-roles.js:62 pkg/users/account-roles.js:63
-#, fuzzy
-#| msgid "Server Administrator"
 msgid "Server administrator"
 msgstr "Адміністратор сервера"
 
@@ -7415,8 +6587,6 @@ msgid "Server has closed the connection."
 msgstr "З’єднання розірвано сервером."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:18
-#, fuzzy
-#| msgid "Server Software"
 msgid "Server software"
 msgstr "Програмне забезпечення сервера"
 
@@ -7446,8 +6616,6 @@ msgid "Service is stopping"
 msgstr "Служба зупиняється"
 
 #: pkg/systemd/services/service.jsx:89
-#, fuzzy
-#| msgid "Service Logs"
 msgid "Service logs"
 msgstr "Журнали служб"
 
@@ -7474,14 +6642,10 @@ msgid "Set"
 msgstr "Встановити"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:207
-#, fuzzy
-#| msgid "Set DHCP Range"
 msgid "Set DHCP range"
 msgstr "Встановити діапазон DHCP"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:147
-#, fuzzy
-#| msgid "Set Hostname"
 msgid "Set hostname"
 msgstr "Встановити назву вузла"
 
@@ -7491,14 +6655,10 @@ msgstr "Встановити вручну"
 
 #: pkg/users/account-details.js:329 pkg/users/password-dialogs.js:213
 #: pkg/users/password-dialogs.js:223 pkg/users/password-dialogs.js:230
-#, fuzzy
-#| msgid "Set Password"
 msgid "Set password"
 msgstr "Встановити пароль"
 
 #: pkg/lib/serverTime.js:522
-#, fuzzy
-#| msgid "Set Time"
 msgid "Set time"
 msgstr "Встановити час"
 
@@ -7542,8 +6702,6 @@ msgid "Shared"
 msgstr "Спільний"
 
 #: pkg/lib/cockpit-components-modifications.jsx:90
-#, fuzzy
-#| msgid "Shell Script"
 msgid "Shell script"
 msgstr "Скрипт оболонки"
 
@@ -7552,26 +6710,20 @@ msgid "Shift+Insert"
 msgstr "Shift+Insert"
 
 #: pkg/storaged/things-panel.jsx:82
-#, fuzzy
-#| msgid "Show all $0 devices"
 msgid "Show $0 device"
 msgid_plural "Show all $0 devices"
-msgstr[0] "Показати усі $0 пристроїв"
-msgstr[1] "Показати усі $0 пристроїв"
+msgstr[0] "Показати усі $0 пристрій"
+msgstr[1] "Показати усі $0 пристрої"
 msgstr[2] "Показати усі $0 пристроїв"
 
 #: pkg/storaged/drives-panel.jsx:104
-#, fuzzy
-#| msgid "Show all $0 drives"
 msgid "Show $0 drive"
 msgid_plural "Show all $0 drives"
-msgstr[0] "Показати усі диски $0"
-msgstr[1] "Показати усі диски $0"
-msgstr[2] "Показати усі диски $0"
+msgstr[0] "Показати увесь $0 диск"
+msgstr[1] "Показати усі $0 диски"
+msgstr[2] "Показати усі $0 дисків"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:146
-#, fuzzy
-#| msgid "Show Additional Options"
 msgid "Show additional options"
 msgstr "Показати додаткові параметри"
 
@@ -7580,10 +6732,8 @@ msgid "Show all"
 msgstr "Показати усі"
 
 #: pkg/systemd/abrtLog.jsx:214
-#, fuzzy
-#| msgid "Show all images"
 msgid "Show all threads"
-msgstr "Показати усі образи"
+msgstr "Показати усі потоки"
 
 #: pkg/systemd/logs.html:104 pkg/systemd/logs.js:416 pkg/systemd/logs.js:552
 msgid "Show filters"
@@ -7598,14 +6748,10 @@ msgid "Shrink"
 msgstr "Стиснути"
 
 #: pkg/storaged/lvol-tabs.jsx:327
-#, fuzzy
-#| msgid "Shrink Logical Volume"
 msgid "Shrink logical volume"
 msgstr "Стиснути логічний том"
 
 #: pkg/storaged/lvol-tabs.jsx:415
-#, fuzzy
-#| msgid "Shrink Volume"
 msgid "Shrink volume"
 msgstr "Стиснути том"
 
@@ -7613,16 +6759,12 @@ msgstr "Стиснути том"
 #: pkg/machines/components/vm/vmActions.jsx:221
 #: pkg/lib/cockpit-components-shutdown.jsx:181
 #: pkg/lib/cockpit-components-shutdown.jsx:183
-#, fuzzy
-#| msgid "Shutdown"
 msgid "Shut down"
 msgstr "Вимкнути"
 
 #: pkg/machines/helpers.js:215
-#, fuzzy
-#| msgid "shut off"
 msgid "Shut off"
-msgstr "вимкнути"
+msgstr "Вимкнути"
 
 #: pkg/machines/components/vm/overview/firmware.jsx:138
 msgid "Shut off the VM in order to edit firmware configuration"
@@ -7636,14 +6778,10 @@ msgstr "Вимкнути"
 
 #: pkg/machines/helpers.js:214
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:147
-#, fuzzy
-#| msgid "Shutdown"
 msgid "Shutting down"
-msgstr "Вимкнути"
+msgstr "Вимикання"
 
 #: pkg/lib/machine-info.js:246
-#, fuzzy
-#| msgid "Single Rank"
 msgid "Single rank"
 msgstr "Єдиний ранг"
 
@@ -7686,8 +6824,6 @@ msgid "Skip main navigation"
 msgstr "Пропустити основну навігацію"
 
 #: pkg/shell/index.html:15
-#, fuzzy
-#| msgid "Skip to Content"
 msgid "Skip to content"
 msgstr "Перейти до вмісту"
 
@@ -7700,16 +6836,12 @@ msgid "Slot $0"
 msgstr "Слот $0"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCreateModal.jsx:112
-#, fuzzy
-#| msgid "Disk failed to be created"
 msgid "Snapshot failed to be created"
-msgstr "Не вдалося створити диск"
+msgstr "Не вдалося створити знімок"
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:154
-#, fuzzy
-#| msgid "Create Snapshot"
 msgid "Snapshots"
-msgstr "Створення знімка"
+msgstr "Знімки"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:211
 #: pkg/systemd/services/service-tabs.jsx:40
@@ -7721,8 +6853,6 @@ msgid "Software Updates"
 msgstr "Оновлення програм"
 
 #: pkg/packagekit/index.html:23
-#, fuzzy
-#| msgid "Software Updates"
 msgid "Software updates"
 msgstr "Оновлення програм"
 
@@ -7765,8 +6895,6 @@ msgid "Something went wrong"
 msgstr "Щось пішло не так"
 
 #: pkg/networkmanager/firewall.jsx:705
-#, fuzzy
-#| msgid "Sorted from least trusted to most trusted"
 msgid "Sorted from least to most trusted"
 msgstr "Упорядковано від найменшої до найбільшої довіри"
 
@@ -7779,8 +6907,6 @@ msgid "Source"
 msgstr "Джерело"
 
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:58
-#, fuzzy
-#| msgid "Source Format"
 msgid "Source format"
 msgstr "Початковий формат"
 
@@ -7788,8 +6914,6 @@ msgstr "Початковий формат"
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:190
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:43
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:48
-#, fuzzy
-#| msgid "Source Path"
 msgid "Source path"
 msgstr "Шлях до джерела"
 
@@ -7803,26 +6927,18 @@ msgid "Source should start with http, ftp or nfs protocol"
 msgstr "Адреса джерела має починатися із назви протоколу — http, ftp або nfs"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:217
-#, fuzzy
-#| msgid "Source Volume Group"
 msgid "Source volume group"
 msgstr "Початкова група томів"
 
 #: pkg/lib/machine-info.js:81
-#, fuzzy
-#| msgid "Space-saving Computer"
 msgid "Space-saving computer"
 msgstr "Компактний комп'ютер"
 
 #: pkg/networkmanager/network-interface.jsx:541
-#, fuzzy
-#| msgid "Spanning Tree Protocol"
 msgid "Spanning tree protocol"
 msgstr "Протокол пересування ієрархією"
 
 #: pkg/networkmanager/index.html:107
-#, fuzzy
-#| msgid "Spanning Tree Protocol (STP)"
 msgid "Spanning tree protocol (STP)"
 msgstr "Протокол пересування ієрархією (STP)"
 
@@ -7831,8 +6947,6 @@ msgid "Spare"
 msgstr "Запас"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:174
-#, fuzzy
-#| msgid "Specific Time"
 msgid "Specific time"
 msgstr "У визначений час"
 
@@ -7852,8 +6966,6 @@ msgid "Start"
 msgstr "Почати"
 
 #: pkg/systemd/services/service-details.jsx:378
-#, fuzzy
-#| msgid "Start and Enable"
 msgid "Start and enable"
 msgstr "Запустити і увімкнути"
 
@@ -7862,8 +6974,6 @@ msgid "Start libvirt"
 msgstr "Запустити libvirt"
 
 #: pkg/storaged/multipath.jsx:72
-#, fuzzy
-#| msgid "Start Multipath"
 msgid "Start multipath"
 msgstr "Запустити Multipath"
 
@@ -7872,8 +6982,6 @@ msgid "Start pool when host boots"
 msgstr "Запускати резервне сховище після завантаження вузла"
 
 #: pkg/networkmanager/app.jsx:72 pkg/systemd/services/service-details.jsx:307
-#, fuzzy
-#| msgid "Start Service"
 msgid "Start service"
 msgstr "Запустити службу"
 
@@ -7883,8 +6991,6 @@ msgid "Start should not be empty"
 msgstr "Початок повинен бути непорожнім"
 
 #: pkg/storaged/jobs-panel.jsx:62
-#, fuzzy
-#| msgid "Starting RAID Device $target"
 msgid "Starting RAID device $target"
 msgstr "Зупиняємо пристрій RAID $target"
 
@@ -7936,8 +7042,6 @@ msgid "Stop"
 msgstr "Зупинити"
 
 #: pkg/systemd/services/service-details.jsx:378
-#, fuzzy
-#| msgid "Stop and Disable"
 msgid "Stop and disable"
 msgstr "Зупинити і вимкнути"
 
@@ -7946,14 +7050,10 @@ msgid "Stop and remove"
 msgstr "Зупинити і вилучити"
 
 #: pkg/storaged/nfs-details.jsx:268
-#, fuzzy
-#| msgid "Stop and Unmount"
 msgid "Stop and unmount"
 msgstr "Зупинити і демонтувати"
 
 #: pkg/storaged/mdraid-details.jsx:248
-#, fuzzy
-#| msgid "Stop Device"
 msgid "Stop device"
 msgstr "Зупинити пристрій"
 
@@ -7962,8 +7062,6 @@ msgid "Stop editing hosts"
 msgstr "Припинити редагування вузлів"
 
 #: pkg/storaged/jobs-panel.jsx:61
-#, fuzzy
-#| msgid "Stopping RAID Device $target"
 msgid "Stopping RAID device $target"
 msgstr "Зупиняємо пристрій RAID $target"
 
@@ -7982,50 +7080,36 @@ msgid "Storage can not be managed on this system."
 msgstr "У цій системі не можна керувати сховищем даних."
 
 #: pkg/storaged/logs-panel.jsx:39
-#, fuzzy
-#| msgid "Storage Logs"
 msgid "Storage logs"
 msgstr "Журнали зберігання"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:118
-#, fuzzy
-#| msgid "Storage Pool $0 failed to get activated"
 msgid "Storage pool $0 failed to get activated"
 msgstr "Не вдалося активувати буфер сховища $0"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:138
-#, fuzzy
-#| msgid "Storage Pool $0 failed to get deactivated"
 msgid "Storage pool $0 failed to get deactivated"
 msgstr "Не вдалося деактивувати буфер сховища $0"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:393
-#, fuzzy
-#| msgid "Storage Pool failed to be created"
 msgid "Storage pool failed to be created"
 msgstr "Не вдалося створити резервне сховище"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:48
-#, fuzzy
-#| msgid "Storage Pool Name"
 msgid "Storage pool name"
 msgstr "Назва резервного сховища"
 
 #: pkg/machines/components/storagePools/storagePoolList.jsx:56
 #: pkg/machines/components/storagePools/storagePoolList.jsx:63
 #: pkg/machines/components/storagePools/storagePoolList.jsx:70
-#, fuzzy
-#| msgid "Storage pool"
 msgid "Storage pools"
-msgstr "Буфер сховища"
+msgstr "Буфери даних"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:182
 msgid "Storage size must not be 0"
 msgstr "Розмір сховища має бути ненульовим"
 
 #: pkg/machines/components/vm/disks/diskEdit.jsx:45
-#, fuzzy
-#| msgid "Storage Volume"
 msgid "Storage volume"
 msgstr "Том сховища даних"
 
@@ -8033,16 +7117,14 @@ msgstr "Том сховища даних"
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:64
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
+"Розмір тому сховища даних не повинен перевищувати місткість буфера сховища "
+"даних ($0 $1)"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:75
-#, fuzzy
-#| msgid "Storage Volumes"
 msgid "Storage volumes"
 msgstr "Томи даних"
 
 #: pkg/machines/components/storagePools/storageVolumeDelete.jsx:44
-#, fuzzy
-#| msgid "Storage Volumes could not be deleted"
 msgid "Storage volumes could not be deleted"
 msgstr "Не вдалося вилучити томи сховища даних"
 
@@ -8061,14 +7143,10 @@ msgid "Stored passphrase"
 msgstr "Збережений пароль"
 
 #: pkg/lib/machine-info.js:85
-#, fuzzy
-#| msgid "Sub Chassis"
 msgid "Sub-Chassis"
 msgstr "Підблок"
 
 #: pkg/lib/machine-info.js:80
-#, fuzzy
-#| msgid "Sub Notebook"
 msgid "Sub-Notebook"
 msgstr "Підноутбук"
 
@@ -8085,8 +7163,6 @@ msgid "Support is installed."
 msgstr "Підтримку встановлено."
 
 #: pkg/machines/helpers.js:218
-#, fuzzy
-#| msgid "suspended (PM)"
 msgid "Suspended (PM)"
 msgstr "призупинено (PM)"
 
@@ -8096,15 +7172,10 @@ msgid "Swap"
 msgstr "Свопінґ"
 
 #: pkg/metrics/metrics.jsx:101
-#, fuzzy
-#| msgid "Swap"
 msgid "Swap out"
-msgstr "Свопінґ"
+msgstr "Резервування"
 
 #: pkg/storaged/content-views.jsx:411
-#, fuzzy
-#| msgctxt "storage-id-desc"
-#| msgid "Swap Space"
 msgctxt "storage-id-desc"
 msgid "Swap space"
 msgstr "Резервна пам’ять"
@@ -8167,8 +7238,6 @@ msgid "Synchronizing"
 msgstr "Синхронізація"
 
 #: pkg/storaged/jobs-panel.jsx:69
-#, fuzzy
-#| msgid "Synchronizing RAID Device $target"
 msgid "Synchronizing RAID device $target"
 msgstr "Синхронізуємо пристрій RAID $target"
 
@@ -8188,14 +7257,10 @@ msgid "System is up to date"
 msgstr "Система не потребує оновлення"
 
 #: pkg/selinux/setroubleshoot-view.jsx:464
-#, fuzzy
-#| msgid "System Modifications"
 msgid "System modifications"
 msgstr "Модифікації системи"
 
 #: pkg/systemd/services/service-tabs.jsx:38
-#, fuzzy
-#| msgid "System Services"
 msgid "System services"
 msgstr "Служби системи"
 
@@ -8204,8 +7269,6 @@ msgid "System time"
 msgstr "Системний час"
 
 #: pkg/systemd/services/services-list.jsx:33
-#, fuzzy
-#| msgid "Systemd Units"
 msgid "Systemd units"
 msgstr "Модулі systemd"
 
@@ -8227,8 +7290,6 @@ msgstr "Призначення"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:101
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:63
-#, fuzzy
-#| msgid "Target Path"
 msgid "Target path"
 msgstr "Шлях призначення"
 
@@ -8247,20 +7308,14 @@ msgid "Team"
 msgstr "Команда"
 
 #: pkg/networkmanager/network-interface.jsx:526
-#, fuzzy
-#| msgid "Team Port"
 msgid "Team port"
 msgstr "Порт команди"
 
 #: pkg/networkmanager/index.html:373
-#, fuzzy
-#| msgid "Team Port Settings"
 msgid "Team port settings"
 msgstr "Параметри порту команди"
 
 #: pkg/networkmanager/index.html:344
-#, fuzzy
-#| msgid "Team Settings"
 msgid "Team settings"
 msgstr "Параметри команди"
 
@@ -8269,14 +7324,10 @@ msgid "Terminal"
 msgstr "Термінал"
 
 #: pkg/users/account-details.js:265
-#, fuzzy
-#| msgid "Terminate Session"
 msgid "Terminate session"
 msgstr "Перервати сеанс"
 
 #: pkg/kdump/kdump-view.jsx:482 pkg/kdump/kdump-view.jsx:490
-#, fuzzy
-#| msgid "Test Configuration"
 msgid "Test configuration"
 msgstr "Налаштування перевірки"
 
@@ -8305,14 +7356,10 @@ msgid "The $0 package must be installed to create VDO devices."
 msgstr "Для створення пристроїв VDO має бути встановлено пакунок $0."
 
 #: pkg/shell/machines/machine-dialogs.js:403
-#, fuzzy
-#| msgid "The IP address or host name cannot contain whitespace."
 msgid "The IP address or hostname cannot contain whitespace."
 msgstr "У IP-адресі або назві вузла не повинно бути пробілів."
 
 #: pkg/storaged/mdraid-details.jsx:218
-#, fuzzy
-#| msgid "The RAID Array is in a degraded state"
 msgid "The RAID array is in a degraded state"
 msgstr "Масив RAID перебуває у стані із погіршеними властивостями"
 
@@ -8329,6 +7376,8 @@ msgid ""
 "The SSH key ${key} of ${luser} on ${lhost} will be added to the ${afile} "
 "file of ${ruser} on ${rhost}."
 msgstr ""
+"Ключ SSH ${key} ${luser} на ${lhost} буде додано до файла ${afile} ${ruser} "
+"на ${rhost}."
 
 #: pkg/shell/machines/machine-change-auth.html:28
 msgid ""
@@ -8336,6 +7385,9 @@ msgid ""
 "protected. You can log in with either your login password or by providing "
 "the password of the key at {{#strong}}{{key}}{{/strong}}."
 msgstr ""
+"Ключ SSH для входу до {{#strong}}{{full_address}}{{/strong}} захищено. Ви "
+"можете увійти або за допомогою пароль до вашого облікового запису або "
+"вказавши пароль до ключа у {{#strong}}{{key}}{{/strong}}."
 
 #: pkg/shell/machines/machine-change-auth.html:55
 msgid ""
@@ -8343,6 +7395,8 @@ msgid ""
 "remainder of the session and will be available for login to other hosts as "
 "well."
 msgstr ""
+"Ключ SSH {{#strong}}{{key}}{{/strong}} буде доступним протягом решти сеансу "
+"і також буде доступним для входу на інші вузли."
 
 #: pkg/machines/components/vm/deleteDialog.jsx:64
 msgid "The VM is running and will be forced off before deletion."
@@ -8396,25 +7450,18 @@ msgid "The filesystem has no permanent mount point."
 msgstr "У файлової системи немає сталої точки монтування."
 
 #: pkg/storaged/fsys-tab.jsx:277
-#, fuzzy
-#| msgid ""
-#| "The filesystem is already mounted at $0.  Proceeding will unmount it."
 msgid "The filesystem is already mounted at $0. Proceeding will unmount it."
 msgstr ""
 "Файлову систему вже змонтовано до $0. У результаті виконання цієї дії її "
 "буде демонтовано."
 
 #: pkg/storaged/fsys-tab.jsx:494
-#, fuzzy
-#| msgid ""
-#| "The filesystem is currently mounted on $0 but will not be mounted after "
-#| "the next boot."
 msgid ""
 "The filesystem is configured to be automatically mounted on boot but its "
 "encryption container will not be unlocked at that time."
 msgstr ""
-"Файлову систему зараз змонтовано до $0, але її не буде змонтовано після "
-"наступного завантаження."
+"Файлову систему налаштовано на автоматичне монтування при вході до системи, "
+"але її контейнер шифрування не буде розблоковано вчасно."
 
 #: pkg/storaged/fsys-tab.jsx:486
 msgid ""
@@ -8490,16 +7537,12 @@ msgstr ""
 "стороннім особам."
 
 #: pkg/shell/machines/machine-dialogs.js:866
-#, fuzzy
-#| msgid "This field cannot be empty."
 msgid "The key password can not be empty"
-msgstr "Вміст цього поля не може бути порожнім."
+msgstr "Пароль до ключа не може бути порожнім"
 
 #: pkg/shell/machines/machine-dialogs.js:874
-#, fuzzy
-#| msgid "The passwords do not match"
 msgid "The key passwords do not match"
-msgstr "Паролі не збігаються"
+msgstr "Паролі до ключа не збігаються"
 
 #: pkg/users/authorized-keys.js:124
 msgid "The key you provided was not valid."
@@ -8530,16 +7573,12 @@ msgid "The machine is rebooting"
 msgstr "Комп’ютер перезавантажується"
 
 #: pkg/shell/machines/machine-dialogs.js:882
-#, fuzzy
-#| msgid "The last key slot can not be removed"
 msgid "The new key password can not be empty"
-msgstr "Не можна вилучати останній слот ключів"
+msgstr "Новий пароль до ключа не може бути порожнім"
 
 #: pkg/shell/machines/machine-dialogs.js:887
-#, fuzzy
-#| msgid "The passwords do not match"
 msgid "The new key passwords do not match"
-msgstr "Паролі не збігаються"
+msgstr "Нові паролі до ключа не збігаються"
 
 #: pkg/users/account-create-dialog.js:202 pkg/users/password-dialogs.js:208
 msgid "The passwords do not match"
@@ -8559,28 +7598,20 @@ msgid ""
 "The resulting fingerprint is fine to share via public methods, including "
 "email."
 msgstr ""
+"Відбиток-результат можна поширювати у спосіб із загальним доступом, зокрема "
+"електронною поштою."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:431
-#, fuzzy
-#| msgid ""
-#| "The selected Operating System does not support unattended installation"
 msgid "The selected operating system does not support unattended installation"
 msgstr ""
 "Для вибраної операційної системи не передбачено підтримки автоматичного "
 "встановлення"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:173
-#, fuzzy
-#| msgid ""
-#| "The selected Operating System has minimum memory requirement of $0 $1"
 msgid "The selected operating system has minimum memory requirement of $0 $1"
 msgstr "Для вибраної операційної системи мінімальним обсягом пам'яті є $0 $1"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:188
-#, fuzzy
-#| msgid ""
-#| "The selected Operating System has minimum storage size requirement of $0 "
-#| "$1"
 msgid ""
 "The selected operating system has minimum storage size requirement of $0 $1"
 msgstr ""
@@ -8603,8 +7634,6 @@ msgstr ""
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:125
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:129
-#, fuzzy
-#| msgid "The Storage Pool could not be deleted"
 msgid "The storage pool could not be deleted"
 msgstr "Не вдалося вилучити буфер сховища даних"
 
@@ -8679,8 +7708,6 @@ msgstr ""
 "помилка."
 
 #: pkg/storaged/utils.js:194
-#, fuzzy
-#| msgid "Thin Logical Volume"
 msgid "Thin logical volume"
 msgstr "Тонкий логічний том"
 
@@ -8764,7 +7791,7 @@ msgstr "Вміст цього поля не може бути порожнім."
 
 #: pkg/packagekit/autoupdates.jsx:394
 msgid "This host will reboot after updates are installed."
-msgstr ""
+msgstr "Цей вузол буде перезавантажено після встановлення оновлень."
 
 #: pkg/storaged/lvol-tabs.jsx:410
 msgid "This logical volume is not completely used by its content."
@@ -8830,16 +7857,14 @@ msgid "This volume needs to be activated before it can be resized."
 msgstr "Перш ніж розмір цього тому можна буде змінювати, його слід активувати."
 
 #: pkg/static/login.js:163
-#, fuzzy
-#| msgid "This web browser is too old to run Cockpit (missing $0)"
 msgid "This web browser is too old to run the Web Console (missing $0)"
 msgstr ""
-"Ця програма для перегляду інтернету є надто старою для роботи з Cockpit (не "
-"вистачає можливості $0)"
+"Ця програма для перегляду інтернету є надто старою для роботи з вебконсоллю ("
+"не вистачає можливості $0)"
 
 #: pkg/shell/machines/machine-dialogs.js:757
 msgid "This will allow you to log in without password in the future."
-msgstr ""
+msgstr "Це надасть вам змогу надалі входити без пароля."
 
 #: pkg/kdump/kdump-view.jsx:300
 msgid ""
@@ -8880,8 +7905,6 @@ msgid "Time"
 msgstr "Час"
 
 #: pkg/lib/serverTime.js:512
-#, fuzzy
-#| msgid "Time Zone"
 msgid "Time zone"
 msgstr "Часовий пояс"
 
@@ -8903,6 +7926,8 @@ msgid ""
 "To ensure that your connection is not intercepted by a malicious third-"
 "party, please verify the host key fingerprint:"
 msgstr ""
+"Щоб переконатися, що дані вашого з'єднання не буде перехоплено "
+"зловмисниками, будь ласка, підтвердьте відбиток ключа вузла:"
 
 #: pkg/packagekit/updates.jsx:1233
 msgid ""
@@ -8918,6 +7943,8 @@ msgid ""
 "To verify a fingerprint, run the following on $0 while physically sitting at "
 "the machine or through a trusted network:"
 msgstr ""
+"Щоб перевірити відбиток, віддайте вказану нижче команду для $0 під час "
+"безпосередньої роботи на комп'ютері або з використанням надійної мережі:"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:18
 #: pkg/shell/machines/machine-unknown-hostkey.html:10
@@ -8925,11 +7952,13 @@ msgid ""
 "To verify a fingerprint, run the following on {{host}} while physically "
 "sitting at the machine or through a trusted network:"
 msgstr ""
+"Щоб перевірити відбиток, віддайте вказану нижче команду для {{host}} під час "
+"безпосередньої роботи на комп'ютері або з використанням надійної мережі:"
 
 #: pkg/metrics/metrics.jsx:968
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:40
 msgid "Today"
-msgstr ""
+msgstr "Сьогодні"
 
 #: pkg/storaged/mdraid-details.jsx:205
 msgid "Toggle bitmap"
@@ -8949,13 +7978,11 @@ msgstr "Інструменти"
 
 #: pkg/metrics/metrics.jsx:450
 msgid "Top 5 CPU services"
-msgstr ""
+msgstr "Основні 5 служб процесора"
 
 #: pkg/metrics/metrics.jsx:483
-#, fuzzy
-#| msgid "No Network Devices"
 msgid "Top 5 memory services"
-msgstr "Немає пристроїв мережі"
+msgstr "Основні 5 служб пам'яті"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:98
 msgid "Total size: $0"
@@ -8972,8 +7999,6 @@ msgstr ""
 "налаштувань мікропрограми"
 
 #: pkg/systemd/services/service-details.jsx:398
-#, fuzzy
-#| msgid "Triggered By"
 msgid "Triggered by"
 msgstr "Причина вмикання"
 
@@ -9026,6 +8051,9 @@ msgid ""
 "under certain workloads. The core of Tuned are profiles, which tune your "
 "system for different use cases."
 msgstr ""
+"Tuned — служба, яка стежить за вашою системою і оптимізує швидкодію за "
+"певних умов навантаження. Ядром Tuned є профілі, які налаштовують вашу "
+"систему для різних умов користування."
 
 #: pkg/tuned/dialog.js:93
 msgid "Tuned is not available"
@@ -9097,23 +8125,16 @@ msgid "Unable to connect to that address"
 msgstr "Не вдалося встановити з’єднання із цією адресою"
 
 #: pkg/shell/machines/machine-dialogs.js:475
-#, fuzzy
-#| msgid ""
-#| "Cockpit could not contact the given host $0. Make sure it has ssh running "
-#| "on port $1, or specify another port in the address."
 msgid ""
 "Unable to contact the given host $0. Make sure it has ssh running on port "
 "$1, or specify another port in the address."
 msgstr ""
-"Cockpit не вдалося встановити зв’язок із вказаним вузлом $0. Переконайтеся, "
-"що ssh запущено на порту $1 або вкажіть інший порт у адресі."
+"Не вдалося встановити зв’язок із вказаним вузлом $0. Переконайтеся, що ssh "
+"запущено на порту $1 або вкажіть інший порт у адресі."
 
 #: pkg/shell/machines/machine-change-port.html:9
-#, fuzzy
-#| msgid "Cockpit was unable to contact {{#strong}}{{host}}{{/strong}}."
 msgid "Unable to contact {{#strong}}{{host}}{{/strong}}."
-msgstr ""
-"Cockpit не вдалося встановити зв’язок ізt {{#strong}}{{host}}{{/strong}}."
+msgstr "Не вдалося зв'язатися із {{#strong}}{{host}}{{/strong}}."
 
 #: pkg/selinux/setroubleshoot-view.jsx:80
 #: pkg/selinux/setroubleshoot-view.jsx:213
@@ -9130,46 +8151,37 @@ msgid ""
 "authentication. Please provide the password. You may want to set up your SSH "
 "keys for automatic login."
 msgstr ""
+"Не вдалося увійти до {{#strong}}{{full_address}}{{/strong}} за допомогою "
+"розпізнавання за ключем SSH. Будь ласка, вкажіть пароль. Ви можете "
+"налаштувати ваші ключі SSH для автоматичного входу до системи."
 
 #: pkg/shell/machines/machine-change-auth.html:10
 msgid ""
 "Unable to log in to {{#strong}}{{full_address}}{{/strong}}. The host does "
 "not accept password login or any of your SSH keys."
 msgstr ""
+"Не вдалося увійти до {{#strong}}{{full_address}}{{/strong}}. Вузол не "
+"приймає входу за паролем або будь-яким з ваших ключів SSH."
 
 #: pkg/shell/machines/machine-auth-failed.html:15
-#, fuzzy
-#| msgid ""
-#| "Cockpit was unable to log in to {{#strong}}{{host}}{{/strong}}. "
-#| "{{#can_sync}}You may want to try to {{#sync_link}}synchronize users{{/"
-#| "sync_link}}.{{/can_sync}} For more authentication options and "
-#| "troubleshooting support please upgrade cockpit-ws to a newer version."
 msgid ""
 "Unable to log in to {{#strong}}{{host}}{{/strong}}. For more authentication "
 "options and troubleshooting support please upgrade cockpit-ws to a newer "
 "version."
 msgstr ""
-"Cockpit не вдалося увійти до {{#strong}}{{host}}{{/strong}}. {{#can_sync}}"
-"Вам варто спробувати {{#sync_link}}синхронізувати користувачів{{/sync_link}}."
-"{{/can_sync}} Щоб отримати доступ до ширшого спектра способів розпізнавання "
-"та до підтримки діагностики помилок, будь ласка, оновіть cockpit-ws."
+"Не вдалося увійти до {{#strong}}{{host}}{{/strong}}. Щоб отримати доступ до "
+"ширшого спектра способів розпізнавання та до підтримки діагностики помилок, "
+"будь ласка, оновіть cockpit-ws."
 
 #: pkg/shell/machines/machine-auth-failed.html:6
-#, fuzzy
-#| msgid ""
-#| "Cockpit was unable to log into {{#strong}}{{host}}{{/strong}}. To use "
-#| "this machine with cockpit you will need to enable one of the following "
-#| "authentication methods in the sshd config on {{#strong}}{{host}}{{/"
-#| "strong}}:"
 msgid ""
 "Unable to log in to {{#strong}}{{host}}{{/strong}}. To connect to this host "
 "you will need to enable one of the following authentication methods in the "
 "sshd config on {{#strong}}{{host}}{{/strong}}:"
 msgstr ""
-"Cockpit не вдалося увійти до {{#strong}}{{host}}{{/strong}}. Щоб "
-"користуватися цим комп’ютером за допомогою cockpit, вам слід увімкнути "
-"вказані нижче способи розпізнавання у налаштуваннях sshd на {{#strong}}"
-"{{host}}{{/strong}}:"
+"Не вдалося увійти до {{#strong}}{{host}}{{/strong}}. Щоб з'єднатися із цим "
+"вузлом, вам слід увімкнути вказані нижче способи розпізнавання у "
+"налаштуваннях sshd на {{#strong}}{{host}}{{/strong}}:"
 
 #: pkg/storaged/iscsi-panel.jsx:88
 msgid "Unable to reach server"
@@ -9205,8 +8217,6 @@ msgid "Unique name"
 msgstr "Унікальна назва"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:123
-#, fuzzy
-#| msgid "Unique Network Name"
 msgid "Unique network name"
 msgstr "Унікальна назва мережі"
 
@@ -9238,8 +8248,6 @@ msgid "Unknown ($0)"
 msgstr "Невідомий ($0)"
 
 #: pkg/apps/application.jsx:103
-#, fuzzy
-#| msgid "Unknown Application"
 msgid "Unknown application"
 msgstr "Невідома програма"
 
@@ -9273,8 +8281,6 @@ msgid "Unlock at boot"
 msgstr "Розблокувати при завантаженні"
 
 #: pkg/shell/index.html:170 pkg/shell/index.html:214
-#, fuzzy
-#| msgid "Unlock Key"
 msgid "Unlock key"
 msgstr "Розблокувати ключ"
 
@@ -9292,8 +8298,6 @@ msgstr "Розблоковуємо диск…"
 
 #: pkg/networkmanager/network-main.jsx:189
 #: pkg/networkmanager/network-main.jsx:191
-#, fuzzy
-#| msgid "Unmanaged Interfaces"
 msgid "Unmanaged interfaces"
 msgstr "Некеровані інтерфейси"
 
@@ -9303,8 +8307,6 @@ msgid "Unmount"
 msgstr "Демонтувати"
 
 #: pkg/storaged/fsys-tab.jsx:284
-#, fuzzy
-#| msgid "Unmount Filesystem"
 msgid "Unmount filesystem"
 msgstr "Демонтувати файлову систему"
 
@@ -9325,14 +8327,10 @@ msgid "Unplug"
 msgstr "Від'єднати"
 
 #: pkg/storaged/content-views.jsx:171
-#, fuzzy
-#| msgid "Unrecognized Data"
 msgid "Unrecognized data"
 msgstr "Нерозпізнані дані"
 
 #: pkg/storaged/content-views.jsx:418
-#, fuzzy
-#| msgid "Unrecognized Data"
 msgctxt "storage-id-desc"
 msgid "Unrecognized data"
 msgstr "Нерозпізнані дані"
@@ -9360,14 +8358,10 @@ msgid "Update Success Table"
 msgstr "Доступні оновлення"
 
 #: pkg/packagekit/updates.jsx:866
-#, fuzzy
-#| msgid "Update History"
 msgid "Update history"
 msgstr "Історія оновлень"
 
 #: pkg/packagekit/updates.jsx:551
-#, fuzzy
-#| msgid "Update Log"
 msgid "Update log"
 msgstr "Журнал оновлень"
 
@@ -9390,22 +8384,16 @@ msgid "Updated packages may require a reboot to take effect."
 msgstr "Використання оновлених пакунків може потребувати перезапуску."
 
 #: pkg/packagekit/autoupdates.jsx:269
-#, fuzzy
-#| msgid "Update"
 msgid "Updates "
-msgstr "Оновити"
+msgstr "Оновлення "
 
 #: pkg/packagekit/updates.jsx:1287
-#, fuzzy
-#| msgid "Updates Available"
 msgid "Updates available"
 msgstr "Доступні оновлення"
 
 #: pkg/packagekit/history.jsx:105
-#, fuzzy
-#| msgid "Update History"
 msgid "Updates history"
-msgstr "Історія оновлень"
+msgstr "Журнал оновлень"
 
 #: pkg/packagekit/updates.jsx:84
 msgid "Updating"
@@ -9432,8 +8420,6 @@ msgid "Usage"
 msgstr "Використання"
 
 #: pkg/storaged/vdos-panel.jsx:128
-#, fuzzy
-#| msgid "Use 512 Byte emulation"
 msgid "Use 512 byte emulation"
 msgstr "Емуляція 512 байтів"
 
@@ -9450,8 +8436,6 @@ msgid "Use deduplication"
 msgstr "Скасування дублювання"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:571
-#, fuzzy
-#| msgid "Use Existing"
 msgid "Use existing"
 msgstr "Використати наявний"
 
@@ -9491,8 +8475,6 @@ msgstr "Ім’я користувача не може бути порожнім
 
 #: pkg/systemd/overview-cards/realmd-operation.html:60
 #: pkg/systemd/overview-cards/realmd-operation.js:340
-#, fuzzy
-#| msgid "User Password"
 msgid "User password"
 msgstr "Пароль користувача"
 
@@ -9517,14 +8499,10 @@ msgid "VCPU settings could not be saved"
 msgstr "Не вдалося зберегти параметри віртуальних процесорів"
 
 #: pkg/storaged/content-views.jsx:166
-#, fuzzy
-#| msgid "VDO Backing"
 msgid "VDO backing"
 msgstr "Резерв VDO"
 
 #: pkg/storaged/content-views.jsx:416
-#, fuzzy
-#| msgid "VDO Backing"
 msgctxt "storage-id-desc"
 msgid "VDO backing"
 msgstr "Резерв VDO"
@@ -9534,14 +8512,10 @@ msgid "VDO backing devices can not be made smaller"
 msgstr "Пристрої резервного копіювання VDO не можна звужувати"
 
 #: pkg/storaged/pvol-tabs.jsx:87 pkg/storaged/vdos-panel.jsx:57
-#, fuzzy
-#| msgid "VDO Device"
 msgid "VDO device"
 msgstr "Пристрій VDO"
 
 #: pkg/storaged/vdo-details.jsx:257 pkg/storaged/utils.js:253
-#, fuzzy
-#| msgid "VDO Device $0"
 msgid "VDO device $0"
 msgstr "Пристрій VDO $0"
 
@@ -9552,14 +8526,10 @@ msgid "VLAN"
 msgstr "VLAN"
 
 #: pkg/networkmanager/index.html:50
-#, fuzzy
-#| msgid "VLAN Id"
 msgid "VLAN ID"
 msgstr "Ід. VLAN"
 
 #: pkg/networkmanager/index.html:460
-#, fuzzy
-#| msgid "VLAN Settings"
 msgid "VLAN settings"
 msgstr "Параметри VLAN"
 
@@ -9572,8 +8542,6 @@ msgid "VM $0 does not exist on $1 connection"
 msgstr ""
 
 #: pkg/machines/components/vm/vmActions.jsx:110
-#, fuzzy
-#| msgid "VM $0 failed to force Reboot"
 msgid "VM $0 failed to force reboot"
 msgstr "Не вдалося примусово перезавантажити віртуальну машину $0"
 
@@ -9595,8 +8563,6 @@ msgid "VM $0 failed to pause"
 msgstr "Не вдалося призупинити віртуальну машину $0"
 
 #: pkg/machines/components/vm/vmActions.jsx:98
-#, fuzzy
-#| msgid "VM $0 failed to Reboot"
 msgid "VM $0 failed to reboot"
 msgstr "Не вдалося перезавантажити віртуальну машину $0"
 
@@ -9617,10 +8583,8 @@ msgid "VM $0 failed to start"
 msgstr "Не вдалося запустити віртуальну машину $0"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:139
-#, fuzzy
-#| msgid "State"
 msgid "VM state"
-msgstr "Стан"
+msgstr "Стан ВМ"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:53
 #, fuzzy
@@ -9635,10 +8599,8 @@ msgid "VNC address"
 msgstr "Адреса VNC:"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:99
-#, fuzzy
-#| msgid "console"
 msgid "VNC console"
-msgstr "консоль"
+msgstr "Консоль VNC"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:51
 #, fuzzy
@@ -9691,17 +8653,15 @@ msgstr "Переглянути скрипт автоматизації"
 
 #: pkg/systemd/overview-cards/usageCard.jsx:147
 msgid "View details and history"
-msgstr ""
+msgstr "Переглянути подробиці і журнал"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:138
 msgid "View hardware details"
 msgstr "Переглянути параметри обладнання"
 
 #: pkg/apps/application.jsx:71
-#, fuzzy
-#| msgid "Project website"
 msgid "View project website"
-msgstr "Сайт проєкту"
+msgstr "Переглянути сайт проєкту"
 
 #: pkg/systemd/reporting.jsx:397
 msgid "View report"
@@ -9717,32 +8677,22 @@ msgstr "Віртуальні машини"
 #: pkg/machines/components/vm/vmDetailsPage.jsx:182
 #: pkg/machines/components/storagePools/storagePoolList.jsx:53
 #: pkg/machines/components/networks/networkList.jsx:56
-#, fuzzy
-#| msgid "Virtual Machines"
 msgid "Virtual machines"
 msgstr "Віртуальні машини"
 
 #: pkg/machines/index.html:4
-#, fuzzy
-#| msgid "Virtual Machines Management"
 msgid "Virtual machines management"
 msgstr "Керування віртуальними машинами"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:158
-#, fuzzy
-#| msgid "Virtual Network"
 msgid "Virtual network"
 msgstr "Віртуальна мережа"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:361
-#, fuzzy
-#| msgid "Virtual Network failed to be created"
 msgid "Virtual network failed to be created"
 msgstr "Не вдалося створити віртуальну мережу"
 
 #: pkg/machines/components/libvirtSlate.jsx:105
-#, fuzzy
-#| msgid "Virtualization Service (libvirt) is Not Active"
 msgid "Virtualization service (libvirt) is not active"
 msgstr "Служба віртуалізації (libvirt) не є активною"
 
@@ -9760,26 +8710,18 @@ msgid "Volume failed to be created"
 msgstr "Не вдалося створити том"
 
 #: pkg/storaged/vgroups-panel.jsx:40 pkg/storaged/pvol-tabs.jsx:41
-#, fuzzy
-#| msgid "Volume Group"
 msgid "Volume group"
 msgstr "Група томів"
 
 #: pkg/storaged/vgroup-details.jsx:220 pkg/storaged/utils.js:248
-#, fuzzy
-#| msgid "Volume Group $0"
 msgid "Volume group $0"
 msgstr "Група томів $0"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:167
-#, fuzzy
-#| msgid "Volume Group name"
 msgid "Volume group name"
 msgstr "Назва групи томів"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:218
-#, fuzzy
-#| msgid "Volume Group name should not be empty"
 msgid "Volume group name should not be empty"
 msgstr "Назва групи томів має бути непорожньою"
 
@@ -9820,8 +8762,6 @@ msgid "Waiting to start…"
 msgstr "Очікуємо на запуск…"
 
 #: pkg/systemd/services/service-details.jsx:389
-#, fuzzy
-#| msgid "Wanted By"
 msgid "Wanted by"
 msgstr "Бажаний для"
 
@@ -9869,11 +8809,11 @@ msgstr "Що робити, якщо tang-show-keys є недоступною?"
 
 #: pkg/packagekit/autoupdates.jsx:373
 msgid "When"
-msgstr ""
+msgstr "Якщо"
 
 #: pkg/shell/machines/machine-add.html:34
 msgid "When empty, connect with the current user"
-msgstr ""
+msgstr "Якщо не вказано, з'єднатися із поточним користувачем"
 
 #: pkg/packagekit/updates.jsx:454 pkg/packagekit/updates.jsx:850
 msgid ""
@@ -9887,18 +8827,13 @@ msgid "White"
 msgstr "Білий"
 
 #: pkg/storaged/drive-details.jsx:83
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "World Wide Name"
 msgctxt "storage"
 msgid "World wide name"
-msgstr "World Wide Name"
+msgstr "World wide name"
 
 #: pkg/metrics/metrics.jsx:501
-#, fuzzy
-#| msgid "ReadWrite"
 msgid "Write"
-msgstr "Запис-читання"
+msgstr "Запис"
 
 #: pkg/storaged/mdraid-details.jsx:110
 msgid "Write-mostly"
@@ -9928,15 +8863,15 @@ msgstr "Так"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:39
 msgid "Yesterday"
-msgstr ""
+msgstr "Вчора"
 
 #: pkg/static/login.js:648
 msgid "You are connecting to $0 for the first time."
-msgstr ""
+msgstr "Ви вперше встановлюєте з'єднання із $0."
 
 #: pkg/shell/machines/machine-unknown-hostkey.html:6
 msgid "You are connecting to {{host}} for the first time."
-msgstr ""
+msgstr "Ви вперше встановлюєте з'єднання із {{host}}."
 
 #: pkg/networkmanager/firewall-switch.jsx:58
 #: pkg/networkmanager/firewall.jsx:152
@@ -9966,7 +8901,7 @@ msgstr "Ви можете спробувати завантажити старі
 #: pkg/shell/machines/machine-change-auth.html:22
 #: pkg/shell/machines/machine-change-auth.html:29
 msgid "You may want to change the password of the key for automatic login."
-msgstr ""
+msgstr "Ви можете змінити пароль до ключа для автоматичного входу до системи."
 
 #: pkg/users/password-dialogs.js:79
 msgid "You must wait longer to change your password"
@@ -9974,23 +8909,17 @@ msgstr "Для зміни вашого пароля вам доведеться 
 
 #: pkg/metrics/metrics.jsx:930
 msgid "You need to relogin to be able to see metrics"
-msgstr ""
+msgstr "Вам слід повторно увійти до системи, щоб мати змогу переглядати метрику"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:138
-#, fuzzy
-#| msgid "You need to select the most closely matching Operating System"
 msgid "You need to select the most closely matching operating system"
 msgstr "Вам слід вибрати найвідповіднішу операційну систему"
 
 #: pkg/sosreport/index.html:39
-#, fuzzy
-#| msgid ""
-#| "You need to switch to \"Administrative Access\" in order to create "
-#| "reports."
 msgid ""
 "You need to switch to \"Administrative access\" in order to create reports."
 msgstr ""
-"Вам слід перемкнутися у режим «Адміністративний доступ», щоб мати змогу "
+"Вам слід перемкнутися на «Адміністративний доступ», щоб мати змогу "
 "створювати звіти."
 
 #: pkg/shell/superuser.jsx:285
@@ -10119,10 +9048,8 @@ msgid "cdrom"
 msgstr "cdrom"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Group"
 msgid "cgroups"
-msgstr "Група"
+msgstr "cgroups"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "command"
@@ -10179,10 +9106,8 @@ msgid "disk"
 msgstr "диск"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "udisks"
 msgid "disks"
-msgstr "udisks"
+msgstr "диски"
 
 #: pkg/packagekit/manifest.json.in:0
 msgid "dnf"
@@ -10283,10 +9208,8 @@ msgid "hardware"
 msgstr "обладнання"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Directory"
 msgid "history"
-msgstr "Каталог"
+msgstr "журнал"
 
 #: pkg/machines/helpers.js:232 pkg/systemd/manifest.json.in:0
 msgid "host"
@@ -10297,30 +9220,22 @@ msgid "host device"
 msgstr "пристрій основної системи"
 
 #: pkg/machines/helpers.js:233
-#, fuzzy
-#| msgid "to host path"
 msgid "host passthrough"
-msgstr "до шляху на вузлі"
+msgstr "передавання вузла"
 
 #: pkg/machines/helpers.js:241
 msgid "hostdev"
 msgstr "пристрій осн. системи"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:66
-#, fuzzy
-#| msgid "iSCSI direct Target"
 msgid "iSCSI direct target"
 msgstr "Безпосереднє призначення iSCSI"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:142
-#, fuzzy
-#| msgid "iSCSI Initiator IQN"
 msgid "iSCSI initiator IQN"
 msgstr "IQN ініціатора iSCSI"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:60
-#, fuzzy
-#| msgid "iSCSI Target"
 msgid "iSCSI target"
 msgstr "Ціль iSCSI"
 
@@ -10329,14 +9244,12 @@ msgid "iSCSI target IQN"
 msgstr "IQN цілі iSCSI"
 
 #: pkg/storaged/iscsi-panel.jsx:268
-#, fuzzy
-#| msgid "iSCSI Targets"
 msgid "iSCSI targets"
 msgstr "Призначення iSCSI"
 
 #: pkg/shell/shell-modals.jsx:124
 msgid "in most browsers"
-msgstr ""
+msgstr "у більшості браузерів"
 
 #: pkg/apps/manifest.json.in:0
 msgid "install"
@@ -10435,10 +9348,8 @@ msgid "memory"
 msgstr "пам'ять"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Store metrics"
 msgid "metrics"
-msgstr "Метрика зберігання"
+msgstr "метрика"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "mitigation"
@@ -10472,7 +9383,7 @@ msgstr ""
 
 #: pkg/metrics/metrics.jsx:84
 msgid "nice"
-msgstr ""
+msgstr "пріоритетність"
 
 #: pkg/machines/helpers.js:260
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:69
@@ -10483,7 +9394,7 @@ msgstr "ні"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:142
 msgid "no state saved"
-msgstr ""
+msgstr "немає збережених станів"
 
 #: pkg/tuned/dialog.js:103
 msgid "none"
@@ -10533,10 +9444,8 @@ msgid "pci"
 msgstr "pci"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "cpu"
 msgid "pcp"
-msgstr "процесор"
+msgstr "pcp"
 
 #: pkg/apps/manifest.json.in:0
 msgid "plugin"
@@ -10667,10 +9576,8 @@ msgid "ssh server is empty"
 msgstr "запис сервера ssh є порожнім"
 
 #: pkg/metrics/metrics.jsx:84
-#, fuzzy
-#| msgid "sos"
 msgid "sys"
-msgstr "sos"
+msgstr "sys"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "systemctl"
@@ -10755,14 +9662,10 @@ msgid "username"
 msgstr "користувач"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:182
-#, fuzzy
-#| msgid "vCPU Count"
 msgid "vCPU count"
 msgstr "К-ть вірт. процесорів"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:195
-#, fuzzy
-#| msgid "vCPU Maximum"
 msgid "vCPU maximum"
 msgstr "Макс. вірт. процесорів"
 
@@ -10783,22 +9686,16 @@ msgid "vhostuser"
 msgstr "vhostuser"
 
 #: pkg/machines/components/common/stateIcon.jsx:60
-#, fuzzy
-#| msgid "Read more..."
 msgid "view more..."
-msgstr "Докладніше…"
+msgstr "докладніше…"
 
 #: pkg/machines/components/vm/vmActions.jsx:298
-#, fuzzy
-#| msgid ""
-#| "virt-install package needs to be installed on the system in order to "
-#| "create new VMs"
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
 msgstr ""
-"Для створення нових віртуальних машин у системі має бути встановлено пакунок "
-"virt-install"
+"Для клонування віртуальних машин у системі має бути встановлено пакунок virt-"
+"install"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1001
 msgid ""
@@ -10809,16 +9706,12 @@ msgstr ""
 "virt-install"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:183
-#, fuzzy
-#| msgid ""
-#| "virt-install package needs to be installed on the system in order to "
-#| "create new VMs"
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
 msgstr ""
-"Для створення нових віртуальних машин у системі має бути встановлено пакунок "
-"virt-install"
+"Для редагування цього атрибута у системі має бути встановлено пакунок virt-"
+"install"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "vlan"
@@ -10838,7 +9731,7 @@ msgstr "попередження"
 
 #: pkg/packagekit/autoupdates.jsx:270
 msgid "will be applied $0 at $1"
-msgstr ""
+msgstr "буде застосовано $0 $1"
 
 #: pkg/machines/helpers.js:259
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:69
@@ -10857,7 +9750,7 @@ msgstr "зона"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:2
 msgid "{{host}} key changed"
-msgstr ""
+msgstr "Змінено ключ {{host}}"
 
 #~ msgid "$0 Template"
 #~ msgstr "Шаблон $0"
