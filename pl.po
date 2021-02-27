@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
-"PO-Revision-Date: 2021-01-23 16:37+0000\n"
+"PO-Revision-Date: 2021-02-28 12:40+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/pl/>\n"
@@ -25,70 +25,51 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 
 #: pkg/metrics/metrics.jsx:379
-#, fuzzy
-#| msgid "of $0 CPU"
-#| msgid_plural "of $0 CPUs"
 msgid "$0 CPU"
 msgid_plural "$0 CPUs"
-msgstr[0] "$0 procesora"
-msgstr[1] "$0 procesorów"
+msgstr[0] "$0 procesor"
+msgstr[1] "$0 procesory"
 msgstr[2] "$0 procesorów"
 
 #: pkg/machines/components/vm/overview/cpuTypeModal.jsx:60
-#, fuzzy
-#| msgid "Configuration"
 msgid "$0 CPU configuration"
-msgstr "Konfiguracja"
+msgstr "Konfiguracja procesora $0"
 
 #: pkg/metrics/metrics.jsx:402 pkg/metrics/metrics.jsx:473
-#, fuzzy
-#| msgid "Not available"
 msgid "$0 GiB available"
-msgstr "Niedostępne"
+msgstr "$0 GiB dostępne"
 
 #: pkg/metrics/metrics.jsx:394 pkg/metrics/metrics.jsx:464
 msgid "$0 GiB total"
-msgstr ""
+msgstr "$0 GiB razem"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:77
-#, fuzzy
-#| msgid "$0 Network"
 msgid "$0 Network"
 msgid_plural "$0 Networks"
-msgstr[0] "Sieć $0"
-msgstr[1] "Sieć $0"
-msgstr[2] "Sieć $0"
+msgstr[0] "$0 sieć"
+msgstr[1] "$0 sieci"
+msgstr[2] "$0 sieci"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:52
-#, fuzzy
-#| msgid "Storage pool"
 msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
-msgstr[0] "Pula urządzeń do przechowywania danych"
-msgstr[1] "Pula urządzeń do przechowywania danych"
-msgstr[2] "Pula urządzeń do przechowywania danych"
+msgstr[0] "$0 pula urządzeń do przechowywania danych"
+msgstr[1] "$0 pule urządzeń do przechowywania danych"
+msgstr[2] "$0 pul urządzeń do przechowywania danych"
 
 #: pkg/networkmanager/network-main.jsx:167
-#, fuzzy
-#| msgid "$0 Active Zone"
 msgid "$0 active zone"
 msgstr "Aktywna strefa: $0"
 
 #: pkg/networkmanager/network-main.jsx:167
-#, fuzzy
-#| msgid "$0 Active Zones"
 msgid "$0 active zones"
 msgstr "Aktywne strefy: $0"
 
 #: pkg/storaged/others-panel.jsx:57
-#, fuzzy
-#| msgid "$0 Block Device"
 msgid "$0 block device"
 msgstr "Urządzenie blokowe $0"
 
 #: pkg/storaged/mdraid-details.jsx:192
-#, fuzzy
-#| msgid "$0 Chunk Size"
 msgid "$0 chunk size"
 msgstr "Rozmiar bloku: $0"
 
@@ -127,8 +108,6 @@ msgstr[1] "Brak $0 dysków"
 msgstr[2] "Brak $0 dysków"
 
 #: pkg/storaged/mdraid-details.jsx:190
-#, fuzzy
-#| msgid "$0 Disks"
 msgid "$0 disks"
 msgstr "Dyski: $0"
 
@@ -149,9 +128,6 @@ msgid "$0 failed"
 msgstr "$0 się nie powiodło"
 
 #: pkg/storaged/content-views.jsx:394
-#, fuzzy
-#| msgctxt "storage-id-desc"
-#| msgid "$0 File System"
 msgctxt "storage-id-desc"
 msgid "$0 file system"
 msgstr "System plików $0"
@@ -169,10 +145,8 @@ msgid "$0 filesystems can not be resized here."
 msgstr "Nie można tutaj zmieniać rozmiaru systemów plików $0."
 
 #: pkg/metrics/metrics.jsx:515
-#, fuzzy
-#| msgid "$0, $1 free"
 msgid "$0 free"
-msgstr "$0, wolne: $1"
+msgstr "$0 wolne"
 
 #: pkg/systemd/overview.jsx:98
 msgctxt "<date> from <host>"
@@ -220,7 +194,7 @@ msgstr "$0 nie jest dostępne w żadnym repozytorium."
 
 #: pkg/static/login.js:642
 msgid "$0 key changed"
-msgstr ""
+msgstr "Zmieniono klucz $0"
 
 #: pkg/base1/cockpit.js:2798
 msgid "$0 killed with signal $1"
@@ -235,7 +209,7 @@ msgstr[2] "$0 trafień o niskiej ważności"
 
 #: pkg/machines/components/vm/overview/memoryModal.jsx:134
 msgid "$0 memory adjustment"
-msgstr ""
+msgstr "Dostosowanie pamięci $0"
 
 #: pkg/lib/cockpit-components-plot.jsx:238
 msgid "$0 minute"
@@ -259,15 +233,10 @@ msgstr[1] "$0 miesiące"
 msgstr[2] "$0 miesięcy"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:105
-#, fuzzy
-#| msgid "$0 Network"
 msgid "$0 network"
 msgstr "Sieć $0"
 
 #: pkg/selinux/setroubleshoot-view.jsx:430
-#, fuzzy
-#| msgid "$0 occurrence"
-#| msgid_plural "$1 occurrences"
 msgid "$0 occurrence"
 msgid_plural "$0 occurrences"
 msgstr[0] "$0 wystąpienie"
@@ -284,9 +253,6 @@ msgid "$0 on $1"
 msgstr "$0 na $1"
 
 #: pkg/packagekit/history.jsx:87
-#, fuzzy
-#| msgid "$0 Package"
-#| msgid_plural "$0 Packages"
 msgid "$0 package"
 msgid_plural "$0 packages"
 msgstr[0] "$0 pakiet"
@@ -296,26 +262,23 @@ msgstr[2] "$0 pakietów"
 #: pkg/packagekit/updates.jsx:635 pkg/packagekit/updates.jsx:747
 msgid "$0 package needs a system reboot"
 msgid_plural "$0 packages need a system reboot"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 pakiet wymaga ponownego uruchomienia komputera"
+msgstr[1] "$0 pakiety wymagają ponownego uruchomienia komputera"
+msgstr[2] "$0 pakietów wymaga ponownego uruchomienia komputera"
 
 #: pkg/metrics/metrics.jsx:106
 msgid "$0 page"
 msgid_plural "$0 pages"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 strona"
+msgstr[1] "$0 strony"
+msgstr[2] "$0 stron"
 
 #: pkg/packagekit/updates.jsx:719
-#, fuzzy
-#| msgid "$1 security fix"
-#| msgid_plural "$1 security fixes"
 msgid "$0 security fix available"
 msgid_plural "$0 security fixes available"
-msgstr[0] "$1 poprawka zabezpieczeń"
-msgstr[1] "$1 poprawki zabezpieczeń"
-msgstr[2] "$1 poprawek zabezpieczeń"
+msgstr[0] "$0 poprawka zabezpieczeń jest dostępna"
+msgstr[1] "$0 poprawki zabezpieczeń są dostępne"
+msgstr[2] "$0 poprawek zabezpieczeń jest dostępnych"
 
 #: pkg/systemd/services/services.jsx:654
 msgid "$0 service has failed"
@@ -325,63 +288,48 @@ msgstr[1] "$0 usługi się nie powiodły"
 msgstr[2] "$0 usług się nie powiodło"
 
 #: pkg/packagekit/updates.jsx:652 pkg/packagekit/updates.jsx:759
-#, fuzzy
-#| msgid "$0 service has failed"
-#| msgid_plural "$0 services have failed"
 msgid "$0 service needs to be restarted"
 msgid_plural "$0 services need to be restarted"
-msgstr[0] "$0 usługa się nie powiodła"
-msgstr[1] "$0 usługi się nie powiodły"
-msgstr[2] "$0 usług się nie powiodło"
+msgstr[0] "$0 usługa musi zostać ponownie uruchomiona"
+msgstr[1] "$0 usługi muszą zostać ponownie uruchomione"
+msgstr[2] "$0 usług musi zostać ponownie uruchomionych"
 
 #: pkg/storaged/crypto-keyslots.jsx:592
-#, fuzzy
-#| msgid "$0 slots remain"
 msgid "$0 slot remains"
 msgid_plural "$0 slots remain"
-msgstr[0] "Pozostało gniazd: $0"
-msgstr[1] "Pozostało gniazd: $0"
-msgstr[2] "Pozostało gniazd: $0"
+msgstr[0] "$0 pozostałe gniazdo"
+msgstr[1] "$0 pozostałe gniazda"
+msgstr[2] "$0 pozostałych gniazd"
 
 #: pkg/metrics/metrics.jsx:523
-#, fuzzy
-#| msgid "Total"
 msgid "$0 total"
-msgstr "Razem"
+msgstr "$0 razem"
 
 #: pkg/packagekit/updates.jsx:727
-#, fuzzy
-#| msgid "Updates Available"
 msgid "$0 update available"
 msgid_plural "$0 updates available"
-msgstr[0] "Dostępne są aktualizacje"
-msgstr[1] "Dostępne są aktualizacje"
-msgstr[2] "Dostępne są aktualizacje"
+msgstr[0] "$0 aktualizacja jest dostępna"
+msgstr[1] "$0 aktualizacje są dostępne"
+msgstr[2] "$0 aktualizacji jest dostępnych"
 
 #: pkg/storaged/vdo-details.jsx:301
 msgid "$0 used of $1 ($2 saved)"
 msgstr "$0 używanych z $1 ($2 zapisano)"
 
 #: pkg/machines/components/vm/vmUsageCard.jsx:49
-#, fuzzy
-#| msgid "vCPUs"
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
-msgstr[0] "Wirtualne procesory"
-msgstr[1] "Wirtualne procesory"
-msgstr[2] "Wirtualne procesory"
+msgstr[0] "$0 wirtualny procesor"
+msgstr[1] "$0 wirtualne procesory"
+msgstr[2] "$0 wirtualnych procesorów"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:246
-#, fuzzy
-#| msgid "Problem details"
 msgid "$0 vCPU details"
-msgstr "Informacje o problemie"
+msgstr "Informacje o wirtualnym procesorze $0"
 
 #: pkg/machines/components/vm/nics/nicEdit.jsx:160
-#, fuzzy
-#| msgid "Add Virtual Network Interface"
 msgid "$0 virtual network interface settings"
-msgstr "Dodaj wirtualny interfejs sieciowy"
+msgstr "Ustawienia wirtualnego interfejsu sieciowego $0"
 
 #: pkg/lib/cockpit-components-plot.jsx:229
 msgid "$0 week"
@@ -449,8 +397,6 @@ msgid "1 min"
 msgstr "1 minuta"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:168
-#, fuzzy
-#| msgid "1 Minute"
 msgid "1 minute"
 msgstr "1 minuta"
 
@@ -483,10 +429,8 @@ msgid "14th"
 msgstr "14."
 
 #: pkg/metrics/metrics.jsx:285
-#, fuzzy
-#| msgid "5 min"
 msgid "15 min"
-msgstr "5 minut"
+msgstr "15 minut"
 
 #: pkg/systemd/services.html:95
 msgid "15th"
@@ -521,8 +465,6 @@ msgid "2 MiB"
 msgstr "2 MiB"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:170
-#, fuzzy
-#| msgid "20 Minutes"
 msgid "20 minutes"
 msgstr "20 minut"
 
@@ -591,8 +533,6 @@ msgid "4 KiB"
 msgstr "4 KiB"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:171
-#, fuzzy
-#| msgid "40 Minutes"
 msgid "40 minutes"
 msgstr "40 minut"
 
@@ -622,8 +562,6 @@ msgid "6 hours"
 msgstr "6 godzin"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:172
-#, fuzzy
-#| msgid "60 Minutes"
 msgid "60 minutes"
 msgstr "Godzina"
 
@@ -690,24 +628,36 @@ msgid ""
 "A new SSH key at ${key} will be created for ${luser} on ${lhost} and it will "
 "be added to the ${afile} file of ${ruser} on ${rhost}."
 msgstr ""
+"Nowy klucz SSH w ${key} zostanie utworzony dla użytkownika ${luser} na "
+"komputerze ${lhost} i zostanie dodany do pliku ${afile} użytkownika ${ruser} "
+"na komputerze ${rhost}."
 
 #: pkg/packagekit/updates.jsx:1364
-#, fuzzy
-#| msgid "Updated packages may require a restart to take effect."
 msgid "A package needs a system reboot for the updates to take effect:"
 msgid_plural ""
 "Some packages need a system reboot for the updates to take effect:"
-msgstr[0] "Zaktualizowane pakiety mogą wymagać ponownego uruchomienia."
-msgstr[1] "Zaktualizowane pakiety mogą wymagać ponownego uruchomienia."
-msgstr[2] "Zaktualizowane pakiety mogą wymagać ponownego uruchomienia."
+msgstr[0] ""
+"Pakiet wymaga ponownego uruchomienia komputera, aby aktualizacje zostały "
+"uwzględnione:"
+msgstr[1] ""
+"Część pakietów wymaga ponownego uruchomienia komputera, aby aktualizacje "
+"zostały uwzględnione:"
+msgstr[2] ""
+"Część pakietów wymaga ponownego uruchomienia komputera, aby aktualizacje "
+"zostały uwzględnione:"
 
 #: pkg/packagekit/updates.jsx:1368
 msgid "A service needs to be restarted for the updates to take effect:"
 msgid_plural ""
 "Some services need to be restarted for the updates to take effect:"
 msgstr[0] ""
+"Usługa wymaga ponownego uruchomienia, aby aktualizacje zostały uwzględnione:"
 msgstr[1] ""
+"Część usług wymaga ponownego uruchomienia, aby aktualizacje zostały "
+"uwzględnione:"
 msgstr[2] ""
+"Część usług wymaga ponownego uruchomienia, aby aktualizacje zostały "
+"uwzględnione:"
 
 #: pkg/storaged/mdraid-details.jsx:130
 msgid "A spare disk needs to be added first before this disk can be removed."
@@ -718,14 +668,10 @@ msgid "ARP"
 msgstr "ARP"
 
 #: pkg/networkmanager/network-interface.jsx:470
-#, fuzzy
-#| msgid "ARP Monitoring"
 msgid "ARP monitoring"
 msgstr "Monitorowanie ARP"
 
 #: pkg/networkmanager/interfaces.js:1497
-#, fuzzy
-#| msgid "ARP Ping"
 msgid "ARP ping"
 msgstr "Ping ARP"
 
@@ -740,11 +686,11 @@ msgstr "Nieobecne"
 #: pkg/shell/machines/machine-invalid-hostkey.html:27
 #: pkg/shell/machines/machine-unknown-hostkey.html:19
 msgid "Accept key and connect"
-msgstr ""
+msgstr "Przyjmij klucz i połącz się"
 
 #: pkg/static/login.js:563
 msgid "Accept key and log in"
-msgstr ""
+msgstr "Przyjmij klucz i zaloguj się"
 
 #: pkg/machines/components/vm/disks/vmDisksCard.jsx:227
 #: pkg/machines/components/vm/disks/diskEdit.jsx:84
@@ -753,8 +699,6 @@ msgid "Access"
 msgstr "Dostęp"
 
 #: pkg/users/expiration-dialogs.js:96
-#, fuzzy
-#| msgid "Account Expiration"
 msgid "Account expiration"
 msgstr "Wygasanie konta"
 
@@ -781,6 +725,7 @@ msgstr "Aktywuj"
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:115
 msgid "Activate the storage pool to administer volumes"
 msgstr ""
+"Aktywuj pulę urządzeń do przechowywania danych, aby administrować woluminami"
 
 #: pkg/storaged/jobs-panel.jsx:71
 msgid "Activating $target"
@@ -791,15 +736,11 @@ msgid "Active"
 msgstr "Aktywne"
 
 #: pkg/networkmanager/interfaces.js:1465 pkg/networkmanager/interfaces.js:1482
-#, fuzzy
-#| msgid "Active Backup"
 msgid "Active backup"
 msgstr "Aktywna kopia zapasowa"
 
 #: pkg/shell/index.html:74 pkg/shell/active-pages.js:95
 #: pkg/shell/active-pages-dialog.jsx:68
-#, fuzzy
-#| msgid "Active Pages"
 msgid "Active pages"
 msgstr "Aktywne strony"
 
@@ -842,33 +783,23 @@ msgid "Add a new zone"
 msgstr "Dodaj nową strefę"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:211
-#, fuzzy
-#| msgid "Add Bond"
 msgid "Add bond"
 msgstr "Dodaj wiązanie"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:219
-#, fuzzy
-#| msgid "Add Bridge"
 msgid "Add bridge"
 msgstr "Dodaj mostek"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:617
 #: pkg/machines/components/vm/disks/vmDisksCard.jsx:90
-#, fuzzy
-#| msgid "Add Disk"
 msgid "Add disk"
 msgstr "Dodaj dysk"
 
 #: pkg/storaged/vgroup-details.jsx:63 pkg/storaged/mdraid-details.jsx:59
-#, fuzzy
-#| msgid "Add Disks"
 msgid "Add disks"
 msgstr "Dodaj dyski"
 
 #: pkg/storaged/iscsi-panel.jsx:42
-#, fuzzy
-#| msgid "Add iSCSI Portal"
 msgid "Add iSCSI portal"
 msgstr "Dodaj portal iSCSI"
 
@@ -878,14 +809,10 @@ msgid "Add key"
 msgstr "Dodaj klucz"
 
 #: pkg/networkmanager/network-interface-members.jsx:197
-#, fuzzy
-#| msgid "RAID Member"
 msgid "Add member"
-msgstr "Element macierzy RAID"
+msgstr "Dodaj element"
 
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:88
-#, fuzzy
-#| msgid "Add Network Interface"
 msgid "Add network interface"
 msgstr "Dodaj interfejs sieciowy"
 
@@ -894,8 +821,6 @@ msgid "Add new host"
 msgstr "Dodaj nowy komputer"
 
 #: pkg/networkmanager/firewall.jsx:507
-#, fuzzy
-#| msgid "Add Ports"
 msgid "Add ports"
 msgstr "Dodaj porty"
 
@@ -908,8 +833,6 @@ msgid "Add public key"
 msgstr "Dodaj klucz publiczny"
 
 #: pkg/networkmanager/firewall.jsx:168 pkg/networkmanager/firewall.jsx:507
-#, fuzzy
-#| msgid "Add Services"
 msgid "Add services"
 msgstr "Dodaj usługi"
 
@@ -922,14 +845,10 @@ msgid "Add services to zone $0"
 msgstr "Dodaj usługi do strefy $0"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:216
-#, fuzzy
-#| msgid "Add Team"
 msgid "Add team"
 msgstr "Dodaj zespół"
 
 #: pkg/machines/components/vm/nics/nicAdd.jsx:164
-#, fuzzy
-#| msgid "Add Virtual Network Interface"
 msgid "Add virtual network interface"
 msgstr "Dodaj wirtualny interfejs sieciowy"
 
@@ -972,8 +891,6 @@ msgid "Additional DNS $val"
 msgstr "Dodatkowy DNS $val"
 
 #: pkg/networkmanager/network-interface.jsx:324
-#, fuzzy
-#| msgid "Additional DNS Search Domains $val"
 msgid "Additional DNS search domains $val"
 msgstr "Dodatkowe domeny wyszukiwania DNS $val"
 
@@ -1033,8 +950,6 @@ msgid "Administrative access"
 msgstr "Dostęp administracyjny"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:339
-#, fuzzy
-#| msgid "Administrator Password"
 msgid "Administrator password"
 msgstr "Hasło administratora"
 
@@ -1043,10 +958,8 @@ msgid "Advanced TCA"
 msgstr "Zaawansowane TCA"
 
 #: pkg/storaged/dialog.jsx:951
-#, fuzzy
-#| msgid "Current Allocation"
 msgid "Affected locations"
-msgstr "Obecny przydział"
+msgstr "Położenia, na które wpływa"
 
 #: pkg/systemd/services/service-details.jsx:395
 msgid "After"
@@ -1059,7 +972,7 @@ msgstr "Po"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:201
 msgid "After deleting the snapshot, all its captured content will be lost."
-msgstr ""
+msgstr "Po usunięciu migawki cała jej treść zostanie utracona."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:28
 msgid ""
@@ -1079,7 +992,7 @@ msgstr "Po uruchomieniu systemu"
 
 #: pkg/selinux/setroubleshoot-view.jsx:454
 msgid "Alert"
-msgstr ""
+msgstr "Alarm"
 
 #: pkg/systemd/logs.html:53
 msgid "Alert and above"
@@ -1096,22 +1009,18 @@ msgid "All logs"
 msgstr "Wszystkie dzienniki"
 
 #: pkg/packagekit/autoupdates.jsx:367
-#, fuzzy
-#| msgid "Apply all updates"
 msgid "All updates"
-msgstr "Zastosuj wszystkie aktualizacje"
+msgstr "Wszystkie aktualizacje"
 
 #: pkg/lib/machine-info.js:79
 msgid "All-in-one"
-msgstr ""
+msgstr "Wszystko w jednym"
 
 #: pkg/systemd/services/service-details.jsx:118
 msgid "Allow running (unmask)"
 msgstr "Zezwolenie na uruchamianie (odmaskowanie)"
 
 #: pkg/networkmanager/firewall.jsx:756
-#, fuzzy
-#| msgid "Allowed Addresses"
 msgid "Allowed addresses"
 msgstr "Dozwolone adresy"
 
@@ -1129,10 +1038,8 @@ msgid "Ansible roles documentation"
 msgstr "Dokumentacja ról Ansible"
 
 #: pkg/systemd/terminal.jsx:100 pkg/systemd/terminal.jsx:104
-#, fuzzy
-#| msgid "Appearance:"
 msgid "Appearance"
-msgstr "Wygląd:"
+msgstr "Wygląd"
 
 #: pkg/apps/index.html:23 pkg/apps/application.jsx:148
 #: pkg/apps/application-list.jsx:169 pkg/apps/manifest.json.in:0
@@ -1186,13 +1093,11 @@ msgid "Asset tag"
 msgstr "Etykieta zasobu"
 
 #: pkg/storaged/mdraids-panel.jsx:116
-#, fuzzy
-#| msgid "At least one disk is needed."
 msgid "At least $0 disk is needed."
 msgid_plural "At least $0 disks are needed."
-msgstr[0] "Wymagany jest co najmniej jeden dysk."
-msgstr[1] "Wymagany jest co najmniej jeden dysk."
-msgstr[2] "Wymagany jest co najmniej jeden dysk."
+msgstr[0] "Wymagany jest co najmniej $0 dysk."
+msgstr[1] "Wymagane są co najmniej $0 dyski."
+msgstr[2] "Wymaganych jest co najmniej $0 dysków."
 
 #: pkg/storaged/vgroups-panel.jsx:84 pkg/storaged/vgroup-details.jsx:70
 #: pkg/storaged/mdraid-details.jsx:66
@@ -1204,11 +1109,9 @@ msgid "At specific time"
 msgstr "O podanym czasie"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:214
-#, fuzzy
-#| msgid " Attaching it will make this disk shareable for every VM using it."
 msgid "Attaching it will make this disk shareable for every VM using it."
 msgstr ""
-" Podłączenie spowoduje, że ten dysk będzie udostępniany każdej używającej go "
+"Podłączenie spowoduje, że ten dysk będzie udostępniany każdej używającej go "
 "maszynie wirtualnej."
 
 #: pkg/selinux/setroubleshoot-view.jsx:415
@@ -1233,8 +1136,6 @@ msgid "Authentication failed"
 msgstr "Uwierzytelnienie się nie powiodło"
 
 #: pkg/static/login.js:804
-#, fuzzy
-#| msgid "Authentication Failed: Server closed connection"
 msgid "Authentication failed: Server closed connection"
 msgstr "Uwierzytelnienie się nie powiodło: serwer zamknął połączenie"
 
@@ -1251,14 +1152,10 @@ msgid "Authentication required"
 msgstr "Wymagane jest uwierzytelnienie"
 
 #: pkg/shell/machines/machine-dialogs.js:752
-#, fuzzy
-#| msgid "Authorized Public SSH Keys"
 msgid "Authorize SSH key."
-msgstr "Upoważnione publiczne klucze SSH"
+msgstr "Upoważnij klucz SSH."
 
 #: pkg/users/authorized-keys-panel.js:149
-#, fuzzy
-#| msgid "Authorized Public SSH Keys"
 msgid "Authorized public SSH keys"
 msgstr "Upoważnione publiczne klucze SSH"
 
@@ -1281,22 +1178,16 @@ msgstr "Automatyczne (DHCP)"
 
 #: pkg/shell/machines/machine-change-auth.html:39
 #: pkg/shell/machines/machine-change-auth.html:57
-#, fuzzy
-#| msgid "Automatic"
 msgid "Automatic login"
-msgstr "Automatyczne"
+msgstr "Automatyczne logowanie"
 
 #: pkg/packagekit/autoupdates.jsx:416 pkg/packagekit/updates.jsx:825
-#, fuzzy
-#| msgid "Automatic Updates"
 msgid "Automatic updates"
 msgstr "Automatyczne aktualizacje"
 
 #: pkg/packagekit/autoupdates.jsx:272
-#, fuzzy
-#| msgid "Automatic Updates"
 msgid "Automatic updates are not set up"
-msgstr "Automatyczne aktualizacje"
+msgstr "Automatyczne aktualizacje nie są skonfigurowane"
 
 #: pkg/machines/components/libvirtSlate.jsx:94
 msgid "Automatically start libvirt on boot"
@@ -1316,8 +1207,6 @@ msgid "Automatically using specific NTP servers"
 msgstr "Automatycznie za pomocą podanych serwerów NTP"
 
 #: pkg/lib/cockpit-components-modifications.jsx:88
-#, fuzzy
-#| msgid "Automation Script"
 msgid "Automation script"
 msgstr "Skrypt automatyzacji"
 
@@ -1332,8 +1221,6 @@ msgid "Available targets on $0"
 msgstr "Dostępne cele w $0"
 
 #: pkg/packagekit/updates.jsx:367 pkg/packagekit/updates.jsx:837
-#, fuzzy
-#| msgid "Available Updates"
 msgid "Available updates"
 msgstr "Dostępne aktualizacje"
 
@@ -1350,14 +1237,10 @@ msgid "BIOS version"
 msgstr "Wersja BIOS-u"
 
 #: pkg/users/account-details.js:221
-#, fuzzy
-#| msgid "Back to Accounts"
 msgid "Back to accounts"
 msgstr "Wróć do kont"
 
 #: pkg/storaged/vdo-details.jsx:275
-#, fuzzy
-#| msgid "Backing Device"
 msgid "Backing device"
 msgstr "Urządzenie podstawowe"
 
@@ -1370,8 +1253,6 @@ msgid "Before"
 msgstr "Przed"
 
 #: pkg/systemd/services/service-details.jsx:385
-#, fuzzy
-#| msgid "Binds To"
 msgid "Binds to"
 msgstr "Dowiązuje do"
 
@@ -1411,15 +1292,11 @@ msgid "Bond"
 msgstr "Wiązanie"
 
 #: pkg/networkmanager/index.html:310
-#, fuzzy
-#| msgid "Bond Settings"
 msgid "Bond settings"
 msgstr "Ustawienia wiązania"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:235
 #: pkg/machines/components/vm/overview/bootOrder.jsx:279
-#, fuzzy
-#| msgid "Boot Order"
 msgid "Boot order"
 msgstr "Kolejność uruchamiania"
 
@@ -1428,8 +1305,6 @@ msgid "Boot order settings could not be saved"
 msgstr "Nie można zapisać ustawień kolejności uruchamiania"
 
 #: pkg/systemd/services/service-details.jsx:390
-#, fuzzy
-#| msgid "Bound By"
 msgid "Bound by"
 msgstr "Dowiązane przez"
 
@@ -1444,14 +1319,10 @@ msgid "Bridge port"
 msgstr "Port mostku"
 
 #: pkg/networkmanager/index.html:431
-#, fuzzy
-#| msgid "Bridge Port Settings"
 msgid "Bridge port settings"
 msgstr "Ustawienia portu mostku"
 
 #: pkg/networkmanager/index.html:402
-#, fuzzy
-#| msgid "Bridge Settings"
 msgid "Bridge settings"
 msgstr "Ustawienia mostka"
 
@@ -1465,16 +1336,12 @@ msgid "Broken configuration"
 msgstr "Uszkodzona konfiguracja"
 
 #: pkg/packagekit/updates.jsx:1283
-#, fuzzy
-#| msgid "Bug Fix Updates Available"
 msgid "Bug fix updates available"
 msgstr "Dostępne są aktualizacje naprawiające błędy"
 
 #: pkg/packagekit/updates.jsx:311
-#, fuzzy
-#| msgid "Bugs:"
 msgid "Bugs"
-msgstr "Błędy:"
+msgstr "Błędy"
 
 #: pkg/machines/components/vm/overview/bootOrder.jsx:100
 #: pkg/machines/components/vm/overview/bootOrder.jsx:112
@@ -1486,8 +1353,6 @@ msgid "Bus"
 msgstr "Magistrala"
 
 #: pkg/lib/machine-info.js:86
-#, fuzzy
-#| msgid "Bus Expansion Chassis"
 msgid "Bus expansion chassis"
 msgstr "Obudowa rozszerzenia magistrali"
 
@@ -1497,10 +1362,13 @@ msgid ""
 "${luser} on ${lhost}, the key will be automatically made available and you "
 "can log in to ${rhost} without password in the future."
 msgstr ""
+"Zmieniając hasło klucza SSH ${key} na hasło logowania użytkownika ${luser} "
+"na komputerze ${lhost}, klucz automatycznie stanie się dostępny i w "
+"przyszłości będzie można logować się na komputerze ${rhost} bez hasła."
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:263
 msgid "CD/DVD disc"
-msgstr ""
+msgstr "Płyta CD/DVD"
 
 #: pkg/metrics/metrics.jsx:429 pkg/metrics/metrics.jsx:1007
 #: pkg/machines/components/vm/vmUsageCard.jsx:71 pkg/systemd/hwinfo.jsx:113
@@ -1509,44 +1377,32 @@ msgid "CPU"
 msgstr "Procesor"
 
 #: pkg/machines/components/vm/overview/cpuTypeModal.jsx:26
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "CPU configuration could not be saved"
-msgstr "Nie można zapisać ustawień wirtualnego procesora"
+msgstr "Nie można zapisać konfiguracji procesora"
 
 #: pkg/systemd/hwinfo.jsx:118
-#, fuzzy
-#| msgid "CPU Security"
 msgid "CPU security"
 msgstr "Zabezpieczenia procesora"
 
 #: pkg/systemd/hwinfo.jsx:252
-#, fuzzy
-#| msgid "CPU Security Toggles"
 msgid "CPU security toggles"
 msgstr "Przełączniki zabezpieczeń procesora"
 
 #: pkg/metrics/metrics.jsx:81
-#, fuzzy
-#| msgid "CPU Type"
 msgid "CPU spike"
-msgstr "Typ procesora"
+msgstr "Szczyt procesora"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:230
-#, fuzzy
-#| msgid "CPU Type"
 msgid "CPU type"
 msgstr "Typ procesora"
 
 #: pkg/metrics/metrics.jsx:80
-#, fuzzy
-#| msgid "CPU usage:"
 msgid "CPU usage"
-msgstr "Użycie procesora:"
+msgstr "Użycie procesora"
 
 #: pkg/packagekit/updates.jsx:299
 msgid "CVE"
-msgstr ""
+msgstr "CVE"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:149
 #: pkg/machines/components/vm/disks/vmDiskColumns.jsx:75
@@ -1556,6 +1412,8 @@ msgstr "Pamięć podręczna"
 #: pkg/shell/machines/machine-add.html:26
 msgid "Can be a hostname, IP address, alias name, or ssh:// URI"
 msgstr ""
+"Może być nazwą komputera, adresem IP, nazwą aliasu lub adresem URI typu "
+"ssh://"
 
 #: pkg/systemd/logs.js:140 pkg/systemd/logs.js:268
 msgid "Can not find any logs using the current combination of filters."
@@ -1615,10 +1473,8 @@ msgid "Cannot be enabled"
 msgstr "Nie można włączyć"
 
 #: pkg/shell/indexes.js:492
-#, fuzzy
-#| msgid "Cannot connect to an unknown machine"
 msgid "Cannot connect to an unknown host"
-msgstr "Nie można połączyć z nieznanym komputerem"
+msgstr "Nie można połączyć się z nieznanym komputerem"
 
 #: pkg/base1/cockpit.js:4063
 msgid "Cannot forward login credentials"
@@ -1655,20 +1511,14 @@ msgid "Change"
 msgstr "Zmień"
 
 #: pkg/machines/components/vm/overview/firmware.jsx:58
-#, fuzzy
-#| msgid "Change Firmware"
 msgid "Change firmware"
 msgstr "Zmień oprogramowanie sprzętowe"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:431
-#, fuzzy
-#| msgid "Change Host Name"
 msgid "Change host name"
 msgstr "Zmień nazwę komputera"
 
 #: pkg/storaged/iscsi-panel.jsx:183
-#, fuzzy
-#| msgid "Change iSCSI Initiator Name"
 msgid "Change iSCSI initiator name"
 msgstr "Zmień nazwę inicjatora iSCSI"
 
@@ -1677,34 +1527,24 @@ msgid "Change passphrase"
 msgstr "Zmień hasło"
 
 #: pkg/shell/index.html:276
-#, fuzzy
-#| msgid "Change Password"
 msgid "Change password"
 msgstr "Zmień hasło"
 
 #: pkg/tuned/dialog.js:187
-#, fuzzy
-#| msgid "Change Performance Profile"
 msgid "Change performance profile"
 msgstr "Zmień profil wydajności"
 
 #: pkg/tuned/dialog.js:197
-#, fuzzy
-#| msgid "Change Profile"
 msgid "Change profile"
 msgstr "Zmień profil"
 
 #: pkg/lib/serverTime.js:678
-#, fuzzy
-#| msgid "Change System Time"
 msgid "Change system time"
 msgstr "Zmień czas systemu"
 
 #: pkg/shell/machines/machine-dialogs.js:742
-#, fuzzy
-#| msgid "Change Password"
 msgid "Change the password of ${key}."
-msgstr "Zmień hasło"
+msgstr "Zmień hasło klucza ${key}."
 
 #: pkg/networkmanager/interfaces.js:1725
 msgid "Change the settings"
@@ -1716,6 +1556,9 @@ msgid ""
 "However, an unexpected change may indicate a third-party attempt to "
 "intercept your connection."
 msgstr ""
+"Zmienione klucze są często wynikiem przeinstalowania systemu operacyjnego. "
+"Nieoczekiwana zmiana może jednak wskazywać na próbę przechwycenia połączenia "
+"przez stronę trzecią."
 
 #: pkg/machines/components/common/warningInactive.jsx:12
 #: pkg/machines/components/vm/nics/nicEdit.jsx:154
@@ -1733,8 +1576,6 @@ msgstr ""
 "z interfejsu administracji."
 
 #: pkg/packagekit/updates.jsx:813
-#, fuzzy
-#| msgid "Check for Updates"
 msgid "Check for updates"
 msgstr "Wyszukaj aktualizacje"
 
@@ -1747,14 +1588,10 @@ msgid "Checking IP"
 msgstr "Sprawdzanie IP"
 
 #: pkg/storaged/jobs-panel.jsx:66
-#, fuzzy
-#| msgid "Checking RAID Device $target"
 msgid "Checking RAID device $target"
 msgstr "Sprawdzanie urządzenia RAID $target"
 
 #: pkg/storaged/jobs-panel.jsx:67
-#, fuzzy
-#| msgid "Checking and Repairing RAID Device $target"
 msgid "Checking and repairing RAID device $target"
 msgstr "Sprawdzanie i naprawianie urządzenia RAID $target"
 
@@ -1771,10 +1608,8 @@ msgid "Checking installed software"
 msgstr "Sprawdzanie zainstalowanego oprogramowania"
 
 #: pkg/packagekit/updates.jsx:1255
-#, fuzzy
-#| msgid "Checking $target"
 msgid "Checking software status"
-msgstr "Sprawdzanie $target"
+msgstr "Sprawdzanie stanu oprogramowania"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:370
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:371
@@ -1782,8 +1617,6 @@ msgid "Choose an operating system"
 msgstr "Wybierz system operacyjny"
 
 #: pkg/storaged/mdraids-panel.jsx:92
-#, fuzzy
-#| msgid "Chunk Size"
 msgid "Chunk size"
 msgstr "Rozmiar bloku"
 
@@ -1808,34 +1641,27 @@ msgid "Clear mount point configuration"
 msgstr "Wyczyść konfigurację punktu montowania"
 
 #: pkg/shell/nav.jsx:129
-#, fuzzy
-#| msgid "Clear Search"
 msgid "Clear search"
 msgstr "Wyczyść wyszukiwanie"
 
 #: pkg/users/account-create-dialog.js:209 pkg/users/password-dialogs.js:213
 msgid "Click $0 again to use the password anyway."
-msgstr ""
+msgstr "Kliknij $0 ponownie, aby użyć hasła mimo to."
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:58
-#, fuzzy
-#| msgid ""
-#| "Clicking \"Launch Remote Viewer\" will download a .vv file and launch $0."
 msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgstr ""
 "Kliknięcie „Uruchom zdalną przeglądarkę” pobierze plik .vv i uruchomi $0."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:21
-#, fuzzy
-#| msgid "Client Software"
 msgid "Client software"
 msgstr "Oprogramowanie klienta"
 
 #: pkg/machines/components/vm/vmCloneDialog.jsx:72
 #: pkg/machines/components/vm/vmActions.jsx:289
 msgid "Clone"
-msgstr ""
+msgstr "Sklonuj"
 
 #: pkg/networkmanager/index.html:276 pkg/networkmanager/index.html:305
 #: pkg/networkmanager/index.html:340 pkg/networkmanager/index.html:369
@@ -1853,8 +1679,6 @@ msgid "Close"
 msgstr "Zamknij"
 
 #: pkg/shell/active-pages.js:104
-#, fuzzy
-#| msgid "Close Selected Pages"
 msgid "Close selected pages"
 msgstr "Zamknij zaznaczone strony"
 
@@ -1872,7 +1696,7 @@ msgstr "Cockpit nie może skontaktować się z podanym komputerem."
 
 #: pkg/shell/shell-modals.jsx:119
 msgid "Cockpit had an unexpected internal error."
-msgstr ""
+msgstr "Wystąpił nieoczekiwany wewnętrzny błąd w programie Cockpit."
 
 #: src/ws/cockpit.appdata.xml.in:10
 msgid ""
@@ -1997,20 +1821,14 @@ msgid "Confirm"
 msgstr "Potwierdź"
 
 #: pkg/shell/machines/machine-dialogs.js:736
-#, fuzzy
-#| msgid "Confirm New Password"
 msgid "Confirm key password"
-msgstr "Potwierdź nowe hasło"
+msgstr "Potwierdź hasło klucza"
 
 #: pkg/shell/machines/machine-dialogs.js:747
-#, fuzzy
-#| msgid "Confirm New Password"
 msgid "Confirm new key password"
-msgstr "Potwierdź nowe hasło"
+msgstr "Potwierdź nowe hasło klucza"
 
 #: pkg/users/password-dialogs.js:151
-#, fuzzy
-#| msgid "Confirm New Password"
 msgid "Confirm new password"
 msgstr "Potwierdź nowe hasło"
 
@@ -2027,8 +1845,6 @@ msgid "Confirm this action"
 msgstr "Potwierdź to działanie"
 
 #: pkg/systemd/services/service-details.jsx:393
-#, fuzzy
-#| msgid "Conflicted By"
 msgid "Conflicted by"
 msgstr "W konflikcie z"
 
@@ -2049,10 +1865,8 @@ msgid "Connect to"
 msgstr "Połącz z"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:46
-#, fuzzy
-#| msgid "Connect with any $0 viewer application."
 msgid "Connect with any viewer application for following protocols"
-msgstr "Połącz z dowolną przeglądarką $0."
+msgstr "Połącz z dowolną przeglądarką wymienionych protokołów"
 
 #: pkg/shell/machines/machine-add.html:46
 msgid ""
@@ -2070,8 +1884,6 @@ msgid "Connecting to the machine"
 msgstr "Łączenie z komputerem"
 
 #: pkg/machines/components/libvirtSlate.jsx:79
-#, fuzzy
-#| msgid "Connecting to Virtualization Service"
 msgid "Connecting to virtualization service"
 msgstr "Łączenie z usługą wirtualizacji"
 
@@ -2084,8 +1896,6 @@ msgid "Connection"
 msgstr "Połączenie"
 
 #: pkg/shell/hosts.jsx:178
-#, fuzzy
-#| msgid "Connection Error"
 msgid "Connection error"
 msgstr "Błąd połączenia"
 
@@ -2102,25 +1912,19 @@ msgid "Connection will be lost"
 msgstr "Połączenie zostanie utracone"
 
 #: pkg/systemd/services/service-details.jsx:391
-#, fuzzy
-#| msgid "Consists Of"
 msgid "Consists of"
 msgstr "Składa się z"
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:89
 #: pkg/machines/components/vm/vmDetailsPage.jsx:117
-#, fuzzy
-#| msgid "Consoles"
 msgid "Console"
-msgstr "Konsole"
+msgstr "Konsola"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:279
 msgid "Contacted domain"
 msgstr "Skontaktowana domena"
 
 #: pkg/users/account-roles.js:64
-#, fuzzy
-#| msgid "Container Administrator"
 msgid "Container administrator"
 msgstr "Administrator kontenera"
 
@@ -2134,14 +1938,10 @@ msgid "Content"
 msgstr "Zawartość"
 
 #: pkg/packagekit/updates.jsx:694
-#, fuzzy
-#| msgid "Container"
 msgid "Continue"
-msgstr "Kontener"
+msgstr "Kontynuuj"
 
 #: pkg/shell/shell-modals.jsx:106
-#, fuzzy
-#| msgid "Continue Session"
 msgid "Continue session"
 msgstr "Kontynuuj sesję"
 
@@ -2167,10 +1967,8 @@ msgid "Copy to clipboard"
 msgstr "Skopiuj do schowka"
 
 #: pkg/metrics/metrics.jsx:411
-#, fuzzy
-#| msgid "Remove $0"
 msgid "Core $0"
-msgstr "Usuń $0"
+msgstr "$0. rdzeń"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:225
 msgid "Cores per socket"
@@ -2181,18 +1979,14 @@ msgid "Could not contact {{host}}"
 msgstr "Nie można skontaktować się z {{host}}"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:50
-#, fuzzy
-#| msgid "Could not reset the storage pool"
 msgid "Could not revert to snapshot"
-msgstr "Nie można przywrócić puli urządzeń do przechowywania danych"
+msgstr "Nie można przywrócić do migawki"
 
 #: pkg/kdump/kdump-view.jsx:341 pkg/kdump/kdump-view.jsx:523
 msgid "Crash dump location"
 msgstr "Położenie zrzutu awarii"
 
 #: pkg/systemd/reporting.jsx:474
-#, fuzzy
-#| msgid "Crash Reporting"
 msgid "Crash reporting"
 msgstr "Zgłaszanie awarii"
 
@@ -2201,10 +1995,8 @@ msgid "Crash system"
 msgstr "System awarii"
 
 #: pkg/machines/helpers.js:216
-#, fuzzy
-#| msgid "crashed"
 msgid "Crashed"
-msgstr "uległo awarii"
+msgstr "Uległo awarii"
 
 #: pkg/storaged/content-views.jsx:132 pkg/storaged/content-views.jsx:278
 #: pkg/storaged/content-views.jsx:785 pkg/storaged/vgroups-panel.jsx:90
@@ -2221,14 +2013,10 @@ msgid "Create"
 msgstr "Utwórz"
 
 #: pkg/storaged/mdraids-panel.jsx:59 pkg/storaged/things-panel.jsx:67
-#, fuzzy
-#| msgid "Create RAID Device"
 msgid "Create RAID device"
 msgstr "Utwórz urządzenie RAID"
 
 #: pkg/storaged/vdos-panel.jsx:80 pkg/storaged/things-panel.jsx:69
-#, fuzzy
-#| msgid "Create VDO Device"
 msgid "Create VDO device"
 msgstr "Utwórz urządzenie VDO"
 
@@ -2237,26 +2025,20 @@ msgid "Create VM"
 msgstr "Utwórz maszynę wirtualną"
 
 #: pkg/machines/components/vm/vmCloneDialog.jsx:63
-#, fuzzy
-#| msgid "Create Partition on $0"
 msgid "Create a clone VM based on $0"
-msgstr "Utwórz partycję na $0"
+msgstr "Utwórz klon maszyny wirtualnej na podstawie $0"
 
 #: pkg/shell/machines/machine-dialogs.js:731
 msgid "Create a new SSH key and authorize it."
-msgstr ""
+msgstr "Utwórz nowy klucz SSH i go upoważnij."
 
 #: pkg/storaged/things-panel.jsx:66
-#, fuzzy
-#| msgid "Create Devices"
 msgid "Create devices"
 msgstr "Utwórz urządzenia"
 
 #: pkg/sosreport/index.html:52
-#, fuzzy
-#| msgid "Create diagnostic report"
 msgid "Create diagnostic report                    "
-msgstr "Utwórz raport diagnostyczny"
+msgstr "Utwórz raport diagnostyczny                    "
 
 #: pkg/networkmanager/interfaces.js:2404 pkg/networkmanager/interfaces.js:2608
 #: pkg/networkmanager/interfaces.js:2865 pkg/networkmanager/interfaces.js:3073
@@ -2264,26 +2046,18 @@ msgid "Create it"
 msgstr "Utwórz"
 
 #: pkg/storaged/content-views.jsx:729
-#, fuzzy
-#| msgid "Create Logical Volume"
 msgid "Create logical volume"
 msgstr "Utwórz wolumin logiczny"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:566
-#, fuzzy
-#| msgid "Create New"
 msgid "Create new"
 msgstr "Utwórz nowy"
 
 #: pkg/users/account-create-dialog.js:246 pkg/users/accounts-list.js:76
-#, fuzzy
-#| msgid "Create New Account"
 msgid "Create new account"
 msgstr "Utwórz nowe konto"
 
 #: pkg/storaged/content-views.jsx:803
-#, fuzzy
-#| msgid "Create new Logical Volume"
 msgid "Create new logical volume"
 msgstr "Utwórz nowy wolumin logiczny"
 
@@ -2292,115 +2066,79 @@ msgid "Create new task file with this content."
 msgstr "Utwórz nowy plik zadania o tej treści."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:916
-#, fuzzy
-#| msgid "Create New Virtual Machine"
 msgid "Create new virtual machine"
 msgstr "Utwórz nową maszynę wirtualną"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:515
-#, fuzzy
-#| msgid "Create New Volume"
 msgid "Create new volume"
 msgstr "Utwórz nowy wolumin"
 
 #: pkg/storaged/format-dialog.jsx:260 pkg/storaged/content-views.jsx:506
-#, fuzzy
-#| msgid "Create Partition"
 msgid "Create partition"
 msgstr "Utwórz partycję"
 
 #: pkg/storaged/format-dialog.jsx:133
-#, fuzzy
-#| msgid "Create Partition on $0"
 msgid "Create partition on $0"
 msgstr "Utwórz partycję na $0"
 
 #: pkg/storaged/content-views.jsx:633
-#, fuzzy
-#| msgid "Create Partition Table"
 msgid "Create partition table"
 msgstr "Utwórz tablicę partycji"
 
 #: pkg/sosreport/index.html:41
-#, fuzzy
-#| msgid "Create Report"
 msgid "Create report"
 msgstr "Utwórz raport"
 
 #: pkg/storaged/content-views.jsx:272 pkg/storaged/content-views.jsx:293
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCreateModal.jsx:128
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:78
-#, fuzzy
-#| msgid "Create Snapshot"
 msgid "Create snapshot"
 msgstr "Utwórz migawkę"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:429
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:473
-#, fuzzy
-#| msgid "Create Storage Pool"
 msgid "Create storage pool"
 msgstr "Utwórz pulę urządzeń do przechowywania danych"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:97
-#, fuzzy
-#| msgid "Create Storage Volume"
 msgid "Create storage volume"
 msgstr "Utwórz wolumin urządzeń do przechowywania danych"
 
 #: pkg/storaged/content-views.jsx:116 pkg/storaged/content-views.jsx:143
-#, fuzzy
-#| msgid "Create Thin Volume"
 msgid "Create thin volume"
 msgstr "Utwórz cienki wolumin"
 
 #: pkg/systemd/services/services.jsx:750
-#, fuzzy
-#| msgid "Create Timer"
 msgid "Create timer"
 msgstr "Utwórz licznik"
 
 #: pkg/systemd/services.html:151
-#, fuzzy
-#| msgid "Create Timers"
 msgid "Create timers"
 msgstr "Utwórz liczniki"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:395
 #: pkg/machines/components/networks/createNetworkDialog.jsx:441
-#, fuzzy
-#| msgid "Create Virtual Network"
 msgid "Create virtual network"
 msgstr "Utwórz sieć wirtualną"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:151
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:162
-#, fuzzy
-#| msgid "Create Volume"
 msgid "Create volume"
 msgstr "Utwórz wolumin"
 
 #: pkg/storaged/vgroups-panel.jsx:72 pkg/storaged/things-panel.jsx:68
-#, fuzzy
-#| msgid "Create Volume Group"
 msgid "Create volume group"
 msgstr "Utwórz grupę woluminów"
 
 #: pkg/storaged/jobs-panel.jsx:65
-#, fuzzy
-#| msgid "Creating RAID Device $target"
 msgid "Creating RAID device $target"
 msgstr "Tworzenie urządzenia RAID $target"
 
 #: pkg/machines/components/vms/hostvmslist.jsx:49
-#, fuzzy
-#| msgid "creating VM"
 msgid "Creating VM"
 msgstr "tworzenie maszyny wirtualnej"
 
 #: pkg/machines/components/vms/hostvmslist.jsx:47
-#, fuzzy
-#| msgid "creating VM installation"
 msgid "Creating VM installation"
 msgstr "tworzenie instalacji maszyny wirtualnej"
 
@@ -2461,10 +2199,8 @@ msgid "Creation of VM $0 failed"
 msgstr "Utworzenie maszyny wirtualnej $0 się nie powiodło"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:103
-#, fuzzy
-#| msgid "Create Timer"
 msgid "Creation time"
-msgstr "Utwórz licznik"
+msgstr "Czas utworzenia"
 
 #: pkg/systemd/logs.html:54
 msgid "Critical and above"
@@ -2480,17 +2216,13 @@ msgstr "Ctrl+Insert"
 
 #: pkg/shell/shell-modals.jsx:123
 msgid "Ctrl-Shift-J"
-msgstr ""
+msgstr "Ctrl-Shift-J"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:109
-#, fuzzy
-#| msgid "Current boot"
 msgid "Current"
-msgstr "Obecne uruchomienie"
+msgstr "Obecne"
 
 #: pkg/machines/components/vm/overview/memoryModal.jsx:108
-#, fuzzy
-#| msgid "Current Allocation"
 msgid "Current allocation"
 msgstr "Obecny przydział"
 
@@ -2513,14 +2245,10 @@ msgstr "Niestandardowe opcje montowania"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:248
 #: pkg/machines/components/vm/disks/diskAdd.jsx:576
-#, fuzzy
-#| msgid "Custom Ports"
 msgid "Custom path"
-msgstr "Niestandardowe porty"
+msgstr "Niestandardowa ścieżka"
 
 #: pkg/networkmanager/firewall.jsx:545
-#, fuzzy
-#| msgid "Custom Ports"
 msgid "Custom ports"
 msgstr "Niestandardowe porty"
 
@@ -2530,8 +2258,6 @@ msgstr "Niestandardowe strefy"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:130
 #: pkg/machines/components/networks/networkOverviewTab.jsx:155
-#, fuzzy
-#| msgid "DHCP Range"
 msgid "DHCP range"
 msgstr "Zakres DHCP"
 
@@ -2548,28 +2274,22 @@ msgid "DNS $val"
 msgstr "DNS $val"
 
 #: pkg/networkmanager/interfaces.js:1895
-#, fuzzy
-#| msgid "DNS Search Domains"
 msgid "DNS search domains"
 msgstr "Domeny wyszukiwania DNS"
 
 #: pkg/networkmanager/network-interface.jsx:324
-#, fuzzy
-#| msgid "DNS Search Domains $val"
 msgid "DNS search domains $val"
 msgstr "Domeny wyszukiwania DNS $val"
 
 #: pkg/packagekit/updates.jsx:844
 msgid "Danger alert:"
-msgstr ""
+msgstr "Alarm niebezpieczeństwa:"
 
 #: pkg/systemd/terminal.jsx:108
 msgid "Dark"
 msgstr "Ciemny"
 
 #: pkg/storaged/lvol-tabs.jsx:462
-#, fuzzy
-#| msgid "Data Used"
 msgid "Data used"
 msgstr "Użyte dane"
 
@@ -2637,26 +2357,18 @@ msgid "Delete associated storage files:"
 msgstr "Usunięcie powiązanych plików urządzeń do przechowywania danych:"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:162
-#, fuzzy
-#| msgid "Delete Content"
 msgid "Delete content"
 msgstr "Usuń zawartość"
 
 #: pkg/users/delete-account-dialog.js:33
-#, fuzzy
-#| msgid "Delete Files"
 msgid "Delete files"
 msgstr "Usuń pliki"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:214
-#, fuzzy
-#| msgid "Delete Storage Pool $0"
 msgid "Delete storage pool $0"
 msgstr "Usuń pulę urządzeń do przechowywania danych $0"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:165
-#, fuzzy
-#| msgid "Delete the Volumes inside this Pool"
 msgid "Delete the volumes inside this pool"
 msgstr "Usuń woluminy wewnątrz tej puli"
 
@@ -2694,10 +2406,6 @@ msgid "Deleting a volume group will erase all data on it."
 msgstr "Usunięcie grupy woluminów usunie wszystkie znajdujące się w niej dane."
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:168
-#, fuzzy
-#| msgid ""
-#| "Deleting an inactive Storage Pool will only undefine the Pool. Its "
-#| "content will not be deleted."
 msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
@@ -2721,10 +2429,8 @@ msgid "Desktop"
 msgstr "Komputer stacjonarny"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:100
-#, fuzzy
-#| msgid "Desktop"
 msgid "Desktop viewer"
-msgstr "Komputer stacjonarny"
+msgstr "Przeglądarka pulpitu"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:152
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:179
@@ -2763,14 +2469,10 @@ msgid "Device"
 msgstr "Urządzenie"
 
 #: pkg/storaged/vdo-details.jsx:270
-#, fuzzy
-#| msgid "Device File"
 msgid "Device file"
 msgstr "Plik urządzenia"
 
 #: pkg/storaged/block-details.jsx:52 pkg/storaged/drive-details.jsx:86
-#, fuzzy
-#| msgid "Device File"
 msgctxt "storage"
 msgid "Device file"
 msgstr "Plik urządzenia"
@@ -2831,8 +2533,6 @@ msgid "Disconnected"
 msgstr "Rozłączono"
 
 #: pkg/machines/components/vm/consoles/serialConsole.jsx:76
-#, fuzzy
-#| msgid "Disconnected from serial console. Click the Connect button."
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "Rozłączono z konsoli szeregowej. Proszę kliknąć przycisk „Połącz”."
 
@@ -2849,10 +2549,8 @@ msgid "Disk I/O"
 msgstr "Wejście/wyjście dysku"
 
 #: pkg/metrics/metrics.jsx:110
-#, fuzzy
-#| msgid "Disk I/O"
 msgid "Disk I/O spike"
-msgstr "Wejście/wyjście dysku"
+msgstr "Szczyt wejścia/wyjścia dysku"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:526
 msgid "Disk failed to be attached"
@@ -2864,7 +2562,7 @@ msgstr "Utworzenie dysku się nie powiodło"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:261
 msgid "Disk image file"
-msgstr ""
+msgstr "Plik obrazu dysku"
 
 #: pkg/storaged/drive-details.jsx:64
 msgid "Disk is OK"
@@ -2882,7 +2580,7 @@ msgstr "Nie można zapisać ustawień dysku"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:148
 msgid "Disk-only snapshot"
-msgstr ""
+msgstr "Migawka tylko dysku"
 
 #: pkg/storaged/vgroups-panel.jsx:79 pkg/storaged/mdraids-panel.jsx:110
 #: pkg/storaged/vgroup-details.jsx:65 pkg/storaged/mdraid-details.jsx:61
@@ -2897,8 +2595,6 @@ msgid "Dismiss"
 msgstr "Zamknij"
 
 #: pkg/shell/index.html:70 pkg/shell/shell-modals.jsx:84
-#, fuzzy
-#| msgid "Display Language"
 msgid "Display language"
 msgstr "Język"
 
@@ -2907,8 +2603,6 @@ msgid "Do not mount automatically on boot"
 msgstr "Bez automatycznego montowania podczas uruchamiania"
 
 #: pkg/lib/machine-info.js:78
-#, fuzzy
-#| msgid "Docking Station"
 msgid "Docking station"
 msgstr "Stacja dokująca"
 
@@ -2931,30 +2625,24 @@ msgid "Domain $0 is not supported"
 msgstr "Domena $0 jest nieobsługiwana"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:34
-#, fuzzy
-#| msgid "Domain Address"
 msgid "Domain address"
 msgstr "Adres domeny"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:63
-#, fuzzy
-#| msgid "Domain Administrator Name"
 msgid "Domain administrator name"
 msgstr "Nazwa administratora domeny"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:66
-#, fuzzy
-#| msgid "Domain Administrator Password"
 msgid "Domain administrator password"
 msgstr "Hasło administratora domeny"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:150
 msgid "Domain has crashed"
-msgstr ""
+msgstr "Domena uległa awarii"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:149
 msgid "Domain is blocked on resource"
-msgstr ""
+msgstr "Domena jest zablokowana na zasobie"
 
 #: pkg/storaged/format-dialog.jsx:196 pkg/storaged/content-views.jsx:593
 msgid "Don't overwrite existing data"
@@ -2962,8 +2650,6 @@ msgstr "Nie zastępuj istniejących danych"
 
 #: pkg/systemd/services.html:241 pkg/systemd/services.html:245
 #: pkg/systemd/services/timer-dialog.js:305
-#, fuzzy
-#| msgid "Don't Repeat"
 msgid "Don't repeat"
 msgstr "Bez powtarzania"
 
@@ -3004,16 +2690,12 @@ msgid "Drives"
 msgstr "Napędy"
 
 #: pkg/lib/machine-info.js:248
-#, fuzzy
-#| msgid "Dual Rank"
 msgid "Dual rank"
 msgstr "Podwójny stopień"
 
 #: pkg/machines/helpers.js:217
-#, fuzzy
-#| msgid "dying"
 msgid "Dying"
-msgstr "w trakcie umierania"
+msgstr "W trakcie umierania"
 
 #: pkg/storaged/crypto-tab.jsx:136 pkg/storaged/nfs-details.jsx:318
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:287
@@ -3024,37 +2706,31 @@ msgstr "Modyfikuj"
 
 #: pkg/machines/components/vm/disks/diskEdit.jsx:199
 msgid "Edit $0 attributes"
-msgstr ""
+msgstr "Modyfikuj atrybuty $0"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:87
-#, fuzzy
-#| msgid "Edit Host"
 msgid "Edit /etc/motd"
-msgstr "Modyfikuj komputer"
+msgstr "Modyfikuj /etc/motd"
 
 #: pkg/storaged/crypto-keyslots.jsx:279
 msgid "Edit Tang keyserver"
 msgstr "Modyfikuj serwer kluczy Tang"
 
 #: pkg/shell/machines/machine-add.html:8
-#, fuzzy
-#| msgid "Edit hosts"
 msgid "Edit host"
-msgstr "Modyfikuj komputery"
+msgstr "Modyfikuj komputer"
 
 #: pkg/shell/hosts.jsx:211
 msgid "Edit hosts"
 msgstr "Modyfikuj komputery"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:77
-#, fuzzy
-#| msgid "Edit Host"
 msgid "Edit motd"
-msgstr "Modyfikuj komputer"
+msgstr "Modyfikuj motd"
 
 #: pkg/networkmanager/network-main.jsx:158
 msgid "Edit rules and zones"
-msgstr ""
+msgstr "Modyfikuj reguły i strefy"
 
 #: pkg/storaged/crypto-keyslots.jsx:551
 msgid "Editing a key requires a free slot"
@@ -3083,20 +2759,14 @@ msgid "Emptying $target"
 msgstr "Opróżnianie $target"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:257
-#, fuzzy
-#| msgid "Emulated Machine"
 msgid "Emulated machine"
 msgstr "Emulowany komputer"
 
 #: pkg/networkmanager/network-interface.jsx:732
-#, fuzzy
-#| msgid "Failed to disable tuned"
 msgid "Enable or disabnle the device"
-msgstr "Wyłączenie tuned się nie powiodło"
+msgstr "Włącz lub wyłącz urządzenie"
 
 #: pkg/networkmanager/app.jsx:96
-#, fuzzy
-#| msgid "Enable Service"
 msgid "Enable service"
 msgstr "Włącz usługę"
 
@@ -3126,14 +2796,10 @@ msgid "Encrypted data"
 msgstr "Zaszyfrowane dane"
 
 #: pkg/storaged/utils.js:266
-#, fuzzy
-#| msgid "Encrypted Logical Volume of $0"
 msgid "Encrypted logical volume of $0"
 msgstr "Zaszyfrowany wolumin logiczny $0"
 
 #: pkg/storaged/utils.js:268
-#, fuzzy
-#| msgid "Encrypted Partition of $0"
 msgid "Encrypted partition of $0"
 msgstr "Zaszyfrowana partycja $0"
 
@@ -3150,8 +2816,6 @@ msgid "Encryption"
 msgstr "Szyfrowanie"
 
 #: pkg/storaged/crypto-tab.jsx:111
-#, fuzzy
-#| msgid "Encryption Options"
 msgid "Encryption options"
 msgstr "Opcje szyfrowania"
 
@@ -3169,8 +2833,6 @@ msgid "Enforcing"
 msgstr "Wymuszanie"
 
 #: pkg/packagekit/updates.jsx:1285
-#, fuzzy
-#| msgid "Enhancement Updates Available"
 msgid "Enhancement updates available"
 msgstr "Dostępne są aktualizacje z ulepszeniami"
 
@@ -3191,10 +2853,8 @@ msgid "Erasing $target"
 msgstr "Czyszczenie $target"
 
 #: pkg/packagekit/updates.jsx:307
-#, fuzzy
-#| msgid "Errata:"
 msgid "Errata"
-msgstr "Poprawka:"
+msgstr "Poprawka"
 
 #: pkg/playground/translate.html:100 pkg/playground/translate.html:105
 #: pkg/storaged/fsys-tab.jsx:304 pkg/storaged/multipath.jsx:61
@@ -3208,18 +2868,14 @@ msgid "Error and above"
 msgstr "Błędy i powyżej"
 
 #: pkg/metrics/metrics.jsx:949
-#, fuzzy
-#| msgid "Error and above"
 msgid "Error has occurred"
-msgstr "Błędy i powyżej"
+msgstr "Wystąpił błąd"
 
 #: pkg/lib/cockpit-components-inline-notification.jsx:92
 #: pkg/systemd/overview-cards/configurationCard.jsx:317
 #: pkg/selinux/setroubleshoot-view.jsx:454
-#, fuzzy
-#| msgid "Log messages"
 msgid "Error message"
-msgstr "Komunikaty dziennika"
+msgstr "Komunikat o błędzie"
 
 #: pkg/lib/cockpit-components-modifications.jsx:143
 msgid "Error running semanage to discover system modifications"
@@ -3268,23 +2924,17 @@ msgstr "Istniejący obraz dysku w systemie plików gospodarza"
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:125
 msgid "Expand"
-msgstr ""
+msgstr "Rozwiń"
 
 #: pkg/lib/machine-info.js:84
-#, fuzzy
-#| msgid "Expansion Chassis"
 msgid "Expansion chassis"
 msgstr "Obudowa rozszerzenia"
 
 #: pkg/systemd/abrtLog.jsx:244
-#, fuzzy
-#| msgid "Extended Information"
 msgid "Extended information"
 msgstr "Rozszerzone informacje"
 
 #: pkg/storaged/format-dialog.jsx:159 pkg/storaged/content-views.jsx:528
-#, fuzzy
-#| msgid "Extended Partition"
 msgid "Extended partition"
 msgstr "Rozszerzona partycja"
 
@@ -3319,10 +2969,8 @@ msgid "Failed to change password"
 msgstr "Zmiana hasła się nie powiodła"
 
 #: pkg/machines/components/vm/vmCloneDialog.jsx:56
-#, fuzzy
-#| msgid "Failed to add machine: $0"
 msgid "Failed to clone VM $0"
-msgstr "Dodanie komputera się nie powiodło: $0"
+msgstr "Sklonowanie maszyny wirtualnej $0 się nie powiodło"
 
 #: pkg/selinux/setroubleshoot-client.js:188
 msgid "Failed to delete alert: $0"
@@ -3353,16 +3001,12 @@ msgid "Failed to load authorized keys."
 msgstr "Wczytanie upoważnionych kluczy się nie powiodło."
 
 #: pkg/packagekit/updates.jsx:420
-#, fuzzy
-#| msgid "Failed to add service"
 msgid "Failed to restart service"
-msgstr "Dodanie usługi się nie powiodło"
+msgstr "Ponowne uruchomienie usługi się nie powiodło"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:97
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to save changes in /etc/motd"
-msgstr "Zmiana oprogramowania sprzętowego się nie powiodła"
+msgstr "Zapisanie zmian w /etc/motd się nie powiodło"
 
 #: pkg/machines/components/vm/consoles/vnc.jsx:130
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
@@ -3393,14 +3037,10 @@ msgid "Filesystem"
 msgstr "System plików"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:58
-#, fuzzy
-#| msgid "Filesystem Directory"
 msgid "Filesystem directory"
 msgstr "Katalog systemu plików"
 
 #: pkg/storaged/fsys-tab.jsx:359
-#, fuzzy
-#| msgid "Filesystem Name"
 msgid "Filesystem name"
 msgstr "Nazwa systemu plików"
 
@@ -3413,18 +3053,14 @@ msgid "Filter"
 msgstr "Filtruj"
 
 #: pkg/machines/components/vms/hostvmslist.jsx:91
-#, fuzzy
-#| msgid "Filter by name or description"
 msgid "Filter by name"
-msgstr "Filtrowanie według nazwy lub opisu"
+msgstr "Filtrowanie według nazwy"
 
 #: pkg/systemd/services/services.jsx:731
 msgid "Filter by name or description"
 msgstr "Filtrowanie według nazwy lub opisu"
 
 #: pkg/networkmanager/firewall.jsx:234
-#, fuzzy
-#| msgid "Filter Services"
 msgid "Filter services"
 msgstr "Filtrowanie usług"
 
@@ -3447,9 +3083,6 @@ msgid "Firmware"
 msgstr "Oprogramowanie sprzętowe"
 
 #: pkg/storaged/drive-details.jsx:81
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Firmware Version"
 msgctxt "storage"
 msgid "Firmware version"
 msgstr "Wersja oprogramowania sprzętowego"
@@ -3464,8 +3097,6 @@ msgid "Forbidden from running"
 msgstr "Zabronione uruchamianie"
 
 #: pkg/users/account-details.js:336
-#, fuzzy
-#| msgid "Force Change"
 msgid "Force change"
 msgstr "Wymuś zmianę"
 
@@ -3474,18 +3105,14 @@ msgid "Force password change"
 msgstr "Wymuszenie zmiany hasła"
 
 #: pkg/machines/components/vm/vmActions.jsx:254
-#, fuzzy
-#| msgid "Force Delete"
 msgid "Force reboot"
-msgstr "Wymuś usunięcie"
+msgstr "Wymuś ponowne uruchomienie"
 
 #: pkg/storaged/crypto-keyslots.jsx:384
 msgid "Force remove passphrase in $0"
 msgstr "Wymuś usunięcie hasła w $0"
 
 #: pkg/machines/components/vm/vmActions.jsx:228
-#, fuzzy
-#| msgid "Force Shut Down"
 msgid "Force shut down"
 msgstr "Wymuś wyłączenie"
 
@@ -3501,8 +3128,6 @@ msgid "Format $0"
 msgstr "Sformatuj $0"
 
 #: pkg/storaged/content-views.jsx:587
-#, fuzzy
-#| msgid "Format Disk $0"
 msgid "Format disk $0"
 msgstr "Sformatuj dysk $0"
 
@@ -3521,8 +3146,6 @@ msgid "Forward delay $forward_delay"
 msgstr "Opóźnienie w przód $forward_delay"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:135
-#, fuzzy
-#| msgid "Forward Mode"
 msgid "Forward mode"
 msgstr "Tryb przekierowania"
 
@@ -3531,19 +3154,14 @@ msgid "Forwarding mode"
 msgstr "Tryb przekierowania"
 
 #: pkg/systemd/abrtLog.jsx:74
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Serial Number"
 msgid "Frame number"
-msgstr "Numer seryjny"
+msgstr "Numer klatki"
 
 #: pkg/storaged/pvol-tabs.jsx:51
 msgid "Free"
 msgstr "Wolne"
 
 #: pkg/storaged/content-views.jsx:513
-#, fuzzy
-#| msgid "Free Space"
 msgid "Free space"
 msgstr "Wolne miejsce"
 
@@ -3564,14 +3182,12 @@ msgid "Fridays"
 msgstr "piątki"
 
 #: pkg/users/account-details.js:277 pkg/users/account-create-dialog.js:40
-#, fuzzy
-#| msgid "Full Name"
 msgid "Full name"
 msgstr "Imię i nazwisko"
 
 #: pkg/shell/shell-modals.jsx:45
 msgid "GNU LGPL version 2.1"
-msgstr ""
+msgstr "GNU LGPL w wersji 2.1"
 
 #: pkg/networkmanager/network-interface.jsx:368
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:202
@@ -3596,11 +3212,9 @@ msgstr "GiB"
 
 #: pkg/machines/app.jsx:150
 msgid "Go to VMs list"
-msgstr ""
+msgstr "Przejdź do listy maszyn wirtualnych"
 
 #: pkg/apps/application.jsx:113
-#, fuzzy
-#| msgid "Go to Application"
 msgid "Go to application"
 msgstr "Przejdź do aplikacji"
 
@@ -3619,8 +3233,6 @@ msgid "Grow"
 msgstr "Powiększ"
 
 #: pkg/storaged/lvol-tabs.jsx:416
-#, fuzzy
-#| msgid "Grow Content"
 msgid "Grow content"
 msgstr "Powiększ zawartość"
 
@@ -3629,8 +3241,6 @@ msgid "Grow logical size of $0"
 msgstr "Powiększ rozmiar logiczny $0"
 
 #: pkg/storaged/lvol-tabs.jsx:242
-#, fuzzy
-#| msgid "Grow Logical Volume"
 msgid "Grow logical volume"
 msgstr "Powiększ wolumin logiczny"
 
@@ -3639,8 +3249,6 @@ msgid "Grow to take all space"
 msgstr "Powiększ do użycia całego miejsca"
 
 #: pkg/networkmanager/index.html:141
-#, fuzzy
-#| msgid "Hairpin mode"
 msgid "Hair pin mode"
 msgstr "Tryb Hairpin"
 
@@ -3649,14 +3257,10 @@ msgid "Hairpin mode"
 msgstr "Tryb Hairpin"
 
 #: pkg/lib/machine-info.js:77
-#, fuzzy
-#| msgid "Hand Held"
 msgid "Handheld"
 msgstr "Przenośny"
 
 #: pkg/systemd/hwinfo.html:4 pkg/systemd/hwinfo.jsx:322
-#, fuzzy
-#| msgid "Hardware Information"
 msgid "Hardware information"
 msgstr "Informacje o sprzęcie"
 
@@ -3673,8 +3277,6 @@ msgid "Help"
 msgstr "Pomoc"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:146
-#, fuzzy
-#| msgid "Hide Additional Options"
 msgid "Hide additional options"
 msgstr "Ukryj dodatkowe opcje"
 
@@ -3683,10 +3285,8 @@ msgid "Hide filters"
 msgstr "Ukryj filtry"
 
 #: pkg/packagekit/history.jsx:108
-#, fuzzy
-#| msgid "Your account"
 msgid "History package count"
-msgstr "Twoje konto"
+msgstr "Liczba pakietów w historii"
 
 #: pkg/shell/machines/machine-add.html:14
 #: pkg/machines/components/vm/overview/bootOrder.jsx:96
@@ -3698,18 +3298,14 @@ msgid "Host"
 msgstr "Gospodarz"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:166
-#, fuzzy
-#| msgid "host device"
 msgid "Host device"
-msgstr "urządzenie gospodarza"
+msgstr "Urządzenie gospodarza"
 
 #: pkg/base1/cockpit.js:4055
 msgid "Host key is incorrect"
 msgstr "Klucz komputera jest niepoprawny"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:125
-#, fuzzy
-#| msgid "Hostname"
 msgid "Host name"
 msgstr "Nazwa komputera"
 
@@ -3747,8 +3343,6 @@ msgid "Hours must be a number between 0 and 23"
 msgstr "Godzina musi być liczbą między 0 a 23"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:253
-#, fuzzy
-#| msgid "Hypervisor Details"
 msgid "Hypervisor details"
 msgstr "Informacje o nadzorcy"
 
@@ -3758,16 +3352,12 @@ msgid "ID"
 msgstr "Identyfikator"
 
 #: pkg/networkmanager/network-interface.jsx:588
-#, fuzzy
-#| msgid "Id $id"
 msgid "ID $id"
 msgstr "Identyfikator $id"
 
 #: pkg/networkmanager/network-main.jsx:180
 #: pkg/networkmanager/network-main.jsx:195
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:222
-#, fuzzy
-#| msgid "IP Address"
 msgid "IP address"
 msgstr "Adres IP"
 
@@ -3780,14 +3370,10 @@ msgstr ""
 "przecinkiem. Przykład: 192.0.2.0/24, 2001:db8::/32"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:175
-#, fuzzy
-#| msgid "IP Configuration"
 msgid "IP configuration"
 msgstr "Konfiguracja IP"
 
 #: pkg/networkmanager/index.html:280
-#, fuzzy
-#| msgid "IP Settings"
 msgid "IP settings"
 msgstr "Ustawienia IP"
 
@@ -3796,8 +3382,6 @@ msgid "IPv4"
 msgstr "IPv4"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:116
-#, fuzzy
-#| msgid "IPv4 Address"
 msgid "IPv4 address"
 msgstr "Adres IPv4"
 
@@ -3806,14 +3390,10 @@ msgid "IPv4 and IPv6"
 msgstr "IPv4 i IPv6"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:236
-#, fuzzy
-#| msgid "IPv4 Network"
 msgid "IPv4 network"
 msgstr "Sieć IPv4"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:58
-#, fuzzy
-#| msgid "IPv4 Network should not be empty"
 msgid "IPv4 network should not be empty"
 msgstr "Sieć IPv4 nie może być pusta"
 
@@ -3822,8 +3402,6 @@ msgid "IPv4 only"
 msgstr "Tylko IPv4"
 
 #: pkg/networkmanager/interfaces.js:1934
-#, fuzzy
-#| msgid "IPv4 Settings"
 msgid "IPv4 settings"
 msgstr "Ustawienia IPv4"
 
@@ -3832,20 +3410,14 @@ msgid "IPv6"
 msgstr "IPv6"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:141
-#, fuzzy
-#| msgid "IPv6 Address"
 msgid "IPv6 address"
 msgstr "Adres IPv6"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:268
-#, fuzzy
-#| msgid "IPv6 Network"
 msgid "IPv6 network"
 msgstr "Sieć IPv6"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:86
-#, fuzzy
-#| msgid "IPv6 Network should not be empty"
 msgid "IPv6 network should not be empty"
 msgstr "Sieć IPv6 nie może być pusta"
 
@@ -3854,8 +3426,6 @@ msgid "IPv6 only"
 msgstr "Tylko IPv6"
 
 #: pkg/networkmanager/interfaces.js:1934
-#, fuzzy
-#| msgid "IPv6 Settings"
 msgid "IPv6 settings"
 msgstr "Ustawienia IPv6"
 
@@ -3865,7 +3435,7 @@ msgstr "Identyfikator"
 
 #: pkg/machines/helpers.js:212
 msgid "Idle"
-msgstr ""
+msgstr "Bezczynne"
 
 #: pkg/storaged/crypto-keyslots.jsx:336
 msgid "If tang-show-keys is not available, run the following:"
@@ -3877,12 +3447,18 @@ msgid ""
 "If the fingerprint matches, click \"Accept key and connect\". Otherwise, do "
 "not connect and contact your administrator."
 msgstr ""
+"Jeśli odcisk się zgadza, należy kliknąć „Przyjmij klucz i połącz się”. W "
+"przeciwnym przypadku nie należy się łączyć i należy skontaktować się z "
+"administratorem."
 
 #: pkg/static/login.html:67
 msgid ""
 "If the fingerprint matches, click \"Accept key and log in\". Otherwise, do "
 "not log in and contact your administrator."
 msgstr ""
+"Jeśli odcisk się zgadza, należy kliknąć „Przyjmij klucz i zaloguj się”. W "
+"przeciwnym przypadku nie należy się logować i należy skontaktować się z "
+"administratorem."
 
 #: pkg/networkmanager/interfaces.js:1459 pkg/packagekit/updates.jsx:618
 #: pkg/packagekit/updates.jsx:693
@@ -3890,14 +3466,10 @@ msgid "Ignore"
 msgstr "Ignorowanie"
 
 #: pkg/users/account-roles.js:65
-#, fuzzy
-#| msgid "Image Builder"
 msgid "Image builder"
 msgstr "Budowanie obrazu"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:812
-#, fuzzy
-#| msgid "Immediately Start VM"
 msgid "Immediately start VM"
 msgstr "Od razu uruchom maszynę wirtualną"
 
@@ -3910,14 +3482,12 @@ msgid "Import VM"
 msgstr "Zaimportuj maszynę wirtualną"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:916
-#, fuzzy
-#| msgid "Import A Virtual Machine"
 msgid "Import a virtual machine"
 msgstr "Zaimportuj maszynę wirtualną"
 
 #: pkg/metrics/metrics.jsx:544
 msgid "In"
-msgstr ""
+msgstr "Wejście"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:246
 msgid ""
@@ -3933,10 +3503,13 @@ msgid ""
 "future, use the login password of ${luser} on ${lhost} as the key password, "
 "or leave the key password blank."
 msgstr ""
+"Aby umożliwić w przyszłości logowanie na komputerze ${rhost} jako użytkownik "
+"${ruser} bez hasła, należy użyć hasła logowania użytkownika ${luser} na "
+"komputerze ${lhost} jako hasło klucza lub pozostawić hasło klucza puste."
 
 #: pkg/storaged/mdraid-details.jsx:108
 msgid "In sync"
-msgstr ""
+msgstr "Zsynchronizowane"
 
 #: pkg/networkmanager/interfaces.js:745 pkg/networkmanager/interfaces.js:1331
 #: pkg/networkmanager/interfaces.js:1338
@@ -3957,14 +3530,12 @@ msgid "Inconsistent filesystem mount"
 msgstr "Niespójny punkt montowania systemu plików"
 
 #: pkg/storaged/vdo-details.jsx:312 pkg/storaged/vdos-panel.jsx:106
-#, fuzzy
-#| msgid "Index Memory"
 msgid "Index memory"
 msgstr "Pamięć indeksu"
 
 #: pkg/packagekit/updates.jsx:685
 msgid "Info"
-msgstr ""
+msgstr "Informacje"
 
 #: pkg/systemd/logs.html:58
 msgid "Info and above"
@@ -3993,30 +3564,22 @@ msgid "Install"
 msgstr "Zainstaluj"
 
 #: pkg/storaged/nfs-panel.jsx:94
-#, fuzzy
-#| msgid "Install NFS Support"
 msgid "Install NFS support"
 msgstr "Zainstaluj obsługę NFS"
 
 #: pkg/storaged/vdos-panel.jsx:44
-#, fuzzy
-#| msgid "Install VDO Support"
 msgid "Install VDO support"
 msgstr "Zainstaluj obsługę VDO"
 
 #: pkg/packagekit/updates.jsx:1270
-#, fuzzy
-#| msgid "Install All Updates"
 msgid "Install all updates"
 msgstr "Zainstaluj wszystkie aktualizacje"
 
 #: pkg/metrics/metrics.jsx:937
 msgid "Install cockpit-pcp"
-msgstr ""
+msgstr "Zainstaluj cockpit-pcp"
 
 #: pkg/packagekit/updates.jsx:1270 pkg/packagekit/updates.jsx:1276
-#, fuzzy
-#| msgid "Install Security Updates"
 msgid "Install security updates"
 msgstr "Zainstaluj aktualizacje zabezpieczeń"
 
@@ -4027,26 +3590,18 @@ msgstr ""
 "zdarzeniami SELinuksa."
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:105
-#, fuzzy
-#| msgid "Install Software"
 msgid "Install software"
 msgstr "Zainstaluj oprogramowanie"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:305
-#, fuzzy
-#| msgid "Installation Source"
 msgid "Installation source"
 msgstr "Źródło instalacji"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:162
-#, fuzzy
-#| msgid "Installation Source must not be empty"
 msgid "Installation source must not be empty"
 msgstr "Źródło instalacji nie może być puste"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:285
-#, fuzzy
-#| msgid "Installation Type"
 msgid "Installation type"
 msgstr "Typ instalacji"
 
@@ -4064,21 +3619,15 @@ msgid "Installing $0"
 msgstr "Instalowanie $0"
 
 #: pkg/metrics/metrics.jsx:544
-#, fuzzy
-#| msgid "Interfaces"
 msgid "Interface"
-msgstr "Interfejsy"
+msgstr "Interfejs"
 
 #: pkg/networkmanager/network-interface-members.jsx:208
 #: pkg/networkmanager/network-interface-members.jsx:213
-#, fuzzy
-#| msgid "Interfaces"
 msgid "Interface members"
-msgstr "Interfejsy"
+msgstr "Elementy interfejsu"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:122
-#, fuzzy
-#| msgid "Interface Type"
 msgid "Interface type"
 msgstr "Typ interfejsu"
 
@@ -4094,8 +3643,6 @@ msgid "Internal error"
 msgstr "Wewnętrzny błąd"
 
 #: pkg/static/login.js:796
-#, fuzzy
-#| msgid "Internal Error: Invalid challenge header"
 msgid "Internal error: Invalid challenge header"
 msgstr "Wewnętrzny błąd: nieprawidłowy nagłówek wyzwania"
 
@@ -4192,22 +3739,18 @@ msgid "Invalid username or password"
 msgstr "Nieprawidłowa nazwa użytkownika lub hasło"
 
 #: pkg/lib/machine-info.js:99
-#, fuzzy
-#| msgid "IoT Gateway"
 msgid "IoT gateway"
 msgstr "Brama IoT"
 
 #: pkg/metrics/metrics.jsx:943
 msgid "Is 'pmlogger' service running?"
-msgstr ""
+msgstr "Czy usługa „pmlogger” jest uruchomiona?"
 
 #: pkg/shell/machines/machine-change-port.html:10
 msgid "Is sshd running on a different port?"
 msgstr "Czy sshd jest uruchomione na innym porcie?"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:108
-#, fuzzy
-#| msgid "Isolated Network"
 msgid "Isolated network"
 msgstr "Odosobniona sieć"
 
@@ -4220,14 +3763,10 @@ msgid "Join"
 msgstr "Dołącz"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:117
-#, fuzzy
-#| msgid "Join a Domain"
 msgid "Join a domain"
 msgstr "Dołącz do domeny"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:610
-#, fuzzy
-#| msgid "Join Domain"
 msgid "Join domain"
 msgstr "Dołącz do domeny"
 
@@ -4240,8 +3779,6 @@ msgid "Joining this domain is not supported"
 msgstr "Dołączenie do tej domeny jest nieobsługiwane"
 
 #: pkg/systemd/services/service-details.jsx:401
-#, fuzzy
-#| msgid "Joins Namespace Of"
 msgid "Joins namespace of"
 msgstr "Dołącza do przestrzeni nazw"
 
@@ -4259,7 +3796,7 @@ msgstr "Nie odnaleziono wpisu dziennika"
 
 #: pkg/metrics/metrics.jsx:998
 msgid "Jump to"
-msgstr ""
+msgstr "Przejdź do"
 
 #: pkg/kdump/kdump-view.jsx:465
 msgid ""
@@ -4273,8 +3810,6 @@ msgid "Keep connection"
 msgstr "Utrzymywanie połączenia"
 
 #: pkg/shell/machines/machine-auth-failed.html:10
-#, fuzzy
-#| msgid "Kerberos Based SSO"
 msgid "Kerberos based SSO"
 msgstr "SSO oparte na Kerberos"
 
@@ -4283,18 +3818,14 @@ msgid "Kernel Dump"
 msgstr "Zrzut jądra"
 
 #: pkg/kdump/index.html:23
-#, fuzzy
-#| msgid "Kernel Dump"
 msgid "Kernel dump"
 msgstr "Zrzut jądra"
 
 #: pkg/shell/machines/machine-change-auth.html:38
 #: pkg/shell/machines/machine-change-auth.html:53
 #: pkg/shell/machines/machine-dialogs.js:734
-#, fuzzy
-#| msgid "password"
 msgid "Key password"
-msgstr "hasło"
+msgstr "Hasło klucza"
 
 #: pkg/storaged/crypto-keyslots.jsx:579
 msgid "Key slots with unknown types can not be edited here"
@@ -4321,14 +3852,10 @@ msgid "Keyserver removal may prevent unlocking $0."
 msgstr "Usunięcie serwera kluczy może uniemożliwić odblokowanie $0."
 
 #: pkg/networkmanager/index.html:266
-#, fuzzy
-#| msgid "LACP Key"
 msgid "LACP key"
 msgstr "Klucz LACP"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:62
-#, fuzzy
-#| msgid "LVM Volume Group"
 msgid "LVM volume group"
 msgstr "Grupa woluminów LVM"
 
@@ -4353,18 +3880,14 @@ msgid "Last failed login:"
 msgstr "Ostatnie nieudane logowanie:"
 
 #: pkg/users/account-details.js:304
-#, fuzzy
-#| msgid "Last login:"
 msgid "Last login"
-msgstr "Ostatnie logowanie:"
+msgstr "Ostatnie logowanie"
 
 #: pkg/systemd/overview.jsx:134
 msgid "Last login:"
 msgstr "Ostatnie logowanie:"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:54
-#, fuzzy
-#| msgid "Launch Remote Viewer"
 msgid "Launch remote viewer"
 msgstr "Uruchom zdalną przeglądarkę"
 
@@ -4376,8 +3899,6 @@ msgstr "Więcej informacji"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:25
 #: pkg/systemd/overview-cards/realmd-operation.html:29
-#, fuzzy
-#| msgid "Leave Domain"
 msgid "Leave domain"
 msgstr "Opuść domenę"
 
@@ -4431,8 +3952,6 @@ msgid "Link local"
 msgstr "Link-local"
 
 #: pkg/networkmanager/index.html:183
-#, fuzzy
-#| msgid "Link Monitoring"
 msgid "Link monitoring"
 msgstr "Monitorowanie łącza"
 
@@ -4441,27 +3960,21 @@ msgid "Link up delay"
 msgstr "Opóźnienie łącza w górę"
 
 #: pkg/networkmanager/index.html:227
-#, fuzzy
-#| msgid "Link Watch"
 msgid "Link watch"
 msgstr "Obserwacja łącza"
 
 #: pkg/metrics/metrics.jsx:87 pkg/metrics/metrics.jsx:440
 #: pkg/metrics/metrics.jsx:1007
 msgid "Load"
-msgstr ""
+msgstr "Obciążenie"
 
 #: pkg/networkmanager/interfaces.js:1483
-#, fuzzy
-#| msgid "Load Balancing"
 msgid "Load balancing"
 msgstr "Równoważenie obciążenia"
 
 #: pkg/metrics/metrics.jsx:1023
-#, fuzzy
-#| msgid "Load earlier entries"
 msgid "Load earlier data"
-msgstr "Wczytaj wcześniejsze wpisy"
+msgstr "Wczytaj wcześniejsze dane"
 
 #: pkg/systemd/logs.js:115
 msgid "Load earlier entries"
@@ -4469,7 +3982,7 @@ msgstr "Wczytaj wcześniejsze wpisy"
 
 #: pkg/metrics/metrics.jsx:88
 msgid "Load spike"
-msgstr ""
+msgstr "Szczyt obciążenia"
 
 #: pkg/packagekit/updates.jsx:78
 msgid "Loading available updates failed"
@@ -4480,20 +3993,14 @@ msgid "Loading available updates, please wait..."
 msgstr "Wczytywanie dostępnych aktualizacji, proszę czekać…"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:320
-#, fuzzy
-#| msgid "Loading..."
 msgid "Loading keys..."
-msgstr "Wczytywanie…"
+msgstr "Wczytywanie kluczy…"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:316
-#, fuzzy
-#| msgid "Loading available updates failed"
 msgid "Loading of SSH keys failed"
-msgstr "Wczytanie dostępnych aktualizacji się nie powiodło"
+msgstr "Wczytanie kluczy SSH się nie powiodło"
 
 #: pkg/machines/components/libvirtSlate.jsx:82
-#, fuzzy
-#| msgid "Loading Resources"
 msgid "Loading resources"
 msgstr "Wczytywanie zasobów"
 
@@ -4511,26 +4018,18 @@ msgid "Loading..."
 msgstr "Wczytywanie…"
 
 #: pkg/users/index.html:23
-#, fuzzy
-#| msgid "Local Accounts"
 msgid "Local accounts"
 msgstr "Lokalne konta"
 
 #: pkg/kdump/kdump-view.jsx:140
-#, fuzzy
-#| msgid "Local Filesystem"
 msgid "Local filesystem"
 msgstr "Lokalny system plików"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:295
-#, fuzzy
-#| msgid "Local Install Media"
 msgid "Local install media"
 msgstr "Lokalny nośnik instalacji"
 
 #: pkg/storaged/nfs-details.jsx:168
-#, fuzzy
-#| msgid "Local Mount Point"
 msgid "Local mount point"
 msgstr "Lokalny punkt montowania"
 
@@ -4543,8 +4042,6 @@ msgid "Lock"
 msgstr "Zablokuj"
 
 #: pkg/users/account-details.js:313 pkg/users/account-create-dialog.js:71
-#, fuzzy
-#| msgid "Lock Account"
 msgid "Lock account"
 msgstr "Zablokuj konto"
 
@@ -4553,10 +4050,8 @@ msgid "Lock account on $0"
 msgstr "Zablokowanie konta w dniu $0"
 
 #: pkg/storaged/crypto-panel.jsx:72 pkg/storaged/crypto-panel.jsx:75
-#, fuzzy
-#| msgid "Remove device"
 msgid "Locked devices"
-msgstr "Usuń urządzenie"
+msgstr "Zablokowane urządzenia"
 
 #: pkg/storaged/jobs-panel.jsx:41
 msgid "Locking $target"
@@ -4564,8 +4059,6 @@ msgstr "Blokowanie $target"
 
 #: pkg/static/login.html:100 pkg/shell/index.html:307
 #: pkg/shell/machines/machine-change-auth.html:74 pkg/static/login.js:563
-#, fuzzy
-#| msgid "Log In"
 msgid "Log in"
 msgstr "Zaloguj"
 
@@ -4582,14 +4075,10 @@ msgid "Log messages"
 msgstr "Komunikaty dziennika"
 
 #: pkg/shell/index.html:80 pkg/metrics/metrics.jsx:931
-#, fuzzy
-#| msgid "Log Out"
 msgid "Log out"
 msgstr "Wyloguj"
 
 #: pkg/users/account-details.js:241
-#, fuzzy
-#| msgid "Logged In"
 msgid "Logged in"
 msgstr "Zalogowano"
 
@@ -4598,38 +4087,26 @@ msgid "Logical"
 msgstr "Logiczny"
 
 #: pkg/storaged/vdo-details.jsx:221 pkg/storaged/vdos-panel.jsx:99
-#, fuzzy
-#| msgid "Logical Size"
 msgid "Logical size"
 msgstr "Rozmiar logiczny"
 
 #: pkg/storaged/utils.js:198
-#, fuzzy
-#| msgid "Logical Volume"
 msgid "Logical volume"
 msgstr "Wolumin logiczny"
 
 #: pkg/storaged/utils.js:196
-#, fuzzy
-#| msgid "Logical Volume (Snapshot)"
 msgid "Logical volume (snapshot)"
 msgstr "Wolumin logiczny (migawka)"
 
 #: pkg/storaged/utils.js:270
-#, fuzzy
-#| msgid "Logical Volume of $0"
 msgid "Logical volume of $0"
 msgstr "Wolumin logiczny $0"
 
 #: pkg/storaged/content-views.jsx:810 pkg/storaged/content-views.jsx:815
-#, fuzzy
-#| msgid "Logical Volume"
 msgid "Logical volumes"
-msgstr "Wolumin logiczny"
+msgstr "Woluminy logiczne"
 
 #: pkg/static/login.js:350
-#, fuzzy
-#| msgid "Login Again"
 msgid "Login again"
 msgstr "Zaloguj ponownie"
 
@@ -4638,14 +4115,10 @@ msgid "Login failed"
 msgstr "Logowanie się nie powiodło"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:15
-#, fuzzy
-#| msgid "Login Format"
 msgid "Login format"
 msgstr "Format logowania"
 
 #: pkg/static/login.js:351
-#, fuzzy
-#| msgid "Logout Successful"
 msgid "Logout successful"
 msgstr "Pomyślnie wylogowano"
 
@@ -4654,16 +4127,12 @@ msgid "Logs"
 msgstr "Dzienniki"
 
 #: pkg/lib/machine-info.js:70
-#, fuzzy
-#| msgid "Low Profile Desktop"
 msgid "Low profile desktop"
 msgstr "Komputer stacjonarny o mniejszym rozmiarze"
 
 #: pkg/lib/machine-info.js:82
-#, fuzzy
-#| msgid "Lunch Box"
 msgid "Lunch box"
-msgstr "Lunch Box"
+msgstr "Lunch box"
 
 #: pkg/networkmanager/index.html:81 pkg/networkmanager/index.html:160
 #: pkg/machines/components/vm/overview/bootOrder.jsx:106
@@ -4673,14 +4142,10 @@ msgstr "MAC"
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:220
 #: pkg/machines/components/vm/nics/nicEdit.jsx:38
 #: pkg/machines/components/vm/nics/nicAdd.jsx:36
-#, fuzzy
-#| msgid "MAC Address"
 msgid "MAC address"
 msgstr "Adres MAC"
 
 #: pkg/networkmanager/interfaces.js:1475
-#, fuzzy
-#| msgid "MII (Recommended)"
 msgid "MII (recommended)"
 msgstr "MII (zalecane)"
 
@@ -4697,8 +4162,6 @@ msgid "Machine ID"
 msgstr "Identyfikator komputera"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:337
-#, fuzzy
-#| msgid "Machine SSH Key Fingerprints"
 msgid "Machine SSH key fingerprints"
 msgstr "Odciski kluczy SSH komputera"
 
@@ -4707,8 +4170,6 @@ msgid "Machine must be shut off before changing bus type"
 msgstr "Maszyna musi być wyłączona przed zmianą typu magistrali"
 
 #: pkg/lib/machine-info.js:83
-#, fuzzy
-#| msgid "Main Server Chassis"
 msgid "Main server chassis"
 msgstr "Główna obudowa serwera"
 
@@ -4718,72 +4179,52 @@ msgstr ""
 "Proszę się upewnić, że suma kontrolna klucza z serwera Tang się zgadza:"
 
 #: pkg/networkmanager/network-main.jsx:176
-#, fuzzy
-#| msgid "Unmanaged Interfaces"
 msgid "Managed interfaces"
-msgstr "Niezarządzane interfejsy"
+msgstr "Zarządzane interfejsy"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing LVMs"
-msgstr "Zarządzanie usługami"
+msgstr "Zarządzanie LVM"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing user accounts"
 msgid "Managing NFS mounts"
-msgstr "Zarządzanie kontami użytkowników"
+msgstr "Zarządzanie punktami montowania NFS"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing RAIDs"
-msgstr "Zarządzanie usługami"
+msgstr "Zarządzanie RAID"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing VDOs"
-msgstr "Zarządzanie usługami"
+msgstr "Zarządzanie VDO"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing VLANs"
-msgstr "Zarządzanie usługami"
+msgstr "Zarządzanie VLAN"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "Managing firewall"
 msgstr "Zarządzanie zaporą sieciową"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking bonds"
-msgstr "Zarządzanie siecią"
+msgstr "Zarządzanie wiązaniami sieciowymi"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking bridges"
-msgstr "Zarządzanie siecią"
+msgstr "Zarządzanie mostkami sieciowymi"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking teams"
-msgstr "Zarządzanie siecią"
+msgstr "Zarządzanie zespołami sieciowymi"
 
 #: pkg/storaged/manifest.json.in:0
 msgid "Managing partitions"
 msgstr "Zarządzanie partycjami"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing physical drives"
-msgstr "Zarządzanie usługami"
+msgstr "Zarządzanie napędami fizycznymi"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Managing services"
@@ -4806,8 +4247,6 @@ msgid "Manual"
 msgstr "Ręczne"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:44
-#, fuzzy
-#| msgid "Manual Connection"
 msgid "Manual connection"
 msgstr "Ręczne połączenie"
 
@@ -4824,21 +4263,15 @@ msgid "Marking $target as faulty"
 msgstr "Oznaczanie $target jako wadliwe"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:244
-#, fuzzy
-#| msgid "Mask or Prefix Length"
 msgid "Mask or prefix length"
 msgstr "Długość maski lub przedrostka"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:63
-#, fuzzy
-#| msgid "Mask or Prefix Length should not be empty"
 msgid "Mask or prefix length should not be empty"
 msgstr "Długość maski lub przedrostka nie może być pusta"
 
 #: pkg/systemd/services/service-details.jsx:158
 #: pkg/systemd/services/service-details.jsx:161
-#, fuzzy
-#| msgid "Mask Service"
 msgid "Mask service"
 msgstr "Zamaskuj usługę"
 
@@ -4857,8 +4290,6 @@ msgstr ""
 "jednostka ma zostać zamaskowana."
 
 #: pkg/machines/components/vm/overview/memoryModal.jsx:118
-#, fuzzy
-#| msgid "Maximum Allocation"
 msgid "Maximum allocation"
 msgstr "Maksymalny przydział"
 
@@ -4871,14 +4302,10 @@ msgid "Maximum message age $max_age"
 msgstr "Maksymalny wiek komunikatu $max_age"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:199
-#, fuzzy
-#| msgid ""
-#| "Maximum number of virtual CPUs allocated for the guest OS, which must be "
-#| "between 1 and $0"
 msgid "Maximum number of virtual CPUs allocated for the guest OS"
 msgstr ""
 "Maksymalna liczba wirtualnych procesorów przydzielonych do systemu "
-"operacyjnego gościa, musi wynosić między 1 a $0"
+"operacyjnego gościa"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:198
 msgid ""
@@ -4889,20 +4316,14 @@ msgstr ""
 "operacyjnego gościa, musi wynosić między 1 a $0"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:107
-#, fuzzy
-#| msgid "Maximum Transmission Unit"
 msgid "Maximum transmission unit"
 msgstr "MTU"
 
 #: pkg/storaged/content-views.jsx:405
-#, fuzzy
-#| msgid "Member of RAID Device"
 msgid "Member of RAID device"
 msgstr "Element urządzenia RAID"
 
 #: pkg/storaged/content-views.jsx:401
-#, fuzzy
-#| msgid "Member of RAID Device $0"
 msgid "Member of RAID device $0"
 msgstr "Element urządzenia RAID $0"
 
@@ -4925,22 +4346,16 @@ msgid "Memory must not be 0"
 msgstr "Pamięć nie może wynosić 0"
 
 #: pkg/metrics/metrics.jsx:95
-#, fuzzy
-#| msgid "Memory usage:"
 msgid "Memory spike"
-msgstr "Użycie pamięci:"
+msgstr "Szczyt pamięci"
 
 #: pkg/systemd/hwinfo.jsx:308
-#, fuzzy
-#| msgid "Memory Technology"
 msgid "Memory technology"
 msgstr "Technologia pamięci"
 
 #: pkg/metrics/metrics.jsx:94
-#, fuzzy
-#| msgid "Memory usage:"
 msgid "Memory usage"
-msgstr "Użycie pamięci:"
+msgstr "Użycie pamięci"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:193
 msgid "Message to logged in users"
@@ -4952,8 +4367,6 @@ msgstr ""
 "Być może w dzienniku znajdują się komunikaty związane z niepowodzeniem:"
 
 #: pkg/storaged/lvol-tabs.jsx:467
-#, fuzzy
-#| msgid "Metadata Used"
 msgid "Metadata used"
 msgstr "Użyte metadane"
 
@@ -4962,10 +4375,8 @@ msgid "Method"
 msgstr "Metoda"
 
 #: pkg/metrics/metrics.jsx:942
-#, fuzzy
-#| msgid "Memory could not be saved"
 msgid "Metrics history could not be loaded"
-msgstr "Nie można zapisać pamięci"
+msgstr "Nie można wczytać historii statystyk"
 
 #: pkg/machines/components/vm/overview/memorySelectRow.jsx:85
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:102
@@ -4977,10 +4388,8 @@ msgid "Mini PC"
 msgstr "Mini PC"
 
 #: pkg/lib/machine-info.js:72
-#, fuzzy
-#| msgid "Mini Tower"
 msgid "Mini tower"
-msgstr "Mini Tower"
+msgstr "Mini tower"
 
 #: pkg/systemd/services/timer-dialog.js:116
 #: pkg/systemd/services/timer-dialog.js:125
@@ -5034,14 +4443,10 @@ msgid "Mondays"
 msgstr "poniedziałki"
 
 #: pkg/networkmanager/index.html:188
-#, fuzzy
-#| msgid "Monitoring Interval"
 msgid "Monitoring interval"
 msgstr "Odstęp monitorowania"
 
 #: pkg/networkmanager/index.html:192
-#, fuzzy
-#| msgid "Monitoring Targets"
 msgid "Monitoring targets"
 msgstr "Cele monitorowania"
 
@@ -5055,7 +4460,7 @@ msgstr "Więcej informacji"
 
 #: pkg/packagekit/updates.jsx:851
 msgid "More info..."
-msgstr ""
+msgstr "Więcej informacji…"
 
 #: pkg/storaged/fsys-tab.jsx:289 pkg/storaged/content-views.jsx:377
 #: pkg/storaged/nfs-details.jsx:313 pkg/kdump/kdump-view.jsx:103
@@ -5075,14 +4480,10 @@ msgid "Mount automatically on $0 on boot"
 msgstr "Montowanie automatycznie na $0 podczas uruchamiania"
 
 #: pkg/storaged/fsys-tab.jsx:285
-#, fuzzy
-#| msgid "Mount Configuration"
 msgid "Mount configuration"
 msgstr "Konfiguracja montowania"
 
 #: pkg/storaged/fsys-tab.jsx:283
-#, fuzzy
-#| msgid "Mount Filesystem"
 msgid "Mount filesystem"
 msgstr "Zamontuj system plików"
 
@@ -5096,16 +4497,12 @@ msgstr "Zamontuj na $0 teraz"
 
 #: pkg/storaged/fsys-tab.jsx:254 pkg/storaged/format-dialog.jsx:237
 #: pkg/storaged/nfs-details.jsx:179
-#, fuzzy
-#| msgid "Mount Options"
 msgid "Mount options"
 msgstr "Opcje montowania"
 
 #: pkg/storaged/fsys-tab.jsx:249 pkg/storaged/fsys-tab.jsx:526
 #: pkg/storaged/format-dialog.jsx:231 pkg/storaged/nfs-panel.jsx:103
 #: pkg/storaged/fsys-panel.jsx:95 pkg/storaged/nfs-details.jsx:334
-#, fuzzy
-#| msgid "Mount Point"
 msgid "Mount point"
 msgstr "Punkt montowania"
 
@@ -5135,15 +4532,10 @@ msgid "Mounting $target"
 msgstr "Montowanie $target"
 
 #: pkg/lib/machine-info.js:91
-#, fuzzy
-#| msgid "Multi-system Chassis"
 msgid "Multi-system chassis"
 msgstr "Obudowa dla wielu komputerów"
 
 #: pkg/storaged/drive-details.jsx:88
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Multipathed Devices"
 msgctxt "storage"
 msgid "Multipathed devices"
 msgstr "Urządzenia wielościeżkowe"
@@ -5153,20 +4545,14 @@ msgid "NAT to $0"
 msgstr "NAT do $0"
 
 #: pkg/storaged/nfs-details.jsx:144
-#, fuzzy
-#| msgid "NFS Mount"
 msgid "NFS mount"
 msgstr "Punkt montowania NFS"
 
 #: pkg/storaged/nfs-panel.jsx:90 pkg/storaged/nfs-panel.jsx:97
-#, fuzzy
-#| msgid "NFS Mounts"
 msgid "NFS mounts"
 msgstr "Punkty montowania NFS"
 
 #: pkg/storaged/nfs-panel.jsx:93
-#, fuzzy
-#| msgid "NFS Support not installed"
 msgid "NFS support not installed"
 msgstr "Obsługa NFS nie jest zainstalowana"
 
@@ -5175,14 +4561,10 @@ msgid "NIC $0 of VM $1 failed to change state"
 msgstr "Zmiana stanu NIC $0 maszyny wirtualnej $1 się nie powiodła"
 
 #: pkg/networkmanager/interfaces.js:1498
-#, fuzzy
-#| msgid "NSNA Ping"
 msgid "NSNA ping"
 msgstr "Ping NSNA"
 
 #: pkg/lib/serverTime.js:491
-#, fuzzy
-#| msgid "NTP Server"
 msgid "NTP server"
 msgstr "Serwer NTP"
 
@@ -5272,9 +4654,6 @@ msgid "Netmask"
 msgstr "Maska sieci"
 
 #: pkg/metrics/metrics.jsx:534 pkg/metrics/metrics.jsx:1010
-#, fuzzy
-#| msgid "Network"
-#| msgid_plural "Networks"
 msgid "Network"
 msgstr "Sieć"
 
@@ -5287,37 +4666,26 @@ msgid "Network $0 failed to get deactivated"
 msgstr "Dezaktywacja sieci $0 się nie powiodła"
 
 #: pkg/metrics/metrics.jsx:116
-#, fuzzy
-#| msgid "Network"
-#| msgid_plural "Networks"
 msgid "Network I/O"
-msgstr "Sieć"
+msgstr "Wejście/wyjście sieci"
 
 #: pkg/metrics/metrics.jsx:117
-#, fuzzy
-#| msgid "Networks"
 msgid "Network I/O spike"
-msgstr "Sieci"
+msgstr "Szczyt wejścia/wyjścia sieci"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:80
 msgid "Network bond"
 msgstr "Wiązanie sieciowe"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:300
-#, fuzzy
-#| msgid "Network Boot (PXE)"
 msgid "Network boot (PXE)"
 msgstr "Uruchamianie sieciowe (PXE)"
 
 #: pkg/networkmanager/app.jsx:95
-#, fuzzy
-#| msgid "Network devices and graphs require NetworkManager."
 msgid "Network devices and graphs require NetworkManager"
-msgstr "Urządzenia i wykresy sieciowe wymagają usługi NetworkManager."
+msgstr "Urządzenia i wykresy sieciowe wymagają usługi NetworkManager"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:59
-#, fuzzy
-#| msgid "Network File System"
 msgid "Network file system"
 msgstr "NFS"
 
@@ -5327,34 +4695,24 @@ msgid "Network interface settings could not be saved"
 msgstr "Nie można zapisać ustawień interfejsu sieciowego"
 
 #: pkg/networkmanager/network-main.jsx:201
-#, fuzzy
-#| msgid "Networking Logs"
 msgid "Network logs"
 msgstr "Dzienniki sieci"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:252
-#, fuzzy
-#| msgid "Network Selection does not support PXE."
 msgid "Network selection does not support PXE."
 msgstr "Wybór sieci nie obsługuje PXE."
 
 #: pkg/metrics/metrics.jsx:543
-#, fuzzy
-#| msgid "Networks"
 msgid "Network usage"
-msgstr "Sieci"
+msgstr "Użycie sieci"
 
 #: pkg/networkmanager/app.jsx:87
-#, fuzzy
-#| msgid "NetworkManager is not running."
 msgid "NetworkManager is not installed"
-msgstr "Usługa NetworkManager nie jest uruchomiona."
+msgstr "Usługa NetworkManager nie jest zainstalowana"
 
 #: pkg/networkmanager/app.jsx:71
-#, fuzzy
-#| msgid "NetworkManager is not running."
 msgid "NetworkManager is not running"
-msgstr "Usługa NetworkManager nie jest uruchomiona."
+msgstr "Usługa NetworkManager nie jest uruchomiona"
 
 #: pkg/networkmanager/index.html:23
 #: pkg/networkmanager/network-interface.jsx:751
@@ -5382,30 +4740,22 @@ msgid "Never lock account"
 msgstr "Bez blokowania konta"
 
 #: pkg/storaged/nfs-details.jsx:144
-#, fuzzy
-#| msgid "New NFS Mount"
 msgid "New NFS mount"
 msgstr "Nowy punkt montowania NFS"
 
 #: pkg/shell/machines/machine-unknown-hostkey.html:2 pkg/static/login.js:646
-#, fuzzy
-#| msgid "Add new host"
 msgid "New host"
-msgstr "Dodaj nowy komputer"
+msgstr "Nowy komputer"
 
 #: pkg/shell/machines/machine-dialogs.js:745
-#, fuzzy
-#| msgid "New Password"
 msgid "New key password"
-msgstr "Nowe hasło"
+msgstr "Nowe hasło klucza"
 
 #: pkg/storaged/crypto-keyslots.jsx:217 pkg/storaged/crypto-keyslots.jsx:263
 msgid "New passphrase"
 msgstr "Nowe hasło"
 
 #: pkg/shell/index.html:251 pkg/users/password-dialogs.js:150
-#, fuzzy
-#| msgid "New Password"
 msgid "New password"
 msgstr "Nowe hasło"
 
@@ -5414,8 +4764,6 @@ msgid "New password was not accepted"
 msgstr "Nie przyjęto nowego hasła"
 
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:42
-#, fuzzy
-#| msgid "New Volume Name"
 msgid "New volume name"
 msgstr "Nazwa nowego woluminu"
 
@@ -5466,34 +4814,24 @@ msgid "No configuration found"
 msgstr "Nie odnaleziono konfiguracji"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:45
-#, fuzzy
-#| msgid "No description available"
 msgid "No connection available"
-msgstr "Brak dostępnego opisu"
+msgstr "Brak dostępnego połączenia"
 
 #: pkg/metrics/metrics.jsx:966
-#, fuzzy
-#| msgid "Not available"
 msgid "No data available"
-msgstr "Niedostępne"
+msgstr "Brak dostępnych danych"
 
 #: pkg/metrics/metrics.jsx:962
-#, fuzzy
-#| msgid "Occurred between $0 and $1"
 msgid "No data available between $0 and $1"
-msgstr "Wystąpiło między $0 a $1"
+msgstr "Brak dostępnych danych między $0 a $1"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:166
-#, fuzzy
-#| msgid "No Delay"
 msgid "No delay"
 msgstr "Brak opóźnienia"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:128
-#, fuzzy
-#| msgid "Description"
 msgid "No description"
-msgstr "Opis"
+msgstr "Brak opisu"
 
 #: pkg/networkmanager/firewall.jsx:728
 msgid "No description available"
@@ -5504,8 +4842,6 @@ msgid "No description provided."
 msgstr "Nie podano opisu."
 
 #: pkg/storaged/things-panel.jsx:81
-#, fuzzy
-#| msgid "No Devices"
 msgid "No devices"
 msgstr "Brak urządzeń"
 
@@ -5524,8 +4860,6 @@ msgid "No drives attached"
 msgstr "Nie podłączono napędów"
 
 #: pkg/storaged/format-dialog.jsx:157
-#, fuzzy
-#| msgid "No Filesystem"
 msgid "No filesystem"
 msgstr "Brak systemu plików"
 
@@ -5558,14 +4892,10 @@ msgid "No log entries"
 msgstr "Brak wpisów dziennika"
 
 #: pkg/storaged/content-views.jsx:814
-#, fuzzy
-#| msgid "No Logical Volumes"
 msgid "No logical volumes"
 msgstr "Brak woluminów logicznych"
 
 #: pkg/systemd/logs.js:113 pkg/systemd/logs.js:140 pkg/systemd/logs.js:268
-#, fuzzy
-#| msgid "No Logs Found"
 msgid "No logs found"
 msgstr "Nie odnaleziono dzienników"
 
@@ -5588,8 +4918,6 @@ msgstr ""
 "Przykład: crashkernel=512M"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:111
-#, fuzzy
-#| msgid "No Network Devices"
 msgid "No network devices"
 msgstr "Brak urządzeń sieciowych"
 
@@ -5606,10 +4934,8 @@ msgid "No networks available"
 msgstr "Brak dostępnych sieci"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:170
-#, fuzzy
-#| msgid "Parent"
 msgid "No parent"
-msgstr "Nadrzędne"
+msgstr "Brak nadrzędnego"
 
 #: pkg/storaged/content-views.jsx:606
 msgid "No partitioning"
@@ -5635,20 +4961,14 @@ msgid "No rule hits"
 msgstr "Brak trafień"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:244
-#, fuzzy
-#| msgid "No disks defined for this VM"
 msgid "No snapshots defined for this VM"
-msgstr "Nie określono dysków dla tej maszyny wirtualnej"
+msgstr "Nie określono migawek dla tej maszyny wirtualnej"
 
 #: pkg/machines/helpers.js:220
-#, fuzzy
-#| msgid "State"
 msgid "No state"
-msgstr "Stan"
+msgstr "Brak stanu"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:516
-#, fuzzy
-#| msgid "No Storage"
 msgid "No storage"
 msgstr "Brak urządzeń do przechowywania danych"
 
@@ -5658,14 +4978,10 @@ msgstr ""
 "Na tym gospodarzu nie określono żadnej puli urządzeń do przechowywania danych"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:130
-#, fuzzy
-#| msgid "No Storage Pools available"
 msgid "No storage pools available"
 msgstr "Brak dostępnych pul urządzeń do przechowywania danych"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:115
-#, fuzzy
-#| msgid "No Storage Volumes defined for this Storage Pool"
 msgid "No storage volumes defined for this storage pool"
 msgstr ""
 "Dla tej puli urządzeń do przechowywania danych nie określono żadnych "
@@ -5677,25 +4993,18 @@ msgid "No such file or directory"
 msgstr "Nie ma takiego pliku lub katalogu"
 
 #: pkg/lib/cockpit-components-modifications.jsx:142
-#, fuzzy
-#| msgid "No System Modifications"
 msgid "No system modifications"
 msgstr "Brak modyfikacji systemu"
 
 #: pkg/packagekit/autoupdates.jsx:355
-#, fuzzy
-#| msgid "$0 update"
-#| msgid_plural "$0 updates"
 msgid "No updates"
-msgstr "$0 aktualizacja"
+msgstr "Brak aktualizacji"
 
 #: pkg/users/account-create-dialog.js:87
 msgid "No user name specified"
 msgstr "Nie podano nazwy użytkownika"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:109
-#, fuzzy
-#| msgid "No Virtual Networks"
 msgid "No virtual networks"
 msgstr "Brak sieci wirtualnych"
 
@@ -5722,8 +5031,6 @@ msgid "None"
 msgstr "Brak"
 
 #: pkg/machines/helpers.js:250
-#, fuzzy
-#| msgid "None (Isolated Network)"
 msgid "None (isolated network)"
 msgstr "Brak (odizolowana sieć)"
 
@@ -5756,10 +5063,8 @@ msgid "Not connected to Insights"
 msgstr "Nie połączono z Insights"
 
 #: pkg/shell/indexes.js:490
-#, fuzzy
-#| msgid "Not connected to Insights"
 msgid "Not connected to host"
-msgstr "Nie połączono z Insights"
+msgstr "Nie połączono z komputerem"
 
 #: pkg/storaged/lvol-tabs.jsx:368
 msgid "Not enough space to grow."
@@ -5782,14 +5087,10 @@ msgid "Not permitted to perform this action."
 msgstr "Brak uprawnień do wykonania tego działania."
 
 #: pkg/playground/translate.html:29
-#, fuzzy
-#| msgid "Not Ready"
 msgid "Not ready"
 msgstr "Niegotowe"
 
 #: pkg/packagekit/updates.jsx:1222
-#, fuzzy
-#| msgid "Not Registered"
 msgid "Not registered"
 msgstr "Nie zarejestrowano"
 
@@ -5816,11 +5117,8 @@ msgid "Notice and above"
 msgstr "Uwagi i powyżej"
 
 #: pkg/selinux/setroubleshoot-view.jsx:454
-#, fuzzy
-#| msgid "$0 occurrence"
-#| msgid_plural "$1 occurrences"
 msgid "Occurances"
-msgstr "$0 wystąpienie"
+msgstr "Wystąpienia"
 
 #: pkg/selinux/setroubleshoot-view.jsx:392
 msgid "Occurred $0"
@@ -5839,8 +5137,6 @@ msgid "Old passphrase"
 msgstr "Poprzednie hasło"
 
 #: pkg/shell/index.html:242 pkg/users/password-dialogs.js:141
-#, fuzzy
-#| msgid "Old Password"
 msgid "Old password"
 msgstr "Poprzednie hasło"
 
@@ -5853,8 +5149,6 @@ msgid "On a mounted device"
 msgstr "Na zamontowanym urządzeniu"
 
 #: pkg/systemd/services/service-details.jsx:396
-#, fuzzy
-#| msgid "On Failure"
 msgid "On failure"
 msgstr "Podczas niepowodzenia"
 
@@ -5876,8 +5170,6 @@ msgstr ""
 
 #: pkg/systemd/overview-cards/realmd-operation.html:69
 #: pkg/systemd/overview-cards/realmd-operation.js:341
-#, fuzzy
-#| msgid "One Time Password"
 msgid "One time password"
 msgstr "Hasło jednorazowe"
 
@@ -5895,8 +5187,6 @@ msgid "Only editable when the guest is shut off"
 msgstr "Można zmieniać tylko przy wyłączonym gościu"
 
 #: pkg/systemd/logs.html:52
-#, fuzzy
-#| msgid "Only Emergency"
 msgid "Only emergency"
 msgstr "Tylko awaryjne"
 
@@ -5909,10 +5199,8 @@ msgid "Open"
 msgstr "Otwórz"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:363
-#, fuzzy
-#| msgid "operating system"
 msgid "Operating system"
-msgstr "system operacyjny"
+msgstr "System operacyjny"
 
 #: pkg/storaged/jobs-panel.jsx:87
 msgid "Operation '$operation' on $target"
@@ -5924,9 +5212,6 @@ msgid "Operation is in progress"
 msgstr "Działanie jest wykonywane"
 
 #: pkg/storaged/drives-panel.jsx:76
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Optical Drive"
 msgctxt "storage"
 msgid "Optical drive"
 msgstr "Napęd optyczny"
@@ -5944,30 +5229,21 @@ msgid "Other"
 msgstr "Inne"
 
 #: pkg/storaged/content-views.jsx:413
-#, fuzzy
-#| msgctxt "storage-id-desc"
-#| msgid "Other Data"
 msgctxt "storage-id-desc"
 msgid "Other data"
 msgstr "Inne dane"
 
 #: pkg/storaged/others-panel.jsx:71
-#, fuzzy
-#| msgid "Other Devices"
 msgid "Other devices"
 msgstr "Inne urządzenia"
 
 #: pkg/static/login.html:84
-#, fuzzy
-#| msgid "Other Options"
 msgid "Other options"
 msgstr "Inne opcje"
 
 #: pkg/metrics/metrics.jsx:544
-#, fuzzy
-#| msgid "Log Out"
 msgid "Out"
-msgstr "Wyloguj"
+msgstr "Wyjście"
 
 #: pkg/metrics/metrics.jsx:1035
 #: pkg/machines/components/vm/vmDetailsPage.jsx:104
@@ -5991,7 +5267,7 @@ msgstr "PCP"
 
 #: pkg/metrics/metrics.jsx:936
 msgid "Package cockpit-pcp is missing for metrics history"
-msgstr ""
+msgstr "Brak pakietu „cockpit-pcp” dla historii statystyk"
 
 #: pkg/packagekit/updates.jsx:622 pkg/packagekit/updates.jsx:699
 msgid "Package information"
@@ -6010,16 +5286,12 @@ msgid "PackageKit reported error code $0"
 msgstr "Usługa PackageKit zgłosiła kod błędu $0"
 
 #: pkg/packagekit/updates.jsx:295
-#, fuzzy
-#| msgid "package"
 msgid "Packages"
-msgstr "pakiet"
+msgstr "Pakiety"
 
 #: pkg/shell/active-pages-dialog.jsx:67
-#, fuzzy
-#| msgid "User name"
 msgid "Page name"
-msgstr "Nazwa użytkownika"
+msgstr "Nazwa strony"
 
 #: pkg/networkmanager/index.html:45
 msgid "Parent"
@@ -6030,16 +5302,12 @@ msgid "Parent $parent"
 msgstr "Nadrzędne $parent"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:169
-#, fuzzy
-#| msgid "Create Snapshot"
 msgid "Parent snapshot"
-msgstr "Utwórz migawkę"
+msgstr "Migawka nadrzędna"
 
 #: pkg/systemd/services/service-details.jsx:386
-#, fuzzy
-#| msgid "Part of "
 msgid "Part of"
-msgstr "Część "
+msgstr "Część"
 
 #: pkg/networkmanager/interfaces.js:1364
 msgid "Part of "
@@ -6092,8 +5360,6 @@ msgid "Password"
 msgstr "Hasło"
 
 #: pkg/users/expiration-dialogs.js:199
-#, fuzzy
-#| msgid "Password Expiration"
 msgid "Password expiration"
 msgstr "Wygasanie hasła"
 
@@ -6140,8 +5406,6 @@ msgid "Path on host's filesystem"
 msgstr "Ścieżka w systemie plików gospodarza"
 
 #: pkg/storaged/nfs-details.jsx:156
-#, fuzzy
-#| msgid "Path on Server"
 msgid "Path on server"
 msgstr "Ścieżka na serwerze"
 
@@ -6162,10 +5426,8 @@ msgid "Path to file"
 msgstr "Ścieżka do pliku"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:250
-#, fuzzy
-#| msgid "Path to ISO file on host's file system"
 msgid "Path to file on host's file system"
-msgstr "Ścieżka do pliku ISO w systemie plików gospodarza"
+msgstr "Ścieżka do pliku w systemie plików gospodarza"
 
 #: pkg/systemd/services/service-tabs.jsx:42
 msgid "Paths"
@@ -6177,24 +5439,18 @@ msgid "Pause"
 msgstr "Wstrzymaj"
 
 #: pkg/machines/helpers.js:213
-#, fuzzy
-#| msgid "Pause"
 msgid "Paused"
-msgstr "Wstrzymaj"
+msgstr "Wstrzymane"
 
 #: pkg/metrics/index.html:20 pkg/metrics/metrics.jsx:1036
-#, fuzzy
-#| msgid "Performance profile"
 msgid "Performance Metrics"
-msgstr "Profil wydajności"
+msgstr "Statystyki wydajności"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:192
 msgid "Performance profile"
 msgstr "Profil wydajności"
 
 #: pkg/lib/machine-info.js:87
-#, fuzzy
-#| msgid "Peripheral Chassis"
 msgid "Peripheral chassis"
 msgstr "Obudowa peryferyjna"
 
@@ -6225,8 +5481,6 @@ msgid "Physical"
 msgstr "Fizyczny"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:61
-#, fuzzy
-#| msgid "Physical Disk Device"
 msgid "Physical disk device"
 msgstr "Fizyczne urządzenie dyskowe"
 
@@ -6235,8 +5489,6 @@ msgid "Physical disk device on host"
 msgstr "Fizyczne urządzenie dyskowe na gospodarzu"
 
 #: pkg/storaged/content-views.jsx:161 pkg/storaged/content-views.jsx:403
-#, fuzzy
-#| msgid "Physical Volume"
 msgid "Physical volume"
 msgstr "Wolumin fizyczny"
 
@@ -6245,8 +5497,6 @@ msgid "Physical volume of $0"
 msgstr "Wolumin fizyczny $0"
 
 #: pkg/storaged/vgroup-details.jsx:127
-#, fuzzy
-#| msgid "Physical Volumes"
 msgid "Physical volumes"
 msgstr "Woluminy fizyczne"
 
@@ -6255,28 +5505,20 @@ msgid "Physical volumes can not be resized here."
 msgstr "Nie można tutaj zmieniać rozmiaru woluminów fizycznych."
 
 #: pkg/lib/cockpit-components-shutdown.jsx:205
-#, fuzzy
-#| msgid "date"
 msgid "Pick date"
-msgstr "data"
+msgstr "Wybierz datę"
 
 #: pkg/networkmanager/index.html:232
-#, fuzzy
-#| msgid "Ping Interval"
 msgid "Ping interval"
 msgstr "Odstęp między pingami"
 
 #: pkg/networkmanager/index.html:236
-#, fuzzy
-#| msgid "Ping Target"
 msgid "Ping target"
 msgstr "Cel pingu"
 
 #: pkg/lib/machine-info.js:71
-#, fuzzy
-#| msgid "Pizza Box"
 msgid "Pizza box"
-msgstr "Pizza Box"
+msgstr "Pizza box"
 
 #: pkg/shell/superuser.jsx:43
 msgid "Please authenticate to gain administrative access"
@@ -6302,6 +5544,7 @@ msgstr "Proszę potwierdzić zatrzymanie $0"
 #: pkg/static/login.html:34
 msgid "Please enable JavaScript to use the Web Console."
 msgstr ""
+"Proszę włączyć obsługę języka JavaScript, aby używać konsoli internetowej."
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:334
 msgid "Please enter new volume name"
@@ -6313,7 +5556,7 @@ msgstr "Proszę zainstalować pakiet $0"
 
 #: pkg/packagekit/updates.jsx:1344
 msgid "Please reload the page after resolving the issue."
-msgstr ""
+msgstr "Proszę odświeżyć stronę po rozwiązaniu problemu."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:195
 msgid "Please set a root password"
@@ -6344,14 +5587,10 @@ msgid "Pool"
 msgstr "Pula"
 
 #: pkg/storaged/utils.js:192
-#, fuzzy
-#| msgid "Pool for Thin Logical Volumes"
 msgid "Pool for thin logical volumes"
 msgstr "Pula dla cienkich woluminów logicznych"
 
 #: pkg/storaged/content-views.jsx:683
-#, fuzzy
-#| msgid "Pool for Thin Volumes"
 msgid "Pool for thin volumes"
 msgstr "Pula dla cienkich woluminów"
 
@@ -6361,7 +5600,7 @@ msgstr "Pula dla cienko nadzorowanych woluminów"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:157
 msgid "Pool needs to be active to create volume"
-msgstr ""
+msgstr "Pula musi być aktywna, aby utworzyć wolumin"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:157
 msgid "Pool type doesn't support volume creation"
@@ -6408,14 +5647,10 @@ msgid "Prefix length"
 msgstr "Długość przedrostka"
 
 #: pkg/networkmanager/interfaces.js:1881
-#, fuzzy
-#| msgid "Prefix length or Netmask"
 msgid "Prefix length or netmask"
 msgstr "Długość przedrostka lub maska sieci"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:91
-#, fuzzy
-#| msgid "Prefix Length should not be empty"
 msgid "Prefix length should not be empty"
 msgstr "Długość przedrostka nie może być pusta"
 
@@ -6432,8 +5667,6 @@ msgid "Preserve"
 msgstr "Zachowaj"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:438
-#, fuzzy
-#| msgid "Pretty Host Name"
 msgid "Pretty host name"
 msgstr "Czytelna nazwa komputera"
 
@@ -6446,6 +5679,8 @@ msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
 msgstr ""
+"Poprzednio wykonane migawki umożliwiają przywrócenie do wcześniejszego "
+"stanu, jeśli coś się nie powiedzie"
 
 #: pkg/networkmanager/index.html:178
 msgid "Primary"
@@ -6503,8 +5738,6 @@ msgid "Prompting via ssh-keygen timed out"
 msgstr "Pytanie przez ssh-keygen przekroczyło czas oczekiwania"
 
 #: pkg/systemd/services/service-details.jsx:399
-#, fuzzy
-#| msgid "Propagates Reload To"
 msgid "Propagates reload to"
 msgstr "Wysyła ponowne wczytanie do"
 
@@ -6515,8 +5748,6 @@ msgid "Protocol"
 msgstr "Protokół"
 
 #: pkg/shell/index.html:188 pkg/shell/machines/machine-auth-failed.html:9
-#, fuzzy
-#| msgid "Public Key"
 msgid "Public key"
 msgstr "Klucz publiczny"
 
@@ -6533,8 +5764,6 @@ msgid "RAID 0"
 msgstr "RAID 0"
 
 #: pkg/storaged/mdraids-panel.jsx:68
-#, fuzzy
-#| msgid "RAID 0 (Stripe)"
 msgid "RAID 0 (stripe)"
 msgstr "RAID 0 (Striping)"
 
@@ -6543,8 +5772,6 @@ msgid "RAID 1"
 msgstr "RAID 1"
 
 #: pkg/storaged/mdraids-panel.jsx:72
-#, fuzzy
-#| msgid "RAID 1 (Mirror)"
 msgid "RAID 1 (mirror)"
 msgstr "RAID 1 (Lustrzany)"
 
@@ -6553,8 +5780,6 @@ msgid "RAID 10"
 msgstr "RAID 10"
 
 #: pkg/storaged/mdraids-panel.jsx:88
-#, fuzzy
-#| msgid "RAID 10 (Stripe of Mirrors)"
 msgid "RAID 10 (stripe of mirrors)"
 msgstr "RID 10 (Striping lustrzany)"
 
@@ -6563,8 +5788,6 @@ msgid "RAID 4"
 msgstr "RAID 4"
 
 #: pkg/storaged/mdraids-panel.jsx:76
-#, fuzzy
-#| msgid "RAID 4 (Dedicated Parity)"
 msgid "RAID 4 (dedicated parity)"
 msgstr "RAID 4 (Dedykowana parzystość)"
 
@@ -6573,8 +5796,6 @@ msgid "RAID 5"
 msgstr "RAID 5"
 
 #: pkg/storaged/mdraids-panel.jsx:80
-#, fuzzy
-#| msgid "RAID 5 (Distributed Parity)"
 msgid "RAID 5 (distributed parity)"
 msgstr "RAID 5 (Rozproszona parzystość)"
 
@@ -6583,55 +5804,39 @@ msgid "RAID 6"
 msgstr "RAID 6"
 
 #: pkg/storaged/mdraids-panel.jsx:84
-#, fuzzy
-#| msgid "RAID 6 (Double Distributed Parity)"
 msgid "RAID 6 (double distributed parity)"
 msgstr "RAID 6 (Podwójna rozproszona parzystość)"
 
 #: pkg/lib/machine-info.js:88
-#, fuzzy
-#| msgid "RAID Chassis"
 msgid "RAID chassis"
 msgstr "Obudowa RAID"
 
 #: pkg/storaged/pvol-tabs.jsx:66 pkg/storaged/mdraids-panel.jsx:41
-#, fuzzy
-#| msgid "RAID Device"
 msgid "RAID device"
 msgstr "Urządzenie RAID"
 
 #: pkg/storaged/mdraid-details.jsx:315 pkg/storaged/utils.js:242
-#, fuzzy
-#| msgid "RAID Device $0"
 msgid "RAID device $0"
 msgstr "Urządzenie RAID $0"
 
 #: pkg/storaged/mdraids-panel.jsx:62
-#, fuzzy
-#| msgid "RAID Level"
 msgid "RAID level"
 msgstr "Poziom macierzy RAID"
 
 #: pkg/storaged/mdraid-details.jsx:343
-#, fuzzy
-#| msgid "RAID Level"
 msgctxt "storage"
 msgid "RAID level"
 msgstr "Poziom macierzy RAID"
 
 #: pkg/storaged/content-views.jsx:164
-#, fuzzy
-#| msgid "RAID Member"
 msgid "RAID member"
 msgstr "Element macierzy RAID"
 
 #: pkg/metrics/metrics.jsx:468
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #: pkg/lib/machine-info.js:89
-#, fuzzy
-#| msgid "Rack Mount Chassis"
 msgid "Rack mount chassis"
 msgstr "Obudowa do montowania w szafie"
 
@@ -6656,10 +5861,8 @@ msgid "Raw to a device"
 msgstr "Surowe do urządzenia"
 
 #: pkg/metrics/metrics.jsx:497
-#, fuzzy
-#| msgid "Ready"
 msgid "Read"
-msgstr "Gotowe"
+msgstr "Odczyt"
 
 #: pkg/systemd/hwinfo.jsx:218
 msgid "Read more..."
@@ -6685,8 +5888,6 @@ msgid "Ready"
 msgstr "Gotowe"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:441
-#, fuzzy
-#| msgid "Real Host Name"
 msgid "Real host name"
 msgstr "Prawdziwa nazwa komputera"
 
@@ -6711,15 +5912,13 @@ msgid "Reboot"
 msgstr "Uruchom ponownie"
 
 #: pkg/packagekit/updates.jsx:1361
-#, fuzzy
-#| msgid "recommended"
 msgid "Reboot recommended"
-msgstr "zalecane"
+msgstr "Zalecane jest ponowne uruchomienie"
 
 #: pkg/packagekit/updates.jsx:617 pkg/packagekit/updates.jsx:690
 #: pkg/packagekit/updates.jsx:753
 msgid "Reboot system..."
-msgstr ""
+msgstr "Ponownie uruchom komputer…"
 
 #: pkg/networkmanager/network-interface-members.jsx:218
 #: pkg/networkmanager/network-main.jsx:182
@@ -6740,8 +5939,6 @@ msgid "Recovering"
 msgstr "Odzyskiwanie"
 
 #: pkg/storaged/jobs-panel.jsx:68
-#, fuzzy
-#| msgid "Recovering RAID Device $target"
 msgid "Recovering RAID device $target"
 msgstr "Przywracanie urządzenia RAID $target"
 
@@ -6770,14 +5967,12 @@ msgid "Reload"
 msgstr "Wczytaj ponownie"
 
 #: pkg/systemd/services/service-details.jsx:400
-#, fuzzy
-#| msgid "Reload Propagated From"
 msgid "Reload propagated from"
 msgstr "Odebrano ponowne wczytanie z"
 
 #: pkg/packagekit/updates.jsx:431
 msgid "Reloading the state of remaining services"
-msgstr ""
+msgstr "Ponowne wczytywanie stanu pozostałych usług"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:273
 msgid "Remote URL"
@@ -6792,15 +5987,10 @@ msgid "Remote over SSH"
 msgstr "Zdalnie przez SSH"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:55
-#, fuzzy
-#| msgid "Remote over NFS"
 msgid "Remote viewer details"
-msgstr "Zdalnie przez NFS"
+msgstr "Informacje o zdalnej przeglądarce"
 
 #: pkg/storaged/drives-panel.jsx:72 pkg/storaged/drives-panel.jsx:74
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Removable Drive"
 msgctxt "storage"
 msgid "Removable drive"
 msgstr "Napęd wymienny"
@@ -6863,8 +6053,6 @@ msgid "Removing $0"
 msgstr "Usuwanie $0"
 
 #: pkg/storaged/jobs-panel.jsx:64
-#, fuzzy
-#| msgid "Removing $target from RAID Device"
 msgid "Removing $target from RAID device"
 msgstr "Usuwanie $target z urządzenia RAID"
 
@@ -6900,14 +6088,10 @@ msgid "Rename"
 msgstr "Zmień nazwę"
 
 #: pkg/storaged/lvol-tabs.jsx:39
-#, fuzzy
-#| msgid "Rename Logical Volume"
 msgid "Rename logical volume"
 msgstr "Zmiana nazwy woluminu logicznego"
 
 #: pkg/storaged/vgroup-details.jsx:164
-#, fuzzy
-#| msgid "Rename Volume Group"
 msgid "Rename volume group"
 msgstr "Zmień nazwę grupy woluminów"
 
@@ -6920,20 +6104,14 @@ msgid "Repairing $target"
 msgstr "Naprawianie $target"
 
 #: pkg/systemd/services.html:247
-#, fuzzy
-#| msgid "Repeat Daily"
 msgid "Repeat daily"
 msgstr "Powtarzanie codziennie"
 
 #: pkg/systemd/services.html:246
-#, fuzzy
-#| msgid "Repeat Hourly"
 msgid "Repeat hourly"
 msgstr "Powtarzanie co godzinę"
 
 #: pkg/systemd/services.html:249
-#, fuzzy
-#| msgid "Repeat Monthly"
 msgid "Repeat monthly"
 msgstr "Powtarzanie co miesiąc"
 
@@ -6943,14 +6121,10 @@ msgid "Repeat passphrase"
 msgstr "Powtórzenie hasła"
 
 #: pkg/systemd/services.html:248
-#, fuzzy
-#| msgid "Repeat Weekly"
 msgid "Repeat weekly"
 msgstr "Powtarzanie co tydzień"
 
 #: pkg/systemd/services.html:250
-#, fuzzy
-#| msgid "Repeat Yearly"
 msgid "Repeat yearly"
 msgstr "Powtarzanie co roku"
 
@@ -6987,10 +6161,8 @@ msgid "Require password change on $0"
 msgstr "Wymaganie zmiany hasła w dniu $0"
 
 #: pkg/systemd/services/service-details.jsx:387
-#, fuzzy
-#| msgid "Required by "
 msgid "Required by"
-msgstr "Wymagane przez "
+msgstr "Wymagane przez"
 
 #: pkg/systemd/services/service-details.jsx:339
 msgid "Required by "
@@ -7009,8 +6181,6 @@ msgid "Requisite"
 msgstr "Potrzebne"
 
 #: pkg/systemd/services/service-details.jsx:388
-#, fuzzy
-#| msgid "Requisite Of"
 msgid "Requisite of"
 msgstr "Potrzebne dla"
 
@@ -7023,10 +6193,8 @@ msgid "Reset"
 msgstr "Przywróć"
 
 #: pkg/users/password-dialogs.js:276
-#, fuzzy
-#| msgid "Set Password"
 msgid "Reset password"
-msgstr "Ustaw hasło"
+msgstr "Przywróć hasło"
 
 #: pkg/storaged/jobs-panel.jsx:43 pkg/storaged/jobs-panel.jsx:49
 #: pkg/storaged/jobs-panel.jsx:81
@@ -7046,16 +6214,12 @@ msgid "Restart"
 msgstr "Uruchom ponownie"
 
 #: pkg/packagekit/updates.jsx:445 pkg/packagekit/updates.jsx:460
-#, fuzzy
-#| msgid "Start Service"
 msgid "Restart services"
-msgstr "Uruchom usługę"
+msgstr "Ponownie uruchom usługi"
 
 #: pkg/packagekit/updates.jsx:691 pkg/packagekit/updates.jsx:765
-#, fuzzy
-#| msgid "Start Service"
 msgid "Restart services..."
-msgstr "Uruchom usługę"
+msgstr "Ponownie uruchom usługi…"
 
 #: pkg/packagekit/updates.jsx:1408
 msgid "Restarting"
@@ -7072,14 +6236,12 @@ msgstr "Wznów"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:68
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:192
-#, fuzzy
-#| msgid "Never"
 msgid "Revert"
-msgstr "Nigdy"
+msgstr "Przywróć"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:63
 msgid "Revert to snapshot $0"
-msgstr ""
+msgstr "Przywróć do migawki $0"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:76
 msgid ""
@@ -7087,6 +6249,9 @@ msgid ""
 "and the current state will be lost, along with any data not captured in a "
 "snapshot"
 msgstr ""
+"Przywrócenie do tej migawki przeniesie maszynę wirtualną do czasu migawki i "
+"jej obecny stan zostanie utracony, razem ze wszelkimi danymi nieujętymi w "
+"migawce"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Reviewing logs"
@@ -7097,24 +6262,18 @@ msgid "Roles"
 msgstr "Role"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:464
-#, fuzzy
-#| msgid "Root Password"
 msgid "Root password"
 msgstr "Hasło roota"
 
 #: pkg/networkmanager/interfaces.js:1464 pkg/networkmanager/interfaces.js:1481
-#, fuzzy
-#| msgid "Round Robin"
 msgid "Round robin"
-msgstr "Round Robin"
+msgstr "Round robin"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:98
 msgid "Route to $0"
 msgstr "Trasa do $0"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:100
-#, fuzzy
-#| msgid "Routed Network"
 msgid "Routed network"
 msgstr "Trasowana sieć"
 
@@ -7150,8 +6309,6 @@ msgid "SELinux"
 msgstr "SELinux"
 
 #: pkg/selinux/setroubleshoot-view.jsx:362
-#, fuzzy
-#| msgid "SELinux Access Control Errors"
 msgid "SELinux access control errors"
 msgstr "Błędy kontroli dostępu SELinuksa"
 
@@ -7164,8 +6321,6 @@ msgid "SELinux is disabled on the system."
 msgstr "SELinux jest wyłączony w systemie."
 
 #: pkg/selinux/setroubleshoot-view.jsx:293
-#, fuzzy
-#| msgid "SELinux Policy"
 msgid "SELinux policy"
 msgstr "Polityka SELinuksa"
 
@@ -7174,8 +6329,6 @@ msgid "SELinux system status is unknown."
 msgstr "Stan SELinuksa systemu jest nieznany."
 
 #: pkg/selinux/setroubleshoot.html:23
-#, fuzzy
-#| msgid "SELinux Troubleshoot"
 msgid "SELinux troubleshoot"
 msgstr "Rozwiązywanie problemów z SELinuksem"
 
@@ -7184,56 +6337,38 @@ msgid "SMART self-test of $target"
 msgstr "Test SMART $target"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:52
-#, fuzzy
-#| msgid "SPICE TLS Port:"
 msgid "SPICE TLS port"
-msgstr "Port TLS SPICE:"
+msgstr "Port TLS dla SPICE"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:48
-#, fuzzy
-#| msgid "SPICE Address:"
 msgid "SPICE address"
-msgstr "Adres SPICE:"
+msgstr "Adres SPICE"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:50
-#, fuzzy
-#| msgid "SPICE Port:"
 msgid "SPICE port"
-msgstr "Port SPICE:"
+msgstr "Port SPICE"
 
 #: pkg/shell/machines/machine-change-auth.html:46
-#, fuzzy
-#| msgid "SSH Keys"
 msgid "SSH key"
-msgstr "Klucze SSH"
+msgstr "Klucz SSH"
 
 #: pkg/shell/index.html:77 pkg/shell/index.html:115
-#, fuzzy
-#| msgid "SSH Keys"
 msgid "SSH keys"
 msgstr "Klucze SSH"
 
 #: pkg/networkmanager/index.html:117
-#, fuzzy
-#| msgid "STP Forward delay"
 msgid "STP forward delay"
 msgstr "Opóźnienie w przód STP"
 
 #: pkg/networkmanager/index.html:121
-#, fuzzy
-#| msgid "STP Hello time"
 msgid "STP hello time"
 msgstr "Czas powitania STP"
 
 #: pkg/networkmanager/index.html:125
-#, fuzzy
-#| msgid "STP Maximum message age"
 msgid "STP maximum message age"
 msgstr "Maksymalny wiek komunikatu STP"
 
 #: pkg/networkmanager/index.html:113
-#, fuzzy
-#| msgid "STP Priority"
 msgid "STP priority"
 msgstr "Priorytet STP"
 
@@ -7269,7 +6404,7 @@ msgstr "Zapisz i uruchom ponownie"
 #: pkg/packagekit/autoupdates.jsx:424
 #: pkg/systemd/overview-cards/motdCard.jsx:98
 msgid "Save changes"
-msgstr ""
+msgstr "Zapisz zmiany"
 
 #: pkg/storaged/vdos-panel.jsx:121
 msgid "Save space by compressing individual blocks with LZ4"
@@ -7306,8 +6441,6 @@ msgid "Seconds"
 msgstr "Sekundy"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:197
-#, fuzzy
-#| msgid "Secure Shell keys"
 msgid "Secure shell keys"
 msgstr "Klucze SSH"
 
@@ -7316,38 +6449,28 @@ msgid "Securely erasing $target"
 msgstr "Bezpieczne usuwanie zawartości $target"
 
 #: pkg/packagekit/autoupdates.jsx:269
-#, fuzzy
-#| msgid "Apply security updates"
 msgid "Security updates "
-msgstr "Zastosuj aktualizacje zabezpieczeń"
+msgstr "Aktualizacje zabezpieczeń "
 
 #: pkg/packagekit/updates.jsx:1281
-#, fuzzy
-#| msgid "Security Updates Available"
 msgid "Security updates available"
-msgstr "Dostępne są aktualizacje bezpieczeństwa"
+msgstr "Dostępne są aktualizacje zabezpieczeń"
 
 #: pkg/packagekit/autoupdates.jsx:361
-#, fuzzy
-#| msgid "Security Updates Available"
 msgid "Security updates only"
-msgstr "Dostępne są aktualizacje bezpieczeństwa"
+msgstr "Tylko aktualizacje zabezpieczeń"
 
 #: pkg/shell/shell-modals.jsx:86
 msgid "Select"
 msgstr "Wybierz"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:97
-#, fuzzy
-#| msgid "Console Type"
 msgid "Select console type"
-msgstr "Typ konsoli"
+msgstr "Wybierz typ konsoli"
 
 #: pkg/systemd/services/services.jsx:735
-#, fuzzy
-#| msgid "select container"
 msgid "Select unit state"
-msgstr "wybierz kontener"
+msgstr "Wybierz stan jednostki"
 
 #: pkg/systemd/reporting.jsx:245
 msgid "Send"
@@ -7358,8 +6481,6 @@ msgid "Send key"
 msgstr "Wyślij klawisz"
 
 #: pkg/machines/components/vm/vmActions.jsx:236
-#, fuzzy
-#| msgid "Send Non-Maskable Interrupt"
 msgid "Send non-maskable interrupt"
 msgstr "Wyślij niemaskowalne przerwanie"
 
@@ -7370,15 +6491,10 @@ msgid "Sending"
 msgstr "Wysyłanie"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:98
-#, fuzzy
-#| msgid "Serial Console"
 msgid "Serial console"
 msgstr "Konsola szeregowa"
 
 #: pkg/storaged/drive-details.jsx:82
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Serial Number"
 msgctxt "storage"
 msgid "Serial number"
 msgstr "Numer seryjny"
@@ -7389,8 +6505,6 @@ msgid "Server"
 msgstr "Serwer"
 
 #: pkg/storaged/iscsi-panel.jsx:44 pkg/storaged/nfs-details.jsx:147
-#, fuzzy
-#| msgid "Server Address"
 msgid "Server address"
 msgstr "Adres serwera"
 
@@ -7399,8 +6513,6 @@ msgid "Server address cannot be empty."
 msgstr "Adres serwera nie może być pusty."
 
 #: pkg/users/account-roles.js:62 pkg/users/account-roles.js:63
-#, fuzzy
-#| msgid "Server Administrator"
 msgid "Server administrator"
 msgstr "Administrator serwera"
 
@@ -7413,8 +6525,6 @@ msgid "Server has closed the connection."
 msgstr "Serwer zamknął połączenie."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:18
-#, fuzzy
-#| msgid "Server Software"
 msgid "Server software"
 msgstr "Oprogramowanie serwera"
 
@@ -7444,8 +6554,6 @@ msgid "Service is stopping"
 msgstr "Usługa jest zatrzymywana"
 
 #: pkg/systemd/services/service.jsx:89
-#, fuzzy
-#| msgid "Service Logs"
 msgid "Service logs"
 msgstr "Dzienniki serwera"
 
@@ -7472,14 +6580,10 @@ msgid "Set"
 msgstr "Ustaw"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:207
-#, fuzzy
-#| msgid "Set DHCP Range"
 msgid "Set DHCP range"
 msgstr "Ustaw zakres DHCP"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:147
-#, fuzzy
-#| msgid "Set Hostname"
 msgid "Set hostname"
 msgstr "Ustaw nazwę komputera"
 
@@ -7489,14 +6593,10 @@ msgstr "Ustaw ręcznie"
 
 #: pkg/users/account-details.js:329 pkg/users/password-dialogs.js:213
 #: pkg/users/password-dialogs.js:223 pkg/users/password-dialogs.js:230
-#, fuzzy
-#| msgid "Set Password"
 msgid "Set password"
 msgstr "Ustaw hasło"
 
 #: pkg/lib/serverTime.js:522
-#, fuzzy
-#| msgid "Set Time"
 msgid "Set time"
 msgstr "Ustaw czas"
 
@@ -7540,8 +6640,6 @@ msgid "Shared"
 msgstr "Współdzielone"
 
 #: pkg/lib/cockpit-components-modifications.jsx:90
-#, fuzzy
-#| msgid "Shell Script"
 msgid "Shell script"
 msgstr "Skrypt powłoki"
 
@@ -7550,26 +6648,20 @@ msgid "Shift+Insert"
 msgstr "Shift+Insert"
 
 #: pkg/storaged/things-panel.jsx:82
-#, fuzzy
-#| msgid "Show all $0 devices"
 msgid "Show $0 device"
 msgid_plural "Show all $0 devices"
-msgstr[0] "Wyświetl wszystkie urządzenia $0"
-msgstr[1] "Wyświetl wszystkie urządzenia $0"
-msgstr[2] "Wyświetl wszystkie urządzenia $0"
+msgstr[0] "Wyświetl $0 urządzenie"
+msgstr[1] "Wyświetl wszystkie $0 urządzenia"
+msgstr[2] "Wyświetl wszystkie $0 urządzeń"
 
 #: pkg/storaged/drives-panel.jsx:104
-#, fuzzy
-#| msgid "Show all $0 drives"
 msgid "Show $0 drive"
 msgid_plural "Show all $0 drives"
-msgstr[0] "Wyświetl wszystkie napędy $0"
-msgstr[1] "Wyświetl wszystkie napędy $0"
-msgstr[2] "Wyświetl wszystkie napędy $0"
+msgstr[0] "Wyświetl $0 napęd"
+msgstr[1] "Wyświetl wszystkie $0 napędy"
+msgstr[2] "Wyświetl wszystkie $0 napędów"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:146
-#, fuzzy
-#| msgid "Show Additional Options"
 msgid "Show additional options"
 msgstr "Wyświetl dodatkowe opcje"
 
@@ -7578,10 +6670,8 @@ msgid "Show all"
 msgstr "Wyświetl wszystkie"
 
 #: pkg/systemd/abrtLog.jsx:214
-#, fuzzy
-#| msgid "Show all images"
 msgid "Show all threads"
-msgstr "Wyświetl wszystkie obrazy"
+msgstr "Wyświetl wszystkie wątki"
 
 #: pkg/systemd/logs.html:104 pkg/systemd/logs.js:416 pkg/systemd/logs.js:552
 msgid "Show filters"
@@ -7596,14 +6686,10 @@ msgid "Shrink"
 msgstr "Zmniejsz"
 
 #: pkg/storaged/lvol-tabs.jsx:327
-#, fuzzy
-#| msgid "Shrink Logical Volume"
 msgid "Shrink logical volume"
 msgstr "Zmniejsz wolumin logiczny"
 
 #: pkg/storaged/lvol-tabs.jsx:415
-#, fuzzy
-#| msgid "Shrink Volume"
 msgid "Shrink volume"
 msgstr "Zmniejsz wolumin"
 
@@ -7611,16 +6697,12 @@ msgstr "Zmniejsz wolumin"
 #: pkg/machines/components/vm/vmActions.jsx:221
 #: pkg/lib/cockpit-components-shutdown.jsx:181
 #: pkg/lib/cockpit-components-shutdown.jsx:183
-#, fuzzy
-#| msgid "Shutdown"
 msgid "Shut down"
 msgstr "Wyłącz"
 
 #: pkg/machines/helpers.js:215
-#, fuzzy
-#| msgid "shut off"
 msgid "Shut off"
-msgstr "wyłącz"
+msgstr "Wyłącz"
 
 #: pkg/machines/components/vm/overview/firmware.jsx:138
 msgid "Shut off the VM in order to edit firmware configuration"
@@ -7634,14 +6716,10 @@ msgstr "Wyłącz"
 
 #: pkg/machines/helpers.js:214
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:147
-#, fuzzy
-#| msgid "Shutdown"
 msgid "Shutting down"
-msgstr "Wyłącz"
+msgstr "Wyłączanie"
 
 #: pkg/lib/machine-info.js:246
-#, fuzzy
-#| msgid "Single Rank"
 msgid "Single rank"
 msgstr "Pojedynczy stopień"
 
@@ -7684,8 +6762,6 @@ msgid "Skip main navigation"
 msgstr "Pomiń główną nawigację"
 
 #: pkg/shell/index.html:15
-#, fuzzy
-#| msgid "Skip to Content"
 msgid "Skip to content"
 msgstr "Przejdź do treści"
 
@@ -7698,16 +6774,12 @@ msgid "Slot $0"
 msgstr "Gniazdo $0"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCreateModal.jsx:112
-#, fuzzy
-#| msgid "Disk failed to be created"
 msgid "Snapshot failed to be created"
-msgstr "Utworzenie dysku się nie powiodło"
+msgstr "Utworzenie migawki się nie powiodło"
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:154
-#, fuzzy
-#| msgid "Create Snapshot"
 msgid "Snapshots"
-msgstr "Utwórz migawkę"
+msgstr "Migawki"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:211
 #: pkg/systemd/services/service-tabs.jsx:40
@@ -7719,8 +6791,6 @@ msgid "Software Updates"
 msgstr "Aktualizacje oprogramowania"
 
 #: pkg/packagekit/index.html:23
-#, fuzzy
-#| msgid "Software Updates"
 msgid "Software updates"
 msgstr "Aktualizacje oprogramowania"
 
@@ -7754,15 +6824,13 @@ msgstr "Inny program obecnie używa menedżera pakietów, proszę czekać…"
 #: pkg/packagekit/updates.jsx:669 pkg/packagekit/updates.jsx:773
 #: pkg/packagekit/updates.jsx:1372
 msgid "Some software needs to be restarted manually"
-msgstr ""
+msgstr "Część oprogramowania musi zostać ręcznie uruchomiona ponownie"
 
 #: pkg/shell/superuser.jsx:297
 msgid "Something went wrong"
 msgstr "Coś się nie powiodło"
 
 #: pkg/networkmanager/firewall.jsx:705
-#, fuzzy
-#| msgid "Sorted from least trusted to most trusted"
 msgid "Sorted from least to most trusted"
 msgstr "Uporządkowane od najmniej do najbardziej zaufanych"
 
@@ -7775,8 +6843,6 @@ msgid "Source"
 msgstr "Źródło"
 
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:58
-#, fuzzy
-#| msgid "Source Format"
 msgid "Source format"
 msgstr "Format źródłowy"
 
@@ -7784,8 +6850,6 @@ msgstr "Format źródłowy"
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:190
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:43
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:48
-#, fuzzy
-#| msgid "Source Path"
 msgid "Source path"
 msgstr "Ścieżka źródłowa"
 
@@ -7799,26 +6863,18 @@ msgid "Source should start with http, ftp or nfs protocol"
 msgstr "Źródło musi zaczynać się od protokołu http, ftp lub nfs"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:217
-#, fuzzy
-#| msgid "Source Volume Group"
 msgid "Source volume group"
 msgstr "Źródłowa grupa woluminów"
 
 #: pkg/lib/machine-info.js:81
-#, fuzzy
-#| msgid "Space-saving Computer"
 msgid "Space-saving computer"
 msgstr "Komputer oszczędzający miejsce"
 
 #: pkg/networkmanager/network-interface.jsx:541
-#, fuzzy
-#| msgid "Spanning Tree Protocol"
 msgid "Spanning tree protocol"
 msgstr "Protokół STP"
 
 #: pkg/networkmanager/index.html:107
-#, fuzzy
-#| msgid "Spanning Tree Protocol (STP)"
 msgid "Spanning tree protocol (STP)"
 msgstr "Protokół STP"
 
@@ -7827,8 +6883,6 @@ msgid "Spare"
 msgstr "Zapasowe"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:174
-#, fuzzy
-#| msgid "Specific Time"
 msgid "Specific time"
 msgstr "Podany czas"
 
@@ -7848,8 +6902,6 @@ msgid "Start"
 msgstr "Rozpocznij"
 
 #: pkg/systemd/services/service-details.jsx:378
-#, fuzzy
-#| msgid "Start and Enable"
 msgid "Start and enable"
 msgstr "Uruchom i włącz"
 
@@ -7858,8 +6910,6 @@ msgid "Start libvirt"
 msgstr "Uruchom usługę libvirt"
 
 #: pkg/storaged/multipath.jsx:72
-#, fuzzy
-#| msgid "Start Multipath"
 msgid "Start multipath"
 msgstr "Uruchom urządzenie wielościeżkowe"
 
@@ -7868,8 +6918,6 @@ msgid "Start pool when host boots"
 msgstr "Włączanie puli po uruchomieniu gospodarza"
 
 #: pkg/networkmanager/app.jsx:72 pkg/systemd/services/service-details.jsx:307
-#, fuzzy
-#| msgid "Start Service"
 msgid "Start service"
 msgstr "Uruchom usługę"
 
@@ -7879,8 +6927,6 @@ msgid "Start should not be empty"
 msgstr "Początek nie może być pusty"
 
 #: pkg/storaged/jobs-panel.jsx:62
-#, fuzzy
-#| msgid "Starting RAID Device $target"
 msgid "Starting RAID device $target"
 msgstr "Uruchamianie urządzenia RAID $target"
 
@@ -7932,8 +6978,6 @@ msgid "Stop"
 msgstr "Zatrzymaj"
 
 #: pkg/systemd/services/service-details.jsx:378
-#, fuzzy
-#| msgid "Stop and Disable"
 msgid "Stop and disable"
 msgstr "Zatrzymaj i wyłącz"
 
@@ -7942,14 +6986,10 @@ msgid "Stop and remove"
 msgstr "Zatrzymaj i usuń"
 
 #: pkg/storaged/nfs-details.jsx:268
-#, fuzzy
-#| msgid "Stop and Unmount"
 msgid "Stop and unmount"
 msgstr "Zatrzymaj i odmontuj"
 
 #: pkg/storaged/mdraid-details.jsx:248
-#, fuzzy
-#| msgid "Stop Device"
 msgid "Stop device"
 msgstr "Zatrzymaj urządzenie"
 
@@ -7958,8 +6998,6 @@ msgid "Stop editing hosts"
 msgstr "Zatrzymaj modyfikowanie komputerów"
 
 #: pkg/storaged/jobs-panel.jsx:61
-#, fuzzy
-#| msgid "Stopping RAID Device $target"
 msgid "Stopping RAID device $target"
 msgstr "Zatrzymywanie urządzenia RAID $target"
 
@@ -7979,51 +7017,36 @@ msgstr ""
 "Urządzenia do przechowywania danych nie mogą być zarządzane na tym systemie."
 
 #: pkg/storaged/logs-panel.jsx:39
-#, fuzzy
-#| msgid "Storage Logs"
 msgid "Storage logs"
 msgstr "Dzienniki urządzeń do przechowywania danych"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:118
-#, fuzzy
-#| msgid "Storage Pool $0 failed to get activated"
 msgid "Storage pool $0 failed to get activated"
 msgstr "Aktywacja puli urządzeń do przechowywania danych $0 się nie powiodła"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:138
-#, fuzzy
-#| msgid "Storage Pool $0 failed to get deactivated"
 msgid "Storage pool $0 failed to get deactivated"
-msgstr ""
-"Dezaktywacja puli urządzeń do przechowywania danych $0 się nie powiodła"
+msgstr "Dezaktywacja puli urządzeń do przechowywania danych $0 się nie powiodła"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:393
-#, fuzzy
-#| msgid "Storage Pool failed to be created"
 msgid "Storage pool failed to be created"
 msgstr "Utworzenie puli urządzeń do przechowywania danych się nie powiodło"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:48
-#, fuzzy
-#| msgid "Storage Pool Name"
 msgid "Storage pool name"
 msgstr "Nazwa puli urządzeń do przechowywania danych"
 
 #: pkg/machines/components/storagePools/storagePoolList.jsx:56
 #: pkg/machines/components/storagePools/storagePoolList.jsx:63
 #: pkg/machines/components/storagePools/storagePoolList.jsx:70
-#, fuzzy
-#| msgid "Storage pool"
 msgid "Storage pools"
-msgstr "Pula urządzeń do przechowywania danych"
+msgstr "Pule urządzeń do przechowywania danych"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:182
 msgid "Storage size must not be 0"
 msgstr "Rozmiar urządzenia do przechowywania danych nie może wynosić 0"
 
 #: pkg/machines/components/vm/disks/diskEdit.jsx:45
-#, fuzzy
-#| msgid "Storage Volume"
 msgid "Storage volume"
 msgstr "Wolumin urządzeń do przechowywania danych"
 
@@ -8031,16 +7054,14 @@ msgstr "Wolumin urządzeń do przechowywania danych"
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:64
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
+"Rozmiar woluminu urządzeń do przechowywania danych nie może przekraczać "
+"pojemności puli urządzeń do przechowywania danych ($0 $1)"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:75
-#, fuzzy
-#| msgid "Storage Volumes"
 msgid "Storage volumes"
 msgstr "Woluminy urządzeń do przechowywania danych"
 
 #: pkg/machines/components/storagePools/storageVolumeDelete.jsx:44
-#, fuzzy
-#| msgid "Storage Volumes could not be deleted"
 msgid "Storage volumes could not be deleted"
 msgstr "Nie można usunąć woluminów urządzeń do przechowywania danych"
 
@@ -8059,16 +7080,12 @@ msgid "Stored passphrase"
 msgstr "Zachowane hasło"
 
 #: pkg/lib/machine-info.js:85
-#, fuzzy
-#| msgid "Sub Chassis"
 msgid "Sub-Chassis"
 msgstr "Obudowa podrzędna"
 
 #: pkg/lib/machine-info.js:80
-#, fuzzy
-#| msgid "Sub Notebook"
 msgid "Sub-Notebook"
-msgstr "Sub Notebook"
+msgstr "Sub-Notebook"
 
 #: pkg/systemd/services.html:58
 msgid "Sunday"
@@ -8083,10 +7100,8 @@ msgid "Support is installed."
 msgstr "Obsługa jest zainstalowana."
 
 #: pkg/machines/helpers.js:218
-#, fuzzy
-#| msgid "suspended (PM)"
 msgid "Suspended (PM)"
-msgstr "uśpione (PM)"
+msgstr "uśpione (zarządzanie zasilaniem)"
 
 #: pkg/storaged/content-views.jsx:168 pkg/metrics/metrics.jsx:102
 #: pkg/metrics/metrics.jsx:397 pkg/metrics/metrics.jsx:1008
@@ -8094,22 +7109,15 @@ msgid "Swap"
 msgstr "Partycja wymiany"
 
 #: pkg/metrics/metrics.jsx:101
-#, fuzzy
-#| msgid "Swap"
 msgid "Swap out"
-msgstr "Partycja wymiany"
+msgstr "Wyjście przestrzeni wymiany"
 
 #: pkg/storaged/content-views.jsx:411
-#, fuzzy
-#| msgctxt "storage-id-desc"
-#| msgid "Swap Space"
 msgctxt "storage-id-desc"
 msgid "Swap space"
 msgstr "Przestrzeń wymiany"
 
 #: pkg/networkmanager/network-interface-members.jsx:70
-#, fuzzy
-#| msgid "Switch off $0"
 msgid "Switch of $0"
 msgstr "Wyłącz $0"
 
@@ -8165,8 +7173,6 @@ msgid "Synchronizing"
 msgstr "Synchronizowanie"
 
 #: pkg/storaged/jobs-panel.jsx:69
-#, fuzzy
-#| msgid "Synchronizing RAID Device $target"
 msgid "Synchronizing RAID device $target"
 msgstr "Synchronizowanie urządzenia RAID $target"
 
@@ -8186,14 +7192,10 @@ msgid "System is up to date"
 msgstr "System jest aktualny"
 
 #: pkg/selinux/setroubleshoot-view.jsx:464
-#, fuzzy
-#| msgid "System Modifications"
 msgid "System modifications"
 msgstr "Modyfikacje systemu"
 
 #: pkg/systemd/services/service-tabs.jsx:38
-#, fuzzy
-#| msgid "System Services"
 msgid "System services"
 msgstr "Usługi systemowe"
 
@@ -8202,8 +7204,6 @@ msgid "System time"
 msgstr "Czas systemowy"
 
 #: pkg/systemd/services/services-list.jsx:33
-#, fuzzy
-#| msgid "Systemd Units"
 msgid "Systemd units"
 msgstr "Jednostki systemd"
 
@@ -8225,8 +7225,6 @@ msgstr "Cel"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:101
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:63
-#, fuzzy
-#| msgid "Target Path"
 msgid "Target path"
 msgstr "Ścieżka docelowa"
 
@@ -8245,20 +7243,14 @@ msgid "Team"
 msgstr "Zespół"
 
 #: pkg/networkmanager/network-interface.jsx:526
-#, fuzzy
-#| msgid "Team Port"
 msgid "Team port"
 msgstr "Port zespołu"
 
 #: pkg/networkmanager/index.html:373
-#, fuzzy
-#| msgid "Team Port Settings"
 msgid "Team port settings"
 msgstr "Ustawienia portu zespołu"
 
 #: pkg/networkmanager/index.html:344
-#, fuzzy
-#| msgid "Team Settings"
 msgid "Team settings"
 msgstr "Ustawienia zespołu"
 
@@ -8267,14 +7259,10 @@ msgid "Terminal"
 msgstr "Terminal"
 
 #: pkg/users/account-details.js:265
-#, fuzzy
-#| msgid "Terminate Session"
 msgid "Terminate session"
 msgstr "Zakończ sesję"
 
 #: pkg/kdump/kdump-view.jsx:482 pkg/kdump/kdump-view.jsx:490
-#, fuzzy
-#| msgid "Test Configuration"
 msgid "Test configuration"
 msgstr "Przetestuj konfigurację"
 
@@ -8303,14 +7291,10 @@ msgid "The $0 package must be installed to create VDO devices."
 msgstr "Pakiet $0 musi być zainstalowany, aby tworzyć urządzenia VDO."
 
 #: pkg/shell/machines/machine-dialogs.js:403
-#, fuzzy
-#| msgid "The IP address or host name cannot contain whitespace."
 msgid "The IP address or hostname cannot contain whitespace."
 msgstr "Adres IP lub nazwa komputera nie może zawierać spacji."
 
 #: pkg/storaged/mdraid-details.jsx:218
-#, fuzzy
-#| msgid "The RAID Array is in a degraded state"
 msgid "The RAID array is in a degraded state"
 msgstr "Macierz RAID jest w stanie zdegradowanym"
 
@@ -8327,6 +7311,8 @@ msgid ""
 "The SSH key ${key} of ${luser} on ${lhost} will be added to the ${afile} "
 "file of ${ruser} on ${rhost}."
 msgstr ""
+"Klucz SSH ${key} użytkownika ${luser} na komputerze ${lhost} zostanie dodany "
+"do pliku ${afile} użytkownika ${ruser} na komputerze ${rhost}."
 
 #: pkg/shell/machines/machine-change-auth.html:28
 msgid ""
@@ -8334,6 +7320,9 @@ msgid ""
 "protected. You can log in with either your login password or by providing "
 "the password of the key at {{#strong}}{{key}}{{/strong}}."
 msgstr ""
+"Klucz SSH do logowania w {{#strong}}{{full_address}}{{/strong}} jest "
+"chroniony. Można zalogować się za pomocą hasła logowania lub podając hasło "
+"klucza w {{#strong}}{{key}}{{/strong}}."
 
 #: pkg/shell/machines/machine-change-auth.html:55
 msgid ""
@@ -8341,6 +7330,8 @@ msgid ""
 "remainder of the session and will be available for login to other hosts as "
 "well."
 msgstr ""
+"Klucz SSH {{#strong}}{{key}}{{/strong}} stanie się dostępny przez pozostały "
+"czas sesji i będzie dostępny do logowania także na innych komputerach."
 
 #: pkg/machines/components/vm/deleteDialog.jsx:64
 msgid "The VM is running and will be forced off before deletion."
@@ -8396,25 +7387,18 @@ msgid "The filesystem has no permanent mount point."
 msgstr "System plików nie ma trwałego punktu montowania."
 
 #: pkg/storaged/fsys-tab.jsx:277
-#, fuzzy
-#| msgid ""
-#| "The filesystem is already mounted at $0.  Proceeding will unmount it."
 msgid "The filesystem is already mounted at $0. Proceeding will unmount it."
 msgstr ""
-"System plików jest już zamontowany w $0.  Kontynuowanie spowoduje jego "
+"System plików jest już zamontowany w $0. Kontynuowanie spowoduje jego "
 "odmontowanie."
 
 #: pkg/storaged/fsys-tab.jsx:494
-#, fuzzy
-#| msgid ""
-#| "The filesystem is currently mounted on $0 but will not be mounted after "
-#| "the next boot."
 msgid ""
 "The filesystem is configured to be automatically mounted on boot but its "
 "encryption container will not be unlocked at that time."
 msgstr ""
-"System plików jest obecnie zamontowany na $0, ale nie będzie zamontowany po "
-"następnym uruchomieniu."
+"System plików jest skonfigurowany do automatycznego montowania podczas "
+"uruchamiania, ale jego kontener szyfrowania nie będzie wtedy odblokowywany."
 
 #: pkg/storaged/fsys-tab.jsx:486
 msgid ""
@@ -8473,9 +7457,9 @@ msgstr "System plików nie jest zamontowany."
 #: pkg/packagekit/updates.jsx:435
 msgid "The following service will be restarted:"
 msgid_plural "The following services will be restarted:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Ta usługa zostanie ponownie uruchomiona:"
+msgstr[1] "Te usługi zostaną ponownie uruchomione:"
+msgstr[2] "Te usługi zostaną ponownie uruchomione:"
 
 #: pkg/sosreport/index.html:59
 msgid ""
@@ -8488,16 +7472,12 @@ msgstr ""
 "przekazane jakiejkolwiek stronie trzeciej."
 
 #: pkg/shell/machines/machine-dialogs.js:866
-#, fuzzy
-#| msgid "This field cannot be empty."
 msgid "The key password can not be empty"
-msgstr "To pole nie może być puste."
+msgstr "Hasło klucza nie może być puste"
 
 #: pkg/shell/machines/machine-dialogs.js:874
-#, fuzzy
-#| msgid "The passwords do not match"
 msgid "The key passwords do not match"
-msgstr "Hasła się nie zgadzają"
+msgstr "Hasła klucza się nie zgadzają"
 
 #: pkg/users/authorized-keys.js:124
 msgid "The key you provided was not valid."
@@ -8521,22 +7501,16 @@ msgstr ""
 "Zalogowany użytkownik nie ma zezwolenia na wyświetlanie modyfikacji systemu"
 
 #: pkg/shell/indexes.js:484
-#, fuzzy
-#| msgid "The machine is restarting"
 msgid "The machine is rebooting"
 msgstr "Komputer jest ponownie uruchamiany"
 
 #: pkg/shell/machines/machine-dialogs.js:882
-#, fuzzy
-#| msgid "The last key slot can not be removed"
 msgid "The new key password can not be empty"
-msgstr "Nie można usunąć ostatniego gniazda na klucz"
+msgstr "Nowe hasło klucza nie może być puste"
 
 #: pkg/shell/machines/machine-dialogs.js:887
-#, fuzzy
-#| msgid "The passwords do not match"
 msgid "The new key passwords do not match"
-msgstr "Hasła się nie zgadzają"
+msgstr "Nowe hasła klucza się nie zgadzają"
 
 #: pkg/users/account-create-dialog.js:202 pkg/users/password-dialogs.js:208
 msgid "The passwords do not match"
@@ -8555,32 +7529,22 @@ msgstr "Pula jest pusta"
 msgid ""
 "The resulting fingerprint is fine to share via public methods, including "
 "email."
-msgstr ""
+msgstr "Powstały odcisk można udostępniać publicznie, na przykład przez e-mail."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:431
-#, fuzzy
-#| msgid ""
-#| "The selected Operating System does not support unattended installation"
 msgid "The selected operating system does not support unattended installation"
 msgstr "Wybrany system operacyjny nie obsługuje nienadzorowanej instalacji"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:173
-#, fuzzy
-#| msgid ""
-#| "The selected Operating System has minimum memory requirement of $0 $1"
 msgid "The selected operating system has minimum memory requirement of $0 $1"
 msgstr "Wybrany system operacyjny wymaga co najmniej $0 $1 pamięci"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:188
-#, fuzzy
-#| msgid ""
-#| "The selected Operating System has minimum storage size requirement of $0 "
-#| "$1"
 msgid ""
 "The selected operating system has minimum storage size requirement of $0 $1"
 msgstr ""
-"Wybrany system operacyjny wymaga urządzenia do przechowywania danych "
-"o rozmiarze co najmniej $0 $1"
+"Wybrany system operacyjny wymaga urządzenia do przechowywania danych o "
+"rozmiarze co najmniej $0 $1"
 
 #: pkg/static/login.js:802
 msgid ""
@@ -8597,8 +7561,6 @@ msgstr ""
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:125
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:129
-#, fuzzy
-#| msgid "The Storage Pool could not be deleted"
 msgid "The storage pool could not be deleted"
 msgstr "Nie można usunąć puli urządzeń do przechowywania danych"
 
@@ -8673,8 +7635,6 @@ msgid "There was an unexpected error while connecting to the machine."
 msgstr "Wystąpił nieoczekiwany błąd podczas łączenia z maszyną."
 
 #: pkg/storaged/utils.js:194
-#, fuzzy
-#| msgid "Thin Logical Volume"
 msgid "Thin logical volume"
 msgstr "Cienki wolumin logiczny"
 
@@ -8757,6 +7717,7 @@ msgstr "To pole nie może być puste."
 #: pkg/packagekit/autoupdates.jsx:394
 msgid "This host will reboot after updates are installed."
 msgstr ""
+"Ten komputer zostanie ponownie uruchomiony po zainstalowaniu aktualizacji."
 
 #: pkg/storaged/lvol-tabs.jsx:410
 msgid "This logical volume is not completely used by its content."
@@ -8821,14 +7782,13 @@ msgid "This volume needs to be activated before it can be resized."
 msgstr "Ten wolumin musi zostać aktywowany przed zmianą rozmiaru."
 
 #: pkg/static/login.js:163
-#, fuzzy
-#| msgid "This web browser is too old to run Cockpit (missing $0)"
 msgid "This web browser is too old to run the Web Console (missing $0)"
-msgstr "Ta przeglądarka jest za stara, aby uruchomić Cockpit (brak $0)"
+msgstr ""
+"Ta przeglądarka jest za stara, aby uruchomić konsolę internetową (brak $0)"
 
 #: pkg/shell/machines/machine-dialogs.js:757
 msgid "This will allow you to log in without password in the future."
-msgstr ""
+msgstr "Umożliwi to logowanie bez hasła w przyszłości."
 
 #: pkg/kdump/kdump-view.jsx:300
 msgid ""
@@ -8869,8 +7829,6 @@ msgid "Time"
 msgstr "Czas"
 
 #: pkg/lib/serverTime.js:512
-#, fuzzy
-#| msgid "Time Zone"
 msgid "Time zone"
 msgstr "Strefa czasowa"
 
@@ -8892,6 +7850,8 @@ msgid ""
 "To ensure that your connection is not intercepted by a malicious third-"
 "party, please verify the host key fingerprint:"
 msgstr ""
+"Aby upewnić się, że połączenie nie jest przechwytywane przez szkodliwą "
+"stronę trzecią, proszę sprawdzić poprawność odcisku klucza komputera:"
 
 #: pkg/packagekit/updates.jsx:1233
 msgid ""
@@ -8907,6 +7867,8 @@ msgid ""
 "To verify a fingerprint, run the following on $0 while physically sitting at "
 "the machine or through a trusted network:"
 msgstr ""
+"Aby sprawdzić poprawność odcisku klucza, należy wykonać poniższe polecenie "
+"na $0 fizycznie siedząc przy komputerze lub przez zaufaną sieć:"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:18
 #: pkg/shell/machines/machine-unknown-hostkey.html:10
@@ -8914,15 +7876,17 @@ msgid ""
 "To verify a fingerprint, run the following on {{host}} while physically "
 "sitting at the machine or through a trusted network:"
 msgstr ""
+"Aby sprawdzić poprawność odcisku klucza, należy wykonać poniższe polecenie "
+"na {{host}} fizycznie siedząc przy komputerze lub przez zaufaną sieć:"
 
 #: pkg/metrics/metrics.jsx:968
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:40
 msgid "Today"
-msgstr ""
+msgstr "Dzisiaj"
 
 #: pkg/storaged/mdraid-details.jsx:205
 msgid "Toggle bitmap"
-msgstr ""
+msgstr "Przełącz bitmapę"
 
 #: pkg/shell/index.html:63
 msgid "Toggle session settings"
@@ -8938,13 +7902,11 @@ msgstr "Narzędzia"
 
 #: pkg/metrics/metrics.jsx:450
 msgid "Top 5 CPU services"
-msgstr ""
+msgstr "Top 5 usług obciążających procesor"
 
 #: pkg/metrics/metrics.jsx:483
-#, fuzzy
-#| msgid "No Network Devices"
 msgid "Top 5 memory services"
-msgstr "Brak urządzeń sieciowych"
+msgstr "Top 5 usług obciążających pamięć"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:98
 msgid "Total size: $0"
@@ -8961,8 +7923,6 @@ msgstr ""
 "oprogramowania sprzętowego"
 
 #: pkg/systemd/services/service-details.jsx:398
-#, fuzzy
-#| msgid "Triggered By"
 msgid "Triggered by"
 msgstr "Wyzwalane przez"
 
@@ -8976,10 +7936,8 @@ msgid "Troubleshoot"
 msgstr "Rozwiązywanie problemów"
 
 #: pkg/networkmanager/app.jsx:78
-#, fuzzy
-#| msgid "Troubleshoot"
 msgid "Troubleshoot…"
-msgstr "Rozwiązywanie problemów"
+msgstr "Rozwiąż problem…"
 
 #: pkg/storaged/crypto-keyslots.jsx:342
 msgid "Trust key"
@@ -9015,6 +7973,9 @@ msgid ""
 "under certain workloads. The core of Tuned are profiles, which tune your "
 "system for different use cases."
 msgstr ""
+"Tuned to usługa monitorująca komputer i optymalizująca wydajność w pewnych "
+"zadaniach. Rdzeniem Tuned są profile, które dostosowują komputer do różnych "
+"zastosowań."
 
 #: pkg/tuned/dialog.js:93
 msgid "Tuned is not available"
@@ -9086,23 +8047,16 @@ msgid "Unable to connect to that address"
 msgstr "Nie można połączyć z tym adresem"
 
 #: pkg/shell/machines/machine-dialogs.js:475
-#, fuzzy
-#| msgid ""
-#| "Cockpit could not contact the given host $0. Make sure it has ssh running "
-#| "on port $1, or specify another port in the address."
 msgid ""
 "Unable to contact the given host $0. Make sure it has ssh running on port "
 "$1, or specify another port in the address."
 msgstr ""
-"Cockpit nie może skontaktować się z podanym komputerem $0. Proszę się "
-"upewnić, że ma on uruchomioną usługę ssh na porcie $1 lub podać inny port "
-"w adresie."
+"Nie można skontaktować się z podanym komputerem $0. Proszę się upewnić, że "
+"ma on uruchomioną usługę ssh na porcie $1 lub podać inny port w adresie."
 
 #: pkg/shell/machines/machine-change-port.html:9
-#, fuzzy
-#| msgid "Cockpit was unable to contact {{#strong}}{{host}}{{/strong}}."
 msgid "Unable to contact {{#strong}}{{host}}{{/strong}}."
-msgstr "Cockpit nie może skontaktować się z {{#strong}}{{host}}{{/strong}}."
+msgstr "Nie można skontaktować się z {{#strong}}{{host}}{{/strong}}."
 
 #: pkg/selinux/setroubleshoot-view.jsx:80
 #: pkg/selinux/setroubleshoot-view.jsx:213
@@ -9119,46 +8073,37 @@ msgid ""
 "authentication. Please provide the password. You may want to set up your SSH "
 "keys for automatic login."
 msgstr ""
+"Nie można zalogować się w {{#strong}}{{full_address}}{{/strong}} za pomocą "
+"uwierzytelniania kluczem SSH. Proszę podać hasło. Można później "
+"skonfigurować klucze SSH do automatycznego logowania."
 
 #: pkg/shell/machines/machine-change-auth.html:10
 msgid ""
 "Unable to log in to {{#strong}}{{full_address}}{{/strong}}. The host does "
 "not accept password login or any of your SSH keys."
 msgstr ""
+"Nie można zalogować się w {{#strong}}{{full_address}}{{/strong}}. Komputer "
+"nie przyjmuje logowania hasłem ani żadnego z kluczy SSH użytkownika."
 
 #: pkg/shell/machines/machine-auth-failed.html:15
-#, fuzzy
-#| msgid ""
-#| "Cockpit was unable to log in to {{#strong}}{{host}}{{/strong}}. "
-#| "{{#can_sync}}You may want to try to {{#sync_link}}synchronize users{{/"
-#| "sync_link}}.{{/can_sync}} For more authentication options and "
-#| "troubleshooting support please upgrade cockpit-ws to a newer version."
 msgid ""
 "Unable to log in to {{#strong}}{{host}}{{/strong}}. For more authentication "
 "options and troubleshooting support please upgrade cockpit-ws to a newer "
 "version."
 msgstr ""
-"Cockpit nie może zalogować do {{#strong}}{{host}}{{/strong}}. {{#can_sync}}"
-"Można spróbować {{#sync_link}}synchronizować użytkowników{{/sync_link}}.{{/"
-"can_sync}} Zaktualizowanie cockpit-ws do nowszej wersji udostępni więcej "
-"opcji uwierzytelniania i pomocy w rozwiązywaniu problemów."
+"Nie można zalogować się w {{#strong}}{{host}}{{/strong}}. Zaktualizowanie "
+"cockpit-ws do nowszej wersji udostępni więcej opcji uwierzytelniania i "
+"pomocy w rozwiązywaniu problemów."
 
 #: pkg/shell/machines/machine-auth-failed.html:6
-#, fuzzy
-#| msgid ""
-#| "Cockpit was unable to log into {{#strong}}{{host}}{{/strong}}. To use "
-#| "this machine with cockpit you will need to enable one of the following "
-#| "authentication methods in the sshd config on {{#strong}}{{host}}{{/"
-#| "strong}}:"
 msgid ""
 "Unable to log in to {{#strong}}{{host}}{{/strong}}. To connect to this host "
 "you will need to enable one of the following authentication methods in the "
 "sshd config on {{#strong}}{{host}}{{/strong}}:"
 msgstr ""
-"Cockpit nie może zalogować się do {{#strong}}{{host}}{{/strong}}. Aby używać "
-"tego komputera za pomocą programu Cockpit, należy włączyć jedną z poniższych "
-"metod uwierzytelniania w konfiguracji usługi sshd w {{#strong}}{{host}}{{/"
-"strong}}:"
+"Nie można zalogować się w {{#strong}}{{host}}{{/strong}}. Aby połączyć się z "
+"tym komputerem, należy włączyć jedną z poniższych metod uwierzytelniania w "
+"konfiguracji usługi sshd w {{#strong}}{{host}}{{/strong}}:"
 
 #: pkg/storaged/iscsi-panel.jsx:88
 msgid "Unable to reach server"
@@ -9194,8 +8139,6 @@ msgid "Unique name"
 msgstr "Unikalna nazwa"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:123
-#, fuzzy
-#| msgid "Unique Network Name"
 msgid "Unique network name"
 msgstr "Unikalna nazwa sieci"
 
@@ -9227,8 +8170,6 @@ msgid "Unknown ($0)"
 msgstr "Nieznane ($0)"
 
 #: pkg/apps/application.jsx:103
-#, fuzzy
-#| msgid "Unknown Application"
 msgid "Unknown application"
 msgstr "Nieznana aplikacja"
 
@@ -9262,8 +8203,6 @@ msgid "Unlock at boot"
 msgstr "Odblokowywanie podczas uruchamiania"
 
 #: pkg/shell/index.html:170 pkg/shell/index.html:214
-#, fuzzy
-#| msgid "Unlock Key"
 msgid "Unlock key"
 msgstr "Odblokuj klucz"
 
@@ -9281,8 +8220,6 @@ msgstr "Odblokowywanie dysku…"
 
 #: pkg/networkmanager/network-main.jsx:189
 #: pkg/networkmanager/network-main.jsx:191
-#, fuzzy
-#| msgid "Unmanaged Interfaces"
 msgid "Unmanaged interfaces"
 msgstr "Niezarządzane interfejsy"
 
@@ -9292,8 +8229,6 @@ msgid "Unmount"
 msgstr "Odmontuj"
 
 #: pkg/storaged/fsys-tab.jsx:284
-#, fuzzy
-#| msgid "Unmount Filesystem"
 msgid "Unmount filesystem"
 msgstr "Odmontuj system plików"
 
@@ -9314,14 +8249,10 @@ msgid "Unplug"
 msgstr "Odłącz"
 
 #: pkg/storaged/content-views.jsx:171
-#, fuzzy
-#| msgid "Unrecognized Data"
 msgid "Unrecognized data"
 msgstr "Nierozpoznane dane"
 
 #: pkg/storaged/content-views.jsx:418
-#, fuzzy
-#| msgid "Unrecognized Data"
 msgctxt "storage-id-desc"
 msgid "Unrecognized data"
 msgstr "Nierozpoznane dane"
@@ -9343,20 +8274,14 @@ msgid "Update"
 msgstr "Zaktualizuj"
 
 #: pkg/packagekit/updates.jsx:684
-#, fuzzy
-#| msgid "Updates Available"
 msgid "Update Success Table"
-msgstr "Dostępne są aktualizacje"
+msgstr "Zaktualizuj tabelę powodzenia"
 
 #: pkg/packagekit/updates.jsx:866
-#, fuzzy
-#| msgid "Update History"
 msgid "Update history"
 msgstr "Historia aktualizacji"
 
 #: pkg/packagekit/updates.jsx:551
-#, fuzzy
-#| msgid "Update Log"
 msgid "Update log"
 msgstr "Dziennik aktualizacji"
 
@@ -9366,33 +8291,25 @@ msgstr "Zaktualizuj informacje o pakiecie"
 
 #: pkg/packagekit/updates.jsx:611 pkg/packagekit/updates.jsx:679
 msgid "Update was successful"
-msgstr ""
+msgstr "Aktualizacja była pomyślna"
 
 #: pkg/packagekit/updates.jsx:92
 msgid "Updated"
 msgstr "Zaktualizowano"
 
 #: pkg/packagekit/updates.jsx:614
-#, fuzzy
-#| msgid "Updated packages may require a restart to take effect."
 msgid "Updated packages may require a reboot to take effect."
 msgstr "Zaktualizowane pakiety mogą wymagać ponownego uruchomienia."
 
 #: pkg/packagekit/autoupdates.jsx:269
-#, fuzzy
-#| msgid "Update"
 msgid "Updates "
-msgstr "Zaktualizuj"
+msgstr "Aktualizacje "
 
 #: pkg/packagekit/updates.jsx:1287
-#, fuzzy
-#| msgid "Updates Available"
 msgid "Updates available"
 msgstr "Dostępne są aktualizacje"
 
 #: pkg/packagekit/history.jsx:105
-#, fuzzy
-#| msgid "Update History"
 msgid "Updates history"
 msgstr "Historia aktualizacji"
 
@@ -9421,34 +8338,24 @@ msgid "Usage"
 msgstr "Użycie"
 
 #: pkg/storaged/vdos-panel.jsx:128
-#, fuzzy
-#| msgid "Use 512 Byte emulation"
 msgid "Use 512 byte emulation"
-msgstr "Użycie emulacji 512 bajtów"
+msgstr "Emulacja 512 bajtów"
 
 #: pkg/storaged/vdo-details.jsx:320
-#, fuzzy
-#| msgid "Compression"
 msgid "Use compression"
 msgstr "Kompresja"
 
 #: pkg/storaged/vdo-details.jsx:329
-#, fuzzy
-#| msgid "Deduplication"
 msgid "Use deduplication"
 msgstr "Deduplikacja"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:571
-#, fuzzy
-#| msgid "Use Existing"
 msgid "Use existing"
 msgstr "Użyj istniejącej"
 
 #: pkg/shell/credentials.js:76
-#, fuzzy
-#| msgid "ssh key"
 msgid "Use key"
-msgstr "klucz SSH"
+msgstr "Użyj klucza"
 
 #: pkg/shell/index.html:122
 msgid "Use the following keys to authenticate against other systems"
@@ -9480,8 +8387,6 @@ msgstr "Nazwa użytkownika nie może być pusta"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:60
 #: pkg/systemd/overview-cards/realmd-operation.js:340
-#, fuzzy
-#| msgid "User Password"
 msgid "User password"
 msgstr "Hasło użytkownika"
 
@@ -9490,30 +8395,22 @@ msgid "Username"
 msgstr "Nazwa użytkownika"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "encryption"
 msgid "Using LUKS encryption"
-msgstr "szyfrowanie"
+msgstr "Używanie szyfrowania LUKS"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Edit Tang keyserver"
 msgid "Using Tang server"
-msgstr "Modyfikuj serwer kluczy Tang"
+msgstr "Używanie serwera Tang"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:160
 msgid "VCPU settings could not be saved"
 msgstr "Nie można zapisać ustawień wirtualnego procesora"
 
 #: pkg/storaged/content-views.jsx:166
-#, fuzzy
-#| msgid "VDO Backing"
 msgid "VDO backing"
 msgstr "Podstawa VDO"
 
 #: pkg/storaged/content-views.jsx:416
-#, fuzzy
-#| msgid "VDO Backing"
 msgctxt "storage-id-desc"
 msgid "VDO backing"
 msgstr "Podstawa VDO"
@@ -9523,14 +8420,10 @@ msgid "VDO backing devices can not be made smaller"
 msgstr "Urządzenia mechanizmu VDO nie mogą być zmniejszane"
 
 #: pkg/storaged/pvol-tabs.jsx:87 pkg/storaged/vdos-panel.jsx:57
-#, fuzzy
-#| msgid "VDO Device"
 msgid "VDO device"
 msgstr "Urządzenie VDO"
 
 #: pkg/storaged/vdo-details.jsx:257 pkg/storaged/utils.js:253
-#, fuzzy
-#| msgid "VDO Device $0"
 msgid "VDO device $0"
 msgstr "Urządzenie VDO $0"
 
@@ -9541,14 +8434,10 @@ msgid "VLAN"
 msgstr "VLAN"
 
 #: pkg/networkmanager/index.html:50
-#, fuzzy
-#| msgid "VLAN Id"
 msgid "VLAN ID"
 msgstr "Identyfikator VLAN"
 
 #: pkg/networkmanager/index.html:460
-#, fuzzy
-#| msgid "VLAN Settings"
 msgid "VLAN settings"
 msgstr "Ustawienia VLAN"
 
@@ -9558,11 +8447,9 @@ msgstr "Maszyna wirtualna $0 już istnieje"
 
 #: pkg/machines/app.jsx:146
 msgid "VM $0 does not exist on $1 connection"
-msgstr ""
+msgstr "Maszyna wirtualna $0 nie istnieje na połączeniu $1"
 
 #: pkg/machines/components/vm/vmActions.jsx:110
-#, fuzzy
-#| msgid "VM $0 failed to force Reboot"
 msgid "VM $0 failed to force reboot"
 msgstr ""
 "Wymuszenie ponownego uruchomienia maszyny wirtualnej $0 się nie powiodło"
@@ -9585,8 +8472,6 @@ msgid "VM $0 failed to pause"
 msgstr "Wstrzymanie maszyny wirtualnej $0 się nie powiodło"
 
 #: pkg/machines/components/vm/vmActions.jsx:98
-#, fuzzy
-#| msgid "VM $0 failed to Reboot"
 msgid "VM $0 failed to reboot"
 msgstr "Ponowne uruchomienie maszyny wirtualnej $0 się nie powiodło"
 
@@ -9607,34 +8492,24 @@ msgid "VM $0 failed to start"
 msgstr "Uruchomienie maszyny wirtualnej $0 się nie powiodło"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:139
-#, fuzzy
-#| msgid "State"
 msgid "VM state"
-msgstr "Stan"
+msgstr "Stan maszyny wirtualnej"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:53
-#, fuzzy
-#| msgid "VNC TLS Port:"
 msgid "VNC TLS port"
-msgstr "Port TLS VNC:"
+msgstr "Port TLS dla VNC"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:49
-#, fuzzy
-#| msgid "VNC Address:"
 msgid "VNC address"
-msgstr "Adres VNC:"
+msgstr "Adres VNC"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:99
-#, fuzzy
-#| msgid "console"
 msgid "VNC console"
-msgstr "konsola"
+msgstr "Konsola VNC"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:51
-#, fuzzy
-#| msgid "VNC Port:"
 msgid "VNC port"
-msgstr "Port VNC:"
+msgstr "Port VNC"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:166
 msgid "Validating address"
@@ -9681,15 +8556,13 @@ msgstr "Wyświetl skrypt automatyzacji"
 
 #: pkg/systemd/overview-cards/usageCard.jsx:147
 msgid "View details and history"
-msgstr ""
+msgstr "Wyświetl informacje i historię"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:138
 msgid "View hardware details"
 msgstr "Wyświetl informacje o sprzęcie"
 
 #: pkg/apps/application.jsx:71
-#, fuzzy
-#| msgid "Project website"
 msgid "View project website"
 msgstr "Strona projektu"
 
@@ -9707,32 +8580,22 @@ msgstr "Maszyny wirtualne"
 #: pkg/machines/components/vm/vmDetailsPage.jsx:182
 #: pkg/machines/components/storagePools/storagePoolList.jsx:53
 #: pkg/machines/components/networks/networkList.jsx:56
-#, fuzzy
-#| msgid "Virtual Machines"
 msgid "Virtual machines"
 msgstr "Maszyny wirtualne"
 
 #: pkg/machines/index.html:4
-#, fuzzy
-#| msgid "Virtual Machines Management"
 msgid "Virtual machines management"
 msgstr "Zarządzanie maszynami wirtualnymi"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:158
-#, fuzzy
-#| msgid "Virtual Network"
 msgid "Virtual network"
 msgstr "Sieć wirtualna"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:361
-#, fuzzy
-#| msgid "Virtual Network failed to be created"
 msgid "Virtual network failed to be created"
 msgstr "Utworzenie sieci wirtualnej się nie powiodło"
 
 #: pkg/machines/components/libvirtSlate.jsx:105
-#, fuzzy
-#| msgid "Virtualization Service (libvirt) is Not Active"
 msgid "Virtualization service (libvirt) is not active"
 msgstr "Usługa wirtualizacji (libvirt) nie jest aktywna"
 
@@ -9750,26 +8613,18 @@ msgid "Volume failed to be created"
 msgstr "Utworzenie woluminu się nie powiodło"
 
 #: pkg/storaged/vgroups-panel.jsx:40 pkg/storaged/pvol-tabs.jsx:41
-#, fuzzy
-#| msgid "Volume Group"
 msgid "Volume group"
 msgstr "Grupa woluminów"
 
 #: pkg/storaged/vgroup-details.jsx:220 pkg/storaged/utils.js:248
-#, fuzzy
-#| msgid "Volume Group $0"
 msgid "Volume group $0"
 msgstr "Grupa woluminów $0"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:167
-#, fuzzy
-#| msgid "Volume Group name"
 msgid "Volume group name"
 msgstr "Nazwa grupy woluminów"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:218
-#, fuzzy
-#| msgid "Volume Group name should not be empty"
 msgid "Volume group name should not be empty"
 msgstr "Nazwa grupy woluminów nie może być pusta"
 
@@ -9809,8 +8664,6 @@ msgid "Waiting to start…"
 msgstr "Oczekiwanie na rozpoczęcie…"
 
 #: pkg/systemd/services/service-details.jsx:389
-#, fuzzy
-#| msgid "Wanted By"
 msgid "Wanted by"
 msgstr "Chciane przez"
 
@@ -9831,10 +8684,8 @@ msgid "Web Console for Linux servers"
 msgstr "Konsola internetowa dla serwerów systemu Linux"
 
 #: pkg/packagekit/updates.jsx:451 pkg/packagekit/updates.jsx:845
-#, fuzzy
-#| msgid "Web Console for Linux servers"
 msgid "Web Console will restart"
-msgstr "Konsola internetowa dla serwerów systemu Linux"
+msgstr "Konsola internetowa zostanie ponownie uruchomiona"
 
 #: pkg/systemd/superuser-alert.jsx:60
 msgid "Web console is running in limited access mode."
@@ -9858,11 +8709,11 @@ msgstr "Co, jeśli tang-show-keys jest niedostępne?"
 
 #: pkg/packagekit/autoupdates.jsx:373
 msgid "When"
-msgstr ""
+msgstr "Kiedy"
 
 #: pkg/shell/machines/machine-add.html:34
 msgid "When empty, connect with the current user"
-msgstr ""
+msgstr "Pozostawienie pustej spowoduje połączenie z obecnym użytkownikiem"
 
 #: pkg/packagekit/updates.jsx:454 pkg/packagekit/updates.jsx:850
 msgid ""
@@ -9870,24 +8721,22 @@ msgid ""
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
 msgstr ""
+"Kiedy konsola internetowa jest ponownie uruchamiana, informacje o postępie "
+"nie będą widoczne. Proces aktualizacji będzie kontynuowany w tle. Ponowne "
+"połączenie umożliwi obserwowanie procesu aktualizacji."
 
 #: pkg/systemd/terminal.jsx:110
 msgid "White"
 msgstr "Biały"
 
 #: pkg/storaged/drive-details.jsx:83
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "World Wide Name"
 msgctxt "storage"
 msgid "World wide name"
 msgstr "WWN"
 
 #: pkg/metrics/metrics.jsx:501
-#, fuzzy
-#| msgid "ReadWrite"
 msgid "Write"
-msgstr "Odczyt i zapis"
+msgstr "Zapis"
 
 #: pkg/storaged/mdraid-details.jsx:110
 msgid "Write-mostly"
@@ -9917,15 +8766,15 @@ msgstr "Tak"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:39
 msgid "Yesterday"
-msgstr ""
+msgstr "Wczoraj"
 
 #: pkg/static/login.js:648
 msgid "You are connecting to $0 for the first time."
-msgstr ""
+msgstr "Łączenie z $0 po raz pierwszy."
 
 #: pkg/shell/machines/machine-unknown-hostkey.html:6
 msgid "You are connecting to {{host}} for the first time."
-msgstr ""
+msgstr "Łączenie z {{host}} po raz pierwszy."
 
 #: pkg/networkmanager/firewall-switch.jsx:58
 #: pkg/networkmanager/firewall.jsx:152
@@ -9955,7 +8804,7 @@ msgstr "Można spróbować wczytać starsze wpisy."
 #: pkg/shell/machines/machine-change-auth.html:22
 #: pkg/shell/machines/machine-change-auth.html:29
 msgid "You may want to change the password of the key for automatic login."
-msgstr ""
+msgstr "Można zmienić hasło klucza do automatycznego logowania."
 
 #: pkg/users/password-dialogs.js:79
 msgid "You must wait longer to change your password"
@@ -9963,19 +8812,13 @@ msgstr "Należy poczekać dłużej na zmianę hasła"
 
 #: pkg/metrics/metrics.jsx:930
 msgid "You need to relogin to be able to see metrics"
-msgstr ""
+msgstr "Aby wyświetlić statystyki, należy się zalogować ponownie"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:138
-#, fuzzy
-#| msgid "You need to select the most closely matching Operating System"
 msgid "You need to select the most closely matching operating system"
 msgstr "Należy wybrać najlepiej pasujący system operacyjny"
 
 #: pkg/sosreport/index.html:39
-#, fuzzy
-#| msgid ""
-#| "You need to switch to \"Administrative Access\" in order to create "
-#| "reports."
 msgid ""
 "You need to switch to \"Administrative access\" in order to create reports."
 msgstr ""
@@ -10107,10 +8950,8 @@ msgid "cdrom"
 msgstr "CD-ROM"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Group"
 msgid "cgroups"
-msgstr "Grupa"
+msgstr "CGroups"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "command"
@@ -10167,10 +9008,8 @@ msgid "disk"
 msgstr "dysk"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "udisks"
 msgid "disks"
-msgstr "UDisks"
+msgstr "dyski"
 
 #: pkg/packagekit/manifest.json.in:0
 msgid "dnf"
@@ -10271,10 +9110,8 @@ msgid "hardware"
 msgstr "sprzęt"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Directory"
 msgid "history"
-msgstr "Katalog"
+msgstr "historia"
 
 #: pkg/machines/helpers.js:232 pkg/systemd/manifest.json.in:0
 msgid "host"
@@ -10285,30 +9122,22 @@ msgid "host device"
 msgstr "urządzenie gospodarza"
 
 #: pkg/machines/helpers.js:233
-#, fuzzy
-#| msgid "to host path"
 msgid "host passthrough"
-msgstr "do ścieżki gospodarza"
+msgstr "przejście gospodarza"
 
 #: pkg/machines/helpers.js:241
 msgid "hostdev"
 msgstr "urządzenie gospodarza"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:66
-#, fuzzy
-#| msgid "iSCSI direct Target"
 msgid "iSCSI direct target"
 msgstr "Bezpośredni cel iSCSI"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:142
-#, fuzzy
-#| msgid "iSCSI Initiator IQN"
 msgid "iSCSI initiator IQN"
 msgstr "Inicjator IQN iSCSI"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:60
-#, fuzzy
-#| msgid "iSCSI Target"
 msgid "iSCSI target"
 msgstr "Cel iSCSI"
 
@@ -10317,14 +9146,12 @@ msgid "iSCSI target IQN"
 msgstr "IQN celu iSCSI"
 
 #: pkg/storaged/iscsi-panel.jsx:268
-#, fuzzy
-#| msgid "iSCSI Targets"
 msgid "iSCSI targets"
 msgstr "Cele iSCSI"
 
 #: pkg/shell/shell-modals.jsx:124
 msgid "in most browsers"
-msgstr ""
+msgstr "w większości przeglądarek"
 
 #: pkg/apps/manifest.json.in:0
 msgid "install"
@@ -10423,10 +9250,8 @@ msgid "memory"
 msgstr "pamięć"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Store metrics"
 msgid "metrics"
-msgstr "Przechowuj statystyki"
+msgstr "statystyki"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "mitigation"
@@ -10459,7 +9284,7 @@ msgstr "cel zrzutu NFS nie jest sformatowany jako serwer:ścieżka"
 
 #: pkg/metrics/metrics.jsx:84
 msgid "nice"
-msgstr ""
+msgstr "nice"
 
 #: pkg/machines/helpers.js:260
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:69
@@ -10470,7 +9295,7 @@ msgstr "nie"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:142
 msgid "no state saved"
-msgstr ""
+msgstr "nie zapisano żadnego stanu"
 
 #: pkg/tuned/dialog.js:103
 msgid "none"
@@ -10520,10 +9345,8 @@ msgid "pci"
 msgstr "PCI"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "cpu"
 msgid "pcp"
-msgstr "procesor"
+msgstr "pcp"
 
 #: pkg/apps/manifest.json.in:0
 msgid "plugin"
@@ -10654,10 +9477,8 @@ msgid "ssh server is empty"
 msgstr "serwer SSH jest pusty"
 
 #: pkg/metrics/metrics.jsx:84
-#, fuzzy
-#| msgid "sos"
 msgid "sys"
-msgstr "sos"
+msgstr "sys"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "systemctl"
@@ -10742,14 +9563,10 @@ msgid "username"
 msgstr "nazwa użytkownika"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:182
-#, fuzzy
-#| msgid "vCPU Count"
 msgid "vCPU count"
 msgstr "Liczba wirtualnych procesorów"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:195
-#, fuzzy
-#| msgid "vCPU Maximum"
 msgid "vCPU maximum"
 msgstr "Maksymalna liczba wirtualnych procesorów"
 
@@ -10770,21 +9587,15 @@ msgid "vhostuser"
 msgstr "użytkownik gospodarza wirtualizacji"
 
 #: pkg/machines/components/common/stateIcon.jsx:60
-#, fuzzy
-#| msgid "Read more..."
 msgid "view more..."
-msgstr "Więcej informacji…"
+msgstr "wyświetl więcej…"
 
 #: pkg/machines/components/vm/vmActions.jsx:298
-#, fuzzy
-#| msgid ""
-#| "virt-install package needs to be installed on the system in order to "
-#| "create new VMs"
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
 msgstr ""
-"Aby tworzyć nowe maszyny wirtualne, w systemie musi być zainstalowany pakiet "
+"Aby klonować maszyny wirtualne, w systemie musi być zainstalowany pakiet "
 "virt-install"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1001
@@ -10796,16 +9607,12 @@ msgstr ""
 "virt-install"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:183
-#, fuzzy
-#| msgid ""
-#| "virt-install package needs to be installed on the system in order to "
-#| "create new VMs"
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
 msgstr ""
-"Aby tworzyć nowe maszyny wirtualne, w systemie musi być zainstalowany pakiet "
-"virt-install"
+"Aby modyfikować ten atrybut, w systemie musi być zainstalowany pakiet virt-"
+"install"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "vlan"
@@ -10825,7 +9632,7 @@ msgstr "ostrzeżenie"
 
 #: pkg/packagekit/autoupdates.jsx:270
 msgid "will be applied $0 at $1"
-msgstr ""
+msgstr "zostaną zastosowane $0 o $1"
 
 #: pkg/machines/helpers.js:259
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:69
@@ -10844,7 +9651,7 @@ msgstr "strefa"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:2
 msgid "{{host}} key changed"
-msgstr ""
+msgstr "Zmieniono klucz {{host}}"
 
 #~ msgid "$0 Template"
 #~ msgstr "Szablon $0"
