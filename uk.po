@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
-"PO-Revision-Date: 2021-02-28 12:40+0000\n"
+"PO-Revision-Date: 2021-03-10 14:47+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit/rhel8/uk/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: pkg/metrics/metrics.jsx:379
 msgid "$0 CPU"
@@ -275,9 +275,9 @@ msgstr[2] "$0 сторінок"
 #: pkg/packagekit/updates.jsx:719
 msgid "$0 security fix available"
 msgid_plural "$0 security fixes available"
-msgstr[0] "доступне $0 виправлення захисту"
-msgstr[1] "доступні $0 виправлення захисту"
-msgstr[2] "доступні $0 виправлень захисту"
+msgstr[0] "Доступне $0 оновлення захисту"
+msgstr[1] "Доступні $0 оновлення захисту"
+msgstr[2] "Доступні $0 оновлень захисту"
 
 #: pkg/systemd/services/services.jsx:654
 msgid "$0 service has failed"
@@ -634,17 +634,17 @@ msgstr ""
 msgid "A package needs a system reboot for the updates to take effect:"
 msgid_plural ""
 "Some packages need a system reboot for the updates to take effect:"
-msgstr[0] "Пакунки потребують перезавантаження, щоб оновлення набули чинності:"
-msgstr[1] "Пакунки потребують перезавантаження, щоб оновлення набули чинності:"
-msgstr[2] "Пакунки потребують перезавантаження, щоб оновлення набули чинності:"
+msgstr[0] "Для набуття оновленнями пакунків чинності слід перезапустити систему:"
+msgstr[1] "Для набуття оновленнями пакунків чинності слід перезапустити систему:"
+msgstr[2] "Для набуття оновленнями пакунків чинності слід перезапустити систему:"
 
 #: pkg/packagekit/updates.jsx:1368
 msgid "A service needs to be restarted for the updates to take effect:"
 msgid_plural ""
 "Some services need to be restarted for the updates to take effect:"
-msgstr[0] "Для набуття чинності оновленнями слід перезапустити служби:"
-msgstr[1] "Для набуття чинності оновленнями слід перезапустити служби:"
-msgstr[2] "Для набуття чинності оновленнями слід перезапустити служби:"
+msgstr[0] "Для набуття оновленнями чинності слід перезапустити деякі служби:"
+msgstr[1] "Для набуття оновленнями чинності слід перезапустити деякі служби:"
+msgstr[2] "Для набуття оновленнями чинності слід перезапустити деякі служби:"
 
 #: pkg/storaged/mdraid-details.jsx:130
 msgid "A spare disk needs to be added first before this disk can be removed."
@@ -5904,7 +5904,7 @@ msgstr "Рекомендовано перезавантажити"
 #: pkg/packagekit/updates.jsx:617 pkg/packagekit/updates.jsx:690
 #: pkg/packagekit/updates.jsx:753
 msgid "Reboot system..."
-msgstr "Перезавантажити систему/"
+msgstr "Перезавантажити систему…"
 
 #: pkg/networkmanager/network-interface-members.jsx:218
 #: pkg/networkmanager/network-main.jsx:182
@@ -8716,9 +8716,9 @@ msgid ""
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
 msgstr ""
-"Після перезапуску вебконсолі ви вже не побачите відомостей щодо поступу. "
-"Втім, процес оновлення продовжуватиметься у фоновому режимі. Встановіть "
-"з'єднання повторно щодо продовжити спостереження за процедурою оновлення."
+"Після перезапуску вебконсолі ви не зможете більше бачити даних щодо поступу. "
+"Втім, процес оновлення триватиме у фоновому режимі. Встановіть з'єднання "
+"повторно, щоб продовжити спостереження за процесом оновлення."
 
 #: pkg/systemd/terminal.jsx:110
 msgid "White"
