@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:09+0200\n"
-"PO-Revision-Date: 2021-02-01 17:40+0000\n"
+"PO-Revision-Date: 2021-03-06 22:01+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/tr/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -8233,11 +8233,11 @@ msgstr "Ana Makineyi Bakım Moduna Geçir"
 
 #: pkg/networkmanager/interfaces.js:2492 pkg/networkmanager/interfaces.js:3039
 msgid "Switch off $0"
-msgstr "$0'ı kapat"
+msgstr "$0 arayüzünü kapat"
 
 #: pkg/networkmanager/interfaces.js:2467 pkg/networkmanager/interfaces.js:3027
 msgid "Switch on $0"
-msgstr "$0'ı aç"
+msgstr "$0 arayüzünü aç"
 
 #: pkg/ovirt/provider.js:414
 msgid "Switching host to maintenance mode failed. Received error: "
