@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
-"PO-Revision-Date: 2021-03-05 06:22+0000\n"
+"PO-Revision-Date: 2021-03-10 14:47+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/tr/>\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: pkg/metrics/metrics.jsx:379
 msgid "$0 CPU"
@@ -6422,7 +6422,7 @@ msgstr "Güvenlik güncellemeleri mevcut"
 
 #: pkg/packagekit/autoupdates.jsx:361
 msgid "Security updates only"
-msgstr "Yalnızca güvenlik güncellemeleri"
+msgstr "Sadece güvenlik güncellemeleri"
 
 #: pkg/shell/shell-modals.jsx:86
 msgid "Select"
@@ -6433,10 +6433,8 @@ msgid "Select console type"
 msgstr "Konsol türünü seçin"
 
 #: pkg/systemd/services/services.jsx:735
-#, fuzzy
-#| msgid "select container"
 msgid "Select unit state"
-msgstr "konteyner seç"
+msgstr "Birim durumunu seçin"
 
 #: pkg/systemd/reporting.jsx:245
 msgid "Send"
@@ -6447,10 +6445,8 @@ msgid "Send key"
 msgstr "Tuş gönder"
 
 #: pkg/machines/components/vm/vmActions.jsx:236
-#, fuzzy
-#| msgid "Send Non-Maskable Interrupt"
 msgid "Send non-maskable interrupt"
-msgstr "Maskelenemez Kesme (NMI) Gönder"
+msgstr "Maskelenemez kesme (NMI) gönder"
 
 #: pkg/networkmanager/network-interface-members.jsx:217
 #: pkg/networkmanager/network-main.jsx:181
@@ -6459,18 +6455,13 @@ msgid "Sending"
 msgstr "Gönderilen"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:98
-#, fuzzy
-#| msgid "Serial Console"
 msgid "Serial console"
-msgstr "Seri Konsol"
+msgstr "Seri konsol"
 
 #: pkg/storaged/drive-details.jsx:82
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Serial Number"
 msgctxt "storage"
 msgid "Serial number"
-msgstr "Seri Numarası"
+msgstr "Seri numarası"
 
 #: pkg/static/login.html:140 pkg/storaged/nfs-panel.jsx:102
 #: pkg/storaged/nfs-details.jsx:329 pkg/kdump/kdump-view.jsx:120
@@ -6478,20 +6469,16 @@ msgid "Server"
 msgstr "Sunucu"
 
 #: pkg/storaged/iscsi-panel.jsx:44 pkg/storaged/nfs-details.jsx:147
-#, fuzzy
-#| msgid "Server Address"
 msgid "Server address"
-msgstr "Sunucu Adresi"
+msgstr "Sunucu adresi"
 
 #: pkg/storaged/iscsi-panel.jsx:45
 msgid "Server address cannot be empty."
 msgstr "Sunucu adresi boş olamaz."
 
 #: pkg/users/account-roles.js:62 pkg/users/account-roles.js:63
-#, fuzzy
-#| msgid "Server Administrator"
 msgid "Server administrator"
-msgstr "Sunucu Yöneticisi"
+msgstr "Sunucu yöneticisi"
 
 #: pkg/storaged/nfs-details.jsx:152
 msgid "Server cannot be empty."
@@ -6502,10 +6489,8 @@ msgid "Server has closed the connection."
 msgstr "Sunucu bağlantıyı kapattı."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:18
-#, fuzzy
-#| msgid "Server Software"
 msgid "Server software"
-msgstr "Sunucu Yazılımı"
+msgstr "Sunucu yazılımı"
 
 #: pkg/storaged/dialog.jsx:1049 pkg/metrics/metrics.jsx:451
 #: pkg/metrics/metrics.jsx:484 pkg/networkmanager/firewall.jsx:184
@@ -6533,10 +6518,8 @@ msgid "Service is stopping"
 msgstr "Hizmet durduruluyor"
 
 #: pkg/systemd/services/service.jsx:89
-#, fuzzy
-#| msgid "Service Logs"
 msgid "Service logs"
-msgstr "Hizmet Günlük Kayıtları"
+msgstr "Hizmet günlükleri"
 
 #: pkg/systemd/services.html:157
 msgid "Service name"
@@ -6561,16 +6544,12 @@ msgid "Set"
 msgstr "Ayarla"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:207
-#, fuzzy
-#| msgid "Set DHCP Range"
 msgid "Set DHCP range"
-msgstr "DHCP Aralığını Ayarla"
+msgstr "DHCP aralığını ayarla"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:147
-#, fuzzy
-#| msgid "Set Hostname"
 msgid "Set hostname"
-msgstr "Ana Makine Adını Ayarla"
+msgstr "Anamakine adını ayarla"
 
 #: pkg/machines/components/vm/nics/nicAdd.jsx:45
 msgid "Set manually"
@@ -6578,16 +6557,12 @@ msgstr "El ile ayarla"
 
 #: pkg/users/account-details.js:329 pkg/users/password-dialogs.js:213
 #: pkg/users/password-dialogs.js:223 pkg/users/password-dialogs.js:230
-#, fuzzy
-#| msgid "Set Password"
 msgid "Set password"
-msgstr "Parola Belirle"
+msgstr "Parola ayarla"
 
 #: pkg/lib/serverTime.js:522
-#, fuzzy
-#| msgid "Set Time"
 msgid "Set time"
-msgstr "Saati Ayarla"
+msgstr "Saati ayarla"
 
 #: pkg/networkmanager/index.html:72
 msgid "Set to"
@@ -6629,10 +6604,8 @@ msgid "Shared"
 msgstr "Paylaşılan"
 
 #: pkg/lib/cockpit-components-modifications.jsx:90
-#, fuzzy
-#| msgid "Shell Script"
 msgid "Shell script"
-msgstr "Kabuk Betiği"
+msgstr "Kabuk betiği"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:108
 msgid "Shift+Insert"
@@ -6651,20 +6624,16 @@ msgstr[0] "$0 sürücüyü göster"
 msgstr[1] "$0 sürücünün tümünü göster"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:146
-#, fuzzy
-#| msgid "Show Additional Options"
 msgid "Show additional options"
-msgstr "Ek Seçenekleri Göster"
+msgstr "Ek seçenekleri göster"
 
 #: pkg/storaged/side-panel.jsx:46
 msgid "Show all"
 msgstr "Tümünü göster"
 
 #: pkg/systemd/abrtLog.jsx:214
-#, fuzzy
-#| msgid "Show all images"
 msgid "Show all threads"
-msgstr "Tüm kalıpları göster"
+msgstr "Tüm iş parçacıklarını göster"
 
 #: pkg/systemd/logs.html:104 pkg/systemd/logs.js:416 pkg/systemd/logs.js:552
 msgid "Show filters"
@@ -6679,31 +6648,23 @@ msgid "Shrink"
 msgstr "Küçült"
 
 #: pkg/storaged/lvol-tabs.jsx:327
-#, fuzzy
-#| msgid "Shrink Logical Volume"
 msgid "Shrink logical volume"
-msgstr "Mantıksal Birimi Küçült"
+msgstr "Mantıksal birimi küçült"
 
 #: pkg/storaged/lvol-tabs.jsx:415
-#, fuzzy
-#| msgid "Shrink Volume"
 msgid "Shrink volume"
-msgstr "Birimi Küçült"
+msgstr "Birimi küçült"
 
 #: pkg/machines/components/vm/vmActions.jsx:214
 #: pkg/machines/components/vm/vmActions.jsx:221
 #: pkg/lib/cockpit-components-shutdown.jsx:181
 #: pkg/lib/cockpit-components-shutdown.jsx:183
-#, fuzzy
-#| msgid "Shutdown"
 msgid "Shut down"
 msgstr "Kapat"
 
 #: pkg/machines/helpers.js:215
-#, fuzzy
-#| msgid "shut off"
 msgid "Shut off"
-msgstr "kapatıldı"
+msgstr "Kapat"
 
 #: pkg/machines/components/vm/overview/firmware.jsx:138
 msgid "Shut off the VM in order to edit firmware configuration"
@@ -6715,16 +6676,12 @@ msgstr "Kapat"
 
 #: pkg/machines/helpers.js:214
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:147
-#, fuzzy
-#| msgid "Shutdown"
 msgid "Shutting down"
-msgstr "Kapat"
+msgstr "Kapatılıyor"
 
 #: pkg/lib/machine-info.js:246
-#, fuzzy
-#| msgid "Single Rank"
 msgid "Single rank"
-msgstr "Tek Sıra"
+msgstr "Tek sıra"
 
 #: pkg/storaged/format-dialog.jsx:185 pkg/storaged/part-tab.jsx:45
 #: pkg/storaged/content-views.jsx:123 pkg/storaged/content-views.jsx:778
@@ -6765,10 +6722,8 @@ msgid "Skip main navigation"
 msgstr "Ana gezinmeyi atla"
 
 #: pkg/shell/index.html:15
-#, fuzzy
-#| msgid "Skip to Content"
 msgid "Skip to content"
-msgstr "İçeriğe Geç"
+msgstr "İçeriğe atla"
 
 #: pkg/systemd/hwinfo.jsx:296
 msgid "Slot"
@@ -6779,16 +6734,12 @@ msgid "Slot $0"
 msgstr "Yuva $0"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCreateModal.jsx:112
-#, fuzzy
-#| msgid "Disk failed to be created"
 msgid "Snapshot failed to be created"
-msgstr "Diskin oluşturulması başarısız oldu"
+msgstr "Anlık görüntünün oluşturulması başarısız oldu"
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:154
-#, fuzzy
-#| msgid "Create Snapshot"
 msgid "Snapshots"
-msgstr "Anlık Görüntü Oluştur"
+msgstr "Anlık görüntüler"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:211
 #: pkg/systemd/services/service-tabs.jsx:40
@@ -6800,10 +6751,8 @@ msgid "Software Updates"
 msgstr "Yazılım Güncellemeleri"
 
 #: pkg/packagekit/index.html:23
-#, fuzzy
-#| msgid "Software Updates"
 msgid "Software updates"
-msgstr "Yazılım Güncellemeleri"
+msgstr "Yazılım güncellemeleri"
 
 #: pkg/systemd/hwinfo.jsx:255
 msgid ""
@@ -6836,17 +6785,15 @@ msgstr ""
 #: pkg/packagekit/updates.jsx:669 pkg/packagekit/updates.jsx:773
 #: pkg/packagekit/updates.jsx:1372
 msgid "Some software needs to be restarted manually"
-msgstr ""
+msgstr "Bazı yazılımların el ile yeniden başlatılması gerekiyor"
 
 #: pkg/shell/superuser.jsx:297
 msgid "Something went wrong"
 msgstr "Bir şeyler ters gitti"
 
 #: pkg/networkmanager/firewall.jsx:705
-#, fuzzy
-#| msgid "Sorted from least trusted to most trusted"
 msgid "Sorted from least to most trusted"
-msgstr "En az güvenilenden en çok güvenilene doğru sıralandı"
+msgstr "En azdan en çok güvenilene doğru sıralandı"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:136
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:239
@@ -6857,19 +6804,15 @@ msgid "Source"
 msgstr "Kaynak"
 
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:58
-#, fuzzy
-#| msgid "Source Format"
 msgid "Source format"
-msgstr "Kaynak Biçimi"
+msgstr "Kaynak biçimi"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:172
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:190
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:43
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:48
-#, fuzzy
-#| msgid "Source Path"
 msgid "Source path"
-msgstr "Kaynak Yolu"
+msgstr "Kaynak yolu"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:173
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:192
@@ -6881,38 +6824,28 @@ msgid "Source should start with http, ftp or nfs protocol"
 msgstr "Kaynak http, ftp veya nfs protokolüyle başlamalıdır"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:217
-#, fuzzy
-#| msgid "Source Volume Group"
 msgid "Source volume group"
-msgstr "Kaynak Birim Grubu"
+msgstr "Kaynak birim grubu"
 
 #: pkg/lib/machine-info.js:81
-#, fuzzy
-#| msgid "Space-saving Computer"
 msgid "Space-saving computer"
-msgstr "Yerden Kazandıran Bilgisayar"
+msgstr "Yerden kazandıran bilgisayar"
 
 #: pkg/networkmanager/network-interface.jsx:541
-#, fuzzy
-#| msgid "Spanning Tree Protocol"
 msgid "Spanning tree protocol"
-msgstr "Spanning Tree Protokolü"
+msgstr "Spanning tree protokolü"
 
 #: pkg/networkmanager/index.html:107
-#, fuzzy
-#| msgid "Spanning Tree Protocol (STP)"
 msgid "Spanning tree protocol (STP)"
-msgstr "Spanning Tree Protokolü (STP)"
+msgstr "Spanning tree protokolü (STP)"
 
 #: pkg/storaged/mdraid-details.jsx:109
 msgid "Spare"
 msgstr "Yedek"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:174
-#, fuzzy
-#| msgid "Specific Time"
 msgid "Specific time"
-msgstr "Belirli Bir Zamanda"
+msgstr "Belirli bir zaman"
 
 #: pkg/systemd/hwinfo.jsx:308
 msgid "Speed"
@@ -6930,30 +6863,24 @@ msgid "Start"
 msgstr "Başlat"
 
 #: pkg/systemd/services/service-details.jsx:378
-#, fuzzy
-#| msgid "Start and Enable"
 msgid "Start and enable"
-msgstr "Başlat ve Etkinleştir"
+msgstr "Başlat ve etkinleştir"
 
 #: pkg/machines/components/libvirtSlate.jsx:107
 msgid "Start libvirt"
 msgstr "libvirt hizmetini başlat"
 
 #: pkg/storaged/multipath.jsx:72
-#, fuzzy
-#| msgid "Start Multipath"
 msgid "Start multipath"
-msgstr "Multipath Hizmetini Başlat"
+msgstr "Multipath hizmetini başlat"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:235
 msgid "Start pool when host boots"
 msgstr "Anamakine önyüklendiğinde havuzu başlat"
 
 #: pkg/networkmanager/app.jsx:72 pkg/systemd/services/service-details.jsx:307
-#, fuzzy
-#| msgid "Start Service"
 msgid "Start service"
-msgstr "Hizmeti Başlat"
+msgstr "Hizmeti başlat"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:69
 #: pkg/machines/components/networks/createNetworkDialog.jsx:97
@@ -6961,8 +6888,6 @@ msgid "Start should not be empty"
 msgstr "Başlangıç boş olmamalıdır"
 
 #: pkg/storaged/jobs-panel.jsx:62
-#, fuzzy
-#| msgid "Starting RAID Device $target"
 msgid "Starting RAID device $target"
 msgstr "RAID aygıtı $target başlatılıyor"
 
@@ -7014,34 +6939,26 @@ msgid "Stop"
 msgstr "Durdur"
 
 #: pkg/systemd/services/service-details.jsx:378
-#, fuzzy
-#| msgid "Stop and Disable"
 msgid "Stop and disable"
-msgstr "Durdur ve Devre Dışı Bırak"
+msgstr "Durdur ve etkisizleştir"
 
 #: pkg/storaged/nfs-details.jsx:293
 msgid "Stop and remove"
 msgstr "Durdur ve kaldır"
 
 #: pkg/storaged/nfs-details.jsx:268
-#, fuzzy
-#| msgid "Stop and Unmount"
 msgid "Stop and unmount"
-msgstr "Durdur ve Bağlantısını Kaldır"
+msgstr "Durdur ve bağlantısını kaldır"
 
 #: pkg/storaged/mdraid-details.jsx:248
-#, fuzzy
-#| msgid "Stop Device"
 msgid "Stop device"
-msgstr "Aygıtı Durdur"
+msgstr "Aygıtı durdur"
 
 #: pkg/shell/hosts.jsx:211
 msgid "Stop editing hosts"
 msgstr "Anamakineleri düzenlemeyi durdur"
 
 #: pkg/storaged/jobs-panel.jsx:61
-#, fuzzy
-#| msgid "Stopping RAID Device $target"
 msgid "Stopping RAID device $target"
 msgstr "RAID aygıtı $target durduruluyor"
 
@@ -7060,67 +6977,51 @@ msgid "Storage can not be managed on this system."
 msgstr "Bu sistemde depolama yönetilemez."
 
 #: pkg/storaged/logs-panel.jsx:39
-#, fuzzy
-#| msgid "Storage Logs"
 msgid "Storage logs"
-msgstr "Depolama Günlük Kayıtları"
+msgstr "Depolama günlükleri"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:118
-#, fuzzy
-#| msgid "Storage Pool $0 failed to get activated"
 msgid "Storage pool $0 failed to get activated"
-msgstr "Depolama havuzu $0 etkinleştirilemedi"
+msgstr "$0 depolama havuzunun etkinleştirilmesi başarısız oldu"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:138
-#, fuzzy
-#| msgid "Storage Pool $0 failed to get deactivated"
 msgid "Storage pool $0 failed to get deactivated"
-msgstr "Depolama havuzu $0 devre dışı bırakılamadı"
+msgstr "$0 depolama havuzunun devre dışı bırakılması başarısız oldu"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:393
-#, fuzzy
-#| msgid "Storage Pool failed to be created"
 msgid "Storage pool failed to be created"
-msgstr "Depolama havuzu oluşturulamadı"
+msgstr "Depolama havuzunun oluşturulması başarısız oldu"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:48
-#, fuzzy
-#| msgid "Storage Pool Name"
 msgid "Storage pool name"
-msgstr "Depolama Havuzu Adı"
+msgstr "Depolama havuzu adı"
 
 #: pkg/machines/components/storagePools/storagePoolList.jsx:56
 #: pkg/machines/components/storagePools/storagePoolList.jsx:63
 #: pkg/machines/components/storagePools/storagePoolList.jsx:70
-#, fuzzy
-#| msgid "Storage Pools"
 msgid "Storage pools"
-msgstr "Depolama Havuzları"
+msgstr "Depolama havuzları"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:182
 msgid "Storage size must not be 0"
 msgstr "Depolama boyutu 0 olmamak zorundadır"
 
 #: pkg/machines/components/vm/disks/diskEdit.jsx:45
-#, fuzzy
-#| msgid "Storage Volume"
 msgid "Storage volume"
-msgstr "Depolama Birimi"
+msgstr "Depolama birimi"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:338
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:64
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
+"Depolama birimi boyutu, depolama havuzunun kapasitesini ($0 $1) aşmamak "
+"zorundadır"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:75
-#, fuzzy
-#| msgid "Storage Volumes"
 msgid "Storage volumes"
-msgstr "Depolama Birimleri"
+msgstr "Depolama birimleri"
 
 #: pkg/machines/components/storagePools/storageVolumeDelete.jsx:44
-#, fuzzy
-#| msgid "Storage Volumes could not be deleted"
 msgid "Storage volumes could not be deleted"
 msgstr "Depolama birimleri silinemedi"
 
@@ -7139,16 +7040,12 @@ msgid "Stored passphrase"
 msgstr "Saklanmış parola"
 
 #: pkg/lib/machine-info.js:85
-#, fuzzy
-#| msgid "Sub Chassis"
 msgid "Sub-Chassis"
 msgstr "Alt Kasa"
 
 #: pkg/lib/machine-info.js:80
-#, fuzzy
-#| msgid "Sub Notebook"
 msgid "Sub-Notebook"
-msgstr "Sub Notebook"
+msgstr "Sub-Notebook"
 
 #: pkg/systemd/services.html:58
 msgid "Sunday"
@@ -7163,10 +7060,8 @@ msgid "Support is installed."
 msgstr "Destek yüklendi."
 
 #: pkg/machines/helpers.js:218
-#, fuzzy
-#| msgid "suspended (PM)"
 msgid "Suspended (PM)"
-msgstr "askıya alındı (güç yönetimi)"
+msgstr "Askıya alındı (Güç Yönetimi)"
 
 #: pkg/storaged/content-views.jsx:168 pkg/metrics/metrics.jsx:102
 #: pkg/metrics/metrics.jsx:397 pkg/metrics/metrics.jsx:1008
@@ -7174,34 +7069,27 @@ msgid "Swap"
 msgstr "Takas"
 
 #: pkg/metrics/metrics.jsx:101
-#, fuzzy
-#| msgid "Swap"
 msgid "Swap out"
-msgstr "Takas"
+msgstr "Giden takas"
 
 #: pkg/storaged/content-views.jsx:411
-#, fuzzy
-#| msgctxt "storage-id-desc"
-#| msgid "Swap Space"
 msgctxt "storage-id-desc"
 msgid "Swap space"
-msgstr "Takas Alanı"
+msgstr "Takas alanı"
 
 #: pkg/networkmanager/network-interface-members.jsx:70
-#, fuzzy
-#| msgid "Switch off $0"
 msgid "Switch of $0"
-msgstr "$0'ı kapat"
+msgstr "$0 anahtarı"
 
 #: pkg/networkmanager/network-interface-members.jsx:96
 #: pkg/networkmanager/network-interface.jsx:167
 msgid "Switch off $0"
-msgstr "$0'ı kapat"
+msgstr "$0 arayüzünü kapat"
 
 #: pkg/networkmanager/network-interface-members.jsx:84
 #: pkg/networkmanager/network-interface.jsx:146
 msgid "Switch on $0"
-msgstr "$0'ı aç"
+msgstr "$0 arayüzünü aç"
 
 #: pkg/shell/superuser.jsx:142
 msgid "Switch to limited access"
@@ -7245,10 +7133,8 @@ msgid "Synchronizing"
 msgstr "Eşitleniyor"
 
 #: pkg/storaged/jobs-panel.jsx:69
-#, fuzzy
-#| msgid "Synchronizing RAID Device $target"
 msgid "Synchronizing RAID device $target"
-msgstr "RAID aygıtı $target eşzamanlanıyor"
+msgstr "RAID aygıtı $target eşitleniyor"
 
 #: pkg/shell/index.html:21 pkg/machines/helpers.js:207
 #: pkg/machines/components/common/machinesConnectionSelector.jsx:38
@@ -7266,26 +7152,20 @@ msgid "System is up to date"
 msgstr "Sistem güncel"
 
 #: pkg/selinux/setroubleshoot-view.jsx:464
-#, fuzzy
-#| msgid "System Modifications"
 msgid "System modifications"
-msgstr "Sistem Değişiklikleri"
+msgstr "Sistem değişiklikleri"
 
 #: pkg/systemd/services/service-tabs.jsx:38
-#, fuzzy
-#| msgid "System Services"
 msgid "System services"
-msgstr "Sistem Hizmetleri"
+msgstr "Sistem hizmetleri"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:182
 msgid "System time"
 msgstr "Sistem saati"
 
 #: pkg/systemd/services/services-list.jsx:33
-#, fuzzy
-#| msgid "Systemd Units"
 msgid "Systemd units"
-msgstr "Systemd Birimleri"
+msgstr "Systemd birimleri"
 
 #: pkg/networkmanager/firewall.jsx:184
 msgid "TCP"
@@ -7305,10 +7185,8 @@ msgstr "Hedef"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:101
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:63
-#, fuzzy
-#| msgid "Target Path"
 msgid "Target path"
-msgstr "Hedef Yolu"
+msgstr "Hedef yolu"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:103
 msgid "Target path should not be empty"
@@ -7325,38 +7203,28 @@ msgid "Team"
 msgstr "Takım"
 
 #: pkg/networkmanager/network-interface.jsx:526
-#, fuzzy
-#| msgid "Team Port"
 msgid "Team port"
-msgstr "Takım Bağlantı Noktası"
+msgstr "Takım bağlantı noktası"
 
 #: pkg/networkmanager/index.html:373
-#, fuzzy
-#| msgid "Team Port Settings"
 msgid "Team port settings"
-msgstr "Takım Bağlantı Noktası Ayarları"
+msgstr "Takım bağlantı noktası ayarları"
 
 #: pkg/networkmanager/index.html:344
-#, fuzzy
-#| msgid "Team Settings"
 msgid "Team settings"
-msgstr "Takım Ayarları"
+msgstr "Takım ayarları"
 
 #: pkg/systemd/terminal.html:4 pkg/systemd/manifest.json.in:0
 msgid "Terminal"
 msgstr "Terminal"
 
 #: pkg/users/account-details.js:265
-#, fuzzy
-#| msgid "Terminate Session"
 msgid "Terminate session"
-msgstr "Oturumu Sonlandır"
+msgstr "Oturumu sonlandır"
 
 #: pkg/kdump/kdump-view.jsx:482 pkg/kdump/kdump-view.jsx:490
-#, fuzzy
-#| msgid "Test Configuration"
 msgid "Test configuration"
-msgstr "Yapılandırmayı Test Et"
+msgstr "Yapılandırmayı dene"
 
 #: pkg/kdump/kdump-view.jsx:486
 msgid "Test is only available while the kdump service is running."
@@ -7383,16 +7251,12 @@ msgid "The $0 package must be installed to create VDO devices."
 msgstr "VDO aygıtları oluşturmak için $0 paketi yüklenmek zorundadır."
 
 #: pkg/shell/machines/machine-dialogs.js:403
-#, fuzzy
-#| msgid "The IP address or host name cannot contain whitespace."
 msgid "The IP address or hostname cannot contain whitespace."
-msgstr "IP adresi veya ana makine adı boşluk karakterleri içeremez."
+msgstr "IP adresi veya anamakine adı boşluk karakteri içeremez."
 
 #: pkg/storaged/mdraid-details.jsx:218
-#, fuzzy
-#| msgid "The RAID Array is in a degraded state"
 msgid "The RAID array is in a degraded state"
-msgstr "RAID dizisi düşürülmüş bir durumda"
+msgstr "RAID dizilimi düşürülmüş bir durumda"
 
 #: pkg/storaged/mdraid-details.jsx:155
 msgid "The RAID device must be running in order to add spare disks."
@@ -7407,6 +7271,8 @@ msgid ""
 "The SSH key ${key} of ${luser} on ${lhost} will be added to the ${afile} "
 "file of ${ruser} on ${rhost}."
 msgstr ""
+"${lhost} üzerindeki ${luser} kullanıcısının ${key} SSH anahtarı, ${rhost} "
+"üzerindeki ${ruser} kullanıcısının ${afile} dosyasına eklenecektir."
 
 #: pkg/shell/machines/machine-change-auth.html:28
 msgid ""
@@ -7414,6 +7280,10 @@ msgid ""
 "protected. You can log in with either your login password or by providing "
 "the password of the key at {{#strong}}{{key}}{{/strong}}."
 msgstr ""
+"{{#strong}}{{full_address}}{{/strong}} üzerinde oturum açmak için kullanılan "
+"SSH anahtarı korumalı. Oturum açma parolanızla veya "
+"{{#strong}}{{key}}{{/strong}} konumundaki anahtarın parolasını sağlayarak "
+"oturum açabilirsiniz."
 
 #: pkg/shell/machines/machine-change-auth.html:55
 msgid ""
@@ -7421,6 +7291,9 @@ msgid ""
 "remainder of the session and will be available for login to other hosts as "
 "well."
 msgstr ""
+"{{#strong}}{{key}}{{/strong}} SSH anahtarı oturumun geri kalanı için "
+"kullanılabilir olacak ve diğer anamakinelerde oturum açmak için de "
+"kullanılabilecektir."
 
 #: pkg/machines/components/vm/deleteDialog.jsx:64
 msgid "The VM is running and will be forced off before deletion."
@@ -7478,16 +7351,12 @@ msgstr ""
 "kaldıracak."
 
 #: pkg/storaged/fsys-tab.jsx:494
-#, fuzzy
-#| msgid ""
-#| "The filesystem is currently mounted on $0 but will not be mounted after "
-#| "the next boot."
 msgid ""
 "The filesystem is configured to be automatically mounted on boot but its "
 "encryption container will not be unlocked at that time."
 msgstr ""
-"Dosya sistemi şu anda $0 noktasında bağlanmış durumda ancak bir sonraki "
-"önyüklemeden sonra bağlanmayacak."
+"Dosya sistemi önyüklemede otomatik olarak bağlanacak şekilde yapılandırıldı "
+"ancak şifreleme kapsayıcısının kilidi o anda açılmayacaktır."
 
 #: pkg/storaged/fsys-tab.jsx:486
 msgid ""
@@ -7548,8 +7417,8 @@ msgstr "Dosya sistemi bağlanmadı."
 #: pkg/packagekit/updates.jsx:435
 msgid "The following service will be restarted:"
 msgid_plural "The following services will be restarted:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aşağıdaki hizmet yeniden başlatılacaktır:"
+msgstr[1] "Aşağıdaki hizmetler yeniden başlatılacaktır:"
 
 #: pkg/sosreport/index.html:59
 msgid ""
@@ -7566,10 +7435,8 @@ msgid "The key password can not be empty"
 msgstr "Anahtar parolası boş olamaz"
 
 #: pkg/shell/machines/machine-dialogs.js:874
-#, fuzzy
-#| msgid "The passwords do not match"
 msgid "The key passwords do not match"
-msgstr "Parolalar eşleşmiyor"
+msgstr "Anahtar parolaları eşleşmiyor"
 
 #: pkg/users/authorized-keys.js:124
 msgid "The key you provided was not valid."
@@ -7594,22 +7461,16 @@ msgstr ""
 "verilmiyor"
 
 #: pkg/shell/indexes.js:484
-#, fuzzy
-#| msgid "The machine is restarting"
 msgid "The machine is rebooting"
 msgstr "Makine yeniden başlatılıyor"
 
 #: pkg/shell/machines/machine-dialogs.js:882
-#, fuzzy
-#| msgid "The last key slot can not be removed"
 msgid "The new key password can not be empty"
-msgstr "Son anahtar yuvası kaldırılamaz"
+msgstr "Yeni anahtar parolası boş olamaz"
 
 #: pkg/shell/machines/machine-dialogs.js:887
-#, fuzzy
-#| msgid "The passwords do not match"
 msgid "The new key passwords do not match"
-msgstr "Parolalar eşleşmiyor"
+msgstr "Yeni anahtar parolaları eşleşmiyor"
 
 #: pkg/users/account-create-dialog.js:202 pkg/users/password-dialogs.js:208
 msgid "The passwords do not match"
@@ -7629,29 +7490,21 @@ msgid ""
 "The resulting fingerprint is fine to share via public methods, including "
 "email."
 msgstr ""
+"Ortaya çıkan parmak izinin, e-posta dahil olmak üzere herkese açık "
+"yöntemlerle paylaşılması uygundur."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:431
-#, fuzzy
-#| msgid ""
-#| "The selected Operating System does not support unattended installation"
 msgid "The selected operating system does not support unattended installation"
 msgstr "Seçilen işletim sistemi katılımsız kurulumu desteklemiyor"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:173
-#, fuzzy
-#| msgid ""
-#| "The selected Operating System has minimum memory requirement of $0 $1"
 msgid "The selected operating system has minimum memory requirement of $0 $1"
-msgstr "Seçilen işletim sistemi için en az $0 $1 bellek gerekmektedir"
+msgstr "Seçilen işletim sisteminin en az $0 $1 bellek gereksinimi var"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:188
-#, fuzzy
-#| msgid ""
-#| "The selected Operating System has minimum storage size requirement of $0 "
-#| "$1"
 msgid ""
 "The selected operating system has minimum storage size requirement of $0 $1"
-msgstr "Seçilen işletim sistemi için en az $0 $1 depolama alanı gerekmektedir"
+msgstr "Seçilen işletim sisteminin en az $0 $1 depolama alanı gereksinimi var"
 
 #: pkg/static/login.js:802
 msgid ""
@@ -7669,8 +7522,6 @@ msgstr ""
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:125
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:129
-#, fuzzy
-#| msgid "The Storage Pool could not be deleted"
 msgid "The storage pool could not be deleted"
 msgstr "Depolama havuzu silinemedi"
 
@@ -7743,10 +7594,8 @@ msgid "There was an unexpected error while connecting to the machine."
 msgstr "Makineye bağlanırken beklenmeyen bir hata oldu."
 
 #: pkg/storaged/utils.js:194
-#, fuzzy
-#| msgid "Thin Logical Volume"
 msgid "Thin logical volume"
-msgstr "İnce Mantıksal Birim"
+msgstr "İnce mantıksal birim"
 
 #: pkg/storaged/nfs-details.jsx:122
 msgid "This NFS mount is in use and only its options can be changed."
@@ -7825,7 +7674,7 @@ msgstr "Bu alan boş olamaz."
 
 #: pkg/packagekit/autoupdates.jsx:394
 msgid "This host will reboot after updates are installed."
-msgstr ""
+msgstr "Güncellemeler yüklendikten sonra bu anamakine yeniden başlayacak."
 
 #: pkg/storaged/lvol-tabs.jsx:410
 msgid "This logical volume is not completely used by its content."
@@ -7890,14 +7739,12 @@ msgstr ""
 "Bu birimin yeniden boyutlandırılabilmesi için etkinleştirilmesi gerekir."
 
 #: pkg/static/login.js:163
-#, fuzzy
-#| msgid "This web browser is too old to run Cockpit (missing $0)"
 msgid "This web browser is too old to run the Web Console (missing $0)"
-msgstr "Bu web tarayıcısı, Cockpit'i çalıştırmak için çok eski ($0 eksik)"
+msgstr "Bu web tarayıcısı, Web Konsolunu çalıştırmak için çok eski ($0 eksik)"
 
 #: pkg/shell/machines/machine-dialogs.js:757
 msgid "This will allow you to log in without password in the future."
-msgstr ""
+msgstr "Bu, gelecekte parola olmadan oturum açmanıza izin verecek."
 
 #: pkg/kdump/kdump-view.jsx:300
 msgid ""
@@ -7938,10 +7785,8 @@ msgid "Time"
 msgstr "Zaman"
 
 #: pkg/lib/serverTime.js:512
-#, fuzzy
-#| msgid "Time Zone"
 msgid "Time zone"
-msgstr "Saat Dilimi"
+msgstr "Saat dilimi"
 
 #: pkg/systemd/services/service-tabs.jsx:41
 msgid "Timers"
@@ -7961,6 +7806,8 @@ msgid ""
 "To ensure that your connection is not intercepted by a malicious third-"
 "party, please verify the host key fingerprint:"
 msgstr ""
+"Bağlantınızın kötü niyetli bir üçüncü tarafça engellenmediğinden emin olmak "
+"için lütfen anamakine anahtar parmak izini doğrulayın:"
 
 #: pkg/packagekit/updates.jsx:1233
 msgid ""
@@ -7975,6 +7822,8 @@ msgid ""
 "To verify a fingerprint, run the following on $0 while physically sitting at "
 "the machine or through a trusted network:"
 msgstr ""
+"Bir parmak izini doğrulamak için makinede fiziksel olarak bulunurken veya "
+"güvenilir bir ağ aracılığıyla 0$ üzerinde aşağıdakileri çalıştırın:"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:18
 #: pkg/shell/machines/machine-unknown-hostkey.html:10
@@ -7982,15 +7831,17 @@ msgid ""
 "To verify a fingerprint, run the following on {{host}} while physically "
 "sitting at the machine or through a trusted network:"
 msgstr ""
+"Bir parmak izini doğrulamak için makinede fiziksel olarak bulunurken veya "
+"güvenilir bir ağ aracılığıyla {{host}} üzerinde aşağıdakileri çalıştırın:"
 
 #: pkg/metrics/metrics.jsx:968
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:40
 msgid "Today"
-msgstr ""
+msgstr "Bugün"
 
 #: pkg/storaged/mdraid-details.jsx:205
 msgid "Toggle bitmap"
-msgstr ""
+msgstr "Bit eşlemi aç/kapat"
 
 #: pkg/shell/index.html:63
 msgid "Toggle session settings"
@@ -8006,13 +7857,11 @@ msgstr "Araçlar"
 
 #: pkg/metrics/metrics.jsx:450
 msgid "Top 5 CPU services"
-msgstr ""
+msgstr "En iyi 5 CPU hizmeti"
 
 #: pkg/metrics/metrics.jsx:483
-#, fuzzy
-#| msgid "No Network Devices"
 msgid "Top 5 memory services"
-msgstr "Ağ Aygıtı Yok"
+msgstr "En iyi 5 bellek hizmeti"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:98
 msgid "Total size: $0"
@@ -8029,8 +7878,6 @@ msgstr ""
 "desteklemiyor"
 
 #: pkg/systemd/services/service-details.jsx:398
-#, fuzzy
-#| msgid "Triggered By"
 msgid "Triggered by"
 msgstr "Tetikleyen"
 
@@ -8081,6 +7928,9 @@ msgid ""
 "under certain workloads. The core of Tuned are profiles, which tune your "
 "system for different use cases."
 msgstr ""
+"Tuned , sisteminizi izleyen ve belirli iş yükleri altında performansı en iyi "
+"hale getiren bir hizmettir. Tuned'ın çekirdeği, sisteminizi farklı kullanım "
+"durumları için ayarlayan profillerdir."
 
 #: pkg/tuned/dialog.js:93
 msgid "Tuned is not available"
@@ -8152,23 +8002,17 @@ msgid "Unable to connect to that address"
 msgstr "Bu adrese bağlanılamıyor"
 
 #: pkg/shell/machines/machine-dialogs.js:475
-#, fuzzy
-#| msgid ""
-#| "Cockpit could not contact the given host $0. Make sure it has ssh running "
-#| "on port $1, or specify another port in the address."
 msgid ""
 "Unable to contact the given host $0. Make sure it has ssh running on port "
 "$1, or specify another port in the address."
 msgstr ""
-"Cockpit, verilen ana makine $0 ile iletişim kuramadı. SSH hizmetinin $1 "
+"Verilen $0 anamakinesiyle iletişim kurulamıyor. SSH hizmetinin $1 nolu "
 "bağlantı noktasında çalıştığından emin olun veya adreste başka bir bağlantı "
 "noktası belirtin."
 
 #: pkg/shell/machines/machine-change-port.html:9
-#, fuzzy
-#| msgid "Cockpit was unable to contact {{#strong}}{{host}}{{/strong}}."
 msgid "Unable to contact {{#strong}}{{host}}{{/strong}}."
-msgstr "Cockpit {{#strong}}{{host}}{{/strong}} ile iletişim kuramadı."
+msgstr "{{#strong}}{{host}}{{/strong}} ile iletişim kurulamıyor."
 
 #: pkg/selinux/setroubleshoot-view.jsx:80
 #: pkg/selinux/setroubleshoot-view.jsx:213
@@ -8185,46 +8029,40 @@ msgid ""
 "authentication. Please provide the password. You may want to set up your SSH "
 "keys for automatic login."
 msgstr ""
+"SSH anahtar kimlik doğrulaması kullanılarak "
+"{{#strong}}{{full_address}}{{/strong}} üzerinde oturum açılamıyor. Lütfen "
+"parolayı girin. Otomatik oturum açma için SSH anahtarlarınızı ayarlamak "
+"isteyebilirsiniz."
 
 #: pkg/shell/machines/machine-change-auth.html:10
 msgid ""
 "Unable to log in to {{#strong}}{{full_address}}{{/strong}}. The host does "
 "not accept password login or any of your SSH keys."
 msgstr ""
+"{{#strong}}{{full_address}}{{/strong}} üzerinde oturum açılamıyor. "
+"Anamakine, parola ile oturum açmayı veya SSH anahtarlarınızdan hiçbirini "
+"kabul etmiyor."
 
 #: pkg/shell/machines/machine-auth-failed.html:15
-#, fuzzy
-#| msgid ""
-#| "Cockpit was unable to log in to {{#strong}}{{host}}{{/strong}}. "
-#| "{{#can_sync}}You may want to try to {{#sync_link}}synchronize users{{/"
-#| "sync_link}}.{{/can_sync}} For more authentication options and "
-#| "troubleshooting support please upgrade cockpit-ws to a newer version."
 msgid ""
 "Unable to log in to {{#strong}}{{host}}{{/strong}}. For more authentication "
 "options and troubleshooting support please upgrade cockpit-ws to a newer "
 "version."
 msgstr ""
-"Cockpit {{#strong}}{{host}}{{/strong}} üzerinde oturum açamadı. {{#can_sync}}"
-"{{#sync_link}}Kullanıcıları eşzamanlamayı{{/sync_link}} denemek "
-"isteyebilirsiniz.{{/can_sync}} Daha fazla kimlik doğrulama seçeneği ve sorun "
-"giderme desteği için lütfen cockpit-ws'yi daha yeni bir sürüme yükseltin."
+"{{#strong}}{{host}}{{/strong}} cihazına oturum açılamıyor. Daha fazla kimlik "
+"doğrulama seçeneği ve sorun giderme desteği için lütfen cockpit-ws'yi daha "
+"yeni bir sürüme yükseltin."
 
 #: pkg/shell/machines/machine-auth-failed.html:6
-#, fuzzy
-#| msgid ""
-#| "Cockpit was unable to log into {{#strong}}{{host}}{{/strong}}. To use "
-#| "this machine with cockpit you will need to enable one of the following "
-#| "authentication methods in the sshd config on {{#strong}}{{host}}{{/"
-#| "strong}}:"
 msgid ""
 "Unable to log in to {{#strong}}{{host}}{{/strong}}. To connect to this host "
 "you will need to enable one of the following authentication methods in the "
 "sshd config on {{#strong}}{{host}}{{/strong}}:"
 msgstr ""
-"Cockpit {{#strong}}{{host}}{{/strong}} üzerinde oturum açamadı. Bu makineyi "
-"cockpit ile kullanmak için {{#strong}}{{host}}{{/strong}} sshd "
-"yapılandırmasında aşağıdaki kimlik doğrulama yöntemlerinden birini "
-"etkinleştirmeniz gerekecektir:"
+"{{#strong}}{{host}}{{/strong}} cihazına oturum açılamıyor. Bu anamakineye "
+"bağlanmak için {{#strong}}{{host}}{{/strong}} cihazındaki sshd "
+"yapılandırmasında şu kimlik doğrulama yöntemlerinden birini etkinleştirmeniz "
+"gerekecek:"
 
 #: pkg/storaged/iscsi-panel.jsx:88
 msgid "Unable to reach server"
@@ -8260,10 +8098,8 @@ msgid "Unique name"
 msgstr "Benzersiz ad"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:123
-#, fuzzy
-#| msgid "Unique Network Name"
 msgid "Unique network name"
-msgstr "Benzersiz Ağ Adı"
+msgstr "Benzersiz ağ adı"
 
 #: pkg/storaged/dialog.jsx:1049
 #: pkg/machines/components/vm/overview/bootOrder.jsx:137
@@ -8293,10 +8129,8 @@ msgid "Unknown ($0)"
 msgstr "Bilinmeyen ($0)"
 
 #: pkg/apps/application.jsx:103
-#, fuzzy
-#| msgid "Unknown Application"
 msgid "Unknown application"
-msgstr "Bilinmeyen Uygulama"
+msgstr "Bilinmeyen uygulama"
 
 #: pkg/networkmanager/network-interface.jsx:305
 msgid "Unknown configuration"
@@ -8328,10 +8162,8 @@ msgid "Unlock at boot"
 msgstr "Önyüklemede kilidi aç"
 
 #: pkg/shell/index.html:170 pkg/shell/index.html:214
-#, fuzzy
-#| msgid "Unlock Key"
 msgid "Unlock key"
-msgstr "Anahtarın Kilidini Aç"
+msgstr "Anahtar kilidini aç"
 
 #: pkg/storaged/format-dialog.jsx:65
 msgid "Unlock read only"
@@ -8347,10 +8179,8 @@ msgstr "Disk kilidi açılıyor..."
 
 #: pkg/networkmanager/network-main.jsx:189
 #: pkg/networkmanager/network-main.jsx:191
-#, fuzzy
-#| msgid "Unmanaged Interfaces"
 msgid "Unmanaged interfaces"
-msgstr "Yönetilmeyen Arayüzler"
+msgstr "Yönetilmeyen arayüzler"
 
 #: pkg/storaged/fsys-tab.jsx:290 pkg/storaged/content-views.jsx:375
 #: pkg/storaged/nfs-details.jsx:312
@@ -8358,10 +8188,8 @@ msgid "Unmount"
 msgstr "Bağlantıyı kaldır"
 
 #: pkg/storaged/fsys-tab.jsx:284
-#, fuzzy
-#| msgid "Unmount Filesystem"
 msgid "Unmount filesystem"
-msgstr "Dosya Sisteminin Bağlantısını Kaldır"
+msgstr "Dosya sistemi bağlantısını kaldır"
 
 #: pkg/storaged/fsys-tab.jsx:488 pkg/storaged/fsys-tab.jsx:492
 msgid "Unmount now"
@@ -8380,17 +8208,13 @@ msgid "Unplug"
 msgstr "Çıkart"
 
 #: pkg/storaged/content-views.jsx:171
-#, fuzzy
-#| msgid "Unrecognized Data"
 msgid "Unrecognized data"
-msgstr "Tanımlanamayan Veri"
+msgstr "Tanınmayan veri"
 
 #: pkg/storaged/content-views.jsx:418
-#, fuzzy
-#| msgid "Unrecognized Data"
 msgctxt "storage-id-desc"
 msgid "Unrecognized data"
-msgstr "Tanımlanamayan Veri"
+msgstr "Tanınmayan veri"
 
 #: pkg/storaged/lvol-tabs.jsx:97 pkg/storaged/lvol-tabs.jsx:186
 msgid "Unrecognized data can not be made smaller here."
@@ -8409,22 +8233,16 @@ msgid "Update"
 msgstr "Güncelle"
 
 #: pkg/packagekit/updates.jsx:684
-#, fuzzy
-#| msgid "Updates Available"
 msgid "Update Success Table"
-msgstr "Güncellemeler Var"
+msgstr "Başarı Tablosunu Güncelle"
 
 #: pkg/packagekit/updates.jsx:866
-#, fuzzy
-#| msgid "Update History"
 msgid "Update history"
-msgstr "Güncelleme Geçmişi"
+msgstr "Güncelleme geçmişi"
 
 #: pkg/packagekit/updates.jsx:551
-#, fuzzy
-#| msgid "Update Log"
 msgid "Update log"
-msgstr "Güncelleme Günlük Kaydı"
+msgstr "Güncelleme günlüğü"
 
 #: pkg/apps/application-list.jsx:149
 msgid "Update package information"
@@ -8432,34 +8250,27 @@ msgstr "Paket bilgilerini güncelle"
 
 #: pkg/packagekit/updates.jsx:611 pkg/packagekit/updates.jsx:679
 msgid "Update was successful"
-msgstr ""
+msgstr "Güncelleme başarılı oldu"
 
 #: pkg/packagekit/updates.jsx:92
 msgid "Updated"
 msgstr "Güncellendi"
 
 #: pkg/packagekit/updates.jsx:614
-#, fuzzy
-#| msgid "Updated packages may require a restart to take effect."
 msgid "Updated packages may require a reboot to take effect."
-msgstr ""
-"Güncellenen paketlerin etkili olması için yeniden başlatma gerekebilir."
+msgstr "Güncellenen paketlerin etkili olması için yeniden başlatma gerekebilir."
 
 #: pkg/packagekit/autoupdates.jsx:269
 msgid "Updates "
 msgstr "Güncellemeler "
 
 #: pkg/packagekit/updates.jsx:1287
-#, fuzzy
-#| msgid "Updates Available"
 msgid "Updates available"
-msgstr "Güncellemeler Var"
+msgstr "Güncellemeler mevcut"
 
 #: pkg/packagekit/history.jsx:105
-#, fuzzy
-#| msgid "Update History"
 msgid "Updates history"
-msgstr "Güncelleme Geçmişi"
+msgstr "Güncellemelerin geçmişi"
 
 #: pkg/packagekit/updates.jsx:84
 msgid "Updating"
@@ -8486,34 +8297,24 @@ msgid "Usage"
 msgstr "Kullanım"
 
 #: pkg/storaged/vdos-panel.jsx:128
-#, fuzzy
-#| msgid "Use 512 Byte emulation"
 msgid "Use 512 byte emulation"
-msgstr "512 bayt öykünmeyi (emulation) kullan"
+msgstr "512 bayt benzetimi kullan"
 
 #: pkg/storaged/vdo-details.jsx:320
-#, fuzzy
-#| msgid "Compression"
 msgid "Use compression"
-msgstr "Sıkıştırma"
+msgstr "Sıkıştırma kullan"
 
 #: pkg/storaged/vdo-details.jsx:329
-#, fuzzy
-#| msgid "Deduplication"
 msgid "Use deduplication"
-msgstr "Tekilleştirme"
+msgstr "Tekilleştirme kullan"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:571
-#, fuzzy
-#| msgid "Use Existing"
 msgid "Use existing"
-msgstr "Var Olanı Kullan"
+msgstr "Varolanı kullan"
 
 #: pkg/shell/credentials.js:76
-#, fuzzy
-#| msgid "ssh key"
 msgid "Use key"
-msgstr "ssh anahtarı"
+msgstr "Anahtar kullan"
 
 #: pkg/shell/index.html:122
 msgid "Use the following keys to authenticate against other systems"
@@ -8545,59 +8346,45 @@ msgstr "Kullanıcı adı boş olamaz"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:60
 #: pkg/systemd/overview-cards/realmd-operation.js:340
-#, fuzzy
-#| msgid "User Password"
 msgid "User password"
-msgstr "Kullanıcı Parolası"
+msgstr "Kullanıcı parolası"
 
 #: pkg/storaged/iscsi-panel.jsx:46 pkg/storaged/iscsi-panel.jsx:155
 msgid "Username"
 msgstr "Kullanıcı adı"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "encryption"
 msgid "Using LUKS encryption"
-msgstr "şifreleme"
+msgstr "LUKS şifrelemesi kullanılıyor"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Edit Tang keyserver"
 msgid "Using Tang server"
-msgstr "Tang anahtar sunucusunu düzenle"
+msgstr "Tang sunucusu kullanılıyor"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:160
 msgid "VCPU settings could not be saved"
 msgstr "VCPU ayarları kaydedilemedi"
 
 #: pkg/storaged/content-views.jsx:166
-#, fuzzy
-#| msgid "VDO Backing"
 msgid "VDO backing"
-msgstr "VDO Yedek"
+msgstr "VDO yedek"
 
 #: pkg/storaged/content-views.jsx:416
-#, fuzzy
-#| msgid "VDO Backing"
 msgctxt "storage-id-desc"
 msgid "VDO backing"
-msgstr "VDO Yedek"
+msgstr "VDO yedek"
 
 #: pkg/storaged/lvol-tabs.jsx:92 pkg/storaged/lvol-tabs.jsx:179
 msgid "VDO backing devices can not be made smaller"
 msgstr "VDO yedek aygıtları küçültülemez"
 
 #: pkg/storaged/pvol-tabs.jsx:87 pkg/storaged/vdos-panel.jsx:57
-#, fuzzy
-#| msgid "VDO Device"
 msgid "VDO device"
-msgstr "VDO Aygıtı"
+msgstr "VDO aygıtı"
 
 #: pkg/storaged/vdo-details.jsx:257 pkg/storaged/utils.js:253
-#, fuzzy
-#| msgid "VDO Device $0"
 msgid "VDO device $0"
-msgstr "VDO Aygıtı $0"
+msgstr "VDO aygıtı $0"
 
 #: pkg/networkmanager/network-interface.jsx:181
 #: pkg/networkmanager/network-interface.jsx:193
@@ -8606,16 +8393,12 @@ msgid "VLAN"
 msgstr "VLAN"
 
 #: pkg/networkmanager/index.html:50
-#, fuzzy
-#| msgid "VLAN Id"
 msgid "VLAN ID"
-msgstr "VLAN Kimliği"
+msgstr "VLAN kimliği"
 
 #: pkg/networkmanager/index.html:460
-#, fuzzy
-#| msgid "VLAN Settings"
 msgid "VLAN settings"
-msgstr "VLAN Ayarları"
+msgstr "VLAN ayarları"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:135
 msgid "VM $0 already exists"
@@ -8623,13 +8406,11 @@ msgstr "$0 sanal makinesi zaten var"
 
 #: pkg/machines/app.jsx:146
 msgid "VM $0 does not exist on $1 connection"
-msgstr ""
+msgstr "$0 sanal makinesi $1 bağlantısında mevcut değil"
 
 #: pkg/machines/components/vm/vmActions.jsx:110
-#, fuzzy
-#| msgid "VM $0 failed to force Reboot"
 msgid "VM $0 failed to force reboot"
-msgstr "$0 sanal makinesi zorla yeniden başlatılamadı"
+msgstr "$0 sanal makinesini zorla yeniden başlatma başarısız oldu"
 
 #: pkg/machines/components/vm/vmActions.jsx:163
 msgid "VM $0 failed to force shutdown"
@@ -8649,10 +8430,8 @@ msgid "VM $0 failed to pause"
 msgstr "$0 sanal makinesini duraklatma başarısız oldu"
 
 #: pkg/machines/components/vm/vmActions.jsx:98
-#, fuzzy
-#| msgid "VM $0 failed to Reboot"
 msgid "VM $0 failed to reboot"
-msgstr "$0 sanal makinesi yeniden başlatılamadı"
+msgstr "$0 sanal makinesini yeniden başlatma başarısız oldu"
 
 #: pkg/machines/components/vm/vmActions.jsx:149
 msgid "VM $0 failed to resume"
@@ -8671,10 +8450,8 @@ msgid "VM $0 failed to start"
 msgstr "$0 sanal makinesi başlatılamadı"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:139
-#, fuzzy
-#| msgid "State"
 msgid "VM state"
-msgstr "Durum"
+msgstr "Sanal Makine durumu"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:53
 msgid "VNC TLS port"
@@ -8685,10 +8462,8 @@ msgid "VNC address"
 msgstr "VNC adresi"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:99
-#, fuzzy
-#| msgid "console"
 msgid "VNC console"
-msgstr "konsol"
+msgstr "VNC konsolu"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:51
 msgid "VNC port"
@@ -8739,17 +8514,15 @@ msgstr "Otomatikleştirme betiğini görüntüle"
 
 #: pkg/systemd/overview-cards/usageCard.jsx:147
 msgid "View details and history"
-msgstr ""
+msgstr "Ayrıntıları ve geçmişi görüntüle"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:138
 msgid "View hardware details"
 msgstr "Donanım ayrıntılarını görüntüle"
 
 #: pkg/apps/application.jsx:71
-#, fuzzy
-#| msgid "Project website"
 msgid "View project website"
-msgstr "Proje web sitesi"
+msgstr "Proje web sitesini görüntüle"
 
 #: pkg/systemd/reporting.jsx:397
 msgid "View report"
@@ -8765,34 +8538,24 @@ msgstr "Sanal Makineler"
 #: pkg/machines/components/vm/vmDetailsPage.jsx:182
 #: pkg/machines/components/storagePools/storagePoolList.jsx:53
 #: pkg/machines/components/networks/networkList.jsx:56
-#, fuzzy
-#| msgid "Virtual Machines"
 msgid "Virtual machines"
-msgstr "Sanal Makineler"
+msgstr "Sanal makineler"
 
 #: pkg/machines/index.html:4
-#, fuzzy
-#| msgid "Virtual Machines Management"
 msgid "Virtual machines management"
-msgstr "Sanal Makine Yönetimi"
+msgstr "Sanal makine yönetimi"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:158
-#, fuzzy
-#| msgid "Virtual Network"
 msgid "Virtual network"
-msgstr "Sanal Ağ"
+msgstr "Sanal ağ"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:361
-#, fuzzy
-#| msgid "Virtual Network failed to be created"
 msgid "Virtual network failed to be created"
-msgstr "Sanal ağ oluşturulamadı"
+msgstr "Sanal ağ oluşturulması başarısız oldu"
 
 #: pkg/machines/components/libvirtSlate.jsx:105
-#, fuzzy
-#| msgid "Virtualization Service (libvirt) is Not Active"
 msgid "Virtualization service (libvirt) is not active"
-msgstr "Sanallaştırma Hizmeti (libvirt) Etkin Değil"
+msgstr "Sanallaştırma hizmeti (libvirt) etkin değil"
 
 #: pkg/storaged/content-views.jsx:145
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:528
@@ -8808,26 +8571,18 @@ msgid "Volume failed to be created"
 msgstr "Birim oluşturulması başarısız oldu"
 
 #: pkg/storaged/vgroups-panel.jsx:40 pkg/storaged/pvol-tabs.jsx:41
-#, fuzzy
-#| msgid "Volume Group"
 msgid "Volume group"
-msgstr "Birim Grubu"
+msgstr "Birim grubu"
 
 #: pkg/storaged/vgroup-details.jsx:220 pkg/storaged/utils.js:248
-#, fuzzy
-#| msgid "Volume Group $0"
 msgid "Volume group $0"
-msgstr "Birim Grubu $0"
+msgstr "Birim grubu $0"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:167
-#, fuzzy
-#| msgid "Volume Group name"
 msgid "Volume group name"
 msgstr "Birim grubu adı"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:218
-#, fuzzy
-#| msgid "Volume Group name should not be empty"
 msgid "Volume group name should not be empty"
 msgstr "Birim grubu adı boş olmamalıdır"
 
@@ -8867,10 +8622,8 @@ msgid "Waiting to start…"
 msgstr "Başlatma bekleniyor…"
 
 #: pkg/systemd/services/service-details.jsx:389
-#, fuzzy
-#| msgid "Wanted By"
 msgid "Wanted by"
-msgstr "Tarafından İstenir"
+msgstr "İsteyen"
 
 #: pkg/systemd/services/service-details.jsx:384
 msgid "Wants"
@@ -8889,10 +8642,8 @@ msgid "Web Console for Linux servers"
 msgstr "Linux sunucuları için Web Konsolu"
 
 #: pkg/packagekit/updates.jsx:451 pkg/packagekit/updates.jsx:845
-#, fuzzy
-#| msgid "Web Console for Linux servers"
 msgid "Web Console will restart"
-msgstr "Linux sunucuları için Web Konsolu"
+msgstr "Web Konsolu yeniden başlayacak"
 
 #: pkg/systemd/superuser-alert.jsx:60
 msgid "Web console is running in limited access mode."
@@ -8916,11 +8667,11 @@ msgstr "tang-show-keys kullanılamıyorsa ne yapılsın?"
 
 #: pkg/packagekit/autoupdates.jsx:373
 msgid "When"
-msgstr ""
+msgstr "Zamanı"
 
 #: pkg/shell/machines/machine-add.html:34
 msgid "When empty, connect with the current user"
-msgstr ""
+msgstr "Boş olduğunda, şu anki kullanıcıyla bağlan"
 
 #: pkg/packagekit/updates.jsx:454 pkg/packagekit/updates.jsx:850
 msgid ""
@@ -8928,24 +8679,22 @@ msgid ""
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
 msgstr ""
+"Web Konsolu yeniden başlatıldığında, ilerleme bilgilerini artık "
+"görmeyeceksiniz. Ancak güncelleme işlemi arka planda devam edecek. "
+"Güncelleme işlemini izlemeye devam etmek için yeniden bağlanın."
 
 #: pkg/systemd/terminal.jsx:110
 msgid "White"
 msgstr "Beyaz"
 
 #: pkg/storaged/drive-details.jsx:83
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "World Wide Name"
 msgctxt "storage"
 msgid "World wide name"
-msgstr "Dünya Geneli Ad (WWN)"
+msgstr "Dünya geneli ad (WWN)"
 
 #: pkg/metrics/metrics.jsx:501
-#, fuzzy
-#| msgid "ReadWrite"
 msgid "Write"
-msgstr "Oku-Yaz"
+msgstr "Yazma"
 
 #: pkg/storaged/mdraid-details.jsx:110
 msgid "Write-mostly"
@@ -8975,15 +8724,15 @@ msgstr "Evet"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:39
 msgid "Yesterday"
-msgstr ""
+msgstr "Dün"
 
 #: pkg/static/login.js:648
 msgid "You are connecting to $0 for the first time."
-msgstr ""
+msgstr "İlk kez $0 için bağlanıyorsunuz."
 
 #: pkg/shell/machines/machine-unknown-hostkey.html:6
 msgid "You are connecting to {{host}} for the first time."
-msgstr ""
+msgstr "İlk kez {{host}} anamakinesine bağlanıyorsunuz."
 
 #: pkg/networkmanager/firewall-switch.jsx:58
 #: pkg/networkmanager/firewall.jsx:152
@@ -9013,6 +8762,7 @@ msgstr "Daha eski girişleri yüklemeyi deneyebilirsiniz."
 #: pkg/shell/machines/machine-change-auth.html:29
 msgid "You may want to change the password of the key for automatic login."
 msgstr ""
+"Otomatik oturum açmak için anahtarın parolasını değiştirmek isteyebilirsiniz."
 
 #: pkg/users/password-dialogs.js:79
 msgid "You must wait longer to change your password"
@@ -9020,22 +8770,16 @@ msgstr "Parolanızı değiştirmek için daha uzun süre beklemek zorundasınız
 
 #: pkg/metrics/metrics.jsx:930
 msgid "You need to relogin to be able to see metrics"
-msgstr ""
+msgstr "Ölçümleri görebilmek için yeniden oturum açmanız gerekli"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:138
-#, fuzzy
-#| msgid "You need to select the most closely matching Operating System"
 msgid "You need to select the most closely matching operating system"
-msgstr "En yakından eşleşen işletim sistemini seçmeniz gerekmektedir"
+msgstr "En yakından eşleşen işletim sistemini seçmeniz gerekli"
 
 #: pkg/sosreport/index.html:39
-#, fuzzy
-#| msgid ""
-#| "You need to switch to \"Administrative Access\" in order to create "
-#| "reports."
 msgid ""
 "You need to switch to \"Administrative access\" in order to create reports."
-msgstr "Rapor oluşturmak için \"Yönetici Erişimi\"ne geçmeniz gerekmektedir."
+msgstr "Raporları oluşturmak için \"Yönetimsel erişim\"e geçmeniz gerekli."
 
 #: pkg/shell/superuser.jsx:285
 msgid "You now have administrative access."
@@ -9161,10 +8905,8 @@ msgid "cdrom"
 msgstr "cdrom"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Group"
 msgid "cgroups"
-msgstr "Grup"
+msgstr "cgruplar"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "command"
@@ -9221,10 +8963,8 @@ msgid "disk"
 msgstr "disk"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "udisks"
 msgid "disks"
-msgstr "udisks"
+msgstr "diskler"
 
 #: pkg/packagekit/manifest.json.in:0
 msgid "dnf"
@@ -9325,10 +9065,8 @@ msgid "hardware"
 msgstr "donanım"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Directory"
 msgid "history"
-msgstr "Dizin"
+msgstr "geçmiş"
 
 #: pkg/machines/helpers.js:232 pkg/systemd/manifest.json.in:0
 msgid "host"
@@ -9339,46 +9077,36 @@ msgid "host device"
 msgstr "anamakine aygıtı"
 
 #: pkg/machines/helpers.js:233
-#, fuzzy
-#| msgid "to host path"
 msgid "host passthrough"
-msgstr "ana makine yoluna"
+msgstr "anamakine geçişi"
 
 #: pkg/machines/helpers.js:241
 msgid "hostdev"
 msgstr "hostdev"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:66
-#, fuzzy
-#| msgid "iSCSI direct Target"
 msgid "iSCSI direct target"
-msgstr "iSCSI Yönlendirme Hedefi"
+msgstr "iSCSI doğrudan hedefi"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:142
-#, fuzzy
-#| msgid "iSCSI Initiator IQN"
 msgid "iSCSI initiator IQN"
-msgstr "iSCSI Başlatıcı IQN"
+msgstr "iSCSI başlatıcı IQN"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:60
-#, fuzzy
-#| msgid "iSCSI Target"
 msgid "iSCSI target"
-msgstr "iSCSI Hedefi"
+msgstr "iSCSI hedefi"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:161
 msgid "iSCSI target IQN"
 msgstr "iSCSI hedefi IQN"
 
 #: pkg/storaged/iscsi-panel.jsx:268
-#, fuzzy
-#| msgid "iSCSI Targets"
 msgid "iSCSI targets"
-msgstr "iSCSI Hedefleri"
+msgstr "iSCSI hedefleri"
 
 #: pkg/shell/shell-modals.jsx:124
 msgid "in most browsers"
-msgstr ""
+msgstr "çoğu tarayıcıda"
 
 #: pkg/apps/manifest.json.in:0
 msgid "install"
@@ -9477,10 +9205,8 @@ msgid "memory"
 msgstr "bellek"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Store metrics"
 msgid "metrics"
-msgstr "Ölçümleri sakla"
+msgstr "ölçümler"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "mitigation"
@@ -9513,7 +9239,7 @@ msgstr "nfs döküm hedefi sunucu:yol olarak biçimlendirilmedi"
 
 #: pkg/metrics/metrics.jsx:84
 msgid "nice"
-msgstr ""
+msgstr "harika"
 
 #: pkg/machines/helpers.js:260
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:69
@@ -9524,7 +9250,7 @@ msgstr "hayır"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:142
 msgid "no state saved"
-msgstr ""
+msgstr "kaydedilen durum yok"
 
 #: pkg/tuned/dialog.js:103
 msgid "none"
@@ -9573,10 +9299,8 @@ msgid "pci"
 msgstr "pci"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "cpu"
 msgid "pcp"
-msgstr "cpu"
+msgstr "pcp"
 
 #: pkg/apps/manifest.json.in:0
 msgid "plugin"
@@ -9707,10 +9431,8 @@ msgid "ssh server is empty"
 msgstr "ssh sunucusu boş"
 
 #: pkg/metrics/metrics.jsx:84
-#, fuzzy
-#| msgid "sos"
 msgid "sys"
-msgstr "sos"
+msgstr "sys"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "systemctl"
@@ -9795,16 +9517,12 @@ msgid "username"
 msgstr "kullanıcı adı"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:182
-#, fuzzy
-#| msgid "vCPU Count"
 msgid "vCPU count"
-msgstr "vCPU Sayısı"
+msgstr "vCPU sayısı"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:195
-#, fuzzy
-#| msgid "vCPU Maximum"
 msgid "vCPU maximum"
-msgstr "Azami vCPU"
+msgstr "en fazla vCPU"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:225
 msgid "vCPUs"
@@ -9823,22 +9541,16 @@ msgid "vhostuser"
 msgstr "vhostuser"
 
 #: pkg/machines/components/common/stateIcon.jsx:60
-#, fuzzy
-#| msgid "Read more..."
 msgid "view more..."
-msgstr "Daha fazlasını okuyun..."
+msgstr "daha fazla göster..."
 
 #: pkg/machines/components/vm/vmActions.jsx:298
-#, fuzzy
-#| msgid ""
-#| "virt-install package needs to be installed on the system in order to "
-#| "create new VMs"
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
 msgstr ""
-"Yeni sanal makineler oluşturmak için sistemde virt-install paketinin "
-"yüklenmesi gerekir"
+"Sanal makineleri çoğaltmak için sistemde virt-install paketinin yüklenmesi "
+"gerekir"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1001
 msgid ""
@@ -9849,16 +9561,12 @@ msgstr ""
 "yüklenmesi gerekir"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:183
-#, fuzzy
-#| msgid ""
-#| "virt-install package needs to be installed on the system in order to "
-#| "create new VMs"
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
 msgstr ""
-"Yeni sanal makineler oluşturmak için sistemde virt-install paketinin "
-"yüklenmesi gerekir"
+"Bu özniteliği düzenlemek için sistemde virt-install paketinin yüklenmesi "
+"gerekir"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "vlan"
@@ -9878,7 +9586,7 @@ msgstr "uyarı"
 
 #: pkg/packagekit/autoupdates.jsx:270
 msgid "will be applied $0 at $1"
-msgstr ""
+msgstr "$0 saat $1'da uygulanacaktır"
 
 #: pkg/machines/helpers.js:259
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:69
@@ -9897,7 +9605,7 @@ msgstr "bölge"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:2
 msgid "{{host}} key changed"
-msgstr ""
+msgstr "{{host}} anahtarı değişti"
 
 #~ msgid "$0 Template"
 #~ msgstr "$0 Şablonu"
