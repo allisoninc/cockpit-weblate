@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-03-06 22:01+0000\n"
+"PO-Revision-Date: 2021-03-08 17:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -34,11 +34,11 @@ msgstr " 1 \"다음 노드를 삭제 하시겠습니까?"
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/storaged/others-panel.jsx:57
 msgid "$0 Block Device"
-msgstr "$0 블록 장치 "
+msgstr "$0 블록 장치"
 
 #: pkg/storaged/mdraid-details.jsx:193
 msgid "$0 Chunk Size"
-msgstr "$0 청크 크기 "
+msgstr "$0 부분 크기"
 
 #: pkg/storaged/mdraid-details.jsx:191
 msgid "$0 Disks"
@@ -51,16 +51,16 @@ msgstr "$0 파일 시스템"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:105
 msgid "$0 Network"
-msgstr "$0 네트워크 "
+msgstr "$0 네트워크"
 
 #: pkg/packagekit/history.jsx:101
 msgid "$0 Package"
 msgid_plural "$0 Packages"
-msgstr[0] "$0 패키지 "
+msgstr[0] "$0 꾸러미"
 
 #: pkg/systemd/init.js:395 pkg/systemd/init.js:749
 msgid "$0 Template"
-msgstr "$0 템플릿 "
+msgstr "$0 템플릿"
 
 #: src/base1/test-locale.js:80 src/base1/test-locale.js:81
 #: src/base1/test-locale.js:82 src/base1/test-locale.js:83
@@ -89,7 +89,7 @@ msgstr "$0 데이터 + $1 오버헤드가 $2 ($3) 사용"
 #: pkg/playground/translate.js:28 pkg/playground/translate.js:31
 msgid "$0 disk is missing"
 msgid_plural "$0 disks are missing"
-msgstr[0] "$0 디스크 누락 "
+msgstr[0] "$0 디스크 누락"
 
 #: src/base1/test-locale.js:65 src/base1/test-locale.js:67
 #: src/base1/test-locale.js:69 pkg/playground/translate.js:34
@@ -97,7 +97,7 @@ msgstr[0] "$0 디스크 누락 "
 msgctxt "disk-non-rotational"
 msgid "$0 disk is missing"
 msgid_plural "$0 disks are missing"
-msgstr[0] "$0 디스크 누락 "
+msgstr[0] "$0 디스크 누락"
 
 #: src/ws/login.js:326 src/ws/login.js:667
 msgid "$0 error"
@@ -105,11 +105,11 @@ msgstr "$0 오류"
 
 #: src/base1/cockpit.js:2757
 msgid "$0 exited with code $1"
-msgstr "$0이/가 코드 $1로 종료 "
+msgstr "$0가 코드 $1로 종료"
 
 #: src/base1/cockpit.js:2759
 msgid "$0 failed"
-msgstr "$0이/가 실패했습니다."
+msgstr "$0가 실패했습니다"
 
 #: pkg/storaged/lvol-tabs.jsx:159
 msgid "$0 filesystems can not be made larger."
@@ -127,7 +127,7 @@ msgstr "$0 파일 시스템의 크기를 조정할 수 없습니다."
 msgid ""
 "$0 is available for most operating systems. To install it, search for it in "
 "GNOME Software or run the following:"
-msgstr "$0 대부분의 운영 체제에서 사용할 수 있습니다. 설치하려면 GNOME 소프트웨어에서 검색하거나 다음을 실행하십시오."
+msgstr "$0 대부분의 운영 체제에서 사용할 수 있습니다. 설치하려면 GNOME 소프트웨어에서 검색하거나 다음을 실행하십시오.:"
 
 #: pkg/storaged/format-dialog.jsx:259 pkg/storaged/vdo-details.jsx:146
 #: pkg/storaged/vdo-details.jsx:175 pkg/storaged/vgroup-details.jsx:203
@@ -135,20 +135,20 @@ msgstr "$0 대부분의 운영 체제에서 사용할 수 있습니다. 설치�
 #: pkg/storaged/lvol-tabs.jsx:200 pkg/storaged/lvol-tabs.jsx:259
 #: pkg/storaged/content-views.jsx:283 pkg/storaged/content-views.jsx:505
 msgid "$0 is in active use"
-msgstr "$0 은/는 현재 사용 중입니다. "
+msgstr "$0 는 현재 사용 중입니다"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:150
 msgid "$0 is not available from any repository."
-msgstr "$0은/는 리포지터리에서 사용할 수 없습니다. "
+msgstr "$0는 저장소에서 사용 할 수 없습니다."
 
 #: src/base1/cockpit.js:2755
 msgid "$0 killed with signal $1"
-msgstr "$1 시그널에 의해 $0이/가 종료되었습니다 "
+msgstr "$1 시그널에 의해 $0가 종료 되었습니다"
 
 #: pkg/selinux/setroubleshoot-view.jsx:429
 msgid "$0 occurrence"
 msgid_plural "$1 occurrences"
-msgstr[0] "$0 발생 "
+msgstr[0] "$1 발생"
 
 #: pkg/storaged/fsys-tab.jsx:60
 msgid "$0 of $1"
@@ -160,16 +160,16 @@ msgstr "$0 공유"
 
 #: pkg/storaged/crypto-keyslots.jsx:576
 msgid "$0 slots remain"
-msgstr "$0 슬롯이 남아 있습니다 "
+msgstr "$0 슬롯이 남음"
 
 #: pkg/packagekit/updates.jsx:159
 msgid "$0 update"
 msgid_plural "$0 updates"
-msgstr[0] "$0 업데이트 "
+msgstr[0] "$0 최신화"
 
 #: pkg/storaged/vdo-details.jsx:292
 msgid "$0 used of $1 ($2 saved)"
-msgstr "$0/$1 ($2 저장)을 사용하고 있습니다 "
+msgstr "$1($2 저장됨)의 $0 사용되었습니다"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/ovirt/components/vcpuModal.jsx:98
@@ -178,23 +178,23 @@ msgstr "$0 vCPU 세부 정보"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:106
 msgid "$0 will be installed."
-msgstr "$0이/가 설치됩니다. "
+msgstr "$0가 설치됩니다."
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/scripts/nodes.js:871
 msgid "$0% Free"
 msgid_plural "$0% Free"
-msgstr[0] "$0% 여유 공간 "
+msgstr[0] "$0% 여유공간"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/scripts/nodes.js:873
 msgid "$0% Used"
 msgid_plural "$0% Used"
-msgstr[0] "$0% 사용됨 "
+msgstr[0] "$0% 사용됨"
 
 #: pkg/storaged/vgroup-details.jsx:118
 msgid "$0, $1 free"
-msgstr "$0, $1 여유 공간 "
+msgstr "$0, $1 여유"
 
 #: pkg/packagekit/updates.jsx:157
 msgid "$1 security fix"
@@ -282,7 +282,7 @@ msgstr "1주"
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/services.html:273
 msgid "10th"
-msgstr "10일 "
+msgstr "10일"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/services.html:274
@@ -320,7 +320,7 @@ msgstr "16 KiB"
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/services.html:279
 msgid "16th"
-msgstr "16일 "
+msgstr "16일"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/services.html:280
@@ -340,7 +340,7 @@ msgstr "19일"
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/services.html:264
 msgid "1st"
-msgstr "1일 "
+msgstr "1일"
 
 #: pkg/storaged/mdraids-panel.jsx:71
 msgid "2 MiB"
@@ -368,27 +368,27 @@ msgstr "21일"
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/services.html:285
 msgid "22nd"
-msgstr "22일 "
+msgstr "22일"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/services.html:286
 msgid "23rd"
-msgstr "23일 "
+msgstr "23일"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/services.html:287
 msgid "24th"
-msgstr "24일 "
+msgstr "24일"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/services.html:288
 msgid "25th"
-msgstr "25일 "
+msgstr "25일"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/services.html:289
 msgid "26th"
-msgstr "26일 "
+msgstr "26일"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/services.html:290
@@ -397,7 +397,7 @@ msgstr "27일"
 
 #: pkg/systemd/services.html:291
 msgid "28th"
-msgstr "28일 "
+msgstr "28일"
 
 #: pkg/systemd/services.html:292
 msgid "29th"
@@ -405,11 +405,11 @@ msgstr "29일"
 
 #: pkg/systemd/services.html:265
 msgid "2nd"
-msgstr "2일 "
+msgstr "2일"
 
 #: pkg/systemd/host.js:1683
 msgid "3 min"
-msgstr "3분 "
+msgstr "3분"
 
 #: pkg/systemd/services.html:293
 msgid "30th"
@@ -511,7 +511,7 @@ msgstr "9일 "
 msgid ""
 "A compatible version of Cockpit is not installed on {{#strong}}{{host}}{{/"
 "strong}}."
-msgstr "Cockpit 호환 버전이 {{#strong}}{{host}}{{/strong}} 에 설치되어 있지 않습니다. "
+msgstr "Cockpit 호환 버전이 {{#strong}}{{host}}{{/strong}} 에 설치되어 있지 않습니다."
 
 #: pkg/storaged/vdos-panel.jsx:59
 msgid "A disk is needed."
@@ -520,11 +520,11 @@ msgstr "디스크가 필요합니다."
 #: src/ws/login.html:115
 msgid ""
 "A modern browser is required for security, reliability, and performance."
-msgstr "보안, 안정성, 성능을 위해 최신 브라우저가 필요합니다. "
+msgstr "보안, 안정성, 성능을 위해 최신 브라우저가 필요합니다."
 
 #: pkg/storaged/mdraid-details.jsx:119
 msgid "A spare disk needs to be added first before this disk can be removed."
-msgstr "디스크를 제거하기 전 예비용 디스크를 추가해야 합니다. "
+msgstr "디스크를 제거하기 전 예비용 디스크를 추가해야 합니다."
 
 #: pkg/networkmanager/interfaces.js:1986
 msgid "ARP"
@@ -536,7 +536,7 @@ msgstr "ARP 모니터링"
 
 #: pkg/networkmanager/interfaces.js:2007
 msgid "ARP Ping"
-msgstr "ARP Ping"
+msgstr "ARP 핑"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/scripts/volumes.js:193
@@ -607,7 +607,7 @@ msgstr "활성화"
 
 #: pkg/storaged/jobs-panel.jsx:68
 msgid "Activating $target"
-msgstr " $target 활성화 중 "
+msgstr "$target 활성화 중"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/subscriptions/subscriptions-register.jsx:194
@@ -787,7 +787,7 @@ msgstr "멤버쉽 추가 "
 
 #: pkg/networkmanager/firewall.jsx:458
 msgid "Add ports to the following zones:"
-msgstr "다음 영역에 포트를 추가합니다: "
+msgstr "다음 영역에 포트를 추가합니다:"
 
 #: pkg/users/index.html:406
 msgid "Add public key"
@@ -795,7 +795,7 @@ msgstr "공개 키 추가 "
 
 #: pkg/networkmanager/firewall.jsx:458
 msgid "Add services to following zones:"
-msgstr "다음 영역에 서비스를 추가합니다: "
+msgstr "다음 영역에 서비스를 추가합니다:"
 
 #: pkg/networkmanager/firewall.jsx:779
 msgid "Add zone"
@@ -805,14 +805,14 @@ msgstr "영역 추가 "
 msgid ""
 "Adding <b>$0</b> will break the connection to the server, and will make the "
 "administration UI unavailable."
-msgstr "<b>$0</b>을/를 추가하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다. "
+msgstr "<b>$0</b>를 추가하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/networkmanager/firewall.jsx:559
 msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
 msgstr ""
-"사용자 정의 포트를 추가하면 firewalld가 다시 로드됩니다. firewalld이 다시 로드될 경우 모든 런타임 설정이 손실됩니다! "
+"사용자 정의 포트를 추가하면 firewalld가 다시 로드됩니다. firewalld이 다시 로드될 경우 모든 런타임 설정이 손실됩니다!"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -865,7 +865,7 @@ msgstr "주소 $val"
 
 #: pkg/storaged/crypto-keyslots.jsx:192
 msgid "Address cannot be empty"
-msgstr "주소는 비워 둘 수 없습니다."
+msgstr "주소는 비워 둘 수 없습니다"
 
 #: pkg/storaged/crypto-keyslots.jsx:194
 msgid "Address is not a valid URL"
@@ -932,7 +932,7 @@ msgid ""
 "settings and the list of trusted CAs may change."
 msgstr ""
 "도메인 종료 후 로컬 인증 정보가 있는 사용자만 시스템에 로그인할 수 있습니다. 이 경우 DNS 확인 설정 및 신뢰할 수 있는 CA "
-"목록이 변경될 수 있으므로 다른 서비스에도 영향을 미칠 수 있습니다. "
+"목록이 변경 될 수 있으므로 다른 서비스에도 영향을 미칠 수 있습니다."
 
 #: pkg/systemd/services.html:446 pkg/systemd/services.html:450
 #: pkg/systemd/init.js:1073
@@ -965,7 +965,7 @@ msgstr "모든 유형"
 msgid ""
 "All data on selected disks will be erased and disks will be added to the "
 "storage pool."
-msgstr "선택된 디스크의 모든 데이터가 삭제되며 디스크는 스토리지 풀에 추가됩니다. "
+msgstr "선택된 디스크의 모든 데이터가 삭제되며 디스크는 저장 공간에 추가됩니다."
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/views/dashboard-page.html:112
@@ -990,7 +990,7 @@ msgstr "모두 실행 중 "
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/ovirt/components/HostToMaintenance.jsx:36
 msgid "All running virtual machines will be turned off."
-msgstr "실행 중인 모든 가상 머신이 종료됩니다. "
+msgstr "실행 중인 모든 가상 머신이 종료됩니다."
 
 #: pkg/networkmanager/firewall.jsx:754
 msgid "Allowed Addresses"
@@ -1021,7 +1021,7 @@ msgstr "익명: 인증되지 않은 모든 사용자가 이미지를 풀할 수 
 
 #: pkg/systemd/terminal.jsx:94
 msgid "Appearance:"
-msgstr "Appearance:"
+msgstr "외관:"
 
 #: pkg/apps/index.html:23 pkg/apps/application-list.jsx:152
 #: pkg/apps/application.jsx:143
@@ -1086,7 +1086,7 @@ msgstr "최소 1개의 디스크가 필요합니다."
 
 #: pkg/systemd/services.html:451
 msgid "At specific time"
-msgstr "특정 시간  "
+msgstr "특정 시간"
 
 #: pkg/selinux/setroubleshoot-view.jsx:414
 msgid "Audit log"
@@ -1408,15 +1408,15 @@ msgstr "캐시됨 "
 
 #: pkg/docker/index.html:63
 msgid "Can&rsquo;t connect to Docker"
-msgstr "Docker에 연결할 수 없습니다."
+msgstr "Docker에 연결 할 수 없습니다"
 
 #: pkg/storaged/content-views.jsx:313
 msgid "Can't delete while unlocked"
-msgstr "잠금 해제된 상태에서는 삭제할 수 없습니다."
+msgstr "잠금 해제된 상태에서는 삭제 할 수 없습니다"
 
 #: pkg/dashboard/list.js:212
 msgid "Can't load image"
-msgstr "이미지를 로드할 수 없습니다."
+msgstr "이미지를 로드 할 수 없습니다"
 
 #: pkg/networkmanager/index.html:477 pkg/networkmanager/index.html:501
 #: pkg/networkmanager/index.html:525 pkg/networkmanager/index.html:549
@@ -1486,7 +1486,7 @@ msgstr "취소"
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/shell/indexes.js:416
 msgid "Cannot connect to an unknown machine"
-msgstr "알 수 없는 컴퓨터에 연결할 수 없습니다."
+msgstr "알 수 없는 컴퓨터에 연결 할 수 없습니다"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: src/ws/cockpitcertificate.c:483
@@ -1598,7 +1598,7 @@ msgstr "VM 종료 후 변경사항이 적용됩니다. "
 msgid ""
 "Changing the settings will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "설정을 변경하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다. "
+msgstr "설정을 변경하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/packagekit/updates.jsx:175
 msgid "Check for Updates"
@@ -1630,7 +1630,7 @@ msgstr "공개 키 확인 중 "
 
 #: pkg/systemd/host.js:517
 msgid "Checking for updates…"
-msgstr "업데이트 확인 중 ..."
+msgstr "업데이트 확인 중…"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:142
 msgid "Checking installed software"
@@ -1648,7 +1648,7 @@ msgstr "청크 크기 "
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/scripts/volumes.js:202
 msgid "Cinder"
-msgstr "Cinder"
+msgstr "분석"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/views/pv-panel.html:13 pkg/kubernetes/views/pv-page.html:16
@@ -1674,12 +1674,12 @@ msgstr "모든 필터 지우기"
 
 #: pkg/systemd/host.js:750
 msgid "Click to see system hardware information"
-msgstr "시스템 하드웨어 정보를 보려면 클릭하십시오."
+msgstr "시스템 하드웨어 정보를 보려면 눌러주세요"
 
 #: pkg/machines/components/desktopConsole.jsx:41
 msgid ""
 "Clicking \"Launch Remote Viewer\" will download a .vv file and launch $0."
-msgstr "\"원격 뷰어 시작\"을 클릭하면 .vv 파일을 다운로드하여 $0을 시작합니다. "
+msgstr "\"원격 뷰어 시작\"을 누르면 .vv 파일을 내려 받아 $0을 시작합니다."
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/views/auth-form.html:88
@@ -1726,19 +1726,19 @@ msgstr "클러스터 가상 머신 "
 
 #: src/ws/login.js:346
 msgid "Cockpit authentication is configured incorrectly."
-msgstr "Cockpit 인증이 잘못 설정되어 있습니다. "
+msgstr "Cockpit 인증이 잘못 설정되어 있습니다."
 
 #: pkg/lib/machine-dialogs.js:427
 msgid ""
 "Cockpit could not contact the given host $0. Make sure it has ssh running on "
 "port $1, or specify another port in the address."
 msgstr ""
-"Cockpit은 지정된 호스트 $0에 연결할 수 없습니다. 포트 $1에서 ssh가 실행되고 있는지 확인하거나 주소에서 다른 포트를 "
-"지정합니다. "
+"Cockpit은 지정된 호스트 $0에 연결 할 수 없습니다. 포트 $1에서 ssh가 실행되고 있는지 확인하거나 주소에서 다른 포트를 "
+"지정합니다."
 
 #: src/base1/cockpit.js:4037
 msgid "Cockpit could not contact the given host."
-msgstr "Cockpit을 지정된 호스트에 연결할 수 없습니다. "
+msgstr "Cockpit을 지정된 호스트에 연결 할 수 없습니다."
 
 #: pkg/shell/base_index.js:738
 msgid ""
@@ -1746,8 +1746,8 @@ msgid ""
 "Cockpit by pressing refresh in your browser. The javascript console contains "
 "details about this error (<b>Ctrl-Shift-J</b> in most browsers)."
 msgstr ""
-"Cockpit에서 예상치 못한 내부 오류가 발생했습니다.  <br/><br/>브라우저에서 업데이트를 눌러 Cockpit 재부팅을 시도할 "
-"수 있습니다. javascript 콘솔에는 이러한 오류에 대한 상세 정보가 포함되어 있습니다 (대부분의 브라우저에서 <b>Ctrl-"
+"Cockpit에서 예상치 못한 내부 오류가 발생했습니다. <br/><br/>브라우저에서 업데이트를 눌러 Cockpit 재부팅을 시도할 수 "
+"있습니다. javascript 콘솔에는 이러한 오류에 대한 상세 정보가 포함되어 있습니다 (대부분의 브라우저에서 <b>Ctrl-"
 "Shift-J</b>)."
 
 #: cockpit.appdata.xml.in.h:2
@@ -1764,12 +1764,11 @@ msgstr ""
 
 #: pkg/shell/stub.html:68 pkg/shell/index.html:85 pkg/shell/simple.html:61
 msgid "Cockpit is an interactive Linux server admin interface."
-msgstr "Cockpit은 대화형 Linux 서버 관리 인터페이스입니다.\n"
-"            "
+msgstr "Cockpit은 대화형 리눅스 서버 관리 인터페이스입니다."
 
 #: src/base1/cockpit.js:4035
 msgid "Cockpit is not compatible with the software on the system."
-msgstr "Cockpit은 시스템의 소프트웨어와 호환성이 없습니다. "
+msgstr "Cockpit은 시스템의 소프트웨어와 호환성이 없습니다."
 
 #: pkg/lib/machine-not-supported.html:2
 msgid "Cockpit is not installed"
@@ -1777,7 +1776,7 @@ msgstr "Cockpit이 설치되어 있지 않습니다 "
 
 #: src/base1/cockpit.js:4029
 msgid "Cockpit is not installed on the system."
-msgstr "시스템에 Cockpit이 설치되어 있지 않습니다. "
+msgstr "시스템에 Cockpit이 설치되어 있지 않습니다."
 
 #: cockpit.appdata.xml.in.h:3
 msgid ""
@@ -1788,13 +1787,13 @@ msgid ""
 "after its buddies."
 msgstr ""
 "Cockpit은 경험이 적은 시스템 관리자에게 적합합니다. 시스템 관리자는 스토리지 관리, 저널 검사, 서비스 시작 및 중지 등의 간단한 "
-"작업을 쉽게 수행할 수 있으며 여러 서버를 동시에 모니터링 및 관리할 수 ​​있습니다. 간단하게 서버를 클릭하여 서버를 추가할 수 있으며 "
-"추가 후 다른 기기를 관리할 수 ​​있습니다."
+"작업을 쉽게 수행 할 수 있으며 여러 서버를 동시에 모니터링 및 관리할 수 있습니다. 간단하게 서버를 클릭하여 서버를 추가 할 수 있으며 "
+"추가 후 다른 기기를 관리할 수 있습니다."
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/lib/machine-change-port.html:9
 msgid "Cockpit was unable to contact {{#strong}}{{host}}{{/strong}}."
-msgstr "Cockpit은 {{#strong}}{{host}}{{/strong}}에 연결할 수 없습니다. "
+msgstr "Cockpit은 {{#strong}}{{host}}{{/strong}}에 연결 할 수 없습니다."
 
 #: pkg/lib/machine-auth-failed.html:15
 msgid ""
@@ -1809,7 +1808,7 @@ msgstr ""
 
 #: pkg/lib/machine-change-auth.html:9
 msgid "Cockpit was unable to log into {{#strong}}{{host}}{{/strong}}."
-msgstr "Cockpit은 {{#strong}}{{host}}{{/strong}}에 로그인할 수 없습니다. "
+msgstr "Cockpit은 {{#strong}}{{host}}{{/strong}}에 로그인 할 수 없습니다."
 
 #: pkg/lib/machine-auth-failed.html:6
 msgid ""
@@ -1857,7 +1856,7 @@ msgstr "명령"
 
 #: pkg/docker/run.js:320
 msgid "Command can't be empty"
-msgstr "명령을 비워 둘 수 없습니다."
+msgstr "명령을 비워 둘 수 없습니다"
 
 #: pkg/docker/index.html:163
 msgid "Command:"
@@ -1961,7 +1960,7 @@ msgstr "마이그레이션 확인 "
 
 #: pkg/ovirt/components/VdsmView.jsx:95
 msgid "Confirm reload:"
-msgstr "다시 로드 확인 "
+msgstr "적재 확인:"
 
 #: pkg/storaged/crypto-keyslots.jsx:364
 msgid "Confirm removal with passphrase"
@@ -1970,7 +1969,7 @@ msgstr "암호문 삭제 확인 "
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/ovirt/components/VdsmView.jsx:108
 msgid "Confirm save:"
-msgstr "저장 확인: "
+msgstr "저장 확인:"
 
 #: pkg/systemd/init.js:728
 msgid "Conflicted By"
@@ -1992,7 +1991,7 @@ msgstr "자동으로 연결"
 
 #: pkg/subscriptions/subscriptions-register.jsx:120
 msgid "Connect this system to $0."
-msgstr "이 시스템을 $0에 연결합니다. "
+msgstr "이 시스템을 $0에 연결합니다."
 
 #: src/ws/login.html:74
 msgid "Connect to"
@@ -2009,19 +2008,19 @@ msgstr "oVirt 엔진에 연결"
 
 #: pkg/machines/components/desktopConsole.jsx:188
 msgid "Connect with any $0 viewer application."
-msgstr " $0 뷰어 애플리케이션에 연결합니다. "
+msgstr "$0 뷰어 애플리케이션에 연결합니다."
 
 #: pkg/machines/components/desktopConsole.jsx:185
 msgid "Connect with any SPICE or VNC viewer application."
-msgstr "SPICE 또는 VNC 뷰어 애플리케이션에 연결합니다. "
+msgstr "SPICE 또는 VNC 보기 응용프로그램에 연결합니다."
 
 #: pkg/subscriptions/insights.jsx:320
 msgid "Connected to Insights"
-msgstr "Insights에 연결했습니다."
+msgstr "인사잇트에 연결했습니다"
 
 #: pkg/subscriptions/insights.jsx:208
 msgid "Connected to Red Hat Insights"
-msgstr "Red Hat Insights에 연결했습니다."
+msgstr "레드햇 인사잇트에 연결했습니다"
 
 #: pkg/machines/components/vnc.jsx:107
 msgid "Connecting"
@@ -2030,11 +2029,11 @@ msgstr "연결 중"
 #: pkg/lib/machine-add.html:39
 msgid ""
 "Connecting simultaneously to more than {{ limit }} machines is unsupported."
-msgstr "{{ limit }} 대 이상의 컴퓨터에 동시 연결을 지원하지 않습니다. "
+msgstr "{{ limit }} 대 이상의 컴퓨터에 동시 연결을 지원하지 않습니다."
 
 #: pkg/docker/index.html:54
 msgid "Connecting to Docker"
-msgstr "Docker에 연결중입니다."
+msgstr "Docker에 연결중입니다"
 
 #: pkg/selinux/setroubleshoot-view.jsx:371
 msgid "Connecting to SETroubleshoot daemon..."
@@ -2078,7 +2077,7 @@ msgstr "연결 설정"
 
 #: src/base1/cockpit.js:4027
 msgid "Connection has timed out."
-msgstr "연결 시간 초과"
+msgstr "연결 시간 초과."
 
 #: pkg/networkmanager/index.html:700
 msgid "Connection will be lost"
@@ -2240,7 +2239,7 @@ msgstr "실행 중인 API 서버를 찾을 수 없습니다 "
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed."
-msgstr "시스템 서브스크립션 상태를 가져올 수 없습니다. subscription-manager가 설치되어 있는지 확인하십시오. "
+msgstr "시스템 구독 상태를 가져 올 수 없습니다. subscription-manager가 설치되어 있는지 확인하십시오."
 
 #: src/bridge/cockpitdbussetup.c:642
 msgid "Couldn't list local users"
@@ -2379,7 +2378,7 @@ msgstr "생성 일시"
 
 #: pkg/docker/index.html:152
 msgid "Created:"
-msgstr "작성일: "
+msgstr "작성일:"
 
 #: pkg/storaged/jobs-panel.jsx:62
 msgid "Creating RAID Device $target"
@@ -2405,25 +2404,25 @@ msgstr "$target 스냅샷 생성 중"
 msgid ""
 "Creating this VLAN will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "이 VLAN을 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다. "
+msgstr "이 VLAN을 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/networkmanager/interfaces.js:3821
 msgid ""
 "Creating this bond will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "이 본드를 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다. "
+msgstr "이 본드를 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/networkmanager/interfaces.js:4274
 msgid ""
 "Creating this bridge will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "이 브릿지를 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다. "
+msgstr "이 브릿지를 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/networkmanager/interfaces.js:4020
 msgid ""
 "Creating this team will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "이 팀을 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다. "
+msgstr "이 팀을 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/storaged/jobs-panel.jsx:71
 msgid "Creating volume group $target"
@@ -2626,7 +2625,7 @@ msgstr "스토리지 풀 $0 삭제 "
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/machines/components/deleteDialog.jsx:70
 msgid "Delete associated storage files:"
-msgstr "연결된 스토리지 파일 삭제: "
+msgstr "관련 저장소 파일 삭제:"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/imagestream-delete.html:3
@@ -2650,15 +2649,14 @@ msgstr "$target 삭제 중 "
 msgid ""
 "Deleting <b>$0</b> will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "<b>$0</b>을/를 삭제하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다. "
+msgstr "<b>$0</b>을/를 삭제하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/item-delete.html:7
 msgid ""
 "Deleting a Pod will kill all associated containers. Pods may be "
 "automatically created again in some cases."
-msgstr "포드를 삭제하면 연결된 모든 컨테이너가 종료되며, 경우에 따라 포드가 다시 생성될 수 있습니다.\n"
-"          "
+msgstr "포드를 삭제하면 연결된 모든 컨테이너가 종료되며, 경우에 따라 포드가 다시 생성될 수 있습니다."
 
 #: pkg/storaged/mdraid-details.jsx:301
 msgid "Deleting a RAID device will erase all data on it."
@@ -2666,7 +2664,7 @@ msgstr "RAID 장치를 제거하면 내부의 모든 데이터를 지우게 됩�
 
 #: pkg/storaged/vdo-details.jsx:200
 msgid "Deleting a VDO device will erase all data on it."
-msgstr "VDO 장치를 제거하면 장치 내부의 모든 데이터가 삭제됩니다. "
+msgstr "VDO 장치를 제거하면 장치 내부의 모든 데이터가 삭제됩니다."
 
 #: pkg/docker/details.js:291 pkg/docker/containers-view.jsx:201
 msgid "Deleting a container will erase all data in it."
@@ -2908,7 +2906,7 @@ msgstr "{{ item.kind }} '{{item.metadata.name}}'을/를 삭제하시겠습니까
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/node-delete.html:7
 msgid "Do you want to delete this Node?"
-msgstr "이 노드를 삭제하시겠습니까? "
+msgstr "이 노드를 삭제하시겠습니까?"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/image-delete.html:5
@@ -2924,7 +2922,7 @@ msgid ""
 "Do you want to remove the role '{{ fields.displayRole }}' from member {{ "
 "fields.member.metadata.name }}?"
 msgstr ""
-" '{{ fields.displayRole }}' 역할을  멤버 {{ fields.member.metadata.name }}에서 "
+"'{{ fields.displayRole }}' 역할을 멤버 {{ fields.member.metadata.name }}에서 "
 "삭제하시겠습니까?"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
@@ -2980,7 +2978,7 @@ msgstr "자동으로 이미지를 풀하지 마십시오 "
 
 #: pkg/sosreport/index.html:63
 msgid "Done!"
-msgstr "완료"
+msgstr "완료!"
 
 # translation auto-copied from project CFSE, version sam-1.2, document app, author eukim
 #: pkg/docker/index.html:598
@@ -2997,7 +2995,7 @@ msgstr "리포트 다운로드 "
 
 #: pkg/machines/components/desktopConsole.jsx:47
 msgid "Download the MSI from $0"
-msgstr "$0에서 MSI를 다운로드합니다  "
+msgstr "$0에서 MSI를 다운로드합니다"
 
 #: pkg/packagekit/updates.jsx:58
 msgid "Downloaded"
@@ -3112,7 +3110,7 @@ msgstr "서비스 활성화 "
 
 #: pkg/systemd/index.html:168
 msgid "Enable stored metrics…"
-msgstr "저장된 메트릭 활성화..."
+msgstr "저장된 메트릭 활성화…"
 
 #: pkg/systemd/services.html:72 pkg/systemd/init.js:210
 msgid "Enabled"
@@ -3233,7 +3231,7 @@ msgstr "$target 삭제 중 "
 
 #: pkg/packagekit/updates.jsx:312
 msgid "Errata:"
-msgstr "에라타: "
+msgstr "정오표:"
 
 #: pkg/systemd/services.html:375 pkg/playground/translate.html:100
 #: pkg/playground/translate.html:105 pkg/storaged/multipath.jsx:57
@@ -3262,7 +3260,7 @@ msgstr "Docker로 부터의 오류 메세지:"
 
 #: pkg/users/authorized-keys.js:121
 msgid "Error saving authorized keys: "
-msgstr "승인된 키를 저장하는 동안 오류가 발생했습니다:"
+msgstr "승인된 키를 저장 오류: "
 
 #: pkg/selinux/setroubleshoot-client.js:193
 msgid "Error while deleting alert: $0"
@@ -3274,7 +3272,7 @@ msgstr "SELinux 모드 설정 도중 오류 발생: '$0'"
 
 #: pkg/kubernetes/scripts/connection.js:85
 msgid "Error writing kubectl config"
-msgstr " kubectl 설정을 쓰는 도중 오류 발생 "
+msgstr "kubectl 설정을 쓰는 도중 오류 발생"
 
 #: pkg/networkmanager/index.html:658
 msgid "Ethernet MAC"
@@ -3282,7 +3280,7 @@ msgstr "Ethernet MAC"
 
 #: pkg/networkmanager/index.html:634
 msgid "Ethernet MTU"
-msgstr "Ethernet MTU"
+msgstr "이더넷 MTU"
 
 #: pkg/networkmanager/interfaces.js:2006
 msgid "Ethtool"
@@ -3392,7 +3390,7 @@ msgstr "서비스를 제거하지 못했습니다 "
 
 #: pkg/docker/containers.js:60
 msgid "Failed to start Docker: $0"
-msgstr " Docker 실행을 실패하였습니다: $0"
+msgstr "Docker 실행을 실패하였습니다: $0"
 
 #: pkg/docker/util.js:559
 msgid "Failed to stop Docker scope: $0"
@@ -3615,7 +3613,7 @@ msgstr "Git 리포지터리 "
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/scripts/volumes.js:198
 msgid "Gluster FS"
-msgstr "Gluster FS"
+msgstr "글루스터 FS"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/scripts/volumes.js:877
@@ -3735,7 +3733,7 @@ msgstr "Hello 타임 $hello_time"
 
 #: pkg/machines/components/diskAdd.jsx:238
 msgid "Hide Performance Options"
-msgstr "성능 옵션 숨기기   "
+msgstr "성능 옵션 숨기기"
 
 #: pkg/kubernetes/views/route-modify.html:8
 #: pkg/kubernetes/views/route-body.html:9
@@ -3774,7 +3772,7 @@ msgstr "도메인에서 호스트 이름을 변경할 수 없습니다 "
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:161
 msgid "Host should not be empty"
-msgstr "호스트는 비워둘 수 없습니다  "
+msgstr "호스트는 비워 둘 수 없습니다"
 
 #: pkg/ovirt/components/HostToMaintenance.jsx:75
 msgid "Host to Maintenance"
@@ -3955,7 +3953,7 @@ msgstr "이미지 스트림 "
 
 #: pkg/docker/index.html:156
 msgid "Image:"
-msgstr "이미지: "
+msgstr "이미지:"
 
 #: pkg/kubernetes/registry.html:49 pkg/kubernetes/index.html:81
 #: pkg/kubernetes/views/registry-dashboard-page.html:19
@@ -4418,7 +4416,7 @@ msgstr "마지막 업데이트 일시"
 
 #: pkg/packagekit/updates.jsx:177
 msgid "Last checked: $0 ago"
-msgstr "마지막 접속 날짜: $0 이전  "
+msgstr "마지막 접속 날짜: $0 이전"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/deploymentconfig-body.html:15
@@ -4455,7 +4453,7 @@ msgstr ""
 
 #: pkg/shell/stub.html:73 pkg/shell/index.html:90 pkg/shell/simple.html:66
 msgid "Licensed under:"
-msgstr "라이센스 보유자: "
+msgstr "라이센스 보유:"
 
 #: pkg/systemd/terminal.jsx:100
 msgid "Light"
@@ -4491,7 +4489,7 @@ msgstr "링크"
 
 #: pkg/docker/index.html:195
 msgid "Links:"
-msgstr "링크: "
+msgstr "링크:"
 
 #: pkg/networkmanager/interfaces.js:1993
 msgid "Load Balancing"
@@ -4562,7 +4560,7 @@ msgstr "계정 잠금 "
 
 #: pkg/users/local.js:879 pkg/users/local.js:1218
 msgid "Lock account on $0"
-msgstr " $0의 계정 잠금 "
+msgstr "$0의 계정 잠금"
 
 #: pkg/storaged/jobs-panel.jsx:38
 msgid "Locking $target"
@@ -4591,12 +4589,12 @@ msgstr "서버 사용자 계정으로 로그인합니다. "
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:116
 msgid "Log into OpenShift command line tools:"
-msgstr "OpenShift 명령줄 도구에 로그인: "
+msgstr "OpenShift 명령 줄 도구에 로그:"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/registry-dashboard-page.html:101
 msgid "Log into the registry:"
-msgstr "레지스트리로 로그인: "
+msgstr "레지스트리에 로그:"
 
 #: pkg/systemd/index.html:65
 msgid "Log messages"
@@ -4684,7 +4682,7 @@ msgstr "낮은 프로파일 데스크탑 "
 
 #: pkg/lib/machine-info.js:79
 msgid "Lunch Box"
-msgstr "Lunch Box"
+msgstr "라운치 박스"
 
 # translation auto-copied from project Satellite6 Hammer CLI Foreman, version 6.1, document hammer-cli-foreman
 #: pkg/networkmanager/index.html:192 pkg/networkmanager/index.html:271
@@ -4744,7 +4742,7 @@ msgstr "메인 서버 섀시 "
 
 #: pkg/storaged/crypto-keyslots.jsx:319
 msgid "Make sure the key hash from the Tang server matches:"
-msgstr "Tang 서버의 키 해시가 일치하는지 확인합니다."
+msgstr "Tang 서버의 키 해시가 일치하는지 확인합니다:"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/scripts/dashboard.js:457
@@ -4880,7 +4878,7 @@ msgstr "128 MiB와 최대 할당 사이의 메모리 크기 "
 
 #: pkg/docker/index.html:210
 msgid "Memory usage:"
-msgstr "메모리 사용량: "
+msgstr "메모리 사용량:"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/node-body.html:47 pkg/kubernetes/views/pv-body.html:27
@@ -4914,7 +4912,7 @@ msgstr "MiB"
 
 #: pkg/ovirt/components/OVirtTab.jsx:70
 msgid "Migrate To:"
-msgstr "마이그레이션 대상: "
+msgstr "이전 대상:"
 
 #: pkg/lib/machine-info.js:98
 msgid "Mini PC"
@@ -5054,7 +5052,7 @@ msgstr "멀티 시스템 섀시 "
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:93
 msgid "NAT to $0"
-msgstr " $0에 NAT"
+msgstr "$0에 NAT"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/scripts/volumes.js:865
@@ -5079,7 +5077,7 @@ msgstr "VM $1의 NIC $0은 상태 변경에 실패했습니다 "
 
 #: pkg/networkmanager/interfaces.js:2008
 msgid "NSNA Ping"
-msgstr "NSNA Ping"
+msgstr "NSNA 핑"
 
 #: pkg/systemd/host.js:1530
 msgid "NTP Server"
@@ -5340,7 +5338,7 @@ msgstr "다음 실행 "
 
 #: pkg/systemd/index.html:233 pkg/systemd/host.js:1601
 msgid "Nice"
-msgstr "Nice"
+msgstr "나이스"
 
 #: pkg/docker/index.html:542 pkg/docker/index.html:546
 #: pkg/networkmanager/interfaces.js:2594 pkg/docker/run.js:239
@@ -5744,7 +5742,7 @@ msgstr "배포되어 있지 않습니다 "
 
 #: pkg/storaged/lvol-tabs.jsx:369
 msgid "Not enough space to grow."
-msgstr " 확장 공간이 부족합니다. "
+msgstr "확장 공간이 부족합니다."
 
 #: pkg/storaged/details.jsx:121 pkg/docker/details.js:185
 msgid "Not found"
@@ -6106,7 +6104,7 @@ msgstr "Path 코스트"
 
 #: pkg/networkmanager/interfaces.js:2885
 msgid "Path cost $path_cost"
-msgstr "Path cost $path_cost"
+msgstr "경로 cost $path_cost"
 
 #: pkg/storaged/nfs-details.jsx:151
 msgid "Path on Server"
@@ -6218,7 +6216,7 @@ msgstr "Ping 대상 "
 
 #: pkg/lib/machine-info.js:68
 msgid "Pizza Box"
-msgstr "Pizza Box"
+msgstr "피자 박스"
 
 #: pkg/storaged/vdo-details.jsx:195 pkg/storaged/vgroup-details.jsx:210
 #: pkg/storaged/mdraid-details.jsx:296 pkg/storaged/content-views.jsx:289
@@ -6241,7 +6239,7 @@ msgstr "호스트가 유지 관리 모드로 전환되어 있는지 확인하십
 
 #: pkg/kubernetes/scripts/dashboard.js:439
 msgid "Please create another namespace for $0 \"$1\""
-msgstr " $0 \"$1\"을 위한 다른 네임스페이스를 생성하세요"
+msgstr "$0 \"$1\"을 위한 다른 네임스페이스를 생성하세요"
 
 #: pkg/machines/components/diskAdd.jsx:447
 msgid "Please enter new volume name"
@@ -6609,15 +6607,15 @@ msgstr "프로젝트 멤버 "
 
 #: pkg/kubernetes/views/project-body.html:3
 msgid "Project access policy allows anonymous users to pull images."
-msgstr " 프로젝트 액세스 정책을 통해 익명 사용자는 이미지를 풀할 수 있습니다."
+msgstr "프로젝트 접근 정책을 통해 익명 사용자는 이미지를 끌어 당 길 수 있습니다."
 
 #: pkg/kubernetes/views/project-body.html:8
 msgid "Project access policy allows any authenticated user to pull images."
-msgstr " 프로젝트 액세스 정책을 통해 인증된 사용자는 이미지를 풀할 수 있습니다."
+msgstr "프로젝트 액세스 정책을 통해 인증된 사용자는 이미지를 풀할 수 있습니다."
 
 #: pkg/kubernetes/views/project-body.html:13
 msgid "Project access policy only allows specific members to access images."
-msgstr " 프로젝트 액세스 정책을 통해 특정 멤버만 이미지에 액세스할 수 있습니다."
+msgstr "프로젝트 접근 정책을 통해 특정 멤버만 이미지에 액세스할 수 있습니다."
 
 #: pkg/shell/stub.html:69 pkg/shell/index.html:86 pkg/shell/simple.html:62
 msgid "Project website"
@@ -6679,7 +6677,7 @@ msgstr "공용 풀 리포지터리 "
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:152
 msgid "Pull an image:"
-msgstr "이미지 풀: "
+msgstr "이미지 풀:"
 
 #: pkg/kubernetes/views/imagestream-modify.html:66
 msgid "Pull from"
@@ -6695,7 +6693,7 @@ msgstr "목적"
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:141
 msgid "Push an image:"
-msgstr "이미지 푸시 "
+msgstr "이미지 푸시:"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/machines/components/machinesConnectionSelector.jsx:31
@@ -7001,7 +6999,7 @@ msgstr "oVirt를 Cockpit에 등록 중"
 
 #: pkg/packagekit/updates.jsx:777
 msgid "Register…"
-msgstr "등록 중..."
+msgstr "등록 중…"
 
 #: pkg/systemd/init.js:546 pkg/ovirt/components/App.jsx:62
 #: pkg/ovirt/components/VdsmView.jsx:100
@@ -7035,7 +7033,7 @@ msgstr "삭제 가능한 드라이브 "
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:81
 msgid "Removals:"
-msgstr "삭제: "
+msgstr "제거:"
 
 #: pkg/kubernetes/views/remove-role-dialog.html:8
 #: pkg/kubernetes/views/group-delete.html:21
@@ -7116,7 +7114,7 @@ msgstr "삭제 중"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:181
 msgid "Removing $0"
-msgstr " $0 삭제 중 "
+msgstr "$0 삭제 중"
 
 #: pkg/storaged/jobs-panel.jsx:61
 msgid "Removing $target from RAID Device"
@@ -7183,7 +7181,7 @@ msgstr "암호문 반복 "
 #: pkg/kubernetes/views/replicationcontroller-body.html:9
 #: pkg/kubernetes/views/details-page.html:141
 msgid "Replicas"
-msgstr "Replicas"
+msgstr "복제본"
 
 #: pkg/kubernetes/views/replicationcontroller-panel.html:10
 #: pkg/kubernetes/views/topology-page.html:22
@@ -7204,7 +7202,7 @@ msgstr "복제 컨트롤러를 사용하는 템플릿에서 포드의 인스턴�
 
 #: pkg/systemd/logs.js:512
 msgid "Report"
-msgstr "보고  "
+msgstr "보고"
 
 #: pkg/systemd/logs.js:507
 msgid "Reported"
@@ -7318,7 +7316,7 @@ msgstr "재시작 정책 "
 
 #: pkg/docker/index.html:171
 msgid "Restart Policy:"
-msgstr "재시작 정책: "
+msgstr "재시작 정책:"
 
 #: pkg/packagekit/updates.jsx:493
 msgid "Restart Recommended"
@@ -7342,7 +7340,7 @@ msgstr "유지 "
 
 #: pkg/docker/index.html:553
 msgid "Retries:"
-msgstr "재시도 횟수: "
+msgstr "재시도:"
 
 #: pkg/subscriptions/subscriptions-view.jsx:215
 msgid "Retrieving subscription status..."
@@ -7376,7 +7374,7 @@ msgstr "역할"
 
 #: pkg/networkmanager/interfaces.js:1974 pkg/networkmanager/interfaces.js:1991
 msgid "Round Robin"
-msgstr "Round Robin"
+msgstr "라운드 로빈"
 
 #: pkg/kubernetes/views/route-panel.html:9
 #: pkg/kubernetes/views/route-page.html:14
@@ -7435,7 +7433,7 @@ msgstr "실행 시작 "
 
 #: pkg/ovirt/components/VmOverviewColumn.jsx:54
 msgid "Running Since:"
-msgstr "실행 중: "
+msgstr "실행 중:"
 
 #: pkg/selinux/setroubleshoot-view.jsx:364
 msgid "SELinux Access Control Errors"
@@ -7502,15 +7500,15 @@ msgstr "START_VM 동작 실패: %s0"
 
 #: pkg/networkmanager/index.html:228
 msgid "STP Forward delay"
-msgstr "STP Forward delay"
+msgstr "STP Forward 지연"
 
 #: pkg/networkmanager/index.html:232
 msgid "STP Hello time"
-msgstr "STP Hello time"
+msgstr "STP 헬로우 타임"
 
 #: pkg/networkmanager/index.html:236
 msgid "STP Maximum message age"
-msgstr "STP Maximum message age"
+msgstr "STP 최대 메시지 시간"
 
 #: pkg/networkmanager/index.html:224
 msgid "STP Priority"
@@ -7803,7 +7801,7 @@ msgstr "심각도"
 
 #: pkg/packagekit/updates.jsx:310
 msgid "Severity:"
-msgstr "심각도: "
+msgstr "심각:"
 
 #: pkg/kubernetes/views/volume-body.html:139
 msgid "Share Name"
@@ -8051,7 +8049,7 @@ msgstr "소스 경로를 비워둘 수 없습니다 "
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:108
 msgid "Source should start with http, ftp or nfs protocol"
-msgstr "소스는 http, ftp, nfs 프로토콜로 시작해야 합니다  "
+msgstr "소스는 http, ftp, nfs 통신규약을 시작해야 합니다"
 
 #: pkg/lib/machine-info.js:78
 msgid "Space-saving Computer"
@@ -8059,11 +8057,11 @@ msgstr "공간 절약형 컴퓨터 "
 
 #: pkg/networkmanager/interfaces.js:2857
 msgid "Spanning Tree Protocol"
-msgstr "Spanning Tree Protocol"
+msgstr "스패닝 트리 통신규약"
 
 #: pkg/networkmanager/index.html:218
 msgid "Spanning Tree Protocol (STP)"
-msgstr "Spanning Tree Protocol (STP)"
+msgstr "스패닝 트리 통신규약 (STP)"
 
 #: pkg/storaged/mdraid-details.jsx:101
 msgid "Spare"
@@ -8071,7 +8069,7 @@ msgstr "예비 "
 
 #: pkg/systemd/index.html:462
 msgid "Specific Time"
-msgstr "특정 시간  "
+msgstr "특정 시간"
 
 #: pkg/networkmanager/interfaces.js:3633
 msgid "Stable"
@@ -8140,11 +8138,11 @@ msgstr "상태:"
 #: pkg/ovirt/components/ClusterTemplates.jsx:136
 #: pkg/ovirt/components/ClusterVms.jsx:182
 msgid "Stateless"
-msgstr "스테이트리스  "
+msgstr "비국적"
 
 #: pkg/ovirt/components/OVirtTab.jsx:156
 msgid "Stateless:"
-msgstr "스테이트리스: "
+msgstr "무국적:"
 
 #: pkg/systemd/services.html:74 pkg/systemd/init.js:207
 msgid "Static"
@@ -8176,7 +8174,7 @@ msgstr "스틱 PC"
 
 #: pkg/networkmanager/index.html:367
 msgid "Sticky"
-msgstr "Sticky"
+msgstr "스티키"
 
 #: pkg/docker/index.html:134 pkg/storaged/swap-tab.jsx:76
 #: pkg/storaged/vdo-details.jsx:157 pkg/storaged/vdo-details.jsx:258
@@ -8489,7 +8487,7 @@ msgstr "대상 "
 #: pkg/networkmanager/interfaces.js:2512 pkg/networkmanager/interfaces.js:2524
 #: pkg/networkmanager/interfaces.js:2814
 msgid "Team"
-msgstr " 팀"
+msgstr "팀"
 
 #: pkg/networkmanager/interfaces.js:2842
 msgid "Team Port"
@@ -8609,7 +8607,7 @@ msgstr "가상 머신은 게스트 전원 관리에 의해 일시 중지됩니�
 
 #: pkg/users/local.js:1338
 msgid "The account '$0' will be forced to change their password on next login"
-msgstr " '$0' 계정은 다음 로그인 시 암호를 변경해야 합니다. "
+msgstr "'$0' 계정은 다음 로그인 시 암호를 변경 해야 합니다."
 
 #: pkg/kubernetes/scripts/nodes.js:403
 msgid "The address contains invalid characters"
@@ -8662,7 +8660,7 @@ msgstr "서버의 디렉토리를 내보내는 중 "
 msgid ""
 "The filesystem is in use by login sessions and system services. Proceeding "
 "will stop these."
-msgstr "파일 시스템은 로그인 세션 및 시스템 서비스에 사용되고 있습니다. 계속 진행하면 이러한 작업이 중지됩니다.  "
+msgstr "파일 시스템은 로그인 세션 및 시스템 서비스에 사용되고 있습니다. 계속 진행하면 이러한 작업이 중지됩니다."
 
 #: pkg/storaged/dialog.jsx:1014
 msgid ""
@@ -8918,7 +8916,7 @@ msgstr "이 VDO 장치는 백업 장치를 사용하지 않습니다."
 #: pkg/kubernetes/views/pvc-delete.html:8
 msgid ""
 "This claim is in use. Deleting it may cause issues with the following pod:"
-msgstr "이 클레임은 사용 중입니다. 클레임을 삭제하면 다음 포드에서 문제가 발생할 수 있습니다. "
+msgstr "이 클레임은 사용 중입니다. 클레임을 삭제하면 다음 포드에서 문제가 발생 할 수 있습니다:"
 
 #: pkg/systemd/init.js:1371
 msgid ""
@@ -9133,12 +9131,12 @@ msgstr ""
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: node_modules/registry-image-widgets/views/image-pull.html:4
 msgid "To pull this image:"
-msgstr "이 이미지를 가져오려면 다음을 수행합니다: "
+msgstr "이 이미지를 가져오려면 다음을 수행합니다:"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: node_modules/registry-image-widgets/views/imagestream-push.html:4
 msgid "To push an image to this image stream:"
-msgstr "이 이미지 스트림에 이미지를 푸시하려면 다음을 수행합니다: "
+msgstr "이 이미지 스트림에 이미지를 푸시하려면 다음을 수행합니다:"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/lib/machine-change-port.html:11
@@ -9274,7 +9272,7 @@ msgstr "암호 입력 "
 
 #: pkg/docker/containers-view.jsx:115
 msgid "Type to filter…"
-msgstr "필터 입력..."
+msgstr "필터 입력…"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/views/details-page.html:7
@@ -9335,7 +9333,7 @@ msgstr "서버에 연결할 수 없습니다 "
 
 #: pkg/kubernetes/scripts/dashboard.js:400
 msgid "Unable to read the Kubernetes application manifest. Code $0."
-msgstr "Kubernetes 어플리케이션  manifest를 읽을 수 없습니다. 코드 $0."
+msgstr "Kubernetes 어플리케이션 manifest를 읽을 수 없습니다. 코드 $0."
 
 #: pkg/storaged/nfs-details.jsx:282
 msgid "Unable to remove mount"
@@ -9904,7 +9902,7 @@ msgstr "볼륨"
 
 #: pkg/docker/index.html:199
 msgid "Volumes:"
-msgstr "볼륨: "
+msgstr "볼륨:"
 
 #: pkg/machines/components/vm/bootOrderModal.jsx:140
 msgid "WWPN"
@@ -9943,7 +9941,7 @@ msgstr "경고 이상의 수준 "
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/views/pv-modify.html:24
 msgid "Warning:"
-msgstr "경고: "
+msgstr "경고:"
 
 #: cockpit.appdata.xml.in.h:1
 msgid "Web Console for Linux servers"
@@ -9983,7 +9981,7 @@ msgstr "터미널 실행"
 
 #: pkg/storaged/mdraid-details.jsx:102
 msgid "Write-mostly"
-msgstr "Write-mostly"
+msgstr "대부분-쓰기"
 
 #: pkg/storaged/plot.jsx:313
 msgid "Writing"
@@ -10115,7 +10113,7 @@ msgstr "자동으로 컴퓨터를 다시 시작합니다. "
 # translation auto-copied from project Customer Portal Translations, version PortalCaseManagementStrings, document PortalCaseManagementStrings, author eukim
 #: pkg/packagekit/autoupdates.jsx:328
 msgid "at"
-msgstr "시간:"
+msgstr "시간"
 
 #: pkg/machines/helpers.js:212
 msgid "bridge"
@@ -10297,7 +10295,7 @@ msgstr "키 슬롯 $0"
 
 #: pkg/kdump/kdump-view.jsx:380 pkg/kdump/kdump-view.jsx:382
 msgid "locally in $0"
-msgstr " $0 (로컬)"
+msgstr "$0 (로컬)"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/ovirt/rephraseUI.js:31
