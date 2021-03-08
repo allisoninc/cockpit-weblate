@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
-"PO-Revision-Date: 2021-01-23 16:37+0000\n"
+"PO-Revision-Date: 2021-03-10 14:47+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/he/>\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: pkg/metrics/metrics.jsx:379
 #, fuzzy
@@ -325,10 +325,10 @@ msgstr[3] "$0 חבילות"
 #: pkg/packagekit/updates.jsx:635 pkg/packagekit/updates.jsx:747
 msgid "$0 package needs a system reboot"
 msgid_plural "$0 packages need a system reboot"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "חבילה אחת דורשת הפעלה מחדש של המערכת"
+msgstr[1] "$0 חבילות דורשות הפעלה מחדש של המערכת"
+msgstr[2] "$0 חבילות דורשות הפעלה מחדש של המערכת"
+msgstr[3] "$0 חבילות דורשות הפעלה מחדש של המערכת"
 
 #: pkg/metrics/metrics.jsx:106
 msgid "$0 page"
@@ -339,15 +339,12 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: pkg/packagekit/updates.jsx:719
-#, fuzzy
-#| msgid "$1 security fix"
-#| msgid_plural "$1 security fixes"
 msgid "$0 security fix available"
 msgid_plural "$0 security fixes available"
-msgstr[0] "תיקון אבטחה אחד"
-msgstr[1] "$0 תיקוני אבטחה"
-msgstr[2] "$0 תיקוני אבטחה"
-msgstr[3] "$0 תיקוני אבטחה"
+msgstr[0] "יש עדכון אבטחה"
+msgstr[1] "יש $0 עדכוני אבטחה"
+msgstr[2] "יש $0 עדכוני אבטחה"
+msgstr[3] "יש $0 עדכוני אבטחה"
 
 #: pkg/systemd/services/services.jsx:654
 msgid "$0 service has failed"
@@ -358,15 +355,12 @@ msgstr[2] "$0 שירותים נכשלו"
 msgstr[3] "$0 שירותים נכשלו"
 
 #: pkg/packagekit/updates.jsx:652 pkg/packagekit/updates.jsx:759
-#, fuzzy
-#| msgid "$0 service has failed"
-#| msgid_plural "$0 services have failed"
 msgid "$0 service needs to be restarted"
 msgid_plural "$0 services need to be restarted"
-msgstr[0] "שירות אחד נכשל"
-msgstr[1] "$0 שירותים נכשלו"
-msgstr[2] "$0 שירותים נכשלו"
-msgstr[3] "$0 שירותים נכשלו"
+msgstr[0] "יש להפעיל מחדש שירות אחד"
+msgstr[1] "יש להפעיל מחדש $0 שירותים"
+msgstr[2] "יש להפעיל מחדש $0 שירותים"
+msgstr[3] "יש להפעיל מחדש $0 שירותים"
 
 #: pkg/storaged/crypto-keyslots.jsx:592
 #, fuzzy
@@ -383,14 +377,12 @@ msgid "$0 total"
 msgstr ""
 
 #: pkg/packagekit/updates.jsx:727
-#, fuzzy
-#| msgid "Updates Available"
 msgid "$0 update available"
 msgid_plural "$0 updates available"
-msgstr[0] "עדכונים זמינים"
-msgstr[1] "עדכונים זמינים"
-msgstr[2] "עדכונים זמינים"
-msgstr[3] "עדכונים זמינים"
+msgstr[0] "עדכון אחד זמין"
+msgstr[1] "$0 עדכונים זמינים"
+msgstr[2] "$0 עדכונים זמינים"
+msgstr[3] "$0 עדכונים זמינים"
 
 #: pkg/storaged/vdo-details.jsx:301
 msgid "$0 used of $1 ($2 saved)"
@@ -726,24 +718,22 @@ msgid ""
 msgstr ""
 
 #: pkg/packagekit/updates.jsx:1364
-#, fuzzy
-#| msgid "Updated packages may require a restart to take effect."
 msgid "A package needs a system reboot for the updates to take effect:"
 msgid_plural ""
 "Some packages need a system reboot for the updates to take effect:"
-msgstr[0] "ייתכן שהחבילות המעודכנות תדרושנה הפעלה מחדש כדי שתיכנסנה לתוקף."
-msgstr[1] "ייתכן שהחבילות המעודכנות תדרושנה הפעלה מחדש כדי שתיכנסנה לתוקף."
-msgstr[2] "ייתכן שהחבילות המעודכנות תדרושנה הפעלה מחדש כדי שתיכנסנה לתוקף."
-msgstr[3] "ייתכן שהחבילות המעודכנות תדרושנה הפעלה מחדש כדי שתיכנסנה לתוקף."
+msgstr[0] "חבילה אחת דורשת הפעלה מחדש כדי שהשינויים ייכנסו לתוקף:"
+msgstr[1] "$0 חבילות דורשות הפעלה מחדש כדי שהשינויים ייכנסו לתוקף:"
+msgstr[2] "$0 חבילות דורשות הפעלה מחדש כדי שהשינויים ייכנסו לתוקף:"
+msgstr[3] "$0 חבילות דורשות הפעלה מחדש כדי שהשינויים ייכנסו לתוקף:"
 
 #: pkg/packagekit/updates.jsx:1368
 msgid "A service needs to be restarted for the updates to take effect:"
 msgid_plural ""
 "Some services need to be restarted for the updates to take effect:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "יש שירות שעליך להפעיל מחדש כדי שהשינויים ייכנסו לתוקף:"
+msgstr[1] "יש שירותים שעליך להפעיל מחדש כדי שהשינויים ייכנסו לתוקף:"
+msgstr[2] "יש שירותים שעליך להפעיל מחדש כדי שהשינויים ייכנסו לתוקף:"
+msgstr[3] "יש שירותים שעליך להפעיל מחדש כדי שהשינויים ייכנסו לתוקף:"
 
 #: pkg/storaged/mdraid-details.jsx:130
 msgid "A spare disk needs to be added first before this disk can be removed."
@@ -816,7 +806,7 @@ msgstr "הפעלה"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:115
 msgid "Activate the storage pool to administer volumes"
-msgstr ""
+msgstr "יש להפעיל את מאגר האחסון כדי לנהל כרכים"
 
 #: pkg/storaged/jobs-panel.jsx:71
 msgid "Activating $target"
@@ -914,10 +904,8 @@ msgid "Add key"
 msgstr "הוספת מפתח"
 
 #: pkg/networkmanager/network-interface-members.jsx:197
-#, fuzzy
-#| msgid "RAID Member"
 msgid "Add member"
-msgstr "חבר ב־RAID"
+msgstr "הוספת חבר"
 
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:88
 #, fuzzy
@@ -1530,7 +1518,7 @@ msgstr ""
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:263
 msgid "CD/DVD disc"
-msgstr ""
+msgstr "תקליטור/DVD"
 
 #: pkg/metrics/metrics.jsx:429 pkg/metrics/metrics.jsx:1007
 #: pkg/machines/components/vm/vmUsageCard.jsx:71 pkg/systemd/hwinfo.jsx:113
@@ -1796,10 +1784,8 @@ msgid "Checking installed software"
 msgstr "התכנה שמותקנת נבדקת"
 
 #: pkg/packagekit/updates.jsx:1255
-#, fuzzy
-#| msgid "Checking $target"
 msgid "Checking software status"
-msgstr "$target בבדיקה"
+msgstr "מצב התכנית בבדיקה"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:370
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:371
@@ -1843,9 +1829,6 @@ msgid "Click $0 again to use the password anyway."
 msgstr ""
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:58
-#, fuzzy
-#| msgid ""
-#| "Clicking \"Launch Remote Viewer\" will download a .vv file and launch $0."
 msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgstr "לחיצה על „הפעלת מציג חיצוני” תוריד קובץ ‎.vv ותפעיל את $0."
@@ -2154,10 +2137,8 @@ msgid "Content"
 msgstr "תוכן"
 
 #: pkg/packagekit/updates.jsx:694
-#, fuzzy
-#| msgid "Container"
 msgid "Continue"
-msgstr "מכולה"
+msgstr "להמשיך"
 
 #: pkg/shell/shell-modals.jsx:106
 #, fuzzy
@@ -2187,10 +2168,8 @@ msgid "Copy to clipboard"
 msgstr "העתקה ללוח הגזירים"
 
 #: pkg/metrics/metrics.jsx:411
-#, fuzzy
-#| msgid "Remove $0"
 msgid "Core $0"
-msgstr "הסרת $0"
+msgstr "ליבה $0"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:225
 msgid "Cores per socket"
@@ -2523,10 +2502,8 @@ msgstr "אפשרויות עיגון מותאמות אישית"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:248
 #: pkg/machines/components/vm/disks/diskAdd.jsx:576
-#, fuzzy
-#| msgid "Custom Ports"
 msgid "Custom path"
-msgstr "פתחות מותאמות אישית"
+msgstr "נתיב מותאם אישית"
 
 #: pkg/networkmanager/firewall.jsx:545
 #, fuzzy
@@ -2571,7 +2548,7 @@ msgstr "חיפוש שמות תחום DNS‏ $val"
 
 #: pkg/packagekit/updates.jsx:844
 msgid "Danger alert:"
-msgstr ""
+msgstr "אזעקת סכנה:"
 
 #: pkg/systemd/terminal.jsx:108
 msgid "Dark"
@@ -2870,7 +2847,7 @@ msgstr "יצירת הכונן נכשלה"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:261
 msgid "Disk image file"
-msgstr ""
+msgstr "קובץ דמות כונן"
 
 #: pkg/storaged/drive-details.jsx:64
 msgid "Disk is OK"
@@ -3095,10 +3072,8 @@ msgid "Emulated machine"
 msgstr "מכונה מדומה"
 
 #: pkg/networkmanager/network-interface.jsx:732
-#, fuzzy
-#| msgid "Failed to disable tuned"
 msgid "Enable or disabnle the device"
-msgstr "ההשבתה של tuned נכשלה"
+msgstr "להפעיל או להשבית את ההתקן"
 
 #: pkg/networkmanager/app.jsx:96
 #, fuzzy
@@ -3358,10 +3333,8 @@ msgid "Failed to load authorized keys."
 msgstr "טעינת המפתחות המורשים נכשלה."
 
 #: pkg/packagekit/updates.jsx:420
-#, fuzzy
-#| msgid "Failed to add service"
 msgid "Failed to restart service"
-msgstr "הוספת השירות נכשל"
+msgstr "הפעלת השירות מחדש נכשלה"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:97
 #, fuzzy
@@ -3477,10 +3450,8 @@ msgid "Force password change"
 msgstr "לאלץ החלפת ססמה"
 
 #: pkg/machines/components/vm/vmActions.jsx:254
-#, fuzzy
-#| msgid "Force Delete"
 msgid "Force reboot"
-msgstr "לאלץ מחיקה"
+msgstr "לאלץ הפעלה מחדש"
 
 #: pkg/storaged/crypto-keyslots.jsx:384
 msgid "Force remove passphrase in $0"
@@ -3597,7 +3568,7 @@ msgstr "GiB"
 
 #: pkg/machines/app.jsx:150
 msgid "Go to VMs list"
-msgstr ""
+msgstr "מעבר לרשימת המכונות הווירטואליות"
 
 #: pkg/apps/application.jsx:113
 #, fuzzy
@@ -3963,7 +3934,7 @@ msgstr "זיכרון אינדקס"
 
 #: pkg/packagekit/updates.jsx:685
 msgid "Info"
-msgstr ""
+msgstr "מידע"
 
 #: pkg/systemd/logs.html:58
 msgid "Info and above"
@@ -4068,10 +4039,8 @@ msgstr "מנשקים"
 
 #: pkg/networkmanager/network-interface-members.jsx:208
 #: pkg/networkmanager/network-interface-members.jsx:213
-#, fuzzy
-#| msgid "Interfaces"
 msgid "Interface members"
-msgstr "מנשקים"
+msgstr "חברים במנשק"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:122
 #, fuzzy
@@ -4709,72 +4678,52 @@ msgid "Make sure the key hash from the Tang server matches:"
 msgstr "נא לוודא שגיבוב המפתח משרת ה־Tang תואם:"
 
 #: pkg/networkmanager/network-main.jsx:176
-#, fuzzy
-#| msgid "Unmanaged Interfaces"
 msgid "Managed interfaces"
-msgstr "מנשקים לא מנוהלים"
+msgstr "מנשקים מנוהלים"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing LVMs"
-msgstr "ניהול שירותים"
+msgstr "ניהול LVMים"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing user accounts"
 msgid "Managing NFS mounts"
-msgstr "ניהול חשבונות משתמשים"
+msgstr "ניהול עיגוני NFS"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing RAIDs"
-msgstr "ניהול שירותים"
+msgstr "ניהול RAIDים"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing VDOs"
-msgstr "ניהול שירותים"
+msgstr "ניהול VDOים"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing VLANs"
-msgstr "ניהול שירותים"
+msgstr "ניהול VLANים"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "Managing firewall"
 msgstr "ניהול חומת אש"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking bonds"
-msgstr "ניהול רשת"
+msgstr "ניהול מאגדי רשת"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking bridges"
-msgstr "ניהול רשת"
+msgstr "ניהול גישורי רשת"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking teams"
-msgstr "ניהול רשת"
+msgstr "ניהול ציוותי רשת"
 
 #: pkg/storaged/manifest.json.in:0
 msgid "Managing partitions"
 msgstr "ניהול מחיצות"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing physical drives"
-msgstr "ניהול שירותים"
+msgstr "ניהול כוננים פיזיים"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Managing services"
@@ -5044,7 +4993,7 @@ msgstr "פרטים נוספים"
 
 #: pkg/packagekit/updates.jsx:851
 msgid "More info..."
-msgstr ""
+msgstr "מידע נוסף…"
 
 #: pkg/storaged/fsys-tab.jsx:289 pkg/storaged/content-views.jsx:377
 #: pkg/storaged/nfs-details.jsx:313 pkg/kdump/kdump-view.jsx:103
@@ -5299,10 +5248,8 @@ msgid "Network boot (PXE)"
 msgstr "עלייה מהרשת (PXE)"
 
 #: pkg/networkmanager/app.jsx:95
-#, fuzzy
-#| msgid "Network devices and graphs require NetworkManager."
 msgid "Network devices and graphs require NetworkManager"
-msgstr "התקני רשת ותרשימים דורשים NetworkManager."
+msgstr "התקני רשת ותרשימים דורשים NetworkManager"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:59
 #, fuzzy
@@ -5334,16 +5281,12 @@ msgid "Network usage"
 msgstr "רשתות"
 
 #: pkg/networkmanager/app.jsx:87
-#, fuzzy
-#| msgid "NetworkManager is not running."
 msgid "NetworkManager is not installed"
-msgstr "NetworkManager אינו פעיל."
+msgstr "NetworkManager אינו מותקן"
 
 #: pkg/networkmanager/app.jsx:71
-#, fuzzy
-#| msgid "NetworkManager is not running."
 msgid "NetworkManager is not running"
-msgstr "NetworkManager אינו פעיל."
+msgstr "NetworkManager אינו פעיל"
 
 #: pkg/networkmanager/index.html:23
 #: pkg/networkmanager/network-interface.jsx:751
@@ -5454,10 +5397,8 @@ msgid "No configuration found"
 msgstr "לא נמצאו הגדרות"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:45
-#, fuzzy
-#| msgid "No description available"
 msgid "No connection available"
-msgstr "אין תיאור זמין"
+msgstr "אין חיבור זמין"
 
 #: pkg/metrics/metrics.jsx:966
 #, fuzzy
@@ -5621,10 +5562,8 @@ msgid "No rule hits"
 msgstr "אין פגיעות בכללים"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:244
-#, fuzzy
-#| msgid "No disks defined for this VM"
 msgid "No snapshots defined for this VM"
-msgstr "לא מוגדרים כוננים למכונה הווירטואלית הזאת"
+msgstr "לא מוגדרות תמונות מצב למכונה הווירטואלית הזאת"
 
 #: pkg/machines/helpers.js:220
 #, fuzzy
@@ -6143,10 +6082,8 @@ msgid "Path to file"
 msgstr "הנתיב לקובץ"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:250
-#, fuzzy
-#| msgid "Path to ISO file on host's file system"
 msgid "Path to file on host's file system"
-msgstr "הנתיב לקובץ ISO על מערכת הקבצים של המארח"
+msgstr "הנתיב לקובץ במערכת הקבצים של המארח"
 
 #: pkg/systemd/services/service-tabs.jsx:42
 msgid "Paths"
@@ -6294,7 +6231,7 @@ msgstr "נא להתקין את החבילה $0"
 
 #: pkg/packagekit/updates.jsx:1344
 msgid "Please reload the page after resolving the issue."
-msgstr ""
+msgstr "נא לרענן את העמוד לאחר פתרון התקלה."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:195
 msgid "Please set a root password"
@@ -6342,7 +6279,7 @@ msgstr "מאגר לכרכים באפסנה צרה"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:157
 msgid "Pool needs to be active to create volume"
-msgstr ""
+msgstr "יש להפעיל את המאגר כדי ליצור כרך"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:157
 msgid "Pool type doesn't support volume creation"
@@ -6692,15 +6629,13 @@ msgid "Reboot"
 msgstr "הפעלה מחדש"
 
 #: pkg/packagekit/updates.jsx:1361
-#, fuzzy
-#| msgid "recommended"
 msgid "Reboot recommended"
-msgstr "מומלץ"
+msgstr "מומלץ להפעיל מחדש"
 
 #: pkg/packagekit/updates.jsx:617 pkg/packagekit/updates.jsx:690
 #: pkg/packagekit/updates.jsx:753
 msgid "Reboot system..."
-msgstr ""
+msgstr "הפעלת המערכת מחדש…"
 
 #: pkg/networkmanager/network-interface-members.jsx:218
 #: pkg/networkmanager/network-main.jsx:182
@@ -6758,7 +6693,7 @@ msgstr "הטעינה הופצה מהמקור"
 
 #: pkg/packagekit/updates.jsx:431
 msgid "Reloading the state of remaining services"
-msgstr ""
+msgstr "המצב של שאר השירותים מתרענן"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:273
 msgid "Remote URL"
@@ -7024,16 +6959,12 @@ msgid "Restart"
 msgstr "הפעלה מחדש"
 
 #: pkg/packagekit/updates.jsx:445 pkg/packagekit/updates.jsx:460
-#, fuzzy
-#| msgid "Start Service"
 msgid "Restart services"
-msgstr "התחלת שירות"
+msgstr "להפעיל שירותים מחדש"
 
 #: pkg/packagekit/updates.jsx:691 pkg/packagekit/updates.jsx:765
-#, fuzzy
-#| msgid "Start Service"
 msgid "Restart services..."
-msgstr "התחלת שירות"
+msgstr "שירותים מופעלים מחדש…"
 
 #: pkg/packagekit/updates.jsx:1408
 msgid "Restarting"
@@ -7162,22 +7093,16 @@ msgid "SMART self-test of $target"
 msgstr "בדיקת SMART עצמית של $0"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:52
-#, fuzzy
-#| msgid "SPICE TLS Port:"
 msgid "SPICE TLS port"
-msgstr "פתחת TLS של SPICE:"
+msgstr "פתחת TLS של SPICE"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:48
-#, fuzzy
-#| msgid "SPICE Address:"
 msgid "SPICE address"
-msgstr "כתובת SPICE:"
+msgstr "כתובת SPICE"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:50
-#, fuzzy
-#| msgid "SPICE Port:"
 msgid "SPICE port"
-msgstr "פתחת SPICE:"
+msgstr "פתחת SPICE"
 
 #: pkg/shell/machines/machine-change-auth.html:46
 #, fuzzy
@@ -7320,10 +7245,8 @@ msgid "Select console type"
 msgstr "סוג מסוף"
 
 #: pkg/systemd/services/services.jsx:735
-#, fuzzy
-#| msgid "select container"
 msgid "Select unit state"
-msgstr "בחירת מכולה"
+msgstr "נא לבחור מצב יחידה"
 
 #: pkg/systemd/reporting.jsx:245
 msgid "Send"
@@ -7726,7 +7649,7 @@ msgstr "תכנית אחרת משתמשת כרגע במנהל החבילות, נ�
 #: pkg/packagekit/updates.jsx:669 pkg/packagekit/updates.jsx:773
 #: pkg/packagekit/updates.jsx:1372
 msgid "Some software needs to be restarted manually"
-msgstr ""
+msgstr "יש להפעיל חלק מהתכניות מחדש"
 
 #: pkg/shell/superuser.jsx:297
 msgid "Something went wrong"
@@ -8078,8 +8001,6 @@ msgid "Swap space"
 msgstr "שטח החלפה"
 
 #: pkg/networkmanager/network-interface-members.jsx:70
-#, fuzzy
-#| msgid "Switch off $0"
 msgid "Switch of $0"
 msgstr "כיבוי $0"
 
@@ -8417,10 +8338,10 @@ msgstr "מערכת הקבצים אינה מעוגנת."
 #: pkg/packagekit/updates.jsx:435
 msgid "The following service will be restarted:"
 msgid_plural "The following services will be restarted:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "השירות הבא יופעל מחדש:"
+msgstr[1] "השירותים הבאים יופעלו מחדש:"
+msgstr[2] "השירותים הבאים יופעלו מחדש:"
+msgstr[3] "השירותים הבאים יופעלו מחדש:"
 
 #: pkg/sosreport/index.html:59
 msgid ""
@@ -8464,8 +8385,6 @@ msgid "The logged in user is not permitted to view system modifications"
 msgstr "המשתמש הנוכחי שנכנס למערכת אינו מורשה לצפות בשינויים שבוצעו במערכת"
 
 #: pkg/shell/indexes.js:484
-#, fuzzy
-#| msgid "The machine is restarting"
 msgid "The machine is rebooting"
 msgstr "המכונה מופעלת מחדש"
 
@@ -8843,7 +8762,7 @@ msgstr ""
 
 #: pkg/storaged/mdraid-details.jsx:205
 msgid "Toggle bitmap"
-msgstr ""
+msgstr "החלפת מצב מפת סיביות"
 
 #: pkg/shell/index.html:63
 msgid "Toggle session settings"
@@ -8895,10 +8814,8 @@ msgid "Troubleshoot"
 msgstr "איתור תקלות"
 
 #: pkg/networkmanager/app.jsx:78
-#, fuzzy
-#| msgid "Troubleshoot"
 msgid "Troubleshoot…"
-msgstr "איתור תקלות"
+msgstr "פתרון תקלות…"
 
 #: pkg/storaged/crypto-keyslots.jsx:342
 msgid "Trust key"
@@ -9260,10 +9177,8 @@ msgid "Update"
 msgstr "עדכון"
 
 #: pkg/packagekit/updates.jsx:684
-#, fuzzy
-#| msgid "Updates Available"
 msgid "Update Success Table"
-msgstr "עדכונים זמינים"
+msgstr "טבלת עדכונים מוצלחים"
 
 #: pkg/packagekit/updates.jsx:866
 #, fuzzy
@@ -9283,17 +9198,15 @@ msgstr "פרטי חבילת עדכון"
 
 #: pkg/packagekit/updates.jsx:611 pkg/packagekit/updates.jsx:679
 msgid "Update was successful"
-msgstr ""
+msgstr "העדכון הצליח"
 
 #: pkg/packagekit/updates.jsx:92
 msgid "Updated"
 msgstr "מעודכנת"
 
 #: pkg/packagekit/updates.jsx:614
-#, fuzzy
-#| msgid "Updated packages may require a restart to take effect."
 msgid "Updated packages may require a reboot to take effect."
-msgstr "ייתכן שהחבילות המעודכנות תדרושנה הפעלה מחדש כדי שתיכנסנה לתוקף."
+msgstr "ייתכן שהחבילות שעודכנו תדרושנה הפעלה מחדש כדי להיכנס לתוקף."
 
 #: pkg/packagekit/autoupdates.jsx:269
 #, fuzzy
@@ -9344,16 +9257,12 @@ msgid "Use 512 byte emulation"
 msgstr "להשתמש בהדמיית 512 בתים"
 
 #: pkg/storaged/vdo-details.jsx:320
-#, fuzzy
-#| msgid "Compression"
 msgid "Use compression"
-msgstr "דחיסה"
+msgstr "להשתמש בדחיסה"
 
 #: pkg/storaged/vdo-details.jsx:329
-#, fuzzy
-#| msgid "Deduplication"
 msgid "Use deduplication"
-msgstr "הסרת כפילות"
+msgstr "להשתמש בהסרת כפילות"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:571
 #, fuzzy
@@ -9362,10 +9271,8 @@ msgid "Use existing"
 msgstr "להשתמש בקיים"
 
 #: pkg/shell/credentials.js:76
-#, fuzzy
-#| msgid "ssh key"
 msgid "Use key"
-msgstr "מפתח ssh"
+msgstr "להשתמש במפתח"
 
 #: pkg/shell/index.html:122
 msgid "Use the following keys to authenticate against other systems"
@@ -9407,16 +9314,12 @@ msgid "Username"
 msgstr "שם משתמש"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "encryption"
 msgid "Using LUKS encryption"
-msgstr "הצפנה"
+msgstr "באמצעות הצפנת LUKS"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Edit Tang keyserver"
 msgid "Using Tang server"
-msgstr "עריכת שרת מפתחות Tang"
+msgstr "באמצעות שרת Tang"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:160
 msgid "VCPU settings could not be saved"
@@ -9475,7 +9378,7 @@ msgstr "המכונה הווירטואלית $0 כבר קיימת"
 
 #: pkg/machines/app.jsx:146
 msgid "VM $0 does not exist on $1 connection"
-msgstr ""
+msgstr "המכונה הווירטואלית $0 לא קיימת בחיבור $1"
 
 #: pkg/machines/components/vm/vmActions.jsx:110
 #, fuzzy
@@ -9529,16 +9432,12 @@ msgid "VM state"
 msgstr "מצב"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:53
-#, fuzzy
-#| msgid "VNC TLS Port:"
 msgid "VNC TLS port"
-msgstr "פתחת TLS של VNC:"
+msgstr "פתחת TLS של VNC"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:49
-#, fuzzy
-#| msgid "VNC Address:"
 msgid "VNC address"
-msgstr "כתובת VNC:"
+msgstr "כתובת VNC"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:99
 #, fuzzy
@@ -9547,10 +9446,8 @@ msgid "VNC console"
 msgstr "מסוף"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:51
-#, fuzzy
-#| msgid "VNC Port:"
 msgid "VNC port"
-msgstr "פתחת VNC:"
+msgstr "פתחת VNC"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:166
 msgid "Validating address"
@@ -9746,10 +9643,8 @@ msgid "Web Console for Linux servers"
 msgstr "מסוף מקוון לשרתי לינוקס"
 
 #: pkg/packagekit/updates.jsx:451 pkg/packagekit/updates.jsx:845
-#, fuzzy
-#| msgid "Web Console for Linux servers"
 msgid "Web Console will restart"
-msgstr "מסוף מקוון לשרתי לינוקס"
+msgstr "המסוף המקוון יופעל מחדש"
 
 #: pkg/systemd/superuser-alert.jsx:60
 msgid "Web console is running in limited access mode."
@@ -9785,6 +9680,8 @@ msgid ""
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
 msgstr ""
+"כאשר המסוף המקוון מופעל מחדש, לא יופיע עוד מידע על התהליך. עם זאת, תהליך "
+"העדכון ימשיך ברקע. יש להתחבר מחדש כדי להמשיך לצפות בתהליך העדכון."
 
 #: pkg/systemd/terminal.jsx:110
 msgid "White"
