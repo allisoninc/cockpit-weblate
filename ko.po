@@ -239,7 +239,7 @@ msgstr[0] "$0 페이지"
 #: pkg/packagekit/updates.jsx:719
 msgid "$0 security fix available"
 msgid_plural "$0 security fixes available"
-msgstr[0] "$0 사용 가능한 보안 수정"
+msgstr[0] "$0 보안 픽스 이용 가능"
 
 #: pkg/systemd/services/services.jsx:654
 msgid "$0 service has failed"
