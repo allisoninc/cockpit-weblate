@@ -6245,7 +6245,7 @@ msgstr "STP 전송 지연"
 
 #: pkg/networkmanager/index.html:121
 msgid "STP hello time"
-msgstr "STP 헬로우 타임"
+msgstr "STP Hello 타임"
 
 #: pkg/networkmanager/index.html:125
 msgid "STP maximum message age"
