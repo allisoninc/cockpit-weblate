@@ -3801,7 +3801,7 @@ msgstr "Libvirt 또는 하이퍼바이저는 UEFI를 지원하지 않습니다"
 
 #: pkg/shell/shell-modals.jsx:43
 msgid "Licensed under:"
-msgstr "라이센스 보유:"
+msgstr "라이센스 보유자:"
 
 #: pkg/systemd/terminal.jsx:109
 msgid "Light"
@@ -3846,17 +3846,15 @@ msgstr "링크 보기"
 #: pkg/metrics/metrics.jsx:87 pkg/metrics/metrics.jsx:440
 #: pkg/metrics/metrics.jsx:1007
 msgid "Load"
-msgstr ""
+msgstr "로드"
 
 #: pkg/networkmanager/interfaces.js:1483
 msgid "Load balancing"
 msgstr "로드 밸런싱"
 
 #: pkg/metrics/metrics.jsx:1023
-#, fuzzy
-#| msgid "Load earlier entries"
 msgid "Load earlier data"
-msgstr "이전 항목 로드"
+msgstr "이전 데이터 로드"
 
 #: pkg/systemd/logs.js:115
 msgid "Load earlier entries"
@@ -3864,7 +3862,7 @@ msgstr "이전 항목 로드"
 
 #: pkg/metrics/metrics.jsx:88
 msgid "Load spike"
-msgstr ""
+msgstr "로드 스파이크"
 
 #: pkg/packagekit/updates.jsx:78
 msgid "Loading available updates failed"
@@ -3877,16 +3875,12 @@ msgstr "사용 가능한 업데이트를 로딩하고 있습니다. 잠시만 �
 # translation auto-copied from project oVirt, version ovirt-3.5, document
 # frontend/webadmin/modules/webadmin/src/main/resources/org/ovirt/engine/ui/frontend/org.ovirt.engine.ui.webadmin.ApplicationConstants
 #: pkg/systemd/overview-cards/configurationCard.jsx:320
-#, fuzzy
-#| msgid "Loading..."
 msgid "Loading keys..."
-msgstr "로딩..."
+msgstr "키 로딩 중..."
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:316
-#, fuzzy
-#| msgid "Loading available updates failed"
 msgid "Loading of SSH keys failed"
-msgstr "사용 가능한 업데이트 로드에 실패했습니다"
+msgstr "SSH 키 로드에 실패했습니다"
 
 #: pkg/machines/components/libvirtSlate.jsx:82
 msgid "Loading resources"
@@ -3941,10 +3935,8 @@ msgid "Lock account on $0"
 msgstr "$0의 계정 잠금"
 
 #: pkg/storaged/crypto-panel.jsx:72 pkg/storaged/crypto-panel.jsx:75
-#, fuzzy
-#| msgid "Remove device"
 msgid "Locked devices"
-msgstr "장치 삭제"
+msgstr "잠긴 장치"
 
 #: pkg/storaged/jobs-panel.jsx:41
 msgid "Locking $target"
@@ -3969,11 +3961,11 @@ msgstr "로그 메세지"
 
 #: pkg/shell/index.html:80 pkg/metrics/metrics.jsx:931
 msgid "Log out"
-msgstr "로그 아웃"
+msgstr "로그아웃"
 
 #: pkg/users/account-details.js:241
 msgid "Logged in"
-msgstr "로그인되었습니다"
+msgstr "로그인됨"
 
 #: pkg/storaged/vdo-details.jsx:298
 msgid "Logical"
@@ -3989,15 +3981,13 @@ msgstr "논리 볼륨"
 
 #: pkg/storaged/utils.js:196
 msgid "Logical volume (snapshot)"
-msgstr "논리 볼륨 (스냅샷)"
+msgstr "논리 볼륨(스냅샷)"
 
 #: pkg/storaged/utils.js:270
 msgid "Logical volume of $0"
 msgstr "$0 논리 볼륨"
 
 #: pkg/storaged/content-views.jsx:810 pkg/storaged/content-views.jsx:815
-#, fuzzy
-#| msgid "Logical Volume"
 msgid "Logical volumes"
 msgstr "논리 볼륨"
 
