@@ -249,7 +249,7 @@ msgstr[0] "$0 서비스 실패"
 #: pkg/packagekit/updates.jsx:652 pkg/packagekit/updates.jsx:759
 msgid "$0 service needs to be restarted"
 msgid_plural "$0 services need to be restarted"
-msgstr[0] "$0 재시작하기 위해 필요한 서비스"
+msgstr[0] "$0 서비스를 재시작해야 합니다"
 
 #: pkg/storaged/crypto-keyslots.jsx:592
 msgid "$0 slot remains"
