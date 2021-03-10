@@ -292,7 +292,7 @@ msgstr[0] "$0 주"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:108
 msgid "$0 will be installed."
-msgstr "$0가 설치됩니다."
+msgstr "$0이/가 설치됩니다."
 
 #: pkg/lib/cockpit-components-plot.jsx:223
 msgid "$0 year"
