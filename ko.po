@@ -6849,7 +6849,7 @@ msgstr "스틱 PC"
 
 #: pkg/networkmanager/index.html:256
 msgid "Sticky"
-msgstr "스티키"
+msgstr "Sticky"
 
 #: pkg/storaged/content-views.jsx:307 pkg/storaged/vdo-details.jsx:143
 #: pkg/storaged/vdo-details.jsx:260 pkg/storaged/mdraid-details.jsx:318
@@ -6879,11 +6879,11 @@ msgstr "호스트 편집 중지"
 
 #: pkg/storaged/jobs-panel.jsx:61
 msgid "Stopping RAID device $target"
-msgstr "RAID 장치 $target 중지"
+msgstr "RAID 장치 $target 중지 중"
 
 #: pkg/storaged/jobs-panel.jsx:45
 msgid "Stopping swapspace $target"
-msgstr "스왑공간 $target 중지"
+msgstr "스왑공간 $target 중지 중"
 
 #: pkg/storaged/index.html:23 pkg/storaged/details.jsx:131
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:511
@@ -6932,7 +6932,7 @@ msgstr "스토리지 볼륨"
 #: pkg/machines/components/vm/disks/diskAdd.jsx:338
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:64
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
-msgstr ""
+msgstr "스토리지 볼륨 크기는 스토리지 풀의 용량을 초과해서는 안 됩니다($0 $1)"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:75
 msgid "Storage volumes"
@@ -6957,14 +6957,10 @@ msgid "Stored passphrase"
 msgstr "저장된 암호"
 
 #: pkg/lib/machine-info.js:85
-#, fuzzy
-#| msgid "Sub Chassis"
 msgid "Sub-Chassis"
 msgstr "서브 섀시"
 
 #: pkg/lib/machine-info.js:80
-#, fuzzy
-#| msgid "Sub Notebook"
 msgid "Sub-Notebook"
 msgstr "서브 노트북"
 
@@ -6982,7 +6978,7 @@ msgstr "지원이 설치되어 있습니다."
 
 #: pkg/machines/helpers.js:218
 msgid "Suspended (PM)"
-msgstr "일시 정지 (PM)"
+msgstr "일시 정지됨(PM)"
 
 #: pkg/storaged/content-views.jsx:168 pkg/metrics/metrics.jsx:102
 #: pkg/metrics/metrics.jsx:397 pkg/metrics/metrics.jsx:1008
@@ -6990,10 +6986,8 @@ msgid "Swap"
 msgstr "스왑"
 
 #: pkg/metrics/metrics.jsx:101
-#, fuzzy
-#| msgid "Swap"
 msgid "Swap out"
-msgstr "스왑"
+msgstr "스왑 아웃"
 
 #: pkg/storaged/content-views.jsx:411
 msgctxt "storage-id-desc"
@@ -7001,10 +6995,8 @@ msgid "Swap space"
 msgstr "스왑 공간"
 
 #: pkg/networkmanager/network-interface-members.jsx:70
-#, fuzzy
-#| msgid "Switch off $0"
 msgid "Switch of $0"
-msgstr "$0 끄기"
+msgstr "$0 스위치"
 
 #: pkg/networkmanager/network-interface-members.jsx:96
 #: pkg/networkmanager/network-interface.jsx:167
@@ -7056,7 +7048,7 @@ msgstr "동기화 중"
 
 #: pkg/storaged/jobs-panel.jsx:69
 msgid "Synchronizing RAID device $target"
-msgstr "RAID 장치 $target 동기화"
+msgstr "RAID 장치 $target 동기화 중"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
@@ -7149,7 +7141,7 @@ msgstr "세션 종료"
 
 #: pkg/kdump/kdump-view.jsx:482 pkg/kdump/kdump-view.jsx:490
 msgid "Test configuration"
-msgstr "설정 테스트"
+msgstr "구성 테스트"
 
 #: pkg/kdump/kdump-view.jsx:486
 msgid "Test is only available while the kdump service is running."
@@ -7176,8 +7168,6 @@ msgid "The $0 package must be installed to create VDO devices."
 msgstr "VDO 장치를 생성하려면 $0 패키지를 설치해야합니다."
 
 #: pkg/shell/machines/machine-dialogs.js:403
-#, fuzzy
-#| msgid "The IP address or host name cannot contain whitespace."
 msgid "The IP address or hostname cannot contain whitespace."
 msgstr "IP 주소 또는 호스트 이름에는 공백을 포함할 수 없습니다."
 
@@ -7198,6 +7188,7 @@ msgid ""
 "The SSH key ${key} of ${luser} on ${lhost} will be added to the ${afile} "
 "file of ${ruser} on ${rhost}."
 msgstr ""
+"${luser}의 ${lhost} SSH 키 ${key}이(가) ${rhost}에서 ${ruser}의 ${afile} 파일에 추가됩니다"
 
 #: pkg/shell/machines/machine-change-auth.html:28
 msgid ""
@@ -7205,6 +7196,8 @@ msgid ""
 "protected. You can log in with either your login password or by providing "
 "the password of the key at {{#strong}}{{key}}{{/strong}}."
 msgstr ""
+"{{#strong}}{{full_address}}{{/strong}}에 로그인하기 위한 SSH 키가 보호되고 있습니다. "
+"{{#strong}}{{key}}{{/strong}}에서 로그인 암호나 키 암호를 입력하여 로그인할 수 있습니다."
 
 #: pkg/shell/machines/machine-change-auth.html:55
 msgid ""
@@ -7212,6 +7205,8 @@ msgid ""
 "remainder of the session and will be available for login to other hosts as "
 "well."
 msgstr ""
+"SSH 키 {{#strong}}{{key}}{{/strong}}을(를) 나머지 세션에서 사용할 수 있으며 다른 호스트에 로그인할 때도 "
+"사용할 수 있습니다."
 
 #: pkg/machines/components/vm/deleteDialog.jsx:64
 msgid "The VM is running and will be forced off before deletion."
