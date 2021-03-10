@@ -2248,7 +2248,7 @@ msgstr[0] "$0 볼륨 삭제"
 
 #: pkg/machines/components/vm/deleteDialog.jsx:70
 msgid "Delete associated storage files:"
-msgstr "관련 저장소 파일 삭제:"
+msgstr "연결된 스토리지 파일 삭제:"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:162
 msgid "Delete content"
