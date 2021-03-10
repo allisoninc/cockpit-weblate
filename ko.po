@@ -8568,7 +8568,7 @@ msgstr "쓰기"
 
 #: pkg/storaged/mdraid-details.jsx:110
 msgid "Write-mostly"
-msgstr "대부분-쓰기"
+msgstr "Write-mostly"
 
 #: pkg/machines/components/vm/disks/vmDisksCard.jsx:255
 #: pkg/machines/components/vm/disks/diskEdit.jsx:100
@@ -8594,15 +8594,15 @@ msgstr "네"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:39
 msgid "Yesterday"
-msgstr ""
+msgstr "어제"
 
 #: pkg/static/login.js:648
 msgid "You are connecting to $0 for the first time."
-msgstr ""
+msgstr "처음으로 $0에 연결됩니다."
 
 #: pkg/shell/machines/machine-unknown-hostkey.html:6
 msgid "You are connecting to {{host}} for the first time."
-msgstr ""
+msgstr "처음으로 {{host}}에 연결됩니다."
 
 #: pkg/networkmanager/firewall-switch.jsx:58
 #: pkg/networkmanager/firewall.jsx:152
@@ -8630,7 +8630,7 @@ msgstr "오래된 항목이 로드될 수 있습니다."
 #: pkg/shell/machines/machine-change-auth.html:22
 #: pkg/shell/machines/machine-change-auth.html:29
 msgid "You may want to change the password of the key for automatic login."
-msgstr ""
+msgstr "자동 로그인을 위해 키 암호를 변경할 수 있습니다."
 
 #: pkg/users/password-dialogs.js:79
 msgid "You must wait longer to change your password"
@@ -8638,17 +8638,13 @@ msgstr "암호 변경을 위해 조금더 기다려 주십시오"
 
 #: pkg/metrics/metrics.jsx:930
 msgid "You need to relogin to be able to see metrics"
-msgstr ""
+msgstr "메트릭을 보려면 다시 로그인해야 합니다"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:138
 msgid "You need to select the most closely matching operating system"
 msgstr "가장 일치하는 운영 체제를 선택해야합니다"
 
 #: pkg/sosreport/index.html:39
-#, fuzzy
-#| msgid ""
-#| "You need to switch to \"Administrative Access\" in order to create "
-#| "reports."
 msgid ""
 "You need to switch to \"Administrative access\" in order to create reports."
 msgstr "보고서를 작성하려면 \"관리 액세스\"로 전환해야합니다."
