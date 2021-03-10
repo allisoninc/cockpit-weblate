@@ -9196,7 +9196,7 @@ msgstr "qemu"
 
 #: pkg/systemd/logs.html:81
 msgid "qualifiers"
-msgstr "한정자"
+msgstr "qualifiers"
 
 #: pkg/storaged/manifest.json.in:0
 msgid "raid"
@@ -9299,10 +9299,8 @@ msgid "ssh server is empty"
 msgstr "ssh 서버가 비어 있습니다"
 
 #: pkg/metrics/metrics.jsx:84
-#, fuzzy
-#| msgid "sos"
 msgid "sys"
-msgstr "sos"
+msgstr "sys"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "systemctl"
