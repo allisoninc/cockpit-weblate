@@ -110,7 +110,7 @@ msgstr "$0이/가 코드 $1로 종료"
 
 #: pkg/base1/cockpit.js:2802
 msgid "$0 failed"
-msgstr "$0가 실패했습니다"
+msgstr "$0 이/가 실패했습니다"
 
 #: pkg/storaged/content-views.jsx:394
 msgctxt "storage-id-desc"
