@@ -4565,7 +4565,7 @@ msgstr "네트워크 부팅(PXE)"
 
 #: pkg/networkmanager/app.jsx:95
 msgid "Network devices and graphs require NetworkManager"
-msgstr "네트워크 장치와 그래프에는 네트웍매니져가 필요합니다"
+msgstr "네트워크 장치 및 그래프에는 NetworkManager가 필요합니다"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:59
 msgid "Network file system"
@@ -4577,20 +4577,16 @@ msgid "Network interface settings could not be saved"
 msgstr "네트워크 인터페이스 설정을 저장하지 못했습니다"
 
 #: pkg/networkmanager/network-main.jsx:201
-#, fuzzy
-#| msgid "Networking Logs"
 msgid "Network logs"
-msgstr "네트워킹 로그"
+msgstr "네트워크 로그"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:252
 msgid "Network selection does not support PXE."
 msgstr "네트워크 선택은 PXE를 지원하지 않습니다."
 
 #: pkg/metrics/metrics.jsx:543
-#, fuzzy
-#| msgid "Networks"
 msgid "Network usage"
-msgstr "네트워크"
+msgstr "네트워크 사용량"
 
 #: pkg/networkmanager/app.jsx:87
 msgid "NetworkManager is not installed"
