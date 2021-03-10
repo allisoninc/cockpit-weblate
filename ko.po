@@ -4590,7 +4590,7 @@ msgstr "네트워크 사용량"
 
 #: pkg/networkmanager/app.jsx:87
 msgid "NetworkManager is not installed"
-msgstr "네트웍매니저가 설치되어 있지 않습니다"
+msgstr "NetworkManager가 설치되어 있지 않습니다"
 
 #: pkg/networkmanager/app.jsx:71
 msgid "NetworkManager is not running"
