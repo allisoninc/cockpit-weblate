@@ -9011,7 +9011,7 @@ msgstr "저널"
 
 #: pkg/systemd/logs.html:87
 msgid "journalctl manpage"
-msgstr "journalctl 맨페이지"
+msgstr "journalctl manpage"
 
 #: pkg/kdump/manifest.json.in:0
 msgid "kdump"
@@ -9074,10 +9074,8 @@ msgid "memory"
 msgstr "메모리"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Store metrics"
 msgid "metrics"
-msgstr "메트릭 저장"
+msgstr "메트릭"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "mitigation"
@@ -9110,7 +9108,7 @@ msgstr "nfs 덤프 대상이 server:path 형식으로 되어 있지 않습니다
 
 #: pkg/metrics/metrics.jsx:84
 msgid "nice"
-msgstr ""
+msgstr "nice"
 
 #: pkg/machines/helpers.js:260
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:69
@@ -9121,7 +9119,7 @@ msgstr "아니요"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:142
 msgid "no state saved"
-msgstr ""
+msgstr "저장된 상태 없음"
 
 #: pkg/tuned/dialog.js:103
 msgid "none"
@@ -9169,10 +9167,8 @@ msgid "pci"
 msgstr "pci"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "cpu"
 msgid "pcp"
-msgstr "cpu"
+msgstr "pcp"
 
 #: pkg/apps/manifest.json.in:0
 msgid "plugin"
