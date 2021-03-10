@@ -305,7 +305,7 @@ msgstr "$0 영역"
 
 #: pkg/storaged/vgroup-details.jsx:117
 msgid "$0, $1 free"
-msgstr "$0, $1 여유"
+msgstr "$0, $1 여유 공간"
 
 #: pkg/systemd/logDetails.jsx:147
 msgid "$0: crash at $1"
@@ -346,7 +346,7 @@ msgstr "1분"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:168
 msgid "1 minute"
-msgstr "1 분"
+msgstr "1분"
 
 #: pkg/lib/cockpit-components-plot.jsx:276
 msgid "1 week"
@@ -377,10 +377,8 @@ msgid "14th"
 msgstr "14일"
 
 #: pkg/metrics/metrics.jsx:285
-#, fuzzy
-#| msgid "5 min"
 msgid "15 min"
-msgstr "5분"
+msgstr "15분"
 
 #: pkg/systemd/services.html:95
 msgid "15th"
@@ -576,6 +574,8 @@ msgid ""
 "A new SSH key at ${key} will be created for ${luser} on ${lhost} and it will "
 "be added to the ${afile} file of ${ruser} on ${rhost}."
 msgstr ""
+"새로운 SSH 키(${key})가 ${luser}에 대해 ${lhost}에서 생성되며 ${rhost}에서 ${ruser}의 ${afile}"
+" 파일에 추가됩니다."
 
 #: pkg/packagekit/updates.jsx:1364
 msgid "A package needs a system reboot for the updates to take effect:"
