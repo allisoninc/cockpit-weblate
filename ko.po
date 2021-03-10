@@ -4594,7 +4594,7 @@ msgstr "NetworkManager가 설치되어 있지 않습니다"
 
 #: pkg/networkmanager/app.jsx:71
 msgid "NetworkManager is not running"
-msgstr "네트웍매니저가 실행되고 있지 않습니다"
+msgstr "NetworkManager가 실행되고 있지 않습니다"
 
 #: pkg/networkmanager/index.html:23
 #: pkg/networkmanager/network-interface.jsx:751
@@ -4626,16 +4626,12 @@ msgid "New NFS mount"
 msgstr "새 NFS 마운트"
 
 #: pkg/shell/machines/machine-unknown-hostkey.html:2 pkg/static/login.js:646
-#, fuzzy
-#| msgid "Add new host"
 msgid "New host"
-msgstr "새 호스트 추가"
+msgstr "새 호스트"
 
 #: pkg/shell/machines/machine-dialogs.js:745
-#, fuzzy
-#| msgid "New Password"
 msgid "New key password"
-msgstr "새 암호"
+msgstr "새 키 암호"
 
 #: pkg/storaged/crypto-keyslots.jsx:217 pkg/storaged/crypto-keyslots.jsx:263
 msgid "New passphrase"
@@ -4699,36 +4695,28 @@ msgid "No configuration found"
 msgstr "설정을 찾을 수 없습니다"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:45
-#, fuzzy
-#| msgid "No description available"
 msgid "No connection available"
-msgstr "사용 가능한 설명이 없음"
+msgstr "사용 가능한 연결 없음"
 
 #: pkg/metrics/metrics.jsx:966
-#, fuzzy
-#| msgid "Not available"
 msgid "No data available"
-msgstr "사용할 수 없습니다"
+msgstr "사용 가능한 데이터 없음"
 
 #: pkg/metrics/metrics.jsx:962
-#, fuzzy
-#| msgid "Occurred between $0 and $1"
 msgid "No data available between $0 and $1"
-msgstr "$0에서 $1 사이의 발생 건수"
+msgstr "$0 ~ $1 사이에 사용 가능한 데이터 없음"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:166
 msgid "No delay"
-msgstr "지연없음"
+msgstr "지연 없음"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:128
-#, fuzzy
-#| msgid "Description"
 msgid "No description"
-msgstr "설명"
+msgstr "설명 없음"
 
 #: pkg/networkmanager/firewall.jsx:728
 msgid "No description available"
-msgstr "사용 가능한 설명이 없음"
+msgstr "사용 가능한 설명 없음"
 
 #: pkg/apps/application.jsx:84
 msgid "No description provided."
@@ -4811,7 +4799,7 @@ msgstr ""
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:111
 msgid "No network devices"
-msgstr "네트워크 장치가 없음"
+msgstr "네트워크 장치 없음"
 
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:347
 msgid "No network interfaces defined for this VM"
@@ -4826,10 +4814,8 @@ msgid "No networks available"
 msgstr "사용 가능한 네트워크가 없습니다"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:170
-#, fuzzy
-#| msgid "Parent"
 msgid "No parent"
-msgstr "부모"
+msgstr "부모 개체 없음"
 
 #: pkg/storaged/content-views.jsx:606
 msgid "No partitioning"
@@ -4855,20 +4841,16 @@ msgid "No rule hits"
 msgstr "규칙 히트 없음"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:244
-#, fuzzy
-#| msgid "No disks defined for this VM"
 msgid "No snapshots defined for this VM"
-msgstr "이 가상 머신에 지정된 디스크가 없습니다"
+msgstr "이 VM에 대해 정의된 스냅샷 없음"
 
 #: pkg/machines/helpers.js:220
-#, fuzzy
-#| msgid "State"
 msgid "No state"
-msgstr "상태"
+msgstr "상태 없음"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:516
 msgid "No storage"
-msgstr "스토리지가 없음"
+msgstr "스토리지 없음"
 
 #: pkg/machines/components/storagePools/storagePoolList.jsx:78
 msgid "No storage pool is defined on this host"
@@ -4876,11 +4858,11 @@ msgstr "이 호스트에 지정된 스토리지 풀이 없습니다"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:130
 msgid "No storage pools available"
-msgstr "스토리지 풀을 사용할 수 없음"
+msgstr "사용 가능한 스토리지 풀 없음"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:115
 msgid "No storage volumes defined for this storage pool"
-msgstr "이 스토리지 풀에 대해 정의된 스토리지 볼륨이 없습니다"
+msgstr "이 스토리지 풀에 대해 정의된 스토리지 볼륨 없음"
 
 #: pkg/lib/credentials.js:190
 #: pkg/lib/cockpit-components-file-autocomplete.jsx:174
@@ -4892,11 +4874,8 @@ msgid "No system modifications"
 msgstr "시스템 수정 없음"
 
 #: pkg/packagekit/autoupdates.jsx:355
-#, fuzzy
-#| msgid "$0 update"
-#| msgid_plural "$0 updates"
 msgid "No updates"
-msgstr "$0 업데이트"
+msgstr "업데이트 없음"
 
 #: pkg/users/account-create-dialog.js:87
 msgid "No user name specified"
@@ -4904,7 +4883,7 @@ msgstr "지정된 사용자 이름이 없습니다"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:109
 msgid "No virtual networks"
-msgstr "가상 네트워크가 없습니다"
+msgstr "가상 네트워크 없음"
 
 #: pkg/machines/components/networks/network.jsx:177
 msgid ""
@@ -4928,7 +4907,7 @@ msgstr "없음"
 
 #: pkg/machines/helpers.js:250
 msgid "None (isolated network)"
-msgstr "없음 (격리된 네트워크)"
+msgstr "없음(격리된 네트워크)"
 
 #: pkg/lib/credentials.js:282
 msgid "Not a valid private key"
@@ -4959,10 +4938,8 @@ msgid "Not connected to Insights"
 msgstr "Insights에 연결되어 있지 않습니다"
 
 #: pkg/shell/indexes.js:490
-#, fuzzy
-#| msgid "Not connected to Insights"
 msgid "Not connected to host"
-msgstr "Insights에 연결되어 있지 않습니다"
+msgstr "호스트에 연결되어 있지 않음"
 
 #: pkg/storaged/lvol-tabs.jsx:368
 msgid "Not enough space to grow."
@@ -4990,7 +4967,7 @@ msgstr "준비되지 않음"
 
 #: pkg/packagekit/updates.jsx:1222
 msgid "Not registered"
-msgstr "등록 취소되었습니다"
+msgstr "등록되지 않음"
 
 #: pkg/storaged/mdraid-details.jsx:351
 #: pkg/systemd/services/service-details.jsx:326
@@ -5015,11 +4992,8 @@ msgid "Notice and above"
 msgstr "알림 이상의 수준"
 
 #: pkg/selinux/setroubleshoot-view.jsx:454
-#, fuzzy
-#| msgid "$0 occurrence"
-#| msgid_plural "$1 occurrences"
 msgid "Occurances"
-msgstr "$0 발생"
+msgstr "발생"
 
 #: pkg/selinux/setroubleshoot-view.jsx:392
 msgid "Occurred $0"
@@ -5051,7 +5025,7 @@ msgstr "마운트된 장치"
 
 #: pkg/systemd/services/service-details.jsx:396
 msgid "On failure"
-msgstr "오류 발생 시"
+msgstr "실패한 경우"
 
 #: src/ws/cockpit.appdata.xml.in:26
 msgid ""
@@ -5132,21 +5106,19 @@ msgstr "기타"
 #: pkg/storaged/content-views.jsx:413
 msgctxt "storage-id-desc"
 msgid "Other data"
-msgstr "다른 데이터"
+msgstr "기타 데이터"
 
 #: pkg/storaged/others-panel.jsx:71
 msgid "Other devices"
-msgstr "다른 장치"
+msgstr "기타 장치"
 
 #: pkg/static/login.html:84
 msgid "Other options"
 msgstr "기타 옵션"
 
 #: pkg/metrics/metrics.jsx:544
-#, fuzzy
-#| msgid "Log Out"
 msgid "Out"
-msgstr "로그 아웃"
+msgstr "아웃"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
@@ -5172,7 +5144,7 @@ msgstr "PCP"
 
 #: pkg/metrics/metrics.jsx:936
 msgid "Package cockpit-pcp is missing for metrics history"
-msgstr ""
+msgstr "메트릭 내역에 패키지 cockpit-pcp가 누락되어 있습니다"
 
 #: pkg/packagekit/updates.jsx:622 pkg/packagekit/updates.jsx:699
 msgid "Package information"
@@ -5180,7 +5152,7 @@ msgstr "패키지 정보"
 
 #: pkg/lib/packagekit.js:130
 msgid "PackageKit crashed"
-msgstr "PackageKit가 크래시되었습니다"
+msgstr "PackageKit가 충돌했습니다"
 
 #: pkg/packagekit/updates.jsx:986
 msgid "PackageKit is not installed"
@@ -5191,16 +5163,12 @@ msgid "PackageKit reported error code $0"
 msgstr "PackageKit가 오류 코드 $0을/를 보고했습니다"
 
 #: pkg/packagekit/updates.jsx:295
-#, fuzzy
-#| msgid "package"
 msgid "Packages"
 msgstr "패키지"
 
 #: pkg/shell/active-pages-dialog.jsx:67
-#, fuzzy
-#| msgid "User name"
 msgid "Page name"
-msgstr "사용자 이름"
+msgstr "페이지 이름"
 
 #: pkg/networkmanager/index.html:45
 msgid "Parent"
@@ -5211,10 +5179,8 @@ msgid "Parent $parent"
 msgstr "부모 $parent"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:169
-#, fuzzy
-#| msgid "Create Snapshot"
 msgid "Parent snapshot"
-msgstr "스냅샷 생성"
+msgstr "부모 스냅샷"
 
 #: pkg/systemd/services/service-details.jsx:386
 msgid "Part of"
