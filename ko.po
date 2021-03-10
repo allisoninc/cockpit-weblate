@@ -34,7 +34,7 @@ msgstr "$0 CPU 구성"
 
 #: pkg/metrics/metrics.jsx:402 pkg/metrics/metrics.jsx:473
 msgid "$0 GiB available"
-msgstr "$0 GiB 가용"
+msgstr "$0 GiB 사용 가능"
 
 #: pkg/metrics/metrics.jsx:394 pkg/metrics/metrics.jsx:464
 msgid "$0 GiB total"
