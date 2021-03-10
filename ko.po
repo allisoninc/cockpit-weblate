@@ -38,7 +38,7 @@ msgstr "$0 GiB 사용 가능"
 
 #: pkg/metrics/metrics.jsx:394 pkg/metrics/metrics.jsx:464
 msgid "$0 GiB total"
-msgstr "$0 기가바이트 총계"
+msgstr "총 $0 GiB"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:77
 msgid "$0 Network"
