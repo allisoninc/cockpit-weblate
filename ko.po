@@ -2747,7 +2747,7 @@ msgstr "$target 삭제 중"
 
 #: pkg/packagekit/updates.jsx:307
 msgid "Errata"
-msgstr "정오표"
+msgstr "에라타"
 
 #: pkg/playground/translate.html:100 pkg/playground/translate.html:105
 #: pkg/storaged/fsys-tab.jsx:304 pkg/storaged/multipath.jsx:61
@@ -2761,18 +2761,14 @@ msgid "Error and above"
 msgstr "오류 이상의 수준"
 
 #: pkg/metrics/metrics.jsx:949
-#, fuzzy
-#| msgid "Error and above"
 msgid "Error has occurred"
-msgstr "오류 이상의 수준"
+msgstr "오류가 발생했습니다"
 
 #: pkg/lib/cockpit-components-inline-notification.jsx:92
 #: pkg/systemd/overview-cards/configurationCard.jsx:317
 #: pkg/selinux/setroubleshoot-view.jsx:454
-#, fuzzy
-#| msgid "Log messages"
 msgid "Error message"
-msgstr "로그 메세지"
+msgstr "오류 메시지"
 
 #: pkg/lib/cockpit-components-modifications.jsx:143
 msgid "Error running semanage to discover system modifications"
