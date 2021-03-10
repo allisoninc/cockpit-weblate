@@ -234,7 +234,7 @@ msgstr[0] "$0 패키지의 경우 시스템을 재부팅해야 합니다"
 #: pkg/metrics/metrics.jsx:106
 msgid "$0 page"
 msgid_plural "$0 pages"
-msgstr[0] "$0 쪽"
+msgstr[0] "$0 페이지"
 
 #: pkg/packagekit/updates.jsx:719
 msgid "$0 security fix available"
