@@ -177,7 +177,7 @@ msgstr "$0 키 변경됨"
 
 #: pkg/base1/cockpit.js:2798
 msgid "$0 killed with signal $1"
-msgstr "$1 시그널에 의해 $0가 종료 되었습니다"
+msgstr "$1 시그널에 의해 $0이/가 종료되었습니다"
 
 #: pkg/systemd/overview-cards/insights.jsx:171
 msgid "$0 low severity hit"
@@ -208,9 +208,6 @@ msgid "$0 network"
 msgstr "$0 네트워크"
 
 #: pkg/selinux/setroubleshoot-view.jsx:430
-#, fuzzy
-#| msgid "$0 occurrence"
-#| msgid_plural "$1 occurrences"
 msgid "$0 occurrence"
 msgid_plural "$0 occurrences"
 msgstr[0] "$0 발생"
