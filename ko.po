@@ -8711,7 +8711,7 @@ msgstr "add-on"
 
 #: pkg/apps/manifest.json.in:0
 msgid "addon"
-msgstr "추가구성"
+msgstr "addon"
 
 #: pkg/systemd/logs.html:83
 msgid "any free-form string as regular expression"
