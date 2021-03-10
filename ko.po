@@ -5274,7 +5274,7 @@ msgstr "경로"
 
 #: pkg/networkmanager/index.html:137
 msgid "Path cost"
-msgstr "Path 코스트"
+msgstr "Path cost"
 
 #: pkg/networkmanager/network-interface.jsx:569
 msgid "Path cost $path_cost"
