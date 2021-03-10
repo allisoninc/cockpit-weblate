@@ -5876,7 +5876,7 @@ msgstr "삭제 가능한 드라이브"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:83
 msgid "Removals:"
-msgstr "제거:"
+msgstr "삭제:"
 
 #: pkg/storaged/crypto-keyslots.jsx:405 pkg/storaged/crypto-keyslots.jsx:442
 #: pkg/storaged/nfs-details.jsx:320 pkg/apps/application.jsx:114
@@ -6075,10 +6075,8 @@ msgid "Reset"
 msgstr "초기화"
 
 #: pkg/users/password-dialogs.js:276
-#, fuzzy
-#| msgid "Set Password"
 msgid "Reset password"
-msgstr "암호 설정"
+msgstr "암호 재설정"
 
 #: pkg/storaged/jobs-panel.jsx:43 pkg/storaged/jobs-panel.jsx:49
 #: pkg/storaged/jobs-panel.jsx:81
@@ -6099,10 +6097,8 @@ msgid "Restart"
 msgstr "재시작"
 
 #: pkg/packagekit/updates.jsx:445 pkg/packagekit/updates.jsx:460
-#, fuzzy
-#| msgid "Start Service"
 msgid "Restart services"
-msgstr "서비스 시작"
+msgstr "서비스 재시작"
 
 #: pkg/packagekit/updates.jsx:691 pkg/packagekit/updates.jsx:765
 msgid "Restart services..."
@@ -6123,21 +6119,19 @@ msgstr "다시 시작"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:68
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:192
-#, fuzzy
-#| msgid "Never"
 msgid "Revert"
-msgstr "하지 않기"
+msgstr "되돌리기"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:63
 msgid "Revert to snapshot $0"
-msgstr ""
+msgstr "스냅샷 $0(으)로 되돌리기"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:76
 msgid ""
 "Reverting to this snapshot will take the VM back to the time of the snapshot "
 "and the current state will be lost, along with any data not captured in a "
 "snapshot"
-msgstr ""
+msgstr "이 스냅샷으로 되돌리면 VM이 스냅샷 촬영 시점으로 돌아가며 스냅샷에 캡처되지 않은 데이터와 함께 현재 상태가 모두 손실됩니다"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Reviewing logs"
@@ -6152,11 +6146,11 @@ msgstr "역할"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:464
 msgid "Root password"
-msgstr "Root 암호"
+msgstr "루트 암호"
 
 #: pkg/networkmanager/interfaces.js:1464 pkg/networkmanager/interfaces.js:1481
 msgid "Round robin"
-msgstr "Round robin"
+msgstr "라운드 로빈"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:98
 msgid "Route to $0"
@@ -6238,8 +6232,6 @@ msgid "SPICE port"
 msgstr "SPICE 포트"
 
 #: pkg/shell/machines/machine-change-auth.html:46
-#, fuzzy
-#| msgid "SSH Keys"
 msgid "SSH key"
 msgstr "SSH 키"
 
