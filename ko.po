@@ -6740,7 +6740,7 @@ msgstr "소스 경로를 비워둘 수 없습니다"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:157
 msgid "Source should start with http, ftp or nfs protocol"
-msgstr "소스는 http, ftp, nfs 통신규약을 시작해야 합니다"
+msgstr "소스는 http, ftp, nfs 프로토콜로 시작해야 합니다"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:217
 msgid "Source volume group"
