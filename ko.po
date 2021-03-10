@@ -7219,7 +7219,7 @@ msgstr "이 장치를 분리하려면 VM이 실행 중이거나 종료되어 있
 
 #: pkg/users/password-dialogs.js:264
 msgid "The account '$0' will be forced to change their password on next login"
-msgstr "'$0' 계정은 다음 로그인 시 암호를 변경 해야 합니다."
+msgstr "'$0' 계정은 다음 로그인 시 암호를 변경해야 합니다"
 
 #: pkg/networkmanager/firewall.jsx:736
 msgid "The cockpit service is automatically included"
@@ -7252,25 +7252,14 @@ msgid "The filesystem has no permanent mount point."
 msgstr "파일 시스템에 영구 마운트 지점이 없습니다."
 
 #: pkg/storaged/fsys-tab.jsx:277
-#, fuzzy
-#| msgid ""
-#| "The filesystem is already mounted at $0.  Proceeding will unmount it."
 msgid "The filesystem is already mounted at $0. Proceeding will unmount it."
-msgstr ""
-"파일 시스템이 이미 $0에 마운트되어 있습니다. 계속 진행할 경우 마운트가 해제됩"
-"니다."
+msgstr "파일 시스템이 이미 $0에 마운트되어 있습니다. 계속 진행할 경우 마운트가 해제됩니다."
 
 #: pkg/storaged/fsys-tab.jsx:494
-#, fuzzy
-#| msgid ""
-#| "The filesystem is currently mounted on $0 but will not be mounted after "
-#| "the next boot."
 msgid ""
 "The filesystem is configured to be automatically mounted on boot but its "
 "encryption container will not be unlocked at that time."
-msgstr ""
-"파일 시스템이 현재 $0에 마운트되어 있지만 다음 부팅 후에는 마운트되지 않습니"
-"다."
+msgstr "파일 시스템이 부팅 시 자동으로 마운트되도록 구성되어 있지만 그때 암호화 컨테이너의 잠금이 해제되지 않습니다."
 
 #: pkg/storaged/fsys-tab.jsx:486
 msgid ""
@@ -7327,7 +7316,7 @@ msgstr "파일 시스템이 마운트되어 있지 않습니다."
 #: pkg/packagekit/updates.jsx:435
 msgid "The following service will be restarted:"
 msgid_plural "The following services will be restarted:"
-msgstr[0] ""
+msgstr[0] "다음 서비스가 다시 시작됩니다."
 
 #: pkg/sosreport/index.html:59
 msgid ""
