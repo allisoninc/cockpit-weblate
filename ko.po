@@ -254,7 +254,7 @@ msgstr[0] "$0 서비스를 재시작해야 합니다"
 #: pkg/storaged/crypto-keyslots.jsx:592
 msgid "$0 slot remains"
 msgid_plural "$0 slots remain"
-msgstr[0] "$0 슬롯 남음"
+msgstr[0] "$0 슬롯이 남아 있습니다"
 
 #: pkg/metrics/metrics.jsx:523
 msgid "$0 total"
