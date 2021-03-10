@@ -165,7 +165,7 @@ msgstr "$0 대부분의 운영 체제에서 사용할 수 있습니다. 설치�
 #: pkg/storaged/vdo-details.jsx:162 pkg/storaged/vgroup-details.jsx:190
 #: pkg/storaged/mdraid-details.jsx:236 pkg/storaged/mdraid-details.jsx:288
 msgid "$0 is in active use"
-msgstr "$0 는 현재 사용 중입니다"
+msgstr "$0 은/는 현재 사용 중입니다"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:153
 msgid "$0 is not available from any repository."
