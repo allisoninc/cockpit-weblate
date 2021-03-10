@@ -8853,7 +8853,7 @@ msgstr "드라이브"
 
 #: pkg/systemd/logs.html:81 pkg/systemd/logs.html:82
 msgid "e.g."
-msgstr "예."
+msgstr "예:"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:302
 #: pkg/systemd/overview-cards/realmd-operation.js:308
@@ -8934,10 +8934,8 @@ msgid "hardware"
 msgstr "하드웨어"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Directory"
 msgid "history"
-msgstr "디렉터리"
+msgstr "내역"
 
 #: pkg/machines/helpers.js:232 pkg/systemd/manifest.json.in:0
 msgid "host"
@@ -8948,10 +8946,8 @@ msgid "host device"
 msgstr "호스트 장치"
 
 #: pkg/machines/helpers.js:233
-#, fuzzy
-#| msgid "to host path"
 msgid "host passthrough"
-msgstr "호스트 경로"
+msgstr "호스트 통과"
 
 #: pkg/machines/helpers.js:241
 msgid "hostdev"
@@ -8979,7 +8975,7 @@ msgstr "iSCSI 대상"
 
 #: pkg/shell/shell-modals.jsx:124
 msgid "in most browsers"
-msgstr ""
+msgstr "대부분의 브라우저에서"
 
 #: pkg/apps/manifest.json.in:0
 msgid "install"
