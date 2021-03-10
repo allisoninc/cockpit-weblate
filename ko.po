@@ -1455,7 +1455,7 @@ msgstr "시스템 시간 변경"
 
 #: pkg/shell/machines/machine-dialogs.js:742
 msgid "Change the password of ${key}."
-msgstr "${key}의 비밀번호 변경."
+msgstr "${key} 암호 변경"
 
 #: pkg/networkmanager/interfaces.js:1725
 msgid "Change the settings"
@@ -1467,6 +1467,7 @@ msgid ""
 "However, an unexpected change may indicate a third-party attempt to "
 "intercept your connection."
 msgstr ""
+"때때로 운영 체제 재설치로 인해 키가 변경될 수 있습니다. 그러나 예기치 않은 변경은 연결을 가로채는 타사의 시도를 나타낼 수도 있습니다."
 
 #: pkg/machines/components/common/warningInactive.jsx:12
 #: pkg/machines/components/vm/nics/nicEdit.jsx:154
