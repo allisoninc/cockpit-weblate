@@ -48,7 +48,7 @@ msgstr[0] "$0 네트워크"
 #: pkg/machines/components/aggregateStatusCards.jsx:52
 msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
-msgstr[0] "$0 저장 공간"
+msgstr[0] "$0 스토리지 풀"
 
 #: pkg/networkmanager/network-main.jsx:167
 msgid "$0 active zone"
