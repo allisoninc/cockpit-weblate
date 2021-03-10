@@ -8137,10 +8137,8 @@ msgid "Updates available"
 msgstr "사용 가능한 업데이트"
 
 #: pkg/packagekit/history.jsx:105
-#, fuzzy
-#| msgid "Update History"
 msgid "Updates history"
-msgstr "변경 내역 업데이트"
+msgstr "업데이트 내역"
 
 #: pkg/packagekit/updates.jsx:84
 msgid "Updating"
@@ -8173,26 +8171,20 @@ msgid "Use 512 byte emulation"
 msgstr "512 바이트 에뮬레이션 사용"
 
 #: pkg/storaged/vdo-details.jsx:320
-#, fuzzy
-#| msgid "Compression"
 msgid "Use compression"
-msgstr "압축"
+msgstr "압축 사용"
 
 #: pkg/storaged/vdo-details.jsx:329
-#, fuzzy
-#| msgid "Deduplication"
 msgid "Use deduplication"
-msgstr "중복"
+msgstr "중복 제거 사용"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:571
 msgid "Use existing"
 msgstr "기존 사용"
 
 #: pkg/shell/credentials.js:76
-#, fuzzy
-#| msgid "ssh key"
 msgid "Use key"
-msgstr "ssh 키"
+msgstr "키 사용"
 
 #: pkg/shell/index.html:122
 msgid "Use the following keys to authenticate against other systems"
@@ -8225,23 +8217,19 @@ msgstr "사용자 이름을 입력하셔야 합니다"
 #: pkg/systemd/overview-cards/realmd-operation.html:60
 #: pkg/systemd/overview-cards/realmd-operation.js:340
 msgid "User password"
-msgstr "사용자 암호"
+msgstr "암호 사용"
 
 #: pkg/storaged/iscsi-panel.jsx:46 pkg/storaged/iscsi-panel.jsx:155
 msgid "Username"
 msgstr "사용자 이름"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "encryption"
 msgid "Using LUKS encryption"
-msgstr "암호화"
+msgstr "LUKS 암호화 사용 중"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Edit Tang keyserver"
 msgid "Using Tang server"
-msgstr "Tang 키 서버 편집"
+msgstr "Tang 서버 사용 중"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:160
 msgid "VCPU settings could not be saved"
@@ -8275,8 +8263,6 @@ msgid "VLAN"
 msgstr "VLAN"
 
 #: pkg/networkmanager/index.html:50
-#, fuzzy
-#| msgid "VLAN Id"
 msgid "VLAN ID"
 msgstr "VLAN ID"
 
@@ -8290,11 +8276,11 @@ msgstr "VM $0이 이미 존재합니다"
 
 #: pkg/machines/app.jsx:146
 msgid "VM $0 does not exist on $1 connection"
-msgstr ""
+msgstr "VM $0이(가) $1 연결에 존재하지 않습니다"
 
 #: pkg/machines/components/vm/vmActions.jsx:110
 msgid "VM $0 failed to force reboot"
-msgstr "VM $0 강제 재부팅에 실패했습니다"
+msgstr "VM $0의 강제 재부팅에 실패했습니다"
 
 #: pkg/machines/components/vm/vmActions.jsx:163
 msgid "VM $0 failed to force shutdown"
@@ -8315,7 +8301,7 @@ msgstr "VM $0 일시 정지에 실패했습니다"
 
 #: pkg/machines/components/vm/vmActions.jsx:98
 msgid "VM $0 failed to reboot"
-msgstr "VM $0 재부팅에 실패했습니다"
+msgstr "VM $0의 재부팅에 실패했습니다"
 
 #: pkg/machines/components/vm/vmActions.jsx:149
 msgid "VM $0 failed to resume"
@@ -8334,10 +8320,8 @@ msgid "VM $0 failed to start"
 msgstr "VM $0 시작에 실패했습니다"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:139
-#, fuzzy
-#| msgid "State"
 msgid "VM state"
-msgstr "상태"
+msgstr "VM 상태"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:53
 msgid "VNC TLS port"
@@ -8348,10 +8332,8 @@ msgid "VNC address"
 msgstr "VNC 주소"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:99
-#, fuzzy
-#| msgid "console"
 msgid "VNC console"
-msgstr "콘솔"
+msgstr "VNC 콘솔"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:51
 msgid "VNC port"
@@ -8404,17 +8386,15 @@ msgstr "자동 스크립트 보기"
 
 #: pkg/systemd/overview-cards/usageCard.jsx:147
 msgid "View details and history"
-msgstr ""
+msgstr "세부 정보 및 내역 보기"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:138
 msgid "View hardware details"
 msgstr "하드웨어 세부 사항보기"
 
 #: pkg/apps/application.jsx:71
-#, fuzzy
-#| msgid "Project website"
 msgid "View project website"
-msgstr "프로젝트 웹사이트"
+msgstr "프로젝트 웹사이트 보기"
 
 #: pkg/systemd/reporting.jsx:397
 msgid "View report"
@@ -8431,7 +8411,7 @@ msgstr "가상머신"
 #: pkg/machines/components/storagePools/storagePoolList.jsx:53
 #: pkg/machines/components/networks/networkList.jsx:56
 msgid "Virtual machines"
-msgstr "가상머신"
+msgstr "가상 머신"
 
 #: pkg/machines/index.html:4
 msgid "Virtual machines management"
@@ -8447,7 +8427,7 @@ msgstr "가상 네트워크를 만들지 못했습니다"
 
 #: pkg/machines/components/libvirtSlate.jsx:105
 msgid "Virtualization service (libvirt) is not active"
-msgstr "가상화 서비스 (libvirt)가 활성화되어 있지 않습니다"
+msgstr "가상화 서비스(libvirt)가 활성화되어 있지 않습니다"
 
 #: pkg/storaged/content-views.jsx:145
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:528
@@ -8476,7 +8456,7 @@ msgstr "볼륨 그룹 이름"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:218
 msgid "Volume group name should not be empty"
-msgstr "볼륨 그룹 이름은 비워 둘 수 없습니다"
+msgstr "볼륨 그룹 이름은 비워둘 수 없습니다"
 
 #: pkg/storaged/lvol-tabs.jsx:411
 msgid "Volume size is $0. Content size is $1."
@@ -8514,7 +8494,7 @@ msgstr "시작을 기다리는 중…"
 
 #: pkg/systemd/services/service-details.jsx:389
 msgid "Wanted by"
-msgstr "필요"
+msgstr "필요한 대상:"
 
 #: pkg/systemd/services/service-details.jsx:384
 msgid "Wants"
@@ -8533,10 +8513,8 @@ msgid "Web Console for Linux servers"
 msgstr "Linux 서버 용 웹 콘솔"
 
 #: pkg/packagekit/updates.jsx:451 pkg/packagekit/updates.jsx:845
-#, fuzzy
-#| msgid "Web Console for Linux servers"
 msgid "Web Console will restart"
-msgstr "Linux 서버 용 웹 콘솔"
+msgstr "웹 콘솔이 재시작됩니다"
 
 #: pkg/systemd/superuser-alert.jsx:60
 msgid "Web console is running in limited access mode."
@@ -8560,11 +8538,11 @@ msgstr "tang-show-keys를 사용할 수 없는 경우는 어떻게 합니까?"
 
 #: pkg/packagekit/autoupdates.jsx:373
 msgid "When"
-msgstr ""
+msgstr "시기"
 
 #: pkg/shell/machines/machine-add.html:34
 msgid "When empty, connect with the current user"
-msgstr ""
+msgstr "비어 있는 경우 현재 사용자와 연결합니다"
 
 #: pkg/packagekit/updates.jsx:454 pkg/packagekit/updates.jsx:850
 msgid ""
@@ -8572,6 +8550,8 @@ msgid ""
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
 msgstr ""
+"웹 콘솔이 다시 시작되면 더 이상 진행률 정보가 표시되지 않지만 업데이트 프로세스는 백그라운드에서 계속됩니다. 업데이트 프로세스를 계속 "
+"확인하려면 다시 연결하십시오."
 
 #: pkg/systemd/terminal.jsx:110
 msgid "White"
@@ -8583,10 +8563,8 @@ msgid "World wide name"
 msgstr "월드 와이드 이름"
 
 #: pkg/metrics/metrics.jsx:501
-#, fuzzy
-#| msgid "ReadWrite"
 msgid "Write"
-msgstr "읽기쓰기"
+msgstr "쓰기"
 
 #: pkg/storaged/mdraid-details.jsx:110
 msgid "Write-mostly"
