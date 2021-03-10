@@ -4444,7 +4444,7 @@ msgstr "VM $1의 NIC $0은 상태 변경에 실패했습니다"
 
 #: pkg/networkmanager/interfaces.js:1498
 msgid "NSNA ping"
-msgstr "NSNA 핑"
+msgstr "NSNA ping"
 
 #: pkg/lib/serverTime.js:491
 msgid "NTP server"
@@ -4536,9 +4536,6 @@ msgid "Netmask"
 msgstr "넷마스크"
 
 #: pkg/metrics/metrics.jsx:534 pkg/metrics/metrics.jsx:1010
-#, fuzzy
-#| msgid "Network"
-#| msgid_plural "Networks"
 msgid "Network"
 msgstr "네트워크"
 
@@ -4551,17 +4548,12 @@ msgid "Network $0 failed to get deactivated"
 msgstr "네트워크 $0의 비활성화에 실패했습니다"
 
 #: pkg/metrics/metrics.jsx:116
-#, fuzzy
-#| msgid "Network"
-#| msgid_plural "Networks"
 msgid "Network I/O"
-msgstr "네트워크"
+msgstr "네트워크 I/O"
 
 #: pkg/metrics/metrics.jsx:117
-#, fuzzy
-#| msgid "Networks"
 msgid "Network I/O spike"
-msgstr "네트워크"
+msgstr "네트워크 I/O 스파이크"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:80
 msgid "Network bond"
@@ -4569,7 +4561,7 @@ msgstr "네트워크 본드"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:300
 msgid "Network boot (PXE)"
-msgstr "네트워크 부팅 (PXE)"
+msgstr "네트워크 부팅(PXE)"
 
 #: pkg/networkmanager/app.jsx:95
 msgid "Network devices and graphs require NetworkManager"
