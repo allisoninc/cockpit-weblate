@@ -5278,7 +5278,7 @@ msgstr "Path cost"
 
 #: pkg/networkmanager/network-interface.jsx:569
 msgid "Path cost $path_cost"
-msgstr "경로 cost $path_cost"
+msgstr "Path cost $path_cost"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:107
 msgid "Path on host's filesystem"
@@ -5286,15 +5286,15 @@ msgstr "호스트 파일시스템의 경로"
 
 #: pkg/storaged/nfs-details.jsx:156
 msgid "Path on server"
-msgstr "서버 상의 경로"
+msgstr "서버상의 경로"
 
 #: pkg/storaged/nfs-details.jsx:161
 msgid "Path on server cannot be empty."
-msgstr "서버 상의 경로는 비워둘 수 없습니다."
+msgstr "서버상의 경로는 비워둘 수 없습니다."
 
 #: pkg/storaged/nfs-details.jsx:163
 msgid "Path on server must start with \"/\"."
-msgstr "서버 상의 경로는 \"/\"로 시작해야 합니다."
+msgstr "서버상의 경로는 \"/\"로 시작해야 합니다."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:229
 msgid "Path to ISO file on host's file system"
@@ -5305,10 +5305,8 @@ msgid "Path to file"
 msgstr "파일의 경로"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:250
-#, fuzzy
-#| msgid "Path to ISO file on host's file system"
 msgid "Path to file on host's file system"
-msgstr "호스트의 파일 시스템에서 ISO 파일로의 경로"
+msgstr "호스트 파일 시스템에서 파일의 경로"
 
 #: pkg/systemd/services/service-tabs.jsx:42
 msgid "Paths"
@@ -5320,16 +5318,12 @@ msgid "Pause"
 msgstr "일시정지"
 
 #: pkg/machines/helpers.js:213
-#, fuzzy
-#| msgid "Pause"
 msgid "Paused"
-msgstr "일시정지"
+msgstr "일시정지됨"
 
 #: pkg/metrics/index.html:20 pkg/metrics/metrics.jsx:1036
-#, fuzzy
-#| msgid "Performance profile"
 msgid "Performance Metrics"
-msgstr "성능 프로파일"
+msgstr "성능 메트릭"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:192
 msgid "Performance profile"
@@ -5392,10 +5386,8 @@ msgid "Physical volumes can not be resized here."
 msgstr "여기에서는 물리적 볼륨 크기를 변경할 수 없습니다."
 
 #: pkg/lib/cockpit-components-shutdown.jsx:205
-#, fuzzy
-#| msgid "date"
 msgid "Pick date"
-msgstr "날짜"
+msgstr "날짜 선택"
 
 #: pkg/networkmanager/index.html:232
 msgid "Ping interval"
