@@ -157,7 +157,7 @@ msgstr[0] "$0 중요한 영향"
 msgid ""
 "$0 is available for most operating systems. To install it, search for it in "
 "GNOME Software or run the following:"
-msgstr "$0 대부분의 운영 체제에서 사용할 수 있습니다. 설치하려면 GNOME 소프트웨어에서 검색하거나 다음을 실행하십시오.:"
+msgstr "$0 대부분의 운영 체제에서 사용할 수 있습니다. 설치하려면 GNOME 소프트웨어에서 검색하거나 다음을 실행하십시오:"
 
 #: pkg/storaged/format-dialog.jsx:165 pkg/storaged/content-views.jsx:336
 #: pkg/storaged/content-views.jsx:580 pkg/storaged/lvol-tabs.jsx:209
