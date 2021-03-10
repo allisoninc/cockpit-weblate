@@ -8719,7 +8719,7 @@ msgstr "정규식으로 사용되는 자유 형식 문자열"
 
 #: pkg/apps/manifest.json.in:0
 msgid "apps"
-msgstr "앱"
+msgstr "apps"
 
 #: pkg/packagekit/manifest.json.in:0
 msgid "apt-get"
