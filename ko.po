@@ -263,7 +263,7 @@ msgstr "총 $0"
 #: pkg/packagekit/updates.jsx:727
 msgid "$0 update available"
 msgid_plural "$0 updates available"
-msgstr[0] "$0 사용 가능한 최신화"
+msgstr[0] "$0 업데이트 이용 가능"
 
 #: pkg/storaged/vdo-details.jsx:301
 msgid "$0 used of $1 ($2 saved)"
