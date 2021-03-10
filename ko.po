@@ -1619,7 +1619,7 @@ msgstr ""
 
 #: pkg/shell/shell-modals.jsx:36
 msgid "Cockpit is an interactive Linux server admin interface."
-msgstr "Cockpit은 대화형 리눅스 서버 관리 인터페이스입니다."
+msgstr "Cockpit은 대화형 Linux 서버 관리 인터페이스입니다."
 
 #: pkg/base1/cockpit.js:4067
 msgid "Cockpit is not compatible with the software on the system."
