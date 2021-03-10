@@ -267,7 +267,7 @@ msgstr[0] "$0 업데이트 이용 가능"
 
 #: pkg/storaged/vdo-details.jsx:301
 msgid "$0 used of $1 ($2 saved)"
-msgstr "$1($2 저장됨)의 $0 사용되었습니다"
+msgstr "$0/$1 ($2 저장)을 사용하고 있습니다"
 
 # auto translated by TM merge from project: RHEV Administration Guide,
 # version: 3.6-async1, DocId: chap-
