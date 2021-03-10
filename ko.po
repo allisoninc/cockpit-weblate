@@ -5524,7 +5524,7 @@ msgstr "접두어"
 #: pkg/networkmanager/interfaces.js:1881
 #: pkg/machines/components/networks/createNetworkDialog.jsx:276
 msgid "Prefix length"
-msgstr "접두사 길이"
+msgstr "접두 길이"
 
 #: pkg/networkmanager/interfaces.js:1881
 msgid "Prefix length or netmask"
@@ -5558,7 +5558,7 @@ msgstr "이전 부트"
 msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
-msgstr ""
+msgstr "이전에 촬영한 스냅샷을 사용하면 문제가 발생했을 때 이전 상태로 돌아갈 수 있습니다"
 
 #: pkg/networkmanager/index.html:178
 msgid "Primary"
@@ -5617,7 +5617,7 @@ msgstr "ssh-keygen을 통한 메세지 제공 시간이 초과되었습니다"
 
 #: pkg/systemd/services/service-details.jsx:399
 msgid "Propagates reload to"
-msgstr "새로 고침 전달"
+msgstr "다음 위치에 다시 로드 전파:"
 
 #: pkg/machines/components/vm/overview/bootOrder.jsx:93
 #: pkg/machines/components/vm/overview/bootOrder.jsx:142
@@ -5643,7 +5643,7 @@ msgstr "RAID 0"
 
 #: pkg/storaged/mdraids-panel.jsx:68
 msgid "RAID 0 (stripe)"
-msgstr "RAID 0 (스트라이프)"
+msgstr "RAID 0(스트라이프)"
 
 #: pkg/storaged/mdraid-details.jsx:180
 msgid "RAID 1"
@@ -5651,7 +5651,7 @@ msgstr "RAID 1"
 
 #: pkg/storaged/mdraids-panel.jsx:72
 msgid "RAID 1 (mirror)"
-msgstr "RAID 1 (미러링)"
+msgstr "RAID 1(미러)"
 
 #: pkg/storaged/mdraid-details.jsx:184
 msgid "RAID 10"
@@ -5659,7 +5659,7 @@ msgstr "RAID 10"
 
 #: pkg/storaged/mdraids-panel.jsx:88
 msgid "RAID 10 (stripe of mirrors)"
-msgstr "RAID 10 (미러 스트라이프)"
+msgstr "RAID 10(미러 스트라이프)"
 
 #: pkg/storaged/mdraid-details.jsx:181
 msgid "RAID 4"
@@ -5667,7 +5667,7 @@ msgstr "RAID 4"
 
 #: pkg/storaged/mdraids-panel.jsx:76
 msgid "RAID 4 (dedicated parity)"
-msgstr "RAID 4 (전용 패리티)"
+msgstr "RAID 4(전용 패리티)"
 
 #: pkg/storaged/mdraid-details.jsx:182
 msgid "RAID 5"
@@ -5675,7 +5675,7 @@ msgstr "RAID 5"
 
 #: pkg/storaged/mdraids-panel.jsx:80
 msgid "RAID 5 (distributed parity)"
-msgstr "RAID 5 (분산 패리티)"
+msgstr "RAID 5(분산 패리티)"
 
 #: pkg/storaged/mdraid-details.jsx:183
 msgid "RAID 6"
@@ -5683,7 +5683,7 @@ msgstr "RAID 6"
 
 #: pkg/storaged/mdraids-panel.jsx:84
 msgid "RAID 6 (double distributed parity)"
-msgstr "RAID 6 (이중 분산 패리티)"
+msgstr "RAID 6(이중 분산 패리티)"
 
 #: pkg/lib/machine-info.js:88
 msgid "RAID chassis"
@@ -5713,7 +5713,7 @@ msgstr "RAID 멤버"
 
 #: pkg/metrics/metrics.jsx:468
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #: pkg/lib/machine-info.js:89
 msgid "Rack mount chassis"
@@ -5740,8 +5740,6 @@ msgid "Raw to a device"
 msgstr "로우(raw) 장치"
 
 #: pkg/metrics/metrics.jsx:497
-#, fuzzy
-#| msgid "Ready"
 msgid "Read"
 msgstr "준비됨"
 
@@ -5790,18 +5788,16 @@ msgstr "실제 호스트 이름은 64자 보다 적은 문자로 구성되어야
 #: pkg/lib/cockpit-components-logs-panel.jsx:101 pkg/systemd/overview.jsx:207
 #: pkg/systemd/overview.jsx:224
 msgid "Reboot"
-msgstr "다시 시작"
+msgstr "재부팅"
 
 #: pkg/packagekit/updates.jsx:1361
-#, fuzzy
-#| msgid "recommended"
 msgid "Reboot recommended"
-msgstr "권장 사항"
+msgstr "재부팅 권장"
 
 #: pkg/packagekit/updates.jsx:617 pkg/packagekit/updates.jsx:690
 #: pkg/packagekit/updates.jsx:753
 msgid "Reboot system..."
-msgstr ""
+msgstr "시스템 재부팅..."
 
 #: pkg/networkmanager/network-interface-members.jsx:218
 #: pkg/networkmanager/network-main.jsx:182
@@ -5855,7 +5851,7 @@ msgstr "전달 소스를 다시 로드"
 
 #: pkg/packagekit/updates.jsx:431
 msgid "Reloading the state of remaining services"
-msgstr ""
+msgstr "나머지 서비스의 상태 재로딩 중"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:273
 msgid "Remote URL"
@@ -5870,10 +5866,8 @@ msgid "Remote over SSH"
 msgstr "SSH를 통한 원격 연결"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:55
-#, fuzzy
-#| msgid "Remote over NFS"
 msgid "Remote viewer details"
-msgstr "NFS를 통한 원격 연결"
+msgstr "원격 뷰어 세부 정보"
 
 #: pkg/storaged/drives-panel.jsx:72 pkg/storaged/drives-panel.jsx:74
 msgctxt "storage"
