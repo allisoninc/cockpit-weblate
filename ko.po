@@ -169,7 +169,7 @@ msgstr "$0 은/는 현재 사용 중입니다"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:153
 msgid "$0 is not available from any repository."
-msgstr "$0는 저장소에서 사용 할 수 없습니다."
+msgstr "$0은/는 리포지터리에서 사용할 수 없습니다."
 
 #: pkg/static/login.js:642
 msgid "$0 key changed"
