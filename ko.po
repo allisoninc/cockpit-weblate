@@ -8791,7 +8791,7 @@ msgstr "코어 덤프"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "cpu"
-msgstr "중앙처리장치"
+msgstr "cpu"
 
 #: pkg/systemd/manifest.json.in:0 pkg/kdump/manifest.json.in:0
 msgid "crash"
@@ -8832,10 +8832,8 @@ msgid "disk"
 msgstr "디스크"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "udisks"
 msgid "disks"
-msgstr "udisks"
+msgstr "디스크"
 
 #: pkg/packagekit/manifest.json.in:0
 msgid "dnf"
