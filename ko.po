@@ -173,7 +173,7 @@ msgstr "$0은/는 리포지터리에서 사용할 수 없습니다."
 
 #: pkg/static/login.js:642
 msgid "$0 key changed"
-msgstr "$0 키 변화됨"
+msgstr "$0 키 변경됨"
 
 #: pkg/base1/cockpit.js:2798
 msgid "$0 killed with signal $1"
