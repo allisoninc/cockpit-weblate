@@ -6241,7 +6241,7 @@ msgstr "SSH 키"
 
 #: pkg/networkmanager/index.html:117
 msgid "STP forward delay"
-msgstr "STP 전달 지연"
+msgstr "STP 전송 지연"
 
 #: pkg/networkmanager/index.html:121
 msgid "STP hello time"
