@@ -1480,7 +1480,7 @@ msgstr "VM 종료 후 변경사항이 적용됩니다"
 msgid ""
 "Changing the settings will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "설정을 변경하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
+msgstr "설정을 변경하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
 
 #: pkg/packagekit/updates.jsx:813
 msgid "Check for updates"
@@ -1515,10 +1515,8 @@ msgid "Checking installed software"
 msgstr "설치된 소프트웨어 확인 중"
 
 #: pkg/packagekit/updates.jsx:1255
-#, fuzzy
-#| msgid "Checking $target"
 msgid "Checking software status"
-msgstr "$target 확인 중"
+msgstr "소프트웨어 상태 확인 중"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:370
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:371
@@ -1555,15 +1553,12 @@ msgstr "검색 지우기"
 
 #: pkg/users/account-create-dialog.js:209 pkg/users/password-dialogs.js:213
 msgid "Click $0 again to use the password anyway."
-msgstr ""
+msgstr "그래도 암호를 사용하려면 $0을(를) 다시 클릭하십시오."
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:58
-#, fuzzy
-#| msgid ""
-#| "Clicking \"Launch Remote Viewer\" will download a .vv file and launch $0."
 msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
-msgstr "\"원격 뷰어 시작\"을 클릭하면 .vv 파일을 다운로드하여 $0을 시작합니다."
+msgstr "\"원격 뷰어 시작\"을 클릭하면 .vv 파일을 다운로드하여 $0을(를) 시작합니다."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:21
 msgid "Client software"
@@ -1572,7 +1567,7 @@ msgstr "클라이언트 소프트웨어"
 #: pkg/machines/components/vm/vmCloneDialog.jsx:72
 #: pkg/machines/components/vm/vmActions.jsx:289
 msgid "Clone"
-msgstr ""
+msgstr "복제"
 
 #: pkg/networkmanager/index.html:276 pkg/networkmanager/index.html:305
 #: pkg/networkmanager/index.html:340 pkg/networkmanager/index.html:369
