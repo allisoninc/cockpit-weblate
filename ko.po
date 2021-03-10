@@ -1003,7 +1003,7 @@ msgstr "업데이트 적용 실패"
 
 #: pkg/shell/indexes.js:331
 msgid "Apps"
-msgstr "앱"
+msgstr "Apps"
 
 #: pkg/storaged/drive-details.jsx:60
 msgctxt "storage"
@@ -1015,11 +1015,9 @@ msgid "Asset tag"
 msgstr "자산 태그"
 
 #: pkg/storaged/mdraids-panel.jsx:116
-#, fuzzy
-#| msgid "At least one disk is needed."
 msgid "At least $0 disk is needed."
 msgid_plural "At least $0 disks are needed."
-msgstr[0] "최소 1개의 디스크가 필요합니다."
+msgstr[0] "최소 $0개의 디스크가 필요합니다."
 
 #: pkg/storaged/vgroups-panel.jsx:84 pkg/storaged/vgroup-details.jsx:70
 #: pkg/storaged/mdraid-details.jsx:66
