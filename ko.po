@@ -581,13 +581,13 @@ msgstr ""
 msgid "A package needs a system reboot for the updates to take effect:"
 msgid_plural ""
 "Some packages need a system reboot for the updates to take effect:"
-msgstr[0] "업데이트된 패키지를 적용하려면 시스템을 다시 시작해야 합니다.:"
+msgstr[0] "업데이트를 적용하려면 패키지의 시스템을 재부팅해야 합니다."
 
 #: pkg/packagekit/updates.jsx:1368
 msgid "A service needs to be restarted for the updates to take effect:"
 msgid_plural ""
 "Some services need to be restarted for the updates to take effect:"
-msgstr[0] ""
+msgstr[0] "업데이트를 적용하려면 서비스를 다시 시작해야 합니다."
 
 #: pkg/storaged/mdraid-details.jsx:130
 msgid "A spare disk needs to be added first before this disk can be removed."
@@ -616,11 +616,11 @@ msgstr "부재"
 #: pkg/shell/machines/machine-invalid-hostkey.html:27
 #: pkg/shell/machines/machine-unknown-hostkey.html:19
 msgid "Accept key and connect"
-msgstr ""
+msgstr "키 수락 및 연결"
 
 #: pkg/static/login.js:563
 msgid "Accept key and log in"
-msgstr ""
+msgstr "키 수락 및 로그인"
 
 #: pkg/machines/components/vm/disks/vmDisksCard.jsx:227
 #: pkg/machines/components/vm/disks/diskEdit.jsx:84
@@ -654,7 +654,7 @@ msgstr "활성화"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:115
 msgid "Activate the storage pool to administer volumes"
-msgstr ""
+msgstr "스토리지 풀을 활성화하여 볼륨 관리"
 
 #: pkg/storaged/jobs-panel.jsx:71
 msgid "Activating $target"
@@ -666,7 +666,7 @@ msgstr "활성"
 
 #: pkg/networkmanager/interfaces.js:1465 pkg/networkmanager/interfaces.js:1482
 msgid "Active backup"
-msgstr "활성화된 백업"
+msgstr "활성 백업"
 
 #: pkg/shell/index.html:74 pkg/shell/active-pages.js:95
 #: pkg/shell/active-pages-dialog.jsx:68
@@ -738,10 +738,8 @@ msgid "Add key"
 msgstr "키 추가"
 
 #: pkg/networkmanager/network-interface-members.jsx:197
-#, fuzzy
-#| msgid "RAID Member"
 msgid "Add member"
-msgstr "RAID 멤버"
+msgstr "멤버 추가"
 
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:88
 msgid "Add network interface"
