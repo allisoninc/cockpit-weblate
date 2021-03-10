@@ -1598,11 +1598,11 @@ msgstr "Cockpit 인증이 잘못 설정되어 있습니다."
 
 #: pkg/base1/cockpit.js:4069
 msgid "Cockpit could not contact the given host."
-msgstr "Cockpit을 지정된 호스트에 연결 할 수 없습니다."
+msgstr "Cockpit을 지정된 호스트에 연결할 수 없습니다."
 
 #: pkg/shell/shell-modals.jsx:119
 msgid "Cockpit had an unexpected internal error."
-msgstr ""
+msgstr "Cockpit에서 예기치 않은 내부 오류가 발생했습니다."
 
 #: src/ws/cockpit.appdata.xml.in:10
 msgid ""
