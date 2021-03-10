@@ -4017,7 +4017,7 @@ msgstr "낮은 프로파일 데스크탑"
 
 #: pkg/lib/machine-info.js:82
 msgid "Lunch box"
-msgstr "라운치 박스"
+msgstr "Lunch Box"
 
 # translation auto-copied from project Satellite6 Hammer CLI Foreman, version
 # 6.1, document hammer-cli-foreman
@@ -4036,7 +4036,7 @@ msgstr "MAC 주소"
 
 #: pkg/networkmanager/interfaces.js:1475
 msgid "MII (recommended)"
-msgstr "MII (권장 사항)"
+msgstr "MII(권장 사항)"
 
 #: pkg/networkmanager/network-interface.jsx:429
 msgid "MTU"
@@ -4067,72 +4067,52 @@ msgid "Make sure the key hash from the Tang server matches:"
 msgstr "Tang 서버의 키 해시가 일치하는지 확인합니다:"
 
 #: pkg/networkmanager/network-main.jsx:176
-#, fuzzy
-#| msgid "Unmanaged Interfaces"
 msgid "Managed interfaces"
-msgstr "관리되지 않는 인터페이스"
+msgstr "관리되는 인터페이스"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing LVMs"
-msgstr "서비스 관리"
+msgstr "LVM 관리"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing user accounts"
 msgid "Managing NFS mounts"
-msgstr "사용자 계정 관리"
+msgstr "NFS 마운트 관리"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing RAIDs"
-msgstr "서비스 관리"
+msgstr "RAID 관리"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing VDOs"
-msgstr "서비스 관리"
+msgstr "VDO 관리"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing VLANs"
-msgstr "서비스 관리"
+msgstr "VLAN 관리"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "Managing firewall"
 msgstr "방화벽 관리"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking bonds"
-msgstr "네트워킹 관리"
+msgstr "네트워킹 본드 관리"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking bridges"
-msgstr "네트워킹 관리"
+msgstr "네트워킹 브릿지 관리"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking teams"
-msgstr "네트워킹 관리"
+msgstr "네트워킹 팀 관리"
 
 #: pkg/storaged/manifest.json.in:0
 msgid "Managing partitions"
 msgstr "파티션 관리"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing physical drives"
-msgstr "서비스 관리"
+msgstr "물리적 드라이브 관리"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Managing services"
@@ -4176,7 +4156,7 @@ msgstr "마스크 또는 접두사 길이"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:63
 msgid "Mask or prefix length should not be empty"
-msgstr "마스크 또는 접두사 길이는 비워 둘 수 없습니다"
+msgstr "마스크 또는 접두사 길이는 비워둘 수 없습니다"
 
 #: pkg/systemd/services/service-details.jsx:158
 #: pkg/systemd/services/service-details.jsx:161
@@ -4209,12 +4189,8 @@ msgid "Maximum message age $max_age"
 msgstr "최대 메세지 수명 $max_age"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:199
-#, fuzzy
-#| msgid ""
-#| "Maximum number of virtual CPUs allocated for the guest OS, which must be "
-#| "between 1 and $0"
 msgid "Maximum number of virtual CPUs allocated for the guest OS"
-msgstr "게스트 OS에 할당된 가상 CPU의 최대 개수는 1에서 $0 사이여야 합니다"
+msgstr "게스트 OS에 할당된 가상 CPU의 최대 개수"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:198
 msgid ""
@@ -4224,7 +4200,7 @@ msgstr "게스트 OS에 할당된 가상 CPU의 최대 개수는 1에서 $0 사�
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:107
 msgid "Maximum transmission unit"
-msgstr "MTU (Maximum transmission unit)"
+msgstr "MTU(Maximum Transmission Unit)"
 
 #: pkg/storaged/content-views.jsx:405
 msgid "Member of RAID device"
@@ -4253,10 +4229,8 @@ msgid "Memory must not be 0"
 msgstr "메모리는 0이 아니어야 합니다"
 
 #: pkg/metrics/metrics.jsx:95
-#, fuzzy
-#| msgid "Memory usage:"
 msgid "Memory spike"
-msgstr "메모리 사용량:"
+msgstr "메모리 스파이크"
 
 #: pkg/systemd/hwinfo.jsx:308
 msgid "Memory technology"
@@ -4283,10 +4257,8 @@ msgid "Method"
 msgstr "방식"
 
 #: pkg/metrics/metrics.jsx:942
-#, fuzzy
-#| msgid "Memory could not be saved"
 msgid "Metrics history could not be loaded"
-msgstr "메모리를 저장할 수 없습니다"
+msgstr "메트릭 내역을 로드할 수 없습니다"
 
 #: pkg/machines/components/vm/overview/memorySelectRow.jsx:85
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:102
