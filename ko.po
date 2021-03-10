@@ -279,7 +279,7 @@ msgstr[0] "$0 vCPU"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:246
 msgid "$0 vCPU details"
-msgstr "$0 vCPU 세부정보"
+msgstr "$0 vCPU 세부 정보"
 
 #: pkg/machines/components/vm/nics/nicEdit.jsx:160
 msgid "$0 virtual network interface settings"
