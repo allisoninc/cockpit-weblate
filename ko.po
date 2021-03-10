@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
 "PO-Revision-Date: 2021-03-10 09:03+0000\n"
-"Last-Translator: simmon <simmon@nplob.com>\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/ko/>\n"
 "Language: ko\n"
@@ -24,12 +24,9 @@ msgstr ""
 "X-Generator: Weblate 4.5.1\n"
 
 #: pkg/metrics/metrics.jsx:379
-#, fuzzy
-#| msgid "of $0 CPU"
-#| msgid_plural "of $0 CPUs"
 msgid "$0 CPU"
 msgid_plural "$0 CPUs"
-msgstr[0] "$0 CPUs"
+msgstr[0] "$0 CPU"
 
 #: pkg/machines/components/vm/overview/cpuTypeModal.jsx:60
 msgid "$0 CPU configuration"
