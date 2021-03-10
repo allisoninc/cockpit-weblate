@@ -2084,7 +2084,7 @@ msgstr "이 브릿지를 생성하면 서버와의 연결이 끊어지고 관리
 msgid ""
 "Creating this team will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "이 팀을 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
+msgstr "이 팀을 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
 
 #: pkg/storaged/jobs-panel.jsx:74
 msgid "Creating volume group $target"
@@ -2095,10 +2095,8 @@ msgid "Creation of VM $0 failed"
 msgstr "VM $0 생성에 실패했습니다"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:103
-#, fuzzy
-#| msgid "Create Timer"
 msgid "Creation time"
-msgstr "타이머 만들기"
+msgstr "생성 시간"
 
 #: pkg/systemd/logs.html:54
 msgid "Critical and above"
@@ -2114,13 +2112,11 @@ msgstr "Ctrl+Insert"
 
 #: pkg/shell/shell-modals.jsx:123
 msgid "Ctrl-Shift-J"
-msgstr ""
+msgstr "Ctrl-Shift-J"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:109
-#, fuzzy
-#| msgid "Current boot"
 msgid "Current"
-msgstr "현재 부팅"
+msgstr "현재"
 
 #: pkg/machines/components/vm/overview/memoryModal.jsx:108
 msgid "Current allocation"
@@ -2145,10 +2141,8 @@ msgstr "사용자 정의 마운트 옵션"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:248
 #: pkg/machines/components/vm/disks/diskAdd.jsx:576
-#, fuzzy
-#| msgid "Custom Ports"
 msgid "Custom path"
-msgstr "사용자 지정 포트"
+msgstr "사용자 지정 경로"
 
 #: pkg/networkmanager/firewall.jsx:545
 msgid "Custom ports"
@@ -2185,7 +2179,7 @@ msgstr "DNS 검색 도메인 $val"
 
 #: pkg/packagekit/updates.jsx:844
 msgid "Danger alert:"
-msgstr ""
+msgstr "위험 경고:"
 
 #: pkg/systemd/terminal.jsx:108
 msgid "Dark"
