@@ -8727,7 +8727,7 @@ msgstr "apt-get"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "asset tag"
-msgstr "asset 태그"
+msgstr "asset tag"
 
 # translation auto-copied from project Customer Portal Translations, version
 # PortalCaseManagementStrings, document PortalCaseManagementStrings, author
@@ -8775,7 +8775,7 @@ msgstr "cdrom"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "cgroups"
-msgstr ""
+msgstr "cgroups"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "command"
