@@ -2072,7 +2072,7 @@ msgstr "이 VLAN을 생성하면 서버와의 연결이 끊어지고 관리 UI�
 msgid ""
 "Creating this bond will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "이 본드를 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
+msgstr "이 본드를 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
 
 #: pkg/networkmanager/interfaces.js:2864
 msgid ""
