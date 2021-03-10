@@ -4342,7 +4342,7 @@ msgstr "더 자세히"
 
 #: pkg/packagekit/updates.jsx:851
 msgid "More info..."
-msgstr "추가 정보..."
+msgstr "자세한 정보..."
 
 #: pkg/storaged/fsys-tab.jsx:289 pkg/storaged/content-views.jsx:377
 #: pkg/storaged/nfs-details.jsx:313 pkg/kdump/kdump-view.jsx:103
@@ -4363,7 +4363,7 @@ msgstr "$0에서 부팅시 자동으로 마운트하지 마십시오"
 
 #: pkg/storaged/fsys-tab.jsx:285
 msgid "Mount configuration"
-msgstr "설정 마운트"
+msgstr "구성 마운트"
 
 #: pkg/storaged/fsys-tab.jsx:283
 msgid "Mount filesystem"
@@ -4386,7 +4386,7 @@ msgstr "마운트 옵션"
 #: pkg/storaged/format-dialog.jsx:231 pkg/storaged/nfs-panel.jsx:103
 #: pkg/storaged/fsys-panel.jsx:95 pkg/storaged/nfs-details.jsx:334
 msgid "Mount point"
-msgstr "마운트 포인트"
+msgstr "마운트 지점"
 
 #: pkg/storaged/fsys-tab.jsx:89
 msgid "Mount point cannot be empty"
