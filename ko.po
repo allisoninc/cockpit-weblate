@@ -2776,7 +2776,7 @@ msgstr "시스템 수정을 검색하기 위해 semanage 실행 중 오류 발�
 
 #: pkg/users/authorized-keys.js:121
 msgid "Error saving authorized keys: "
-msgstr "승인된 키를 저장 오류: "
+msgstr "승인된 키를 저장하는 동안 오류가 발생했습니다: "
 
 #: pkg/selinux/setroubleshoot-client.js:193
 msgid "Error while deleting alert: $0"
