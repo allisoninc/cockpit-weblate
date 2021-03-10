@@ -2274,7 +2274,7 @@ msgstr "$target 삭제 중"
 msgid ""
 "Deleting <b>$0</b> will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "<b>$0</b>을/를 삭제하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
+msgstr "<b>$0</b>을/를 삭제하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
 
 #: pkg/storaged/mdraid-details.jsx:300
 msgid "Deleting a RAID device will erase all data on it."
@@ -2297,16 +2297,10 @@ msgid "Deleting a volume group will erase all data on it."
 msgstr "볼륨 그룹을 삭제하면 내부의 모든 데이터도 함께 삭제됩니다."
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:168
-#, fuzzy
-#| msgid ""
-#| "Deleting an inactive Storage Pool will only undefine the Pool. Its "
-#| "content will not be deleted."
 msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
-msgstr ""
-"비활성화된 스토리지 풀을 삭제하려면 풀 정의를 해제하면 됩니다. 컨텐츠는 삭제"
-"되지 않습니다."
+msgstr "비활성화된 스토리지 풀을 삭제하려면 풀 정의를 해제하면 됩니다. 컨텐츠는 삭제되지 않습니다."
 
 #: pkg/storaged/jobs-panel.jsx:75
 msgid "Deleting volume group $target"
@@ -2324,10 +2318,8 @@ msgid "Desktop"
 msgstr "데스크탑"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:100
-#, fuzzy
-#| msgid "Desktop"
 msgid "Desktop viewer"
-msgstr "데스크탑"
+msgstr "데스크탑 뷰어"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:152
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:179
@@ -2450,10 +2442,8 @@ msgstr "디스크 I/O"
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
 #: pkg/metrics/metrics.jsx:110
-#, fuzzy
-#| msgid "Disk I/O"
 msgid "Disk I/O spike"
-msgstr "디스크 I/O"
+msgstr "디스크 I/O 스파이크"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:526
 msgid "Disk failed to be attached"
@@ -2465,7 +2455,7 @@ msgstr "디스크를 만들지 못했습니다"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:261
 msgid "Disk image file"
-msgstr ""
+msgstr "디스크 이미지 파일"
 
 #: pkg/storaged/drive-details.jsx:64
 msgid "Disk is OK"
@@ -2483,7 +2473,7 @@ msgstr "디스크 설정을 저장할 수 없습니다"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:148
 msgid "Disk-only snapshot"
-msgstr ""
+msgstr "디스크 전용 스냅샷"
 
 #: pkg/storaged/vgroups-panel.jsx:79 pkg/storaged/mdraids-panel.jsx:110
 #: pkg/storaged/vgroup-details.jsx:65 pkg/storaged/mdraid-details.jsx:61
@@ -2541,11 +2531,11 @@ msgstr "도메인 관리자 암호"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:150
 msgid "Domain has crashed"
-msgstr ""
+msgstr "도메인이 충돌했습니다"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:149
 msgid "Domain is blocked on resource"
-msgstr ""
+msgstr "리소스에서 도메인이 차단되었습니다"
 
 #: pkg/storaged/format-dialog.jsx:196 pkg/storaged/content-views.jsx:593
 msgid "Don't overwrite existing data"
@@ -2594,11 +2584,9 @@ msgstr "드라이브"
 
 #: pkg/lib/machine-info.js:248
 msgid "Dual rank"
-msgstr "Dual rank"
+msgstr "듀얼 랭크(Dual Rank)"
 
 #: pkg/machines/helpers.js:217
-#, fuzzy
-#| msgid "dying"
 msgid "Dying"
 msgstr "종료 중"
 
@@ -2611,13 +2599,11 @@ msgstr "편집"
 
 #: pkg/machines/components/vm/disks/diskEdit.jsx:199
 msgid "Edit $0 attributes"
-msgstr ""
+msgstr "$0 속성 편집"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:87
-#, fuzzy
-#| msgid "Edit Host"
 msgid "Edit /etc/motd"
-msgstr "호스트 편집"
+msgstr "/etc/motd 편집"
 
 #: pkg/storaged/crypto-keyslots.jsx:279
 msgid "Edit Tang keyserver"
@@ -2632,14 +2618,12 @@ msgid "Edit hosts"
 msgstr "호스트 편집"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:77
-#, fuzzy
-#| msgid "Edit Host"
 msgid "Edit motd"
-msgstr "호스트 편집"
+msgstr "motd 편집"
 
 #: pkg/networkmanager/network-main.jsx:158
 msgid "Edit rules and zones"
-msgstr ""
+msgstr "규칙 및 영역 편집"
 
 #: pkg/storaged/crypto-keyslots.jsx:551
 msgid "Editing a key requires a free slot"
@@ -2672,10 +2656,8 @@ msgid "Emulated machine"
 msgstr "에뮬레이트된 기기"
 
 #: pkg/networkmanager/network-interface.jsx:732
-#, fuzzy
-#| msgid "Failed to disable tuned"
 msgid "Enable or disabnle the device"
-msgstr "tuned 비활성화에 실패했습니다"
+msgstr "장치 활성화 또는 비활성화"
 
 #: pkg/networkmanager/app.jsx:96
 msgid "Enable service"
@@ -2737,7 +2719,7 @@ msgstr "종료"
 #: pkg/machines/components/networks/createNetworkDialog.jsx:76
 #: pkg/machines/components/networks/createNetworkDialog.jsx:104
 msgid "End should not be empty"
-msgstr "끝은 비워 둘 수 없습니다"
+msgstr "끝은 비워둘 수 없습니다"
 
 #: pkg/selinux/setroubleshoot-view.jsx:295
 msgid "Enforcing"
