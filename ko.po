@@ -6249,7 +6249,7 @@ msgstr "STP Hello 타임"
 
 #: pkg/networkmanager/index.html:125
 msgid "STP maximum message age"
-msgstr "STP 최대 메시지 수명"
+msgstr "STP 최대 메시지 보관 기간"
 
 #: pkg/networkmanager/index.html:113
 msgid "STP priority"
@@ -6286,7 +6286,7 @@ msgstr "저장 및 재시작"
 #: pkg/packagekit/autoupdates.jsx:424
 #: pkg/systemd/overview-cards/motdCard.jsx:98
 msgid "Save changes"
-msgstr ""
+msgstr "변경 사항 저장"
 
 #: pkg/storaged/vdos-panel.jsx:121
 msgid "Save space by compressing individual blocks with LZ4"
