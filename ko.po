@@ -1030,7 +1030,7 @@ msgstr "특정 시간"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:214
 msgid "Attaching it will make this disk shareable for every VM using it."
-msgstr "연결하면 이 디스크를 사용하는 모든 VM에서 이 디스크를 공유 할 수 있습니다."
+msgstr "연결하면 이 디스크를 사용하는 모든 VM에서 공유할 수 있습니다."
 
 #: pkg/selinux/setroubleshoot-view.jsx:415
 msgid "Audit log"
@@ -1055,7 +1055,7 @@ msgstr "인증 실패"
 
 #: pkg/static/login.js:804
 msgid "Authentication failed: Server closed connection"
-msgstr "인증 실패 : 서버 연결 끊김"
+msgstr "인증 실패: 서버 연결 끊김"
 
 #: src/bridge/org.cockpit-project.cockpit-bridge.policy.in:11
 msgid ""
