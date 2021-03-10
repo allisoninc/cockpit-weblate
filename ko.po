@@ -131,7 +131,7 @@ msgstr "$0 파일 시스템의 크기를 조정할 수 없습니다."
 
 #: pkg/metrics/metrics.jsx:515
 msgid "$0 free"
-msgstr "$0 여유"
+msgstr "$0 여유공간"
 
 #: pkg/systemd/overview.jsx:98
 msgctxt "<date> from <host>"
