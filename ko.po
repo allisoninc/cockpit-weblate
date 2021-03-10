@@ -258,7 +258,7 @@ msgstr[0] "$0 슬롯이 남아 있습니다"
 
 #: pkg/metrics/metrics.jsx:523
 msgid "$0 total"
-msgstr "$0 전체"
+msgstr "총 $0"
 
 #: pkg/packagekit/updates.jsx:727
 msgid "$0 update available"
