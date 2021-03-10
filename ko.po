@@ -1069,7 +1069,7 @@ msgstr "인증이 필요합니다"
 
 #: pkg/shell/machines/machine-dialogs.js:752
 msgid "Authorize SSH key."
-msgstr "승인된 공개 SSH 키."
+msgstr "SSH 키 승인:"
 
 #: pkg/users/authorized-keys-panel.js:149
 msgid "Authorized public SSH keys"
@@ -1094,20 +1094,16 @@ msgstr "자동(DHCP)"
 
 #: pkg/shell/machines/machine-change-auth.html:39
 #: pkg/shell/machines/machine-change-auth.html:57
-#, fuzzy
-#| msgid "Automatic"
 msgid "Automatic login"
-msgstr "자동"
+msgstr "자동 로그인"
 
 #: pkg/packagekit/autoupdates.jsx:416 pkg/packagekit/updates.jsx:825
 msgid "Automatic updates"
 msgstr "자동 업데이트"
 
 #: pkg/packagekit/autoupdates.jsx:272
-#, fuzzy
-#| msgid "Automatic Updates"
 msgid "Automatic updates are not set up"
-msgstr "자동 업데이트"
+msgstr "자동 업데이트가 설정되어 있지 않습니다"
 
 #: pkg/machines/components/libvirtSlate.jsx:94
 msgid "Automatically start libvirt on boot"
@@ -1158,7 +1154,7 @@ msgstr "BIOS 버전"
 
 #: pkg/users/account-details.js:221
 msgid "Back to accounts"
-msgstr "계정으로 돌아 가기"
+msgstr "계정으로 돌아가기"
 
 #: pkg/storaged/vdo-details.jsx:275
 msgid "Backing device"
@@ -1174,7 +1170,7 @@ msgstr "이전"
 
 #: pkg/systemd/services/service-details.jsx:385
 msgid "Binds to"
-msgstr "바인딩"
+msgstr "바인딩 위치"
 
 #: pkg/storaged/mdraid-details.jsx:203
 msgctxt "storage"
@@ -1212,8 +1208,6 @@ msgid "Bond"
 msgstr "본드"
 
 #: pkg/networkmanager/index.html:310
-#, fuzzy
-#| msgid "Bond Settings"
 msgid "Bond settings"
 msgstr "본드 설정"
 
@@ -1228,7 +1222,7 @@ msgstr "부팅 순서 설정을 저장하지 못했습니다"
 
 #: pkg/systemd/services/service-details.jsx:390
 msgid "Bound by"
-msgstr "바인딩됨"
+msgstr "바인딩 기준"
 
 #: pkg/networkmanager/network-interface.jsx:183
 #: pkg/networkmanager/network-interface.jsx:195
@@ -1285,10 +1279,12 @@ msgid ""
 "${luser} on ${lhost}, the key will be automatically made available and you "
 "can log in to ${rhost} without password in the future."
 msgstr ""
+"SSH 키 ${key}의 암호를 ${luser}의 ${lhost} 로그인 암호로 변경하면 키가 자동으로 제공되며 추후 암호 없이 "
+"${rhost}에 로그인할 수 있습니다."
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:263
 msgid "CD/DVD disc"
-msgstr ""
+msgstr "CD/DVD 디스크"
 
 #: pkg/metrics/metrics.jsx:429 pkg/metrics/metrics.jsx:1007
 #: pkg/machines/components/vm/vmUsageCard.jsx:71 pkg/systemd/hwinfo.jsx:113
@@ -1297,10 +1293,8 @@ msgid "CPU"
 msgstr "CPU"
 
 #: pkg/machines/components/vm/overview/cpuTypeModal.jsx:26
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "CPU configuration could not be saved"
-msgstr "VCPU 설정을 저장할 수 없습니다"
+msgstr "CPU 구성을 저장할 수 없습니다"
 
 #: pkg/systemd/hwinfo.jsx:118
 msgid "CPU security"
@@ -1311,10 +1305,8 @@ msgid "CPU security toggles"
 msgstr "CPU 보안 전환"
 
 #: pkg/metrics/metrics.jsx:81
-#, fuzzy
-#| msgid "CPU Type"
 msgid "CPU spike"
-msgstr "CPU 유형"
+msgstr "CPU 스파이크"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:230
 msgid "CPU type"
@@ -1326,7 +1318,7 @@ msgstr "CPU 사용량"
 
 #: pkg/packagekit/updates.jsx:299
 msgid "CVE"
-msgstr ""
+msgstr "CVE"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:149
 #: pkg/machines/components/vm/disks/vmDiskColumns.jsx:75
@@ -1335,7 +1327,7 @@ msgstr "캐시"
 
 #: pkg/shell/machines/machine-add.html:26
 msgid "Can be a hostname, IP address, alias name, or ssh:// URI"
-msgstr ""
+msgstr "호스트 이름, IP 주소, 별칭 이름 또는 ssh:// URI일 수 있습니다"
 
 #: pkg/systemd/logs.js:140 pkg/systemd/logs.js:268
 msgid "Can not find any logs using the current combination of filters."
@@ -1394,10 +1386,8 @@ msgid "Cannot be enabled"
 msgstr "활성화할 수 없습니다"
 
 #: pkg/shell/indexes.js:492
-#, fuzzy
-#| msgid "Cannot connect to an unknown machine"
 msgid "Cannot connect to an unknown host"
-msgstr "알 수 없는 컴퓨터에 연결할 수 없습니다"
+msgstr "알 수 없는 호스트에 연결할 수 없습니다"
 
 #: pkg/base1/cockpit.js:4063
 msgid "Cannot forward login credentials"
@@ -1449,7 +1439,7 @@ msgstr "암호문 변경"
 
 #: pkg/shell/index.html:276
 msgid "Change password"
-msgstr "비밀번호 변경"
+msgstr "암호 변경"
 
 #: pkg/tuned/dialog.js:187
 msgid "Change performance profile"
