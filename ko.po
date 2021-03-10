@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
-"PO-Revision-Date: 2021-03-10 09:04+0000\n"
+"PO-Revision-Date: 2021-03-10 14:47+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/ko/>\n"
@@ -7188,7 +7188,7 @@ msgid ""
 "The SSH key ${key} of ${luser} on ${lhost} will be added to the ${afile} "
 "file of ${ruser} on ${rhost}."
 msgstr ""
-"${luser}의 ${lhost} SSH 키 ${key}이(가) ${rhost}에서 ${ruser}의 ${afile} 파일에 추가됩니다"
+"${luser}의 ${lhost} SSH 키 ${key}이(가) ${rhost}에서 ${ruser}의 ${afile} 파일에 추가됩니다."
 
 #: pkg/shell/machines/machine-change-auth.html:28
 msgid ""
@@ -9357,7 +9357,7 @@ msgstr "알 수 없는 대상"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "unmask"
-msgstr "언매스크"
+msgstr "unmask"
 
 #: pkg/storaged/manifest.json.in:0
 msgid "unmount"
@@ -9412,21 +9412,14 @@ msgid "vhostuser"
 msgstr "vhostuser"
 
 #: pkg/machines/components/common/stateIcon.jsx:60
-#, fuzzy
-#| msgid "Read more..."
 msgid "view more..."
 msgstr "더 알아보기..."
 
 #: pkg/machines/components/vm/vmActions.jsx:298
-#, fuzzy
-#| msgid ""
-#| "virt-install package needs to be installed on the system in order to "
-#| "create new VMs"
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
-msgstr ""
-"새로운 가상 머신을 생성하려면 시스템에 virt-install 패키지를 설치해야 합니다"
+msgstr "VM을 복제하려면 시스템에 virt-install 패키지를 설치해야 합니다"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1001
 msgid ""
@@ -9436,15 +9429,10 @@ msgstr ""
 "새로운 가상 머신을 생성하려면 시스템에 virt-install 패키지를 설치해야 합니다"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:183
-#, fuzzy
-#| msgid ""
-#| "virt-install package needs to be installed on the system in order to "
-#| "create new VMs"
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
-msgstr ""
-"새로운 가상 머신을 생성하려면 시스템에 virt-install 패키지를 설치해야 합니다"
+msgstr "이 속성을 편집하려면 시스템에 virt-install 패키지를 설치해야 합니다"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "vlan"
@@ -9464,7 +9452,7 @@ msgstr "경고"
 
 #: pkg/packagekit/autoupdates.jsx:270
 msgid "will be applied $0 at $1"
-msgstr ""
+msgstr "$1에서 $0에 적용됩니다"
 
 #: pkg/machines/helpers.js:259
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:69
@@ -9483,7 +9471,7 @@ msgstr "영역"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:2
 msgid "{{host}} key changed"
-msgstr ""
+msgstr "{{host}} 키 변경됨"
 
 #~ msgid "$0 Template"
 #~ msgstr "$0 템플릿"
