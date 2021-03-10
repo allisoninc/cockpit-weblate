@@ -1769,7 +1769,7 @@ msgstr "연결 대상"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:46
 msgid "Connect with any viewer application for following protocols"
-msgstr "제시된 통신규약을 위하여 보기용 응용프로그램에 연결합니다"
+msgstr "다음 프로토콜에 대해 뷰어 애플리케이션에 연결합니다"
 
 #: pkg/shell/machines/machine-add.html:46
 msgid ""
@@ -1786,7 +1786,7 @@ msgstr "장치에 연결 중입니다"
 
 #: pkg/machines/components/libvirtSlate.jsx:79
 msgid "Connecting to virtualization service"
-msgstr "가상 서비스에 연결 중입니다"
+msgstr "가상화 서비스에 연결 중입니다"
 
 # ctx::sourcefile::Navigation Menu
 #: pkg/machines/components/vms/hostvmslist.jsx:138
@@ -1819,8 +1819,6 @@ msgstr "구성"
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:89
 #: pkg/machines/components/vm/vmDetailsPage.jsx:117
-#, fuzzy
-#| msgid "Consoles"
 msgid "Console"
 msgstr "콘솔"
 
@@ -1844,10 +1842,8 @@ msgid "Content"
 msgstr "컨텐츠"
 
 #: pkg/packagekit/updates.jsx:694
-#, fuzzy
-#| msgid "Container"
 msgid "Continue"
-msgstr "컨테이너"
+msgstr "계속"
 
 #: pkg/shell/shell-modals.jsx:106
 msgid "Continue session"
@@ -1875,10 +1871,8 @@ msgid "Copy to clipboard"
 msgstr "클립보드로 복사"
 
 #: pkg/metrics/metrics.jsx:411
-#, fuzzy
-#| msgid "Remove $0"
 msgid "Core $0"
-msgstr "$0 삭제"
+msgstr "코어 $0"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:225
 msgid "Cores per socket"
@@ -1889,10 +1883,8 @@ msgid "Could not contact {{host}}"
 msgstr "{{host}}에 연결할 수 없습니다"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:50
-#, fuzzy
-#| msgid "Could not reset the storage pool"
 msgid "Could not revert to snapshot"
-msgstr "스토리지 풀을 재설정할 수 없습니다"
+msgstr "스냅샷으로 전환할 수 없습니다"
 
 #: pkg/kdump/kdump-view.jsx:341 pkg/kdump/kdump-view.jsx:523
 msgid "Crash dump location"
@@ -1907,10 +1899,8 @@ msgid "Crash system"
 msgstr "크래시 시스템"
 
 #: pkg/machines/helpers.js:216
-#, fuzzy
-#| msgid "crashed"
 msgid "Crashed"
-msgstr "충돌됨"
+msgstr "충돌함"
 
 #: pkg/storaged/content-views.jsx:132 pkg/storaged/content-views.jsx:278
 #: pkg/storaged/content-views.jsx:785 pkg/storaged/vgroups-panel.jsx:90
@@ -1939,14 +1929,12 @@ msgid "Create VM"
 msgstr "가상 머신 만들기"
 
 #: pkg/machines/components/vm/vmCloneDialog.jsx:63
-#, fuzzy
-#| msgid "Create Partition on $0"
 msgid "Create a clone VM based on $0"
-msgstr "$0에 파티션 만들기"
+msgstr "$0 기준 복제 VM 만들기"
 
 #: pkg/shell/machines/machine-dialogs.js:731
 msgid "Create a new SSH key and authorize it."
-msgstr ""
+msgstr "새 SSH 키를 생성하고 승인합니다."
 
 #: pkg/storaged/things-panel.jsx:66
 msgid "Create devices"
