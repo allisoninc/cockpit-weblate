@@ -3203,7 +3203,7 @@ msgstr "도메인에서 호스트 이름을 변경할 수 없습니다"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:121
 msgid "Host should not be empty"
-msgstr "호스트는 비워 둘 수 없습니다"
+msgstr "호스트는 비워둘 수 없습니다"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:174
 msgid "Hostname"
@@ -3240,10 +3240,8 @@ msgid "ID"
 msgstr "ID"
 
 #: pkg/networkmanager/network-interface.jsx:588
-#, fuzzy
-#| msgid "Id $id"
 msgid "ID $id"
-msgstr "Id $id"
+msgstr "ID $id"
 
 #: pkg/networkmanager/network-main.jsx:180
 #: pkg/networkmanager/network-main.jsx:195
@@ -3261,11 +3259,9 @@ msgstr ""
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:175
 msgid "IP configuration"
-msgstr "IP 설정"
+msgstr "IP 구성"
 
 #: pkg/networkmanager/index.html:280
-#, fuzzy
-#| msgid "IP Settings"
 msgid "IP settings"
 msgstr "IP 설정"
 
@@ -3287,7 +3283,7 @@ msgstr "IPv4 네트워크"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:58
 msgid "IPv4 network should not be empty"
-msgstr "IPv4 네트워크는 비워 둘 수 없습니다"
+msgstr "IPv4 네트워크는 비워둘 수 없습니다"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:181
 msgid "IPv4 only"
@@ -3311,7 +3307,7 @@ msgstr "IPv6 네트워크"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:86
 msgid "IPv6 network should not be empty"
-msgstr "IPv6 네트워크는 비워 둘 수 없습니다"
+msgstr "IPv6 네트워크는 비워둘 수 없습니다"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:182
 msgid "IPv6 only"
@@ -3327,7 +3323,7 @@ msgstr "식별자"
 
 #: pkg/machines/helpers.js:212
 msgid "Idle"
-msgstr ""
+msgstr "유휴상태"
 
 #: pkg/storaged/crypto-keyslots.jsx:336
 msgid "If tang-show-keys is not available, run the following:"
@@ -3338,13 +3334,13 @@ msgstr "tang-show-keys를 사용할 수 없는 경우 다음을 실행합니다:
 msgid ""
 "If the fingerprint matches, click \"Accept key and connect\". Otherwise, do "
 "not connect and contact your administrator."
-msgstr ""
+msgstr "지문이 일치하면 \"키 수락 및 연결\"을 클릭합니다. 일치 하지 않을 경우 관리자에게 문의하십시오."
 
 #: pkg/static/login.html:67
 msgid ""
 "If the fingerprint matches, click \"Accept key and log in\". Otherwise, do "
 "not log in and contact your administrator."
-msgstr ""
+msgstr "지문이 일치하면 \"키 수락 및 로그인\"을 클릭합니다. 일치 하지 않을 경우 로그인하지 않고 관리자에게 문의하십시오."
 
 #: pkg/networkmanager/interfaces.js:1459 pkg/packagekit/updates.jsx:618
 #: pkg/packagekit/updates.jsx:693
@@ -3357,7 +3353,7 @@ msgstr "이미지 빌더"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:812
 msgid "Immediately start VM"
-msgstr "가상 머신을 바로 시작"
+msgstr "VM을 바로 시작"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:923
 msgid "Import"
@@ -3368,14 +3364,12 @@ msgid "Import VM"
 msgstr "VM 가져 오기"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:916
-#, fuzzy
-#| msgid "Import A Virtual Machine"
 msgid "Import a virtual machine"
 msgstr "가상 머신 가져 오기"
 
 #: pkg/metrics/metrics.jsx:544
 msgid "In"
-msgstr ""
+msgstr "인"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:246
 msgid ""
@@ -3391,6 +3385,8 @@ msgid ""
 "future, use the login password of ${luser} on ${lhost} as the key password, "
 "or leave the key password blank."
 msgstr ""
+"추후 암호 없이 ${rhost}에 ${ruser}(으)로 로그인하려면 ${luser}의 ${lhost} 로그인 암호를 키 암호로 "
+"사용하거나 키 암호를 비워 두십시오."
 
 #: pkg/storaged/mdraid-details.jsx:108
 msgid "In sync"
@@ -3420,7 +3416,7 @@ msgstr "인덱스 메모리"
 
 #: pkg/packagekit/updates.jsx:685
 msgid "Info"
-msgstr ""
+msgstr "정보"
 
 #: pkg/systemd/logs.html:58
 msgid "Info and above"
@@ -3462,7 +3458,7 @@ msgstr "모든 업데이트 설치"
 
 #: pkg/metrics/metrics.jsx:937
 msgid "Install cockpit-pcp"
-msgstr ""
+msgstr "cockpit-pcp 설치"
 
 #: pkg/packagekit/updates.jsx:1270 pkg/packagekit/updates.jsx:1276
 msgid "Install security updates"
@@ -3477,14 +3473,12 @@ msgid "Install software"
 msgstr "소프트웨어 설치"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:305
-#, fuzzy
-#| msgid "Installation Source"
 msgid "Installation source"
 msgstr "설치 소스"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:162
 msgid "Installation source must not be empty"
-msgstr "설치 소스는 비워 둘 수 없습니다"
+msgstr "설치 소스는 비워둘 수 없습니다"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:285
 msgid "Installation type"
@@ -3506,17 +3500,13 @@ msgid "Installing $0"
 msgstr "$0 설치 중"
 
 #: pkg/metrics/metrics.jsx:544
-#, fuzzy
-#| msgid "Interfaces"
 msgid "Interface"
 msgstr "인터페이스"
 
 #: pkg/networkmanager/network-interface-members.jsx:208
 #: pkg/networkmanager/network-interface-members.jsx:213
-#, fuzzy
-#| msgid "Interfaces"
 msgid "Interface members"
-msgstr "인터페이스"
+msgstr "인터페이스 멤버"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:122
 msgid "Interface type"
@@ -3635,7 +3625,7 @@ msgstr "IoT 게이트웨이"
 
 #: pkg/metrics/metrics.jsx:943
 msgid "Is 'pmlogger' service running?"
-msgstr ""
+msgstr "'pmlogger' 서비스가 실행 중입니까?"
 
 #: pkg/shell/machines/machine-change-port.html:10
 msgid "Is sshd running on a different port?"
@@ -3643,7 +3633,7 @@ msgstr "다른 포트에서 sshd가 실행되고 있습니까?"
 
 #: pkg/machines/components/create-vm-dialog/pxe-helpers.js:108
 msgid "Isolated network"
-msgstr "독립된 네트워크"
+msgstr "격리된 네트워크"
 
 #: pkg/storaged/jobs-panel.jsx:189
 msgid "Jobs"
@@ -3660,7 +3650,7 @@ msgstr "도메인에 가입"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:610
 msgid "Join domain"
-msgstr "도메인 참가"
+msgstr "도메인 가입"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:634
 msgid "Joining a domain requires installation of realmd"
@@ -3688,7 +3678,7 @@ msgstr "저널 엔트리를 찾을 수 없습니다"
 
 #: pkg/metrics/metrics.jsx:998
 msgid "Jump to"
-msgstr ""
+msgstr "다음으로 이동"
 
 #: pkg/kdump/kdump-view.jsx:465
 msgid ""
@@ -3716,10 +3706,8 @@ msgstr "커널 덤프"
 #: pkg/shell/machines/machine-change-auth.html:38
 #: pkg/shell/machines/machine-change-auth.html:53
 #: pkg/shell/machines/machine-dialogs.js:734
-#, fuzzy
-#| msgid "password"
 msgid "Key password"
-msgstr "암호"
+msgstr "키 암호"
 
 #: pkg/storaged/crypto-keyslots.jsx:579
 msgid "Key slots with unknown types can not be edited here"
@@ -3782,8 +3770,6 @@ msgid "Last login:"
 msgstr "마지막 로그인:"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:54
-#, fuzzy
-#| msgid "Launch Remote Viewer"
 msgid "Launch remote viewer"
 msgstr "원격 뷰어 시작"
 
