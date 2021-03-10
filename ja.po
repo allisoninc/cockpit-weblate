@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
-"PO-Revision-Date: 2021-02-28 12:40+0000\n"
-"Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
+"PO-Revision-Date: 2021-03-10 14:47+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "cockpit/rhel8/ja/>\n"
 "Language: ja\n"
@@ -22,45 +22,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: pkg/metrics/metrics.jsx:379
-#, fuzzy
-#| msgid "of $0 CPU"
-#| msgid_plural "of $0 CPUs"
 msgid "$0 CPU"
 msgid_plural "$0 CPUs"
-msgstr[0] "CPU 数 ($0)"
+msgstr[0] "$0 CPU"
 
 #: pkg/machines/components/vm/overview/cpuTypeModal.jsx:60
-#, fuzzy
-#| msgid "Configuration"
 msgid "$0 CPU configuration"
-msgstr "設定"
+msgstr "$0 CPU 設定"
 
 #: pkg/metrics/metrics.jsx:402 pkg/metrics/metrics.jsx:473
-#, fuzzy
-#| msgid "Not available"
 msgid "$0 GiB available"
-msgstr "利用できません"
+msgstr "$0 GiB が利用可能"
 
 #: pkg/metrics/metrics.jsx:394 pkg/metrics/metrics.jsx:464
 msgid "$0 GiB total"
-msgstr ""
+msgstr "$0 GiB の合計"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:77
-#, fuzzy
-#| msgid "$0 Network"
 msgid "$0 Network"
 msgid_plural "$0 Networks"
 msgstr[0] "$0 ネットワーク"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:52
-#, fuzzy
-#| msgid "Storage pool"
 msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
-msgstr[0] "ストレージプール"
+msgstr[0] "$0 ストレージプール"
 
 #: pkg/networkmanager/network-main.jsx:167
 msgid "$0 active zone"
@@ -142,10 +131,8 @@ msgid "$0 filesystems can not be resized here."
 msgstr "ここでは、$0 ファイルシステムのサイズを変更できません。"
 
 #: pkg/metrics/metrics.jsx:515
-#, fuzzy
-#| msgid "$0, $1 free"
 msgid "$0 free"
-msgstr "$0, $1 空き"
+msgstr "$0 空き"
 
 #: pkg/systemd/overview.jsx:98
 msgctxt "<date> from <host>"
@@ -189,7 +176,7 @@ msgstr "$0 は、あらゆるリポジトリーから利用できません。"
 
 #: pkg/static/login.js:642
 msgid "$0 key changed"
-msgstr ""
+msgstr "$0 キーが変更されました"
 
 #: pkg/base1/cockpit.js:2798
 msgid "$0 killed with signal $1"
@@ -224,9 +211,6 @@ msgid "$0 network"
 msgstr "$0 ネットワーク"
 
 #: pkg/selinux/setroubleshoot-view.jsx:430
-#, fuzzy
-#| msgid "$0 occurrence"
-#| msgid_plural "$1 occurrences"
 msgid "$0 occurrence"
 msgid_plural "$0 occurrences"
 msgstr[0] "$0 件"
@@ -248,20 +232,17 @@ msgstr[0] "$0 パッケージ"
 #: pkg/packagekit/updates.jsx:635 pkg/packagekit/updates.jsx:747
 msgid "$0 package needs a system reboot"
 msgid_plural "$0 packages need a system reboot"
-msgstr[0] ""
+msgstr[0] "$0 パッケージにはシステムの再起動が必要です"
 
 #: pkg/metrics/metrics.jsx:106
 msgid "$0 page"
 msgid_plural "$0 pages"
-msgstr[0] ""
+msgstr[0] "$0 ページ"
 
 #: pkg/packagekit/updates.jsx:719
-#, fuzzy
-#| msgid "$1 security fix"
-#| msgid_plural "$1 security fixes"
 msgid "$0 security fix available"
 msgid_plural "$0 security fixes available"
-msgstr[0] "$1 セキュリティー修正"
+msgstr[0] "$0 セキュリティー修正が利用可能"
 
 #: pkg/systemd/services/services.jsx:654
 msgid "$0 service has failed"
@@ -269,43 +250,32 @@ msgid_plural "$0 services have failed"
 msgstr[0] "失敗したサービスの数 ($0)"
 
 #: pkg/packagekit/updates.jsx:652 pkg/packagekit/updates.jsx:759
-#, fuzzy
-#| msgid "$0 service has failed"
-#| msgid_plural "$0 services have failed"
 msgid "$0 service needs to be restarted"
 msgid_plural "$0 services need to be restarted"
-msgstr[0] "失敗したサービスの数 ($0)"
+msgstr[0] "$0 サービスを再起動する必要があります"
 
 #: pkg/storaged/crypto-keyslots.jsx:592
-#, fuzzy
-#| msgid "$0 slots remain"
 msgid "$0 slot remains"
 msgid_plural "$0 slots remain"
 msgstr[0] "$0 スロットが残ります"
 
 #: pkg/metrics/metrics.jsx:523
-#, fuzzy
-#| msgid "Total"
 msgid "$0 total"
-msgstr "合計"
+msgstr "$0 合計"
 
 #: pkg/packagekit/updates.jsx:727
-#, fuzzy
-#| msgid "Updates Available"
 msgid "$0 update available"
 msgid_plural "$0 updates available"
-msgstr[0] "更新を利用できます"
+msgstr[0] "$0 更新を利用できます"
 
 #: pkg/storaged/vdo-details.jsx:301
 msgid "$0 used of $1 ($2 saved)"
 msgstr "$0 が $1 ($2 が保存) を使用しています"
 
 #: pkg/machines/components/vm/vmUsageCard.jsx:49
-#, fuzzy
-#| msgid "vCPUs"
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
-msgstr[0] "vCPU"
+msgstr[0] "$0 vCPU"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:246
 msgid "$0 vCPU details"
@@ -407,10 +377,8 @@ msgid "14th"
 msgstr "14 日"
 
 #: pkg/metrics/metrics.jsx:285
-#, fuzzy
-#| msgid "5 min"
 msgid "15 min"
-msgstr "5 分"
+msgstr "15 分"
 
 #: pkg/systemd/services.html:95
 msgid "15th"
@@ -613,18 +581,16 @@ msgstr ""
 " ファイルに追加されました。"
 
 #: pkg/packagekit/updates.jsx:1364
-#, fuzzy
-#| msgid "Updated packages may require a restart to take effect."
 msgid "A package needs a system reboot for the updates to take effect:"
 msgid_plural ""
 "Some packages need a system reboot for the updates to take effect:"
-msgstr[0] "パッケージの更新を反映するには、再起動が必要になる場合があります。"
+msgstr[0] "パッケージの更新を有効にするには、システムを再起動する必要があります。"
 
 #: pkg/packagekit/updates.jsx:1368
 msgid "A service needs to be restarted for the updates to take effect:"
 msgid_plural ""
 "Some services need to be restarted for the updates to take effect:"
-msgstr[0] ""
+msgstr[0] "更新を有効にするには、サービスを再起動する必要があります。"
 
 #: pkg/storaged/mdraid-details.jsx:130
 msgid "A spare disk needs to be added first before this disk can be removed."
@@ -653,11 +619,11 @@ msgstr "不在"
 #: pkg/shell/machines/machine-invalid-hostkey.html:27
 #: pkg/shell/machines/machine-unknown-hostkey.html:19
 msgid "Accept key and connect"
-msgstr ""
+msgstr "キーを受け入れて接続"
 
 #: pkg/static/login.js:563
 msgid "Accept key and log in"
-msgstr ""
+msgstr "キーを受け入れてログイン"
 
 #: pkg/machines/components/vm/disks/vmDisksCard.jsx:227
 #: pkg/machines/components/vm/disks/diskEdit.jsx:84
@@ -691,7 +657,7 @@ msgstr "有効化"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:115
 msgid "Activate the storage pool to administer volumes"
-msgstr ""
+msgstr "ストレージプールをアクティベートしてボリュームを管理"
 
 #: pkg/storaged/jobs-panel.jsx:71
 msgid "Activating $target"
@@ -775,10 +741,8 @@ msgid "Add key"
 msgstr "鍵の追加"
 
 #: pkg/networkmanager/network-interface-members.jsx:197
-#, fuzzy
-#| msgid "RAID Member"
 msgid "Add member"
-msgstr "RAID メンバー"
+msgstr "メンバーの追加"
 
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:88
 msgid "Add network interface"
@@ -925,10 +889,8 @@ msgid "Advanced TCA"
 msgstr "高度な TCA"
 
 #: pkg/storaged/dialog.jsx:951
-#, fuzzy
-#| msgid "Current Allocation"
 msgid "Affected locations"
-msgstr "現在の割り当て"
+msgstr "影響を受ける場所"
 
 #: pkg/systemd/services/service-details.jsx:395
 msgid "After"
@@ -960,7 +922,7 @@ msgstr "システムブート後"
 
 #: pkg/selinux/setroubleshoot-view.jsx:454
 msgid "Alert"
-msgstr ""
+msgstr "アラート"
 
 #: pkg/systemd/logs.html:53
 msgid "Alert and above"
@@ -977,10 +939,8 @@ msgid "All logs"
 msgstr "すべてのログ"
 
 #: pkg/packagekit/autoupdates.jsx:367
-#, fuzzy
-#| msgid "Apply all updates"
 msgid "All updates"
-msgstr "すべてのアップデートを適用します"
+msgstr "すべてのアップデート"
 
 #: pkg/lib/machine-info.js:79
 msgid "All-in-one"
@@ -1008,10 +968,8 @@ msgid "Ansible roles documentation"
 msgstr "Ansible ロールのドキュメント"
 
 #: pkg/systemd/terminal.jsx:100 pkg/systemd/terminal.jsx:104
-#, fuzzy
-#| msgid "Appearance:"
 msgid "Appearance"
-msgstr "外観:"
+msgstr "外観"
 
 #: pkg/apps/index.html:23 pkg/apps/application.jsx:148
 #: pkg/apps/application-list.jsx:169 pkg/apps/manifest.json.in:0
@@ -1065,11 +1023,9 @@ msgid "Asset tag"
 msgstr "アセットタグ"
 
 #: pkg/storaged/mdraids-panel.jsx:116
-#, fuzzy
-#| msgid "At least one disk is needed."
 msgid "At least $0 disk is needed."
 msgid_plural "At least $0 disks are needed."
-msgstr[0] "少なくとも 1 つのディスクが必要です。"
+msgstr[0] "少なくとも $0 ディスクが必要です。"
 
 #: pkg/storaged/vgroups-panel.jsx:84 pkg/storaged/vgroup-details.jsx:70
 #: pkg/storaged/mdraid-details.jsx:66
@@ -1154,10 +1110,8 @@ msgid "Automatic updates"
 msgstr "自動アップデート"
 
 #: pkg/packagekit/autoupdates.jsx:272
-#, fuzzy
-#| msgid "Automatic Updates"
 msgid "Automatic updates are not set up"
-msgstr "自動アップデート"
+msgstr "自動更新が設定されていません"
 
 #: pkg/machines/components/libvirtSlate.jsx:94
 msgid "Automatically start libvirt on boot"
@@ -1262,8 +1216,6 @@ msgid "Bond"
 msgstr "Bond"
 
 #: pkg/networkmanager/index.html:310
-#, fuzzy
-#| msgid "Bond Settings"
 msgid "Bond settings"
 msgstr "ボンド設定"
 
@@ -1339,7 +1291,7 @@ msgstr ""
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:263
 msgid "CD/DVD disc"
-msgstr ""
+msgstr "CD/DVD ディスク"
 
 #: pkg/metrics/metrics.jsx:429 pkg/metrics/metrics.jsx:1007
 #: pkg/machines/components/vm/vmUsageCard.jsx:71 pkg/systemd/hwinfo.jsx:113
@@ -1348,10 +1300,8 @@ msgid "CPU"
 msgstr "CPU"
 
 #: pkg/machines/components/vm/overview/cpuTypeModal.jsx:26
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "CPU configuration could not be saved"
-msgstr "VCPU 設定を保存できませんでした"
+msgstr "CPU 設定を保存できませんでした"
 
 #: pkg/systemd/hwinfo.jsx:118
 msgid "CPU security"
@@ -1362,20 +1312,16 @@ msgid "CPU security toggles"
 msgstr "CPU セキュリティートグル"
 
 #: pkg/metrics/metrics.jsx:81
-#, fuzzy
-#| msgid "CPU Type"
 msgid "CPU spike"
-msgstr "CPU タイプ"
+msgstr "cpu スパイク"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:230
 msgid "CPU type"
 msgstr "CPU タイプ"
 
 #: pkg/metrics/metrics.jsx:80
-#, fuzzy
-#| msgid "CPU usage:"
 msgid "CPU usage"
-msgstr "CPU 使用率:"
+msgstr "CPU 使用率"
 
 #: pkg/packagekit/updates.jsx:299
 msgid "CVE"
@@ -1388,7 +1334,7 @@ msgstr "キャッシュ"
 
 #: pkg/shell/machines/machine-add.html:26
 msgid "Can be a hostname, IP address, alias name, or ssh:// URI"
-msgstr ""
+msgstr "ホスト名、IP アドレス、エイリアス名、または ssh:// URI を指定できます"
 
 #: pkg/systemd/logs.js:140 pkg/systemd/logs.js:268
 msgid "Can not find any logs using the current combination of filters."
@@ -1529,6 +1475,8 @@ msgid ""
 "However, an unexpected change may indicate a third-party attempt to "
 "intercept your connection."
 msgstr ""
+"キーを変更すると、オペレーティングシステムを再インストールすることになることが多くあります。ただし、予期しない変更により接続の傍受が試行される場合もありま"
+"す。"
 
 #: pkg/machines/components/common/warningInactive.jsx:12
 #: pkg/machines/components/vm/nics/nicEdit.jsx:154
@@ -1578,10 +1526,8 @@ msgid "Checking installed software"
 msgstr "インストールされたソフトウェアの確認中"
 
 #: pkg/packagekit/updates.jsx:1255
-#, fuzzy
-#| msgid "Checking $target"
 msgid "Checking software status"
-msgstr "$target の確認中"
+msgstr "ソフトウェアステータスの確認"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:370
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:371
@@ -1621,14 +1567,9 @@ msgid "Click $0 again to use the password anyway."
 msgstr "$0 を再びクリックしてこのパスワードを使用します。"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:58
-#, fuzzy
-#| msgid ""
-#| "Clicking \"Launch Remote Viewer\" will download a .vv file and launch $0."
 msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
-msgstr ""
-"\"リモートビューアーの起動\" をクリックすると、.vv ファイルをダウンロード"
-"し、$0 を起動します。"
+msgstr "\"リモートビューアーの起動\" をクリックすると、.vv ファイルをダウンロードし、$0 を起動します。"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:21
 msgid "Client software"
@@ -1637,7 +1578,7 @@ msgstr "クライアントソフトウェア"
 #: pkg/machines/components/vm/vmCloneDialog.jsx:72
 #: pkg/machines/components/vm/vmActions.jsx:289
 msgid "Clone"
-msgstr ""
+msgstr "クローン"
 
 #: pkg/networkmanager/index.html:276 pkg/networkmanager/index.html:305
 #: pkg/networkmanager/index.html:340 pkg/networkmanager/index.html:369
@@ -1672,7 +1613,7 @@ msgstr "Cockpit は該当するホストに接続できませんでした。"
 
 #: pkg/shell/shell-modals.jsx:119
 msgid "Cockpit had an unexpected internal error."
-msgstr ""
+msgstr "cockpit で予期しない内部エラーが発生しました。"
 
 #: src/ws/cockpit.appdata.xml.in:10
 msgid ""
@@ -1805,8 +1746,6 @@ msgid "Confirm new key password"
 msgstr "新しいキーパスワードの確認"
 
 #: pkg/users/password-dialogs.js:151
-#, fuzzy
-#| msgid "Confirm New Password"
 msgid "Confirm new password"
 msgstr "新規パスワードの確認"
 
@@ -1843,10 +1782,8 @@ msgid "Connect to"
 msgstr "接続先"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:46
-#, fuzzy
-#| msgid "Connect with any $0 viewer application."
 msgid "Connect with any viewer application for following protocols"
-msgstr "$0 ビューアーアプリケーションに接続します。"
+msgstr "以下のプロトコル用のビューアーアプリケーションへ接続"
 
 #: pkg/shell/machines/machine-add.html:46
 msgid ""
@@ -1895,8 +1832,6 @@ msgstr "構成するもの"
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:89
 #: pkg/machines/components/vm/vmDetailsPage.jsx:117
-#, fuzzy
-#| msgid "Consoles"
 msgid "Console"
 msgstr "コンソール"
 
@@ -1918,10 +1853,8 @@ msgid "Content"
 msgstr "コンテンツ"
 
 #: pkg/packagekit/updates.jsx:694
-#, fuzzy
-#| msgid "Container"
 msgid "Continue"
-msgstr "コンテナー"
+msgstr "続行"
 
 #: pkg/shell/shell-modals.jsx:106
 msgid "Continue session"
@@ -1949,10 +1882,8 @@ msgid "Copy to clipboard"
 msgstr "クリップボードにコピー"
 
 #: pkg/metrics/metrics.jsx:411
-#, fuzzy
-#| msgid "Remove $0"
 msgid "Core $0"
-msgstr "$0 の削除"
+msgstr "コア $0"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:225
 msgid "Cores per socket"
@@ -1979,8 +1910,6 @@ msgid "Crash system"
 msgstr "クラッシュシステム"
 
 #: pkg/machines/helpers.js:216
-#, fuzzy
-#| msgid "crashed"
 msgid "Crashed"
 msgstr "クラッシュした"
 
@@ -2011,10 +1940,8 @@ msgid "Create VM"
 msgstr "仮想マシンの作成"
 
 #: pkg/machines/components/vm/vmCloneDialog.jsx:63
-#, fuzzy
-#| msgid "Create Partition on $0"
 msgid "Create a clone VM based on $0"
-msgstr "$0 上でのパーティションの作成"
+msgstr "$0 に基づいてクローン VM を作成します"
 
 #: pkg/shell/machines/machine-dialogs.js:731
 msgid "Create a new SSH key and authorize it."
@@ -2025,10 +1952,8 @@ msgid "Create devices"
 msgstr "デバイスの作成"
 
 #: pkg/sosreport/index.html:52
-#, fuzzy
-#| msgid "Create diagnostic report"
 msgid "Create diagnostic report                    "
-msgstr "診断レポートの作成"
+msgstr "診断レポートの作成                    "
 
 #: pkg/networkmanager/interfaces.js:2404 pkg/networkmanager/interfaces.js:2608
 #: pkg/networkmanager/interfaces.js:2865 pkg/networkmanager/interfaces.js:3073
@@ -2206,7 +2131,7 @@ msgstr "Ctrl+Insert"
 
 #: pkg/shell/shell-modals.jsx:123
 msgid "Ctrl-Shift-J"
-msgstr ""
+msgstr "Ctrl-Shift-J"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:109
 msgid "Current"
@@ -2235,10 +2160,8 @@ msgstr "カスタムのマウントオプション"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:248
 #: pkg/machines/components/vm/disks/diskAdd.jsx:576
-#, fuzzy
-#| msgid "Custom Ports"
 msgid "Custom path"
-msgstr "カスタムポート"
+msgstr "カスタムパス"
 
 #: pkg/networkmanager/firewall.jsx:545
 msgid "Custom ports"
@@ -2275,7 +2198,7 @@ msgstr "DNS 検索ドメイン $val"
 
 #: pkg/packagekit/updates.jsx:844
 msgid "Danger alert:"
-msgstr ""
+msgstr "Danger アラート:"
 
 #: pkg/systemd/terminal.jsx:108
 msgid "Dark"
@@ -2421,10 +2344,8 @@ msgid "Desktop"
 msgstr "デスクトップ"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:100
-#, fuzzy
-#| msgid "Desktop"
 msgid "Desktop viewer"
-msgstr "デスクトップ"
+msgstr "デスクトップビューアー"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:152
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:179
@@ -2541,10 +2462,8 @@ msgid "Disk I/O"
 msgstr "ディスク I/O"
 
 #: pkg/metrics/metrics.jsx:110
-#, fuzzy
-#| msgid "Disk I/O"
 msgid "Disk I/O spike"
-msgstr "ディスク I/O"
+msgstr "ディスク I/O スパイク"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:526
 msgid "Disk failed to be attached"
@@ -2556,7 +2475,7 @@ msgstr "ディスクの作成に失敗しました"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:261
 msgid "Disk image file"
-msgstr ""
+msgstr "ディスクイメージファイル"
 
 #: pkg/storaged/drive-details.jsx:64
 msgid "Disk is OK"
@@ -2688,8 +2607,6 @@ msgid "Dual rank"
 msgstr "デュアルランク"
 
 #: pkg/machines/helpers.js:217
-#, fuzzy
-#| msgid "dying"
 msgid "Dying"
 msgstr "終了中"
 
@@ -2705,10 +2622,8 @@ msgid "Edit $0 attributes"
 msgstr "$0 属性の編集"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:87
-#, fuzzy
-#| msgid "Edit Host"
 msgid "Edit /etc/motd"
-msgstr "ホストの編集"
+msgstr "/etc/motd の編集"
 
 #: pkg/storaged/crypto-keyslots.jsx:279
 msgid "Edit Tang keyserver"
@@ -2723,10 +2638,8 @@ msgid "Edit hosts"
 msgstr "ホストの編集"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:77
-#, fuzzy
-#| msgid "Edit Host"
 msgid "Edit motd"
-msgstr "ホストの編集"
+msgstr "motd を編集"
 
 #: pkg/networkmanager/network-main.jsx:158
 msgid "Edit rules and zones"
@@ -2763,10 +2676,8 @@ msgid "Emulated machine"
 msgstr "エミュレートされたマシン"
 
 #: pkg/networkmanager/network-interface.jsx:732
-#, fuzzy
-#| msgid "Failed to disable tuned"
 msgid "Enable or disabnle the device"
-msgstr "tuned の無効化に失敗しました"
+msgstr "デバイスの有効化または無効化"
 
 #: pkg/networkmanager/app.jsx:96
 msgid "Enable service"
@@ -2857,7 +2768,7 @@ msgstr "$target の削除中"
 
 #: pkg/packagekit/updates.jsx:307
 msgid "Errata"
-msgstr "エラータ:"
+msgstr "エラータ"
 
 #: pkg/playground/translate.html:100 pkg/playground/translate.html:105
 #: pkg/storaged/fsys-tab.jsx:304 pkg/storaged/multipath.jsx:61
@@ -2871,18 +2782,14 @@ msgid "Error and above"
 msgstr "エラー以上のレベル"
 
 #: pkg/metrics/metrics.jsx:949
-#, fuzzy
-#| msgid "Error and above"
 msgid "Error has occurred"
-msgstr "エラー以上のレベル"
+msgstr "エラーが発生しました"
 
 #: pkg/lib/cockpit-components-inline-notification.jsx:92
 #: pkg/systemd/overview-cards/configurationCard.jsx:317
 #: pkg/selinux/setroubleshoot-view.jsx:454
-#, fuzzy
-#| msgid "Log messages"
 msgid "Error message"
-msgstr "ログメッセージ"
+msgstr "エラーメッセージ"
 
 #: pkg/lib/cockpit-components-modifications.jsx:143
 msgid "Error running semanage to discover system modifications"
@@ -2930,7 +2837,7 @@ msgstr "ホストファイルシステム上の既存のディスクイメージ
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:125
 msgid "Expand"
-msgstr ""
+msgstr "展開"
 
 #: pkg/lib/machine-info.js:84
 msgid "Expansion chassis"
@@ -2975,10 +2882,8 @@ msgid "Failed to change password"
 msgstr "パスワードの変更に失敗しました"
 
 #: pkg/machines/components/vm/vmCloneDialog.jsx:56
-#, fuzzy
-#| msgid "Failed to add machine: $0"
 msgid "Failed to clone VM $0"
-msgstr "マシンの追加に失敗しました: $0"
+msgstr "VM $0 仮想マシンのクローンに失敗しました"
 
 #: pkg/selinux/setroubleshoot-client.js:188
 msgid "Failed to delete alert: $0"
@@ -3009,16 +2914,12 @@ msgid "Failed to load authorized keys."
 msgstr "承認された鍵のロードに失敗しました。"
 
 #: pkg/packagekit/updates.jsx:420
-#, fuzzy
-#| msgid "Failed to add service"
 msgid "Failed to restart service"
-msgstr "サービスの追加に失敗しました"
+msgstr "サービスの再起動に失敗しました"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:97
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to save changes in /etc/motd"
-msgstr "ファームウェアの変更に失敗しました"
+msgstr "変更を /etc/motd に保存できませんでした"
 
 #: pkg/machines/components/vm/consoles/vnc.jsx:130
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
@@ -3115,10 +3016,8 @@ msgid "Force password change"
 msgstr "パスワード変更の強制"
 
 #: pkg/machines/components/vm/vmActions.jsx:254
-#, fuzzy
-#| msgid "Force Delete"
 msgid "Force reboot"
-msgstr "削除の強制"
+msgstr "再起動の強制"
 
 #: pkg/storaged/crypto-keyslots.jsx:384
 msgid "Force remove passphrase in $0"
@@ -3167,11 +3066,8 @@ msgid "Forwarding mode"
 msgstr "フォワードモード"
 
 #: pkg/systemd/abrtLog.jsx:74
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Serial Number"
 msgid "Frame number"
-msgstr "シリアルナンバー"
+msgstr "フレーム番号"
 
 #: pkg/storaged/pvol-tabs.jsx:51
 msgid "Free"
@@ -3203,7 +3099,7 @@ msgstr "フルネーム"
 
 #: pkg/shell/shell-modals.jsx:45
 msgid "GNU LGPL version 2.1"
-msgstr ""
+msgstr "GNU LGPL バージョン 2.1"
 
 #: pkg/networkmanager/network-interface.jsx:368
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:202
@@ -3228,7 +3124,7 @@ msgstr "GiB"
 
 #: pkg/machines/app.jsx:150
 msgid "Go to VMs list"
-msgstr ""
+msgstr "仮想マシンの一覧に移動"
 
 #: pkg/apps/application.jsx:113
 msgid "Go to application"
@@ -3390,8 +3286,6 @@ msgid "IP configuration"
 msgstr "IP 設定"
 
 #: pkg/networkmanager/index.html:280
-#, fuzzy
-#| msgid "IP Settings"
 msgid "IP settings"
 msgstr "IP 設定"
 
@@ -3453,7 +3347,7 @@ msgstr "識別子"
 
 #: pkg/machines/helpers.js:212
 msgid "Idle"
-msgstr ""
+msgstr "アイドル"
 
 #: pkg/storaged/crypto-keyslots.jsx:336
 msgid "If tang-show-keys is not available, run the following:"
@@ -3464,13 +3358,15 @@ msgstr "tang-show-keys を利用できない場合は、以下を実行します
 msgid ""
 "If the fingerprint matches, click \"Accept key and connect\". Otherwise, do "
 "not connect and contact your administrator."
-msgstr ""
+msgstr "フィンガープリントが一致している場合は、キーを受け入れて接続をクリックします。一致していない場合は、接続せずに管理者にお問い合わせください。"
 
 #: pkg/static/login.html:67
 msgid ""
 "If the fingerprint matches, click \"Accept key and log in\". Otherwise, do "
 "not log in and contact your administrator."
 msgstr ""
+"フィンガープリントが一致する場合は、Accept key and login "
+"をクリックします。一致しない場合は、ログインせずに、管理者にお問い合わせください。"
 
 #: pkg/networkmanager/interfaces.js:1459 pkg/packagekit/updates.jsx:618
 #: pkg/packagekit/updates.jsx:693
@@ -3499,7 +3395,7 @@ msgstr "仮想マシンのインポート"
 
 #: pkg/metrics/metrics.jsx:544
 msgid "In"
-msgstr ""
+msgstr "内"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:246
 msgid ""
@@ -3546,7 +3442,7 @@ msgstr "インデックスメモリー"
 
 #: pkg/packagekit/updates.jsx:685
 msgid "Info"
-msgstr ""
+msgstr "情報"
 
 #: pkg/systemd/logs.html:58
 msgid "Info and above"
@@ -3588,7 +3484,7 @@ msgstr "すべてのアップデートをインストール"
 
 #: pkg/metrics/metrics.jsx:937
 msgid "Install cockpit-pcp"
-msgstr ""
+msgstr "cockpit-pcp をインストール"
 
 #: pkg/packagekit/updates.jsx:1270 pkg/packagekit/updates.jsx:1276
 msgid "Install security updates"
@@ -3605,8 +3501,6 @@ msgid "Install software"
 msgstr "ソフトウェアをインストール"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:305
-#, fuzzy
-#| msgid "Installation Source"
 msgid "Installation source"
 msgstr "インストールソース"
 
@@ -3632,17 +3526,13 @@ msgid "Installing $0"
 msgstr "$0 をインストール中"
 
 #: pkg/metrics/metrics.jsx:544
-#, fuzzy
-#| msgid "Interfaces"
 msgid "Interface"
 msgstr "インターフェース"
 
 #: pkg/networkmanager/network-interface-members.jsx:208
 #: pkg/networkmanager/network-interface-members.jsx:213
-#, fuzzy
-#| msgid "Interfaces"
 msgid "Interface members"
-msgstr "インターフェース"
+msgstr "インターフェースメンバー"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:122
 msgid "Interface type"
@@ -3761,7 +3651,7 @@ msgstr "IoT ゲートウェイ"
 
 #: pkg/metrics/metrics.jsx:943
 msgid "Is 'pmlogger' service running?"
-msgstr ""
+msgstr "'pmlogger' サービスが実行されていますか?"
 
 #: pkg/shell/machines/machine-change-port.html:10
 msgid "Is sshd running on a different port?"
@@ -3813,7 +3703,7 @@ msgstr "ジャーナルエントリーが見つかりません"
 
 #: pkg/metrics/metrics.jsx:998
 msgid "Jump to"
-msgstr ""
+msgstr "次にジャンプ"
 
 #: pkg/kdump/kdump-view.jsx:465
 msgid ""
@@ -3905,8 +3795,6 @@ msgid "Last login:"
 msgstr "最終ログイン:"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:54
-#, fuzzy
-#| msgid "Launch Remote Viewer"
 msgid "Launch remote viewer"
 msgstr "リモートビューアーの起動"
 
@@ -3985,17 +3873,15 @@ msgstr "リンクの監視"
 #: pkg/metrics/metrics.jsx:87 pkg/metrics/metrics.jsx:440
 #: pkg/metrics/metrics.jsx:1007
 msgid "Load"
-msgstr ""
+msgstr "ロード"
 
 #: pkg/networkmanager/interfaces.js:1483
 msgid "Load balancing"
 msgstr "ロードバランシング"
 
 #: pkg/metrics/metrics.jsx:1023
-#, fuzzy
-#| msgid "Load earlier entries"
 msgid "Load earlier data"
-msgstr "以前のエントリーのロード"
+msgstr "以前のデータのロード"
 
 #: pkg/systemd/logs.js:115
 msgid "Load earlier entries"
@@ -4003,7 +3889,7 @@ msgstr "以前のエントリーのロード"
 
 #: pkg/metrics/metrics.jsx:88
 msgid "Load spike"
-msgstr ""
+msgstr "スパイクのロード"
 
 #: pkg/packagekit/updates.jsx:78
 msgid "Loading available updates failed"
@@ -4014,16 +3900,12 @@ msgid "Loading available updates, please wait..."
 msgstr "利用可能なアップデートをロード中です。しばらくお待ちください..."
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:320
-#, fuzzy
-#| msgid "Loading..."
 msgid "Loading keys..."
-msgstr "ロード中..."
+msgstr "キーをロード中..."
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:316
-#, fuzzy
-#| msgid "Loading available updates failed"
 msgid "Loading of SSH keys failed"
-msgstr "利用可能なアップデートのロードに失敗しました"
+msgstr "SSH キーの読み込みに失敗しました"
 
 #: pkg/machines/components/libvirtSlate.jsx:82
 msgid "Loading resources"
@@ -4075,10 +3957,8 @@ msgid "Lock account on $0"
 msgstr "$0 のアカウントをロック"
 
 #: pkg/storaged/crypto-panel.jsx:72 pkg/storaged/crypto-panel.jsx:75
-#, fuzzy
-#| msgid "Remove device"
 msgid "Locked devices"
-msgstr "リモートデバイス"
+msgstr "ロックされたデバイス"
 
 #: pkg/storaged/jobs-panel.jsx:41
 msgid "Locking $target"
@@ -4205,72 +4085,52 @@ msgid "Make sure the key hash from the Tang server matches:"
 msgstr "Tang サーバーのキーハッシュが一致することを確認します:"
 
 #: pkg/networkmanager/network-main.jsx:176
-#, fuzzy
-#| msgid "Unmanaged Interfaces"
 msgid "Managed interfaces"
-msgstr "未管理のインターフェース"
+msgstr "管理対象インターフェース"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing LVMs"
-msgstr "サービス管理"
+msgstr "LVM の管理"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing user accounts"
 msgid "Managing NFS mounts"
-msgstr "ユーザーアカウント管理"
+msgstr "NFS マウントの管理"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing RAIDs"
-msgstr "サービス管理"
+msgstr "RAID の管理"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing VDOs"
-msgstr "サービス管理"
+msgstr "VDO の管理"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing VLANs"
-msgstr "サービス管理"
+msgstr "VLAN の管理"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "Managing firewall"
 msgstr "ファイアウォール管理"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking bonds"
-msgstr "ネットワーク管理"
+msgstr "ネットワークボンディングの管理"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking bridges"
-msgstr "ネットワーク管理"
+msgstr "ネットワークブリッジの管理"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking teams"
-msgstr "ネットワーク管理"
+msgstr "ネットワークチームの管理"
 
 #: pkg/storaged/manifest.json.in:0
 msgid "Managing partitions"
 msgstr "パーティション管理"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing physical drives"
-msgstr "サービス管理"
+msgstr "物理ドライブの管理"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Managing services"
@@ -4348,14 +4208,8 @@ msgid "Maximum message age $max_age"
 msgstr "メッセージ最大期間 $max_age"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:199
-#, fuzzy
-#| msgid ""
-#| "Maximum number of virtual CPUs allocated for the guest OS, which must be "
-#| "between 1 and $0"
 msgid "Maximum number of virtual CPUs allocated for the guest OS"
-msgstr ""
-"ゲスト OS に割り当てられる仮想 CPU の最大数で、これは 1 から $0 の間でなけれ"
-"ばなりません"
+msgstr "ゲスト OS に割り当てられる仮想 CPU の最大数"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:198
 msgid ""
@@ -4396,20 +4250,16 @@ msgid "Memory must not be 0"
 msgstr "メモリは 0 以外である必要があります"
 
 #: pkg/metrics/metrics.jsx:95
-#, fuzzy
-#| msgid "Memory usage:"
 msgid "Memory spike"
-msgstr "メモリー使用状況:"
+msgstr "メモリーのスパイク"
 
 #: pkg/systemd/hwinfo.jsx:308
 msgid "Memory technology"
 msgstr "メモリーテクノロジー"
 
 #: pkg/metrics/metrics.jsx:94
-#, fuzzy
-#| msgid "Memory usage:"
 msgid "Memory usage"
-msgstr "メモリー使用状況:"
+msgstr "メモリー使用状況"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:193
 msgid "Message to logged in users"
@@ -4428,10 +4278,8 @@ msgid "Method"
 msgstr "メソッド"
 
 #: pkg/metrics/metrics.jsx:942
-#, fuzzy
-#| msgid "Memory could not be saved"
 msgid "Metrics history could not be loaded"
-msgstr "メモリーは保存できませんでした"
+msgstr "メトリクス履歴をロードできませんでした"
 
 #: pkg/machines/components/vm/overview/memorySelectRow.jsx:85
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:102
@@ -4515,7 +4363,7 @@ msgstr "詳細"
 
 #: pkg/packagekit/updates.jsx:851
 msgid "More info..."
-msgstr ""
+msgstr "詳細..."
 
 #: pkg/storaged/fsys-tab.jsx:289 pkg/storaged/content-views.jsx:377
 #: pkg/storaged/nfs-details.jsx:313 pkg/kdump/kdump-view.jsx:103
@@ -4709,9 +4557,6 @@ msgid "Netmask"
 msgstr "ネットマスク"
 
 #: pkg/metrics/metrics.jsx:534 pkg/metrics/metrics.jsx:1010
-#, fuzzy
-#| msgid "Network"
-#| msgid_plural "Networks"
 msgid "Network"
 msgstr "ネットワーク"
 
@@ -4724,17 +4569,12 @@ msgid "Network $0 failed to get deactivated"
 msgstr "ネットワーク $0 の停止に失敗しました"
 
 #: pkg/metrics/metrics.jsx:116
-#, fuzzy
-#| msgid "Network"
-#| msgid_plural "Networks"
 msgid "Network I/O"
-msgstr "ネットワーク"
+msgstr "ネットワーク I/O"
 
 #: pkg/metrics/metrics.jsx:117
-#, fuzzy
-#| msgid "Networks"
 msgid "Network I/O spike"
-msgstr "ネットワーク"
+msgstr "ネットワーク I/O スパイク"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:80
 msgid "Network bond"
@@ -4745,10 +4585,8 @@ msgid "Network boot (PXE)"
 msgstr "ネットワークブート (PXE)"
 
 #: pkg/networkmanager/app.jsx:95
-#, fuzzy
-#| msgid "Network devices and graphs require NetworkManager."
 msgid "Network devices and graphs require NetworkManager"
-msgstr "ネットワークデバイスおよびグラフには、NetworkManager が必要です。"
+msgstr "ネットワークデバイスおよびグラフには、NetworkManager が必要です"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:59
 msgid "Network file system"
@@ -4760,8 +4598,6 @@ msgid "Network interface settings could not be saved"
 msgstr "ネットワークインターフェース設定を保存できませんでした"
 
 #: pkg/networkmanager/network-main.jsx:201
-#, fuzzy
-#| msgid "Networking Logs"
 msgid "Network logs"
 msgstr "ネットワークログ"
 
@@ -4770,22 +4606,16 @@ msgid "Network selection does not support PXE."
 msgstr "ネットワーク選択では PXE がサポートされていません。"
 
 #: pkg/metrics/metrics.jsx:543
-#, fuzzy
-#| msgid "Networks"
 msgid "Network usage"
-msgstr "ネットワーク"
+msgstr "ネットワーク使用量"
 
 #: pkg/networkmanager/app.jsx:87
-#, fuzzy
-#| msgid "NetworkManager is not running."
 msgid "NetworkManager is not installed"
-msgstr "NetworkManager が実行していません。"
+msgstr "NetworkManager はインストールされていません"
 
 #: pkg/networkmanager/app.jsx:71
-#, fuzzy
-#| msgid "NetworkManager is not running."
 msgid "NetworkManager is not running"
-msgstr "NetworkManager が実行していません。"
+msgstr "NetworkManager は実行していません"
 
 #: pkg/networkmanager/index.html:23
 #: pkg/networkmanager/network-interface.jsx:751
@@ -4817,10 +4647,8 @@ msgid "New NFS mount"
 msgstr "NFS の新規マウント"
 
 #: pkg/shell/machines/machine-unknown-hostkey.html:2 pkg/static/login.js:646
-#, fuzzy
-#| msgid "Add new host"
 msgid "New host"
-msgstr "新しいホストの追加"
+msgstr "新規ホスト"
 
 #: pkg/shell/machines/machine-dialogs.js:745
 msgid "New key password"
@@ -4888,22 +4716,16 @@ msgid "No configuration found"
 msgstr "設定が見つかりません"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:45
-#, fuzzy
-#| msgid "No description available"
 msgid "No connection available"
-msgstr "利用可能な説明はありません"
+msgstr "利用可能な接続なし"
 
 #: pkg/metrics/metrics.jsx:966
-#, fuzzy
-#| msgid "Not available"
 msgid "No data available"
-msgstr "利用できません"
+msgstr "利用可能なデータなし"
 
 #: pkg/metrics/metrics.jsx:962
-#, fuzzy
-#| msgid "Occurred between $0 and $1"
 msgid "No data available between $0 and $1"
-msgstr "$0〜$1 の発生件数"
+msgstr "$0 と $1 間で利用できるデータなし"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:166
 msgid "No delay"
@@ -5041,16 +4863,12 @@ msgid "No rule hits"
 msgstr "ルールヒットなし"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:244
-#, fuzzy
-#| msgid "No disks defined for this VM"
 msgid "No snapshots defined for this VM"
-msgstr "この仮想マシンに対してディスクが定義されていません"
+msgstr "この仮想マシンに対してスナップショットが定義されていません"
 
 #: pkg/machines/helpers.js:220
-#, fuzzy
-#| msgid "State"
 msgid "No state"
-msgstr "状態"
+msgstr "状態なし"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:516
 msgid "No storage"
@@ -5078,11 +4896,8 @@ msgid "No system modifications"
 msgstr "システム変更がありません"
 
 #: pkg/packagekit/autoupdates.jsx:355
-#, fuzzy
-#| msgid "$0 update"
-#| msgid_plural "$0 updates"
 msgid "No updates"
-msgstr "$0 更新"
+msgstr "更新なし"
 
 #: pkg/users/account-create-dialog.js:87
 msgid "No user name specified"
@@ -5201,11 +5016,8 @@ msgid "Notice and above"
 msgstr "注意以上のレベル"
 
 #: pkg/selinux/setroubleshoot-view.jsx:454
-#, fuzzy
-#| msgid "$0 occurrence"
-#| msgid_plural "$1 occurrences"
 msgid "Occurances"
-msgstr "$0 件"
+msgstr "発生"
 
 #: pkg/selinux/setroubleshoot-view.jsx:392
 msgid "Occurred $0"
@@ -5329,10 +5141,8 @@ msgid "Other options"
 msgstr "他のオプション"
 
 #: pkg/metrics/metrics.jsx:544
-#, fuzzy
-#| msgid "Log Out"
 msgid "Out"
-msgstr "ログアウト"
+msgstr "外"
 
 #: pkg/metrics/metrics.jsx:1035
 #: pkg/machines/components/vm/vmDetailsPage.jsx:104
@@ -5356,7 +5166,7 @@ msgstr "PCP"
 
 #: pkg/metrics/metrics.jsx:936
 msgid "Package cockpit-pcp is missing for metrics history"
-msgstr ""
+msgstr "メトリクス履歴に、パッケージ cockpit-pcp が欠如しています"
 
 #: pkg/packagekit/updates.jsx:622 pkg/packagekit/updates.jsx:699
 msgid "Package information"
@@ -5379,10 +5189,8 @@ msgid "Packages"
 msgstr "パッケージ"
 
 #: pkg/shell/active-pages-dialog.jsx:67
-#, fuzzy
-#| msgid "User name"
 msgid "Page name"
-msgstr "ユーザー名"
+msgstr "ページ名"
 
 #: pkg/networkmanager/index.html:45
 msgid "Parent"
@@ -5517,10 +5325,8 @@ msgid "Path to file"
 msgstr "ファイルのパス"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:250
-#, fuzzy
-#| msgid "Path to ISO file on host's file system"
 msgid "Path to file on host's file system"
-msgstr "ホストファイルシステムの ISO ファイルのパス"
+msgstr "ホストファイルシステムのファイルへのパス"
 
 #: pkg/systemd/services/service-tabs.jsx:42
 msgid "Paths"
@@ -5532,16 +5338,12 @@ msgid "Pause"
 msgstr "一時停止"
 
 #: pkg/machines/helpers.js:213
-#, fuzzy
-#| msgid "Pause"
 msgid "Paused"
 msgstr "一時停止"
 
 #: pkg/metrics/index.html:20 pkg/metrics/metrics.jsx:1036
-#, fuzzy
-#| msgid "Performance profile"
 msgid "Performance Metrics"
-msgstr "パフォーマンスプロファイル"
+msgstr "パフォーマンスメトリックス"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:192
 msgid "Performance profile"
@@ -5602,10 +5404,8 @@ msgid "Physical volumes can not be resized here."
 msgstr "ここでは、物理ボリュームのサイズを変更することができません。"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:205
-#, fuzzy
-#| msgid "date"
 msgid "Pick date"
-msgstr "日付"
+msgstr "日付けの選択"
 
 #: pkg/networkmanager/index.html:232
 msgid "Ping interval"
@@ -5642,7 +5442,7 @@ msgstr "$0 の停止を確認してください"
 
 #: pkg/static/login.html:34
 msgid "Please enable JavaScript to use the Web Console."
-msgstr ""
+msgstr "Web コンソールを使用するには JavaScript を有効にしてください。"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:334
 msgid "Please enter new volume name"
@@ -5654,7 +5454,7 @@ msgstr "$0 パッケージをインストールしてください"
 
 #: pkg/packagekit/updates.jsx:1344
 msgid "Please reload the page after resolving the issue."
-msgstr ""
+msgstr "問題の解決後にページをリロードしてください。"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:195
 msgid "Please set a root password"
@@ -5698,7 +5498,7 @@ msgstr "シンプロビジョニングされたボリューム用プール"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:157
 msgid "Pool needs to be active to create volume"
-msgstr ""
+msgstr "ボリュームを作成するには、プールがアクティブである必要があります"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:157
 msgid "Pool type doesn't support volume creation"
@@ -5930,7 +5730,7 @@ msgstr "RAID メンバー"
 
 #: pkg/metrics/metrics.jsx:468
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #: pkg/lib/machine-info.js:89
 msgid "Rack mount chassis"
@@ -5957,10 +5757,8 @@ msgid "Raw to a device"
 msgstr "デバイスに対する Raw"
 
 #: pkg/metrics/metrics.jsx:497
-#, fuzzy
-#| msgid "Ready"
 msgid "Read"
-msgstr "準備ができています"
+msgstr "読み取り"
 
 #: pkg/systemd/hwinfo.jsx:218
 msgid "Read more..."
@@ -6010,15 +5808,13 @@ msgid "Reboot"
 msgstr "再起動"
 
 #: pkg/packagekit/updates.jsx:1361
-#, fuzzy
-#| msgid "recommended"
 msgid "Reboot recommended"
-msgstr "推奨"
+msgstr "再起動を推奨します"
 
 #: pkg/packagekit/updates.jsx:617 pkg/packagekit/updates.jsx:690
 #: pkg/packagekit/updates.jsx:753
 msgid "Reboot system..."
-msgstr ""
+msgstr "システムの再起動..."
 
 #: pkg/networkmanager/network-interface-members.jsx:218
 #: pkg/networkmanager/network-main.jsx:182
@@ -6072,7 +5868,7 @@ msgstr "伝搬元を再ロード"
 
 #: pkg/packagekit/updates.jsx:431
 msgid "Reloading the state of remaining services"
-msgstr ""
+msgstr "残りのサービス状態の再読み込み"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:273
 msgid "Remote URL"
@@ -6087,10 +5883,8 @@ msgid "Remote over SSH"
 msgstr "SSH 経由のリモート"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:55
-#, fuzzy
-#| msgid "Remote over NFS"
 msgid "Remote viewer details"
-msgstr "NFS 経由のリモート"
+msgstr "リモートビューアーの詳細"
 
 #: pkg/storaged/drives-panel.jsx:72 pkg/storaged/drives-panel.jsx:74
 msgctxt "storage"
@@ -6295,10 +6089,8 @@ msgid "Reset"
 msgstr "リセット"
 
 #: pkg/users/password-dialogs.js:276
-#, fuzzy
-#| msgid "Set Password"
 msgid "Reset password"
-msgstr "パスワードの設定"
+msgstr "パスワードのリセット"
 
 #: pkg/storaged/jobs-panel.jsx:43 pkg/storaged/jobs-panel.jsx:49
 #: pkg/storaged/jobs-panel.jsx:81
@@ -6318,16 +6110,12 @@ msgid "Restart"
 msgstr "再起動"
 
 #: pkg/packagekit/updates.jsx:445 pkg/packagekit/updates.jsx:460
-#, fuzzy
-#| msgid "Start Service"
 msgid "Restart services"
-msgstr "サービスの開始"
+msgstr "サービスの再起動"
 
 #: pkg/packagekit/updates.jsx:691 pkg/packagekit/updates.jsx:765
-#, fuzzy
-#| msgid "Start Service"
 msgid "Restart services..."
-msgstr "サービスの開始"
+msgstr "サービスの再起動..."
 
 #: pkg/packagekit/updates.jsx:1408
 msgid "Restarting"
@@ -6357,7 +6145,7 @@ msgid ""
 "and the current state will be lost, along with any data not captured in a "
 "snapshot"
 msgstr ""
-"このスナップショットに戻すと、VM はスナップショットの時の状態に戻り、現在の状態はスナップショットにキャプチャされていないデータとともに失われます。"
+"このスナップショットに戻すと、VM はスナップショットの時の状態に戻り、現在の状態はスナップショットにキャプチャされていないデータとともに失われます"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Reviewing logs"
@@ -6443,22 +6231,16 @@ msgid "SMART self-test of $target"
 msgstr "$target の SMART 自己テスト"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:52
-#, fuzzy
-#| msgid "SPICE TLS Port:"
 msgid "SPICE TLS port"
-msgstr "SPICE TLS ポート:"
+msgstr "SPICE TLS ポート"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:48
-#, fuzzy
-#| msgid "SPICE Address:"
 msgid "SPICE address"
-msgstr "SPICE アドレス:"
+msgstr "SPICE アドレス"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:50
-#, fuzzy
-#| msgid "SPICE Port:"
 msgid "SPICE port"
-msgstr "SPICE ポート:"
+msgstr "SPICE ポート"
 
 #: pkg/shell/machines/machine-change-auth.html:46
 msgid "SSH key"
@@ -6515,7 +6297,7 @@ msgstr "保存および再起動"
 #: pkg/packagekit/autoupdates.jsx:424
 #: pkg/systemd/overview-cards/motdCard.jsx:98
 msgid "Save changes"
-msgstr ""
+msgstr "変更の保存"
 
 #: pkg/storaged/vdos-panel.jsx:121
 msgid "Save space by compressing individual blocks with LZ4"
@@ -6559,36 +6341,28 @@ msgid "Securely erasing $target"
 msgstr "$target を安全に削除"
 
 #: pkg/packagekit/autoupdates.jsx:269
-#, fuzzy
-#| msgid "Apply security updates"
 msgid "Security updates "
-msgstr "セキュリティーアップデートを適用します"
+msgstr "セキュリティー更新 "
 
 #: pkg/packagekit/updates.jsx:1281
 msgid "Security updates available"
 msgstr "セキュリティーの更新を利用できます"
 
 #: pkg/packagekit/autoupdates.jsx:361
-#, fuzzy
-#| msgid "Security Updates Available"
 msgid "Security updates only"
-msgstr "セキュリティーの更新を利用できます"
+msgstr "セキュリティー更新のみ"
 
 #: pkg/shell/shell-modals.jsx:86
 msgid "Select"
 msgstr "選択"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:97
-#, fuzzy
-#| msgid "Console Type"
 msgid "Select console type"
-msgstr "コンソールタイプ"
+msgstr "コンソールタイプの選択"
 
 #: pkg/systemd/services/services.jsx:735
-#, fuzzy
-#| msgid "select container"
 msgid "Select unit state"
-msgstr "コンテナーの選択"
+msgstr "ユニットの状態の選択"
 
 #: pkg/systemd/reporting.jsx:245
 msgid "Send"
@@ -6764,18 +6538,14 @@ msgid "Shift+Insert"
 msgstr "Shift+Insert"
 
 #: pkg/storaged/things-panel.jsx:82
-#, fuzzy
-#| msgid "Show all $0 devices"
 msgid "Show $0 device"
 msgid_plural "Show all $0 devices"
-msgstr[0] "すべての $0 デバイスを表示します"
+msgstr[0] "$0 デバイスを表示します"
 
 #: pkg/storaged/drives-panel.jsx:104
-#, fuzzy
-#| msgid "Show all $0 drives"
 msgid "Show $0 drive"
 msgid_plural "Show all $0 drives"
-msgstr[0] "$0 ドライブをすべて表示"
+msgstr[0] "$0 ドライブを表示します"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:146
 msgid "Show additional options"
@@ -6786,10 +6556,8 @@ msgid "Show all"
 msgstr "すべて表示"
 
 #: pkg/systemd/abrtLog.jsx:214
-#, fuzzy
-#| msgid "Show all images"
 msgid "Show all threads"
-msgstr "すべてのイメージの表示"
+msgstr "すべてのスレッドの表示"
 
 #: pkg/systemd/logs.html:104 pkg/systemd/logs.js:416 pkg/systemd/logs.js:552
 msgid "Show filters"
@@ -6941,17 +6709,15 @@ msgstr ""
 #: pkg/packagekit/updates.jsx:669 pkg/packagekit/updates.jsx:773
 #: pkg/packagekit/updates.jsx:1372
 msgid "Some software needs to be restarted manually"
-msgstr ""
+msgstr "一部のソフトウェアを手動で再起動する必要があります"
 
 #: pkg/shell/superuser.jsx:297
 msgid "Something went wrong"
 msgstr "問題が発生しました"
 
 #: pkg/networkmanager/firewall.jsx:705
-#, fuzzy
-#| msgid "Sorted from least trusted to most trusted"
 msgid "Sorted from least to most trusted"
-msgstr "信頼性が最も低い順から最も高い順による並べ替え"
+msgstr "信頼性が最も低い順から最も高い順"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:136
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:239
@@ -7171,7 +6937,7 @@ msgstr "ストレージボリューム"
 #: pkg/machines/components/vm/disks/diskAdd.jsx:338
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:64
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
-msgstr ""
+msgstr "ストレージボリュームサイズは、ストレージプールの容量を超えることはできません ($0 $1)"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:75
 msgid "Storage volumes"
@@ -7225,10 +6991,8 @@ msgid "Swap"
 msgstr "スワップ"
 
 #: pkg/metrics/metrics.jsx:101
-#, fuzzy
-#| msgid "Swap"
 msgid "Swap out"
-msgstr "スワップ"
+msgstr "スワップアウト"
 
 #: pkg/storaged/content-views.jsx:411
 msgctxt "storage-id-desc"
@@ -7236,10 +7000,8 @@ msgid "Swap space"
 msgstr "スワップ領域"
 
 #: pkg/networkmanager/network-interface-members.jsx:70
-#, fuzzy
-#| msgid "Switch off $0"
 msgid "Switch of $0"
-msgstr "$0 をオフにする"
+msgstr "$0 の切り替え"
 
 #: pkg/networkmanager/network-interface-members.jsx:96
 #: pkg/networkmanager/network-interface.jsx:167
@@ -7569,7 +7331,7 @@ msgstr "ファイルシステムはマウントされていません。"
 #: pkg/packagekit/updates.jsx:435
 msgid "The following service will be restarted:"
 msgid_plural "The following services will be restarted:"
-msgstr[0] ""
+msgstr[0] "以下のサービスが再起動します。"
 
 #: pkg/sosreport/index.html:59
 msgid ""
@@ -7582,11 +7344,11 @@ msgstr ""
 
 #: pkg/shell/machines/machine-dialogs.js:866
 msgid "The key password can not be empty"
-msgstr "キーのパスワードは空にすることはできません。"
+msgstr "キーのパスワードは空にすることはできません"
 
 #: pkg/shell/machines/machine-dialogs.js:874
 msgid "The key passwords do not match"
-msgstr "キーのパスワードが一致しません。"
+msgstr "キーのパスワードが一致しません"
 
 #: pkg/users/authorized-keys.js:124
 msgid "The key you provided was not valid."
@@ -7609,18 +7371,16 @@ msgid "The logged in user is not permitted to view system modifications"
 msgstr "ログインしているユーザーには、システム変更を表示する権限がありません"
 
 #: pkg/shell/indexes.js:484
-#, fuzzy
-#| msgid "The machine is restarting"
 msgid "The machine is rebooting"
 msgstr "マシンが再起動中です"
 
 #: pkg/shell/machines/machine-dialogs.js:882
 msgid "The new key password can not be empty"
-msgstr "新しいキーのパスワードは空にすることはできません。"
+msgstr "新しいキーのパスワードは空にすることはできません"
 
 #: pkg/shell/machines/machine-dialogs.js:887
 msgid "The new key passwords do not match"
-msgstr "新しいキーのパスワードが一致しません。"
+msgstr "新しいキーのパスワードが一致しません"
 
 #: pkg/users/account-create-dialog.js:202 pkg/users/password-dialogs.js:208
 msgid "The passwords do not match"
@@ -7639,7 +7399,7 @@ msgstr "プールが空です"
 msgid ""
 "The resulting fingerprint is fine to share via public methods, including "
 "email."
-msgstr ""
+msgstr "作成されたフィンガープリントは、電子メールを含むパブリックメソッドを介して共有すると問題ありません。"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:431
 msgid "The selected operating system does not support unattended installation"
@@ -7813,7 +7573,7 @@ msgstr "このフィールドは空にできません。"
 
 #: pkg/packagekit/autoupdates.jsx:394
 msgid "This host will reboot after updates are installed."
-msgstr ""
+msgstr "このホストは、更新後に再起動します。"
 
 #: pkg/storaged/lvol-tabs.jsx:410
 msgid "This logical volume is not completely used by its content."
@@ -7878,10 +7638,8 @@ msgstr ""
 "このボリュームは、サイズを変更する前にアクティベートする必要があります。"
 
 #: pkg/static/login.js:163
-#, fuzzy
-#| msgid "This web browser is too old to run Cockpit (missing $0)"
 msgid "This web browser is too old to run the Web Console (missing $0)"
-msgstr "この Web ブラウザーは古いため Cockpit を実行できません ($0 が不明)"
+msgstr "この Web ブラウザーは古いため、Web コンソールを実行できません ($0 が不明)"
 
 #: pkg/shell/machines/machine-dialogs.js:757
 msgid "This will allow you to log in without password in the future."
@@ -7947,7 +7705,7 @@ msgstr ""
 msgid ""
 "To ensure that your connection is not intercepted by a malicious third-"
 "party, please verify the host key fingerprint:"
-msgstr ""
+msgstr "悪意のあるサードパーティーによって接続がインターセプトされないようにするには、ホストキーフィンガープリントを確認してください。"
 
 #: pkg/packagekit/updates.jsx:1233
 msgid ""
@@ -7962,7 +7720,7 @@ msgstr ""
 msgid ""
 "To verify a fingerprint, run the following on $0 while physically sitting at "
 "the machine or through a trusted network:"
-msgstr ""
+msgstr "フィンガープリントを確認するには、マシン上に物理的に置かれるか、信頼できるネットワークを介して $0 で次のコマンドを実行します。"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:18
 #: pkg/shell/machines/machine-unknown-hostkey.html:10
@@ -7970,6 +7728,8 @@ msgid ""
 "To verify a fingerprint, run the following on {{host}} while physically "
 "sitting at the machine or through a trusted network:"
 msgstr ""
+"フィンガープリントを確認するには、マシン上に物理的に置配置されている {{host}} で、または、信頼できるネットワークを介して {{host}} "
+"で次のコマンドを実行します。"
 
 #: pkg/metrics/metrics.jsx:968
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:40
@@ -7978,7 +7738,7 @@ msgstr "今日"
 
 #: pkg/storaged/mdraid-details.jsx:205
 msgid "Toggle bitmap"
-msgstr ""
+msgstr "ビットマップを切り替える"
 
 #: pkg/shell/index.html:63
 msgid "Toggle session settings"
@@ -7994,13 +7754,11 @@ msgstr "ツール"
 
 #: pkg/metrics/metrics.jsx:450
 msgid "Top 5 CPU services"
-msgstr ""
+msgstr "上位 5 CPU サービス"
 
 #: pkg/metrics/metrics.jsx:483
-#, fuzzy
-#| msgid "No Network Devices"
 msgid "Top 5 memory services"
-msgstr "ネットワークデバイスはありません"
+msgstr "上位 5 メモリーサービス"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:98
 msgid "Total size: $0"
@@ -8028,10 +7786,8 @@ msgid "Troubleshoot"
 msgstr "トラブルシュート"
 
 #: pkg/networkmanager/app.jsx:78
-#, fuzzy
-#| msgid "Troubleshoot"
 msgid "Troubleshoot…"
-msgstr "トラブルシュート"
+msgstr "トラブルシュート…"
 
 #: pkg/storaged/crypto-keyslots.jsx:342
 msgid "Trust key"
@@ -8067,6 +7823,8 @@ msgid ""
 "under certain workloads. The core of Tuned are profiles, which tune your "
 "system for different use cases."
 msgstr ""
+"Tuned は、システムを監視し、特定のワークロードでパフォーマンスを最適化するサービスです。Tuned "
+"のコアは、さまざまなユースケースに合わせてシステムを調整するプロファイルです。"
 
 #: pkg/tuned/dialog.js:93
 msgid "Tuned is not available"
@@ -8363,10 +8121,8 @@ msgid "Update"
 msgstr "更新"
 
 #: pkg/packagekit/updates.jsx:684
-#, fuzzy
-#| msgid "Updates Available"
 msgid "Update Success Table"
-msgstr "更新を利用できます"
+msgstr "更新成功テーブル"
 
 #: pkg/packagekit/updates.jsx:866
 msgid "Update history"
@@ -8382,23 +8138,19 @@ msgstr "パッケージ情報アップデート"
 
 #: pkg/packagekit/updates.jsx:611 pkg/packagekit/updates.jsx:679
 msgid "Update was successful"
-msgstr ""
+msgstr "更新が正常に実行されました"
 
 #: pkg/packagekit/updates.jsx:92
 msgid "Updated"
 msgstr "更新済み"
 
 #: pkg/packagekit/updates.jsx:614
-#, fuzzy
-#| msgid "Updated packages may require a restart to take effect."
 msgid "Updated packages may require a reboot to take effect."
 msgstr "パッケージの更新を反映するには、再起動が必要になる場合があります。"
 
 #: pkg/packagekit/autoupdates.jsx:269
-#, fuzzy
-#| msgid "Update"
 msgid "Updates "
-msgstr "更新"
+msgstr "更新 "
 
 #: pkg/packagekit/updates.jsx:1287
 msgid "Updates available"
@@ -8437,26 +8189,20 @@ msgid "Use 512 byte emulation"
 msgstr "512 バイトのエミュレーションを使用します"
 
 #: pkg/storaged/vdo-details.jsx:320
-#, fuzzy
-#| msgid "Compression"
 msgid "Use compression"
-msgstr "圧縮"
+msgstr "圧縮の使用"
 
 #: pkg/storaged/vdo-details.jsx:329
-#, fuzzy
-#| msgid "Deduplication"
 msgid "Use deduplication"
-msgstr "重複"
+msgstr "重複排除の使用"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:571
 msgid "Use existing"
 msgstr "既存の使用"
 
 #: pkg/shell/credentials.js:76
-#, fuzzy
-#| msgid "ssh key"
 msgid "Use key"
-msgstr "ssh 鍵"
+msgstr "キーの使用"
 
 #: pkg/shell/index.html:122
 msgid "Use the following keys to authenticate against other systems"
@@ -8496,16 +8242,12 @@ msgid "Username"
 msgstr "ユーザー名"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "encryption"
 msgid "Using LUKS encryption"
-msgstr "暗号化"
+msgstr "LUKS 暗号化の使用"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Edit Tang keyserver"
 msgid "Using Tang server"
-msgstr "Tang キーサーバーの編集"
+msgstr "Tang サーバーの使用"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:160
 msgid "VCPU settings could not be saved"
@@ -8552,7 +8294,7 @@ msgstr "VM $0 はすでに存在します"
 
 #: pkg/machines/app.jsx:146
 msgid "VM $0 does not exist on $1 connection"
-msgstr ""
+msgstr "VM $0 は $1 接続に存在しません"
 
 #: pkg/machines/components/vm/vmActions.jsx:110
 msgid "VM $0 failed to force reboot"
@@ -8600,28 +8342,20 @@ msgid "VM state"
 msgstr "VM の状態"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:53
-#, fuzzy
-#| msgid "VNC TLS Port:"
 msgid "VNC TLS port"
-msgstr "VNC TLS ポート:"
+msgstr "VNC TLS ポート"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:49
-#, fuzzy
-#| msgid "VNC Address:"
 msgid "VNC address"
-msgstr "VNC アドレス:"
+msgstr "VNC アドレス"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:99
-#, fuzzy
-#| msgid "console"
 msgid "VNC console"
-msgstr "コンソール"
+msgstr "VNC コンソール"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:51
-#, fuzzy
-#| msgid "VNC Port:"
 msgid "VNC port"
-msgstr "VNC ポート:"
+msgstr "VNC ポート"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:166
 msgid "Validating address"
@@ -8668,7 +8402,7 @@ msgstr "オートメーションスクリプトの表示"
 
 #: pkg/systemd/overview-cards/usageCard.jsx:147
 msgid "View details and history"
-msgstr ""
+msgstr "詳細と履歴の表示"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:138
 msgid "View hardware details"
@@ -8796,10 +8530,8 @@ msgid "Web Console for Linux servers"
 msgstr "Linux サーバー用 Web コンソール"
 
 #: pkg/packagekit/updates.jsx:451 pkg/packagekit/updates.jsx:845
-#, fuzzy
-#| msgid "Web Console for Linux servers"
 msgid "Web Console will restart"
-msgstr "Linux サーバー用 Web コンソール"
+msgstr "Web コンソールが再起動します"
 
 #: pkg/systemd/superuser-alert.jsx:60
 msgid "Web console is running in limited access mode."
@@ -8823,11 +8555,11 @@ msgstr "tang-show-keys を利用できない場合はどうしますか?"
 
 #: pkg/packagekit/autoupdates.jsx:373
 msgid "When"
-msgstr ""
+msgstr "条件"
 
 #: pkg/shell/machines/machine-add.html:34
 msgid "When empty, connect with the current user"
-msgstr ""
+msgstr "空の場合は、現在のユーザーに接続します"
 
 #: pkg/packagekit/updates.jsx:454 pkg/packagekit/updates.jsx:850
 msgid ""
@@ -8835,6 +8567,8 @@ msgid ""
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
 msgstr ""
+"Web コンソールを再起動すると、進捗情報が表示されなくなります。ただし、更新プロセスはバックグラウンドで続行されます。更新プロセスの監視を継続するには、"
+"再接続します。"
 
 #: pkg/systemd/terminal.jsx:110
 msgid "White"
@@ -8846,10 +8580,8 @@ msgid "World wide name"
 msgstr "World wide name"
 
 #: pkg/metrics/metrics.jsx:501
-#, fuzzy
-#| msgid "ReadWrite"
 msgid "Write"
-msgstr "読み書き"
+msgstr "書き込み"
 
 #: pkg/storaged/mdraid-details.jsx:110
 msgid "Write-mostly"
@@ -8883,11 +8615,11 @@ msgstr "昨日"
 
 #: pkg/static/login.js:648
 msgid "You are connecting to $0 for the first time."
-msgstr ""
+msgstr "初めて $0 に接続しています。"
 
 #: pkg/shell/machines/machine-unknown-hostkey.html:6
 msgid "You are connecting to {{host}} for the first time."
-msgstr ""
+msgstr "初めて {{host}} に接続しています。"
 
 #: pkg/networkmanager/firewall-switch.jsx:58
 #: pkg/networkmanager/firewall.jsx:152
@@ -8923,7 +8655,7 @@ msgstr "パスワードを変更するにはより長い時間の経過が必要
 
 #: pkg/metrics/metrics.jsx:930
 msgid "You need to relogin to be able to see metrics"
-msgstr ""
+msgstr "メトリクスを表示するには、ログインし直す必要があります"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:138
 msgid "You need to select the most closely matching operating system"
@@ -9016,7 +8748,7 @@ msgstr "アセットタグ"
 
 #: pkg/packagekit/autoupdates.jsx:386
 msgid "at"
-msgstr "時間:"
+msgstr "時間"
 
 #: pkg/selinux/manifest.json.in:0
 msgid "avc"
@@ -9057,7 +8789,7 @@ msgstr "cdrom"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "cgroups"
-msgstr ""
+msgstr "cgroups"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "command"
@@ -9114,10 +8846,8 @@ msgid "disk"
 msgstr "ディスク"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "udisks"
 msgid "disks"
-msgstr "udisks"
+msgstr "ディスク"
 
 #: pkg/packagekit/manifest.json.in:0
 msgid "dnf"
@@ -9218,10 +8948,8 @@ msgid "hardware"
 msgstr "ハードウェア"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Directory"
 msgid "history"
-msgstr "フォルダー"
+msgstr "履歴"
 
 #: pkg/machines/helpers.js:232 pkg/systemd/manifest.json.in:0
 msgid "host"
@@ -9232,10 +8960,8 @@ msgid "host device"
 msgstr "ホストデバイス"
 
 #: pkg/machines/helpers.js:233
-#, fuzzy
-#| msgid "to host path"
 msgid "host passthrough"
-msgstr "ホストパスに対して"
+msgstr "ホストパススルー"
 
 #: pkg/machines/helpers.js:241
 msgid "hostdev"
@@ -9263,7 +8989,7 @@ msgstr "iSCSI ターゲット"
 
 #: pkg/shell/shell-modals.jsx:124
 msgid "in most browsers"
-msgstr ""
+msgstr "多くのブラウザー"
 
 #: pkg/apps/manifest.json.in:0
 msgid "install"
@@ -9362,10 +9088,8 @@ msgid "memory"
 msgstr "メモリー"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Store metrics"
 msgid "metrics"
-msgstr "メトリクスの保存"
+msgstr "メトリクス"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "mitigation"
@@ -9398,7 +9122,7 @@ msgstr "nfs ダンプターゲットは server:path の形式になっていま�
 
 #: pkg/metrics/metrics.jsx:84
 msgid "nice"
-msgstr ""
+msgstr "Nice 値"
 
 #: pkg/machines/helpers.js:260
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:69
@@ -9457,10 +9181,8 @@ msgid "pci"
 msgstr "PCI"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "cpu"
 msgid "pcp"
-msgstr "CPU"
+msgstr "pcp"
 
 #: pkg/apps/manifest.json.in:0
 msgid "plugin"
@@ -9591,10 +9313,8 @@ msgid "ssh server is empty"
 msgstr "ssh サーバーが空です"
 
 #: pkg/metrics/metrics.jsx:84
-#, fuzzy
-#| msgid "sos"
 msgid "sys"
-msgstr "sos"
+msgstr "sys"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "systemctl"
@@ -9703,22 +9423,14 @@ msgid "vhostuser"
 msgstr "vhostuser"
 
 #: pkg/machines/components/common/stateIcon.jsx:60
-#, fuzzy
-#| msgid "Read more..."
 msgid "view more..."
-msgstr "さらに読む..."
+msgstr "詳細を表示..."
 
 #: pkg/machines/components/vm/vmActions.jsx:298
-#, fuzzy
-#| msgid ""
-#| "virt-install package needs to be installed on the system in order to "
-#| "create new VMs"
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
-msgstr ""
-"新しい VM を作成するには、virt-install パッケージをシステムにインストールする"
-"必要があります"
+msgstr "VM を複製するには、virt-install パッケージをシステムにインストールする必要があります"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1001
 msgid ""
@@ -9729,16 +9441,10 @@ msgstr ""
 "必要があります"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:183
-#, fuzzy
-#| msgid ""
-#| "virt-install package needs to be installed on the system in order to "
-#| "create new VMs"
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
-msgstr ""
-"新しい VM を作成するには、virt-install パッケージをシステムにインストールする"
-"必要があります"
+msgstr "この属性を編集するには、virt-install パッケージをシステムにインストールする必要があります"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "vlan"
@@ -9758,7 +9464,7 @@ msgstr "警告"
 
 #: pkg/packagekit/autoupdates.jsx:270
 msgid "will be applied $0 at $1"
-msgstr ""
+msgstr "$1 で $0 に適用されます"
 
 #: pkg/machines/helpers.js:259
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:69
@@ -9777,7 +9483,7 @@ msgstr "ゾーン"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:2
 msgid "{{host}} key changed"
-msgstr ""
+msgstr "{{host}} キーが変更されました"
 
 #~ msgid "$0 Template"
 #~ msgstr "$0 テンプレート"
