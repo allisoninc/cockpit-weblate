@@ -796,8 +796,7 @@ msgstr "<b>$0</b>을/를 추가하면 서버와의 연결이 끊어지고 관리
 msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
-msgstr ""
-"사용자 정의 포트를 추가하면 firewalld가 다시 로드됩니다. firewalld이 다시 로드될 경우 모든 런타임 설정이 손실됩니다!"
+msgstr "사용자 지정 포트를 추가하면 방화벽이 다시 로드됩니다. 방화벽을 다시로드하면 런타임 전용 설정이 손실됩니다!"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -849,7 +848,7 @@ msgstr "주소 $val"
 
 #: pkg/storaged/crypto-keyslots.jsx:196
 msgid "Address cannot be empty"
-msgstr "주소는 비워 둘 수 없습니다"
+msgstr "주소는 비워둘 수 없습니다"
 
 #: pkg/storaged/crypto-keyslots.jsx:198
 msgid "Address is not a valid URL"
@@ -883,10 +882,8 @@ msgid "Advanced TCA"
 msgstr "고급 TCA"
 
 #: pkg/storaged/dialog.jsx:951
-#, fuzzy
-#| msgid "Current Allocation"
 msgid "Affected locations"
-msgstr "현재 할당"
+msgstr "관련 위치"
 
 #: pkg/systemd/services/service-details.jsx:395
 msgid "After"
@@ -899,7 +896,7 @@ msgstr "이후"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:201
 msgid "After deleting the snapshot, all its captured content will be lost."
-msgstr ""
+msgstr "스냅샷을 삭제하면 캡처된 모든 컨텐츠가 손실됩니다."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:28
 msgid ""
