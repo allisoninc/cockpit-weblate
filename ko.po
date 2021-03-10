@@ -229,7 +229,7 @@ msgstr[0] "$0 패키지"
 #: pkg/packagekit/updates.jsx:635 pkg/packagekit/updates.jsx:747
 msgid "$0 package needs a system reboot"
 msgid_plural "$0 packages need a system reboot"
-msgstr[0] "$0 꾸러미는 시스템 재부팅에 필요합니다"
+msgstr[0] "$0 패키지의 경우 시스템을 재부팅해야 합니다"
 
 #: pkg/metrics/metrics.jsx:106
 msgid "$0 page"
