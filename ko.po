@@ -1642,7 +1642,7 @@ msgid ""
 "after its buddies."
 msgstr ""
 "Cockpit은 경험이 적은 시스템 관리자에게 적합합니다. 시스템 관리자는 스토리지 관리, 저널 검사, 서비스 시작 및 중지 등의 간단한 "
-"작업을 쉽게 수행 할 수 있으며 여러 서버를 동시에 모니터링 및 관리할 수 있습니다. 간단하게 서버를 클릭하여 서버를 추가 할 수 있으며 "
+"작업을 쉽게 수행할 수 있으며 여러 서버를 동시에 모니터링 및 관리할 수 있습니다. 간단하게 서버를 클릭하여 서버를 추가할 수 있으며 "
 "추가 후 다른 기기를 관리할 수 있습니다."
 
 #: pkg/shell/machines/machine-add.html:37
@@ -1724,20 +1724,14 @@ msgid "Confirm"
 msgstr "확인"
 
 #: pkg/shell/machines/machine-dialogs.js:736
-#, fuzzy
-#| msgid "Confirm New Password"
 msgid "Confirm key password"
-msgstr "새 암호 확인"
+msgstr "키 암호 확인"
 
 #: pkg/shell/machines/machine-dialogs.js:747
-#, fuzzy
-#| msgid "Confirm New Password"
 msgid "Confirm new key password"
-msgstr "새 암호 확인"
+msgstr "새 키 암호 확인"
 
 #: pkg/users/password-dialogs.js:151
-#, fuzzy
-#| msgid "Confirm New Password"
 msgid "Confirm new password"
 msgstr "새 암호 확인"
 
@@ -1755,7 +1749,7 @@ msgstr "작업 확인"
 
 #: pkg/systemd/services/service-details.jsx:393
 msgid "Conflicted by"
-msgstr "충돌"
+msgstr "충돌 대상:"
 
 #: pkg/systemd/services/service-details.jsx:392
 msgid "Conflicts"
