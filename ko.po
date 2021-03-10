@@ -2792,7 +2792,7 @@ msgstr "Ethernet MAC"
 
 #: pkg/networkmanager/index.html:489
 msgid "Ethernet MTU"
-msgstr "이더넷 MTU"
+msgstr "Ethernet MTU"
 
 #: pkg/networkmanager/interfaces.js:1496
 msgid "Ethtool"
@@ -2816,7 +2816,7 @@ msgstr "호스트의 파일 시스템에서 기존 디스크 이미지"
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:125
 msgid "Expand"
-msgstr ""
+msgstr "확장"
 
 #: pkg/lib/machine-info.js:84
 msgid "Expansion chassis"
@@ -2861,10 +2861,8 @@ msgid "Failed to change password"
 msgstr "암호 변경 실패"
 
 #: pkg/machines/components/vm/vmCloneDialog.jsx:56
-#, fuzzy
-#| msgid "Failed to add machine: $0"
 msgid "Failed to clone VM $0"
-msgstr "컴퓨터를 추가하지 못했습니다: $0"
+msgstr "VM을 복제하지 못했습니다 $0"
 
 #: pkg/selinux/setroubleshoot-client.js:188
 msgid "Failed to delete alert: $0"
@@ -2895,16 +2893,12 @@ msgid "Failed to load authorized keys."
 msgstr "승인된 키를 불러오지 못했습니다."
 
 #: pkg/packagekit/updates.jsx:420
-#, fuzzy
-#| msgid "Failed to add service"
 msgid "Failed to restart service"
-msgstr "서비스 추가 실패"
+msgstr "서비스를 재시작하지 못했습니다"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:97
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to save changes in /etc/motd"
-msgstr "펌웨어를 변경하지 못했습니다"
+msgstr "/etc/motd에 변경 사항을 저장하지 못했습니다"
 
 #: pkg/machines/components/vm/consoles/vnc.jsx:130
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
@@ -2949,10 +2943,8 @@ msgid "Filter"
 msgstr "필터"
 
 #: pkg/machines/components/vms/hostvmslist.jsx:91
-#, fuzzy
-#| msgid "Filter by name or description"
 msgid "Filter by name"
-msgstr "이름 또는 설명에 따라 필터링"
+msgstr "이름으로 필터링"
 
 #: pkg/systemd/services/services.jsx:731
 msgid "Filter by name or description"
@@ -3003,10 +2995,8 @@ msgid "Force password change"
 msgstr "강제 암호 변경"
 
 #: pkg/machines/components/vm/vmActions.jsx:254
-#, fuzzy
-#| msgid "Force Delete"
 msgid "Force reboot"
-msgstr "강제 삭제"
+msgstr "강제 재부팅"
 
 #: pkg/storaged/crypto-keyslots.jsx:384
 msgid "Force remove passphrase in $0"
@@ -3052,11 +3042,8 @@ msgid "Forwarding mode"
 msgstr "전송 모드"
 
 #: pkg/systemd/abrtLog.jsx:74
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Serial Number"
 msgid "Frame number"
-msgstr "일련 번호"
+msgstr "프레임 번호"
 
 #: pkg/storaged/pvol-tabs.jsx:51
 msgid "Free"
@@ -3088,7 +3075,7 @@ msgstr "성명"
 
 #: pkg/shell/shell-modals.jsx:45
 msgid "GNU LGPL version 2.1"
-msgstr ""
+msgstr "GNU LGPL 버전 2.1"
 
 #: pkg/networkmanager/network-interface.jsx:368
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:202
@@ -3113,7 +3100,7 @@ msgstr "GiB"
 
 #: pkg/machines/app.jsx:150
 msgid "Go to VMs list"
-msgstr ""
+msgstr "VM 목록으로 이동"
 
 #: pkg/apps/application.jsx:113
 msgid "Go to application"
@@ -3125,7 +3112,7 @@ msgstr "지금 바로 가기"
 
 #: pkg/networkmanager/network-interface.jsx:449
 msgid "Group"
-msgstr ""
+msgstr "그룹"
 
 #: pkg/storaged/lvol-tabs.jsx:246 pkg/storaged/lvol-tabs.jsx:399
 #: pkg/storaged/lvol-tabs.jsx:456 pkg/storaged/vdo-details.jsx:231
@@ -3151,15 +3138,13 @@ msgstr "모든 공간을 사용하여 확장하기"
 
 #: pkg/networkmanager/index.html:141
 msgid "Hair pin mode"
-msgstr "Hair Pin 모드"
+msgstr "Hair pin 모드"
 
 #: pkg/networkmanager/network-interface.jsx:571
 msgid "Hairpin mode"
 msgstr "Hairpin 모드"
 
 #: pkg/lib/machine-info.js:77
-#, fuzzy
-#| msgid "Hand Held"
 msgid "Handheld"
 msgstr "휴대용"
 
@@ -3188,10 +3173,8 @@ msgid "Hide filters"
 msgstr "필터 숨기기"
 
 #: pkg/packagekit/history.jsx:108
-#, fuzzy
-#| msgid "Your account"
 msgid "History package count"
-msgstr "사용자 계정"
+msgstr "히스토리 패키지 수"
 
 #: pkg/shell/machines/machine-add.html:14
 #: pkg/machines/components/vm/overview/bootOrder.jsx:96
@@ -3212,7 +3195,7 @@ msgstr "호스트 키가 잘못되었습니다"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:125
 msgid "Host name"
-msgstr "호스트명"
+msgstr "호스트 이름"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:616
 msgid "Host name should not be changed in a domain"
