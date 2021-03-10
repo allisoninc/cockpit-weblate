@@ -6756,7 +6756,7 @@ msgstr "스패닝 트리 프로토콜"
 
 #: pkg/networkmanager/index.html:107
 msgid "Spanning tree protocol (STP)"
-msgstr "스패닝 통신 트리 통신규약(STP)"
+msgstr "스패닝 트리 프로토콜(STP)"
 
 #: pkg/storaged/mdraid-details.jsx:109
 msgid "Spare"
@@ -6808,11 +6808,11 @@ msgstr "시작은 비워둘 수 없습니다"
 
 #: pkg/storaged/jobs-panel.jsx:62
 msgid "Starting RAID device $target"
-msgstr "RAID 장치 $target 시작"
+msgstr "RAID 장치 $target 시작 중"
 
 #: pkg/storaged/jobs-panel.jsx:44
 msgid "Starting swapspace $target"
-msgstr "스왑공간 $target 시작"
+msgstr "스왑공간 $target 시작 중"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:233
 msgid "Startup"
