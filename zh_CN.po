@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
-"PO-Revision-Date: 2021-02-28 12:40+0000\n"
-"Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
+"PO-Revision-Date: 2021-03-10 14:47+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel8/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -29,12 +29,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: pkg/metrics/metrics.jsx:379
-#, fuzzy
-#| msgid "of $0 CPU"
-#| msgid_plural "of $0 CPUs"
 msgid "$0 CPU"
 msgid_plural "$0 CPUs"
 msgstr[0] "$0 CPU"
@@ -45,11 +42,11 @@ msgstr "$0 CPU 配置"
 
 #: pkg/metrics/metrics.jsx:402 pkg/metrics/metrics.jsx:473
 msgid "$0 GiB available"
-msgstr "$0 GiB 不可用"
+msgstr "$0 GiB 可用"
 
 #: pkg/metrics/metrics.jsx:394 pkg/metrics/metrics.jsx:464
 msgid "$0 GiB total"
-msgstr "总计 $0 GiB"
+msgstr "$0 GiB 总数"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:77
 msgid "$0 Network"
@@ -57,11 +54,9 @@ msgid_plural "$0 Networks"
 msgstr[0] "$0 网络"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:52
-#, fuzzy
-#| msgid "Storage pool"
 msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
-msgstr[0] "存储池"
+msgstr[0] "$0 存储池"
 
 #: pkg/networkmanager/network-main.jsx:167
 msgid "$0 active zone"
@@ -143,10 +138,8 @@ msgid "$0 filesystems can not be resized here."
 msgstr "$0文件系统不能在这里改变大小。"
 
 #: pkg/metrics/metrics.jsx:515
-#, fuzzy
-#| msgid "$0, $1 free"
 msgid "$0 free"
-msgstr "$0, $1 可用"
+msgstr "$0 可用"
 
 #: pkg/systemd/overview.jsx:98
 msgctxt "<date> from <host>"
@@ -190,7 +183,7 @@ msgstr "所有仓库都不提供 $0。"
 
 #: pkg/static/login.js:642
 msgid "$0 key changed"
-msgstr ""
+msgstr "$0 密钥已更改"
 
 #: pkg/base1/cockpit.js:2798
 msgid "$0 killed with signal $1"
@@ -225,9 +218,6 @@ msgid "$0 network"
 msgstr "$0 网络"
 
 #: pkg/selinux/setroubleshoot-view.jsx:430
-#, fuzzy
-#| msgid "$0 occurrence"
-#| msgid_plural "$1 occurrences"
 msgid "$0 occurrence"
 msgid_plural "$0 occurrences"
 msgstr[0] "$0 概率"
@@ -249,20 +239,17 @@ msgstr[0] "$0 软件包"
 #: pkg/packagekit/updates.jsx:635 pkg/packagekit/updates.jsx:747
 msgid "$0 package needs a system reboot"
 msgid_plural "$0 packages need a system reboot"
-msgstr[0] ""
+msgstr[0] "$0 软件包需要重启系统"
 
 #: pkg/metrics/metrics.jsx:106
 msgid "$0 page"
 msgid_plural "$0 pages"
-msgstr[0] ""
+msgstr[0] "$0 页"
 
 #: pkg/packagekit/updates.jsx:719
-#, fuzzy
-#| msgid "$1 security fix"
-#| msgid_plural "$1 security fixes"
 msgid "$0 security fix available"
 msgid_plural "$0 security fixes available"
-msgstr[0] "$1 安全修正"
+msgstr[0] "$0 可用的安全修复"
 
 #: pkg/systemd/services/services.jsx:654
 msgid "$0 service has failed"
@@ -270,43 +257,32 @@ msgid_plural "$0 services have failed"
 msgstr[0] "$0 个服务失败"
 
 #: pkg/packagekit/updates.jsx:652 pkg/packagekit/updates.jsx:759
-#, fuzzy
-#| msgid "$0 service has failed"
-#| msgid_plural "$0 services have failed"
 msgid "$0 service needs to be restarted"
 msgid_plural "$0 services need to be restarted"
-msgstr[0] "$0 个服务失败"
+msgstr[0] "$0 服务需要重启"
 
 #: pkg/storaged/crypto-keyslots.jsx:592
-#, fuzzy
-#| msgid "$0 slots remain"
 msgid "$0 slot remains"
 msgid_plural "$0 slots remain"
-msgstr[0] "剩余 $0 个槽位"
+msgstr[0] "$0 剩余插槽"
 
 #: pkg/metrics/metrics.jsx:523
-#, fuzzy
-#| msgid "Total"
 msgid "$0 total"
-msgstr "总共"
+msgstr "$0 总计"
 
 #: pkg/packagekit/updates.jsx:727
-#, fuzzy
-#| msgid "Updates Available"
 msgid "$0 update available"
 msgid_plural "$0 updates available"
-msgstr[0] "可用的更新"
+msgstr[0] "$0 更新可用"
 
 #: pkg/storaged/vdo-details.jsx:301
 msgid "$0 used of $1 ($2 saved)"
 msgstr "$0 使用 $1（已保存 $2）"
 
 #: pkg/machines/components/vm/vmUsageCard.jsx:49
-#, fuzzy
-#| msgid "vCPUs"
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
-msgstr[0] "vCPU"
+msgstr[0] "$0 vCPU"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:246
 msgid "$0 vCPU details"
@@ -408,10 +384,8 @@ msgid "14th"
 msgstr "14号"
 
 #: pkg/metrics/metrics.jsx:285
-#, fuzzy
-#| msgid "5 min"
 msgid "15 min"
-msgstr "5 分钟"
+msgstr "15 分钟"
 
 #: pkg/systemd/services.html:95
 msgid "15th"
@@ -608,18 +582,16 @@ msgstr ""
 "${afile} 文件中。"
 
 #: pkg/packagekit/updates.jsx:1364
-#, fuzzy
-#| msgid "Updated packages may require a restart to take effect."
 msgid "A package needs a system reboot for the updates to take effect:"
 msgid_plural ""
 "Some packages need a system reboot for the updates to take effect:"
-msgstr[0] "已更新的软件包可能需要重启生效。"
+msgstr[0] "软件包需要重启系统才能使更新生效："
 
 #: pkg/packagekit/updates.jsx:1368
 msgid "A service needs to be restarted for the updates to take effect:"
 msgid_plural ""
 "Some services need to be restarted for the updates to take effect:"
-msgstr[0] ""
+msgstr[0] "需要重启服务才能使更新生效："
 
 #: pkg/storaged/mdraid-details.jsx:130
 msgid "A spare disk needs to be added first before this disk can be removed."
@@ -686,7 +658,7 @@ msgstr "激活"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:115
 msgid "Activate the storage pool to administer volumes"
-msgstr ""
+msgstr "激活存储池以管理卷"
 
 #: pkg/storaged/jobs-panel.jsx:71
 msgid "Activating $target"
@@ -770,10 +742,8 @@ msgid "Add key"
 msgstr "添加密钥"
 
 #: pkg/networkmanager/network-interface-members.jsx:197
-#, fuzzy
-#| msgid "RAID Member"
 msgid "Add member"
-msgstr "RAID 成员"
+msgstr "添加成员"
 
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:88
 msgid "Add network interface"
@@ -916,10 +886,8 @@ msgid "Advanced TCA"
 msgstr "高级 TCA"
 
 #: pkg/storaged/dialog.jsx:951
-#, fuzzy
-#| msgid "Current Allocation"
 msgid "Affected locations"
-msgstr "当前分配"
+msgstr "受影响的位置"
 
 #: pkg/systemd/services/service-details.jsx:395
 msgid "After"
@@ -950,7 +918,7 @@ msgstr "系统启动后"
 
 #: pkg/selinux/setroubleshoot-view.jsx:454
 msgid "Alert"
-msgstr ""
+msgstr "警告"
 
 #: pkg/systemd/logs.html:53
 msgid "Alert and above"
@@ -967,10 +935,8 @@ msgid "All logs"
 msgstr "所有日志"
 
 #: pkg/packagekit/autoupdates.jsx:367
-#, fuzzy
-#| msgid "Apply all updates"
 msgid "All updates"
-msgstr "应用所有更新"
+msgstr "所有更新"
 
 #: pkg/lib/machine-info.js:79
 msgid "All-in-one"
@@ -998,10 +964,8 @@ msgid "Ansible roles documentation"
 msgstr "Ansible 角色文档"
 
 #: pkg/systemd/terminal.jsx:100 pkg/systemd/terminal.jsx:104
-#, fuzzy
-#| msgid "Appearance:"
 msgid "Appearance"
-msgstr "外观："
+msgstr "外观"
 
 #: pkg/apps/index.html:23 pkg/apps/application.jsx:148
 #: pkg/apps/application-list.jsx:169 pkg/apps/manifest.json.in:0
@@ -1055,11 +1019,9 @@ msgid "Asset tag"
 msgstr "资产标签"
 
 #: pkg/storaged/mdraids-panel.jsx:116
-#, fuzzy
-#| msgid "At least one disk is needed."
 msgid "At least $0 disk is needed."
 msgid_plural "At least $0 disks are needed."
-msgstr[0] "至少需要 1 块磁盘。"
+msgstr[0] "至少需要 $0 个磁盘。"
 
 #: pkg/storaged/vgroups-panel.jsx:84 pkg/storaged/vgroup-details.jsx:70
 #: pkg/storaged/mdraid-details.jsx:66
@@ -1144,10 +1106,8 @@ msgid "Automatic updates"
 msgstr "自动更新"
 
 #: pkg/packagekit/autoupdates.jsx:272
-#, fuzzy
-#| msgid "Automatic Updates"
 msgid "Automatic updates are not set up"
-msgstr "自动更新"
+msgstr "自动更新没有被设置"
 
 #: pkg/machines/components/libvirtSlate.jsx:94
 msgid "Automatically start libvirt on boot"
@@ -1252,8 +1212,6 @@ msgid "Bond"
 msgstr "绑定"
 
 #: pkg/networkmanager/index.html:310
-#, fuzzy
-#| msgid "Bond Settings"
 msgid "Bond settings"
 msgstr "绑定设置"
 
@@ -1329,7 +1287,7 @@ msgstr ""
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:263
 msgid "CD/DVD disc"
-msgstr ""
+msgstr "CD/DVD 盘"
 
 #: pkg/metrics/metrics.jsx:429 pkg/metrics/metrics.jsx:1007
 #: pkg/machines/components/vm/vmUsageCard.jsx:71 pkg/systemd/hwinfo.jsx:113
@@ -1338,10 +1296,8 @@ msgid "CPU"
 msgstr "CPU"
 
 #: pkg/machines/components/vm/overview/cpuTypeModal.jsx:26
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "CPU configuration could not be saved"
-msgstr "VCPU 设置不能被保存"
+msgstr "CPU 配置不能被保存"
 
 #: pkg/systemd/hwinfo.jsx:118
 msgid "CPU security"
@@ -1352,20 +1308,16 @@ msgid "CPU security toggles"
 msgstr "CPU安全性开关"
 
 #: pkg/metrics/metrics.jsx:81
-#, fuzzy
-#| msgid "CPU Type"
 msgid "CPU spike"
-msgstr "CPU类型"
+msgstr "CPU 高负载"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:230
 msgid "CPU type"
 msgstr "CPU类型"
 
 #: pkg/metrics/metrics.jsx:80
-#, fuzzy
-#| msgid "CPU usage:"
 msgid "CPU usage"
-msgstr "CPU 使用率："
+msgstr "CPU 使用"
 
 #: pkg/packagekit/updates.jsx:299
 msgid "CVE"
@@ -1378,7 +1330,7 @@ msgstr "缓存"
 
 #: pkg/shell/machines/machine-add.html:26
 msgid "Can be a hostname, IP address, alias name, or ssh:// URI"
-msgstr ""
+msgstr "可以是主机名、IP 地址、别名或者 ssh:// URI"
 
 #: pkg/systemd/logs.js:140 pkg/systemd/logs.js:268
 msgid "Can not find any logs using the current combination of filters."
@@ -1517,7 +1469,7 @@ msgid ""
 "Changed keys are often the result of an operating system reinstallation. "
 "However, an unexpected change may indicate a third-party attempt to "
 "intercept your connection."
-msgstr ""
+msgstr "密钥的变化通常是操作系统重新安装的结果。但是，意料外的变化可能代表有第三方尝试截获您的连接。"
 
 #: pkg/machines/components/common/warningInactive.jsx:12
 #: pkg/machines/components/vm/nics/nicEdit.jsx:154
@@ -1565,10 +1517,8 @@ msgid "Checking installed software"
 msgstr "检查安装的软件"
 
 #: pkg/packagekit/updates.jsx:1255
-#, fuzzy
-#| msgid "Checking $target"
 msgid "Checking software status"
-msgstr "检查 $target"
+msgstr "检查软件状态"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:370
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:371
@@ -1608,12 +1558,9 @@ msgid "Click $0 again to use the password anyway."
 msgstr "再次点 $0 以使用该密码。"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:58
-#, fuzzy
-#| msgid ""
-#| "Clicking \"Launch Remote Viewer\" will download a .vv file and launch $0."
 msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
-msgstr "点击 \"启动 Remote Viewer\" 将下载一个 .vv 文件并加载 $0。"
+msgstr "点 \"Launch remote viewer\" 将下载一个 .vv 文件并启动 $0。"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:21
 msgid "Client software"
@@ -1622,7 +1569,7 @@ msgstr "客户端软件"
 #: pkg/machines/components/vm/vmCloneDialog.jsx:72
 #: pkg/machines/components/vm/vmActions.jsx:289
 msgid "Clone"
-msgstr ""
+msgstr "克隆"
 
 #: pkg/networkmanager/index.html:276 pkg/networkmanager/index.html:305
 #: pkg/networkmanager/index.html:340 pkg/networkmanager/index.html:369
@@ -1657,7 +1604,7 @@ msgstr "Cockpit 无法联系指定的主机。"
 
 #: pkg/shell/shell-modals.jsx:119
 msgid "Cockpit had an unexpected internal error."
-msgstr ""
+msgstr "Cockpit 出现意外的内部错误。"
 
 #: src/ws/cockpit.appdata.xml.in:10
 msgid ""
@@ -1786,8 +1733,6 @@ msgid "Confirm new key password"
 msgstr "确认新的密钥密码"
 
 #: pkg/users/password-dialogs.js:151
-#, fuzzy
-#| msgid "Confirm New Password"
 msgid "Confirm new password"
 msgstr "确认新密码"
 
@@ -1824,10 +1769,8 @@ msgid "Connect to"
 msgstr "连接至"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:46
-#, fuzzy
-#| msgid "Connect with any $0 viewer application."
 msgid "Connect with any viewer application for following protocols"
-msgstr "使用任何 $0 查看器应用来连接。"
+msgstr "使用任意 viewer 应用程序用于以下协议"
 
 #: pkg/shell/machines/machine-add.html:46
 msgid ""
@@ -1876,8 +1819,6 @@ msgstr "组成"
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:89
 #: pkg/machines/components/vm/vmDetailsPage.jsx:117
-#, fuzzy
-#| msgid "Consoles"
 msgid "Console"
 msgstr "控制台"
 
@@ -1899,10 +1840,8 @@ msgid "Content"
 msgstr "内容"
 
 #: pkg/packagekit/updates.jsx:694
-#, fuzzy
-#| msgid "Container"
 msgid "Continue"
-msgstr "容器"
+msgstr "继续"
 
 #: pkg/shell/shell-modals.jsx:106
 msgid "Continue session"
@@ -1930,10 +1869,8 @@ msgid "Copy to clipboard"
 msgstr "复制到剪贴板"
 
 #: pkg/metrics/metrics.jsx:411
-#, fuzzy
-#| msgid "Remove $0"
 msgid "Core $0"
-msgstr "移除 $0"
+msgstr "内核 $0"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:225
 msgid "Cores per socket"
@@ -1960,8 +1897,6 @@ msgid "Crash system"
 msgstr "导致系统崩溃"
 
 #: pkg/machines/helpers.js:216
-#, fuzzy
-#| msgid "crashed"
 msgid "Crashed"
 msgstr "已崩溃"
 
@@ -1992,10 +1927,8 @@ msgid "Create VM"
 msgstr "创建虚拟机"
 
 #: pkg/machines/components/vm/vmCloneDialog.jsx:63
-#, fuzzy
-#| msgid "Create Partition on $0"
 msgid "Create a clone VM based on $0"
-msgstr "在$0上创建分区"
+msgstr "基于 $0 创建一个克隆虚拟机"
 
 #: pkg/shell/machines/machine-dialogs.js:731
 msgid "Create a new SSH key and authorize it."
@@ -2006,10 +1939,8 @@ msgid "Create devices"
 msgstr "创建设备"
 
 #: pkg/sosreport/index.html:52
-#, fuzzy
-#| msgid "Create diagnostic report"
 msgid "Create diagnostic report                    "
-msgstr "创建诊断报告"
+msgstr "创建诊断报告                    "
 
 #: pkg/networkmanager/interfaces.js:2404 pkg/networkmanager/interfaces.js:2608
 #: pkg/networkmanager/interfaces.js:2865 pkg/networkmanager/interfaces.js:3073
@@ -2179,7 +2110,7 @@ msgstr "Ctrl+Insert"
 
 #: pkg/shell/shell-modals.jsx:123
 msgid "Ctrl-Shift-J"
-msgstr ""
+msgstr "Ctrl-Shift-J"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:109
 msgid "Current"
@@ -2208,10 +2139,8 @@ msgstr "自定义挂载选项"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:248
 #: pkg/machines/components/vm/disks/diskAdd.jsx:576
-#, fuzzy
-#| msgid "Custom Ports"
 msgid "Custom path"
-msgstr "自定义端口"
+msgstr "自定义路径"
 
 #: pkg/networkmanager/firewall.jsx:545
 msgid "Custom ports"
@@ -2248,7 +2177,7 @@ msgstr "DNS 搜索域 $val"
 
 #: pkg/packagekit/updates.jsx:844
 msgid "Danger alert:"
-msgstr ""
+msgstr "危险警报："
 
 #: pkg/systemd/terminal.jsx:108
 msgid "Dark"
@@ -2387,10 +2316,8 @@ msgid "Desktop"
 msgstr "桌面"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:100
-#, fuzzy
-#| msgid "Desktop"
 msgid "Desktop viewer"
-msgstr "桌面"
+msgstr "Desktop Viewer"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:152
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:179
@@ -2507,10 +2434,8 @@ msgid "Disk I/O"
 msgstr "磁盘 I/O"
 
 #: pkg/metrics/metrics.jsx:110
-#, fuzzy
-#| msgid "Disk I/O"
 msgid "Disk I/O spike"
-msgstr "磁盘 I/O"
+msgstr "磁盘 I/O 高负载"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:526
 msgid "Disk failed to be attached"
@@ -2522,7 +2447,7 @@ msgstr "创建磁盘失败"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:261
 msgid "Disk image file"
-msgstr ""
+msgstr "磁盘镜像文件"
 
 #: pkg/storaged/drive-details.jsx:64
 msgid "Disk is OK"
@@ -2654,10 +2579,8 @@ msgid "Dual rank"
 msgstr "Dual rank"
 
 #: pkg/machines/helpers.js:217
-#, fuzzy
-#| msgid "dying"
 msgid "Dying"
-msgstr "失活的"
+msgstr "Dying"
 
 #: pkg/storaged/crypto-tab.jsx:136 pkg/storaged/nfs-details.jsx:318
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:287
@@ -2671,10 +2594,8 @@ msgid "Edit $0 attributes"
 msgstr "编辑 $0 属性"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:87
-#, fuzzy
-#| msgid "Edit Host"
 msgid "Edit /etc/motd"
-msgstr "编辑主机"
+msgstr "编辑 /etc/motd"
 
 #: pkg/storaged/crypto-keyslots.jsx:279
 msgid "Edit Tang keyserver"
@@ -2689,10 +2610,8 @@ msgid "Edit hosts"
 msgstr "编辑多个主机"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:77
-#, fuzzy
-#| msgid "Edit Host"
 msgid "Edit motd"
-msgstr "编辑主机"
+msgstr "编辑 motd"
 
 #: pkg/networkmanager/network-main.jsx:158
 msgid "Edit rules and zones"
@@ -2729,10 +2648,8 @@ msgid "Emulated machine"
 msgstr "虚拟的机器"
 
 #: pkg/networkmanager/network-interface.jsx:732
-#, fuzzy
-#| msgid "Failed to disable tuned"
 msgid "Enable or disabnle the device"
-msgstr "禁用 tuned 失败"
+msgstr "启用或者禁用设备"
 
 #: pkg/networkmanager/app.jsx:96
 msgid "Enable service"
@@ -2836,18 +2753,14 @@ msgid "Error and above"
 msgstr "Error 及更高级别"
 
 #: pkg/metrics/metrics.jsx:949
-#, fuzzy
-#| msgid "Error and above"
 msgid "Error has occurred"
-msgstr "Error 及更高级别"
+msgstr "发生错误"
 
 #: pkg/lib/cockpit-components-inline-notification.jsx:92
 #: pkg/systemd/overview-cards/configurationCard.jsx:317
 #: pkg/selinux/setroubleshoot-view.jsx:454
-#, fuzzy
-#| msgid "Log messages"
 msgid "Error message"
-msgstr "日志消息"
+msgstr "错误信息"
 
 #: pkg/lib/cockpit-components-modifications.jsx:143
 msgid "Error running semanage to discover system modifications"
@@ -2895,7 +2808,7 @@ msgstr "主机文件系统上存在的磁盘镜像"
 
 #: pkg/machines/components/vm/vmDetailsPage.jsx:125
 msgid "Expand"
-msgstr ""
+msgstr "展开"
 
 #: pkg/lib/machine-info.js:84
 msgid "Expansion chassis"
@@ -2940,10 +2853,8 @@ msgid "Failed to change password"
 msgstr "修改密码失败"
 
 #: pkg/machines/components/vm/vmCloneDialog.jsx:56
-#, fuzzy
-#| msgid "Failed to add machine: $0"
 msgid "Failed to clone VM $0"
-msgstr "添加主机失败: $0"
+msgstr "克隆虚拟机 $0 失败"
 
 #: pkg/selinux/setroubleshoot-client.js:188
 msgid "Failed to delete alert: $0"
@@ -2974,16 +2885,12 @@ msgid "Failed to load authorized keys."
 msgstr "载入 authorized key 失败。"
 
 #: pkg/packagekit/updates.jsx:420
-#, fuzzy
-#| msgid "Failed to add service"
 msgid "Failed to restart service"
-msgstr "添加服务失败"
+msgstr "重启服务失败"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:97
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to save changes in /etc/motd"
-msgstr "修改固件失败"
+msgstr "保存 /etc/motd 中的更改失败"
 
 #: pkg/machines/components/vm/consoles/vnc.jsx:130
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
@@ -3080,10 +2987,8 @@ msgid "Force password change"
 msgstr "强制密码变更"
 
 #: pkg/machines/components/vm/vmActions.jsx:254
-#, fuzzy
-#| msgid "Force Delete"
 msgid "Force reboot"
-msgstr "强制删除"
+msgstr "强制重启"
 
 #: pkg/storaged/crypto-keyslots.jsx:384
 msgid "Force remove passphrase in $0"
@@ -3129,11 +3034,8 @@ msgid "Forwarding mode"
 msgstr "转发模式"
 
 #: pkg/systemd/abrtLog.jsx:74
-#, fuzzy
-#| msgctxt "storage"
-#| msgid "Serial Number"
 msgid "Frame number"
-msgstr "序列号"
+msgstr "帧号"
 
 #: pkg/storaged/pvol-tabs.jsx:51
 msgid "Free"
@@ -3163,7 +3065,7 @@ msgstr "全名"
 
 #: pkg/shell/shell-modals.jsx:45
 msgid "GNU LGPL version 2.1"
-msgstr ""
+msgstr "GNU LGPL 版本 2.1"
 
 #: pkg/networkmanager/network-interface.jsx:368
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:202
@@ -3188,7 +3090,7 @@ msgstr "GiB"
 
 #: pkg/machines/app.jsx:150
 msgid "Go to VMs list"
-msgstr ""
+msgstr "进入 VM 列表"
 
 #: pkg/apps/application.jsx:113
 msgid "Go to application"
@@ -3349,8 +3251,6 @@ msgid "IP configuration"
 msgstr "IP 配置"
 
 #: pkg/networkmanager/index.html:280
-#, fuzzy
-#| msgid "IP Settings"
 msgid "IP settings"
 msgstr "IP 设置"
 
@@ -3412,7 +3312,7 @@ msgstr "标识符"
 
 #: pkg/machines/helpers.js:212
 msgid "Idle"
-msgstr ""
+msgstr "休眠"
 
 #: pkg/storaged/crypto-keyslots.jsx:336
 msgid "If tang-show-keys is not available, run the following:"
@@ -3423,13 +3323,13 @@ msgstr "如果没有 tang-show-keys，请运行以下命令："
 msgid ""
 "If the fingerprint matches, click \"Accept key and connect\". Otherwise, do "
 "not connect and contact your administrator."
-msgstr ""
+msgstr "如果指纹匹配，点\"Accept key and connect\"。否则，请不要连接并联系您的管理员。"
 
 #: pkg/static/login.html:67
 msgid ""
 "If the fingerprint matches, click \"Accept key and log in\". Otherwise, do "
 "not log in and contact your administrator."
-msgstr ""
+msgstr "如果指纹匹配，点\"Accept key and log in\"。否则，请不要登录并联系您的管理员。"
 
 #: pkg/networkmanager/interfaces.js:1459 pkg/packagekit/updates.jsx:618
 #: pkg/packagekit/updates.jsx:693
@@ -3458,7 +3358,7 @@ msgstr "导入一个虚拟机"
 
 #: pkg/metrics/metrics.jsx:544
 msgid "In"
-msgstr ""
+msgstr "入"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:246
 msgid ""
@@ -3503,7 +3403,7 @@ msgstr "索引内存"
 
 #: pkg/packagekit/updates.jsx:685
 msgid "Info"
-msgstr ""
+msgstr "信息"
 
 #: pkg/systemd/logs.html:58
 msgid "Info and above"
@@ -3545,7 +3445,7 @@ msgstr "安装所有更新"
 
 #: pkg/metrics/metrics.jsx:937
 msgid "Install cockpit-pcp"
-msgstr ""
+msgstr "安装 cockpit-pcp"
 
 #: pkg/packagekit/updates.jsx:1270 pkg/packagekit/updates.jsx:1276
 msgid "Install security updates"
@@ -3560,8 +3460,6 @@ msgid "Install software"
 msgstr "安装软件"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:305
-#, fuzzy
-#| msgid "Installation Source"
 msgid "Installation source"
 msgstr "安装源"
 
@@ -3587,17 +3485,13 @@ msgid "Installing $0"
 msgstr "正在安装 $0"
 
 #: pkg/metrics/metrics.jsx:544
-#, fuzzy
-#| msgid "Interfaces"
 msgid "Interface"
 msgstr "接口"
 
 #: pkg/networkmanager/network-interface-members.jsx:208
 #: pkg/networkmanager/network-interface-members.jsx:213
-#, fuzzy
-#| msgid "Interfaces"
 msgid "Interface members"
-msgstr "接口"
+msgstr "接口成员"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:122
 msgid "Interface type"
@@ -3716,7 +3610,7 @@ msgstr "IoT 网关"
 
 #: pkg/metrics/metrics.jsx:943
 msgid "Is 'pmlogger' service running?"
-msgstr ""
+msgstr "'pmlogger' 服务是否正在运行？"
 
 #: pkg/shell/machines/machine-change-port.html:10
 msgid "Is sshd running on a different port?"
@@ -3768,7 +3662,7 @@ msgstr "未找到日志条目"
 
 #: pkg/metrics/metrics.jsx:998
 msgid "Jump to"
-msgstr ""
+msgstr "跳到"
 
 #: pkg/kdump/kdump-view.jsx:465
 msgid ""
@@ -3858,10 +3752,8 @@ msgid "Last login:"
 msgstr "最后登录："
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:54
-#, fuzzy
-#| msgid "Launch Remote Viewer"
 msgid "Launch remote viewer"
-msgstr "加载 Remote Viewer"
+msgstr "启动 Remote Viewer"
 
 #: pkg/systemd/logs.html:86 pkg/networkmanager/network-main-dialogs.jsx:73
 #: pkg/lib/cockpit-components-dialog.jsx:242
@@ -3933,17 +3825,15 @@ msgstr "侦测连接状态"
 #: pkg/metrics/metrics.jsx:87 pkg/metrics/metrics.jsx:440
 #: pkg/metrics/metrics.jsx:1007
 msgid "Load"
-msgstr ""
+msgstr "加载"
 
 #: pkg/networkmanager/interfaces.js:1483
 msgid "Load balancing"
 msgstr "负载均衡"
 
 #: pkg/metrics/metrics.jsx:1023
-#, fuzzy
-#| msgid "Load earlier entries"
 msgid "Load earlier data"
-msgstr "载入更早条目"
+msgstr "载入较早的数据"
 
 #: pkg/systemd/logs.js:115
 msgid "Load earlier entries"
@@ -3951,7 +3841,7 @@ msgstr "载入更早条目"
 
 #: pkg/metrics/metrics.jsx:88
 msgid "Load spike"
-msgstr ""
+msgstr "加载高负载"
 
 #: pkg/packagekit/updates.jsx:78
 msgid "Loading available updates failed"
@@ -3962,16 +3852,12 @@ msgid "Loading available updates, please wait..."
 msgstr "正在加载可用的更新，请等待..."
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:320
-#, fuzzy
-#| msgid "Loading..."
 msgid "Loading keys..."
-msgstr "载入中..."
+msgstr "正在加载密钥 ......"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:316
-#, fuzzy
-#| msgid "Loading available updates failed"
 msgid "Loading of SSH keys failed"
-msgstr "加载可用的更新失败"
+msgstr "加载 SSH 密钥失败"
 
 #: pkg/machines/components/libvirtSlate.jsx:82
 msgid "Loading resources"
@@ -4023,10 +3909,8 @@ msgid "Lock account on $0"
 msgstr "于 $0 锁定账号"
 
 #: pkg/storaged/crypto-panel.jsx:72 pkg/storaged/crypto-panel.jsx:75
-#, fuzzy
-#| msgid "Remove device"
 msgid "Locked devices"
-msgstr "删除设备"
+msgstr "锁定的设备"
 
 #: pkg/storaged/jobs-panel.jsx:41
 msgid "Locking $target"
@@ -4153,72 +4037,52 @@ msgid "Make sure the key hash from the Tang server matches:"
 msgstr "确保来自 Tang 服务器的密钥哈希匹配："
 
 #: pkg/networkmanager/network-main.jsx:176
-#, fuzzy
-#| msgid "Unmanaged Interfaces"
 msgid "Managed interfaces"
-msgstr "未管理的接口"
+msgstr "管理的接口"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing LVMs"
-msgstr "管理服务"
+msgstr "管理 LVM"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing user accounts"
 msgid "Managing NFS mounts"
-msgstr "管理用户帐户"
+msgstr "管理 NFS 挂载"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing RAIDs"
-msgstr "管理服务"
+msgstr "管理 RAID"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing VDOs"
-msgstr "管理服务"
+msgstr "管理 VDO"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing VLANs"
-msgstr "管理服务"
+msgstr "管理 VLAN"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "Managing firewall"
 msgstr "管理防火墙"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking bonds"
-msgstr "管理网络"
+msgstr "管理网络绑定"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking bridges"
-msgstr "管理网络"
+msgstr "管理网络桥接"
 
 #: pkg/networkmanager/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing networking"
 msgid "Managing networking teams"
-msgstr "管理网络"
+msgstr "管理网络团队"
 
 #: pkg/storaged/manifest.json.in:0
 msgid "Managing partitions"
 msgstr "管理分区"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Managing services"
 msgid "Managing physical drives"
-msgstr "管理服务"
+msgstr "管理物理驱动"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Managing services"
@@ -4295,12 +4159,8 @@ msgid "Maximum message age $max_age"
 msgstr "最大消息有效期 $max_age"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:199
-#, fuzzy
-#| msgid ""
-#| "Maximum number of virtual CPUs allocated for the guest OS, which must be "
-#| "between 1 and $0"
 msgid "Maximum number of virtual CPUs allocated for the guest OS"
-msgstr "为客户机操作系统分配的最大虚拟 CPU 数，必须介于 1 和 $0 之间"
+msgstr "为客户端操作系统分配的最大虚拟 CPU 数"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:198
 msgid ""
@@ -4339,20 +4199,16 @@ msgid "Memory must not be 0"
 msgstr "内存不能为 0"
 
 #: pkg/metrics/metrics.jsx:95
-#, fuzzy
-#| msgid "Memory usage:"
 msgid "Memory spike"
-msgstr "内存使用："
+msgstr "内存激增"
 
 #: pkg/systemd/hwinfo.jsx:308
 msgid "Memory technology"
 msgstr "内存拓扑"
 
 #: pkg/metrics/metrics.jsx:94
-#, fuzzy
-#| msgid "Memory usage:"
 msgid "Memory usage"
-msgstr "内存使用："
+msgstr "内存使用"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:193
 msgid "Message to logged in users"
@@ -4371,10 +4227,8 @@ msgid "Method"
 msgstr "模式"
 
 #: pkg/metrics/metrics.jsx:942
-#, fuzzy
-#| msgid "Memory could not be saved"
 msgid "Metrics history could not be loaded"
-msgstr "内存不能被保存"
+msgstr "无法加载指标历史记录"
 
 #: pkg/machines/components/vm/overview/memorySelectRow.jsx:85
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:102
@@ -4458,7 +4312,7 @@ msgstr "更多详情"
 
 #: pkg/packagekit/updates.jsx:851
 msgid "More info..."
-msgstr ""
+msgstr "更多信息......"
 
 #: pkg/storaged/fsys-tab.jsx:289 pkg/storaged/content-views.jsx:377
 #: pkg/storaged/nfs-details.jsx:313 pkg/kdump/kdump-view.jsx:103
@@ -4652,9 +4506,6 @@ msgid "Netmask"
 msgstr "网络掩码"
 
 #: pkg/metrics/metrics.jsx:534 pkg/metrics/metrics.jsx:1010
-#, fuzzy
-#| msgid "Network"
-#| msgid_plural "Networks"
 msgid "Network"
 msgstr "网络"
 
@@ -4667,17 +4518,12 @@ msgid "Network $0 failed to get deactivated"
 msgstr "网络 $0 取消激活失败"
 
 #: pkg/metrics/metrics.jsx:116
-#, fuzzy
-#| msgid "Network"
-#| msgid_plural "Networks"
 msgid "Network I/O"
-msgstr "网络"
+msgstr "网络 I/O"
 
 #: pkg/metrics/metrics.jsx:117
-#, fuzzy
-#| msgid "Networks"
 msgid "Network I/O spike"
-msgstr "网络"
+msgstr "网络 I/O 激增"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:80
 msgid "Network bond"
@@ -4688,8 +4534,6 @@ msgid "Network boot (PXE)"
 msgstr "网络引导 (PXE)"
 
 #: pkg/networkmanager/app.jsx:95
-#, fuzzy
-#| msgid "Network devices and graphs require NetworkManager."
 msgid "Network devices and graphs require NetworkManager"
 msgstr "网络设备和图形需要 NetworkManager。"
 
@@ -4703,8 +4547,6 @@ msgid "Network interface settings could not be saved"
 msgstr "网络接口设置不能被保存"
 
 #: pkg/networkmanager/network-main.jsx:201
-#, fuzzy
-#| msgid "Networking Logs"
 msgid "Network logs"
 msgstr "网络日志"
 
@@ -4713,22 +4555,16 @@ msgid "Network selection does not support PXE."
 msgstr "网络选择不支持 PXE。"
 
 #: pkg/metrics/metrics.jsx:543
-#, fuzzy
-#| msgid "Networks"
 msgid "Network usage"
-msgstr "网络"
+msgstr "网络使用"
 
 #: pkg/networkmanager/app.jsx:87
-#, fuzzy
-#| msgid "NetworkManager is not running."
 msgid "NetworkManager is not installed"
-msgstr "NetworkManager 没有运行。"
+msgstr "未安装 NetworkManager"
 
 #: pkg/networkmanager/app.jsx:71
-#, fuzzy
-#| msgid "NetworkManager is not running."
 msgid "NetworkManager is not running"
-msgstr "NetworkManager 没有运行。"
+msgstr "NetworkManaer 未运行"
 
 #: pkg/networkmanager/index.html:23
 #: pkg/networkmanager/network-interface.jsx:751
@@ -4760,10 +4596,8 @@ msgid "New NFS mount"
 msgstr "新的 NFS 挂载"
 
 #: pkg/shell/machines/machine-unknown-hostkey.html:2 pkg/static/login.js:646
-#, fuzzy
-#| msgid "Add new host"
 msgid "New host"
-msgstr "添加新主机"
+msgstr "新主机"
 
 #: pkg/shell/machines/machine-dialogs.js:745
 msgid "New key password"
@@ -4831,22 +4665,16 @@ msgid "No configuration found"
 msgstr "未找到配置"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:45
-#, fuzzy
-#| msgid "No description available"
 msgid "No connection available"
-msgstr "没有可用描述"
+msgstr "没有可用连接"
 
 #: pkg/metrics/metrics.jsx:966
-#, fuzzy
-#| msgid "Not available"
 msgid "No data available"
-msgstr "不可用"
+msgstr "没有可用数据"
 
 #: pkg/metrics/metrics.jsx:962
-#, fuzzy
-#| msgid "Occurred between $0 and $1"
 msgid "No data available between $0 and $1"
-msgstr "在 $0 和 $1 间发生"
+msgstr "在 $0 和 $1 间没有可用数据"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:166
 msgid "No delay"
@@ -4981,16 +4809,12 @@ msgid "No rule hits"
 msgstr "无规则命中"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:244
-#, fuzzy
-#| msgid "No disks defined for this VM"
 msgid "No snapshots defined for this VM"
-msgstr "没有为该虚拟机定义磁盘"
+msgstr "没有为这个虚拟机定义快照"
 
 #: pkg/machines/helpers.js:220
-#, fuzzy
-#| msgid "State"
 msgid "No state"
-msgstr "状态"
+msgstr "无状态"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:516
 msgid "No storage"
@@ -5018,11 +4842,8 @@ msgid "No system modifications"
 msgstr "没有系统改变"
 
 #: pkg/packagekit/autoupdates.jsx:355
-#, fuzzy
-#| msgid "$0 update"
-#| msgid_plural "$0 updates"
 msgid "No updates"
-msgstr "$0 个更新"
+msgstr "没有更新"
 
 #: pkg/users/account-create-dialog.js:87
 msgid "No user name specified"
@@ -5137,11 +4958,8 @@ msgid "Notice and above"
 msgstr "Notice 及更高级别"
 
 #: pkg/selinux/setroubleshoot-view.jsx:454
-#, fuzzy
-#| msgid "$0 occurrence"
-#| msgid_plural "$1 occurrences"
 msgid "Occurances"
-msgstr "$0 概率"
+msgstr "Occurances"
 
 #: pkg/selinux/setroubleshoot-view.jsx:392
 msgid "Occurred $0"
@@ -5262,10 +5080,8 @@ msgid "Other options"
 msgstr "其他选项"
 
 #: pkg/metrics/metrics.jsx:544
-#, fuzzy
-#| msgid "Log Out"
 msgid "Out"
-msgstr "注销"
+msgstr "出"
 
 #: pkg/metrics/metrics.jsx:1035
 #: pkg/machines/components/vm/vmDetailsPage.jsx:104
@@ -5289,7 +5105,7 @@ msgstr "PCP"
 
 #: pkg/metrics/metrics.jsx:936
 msgid "Package cockpit-pcp is missing for metrics history"
-msgstr ""
+msgstr "指标历史记录缺少软件包 cockpit-pcp"
 
 #: pkg/packagekit/updates.jsx:622 pkg/packagekit/updates.jsx:699
 msgid "Package information"
@@ -5312,10 +5128,8 @@ msgid "Packages"
 msgstr "软件包"
 
 #: pkg/shell/active-pages-dialog.jsx:67
-#, fuzzy
-#| msgid "User name"
 msgid "Page name"
-msgstr "用户名"
+msgstr "页名称"
 
 #: pkg/networkmanager/index.html:45
 msgid "Parent"
@@ -5450,10 +5264,8 @@ msgid "Path to file"
 msgstr "文件路径"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:250
-#, fuzzy
-#| msgid "Path to ISO file on host's file system"
 msgid "Path to file on host's file system"
-msgstr "主机文件系统中到 ISO 文件的路径"
+msgstr "到主机文件系统上的文件的路径"
 
 #: pkg/systemd/services/service-tabs.jsx:42
 msgid "Paths"
@@ -5465,16 +5277,12 @@ msgid "Pause"
 msgstr "暂停"
 
 #: pkg/machines/helpers.js:213
-#, fuzzy
-#| msgid "Pause"
 msgid "Paused"
-msgstr "暂停"
+msgstr "已暂停"
 
 #: pkg/metrics/index.html:20 pkg/metrics/metrics.jsx:1036
-#, fuzzy
-#| msgid "Performance profile"
 msgid "Performance Metrics"
-msgstr "性能配置集"
+msgstr "性能指标数据"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:192
 msgid "Performance profile"
@@ -5535,10 +5343,8 @@ msgid "Physical volumes can not be resized here."
 msgstr "物理卷不能在这里改变大小。"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:205
-#, fuzzy
-#| msgid "date"
 msgid "Pick date"
-msgstr "日期"
+msgstr "选择日期"
 
 #: pkg/networkmanager/index.html:232
 msgid "Ping interval"
@@ -5575,7 +5381,7 @@ msgstr "请确认停止$0"
 
 #: pkg/static/login.html:34
 msgid "Please enable JavaScript to use the Web Console."
-msgstr ""
+msgstr "请启用 JavaScript 来使用 Web 控制台。"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:334
 msgid "Please enter new volume name"
@@ -5587,7 +5393,7 @@ msgstr "请安装 $0 软件包"
 
 #: pkg/packagekit/updates.jsx:1344
 msgid "Please reload the page after resolving the issue."
-msgstr ""
+msgstr "在解决这个问题后重新载入页面。"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:195
 msgid "Please set a root password"
@@ -5631,7 +5437,7 @@ msgstr "瘦分配配置卷的池"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:157
 msgid "Pool needs to be active to create volume"
-msgstr ""
+msgstr "池需要激活才能创建卷"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:157
 msgid "Pool type doesn't support volume creation"
@@ -5863,7 +5669,7 @@ msgstr "RAID 成员"
 
 #: pkg/metrics/metrics.jsx:468
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #: pkg/lib/machine-info.js:89
 msgid "Rack mount chassis"
@@ -5890,10 +5696,8 @@ msgid "Raw to a device"
 msgstr "格式化设备"
 
 #: pkg/metrics/metrics.jsx:497
-#, fuzzy
-#| msgid "Ready"
 msgid "Read"
-msgstr "就绪"
+msgstr "读取"
 
 #: pkg/systemd/hwinfo.jsx:218
 msgid "Read more..."
@@ -5941,15 +5745,13 @@ msgid "Reboot"
 msgstr "重启"
 
 #: pkg/packagekit/updates.jsx:1361
-#, fuzzy
-#| msgid "recommended"
 msgid "Reboot recommended"
-msgstr "推荐"
+msgstr "推荐重新引导"
 
 #: pkg/packagekit/updates.jsx:617 pkg/packagekit/updates.jsx:690
 #: pkg/packagekit/updates.jsx:753
 msgid "Reboot system..."
-msgstr ""
+msgstr "重新引导系统......"
 
 #: pkg/networkmanager/network-interface-members.jsx:218
 #: pkg/networkmanager/network-main.jsx:182
@@ -6003,7 +5805,7 @@ msgstr "重新加载的传播来自"
 
 #: pkg/packagekit/updates.jsx:431
 msgid "Reloading the state of remaining services"
-msgstr ""
+msgstr "重新载入剩余的服务状态"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:273
 msgid "Remote URL"
@@ -6018,10 +5820,8 @@ msgid "Remote over SSH"
 msgstr "通过 SSH 远程"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:55
-#, fuzzy
-#| msgid "Remote over NFS"
 msgid "Remote viewer details"
-msgstr "通过 NFS 远程"
+msgstr "Remote viewer 详情"
 
 #: pkg/storaged/drives-panel.jsx:72 pkg/storaged/drives-panel.jsx:74
 msgctxt "storage"
@@ -6223,10 +6023,8 @@ msgid "Reset"
 msgstr "重置"
 
 #: pkg/users/password-dialogs.js:276
-#, fuzzy
-#| msgid "Set Password"
 msgid "Reset password"
-msgstr "设置密码"
+msgstr "重新设置密码"
 
 #: pkg/storaged/jobs-panel.jsx:43 pkg/storaged/jobs-panel.jsx:49
 #: pkg/storaged/jobs-panel.jsx:81
@@ -6244,16 +6042,12 @@ msgid "Restart"
 msgstr "重启"
 
 #: pkg/packagekit/updates.jsx:445 pkg/packagekit/updates.jsx:460
-#, fuzzy
-#| msgid "Start Service"
 msgid "Restart services"
-msgstr "启动服务"
+msgstr "重启服务"
 
 #: pkg/packagekit/updates.jsx:691 pkg/packagekit/updates.jsx:765
-#, fuzzy
-#| msgid "Start Service"
 msgid "Restart services..."
-msgstr "启动服务"
+msgstr "重启服务......"
 
 #: pkg/packagekit/updates.jsx:1408
 msgid "Restarting"
@@ -6368,22 +6162,16 @@ msgid "SMART self-test of $target"
 msgstr "$target SMART 自检"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:52
-#, fuzzy
-#| msgid "SPICE TLS Port:"
 msgid "SPICE TLS port"
-msgstr "SPICE TLS 端口："
+msgstr "SPICE TLS 端口"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:48
-#, fuzzy
-#| msgid "SPICE Address:"
 msgid "SPICE address"
-msgstr "SPICE 地址："
+msgstr "SPICE 地址"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:50
-#, fuzzy
-#| msgid "SPICE Port:"
 msgid "SPICE port"
-msgstr "SPICE 端口："
+msgstr "SPICE 端口"
 
 #: pkg/shell/machines/machine-change-auth.html:46
 msgid "SSH key"
@@ -6439,7 +6227,7 @@ msgstr "保存并重启"
 #: pkg/packagekit/autoupdates.jsx:424
 #: pkg/systemd/overview-cards/motdCard.jsx:98
 msgid "Save changes"
-msgstr ""
+msgstr "保存更改"
 
 #: pkg/storaged/vdos-panel.jsx:121
 msgid "Save space by compressing individual blocks with LZ4"
@@ -6481,36 +6269,28 @@ msgid "Securely erasing $target"
 msgstr "安全擦除 $target"
 
 #: pkg/packagekit/autoupdates.jsx:269
-#, fuzzy
-#| msgid "Apply security updates"
 msgid "Security updates "
-msgstr "应用安全更新"
+msgstr "安全更新 "
 
 #: pkg/packagekit/updates.jsx:1281
 msgid "Security updates available"
 msgstr "可用的错误修复更新"
 
 #: pkg/packagekit/autoupdates.jsx:361
-#, fuzzy
-#| msgid "Security Updates Available"
 msgid "Security updates only"
-msgstr "可用的错误修复更新"
+msgstr "只包括安全更新"
 
 #: pkg/shell/shell-modals.jsx:86
 msgid "Select"
 msgstr "选择"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:97
-#, fuzzy
-#| msgid "Console Type"
 msgid "Select console type"
-msgstr "控制台类型"
+msgstr "选择控制台类型"
 
 #: pkg/systemd/services/services.jsx:735
-#, fuzzy
-#| msgid "select container"
 msgid "Select unit state"
-msgstr "选择容器"
+msgstr "选择单元状态"
 
 #: pkg/systemd/reporting.jsx:245
 msgid "Send"
@@ -6684,18 +6464,14 @@ msgid "Shift+Insert"
 msgstr "Shift+Insert"
 
 #: pkg/storaged/things-panel.jsx:82
-#, fuzzy
-#| msgid "Show all $0 devices"
 msgid "Show $0 device"
 msgid_plural "Show all $0 devices"
-msgstr[0] "显示所有 $0 设备"
+msgstr[0] "显示 $0 设备"
 
 #: pkg/storaged/drives-panel.jsx:104
-#, fuzzy
-#| msgid "Show all $0 drives"
 msgid "Show $0 drive"
 msgid_plural "Show all $0 drives"
-msgstr[0] "显示所有 $0 驱动"
+msgstr[0] "显示 $0 驱动"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:146
 msgid "Show additional options"
@@ -6706,10 +6482,8 @@ msgid "Show all"
 msgstr "显示全部"
 
 #: pkg/systemd/abrtLog.jsx:214
-#, fuzzy
-#| msgid "Show all images"
 msgid "Show all threads"
-msgstr "显示所有镜像"
+msgstr "显示所有线程"
 
 #: pkg/systemd/logs.html:104 pkg/systemd/logs.js:416 pkg/systemd/logs.js:552
 msgid "Show filters"
@@ -6859,15 +6633,13 @@ msgstr "某些其他程序正在使用软件包管理器，请等待..."
 #: pkg/packagekit/updates.jsx:669 pkg/packagekit/updates.jsx:773
 #: pkg/packagekit/updates.jsx:1372
 msgid "Some software needs to be restarted manually"
-msgstr ""
+msgstr "有些软件需要手动重启"
 
 #: pkg/shell/superuser.jsx:297
 msgid "Something went wrong"
 msgstr "出现了一些错误"
 
 #: pkg/networkmanager/firewall.jsx:705
-#, fuzzy
-#| msgid "Sorted from least trusted to most trusted"
 msgid "Sorted from least to most trusted"
 msgstr "按最不被信任到最被信任的顺序排序"
 
@@ -7089,7 +6861,7 @@ msgstr "存储卷"
 #: pkg/machines/components/vm/disks/diskAdd.jsx:338
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:64
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
-msgstr ""
+msgstr "存储卷大小不能超过存储池的容量（$0 $1）"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:75
 msgid "Storage volumes"
@@ -7143,10 +6915,8 @@ msgid "Swap"
 msgstr "交换空间"
 
 #: pkg/metrics/metrics.jsx:101
-#, fuzzy
-#| msgid "Swap"
 msgid "Swap out"
-msgstr "交换空间"
+msgstr "交换出"
 
 #: pkg/storaged/content-views.jsx:411
 msgctxt "storage-id-desc"
@@ -7154,10 +6924,8 @@ msgid "Swap space"
 msgstr "交换空间"
 
 #: pkg/networkmanager/network-interface-members.jsx:70
-#, fuzzy
-#| msgid "Switch off $0"
 msgid "Switch of $0"
-msgstr "关掉 $0"
+msgstr "关闭 $0"
 
 #: pkg/networkmanager/network-interface-members.jsx:96
 #: pkg/networkmanager/network-interface.jsx:167
@@ -7460,7 +7228,7 @@ msgstr "文件系统未挂载。"
 #: pkg/packagekit/updates.jsx:435
 msgid "The following service will be restarted:"
 msgid_plural "The following services will be restarted:"
-msgstr[0] ""
+msgstr[0] "以下服务将会被重启："
 
 #: pkg/sosreport/index.html:59
 msgid ""
@@ -7500,10 +7268,8 @@ msgid "The logged in user is not permitted to view system modifications"
 msgstr "登陆的用户没有权限查看系统改变"
 
 #: pkg/shell/indexes.js:484
-#, fuzzy
-#| msgid "The machine is restarting"
 msgid "The machine is rebooting"
-msgstr "正在重启主机"
+msgstr "正在重启机器"
 
 #: pkg/shell/machines/machine-dialogs.js:882
 msgid "The new key password can not be empty"
@@ -7530,7 +7296,7 @@ msgstr "池为空"
 msgid ""
 "The resulting fingerprint is fine to share via public methods, including "
 "email."
-msgstr ""
+msgstr "结果指纹可以通过公共方法（包括电子邮件）共享。"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:431
 msgid "The selected operating system does not support unattended installation"
@@ -7687,7 +7453,7 @@ msgstr "该字段不能为空。"
 
 #: pkg/packagekit/autoupdates.jsx:394
 msgid "This host will reboot after updates are installed."
-msgstr ""
+msgstr "安装更新后此主机将重启。"
 
 #: pkg/storaged/lvol-tabs.jsx:410
 msgid "This logical volume is not completely used by its content."
@@ -7749,10 +7515,8 @@ msgid "This volume needs to be activated before it can be resized."
 msgstr "在调整大小之前，需要激活此卷。"
 
 #: pkg/static/login.js:163
-#, fuzzy
-#| msgid "This web browser is too old to run Cockpit (missing $0)"
 msgid "This web browser is too old to run the Web Console (missing $0)"
-msgstr "浏览器太老，不能运行 Cockpit （缺少 $0）"
+msgstr "这个浏览器太老，无法运行 Web 控制台（缺少 $0）"
 
 #: pkg/shell/machines/machine-dialogs.js:757
 msgid "This will allow you to log in without password in the future."
@@ -7813,7 +7577,7 @@ msgstr "提示：确保您的关键密码匹配登录密码来自动验证其他
 msgid ""
 "To ensure that your connection is not intercepted by a malicious third-"
 "party, please verify the host key fingerprint:"
-msgstr ""
+msgstr "要确保您的连接没有被恶意第三方截取，请验证主机密钥指纹："
 
 #: pkg/packagekit/updates.jsx:1233
 msgid ""
@@ -7826,14 +7590,14 @@ msgstr ""
 msgid ""
 "To verify a fingerprint, run the following on $0 while physically sitting at "
 "the machine or through a trusted network:"
-msgstr ""
+msgstr "要验证指纹，在 $0 上运行以下内容（在实际的物理机器上本地进行，或通过一个可信任的网络进行）："
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:18
 #: pkg/shell/machines/machine-unknown-hostkey.html:10
 msgid ""
 "To verify a fingerprint, run the following on {{host}} while physically "
 "sitting at the machine or through a trusted network:"
-msgstr ""
+msgstr "要验证指纹，在 {{host}} 上运行以下内容（在实际的物理机器上本地进行，或通过一个可信任的网络进行）："
 
 #: pkg/metrics/metrics.jsx:968
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:40
@@ -7842,7 +7606,7 @@ msgstr "今天"
 
 #: pkg/storaged/mdraid-details.jsx:205
 msgid "Toggle bitmap"
-msgstr ""
+msgstr "切换位图"
 
 #: pkg/shell/index.html:63
 msgid "Toggle session settings"
@@ -7858,13 +7622,11 @@ msgstr "工具"
 
 #: pkg/metrics/metrics.jsx:450
 msgid "Top 5 CPU services"
-msgstr ""
+msgstr "最顶级的 5 个 CPU 服务"
 
 #: pkg/metrics/metrics.jsx:483
-#, fuzzy
-#| msgid "No Network Devices"
 msgid "Top 5 memory services"
-msgstr "没有网络设备"
+msgstr "最顶级的 5 个内存服务"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:98
 msgid "Total size: $0"
@@ -7892,10 +7654,8 @@ msgid "Troubleshoot"
 msgstr "排错"
 
 #: pkg/networkmanager/app.jsx:78
-#, fuzzy
-#| msgid "Troubleshoot"
 msgid "Troubleshoot…"
-msgstr "排错"
+msgstr "故障排除……"
 
 #: pkg/storaged/crypto-keyslots.jsx:342
 msgid "Trust key"
@@ -7930,7 +7690,7 @@ msgid ""
 "Tuned is a service that monitors your system and optimizes the performance "
 "under certain workloads. The core of Tuned are profiles, which tune your "
 "system for different use cases."
-msgstr ""
+msgstr "Tuned 是一个监控您的系统并优化某些工作负载性能的服务。Tuned 的核心是配置集（profile），使用它为不同的用例调整您的系统。"
 
 #: pkg/tuned/dialog.js:93
 msgid "Tuned is not available"
@@ -8221,10 +7981,8 @@ msgid "Update"
 msgstr "更新"
 
 #: pkg/packagekit/updates.jsx:684
-#, fuzzy
-#| msgid "Updates Available"
 msgid "Update Success Table"
-msgstr "可用的更新"
+msgstr "更新成功表"
 
 #: pkg/packagekit/updates.jsx:866
 msgid "Update history"
@@ -8240,23 +7998,19 @@ msgstr "更新软件包信息"
 
 #: pkg/packagekit/updates.jsx:611 pkg/packagekit/updates.jsx:679
 msgid "Update was successful"
-msgstr ""
+msgstr "更新成功"
 
 #: pkg/packagekit/updates.jsx:92
 msgid "Updated"
 msgstr "已更新"
 
 #: pkg/packagekit/updates.jsx:614
-#, fuzzy
-#| msgid "Updated packages may require a restart to take effect."
 msgid "Updated packages may require a reboot to take effect."
-msgstr "已更新的软件包可能需要重启生效。"
+msgstr "更新的软件包可能需要重启才会生效。"
 
 #: pkg/packagekit/autoupdates.jsx:269
-#, fuzzy
-#| msgid "Update"
 msgid "Updates "
-msgstr "更新"
+msgstr "更新 "
 
 #: pkg/packagekit/updates.jsx:1287
 msgid "Updates available"
@@ -8295,26 +8049,20 @@ msgid "Use 512 byte emulation"
 msgstr "使用 512 字节模拟"
 
 #: pkg/storaged/vdo-details.jsx:320
-#, fuzzy
-#| msgid "Compression"
 msgid "Use compression"
-msgstr "压缩"
+msgstr "使用压缩"
 
 #: pkg/storaged/vdo-details.jsx:329
-#, fuzzy
-#| msgid "Deduplication"
 msgid "Use deduplication"
-msgstr "复制"
+msgstr "使用 deduplication"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:571
 msgid "Use existing"
 msgstr "使用现有的"
 
 #: pkg/shell/credentials.js:76
-#, fuzzy
-#| msgid "ssh key"
 msgid "Use key"
-msgstr "SSH 密钥"
+msgstr "使用密钥"
 
 #: pkg/shell/index.html:122
 msgid "Use the following keys to authenticate against other systems"
@@ -8354,16 +8102,12 @@ msgid "Username"
 msgstr "用户名"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "encryption"
 msgid "Using LUKS encryption"
-msgstr "加密"
+msgstr "使用 LUKS 加密"
 
 #: pkg/storaged/manifest.json.in:0
-#, fuzzy
-#| msgid "Edit Tang keyserver"
 msgid "Using Tang server"
-msgstr "编辑Tang keyserver"
+msgstr "使用 Tang 服务器"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:160
 msgid "VCPU settings could not be saved"
@@ -8410,7 +8154,7 @@ msgstr "VM $0 已存在"
 
 #: pkg/machines/app.jsx:146
 msgid "VM $0 does not exist on $1 connection"
-msgstr ""
+msgstr "VM $0 在 $1 连接中不存在"
 
 #: pkg/machines/components/vm/vmActions.jsx:110
 msgid "VM $0 failed to force reboot"
@@ -8458,28 +8202,20 @@ msgid "VM state"
 msgstr "VM 状态"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:53
-#, fuzzy
-#| msgid "VNC TLS Port:"
 msgid "VNC TLS port"
-msgstr "VNC TLS 端口："
+msgstr "VNC TLS 端口"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:49
-#, fuzzy
-#| msgid "VNC Address:"
 msgid "VNC address"
-msgstr "VNC 地址："
+msgstr "VNC 地址"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:99
-#, fuzzy
-#| msgid "console"
 msgid "VNC console"
-msgstr "控制台"
+msgstr "VNC 控制台"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:51
-#, fuzzy
-#| msgid "VNC Port:"
 msgid "VNC port"
-msgstr "VNC 端口："
+msgstr "VNC 端口"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:166
 msgid "Validating address"
@@ -8526,7 +8262,7 @@ msgstr "查看自动化脚本"
 
 #: pkg/systemd/overview-cards/usageCard.jsx:147
 msgid "View details and history"
-msgstr ""
+msgstr "查看详情和历史记录"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:138
 msgid "View hardware details"
@@ -8653,10 +8389,8 @@ msgid "Web Console for Linux servers"
 msgstr "Linux 服务器的 Web 控制台"
 
 #: pkg/packagekit/updates.jsx:451 pkg/packagekit/updates.jsx:845
-#, fuzzy
-#| msgid "Web Console for Linux servers"
 msgid "Web Console will restart"
-msgstr "Linux 服务器的 Web 控制台"
+msgstr "Web 控制台将重启"
 
 #: pkg/systemd/superuser-alert.jsx:60
 msgid "Web console is running in limited access mode."
@@ -8680,18 +8414,18 @@ msgstr "如果没有 tang-show-keys？"
 
 #: pkg/packagekit/autoupdates.jsx:373
 msgid "When"
-msgstr ""
+msgstr "何时"
 
 #: pkg/shell/machines/machine-add.html:34
 msgid "When empty, connect with the current user"
-msgstr ""
+msgstr "为空时，与当前用户连接"
 
 #: pkg/packagekit/updates.jsx:454 pkg/packagekit/updates.jsx:850
 msgid ""
 "When the Web Console is restarted, you will no longer see progress "
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
-msgstr ""
+msgstr "当 Web 控制台重启时，将不再能够看到进度信息。但是，更新过程会继续在后台进行。重新连接以继续监视更新过程。"
 
 #: pkg/systemd/terminal.jsx:110
 msgid "White"
@@ -8703,10 +8437,8 @@ msgid "World wide name"
 msgstr "全局范围名称"
 
 #: pkg/metrics/metrics.jsx:501
-#, fuzzy
-#| msgid "ReadWrite"
 msgid "Write"
-msgstr "读写"
+msgstr "写入"
 
 #: pkg/storaged/mdraid-details.jsx:110
 msgid "Write-mostly"
@@ -8740,11 +8472,11 @@ msgstr "昨天"
 
 #: pkg/static/login.js:648
 msgid "You are connecting to $0 for the first time."
-msgstr ""
+msgstr "您第一次连接到 $0。"
 
 #: pkg/shell/machines/machine-unknown-hostkey.html:6
 msgid "You are connecting to {{host}} for the first time."
-msgstr ""
+msgstr "您第一次连接到 {{host}}。"
 
 #: pkg/networkmanager/firewall-switch.jsx:58
 #: pkg/networkmanager/firewall.jsx:152
@@ -8780,7 +8512,7 @@ msgstr "您需要等待更长时间来修改您的密码"
 
 #: pkg/metrics/metrics.jsx:930
 msgid "You need to relogin to be able to see metrics"
-msgstr ""
+msgstr "您需要重新登录才能查看指标"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:138
 msgid "You need to select the most closely matching operating system"
@@ -8914,7 +8646,7 @@ msgstr "光驱"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "cgroups"
-msgstr ""
+msgstr "cgroups"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "command"
@@ -8971,10 +8703,8 @@ msgid "disk"
 msgstr "磁盘"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "udisks"
 msgid "disks"
-msgstr "udisks"
+msgstr "磁盘"
 
 #: pkg/packagekit/manifest.json.in:0
 msgid "dnf"
@@ -9075,10 +8805,8 @@ msgid "hardware"
 msgstr "硬件"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Directory"
 msgid "history"
-msgstr "目录"
+msgstr "历史"
 
 #: pkg/machines/helpers.js:232 pkg/systemd/manifest.json.in:0
 msgid "host"
@@ -9089,10 +8817,8 @@ msgid "host device"
 msgstr "主机设备"
 
 #: pkg/machines/helpers.js:233
-#, fuzzy
-#| msgid "to host path"
 msgid "host passthrough"
-msgstr "到主机路径"
+msgstr "主机透传"
 
 #: pkg/machines/helpers.js:241
 msgid "hostdev"
@@ -9120,7 +8846,7 @@ msgstr "iSCSI 目标"
 
 #: pkg/shell/shell-modals.jsx:124
 msgid "in most browsers"
-msgstr ""
+msgstr "在大多数浏览器中"
 
 #: pkg/apps/manifest.json.in:0
 msgid "install"
@@ -9219,10 +8945,8 @@ msgid "memory"
 msgstr "内存"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "Store metrics"
 msgid "metrics"
-msgstr "存储指标数据"
+msgstr "指标"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "mitigation"
@@ -9255,7 +8979,7 @@ msgstr "nfs dump 目标的格式不是 server:path"
 
 #: pkg/metrics/metrics.jsx:84
 msgid "nice"
-msgstr ""
+msgstr "nice"
 
 #: pkg/machines/helpers.js:260
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:69
@@ -9314,10 +9038,8 @@ msgid "pci"
 msgstr "pci"
 
 #: pkg/systemd/manifest.json.in:0
-#, fuzzy
-#| msgid "cpu"
 msgid "pcp"
-msgstr "cpu"
+msgstr "pcp"
 
 #: pkg/apps/manifest.json.in:0
 msgid "plugin"
@@ -9448,10 +9170,8 @@ msgid "ssh server is empty"
 msgstr "ssh 服务器为空"
 
 #: pkg/metrics/metrics.jsx:84
-#, fuzzy
-#| msgid "sos"
 msgid "sys"
-msgstr "sos"
+msgstr "sys"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "systemctl"
@@ -9560,20 +9280,14 @@ msgid "vhostuser"
 msgstr "vhostuser"
 
 #: pkg/machines/components/common/stateIcon.jsx:60
-#, fuzzy
-#| msgid "Read more..."
 msgid "view more..."
-msgstr "了解更多..."
+msgstr "查看更多......"
 
 #: pkg/machines/components/vm/vmActions.jsx:298
-#, fuzzy
-#| msgid ""
-#| "virt-install package needs to be installed on the system in order to "
-#| "create new VMs"
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
-msgstr "为了创建新虚拟机需要在系统上安装 virt-install 软件包"
+msgstr "为了克隆虚拟机，需要在系统中安装 virt-install 软件包"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1001
 msgid ""
@@ -9582,14 +9296,10 @@ msgid ""
 msgstr "为了创建新虚拟机需要在系统上安装 virt-install 软件包"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:183
-#, fuzzy
-#| msgid ""
-#| "virt-install package needs to be installed on the system in order to "
-#| "create new VMs"
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
-msgstr "为了创建新虚拟机需要在系统上安装 virt-install 软件包"
+msgstr "为了编辑这个属性，需要在系统中安装 virt-install 软件包"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "vlan"
@@ -9609,7 +9319,7 @@ msgstr "警告"
 
 #: pkg/packagekit/autoupdates.jsx:270
 msgid "will be applied $0 at $1"
-msgstr ""
+msgstr "将在 $1 应用 $0"
 
 #: pkg/machines/helpers.js:259
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:69
@@ -9628,7 +9338,7 @@ msgstr "区"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:2
 msgid "{{host}} key changed"
-msgstr ""
+msgstr "{{host}} 密钥已更改"
 
 #~ msgid "$0 Template"
 #~ msgstr "$0 模板"
