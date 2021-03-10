@@ -6752,7 +6752,7 @@ msgstr "공간 절약형 컴퓨터"
 
 #: pkg/networkmanager/network-interface.jsx:541
 msgid "Spanning tree protocol"
-msgstr "스패닝 트리 통신규약"
+msgstr "스패닝 트리 프로토콜"
 
 #: pkg/networkmanager/index.html:107
 msgid "Spanning tree protocol (STP)"
