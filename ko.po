@@ -961,7 +961,7 @@ msgstr "Ansible 역할 문서"
 
 #: pkg/systemd/terminal.jsx:100 pkg/systemd/terminal.jsx:104
 msgid "Appearance"
-msgstr "외관"
+msgstr "표시 형식"
 
 #: pkg/apps/index.html:23 pkg/apps/application.jsx:148
 #: pkg/apps/application-list.jsx:169 pkg/apps/manifest.json.in:0
@@ -969,10 +969,8 @@ msgid "Applications"
 msgstr "애플리케이션"
 
 #: pkg/apps/application-list.jsx:177
-#, fuzzy
-#| msgid "Applications"
 msgid "Applications list"
-msgstr "애플리케이션"
+msgstr "애플리케이션 목록"
 
 #: pkg/networkmanager/index.html:293 pkg/networkmanager/index.html:328
 #: pkg/networkmanager/index.html:357 pkg/networkmanager/index.html:386
