@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
-"PO-Revision-Date: 2021-02-28 12:40+0000\n"
+"PO-Revision-Date: 2021-03-11 22:40+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/nl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: pkg/metrics/metrics.jsx:379
 msgid "$0 CPU"
@@ -244,7 +244,7 @@ msgstr[1] "$0 pakketten"
 msgid "$0 package needs a system reboot"
 msgid_plural "$0 packages need a system reboot"
 msgstr[0] "$0 pakket moet opnieuw worden opgestart"
-msgstr[1] "&0 pakketten moeten opnieuw worden opgestart"
+msgstr[1] "$0 pakketten moeten opnieuw worden opgestart"
 
 #: pkg/metrics/metrics.jsx:106
 msgid "$0 page"
@@ -4179,7 +4179,7 @@ msgstr "Partities beheren"
 
 #: pkg/storaged/manifest.json.in:0
 msgid "Managing physical drives"
-msgstr "Fysische schijven beheren"
+msgstr "Fysieke schijven beheren"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Managing services"
