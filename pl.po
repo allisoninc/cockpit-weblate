@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-23 09:11+0100\n"
+"POT-Creation-Date: 2021-03-11 14:56+0100\n"
 "PO-Revision-Date: 2021-02-28 12:40+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -1363,8 +1363,8 @@ msgid ""
 "can log in to ${rhost} without password in the future."
 msgstr ""
 "Zmieniając hasło klucza SSH ${key} na hasło logowania użytkownika ${luser} "
-"na komputerze ${lhost}, klucz automatycznie stanie się dostępny i w "
-"przyszłości będzie można logować się na komputerze ${rhost} bez hasła."
+"na komputerze ${lhost}, klucz automatycznie stanie się dostępny "
+"i w przyszłości będzie można logować się na komputerze ${rhost} bez hasła."
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:263
 msgid "CD/DVD disc"
@@ -3447,18 +3447,18 @@ msgid ""
 "If the fingerprint matches, click \"Accept key and connect\". Otherwise, do "
 "not connect and contact your administrator."
 msgstr ""
-"Jeśli odcisk się zgadza, należy kliknąć „Przyjmij klucz i połącz się”. W "
-"przeciwnym przypadku nie należy się łączyć i należy skontaktować się z "
-"administratorem."
+"Jeśli odcisk się zgadza, należy kliknąć „Przyjmij klucz i połącz się”. "
+"W przeciwnym przypadku nie należy się łączyć i należy skontaktować się "
+"z administratorem."
 
 #: pkg/static/login.html:67
 msgid ""
 "If the fingerprint matches, click \"Accept key and log in\". Otherwise, do "
 "not log in and contact your administrator."
 msgstr ""
-"Jeśli odcisk się zgadza, należy kliknąć „Przyjmij klucz i zaloguj się”. W "
-"przeciwnym przypadku nie należy się logować i należy skontaktować się z "
-"administratorem."
+"Jeśli odcisk się zgadza, należy kliknąć „Przyjmij klucz i zaloguj się”. "
+"W przeciwnym przypadku nie należy się logować i należy skontaktować się "
+"z administratorem."
 
 #: pkg/networkmanager/interfaces.js:1459 pkg/packagekit/updates.jsx:618
 #: pkg/packagekit/updates.jsx:693
@@ -6249,9 +6249,9 @@ msgid ""
 "and the current state will be lost, along with any data not captured in a "
 "snapshot"
 msgstr ""
-"Przywrócenie do tej migawki przeniesie maszynę wirtualną do czasu migawki i "
-"jej obecny stan zostanie utracony, razem ze wszelkimi danymi nieujętymi w "
-"migawce"
+"Przywrócenie do tej migawki przeniesie maszynę wirtualną do czasu migawki "
+"i jej obecny stan zostanie utracony, razem ze wszelkimi danymi nieujętymi "
+"w migawce"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Reviewing logs"
@@ -7026,7 +7026,8 @@ msgstr "Aktywacja puli urządzeń do przechowywania danych $0 się nie powiodła
 
 #: pkg/machines/components/storagePools/storagePool.jsx:138
 msgid "Storage pool $0 failed to get deactivated"
-msgstr "Dezaktywacja puli urządzeń do przechowywania danych $0 się nie powiodła"
+msgstr ""
+"Dezaktywacja puli urządzeń do przechowywania danych $0 się nie powiodła"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:393
 msgid "Storage pool failed to be created"
@@ -7529,7 +7530,8 @@ msgstr "Pula jest pusta"
 msgid ""
 "The resulting fingerprint is fine to share via public methods, including "
 "email."
-msgstr "Powstały odcisk można udostępniać publicznie, na przykład przez e-mail."
+msgstr ""
+"Powstały odcisk można udostępniać publicznie, na przykład przez e-mail."
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:431
 msgid "The selected operating system does not support unattended installation"
@@ -7543,8 +7545,8 @@ msgstr "Wybrany system operacyjny wymaga co najmniej $0 $1 pamięci"
 msgid ""
 "The selected operating system has minimum storage size requirement of $0 $1"
 msgstr ""
-"Wybrany system operacyjny wymaga urządzenia do przechowywania danych o "
-"rozmiarze co najmniej $0 $1"
+"Wybrany system operacyjny wymaga urządzenia do przechowywania danych "
+"o rozmiarze co najmniej $0 $1"
 
 #: pkg/static/login.js:802
 msgid ""
@@ -8092,8 +8094,8 @@ msgid ""
 "version."
 msgstr ""
 "Nie można zalogować się w {{#strong}}{{host}}{{/strong}}. Zaktualizowanie "
-"cockpit-ws do nowszej wersji udostępni więcej opcji uwierzytelniania i "
-"pomocy w rozwiązywaniu problemów."
+"cockpit-ws do nowszej wersji udostępni więcej opcji uwierzytelniania "
+"i pomocy w rozwiązywaniu problemów."
 
 #: pkg/shell/machines/machine-auth-failed.html:6
 msgid ""
@@ -8101,9 +8103,9 @@ msgid ""
 "you will need to enable one of the following authentication methods in the "
 "sshd config on {{#strong}}{{host}}{{/strong}}:"
 msgstr ""
-"Nie można zalogować się w {{#strong}}{{host}}{{/strong}}. Aby połączyć się z "
-"tym komputerem, należy włączyć jedną z poniższych metod uwierzytelniania w "
-"konfiguracji usługi sshd w {{#strong}}{{host}}{{/strong}}:"
+"Nie można zalogować się w {{#strong}}{{host}}{{/strong}}. Aby połączyć się "
+"z tym komputerem, należy włączyć jedną z poniższych metod uwierzytelniania "
+"w konfiguracji usługi sshd w {{#strong}}{{host}}{{/strong}}:"
 
 #: pkg/storaged/iscsi-panel.jsx:88
 msgid "Unable to reach server"

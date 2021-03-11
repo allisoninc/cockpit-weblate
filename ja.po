@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-23 09:11+0100\n"
+"POT-Creation-Date: 2021-03-11 14:56+0100\n"
 "PO-Revision-Date: 2021-03-10 14:47+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -577,14 +577,15 @@ msgid ""
 "A new SSH key at ${key} will be created for ${luser} on ${lhost} and it will "
 "be added to the ${afile} file of ${ruser} on ${rhost}."
 msgstr ""
-"${key} で新しい SSH キーが ${lhost} の ${luser} 用に作成され、${rhost} の ${ruser} の ${afile}"
-" ファイルに追加されました。"
+"${key} で新しい SSH キーが ${lhost} の ${luser} 用に作成され、${rhost} の "
+"${ruser} の ${afile} ファイルに追加されました。"
 
 #: pkg/packagekit/updates.jsx:1364
 msgid "A package needs a system reboot for the updates to take effect:"
 msgid_plural ""
 "Some packages need a system reboot for the updates to take effect:"
-msgstr[0] "パッケージの更新を有効にするには、システムを再起動する必要があります。"
+msgstr[0] ""
+"パッケージの更新を有効にするには、システムを再起動する必要があります。"
 
 #: pkg/packagekit/updates.jsx:1368
 msgid "A service needs to be restarted for the updates to take effect:"
@@ -903,7 +904,9 @@ msgstr "後"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:201
 msgid "After deleting the snapshot, all its captured content will be lost."
-msgstr "スナップショットを削除すると、そのキャプチャされたすべてのコンテンツが失われます。"
+msgstr ""
+"スナップショットを削除すると、そのキャプチャされたすべてのコンテンツが失われ"
+"ます。"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:28
 msgid ""
@@ -1038,7 +1041,9 @@ msgstr "特定の時間"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:214
 msgid "Attaching it will make this disk shareable for every VM using it."
-msgstr "割り当てることで、このディスクを使用するすべての VM でこのディスクが共有可能になります。"
+msgstr ""
+"割り当てることで、このディスクを使用するすべての VM でこのディスクが共有可能"
+"になります。"
 
 #: pkg/selinux/setroubleshoot-view.jsx:415
 msgid "Audit log"
@@ -1286,8 +1291,9 @@ msgid ""
 "${luser} on ${lhost}, the key will be automatically made available and you "
 "can log in to ${rhost} without password in the future."
 msgstr ""
-"SSH キー ${key} のパスワードを ${lhost} の ${luser} "
-"のログインパスワードに変更することで、自動的にキーが使えるようになります。これで、パスワードなしで ${rhost} にログインできるようになります。"
+"SSH キー ${key} のパスワードを ${lhost} の ${luser} のログインパスワードに変"
+"更することで、自動的にキーが使えるようになります。これで、パスワードなしで "
+"${rhost} にログインできるようになります。"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:263
 msgid "CD/DVD disc"
@@ -1475,8 +1481,9 @@ msgid ""
 "However, an unexpected change may indicate a third-party attempt to "
 "intercept your connection."
 msgstr ""
-"キーを変更すると、オペレーティングシステムを再インストールすることになることが多くあります。ただし、予期しない変更により接続の傍受が試行される場合もありま"
-"す。"
+"キーを変更すると、オペレーティングシステムを再インストールすることになること"
+"が多くあります。ただし、予期しない変更により接続の傍受が試行される場合もあり"
+"ます。"
 
 #: pkg/machines/components/common/warningInactive.jsx:12
 #: pkg/machines/components/vm/nics/nicEdit.jsx:154
@@ -1569,7 +1576,9 @@ msgstr "$0 を再びクリックしてこのパスワードを使用します。
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:58
 msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
-msgstr "\"リモートビューアーの起動\" をクリックすると、.vv ファイルをダウンロードし、$0 を起動します。"
+msgstr ""
+"\"リモートビューアーの起動\" をクリックすると、.vv ファイルをダウンロード"
+"し、$0 を起動します。"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:21
 msgid "Client software"
@@ -2326,7 +2335,9 @@ msgstr ""
 msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
-msgstr "停止状態のストレージプールの削除は、プールの定義を解除するだけです。コンテンツは削除されません。"
+msgstr ""
+"停止状態のストレージプールの削除は、プールの定義を解除するだけです。コンテン"
+"ツは削除されません。"
 
 #: pkg/storaged/jobs-panel.jsx:75
 msgid "Deleting volume group $target"
@@ -3358,15 +3369,17 @@ msgstr "tang-show-keys を利用できない場合は、以下を実行します
 msgid ""
 "If the fingerprint matches, click \"Accept key and connect\". Otherwise, do "
 "not connect and contact your administrator."
-msgstr "フィンガープリントが一致している場合は、キーを受け入れて接続をクリックします。一致していない場合は、接続せずに管理者にお問い合わせください。"
+msgstr ""
+"フィンガープリントが一致している場合は、キーを受け入れて接続をクリックしま"
+"す。一致していない場合は、接続せずに管理者にお問い合わせください。"
 
 #: pkg/static/login.html:67
 msgid ""
 "If the fingerprint matches, click \"Accept key and log in\". Otherwise, do "
 "not log in and contact your administrator."
 msgstr ""
-"フィンガープリントが一致する場合は、Accept key and login "
-"をクリックします。一致しない場合は、ログインせずに、管理者にお問い合わせください。"
+"フィンガープリントが一致する場合は、Accept key and login をクリックします。一"
+"致しない場合は、ログインせずに、管理者にお問い合わせください。"
 
 #: pkg/networkmanager/interfaces.js:1459 pkg/packagekit/updates.jsx:618
 #: pkg/packagekit/updates.jsx:693
@@ -3411,8 +3424,9 @@ msgid ""
 "future, use the login password of ${luser} on ${lhost} as the key password, "
 "or leave the key password blank."
 msgstr ""
-"今後、${rhost} にパスワードなしで ${ruser} としてログインできるようにするには、${lhost} の${luser} "
-"のログインパスワードをキーパスワードとして使用するか、キーパスワードを空欄のままにしてください。"
+"今後、${rhost} にパスワードなしで ${ruser} としてログインできるようにするに"
+"は、${lhost} の${luser} のログインパスワードをキーパスワードとして使用する"
+"か、キーパスワードを空欄のままにしてください。"
 
 #: pkg/storaged/mdraid-details.jsx:108
 msgid "In sync"
@@ -5576,7 +5590,9 @@ msgstr "以前のブート"
 msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
-msgstr "以前に撮影したスナップショットでは、何か問題が発生した場合に以前の状態に戻すことができます。"
+msgstr ""
+"以前に撮影したスナップショットでは、何か問題が発生した場合に以前の状態に戻す"
+"ことができます。"
 
 #: pkg/networkmanager/index.html:178
 msgid "Primary"
@@ -6145,7 +6161,8 @@ msgid ""
 "and the current state will be lost, along with any data not captured in a "
 "snapshot"
 msgstr ""
-"このスナップショットに戻すと、VM はスナップショットの時の状態に戻り、現在の状態はスナップショットにキャプチャされていないデータとともに失われます"
+"このスナップショットに戻すと、VM はスナップショットの時の状態に戻り、現在の状"
+"態はスナップショットにキャプチャされていないデータとともに失われます"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Reviewing logs"
@@ -6937,7 +6954,9 @@ msgstr "ストレージボリューム"
 #: pkg/machines/components/vm/disks/diskAdd.jsx:338
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:64
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
-msgstr "ストレージボリュームサイズは、ストレージプールの容量を超えることはできません ($0 $1)"
+msgstr ""
+"ストレージボリュームサイズは、ストレージプールの容量を超えることはできません "
+"($0 $1)"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:75
 msgid "Storage volumes"
@@ -7195,8 +7214,8 @@ msgid ""
 "The SSH key ${key} of ${luser} on ${lhost} will be added to the ${afile} "
 "file of ${ruser} on ${rhost}."
 msgstr ""
-"${lhost} の ${luser} の SSH キー ${key} は、${rhost} 上の ${ruser} の ${afile} "
-"ファイルに追加されます。"
+"${lhost} の ${luser} の SSH キー ${key} は、${rhost} 上の ${ruser} の "
+"${afile} ファイルに追加されます。"
 
 #: pkg/shell/machines/machine-change-auth.html:28
 msgid ""
@@ -7204,9 +7223,9 @@ msgid ""
 "protected. You can log in with either your login password or by providing "
 "the password of the key at {{#strong}}{{key}}{{/strong}}."
 msgstr ""
-"{{#strong}}{{full_address}}{{/strong}} にログインするための SSH "
-"キーは保護されています。ログインパスワードでログインするか、{{#strong}}{{key}}{{/strong}} "
-"で鍵のパスワードを提供することでログインできます。"
+"{{#strong}}{{full_address}}{{/strong}} にログインするための SSH キーは保護さ"
+"れています。ログインパスワードでログインするか、{{#strong}}{{key}}{{/"
+"strong}} で鍵のパスワードを提供することでログインできます。"
 
 #: pkg/shell/machines/machine-change-auth.html:55
 msgid ""
@@ -7214,8 +7233,8 @@ msgid ""
 "remainder of the session and will be available for login to other hosts as "
 "well."
 msgstr ""
-"SSH キー {{#strong}}{{key}}{{/strong}} "
-"はセッションの残りの時間に利用できるようになり、他のホストにもログインできるようになります。"
+"SSH キー {{#strong}}{{key}}{{/strong}} はセッションの残りの時間に利用できるよ"
+"うになり、他のホストにもログインできるようになります。"
 
 #: pkg/machines/components/vm/deleteDialog.jsx:64
 msgid "The VM is running and will be forced off before deletion."
@@ -7264,13 +7283,17 @@ msgstr "ファイルシステムには永続的なマウントポイントがあ
 
 #: pkg/storaged/fsys-tab.jsx:277
 msgid "The filesystem is already mounted at $0. Proceeding will unmount it."
-msgstr "ファイルシステムはすでに $0 にマウントされています。続行するとアンマウントされます。"
+msgstr ""
+"ファイルシステムはすでに $0 にマウントされています。続行するとアンマウントさ"
+"れます。"
 
 #: pkg/storaged/fsys-tab.jsx:494
 msgid ""
 "The filesystem is configured to be automatically mounted on boot but its "
 "encryption container will not be unlocked at that time."
-msgstr "ファイルシステムは起動時に自動的にマウントされるように設定されていますが、その暗号化コンテナーはその時点ではアンロックされません。"
+msgstr ""
+"ファイルシステムは起動時に自動的にマウントされるように設定されていますが、そ"
+"の暗号化コンテナーはその時点ではアンロックされません。"
 
 #: pkg/storaged/fsys-tab.jsx:486
 msgid ""
@@ -7399,11 +7422,14 @@ msgstr "プールが空です"
 msgid ""
 "The resulting fingerprint is fine to share via public methods, including "
 "email."
-msgstr "作成されたフィンガープリントは、電子メールを含むパブリックメソッドを介して共有すると問題ありません。"
+msgstr ""
+"作成されたフィンガープリントは、電子メールを含むパブリックメソッドを介して共"
+"有すると問題ありません。"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:431
 msgid "The selected operating system does not support unattended installation"
-msgstr "選択したオペレーティングシステムは無人インストールをサポートしていません"
+msgstr ""
+"選択したオペレーティングシステムは無人インストールをサポートしていません"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:173
 msgid "The selected operating system has minimum memory requirement of $0 $1"
@@ -7412,7 +7438,8 @@ msgstr "選択したオペレーティングシステムには、必要なメモ
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:188
 msgid ""
 "The selected operating system has minimum storage size requirement of $0 $1"
-msgstr "選択したオペレーティングシステムには、最小ストレージザイズ $0 $1 が必要です"
+msgstr ""
+"選択したオペレーティングシステムには、最小ストレージザイズ $0 $1 が必要です"
 
 #: pkg/static/login.js:802
 msgid ""
@@ -7639,7 +7666,8 @@ msgstr ""
 
 #: pkg/static/login.js:163
 msgid "This web browser is too old to run the Web Console (missing $0)"
-msgstr "この Web ブラウザーは古いため、Web コンソールを実行できません ($0 が不明)"
+msgstr ""
+"この Web ブラウザーは古いため、Web コンソールを実行できません ($0 が不明)"
 
 #: pkg/shell/machines/machine-dialogs.js:757
 msgid "This will allow you to log in without password in the future."
@@ -7705,7 +7733,9 @@ msgstr ""
 msgid ""
 "To ensure that your connection is not intercepted by a malicious third-"
 "party, please verify the host key fingerprint:"
-msgstr "悪意のあるサードパーティーによって接続がインターセプトされないようにするには、ホストキーフィンガープリントを確認してください。"
+msgstr ""
+"悪意のあるサードパーティーによって接続がインターセプトされないようにするに"
+"は、ホストキーフィンガープリントを確認してください。"
 
 #: pkg/packagekit/updates.jsx:1233
 msgid ""
@@ -7720,7 +7750,9 @@ msgstr ""
 msgid ""
 "To verify a fingerprint, run the following on $0 while physically sitting at "
 "the machine or through a trusted network:"
-msgstr "フィンガープリントを確認するには、マシン上に物理的に置かれるか、信頼できるネットワークを介して $0 で次のコマンドを実行します。"
+msgstr ""
+"フィンガープリントを確認するには、マシン上に物理的に置かれるか、信頼できる"
+"ネットワークを介して $0 で次のコマンドを実行します。"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:18
 #: pkg/shell/machines/machine-unknown-hostkey.html:10
@@ -7728,8 +7760,9 @@ msgid ""
 "To verify a fingerprint, run the following on {{host}} while physically "
 "sitting at the machine or through a trusted network:"
 msgstr ""
-"フィンガープリントを確認するには、マシン上に物理的に置配置されている {{host}} で、または、信頼できるネットワークを介して {{host}} "
-"で次のコマンドを実行します。"
+"フィンガープリントを確認するには、マシン上に物理的に置配置されている "
+"{{host}} で、または、信頼できるネットワークを介して {{host}} で次のコマンドを"
+"実行します。"
 
 #: pkg/metrics/metrics.jsx:968
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:40
@@ -7823,8 +7856,9 @@ msgid ""
 "under certain workloads. The core of Tuned are profiles, which tune your "
 "system for different use cases."
 msgstr ""
-"Tuned は、システムを監視し、特定のワークロードでパフォーマンスを最適化するサービスです。Tuned "
-"のコアは、さまざまなユースケースに合わせてシステムを調整するプロファイルです。"
+"Tuned は、システムを監視し、特定のワークロードでパフォーマンスを最適化する"
+"サービスです。Tuned のコアは、さまざまなユースケースに合わせてシステムを調整"
+"するプロファイルです。"
 
 #: pkg/tuned/dialog.js:93
 msgid "Tuned is not available"
@@ -7900,7 +7934,8 @@ msgid ""
 "Unable to contact the given host $0. Make sure it has ssh running on port "
 "$1, or specify another port in the address."
 msgstr ""
-"該当するホスト $0 に接続できませんでした。そのホストのポート $1 で ssh が実行されていることを確認するか、アドレスで別のポートを指定します。"
+"該当するホスト $0 に接続できませんでした。そのホストのポート $1 で ssh が実行"
+"されていることを確認するか、アドレスで別のポートを指定します。"
 
 #: pkg/shell/machines/machine-change-port.html:9
 msgid "Unable to contact {{#strong}}{{host}}{{/strong}}."
@@ -7921,16 +7956,17 @@ msgid ""
 "authentication. Please provide the password. You may want to set up your SSH "
 "keys for automatic login."
 msgstr ""
-"SSH キー認証で {{#strong}}{{full_address}}{{/strong}} にログインできません。パスワードを入力してください。"
-"SSH キーを自動ログイン用に設定しておいてください。"
+"SSH キー認証で {{#strong}}{{full_address}}{{/strong}} にログインできません。"
+"パスワードを入力してください。SSH キーを自動ログイン用に設定しておいてくださ"
+"い。"
 
 #: pkg/shell/machines/machine-change-auth.html:10
 msgid ""
 "Unable to log in to {{#strong}}{{full_address}}{{/strong}}. The host does "
 "not accept password login or any of your SSH keys."
 msgstr ""
-"{{#strong}}{{full_address}}{{/strong}} にログインできません。ホストが、パスワードログインまたは SSH "
-"キーを受け付けていません。"
+"{{#strong}}{{full_address}}{{/strong}} にログインできません。ホストが、パス"
+"ワードログインまたは SSH キーを受け付けていません。"
 
 #: pkg/shell/machines/machine-auth-failed.html:15
 msgid ""
@@ -7938,9 +7974,9 @@ msgid ""
 "options and troubleshooting support please upgrade cockpit-ws to a newer "
 "version."
 msgstr ""
-"{{#strong}}{{host}}{{/strong}} "
-"にログインできませんでした。他の認証オプションとトラブルシューティングのサポートが必要な場合は、cockpit-ws "
-"を新しいバージョンにアップグレードしてください。"
+"{{#strong}}{{host}}{{/strong}} にログインできませんでした。他の認証オプション"
+"とトラブルシューティングのサポートが必要な場合は、cockpit-ws を新しいバージョ"
+"ンにアップグレードしてください。"
 
 #: pkg/shell/machines/machine-auth-failed.html:6
 msgid ""
@@ -7948,9 +7984,9 @@ msgid ""
 "you will need to enable one of the following authentication methods in the "
 "sshd config on {{#strong}}{{host}}{{/strong}}:"
 msgstr ""
-"{{#strong}}{{host}}{{/strong}} "
-"にログインできませんでした。このホストに接続するには、{{#strong}}{{host}}{{/strong}} 上の sshd "
-"設定で次の認証方法のいずれかを有効にする必要があります。"
+"{{#strong}}{{host}}{{/strong}} にログインできませんでした。このホストに接続す"
+"るには、{{#strong}}{{host}}{{/strong}} 上の sshd 設定で次の認証方法のいずれか"
+"を有効にする必要があります。"
 
 #: pkg/storaged/iscsi-panel.jsx:88
 msgid "Unable to reach server"
@@ -8567,8 +8603,9 @@ msgid ""
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
 msgstr ""
-"Web コンソールを再起動すると、進捗情報が表示されなくなります。ただし、更新プロセスはバックグラウンドで続行されます。更新プロセスの監視を継続するには、"
-"再接続します。"
+"Web コンソールを再起動すると、進捗情報が表示されなくなります。ただし、更新プ"
+"ロセスはバックグラウンドで続行されます。更新プロセスの監視を継続するには、再"
+"接続します。"
 
 #: pkg/systemd/terminal.jsx:110
 msgid "White"
@@ -9430,7 +9467,9 @@ msgstr "詳細を表示..."
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
-msgstr "VM を複製するには、virt-install パッケージをシステムにインストールする必要があります"
+msgstr ""
+"VM を複製するには、virt-install パッケージをシステムにインストールする必要が"
+"あります"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:1001
 msgid ""
@@ -9444,7 +9483,9 @@ msgstr ""
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
-msgstr "この属性を編集するには、virt-install パッケージをシステムにインストールする必要があります"
+msgstr ""
+"この属性を編集するには、virt-install パッケージをシステムにインストールする必"
+"要があります"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "vlan"

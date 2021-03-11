@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-23 09:11+0100\n"
+"POT-Creation-Date: 2021-03-11 14:56+0100\n"
 "PO-Revision-Date: 2021-03-10 14:47+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -634,7 +634,8 @@ msgstr[1] ""
 msgid "A service needs to be restarted for the updates to take effect:"
 msgid_plural ""
 "Some services need to be restarted for the updates to take effect:"
-msgstr[0] "Palvelu on käynnistettävä uudelleen, jotta päivitykset tulevat voimaan:"
+msgstr[0] ""
+"Palvelu on käynnistettävä uudelleen, jotta päivitykset tulevat voimaan:"
 msgstr[1] ""
 "Joitakin palveluja on käynnistettävä uudelleen, jotta päivitykset tulevat "
 "voimaan:"
@@ -950,7 +951,8 @@ msgstr "Jälkeen"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:201
 msgid "After deleting the snapshot, all its captured content will be lost."
-msgstr "Tilannevedoksen poistamisen jälkeen kaikki siepattu sisältö menetetään."
+msgstr ""
+"Tilannevedoksen poistamisen jälkeen kaikki siepattu sisältö menetetään."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:28
 msgid ""
@@ -7723,7 +7725,8 @@ msgstr "Tämä taltio tulee aktivoida, ennen kuin sen kokoa voi muuttaa."
 
 #: pkg/static/login.js:163
 msgid "This web browser is too old to run the Web Console (missing $0)"
-msgstr "Tämä verkkoselain on liian vanha Web-konsolin käyttämiseen (puuttuu $0)"
+msgstr ""
+"Tämä verkkoselain on liian vanha Web-konsolin käyttämiseen (puuttuu $0)"
 
 #: pkg/shell/machines/machine-dialogs.js:757
 msgid "This will allow you to log in without password in the future."

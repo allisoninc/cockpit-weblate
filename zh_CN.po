@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-23 09:11+0100\n"
+"POT-Creation-Date: 2021-03-11 14:56+0100\n"
 "PO-Revision-Date: 2021-03-10 14:47+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -578,8 +578,8 @@ msgid ""
 "A new SSH key at ${key} will be created for ${luser} on ${lhost} and it will "
 "be added to the ${afile} file of ${ruser} on ${rhost}."
 msgstr ""
-"一个新的 SSH 密钥 ${key} 将在 ${lhost} 上为 ${luser} 创建，它将被添加到 ${rhost} 上的 ${ruser} 的 "
-"${afile} 文件中。"
+"一个新的 SSH 密钥 ${key} 将在 ${lhost} 上为 ${luser} 创建，它将被添加到 "
+"${rhost} 上的 ${ruser} 的 ${afile} 文件中。"
 
 #: pkg/packagekit/updates.jsx:1364
 msgid "A package needs a system reboot for the updates to take effect:"
@@ -1282,8 +1282,8 @@ msgid ""
 "${luser} on ${lhost}, the key will be automatically made available and you "
 "can log in to ${rhost} without password in the future."
 msgstr ""
-"将 SSH 密钥 ${key} 的密码改为${lhost} 上的 ${luser} 的登录密码，密钥就会自动可用，以后在登陆到 ${rhost} "
-"时就不再需要使用密码 。"
+"将 SSH 密钥 ${key} 的密码改为${lhost} 上的 ${luser} 的登录密码，密钥就会自动"
+"可用，以后在登陆到 ${rhost} 时就不再需要使用密码 。"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:263
 msgid "CD/DVD disc"
@@ -1469,7 +1469,9 @@ msgid ""
 "Changed keys are often the result of an operating system reinstallation. "
 "However, an unexpected change may indicate a third-party attempt to "
 "intercept your connection."
-msgstr "密钥的变化通常是操作系统重新安装的结果。但是，意料外的变化可能代表有第三方尝试截获您的连接。"
+msgstr ""
+"密钥的变化通常是操作系统重新安装的结果。但是，意料外的变化可能代表有第三方尝"
+"试截获您的连接。"
 
 #: pkg/machines/components/common/warningInactive.jsx:12
 #: pkg/machines/components/vm/nics/nicEdit.jsx:154
@@ -3323,13 +3325,16 @@ msgstr "如果没有 tang-show-keys，请运行以下命令："
 msgid ""
 "If the fingerprint matches, click \"Accept key and connect\". Otherwise, do "
 "not connect and contact your administrator."
-msgstr "如果指纹匹配，点\"Accept key and connect\"。否则，请不要连接并联系您的管理员。"
+msgstr ""
+"如果指纹匹配，点\"Accept key and connect\"。否则，请不要连接并联系您的管理"
+"员。"
 
 #: pkg/static/login.html:67
 msgid ""
 "If the fingerprint matches, click \"Accept key and log in\". Otherwise, do "
 "not log in and contact your administrator."
-msgstr "如果指纹匹配，点\"Accept key and log in\"。否则，请不要登录并联系您的管理员。"
+msgstr ""
+"如果指纹匹配，点\"Accept key and log in\"。否则，请不要登录并联系您的管理员。"
 
 #: pkg/networkmanager/interfaces.js:1459 pkg/packagekit/updates.jsx:618
 #: pkg/packagekit/updates.jsx:693
@@ -3372,8 +3377,8 @@ msgid ""
 "future, use the login password of ${luser} on ${lhost} as the key password, "
 "or leave the key password blank."
 msgstr ""
-"为了以后可以不需要密码就能以 ${ruser} 的身份登录到 ${rhost}，使用 ${lhost} 上的 ${luser} "
-"的登录密码作为密钥密码，或者将密钥密码留空。"
+"为了以后可以不需要密码就能以 ${ruser} 的身份登录到 ${rhost}，使用 ${lhost} 上"
+"的 ${luser} 的登录密码作为密钥密码，或者将密钥密码留空。"
 
 #: pkg/storaged/mdraid-details.jsx:108
 msgid "In sync"
@@ -6076,7 +6081,9 @@ msgid ""
 "Reverting to this snapshot will take the VM back to the time of the snapshot "
 "and the current state will be lost, along with any data not captured in a "
 "snapshot"
-msgstr "恢复到此快照将使虚拟机返回到创建快照时的状态，当前状态将丢失，同时丢失快照中未包括的任何数据。"
+msgstr ""
+"恢复到此快照将使虚拟机返回到创建快照时的状态，当前状态将丢失，同时丢失快照中"
+"未包括的任何数据。"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Reviewing logs"
@@ -7111,8 +7118,8 @@ msgid ""
 "The SSH key ${key} of ${luser} on ${lhost} will be added to the ${afile} "
 "file of ${ruser} on ${rhost}."
 msgstr ""
-"${lhost} 上的 ${luser} 的 SSH 密钥 ${key} 将会被添加到 ${rhost} 上的 ${ruser} 的 ${afile} "
-"文件中。"
+"${lhost} 上的 ${luser} 的 SSH 密钥 ${key} 将会被添加到 ${rhost} 上的 "
+"${ruser} 的 ${afile} 文件中。"
 
 #: pkg/shell/machines/machine-change-auth.html:28
 msgid ""
@@ -7120,15 +7127,17 @@ msgid ""
 "protected. You can log in with either your login password or by providing "
 "the password of the key at {{#strong}}{{key}}{{/strong}}."
 msgstr ""
-"登录到 {{#strong}}{{full_address}}{{/strong}} 的 SSH 密钥是受保护的。"
-"您可以用您的登录密码或通过提供密钥的密码登录 {{#strong}}{{key}}{{/strong}} 。"
+"登录到 {{#strong}}{{full_address}}{{/strong}} 的 SSH 密钥是受保护的。您可以用"
+"您的登录密码或通过提供密钥的密码登录 {{#strong}}{{key}}{{/strong}} 。"
 
 #: pkg/shell/machines/machine-change-auth.html:55
 msgid ""
 "The SSH key {{#strong}}{{key}}{{/strong}} will be made available for the "
 "remainder of the session and will be available for login to other hosts as "
 "well."
-msgstr "SSH密钥 {{#strong}}{{key}}{{/strong}} 将会在剩余的会话中可用，也可以登录到其他主机。"
+msgstr ""
+"SSH密钥 {{#strong}}{{key}}{{/strong}} 将会在剩余的会话中可用，也可以登录到其"
+"他主机。"
 
 #: pkg/machines/components/vm/deleteDialog.jsx:64
 msgid "The VM is running and will be forced off before deletion."
@@ -7590,14 +7599,18 @@ msgstr ""
 msgid ""
 "To verify a fingerprint, run the following on $0 while physically sitting at "
 "the machine or through a trusted network:"
-msgstr "要验证指纹，在 $0 上运行以下内容（在实际的物理机器上本地进行，或通过一个可信任的网络进行）："
+msgstr ""
+"要验证指纹，在 $0 上运行以下内容（在实际的物理机器上本地进行，或通过一个可信"
+"任的网络进行）："
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:18
 #: pkg/shell/machines/machine-unknown-hostkey.html:10
 msgid ""
 "To verify a fingerprint, run the following on {{host}} while physically "
 "sitting at the machine or through a trusted network:"
-msgstr "要验证指纹，在 {{host}} 上运行以下内容（在实际的物理机器上本地进行，或通过一个可信任的网络进行）："
+msgstr ""
+"要验证指纹，在 {{host}} 上运行以下内容（在实际的物理机器上本地进行，或通过一"
+"个可信任的网络进行）："
 
 #: pkg/metrics/metrics.jsx:968
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:40
@@ -7690,7 +7703,9 @@ msgid ""
 "Tuned is a service that monitors your system and optimizes the performance "
 "under certain workloads. The core of Tuned are profiles, which tune your "
 "system for different use cases."
-msgstr "Tuned 是一个监控您的系统并优化某些工作负载性能的服务。Tuned 的核心是配置集（profile），使用它为不同的用例调整您的系统。"
+msgstr ""
+"Tuned 是一个监控您的系统并优化某些工作负载性能的服务。Tuned 的核心是配置集"
+"（profile），使用它为不同的用例调整您的系统。"
 
 #: pkg/tuned/dialog.js:93
 msgid "Tuned is not available"
@@ -7765,7 +7780,9 @@ msgstr "无法连接至该地址"
 msgid ""
 "Unable to contact the given host $0. Make sure it has ssh running on port "
 "$1, or specify another port in the address."
-msgstr "无法与指定主机 $0 联系。请确认已经在端口 $1 上运行 SSH，或者在地址中指定另一个端口。"
+msgstr ""
+"无法与指定主机 $0 联系。请确认已经在端口 $1 上运行 SSH，或者在地址中指定另一"
+"个端口。"
 
 #: pkg/shell/machines/machine-change-port.html:9
 msgid "Unable to contact {{#strong}}{{host}}{{/strong}}."
@@ -7786,14 +7803,16 @@ msgid ""
 "authentication. Please provide the password. You may want to set up your SSH "
 "keys for automatic login."
 msgstr ""
-"无法使用 SSH 密钥认证来登录到 {{#strong}}{{full_address}}{{/strong}} 。请提供密码。您可能需要设置 SSH "
-"密钥以实现自动登录。"
+"无法使用 SSH 密钥认证来登录到 {{#strong}}{{full_address}}{{/strong}} 。请提供"
+"密码。您可能需要设置 SSH 密钥以实现自动登录。"
 
 #: pkg/shell/machines/machine-change-auth.html:10
 msgid ""
 "Unable to log in to {{#strong}}{{full_address}}{{/strong}}. The host does "
 "not accept password login or any of your SSH keys."
-msgstr "无法登录 {{#strong}}{{full_address}}{{/strong}} 。主机不接受密码登录，或您的 SSH 密钥。"
+msgstr ""
+"无法登录 {{#strong}}{{full_address}}{{/strong}} 。主机不接受密码登录，或您的 "
+"SSH 密钥。"
 
 #: pkg/shell/machines/machine-auth-failed.html:15
 msgid ""
@@ -7801,7 +7820,8 @@ msgid ""
 "options and troubleshooting support please upgrade cockpit-ws to a newer "
 "version."
 msgstr ""
-"无法登陆到 {{#strong}}{{host}}{{/strong}}。如需更多验证选项和排错支持，请将 cockpit-ws 升级到一个新版本。"
+"无法登陆到 {{#strong}}{{host}}{{/strong}}。如需更多验证选项和排错支持，请将 "
+"cockpit-ws 升级到一个新版本。"
 
 #: pkg/shell/machines/machine-auth-failed.html:6
 msgid ""
@@ -8425,7 +8445,9 @@ msgid ""
 "When the Web Console is restarted, you will no longer see progress "
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
-msgstr "当 Web 控制台重启时，将不再能够看到进度信息。但是，更新过程会继续在后台进行。重新连接以继续监视更新过程。"
+msgstr ""
+"当 Web 控制台重启时，将不再能够看到进度信息。但是，更新过程会继续在后台进行。"
+"重新连接以继续监视更新过程。"
 
 #: pkg/systemd/terminal.jsx:110
 msgid "White"

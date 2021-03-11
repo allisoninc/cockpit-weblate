@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-23 09:11+0100\n"
+"POT-Creation-Date: 2021-03-11 14:56+0100\n"
 "PO-Revision-Date: 2021-03-11 13:45+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
@@ -157,7 +157,9 @@ msgstr[0] "$0 중요한 영향"
 msgid ""
 "$0 is available for most operating systems. To install it, search for it in "
 "GNOME Software or run the following:"
-msgstr "$0 대부분의 운영 체제에서 사용할 수 있습니다. 설치하려면 GNOME 소프트웨어에서 검색하거나 다음을 실행하십시오:"
+msgstr ""
+"$0 대부분의 운영 체제에서 사용할 수 있습니다. 설치하려면 GNOME 소프트웨어에"
+"서 검색하거나 다음을 실행하십시오:"
 
 #: pkg/storaged/format-dialog.jsx:165 pkg/storaged/content-views.jsx:336
 #: pkg/storaged/content-views.jsx:580 pkg/storaged/lvol-tabs.jsx:209
@@ -574,8 +576,8 @@ msgid ""
 "A new SSH key at ${key} will be created for ${luser} on ${lhost} and it will "
 "be added to the ${afile} file of ${ruser} on ${rhost}."
 msgstr ""
-"새로운 SSH 키(${key})가 ${luser}에 대해 ${lhost}에서 생성되며 ${rhost}에서 ${ruser}의 ${afile}"
-" 파일에 추가됩니다."
+"새로운 SSH 키(${key})가 ${luser}에 대해 ${lhost}에서 생성되며 ${rhost}에서 "
+"${ruser}의 ${afile} 파일에 추가됩니다."
 
 #: pkg/packagekit/updates.jsx:1364
 msgid "A package needs a system reboot for the updates to take effect:"
@@ -790,13 +792,17 @@ msgstr "영역 추가"
 msgid ""
 "Adding <b>$0</b> will break the connection to the server, and will make the "
 "administration UI unavailable."
-msgstr "<b>$0</b>을/를 추가하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
+msgstr ""
+"<b>$0</b>을/를 추가하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩"
+"니다."
 
 #: pkg/networkmanager/firewall.jsx:521
 msgid ""
 "Adding custom ports will reload firewalld. A reload will result in the loss "
 "of any runtime-only configuration!"
-msgstr "사용자 지정 포트를 추가하면 방화벽이 다시 로드됩니다. 방화벽을 다시로드하면 런타임 전용 설정이 손실됩니다!"
+msgstr ""
+"사용자 지정 포트를 추가하면 방화벽이 다시 로드됩니다. 방화벽을 다시로드하면 "
+"런타임 전용 설정이 손실됩니다!"
 
 #: pkg/users/authorized-keys.js:113
 msgid "Adding key"
@@ -904,8 +910,9 @@ msgid ""
 "log into this machine. This may also affect other services as DNS resolution "
 "settings and the list of trusted CAs may change."
 msgstr ""
-"도메인 종료 후 로컬 인증 정보가 있는 사용자만 시스템에 로그인할 수 있습니다. 이 경우 DNS 확인 설정 및 신뢰할 수 있는 CA "
-"목록이 변경될 수 있으므로 다른 서비스에도 영향을 미칠 수 있습니다."
+"도메인 종료 후 로컬 인증 정보가 있는 사용자만 시스템에 로그인할 수 있습니다. "
+"이 경우 DNS 확인 설정 및 신뢰할 수 있는 CA 목록이 변경될 수 있으므로 다른 서"
+"비스에도 영향을 미칠 수 있습니다."
 
 #: pkg/systemd/services.html:204 pkg/systemd/services.html:208
 #: pkg/systemd/services/timer-dialog.js:318
@@ -1279,8 +1286,8 @@ msgid ""
 "${luser} on ${lhost}, the key will be automatically made available and you "
 "can log in to ${rhost} without password in the future."
 msgstr ""
-"SSH 키 ${key}의 암호를 ${luser}의 ${lhost} 로그인 암호로 변경하면 키가 자동으로 제공되며 추후 암호 없이 "
-"${rhost}에 로그인할 수 있습니다."
+"SSH 키 ${key}의 암호를 ${luser}의 ${lhost} 로그인 암호로 변경하면 키가 자동으"
+"로 제공되며 추후 암호 없이 ${rhost}에 로그인할 수 있습니다."
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:263
 msgid "CD/DVD disc"
@@ -1467,7 +1474,8 @@ msgid ""
 "However, an unexpected change may indicate a third-party attempt to "
 "intercept your connection."
 msgstr ""
-"때때로 운영 체제 재설치로 인해 키가 변경될 수 있습니다. 그러나 예기치 않은 변경은 연결을 가로채는 타사의 시도를 나타낼 수도 있습니다."
+"때때로 운영 체제 재설치로 인해 키가 변경될 수 있습니다. 그러나 예기치 않은 변"
+"경은 연결을 가로채는 타사의 시도를 나타낼 수도 있습니다."
 
 #: pkg/machines/components/common/warningInactive.jsx:12
 #: pkg/machines/components/vm/nics/nicEdit.jsx:154
@@ -1480,7 +1488,8 @@ msgstr "VM 종료 후 변경사항이 적용됩니다"
 msgid ""
 "Changing the settings will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "설정을 변경하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
+msgstr ""
+"설정을 변경하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
 
 #: pkg/packagekit/updates.jsx:813
 msgid "Check for updates"
@@ -1558,7 +1567,8 @@ msgstr "그래도 암호를 사용하려면 $0을(를) 다시 클릭하십시오
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:58
 msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
-msgstr "\"원격 뷰어 시작\"을 클릭하면 .vv 파일을 다운로드하여 $0을(를) 시작합니다."
+msgstr ""
+"\"원격 뷰어 시작\"을 클릭하면 .vv 파일을 다운로드하여 $0을(를) 시작합니다."
 
 #: pkg/systemd/overview-cards/realmd-operation.html:21
 msgid "Client software"
@@ -1641,9 +1651,10 @@ msgid ""
 "same time. Just add them with a single click and your machines will look "
 "after its buddies."
 msgstr ""
-"Cockpit은 경험이 적은 시스템 관리자에게 적합합니다. 시스템 관리자는 스토리지 관리, 저널 검사, 서비스 시작 및 중지 등의 간단한 "
-"작업을 쉽게 수행할 수 있으며 여러 서버를 동시에 모니터링 및 관리할 수 있습니다. 간단하게 서버를 클릭하여 서버를 추가할 수 있으며 "
-"추가 후 다른 기기를 관리할 수 있습니다."
+"Cockpit은 경험이 적은 시스템 관리자에게 적합합니다. 시스템 관리자는 스토리지 "
+"관리, 저널 검사, 서비스 시작 및 중지 등의 간단한 작업을 쉽게 수행할 수 있으"
+"며 여러 서버를 동시에 모니터링 및 관리할 수 있습니다. 간단하게 서버를 클릭하"
+"여 서버를 추가할 수 있으며 추가 후 다른 기기를 관리할 수 있습니다."
 
 #: pkg/shell/machines/machine-add.html:37
 msgid "Color"
@@ -2066,25 +2077,30 @@ msgstr "$target 스냅샷 생성 중"
 msgid ""
 "Creating this VLAN will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "이 VLAN을 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
+msgstr ""
+"이 VLAN을 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
 
 #: pkg/networkmanager/interfaces.js:2403
 msgid ""
 "Creating this bond will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "이 본드를 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
+msgstr ""
+"이 본드를 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
 
 #: pkg/networkmanager/interfaces.js:2864
 msgid ""
 "Creating this bridge will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "이 브릿지를 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
+msgstr ""
+"이 브릿지를 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니"
+"다."
 
 #: pkg/networkmanager/interfaces.js:2607
 msgid ""
 "Creating this team will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "이 팀을 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
+msgstr ""
+"이 팀을 생성하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
 
 #: pkg/storaged/jobs-panel.jsx:74
 msgid "Creating volume group $target"
@@ -2274,7 +2290,9 @@ msgstr "$target 삭제 중"
 msgid ""
 "Deleting <b>$0</b> will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "<b>$0</b>을/를 삭제하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
+msgstr ""
+"<b>$0</b>을/를 삭제하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩"
+"니다."
 
 #: pkg/storaged/mdraid-details.jsx:300
 msgid "Deleting a RAID device will erase all data on it."
@@ -2300,7 +2318,9 @@ msgstr "볼륨 그룹을 삭제하면 내부의 모든 자료도 함께 삭제�
 msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
-msgstr "비활성화된 스토리지 풀을 삭제하려면 풀 정의를 해제하면 됩니다. 컨텐츠는 삭제되지 않습니다."
+msgstr ""
+"비활성화된 스토리지 풀을 삭제하려면 풀 정의를 해제하면 됩니다. 컨텐츠는 삭제"
+"되지 않습니다."
 
 #: pkg/storaged/jobs-panel.jsx:75
 msgid "Deleting volume group $target"
@@ -3334,13 +3354,17 @@ msgstr "tang-show-keys를 사용할 수 없는 경우 다음을 실행합니다:
 msgid ""
 "If the fingerprint matches, click \"Accept key and connect\". Otherwise, do "
 "not connect and contact your administrator."
-msgstr "지문이 일치하면 \"키 수락 및 연결\"을 클릭합니다. 일치 하지 않을 경우 관리자에게 문의하십시오."
+msgstr ""
+"지문이 일치하면 \"키 수락 및 연결\"을 클릭합니다. 일치 하지 않을 경우 관리자"
+"에게 문의하십시오."
 
 #: pkg/static/login.html:67
 msgid ""
 "If the fingerprint matches, click \"Accept key and log in\". Otherwise, do "
 "not log in and contact your administrator."
-msgstr "지문이 일치하면 \"키 수락 및 로그인\"을 클릭합니다. 일치 하지 않을 경우 로그인하지 않고 관리자에게 문의하십시오."
+msgstr ""
+"지문이 일치하면 \"키 수락 및 로그인\"을 클릭합니다. 일치 하지 않을 경우 로그"
+"인하지 않고 관리자에게 문의하십시오."
 
 #: pkg/networkmanager/interfaces.js:1459 pkg/packagekit/updates.jsx:618
 #: pkg/packagekit/updates.jsx:693
@@ -3385,8 +3409,8 @@ msgid ""
 "future, use the login password of ${luser} on ${lhost} as the key password, "
 "or leave the key password blank."
 msgstr ""
-"추후 암호 없이 ${rhost}에 ${ruser}(으)로 로그인하려면 ${luser}의 ${lhost} 로그인 암호를 키 암호로 "
-"사용하거나 키 암호를 비워 두십시오."
+"추후 암호 없이 ${rhost}에 ${ruser}(으)로 로그인하려면 ${luser}의 ${lhost} 로"
+"그인 암호를 키 암호로 사용하거나 키 암호를 비워 두십시오."
 
 #: pkg/storaged/mdraid-details.jsx:108
 msgid "In sync"
@@ -5558,7 +5582,9 @@ msgstr "이전 부트"
 msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
-msgstr "이전에 촬영한 스냅샷을 사용하면 문제가 발생했을 때 이전 상태로 돌아갈 수 있습니다"
+msgstr ""
+"이전에 촬영한 스냅샷을 사용하면 문제가 발생했을 때 이전 상태로 돌아갈 수 있습"
+"니다"
 
 #: pkg/networkmanager/index.html:178
 msgid "Primary"
@@ -6131,7 +6157,9 @@ msgid ""
 "Reverting to this snapshot will take the VM back to the time of the snapshot "
 "and the current state will be lost, along with any data not captured in a "
 "snapshot"
-msgstr "이 스냅샷으로 되돌리면 VM이 스냅샷 촬영 시점으로 돌아가며 스냅샷에 캡처되지 않은 데이터와 함께 현재 상태가 모두 손실됩니다"
+msgstr ""
+"이 스냅샷으로 되돌리면 VM이 스냅샷 촬영 시점으로 돌아가며 스냅샷에 캡처되지 "
+"않은 데이터와 함께 현재 상태가 모두 손실됩니다"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Reviewing logs"
@@ -7188,7 +7216,8 @@ msgid ""
 "The SSH key ${key} of ${luser} on ${lhost} will be added to the ${afile} "
 "file of ${ruser} on ${rhost}."
 msgstr ""
-"${luser}의 ${lhost} SSH 키 ${key}이(가) ${rhost}에서 ${ruser}의 ${afile} 파일에 추가됩니다."
+"${luser}의 ${lhost} SSH 키 ${key}이(가) ${rhost}에서 ${ruser}의 ${afile} 파일"
+"에 추가됩니다."
 
 #: pkg/shell/machines/machine-change-auth.html:28
 msgid ""
@@ -7196,8 +7225,9 @@ msgid ""
 "protected. You can log in with either your login password or by providing "
 "the password of the key at {{#strong}}{{key}}{{/strong}}."
 msgstr ""
-"{{#strong}}{{full_address}}{{/strong}}에 로그인하기 위한 SSH 키가 보호되고 있습니다. "
-"{{#strong}}{{key}}{{/strong}}에서 로그인 암호나 키 암호를 입력하여 로그인할 수 있습니다."
+"{{#strong}}{{full_address}}{{/strong}}에 로그인하기 위한 SSH 키가 보호되고 있"
+"습니다. {{#strong}}{{key}}{{/strong}}에서 로그인 암호나 키 암호를 입력하여 로"
+"그인할 수 있습니다."
 
 #: pkg/shell/machines/machine-change-auth.html:55
 msgid ""
@@ -7205,8 +7235,8 @@ msgid ""
 "remainder of the session and will be available for login to other hosts as "
 "well."
 msgstr ""
-"SSH 키 {{#strong}}{{key}}{{/strong}}을(를) 나머지 세션에서 사용할 수 있으며 다른 호스트에 로그인할 때도 "
-"사용할 수 있습니다."
+"SSH 키 {{#strong}}{{key}}{{/strong}}을(를) 나머지 세션에서 사용할 수 있으며 "
+"다른 호스트에 로그인할 때도 사용할 수 있습니다."
 
 #: pkg/machines/components/vm/deleteDialog.jsx:64
 msgid "The VM is running and will be forced off before deletion."
@@ -7253,13 +7283,17 @@ msgstr "파일 시스템에 영구 마운트 지점이 없습니다."
 
 #: pkg/storaged/fsys-tab.jsx:277
 msgid "The filesystem is already mounted at $0. Proceeding will unmount it."
-msgstr "파일 시스템이 이미 $0에 마운트되어 있습니다. 계속 진행할 경우 마운트가 해제됩니다."
+msgstr ""
+"파일 시스템이 이미 $0에 마운트되어 있습니다. 계속 진행할 경우 마운트가 해제됩"
+"니다."
 
 #: pkg/storaged/fsys-tab.jsx:494
 msgid ""
 "The filesystem is configured to be automatically mounted on boot but its "
 "encryption container will not be unlocked at that time."
-msgstr "파일 시스템이 부팅 시 자동으로 마운트되도록 구성되어 있지만 그때 암호화 컨테이너의 잠금이 해제되지 않습니다."
+msgstr ""
+"파일 시스템이 부팅 시 자동으로 마운트되도록 구성되어 있지만 그때 암호화 컨테"
+"이너의 잠금이 해제되지 않습니다."
 
 #: pkg/storaged/fsys-tab.jsx:486
 msgid ""
@@ -7631,7 +7665,9 @@ msgid ""
 "This will test kdump settings by crashing the kernel and thereby the system. "
 "Depending on the settings, the system may not automatically reboot and the "
 "process may take a while."
-msgstr "kdump 설정은 커널을 크래시햐여 테스트합니다. 설정에 따라 재부팅이 자동으로 수행되지 않고 처리 시간이 길어질 수 있습니다."
+msgstr ""
+"kdump 설정은 커널을 크래시햐여 테스트합니다. 설정에 따라 재부팅이 자동으로 수"
+"행되지 않고 처리 시간이 길어질 수 있습니다."
 
 #: pkg/kdump/kdump-view.jsx:495
 msgid "This will test the kdump configuration by crashing the kernel."
@@ -7683,7 +7719,9 @@ msgstr ""
 msgid ""
 "To ensure that your connection is not intercepted by a malicious third-"
 "party, please verify the host key fingerprint:"
-msgstr "악성의 제3자가 귀하의 연결을 가로채지 않도록 하려면 호스트 키 지문을 확인하십시오:"
+msgstr ""
+"악성의 제3자가 귀하의 연결을 가로채지 않도록 하려면 호스트 키 지문을 확인하십"
+"시오:"
 
 #: pkg/packagekit/updates.jsx:1233
 msgid ""
@@ -7697,14 +7735,18 @@ msgstr ""
 msgid ""
 "To verify a fingerprint, run the following on $0 while physically sitting at "
 "the machine or through a trusted network:"
-msgstr "지문을 확인하려면 물리적인 장치 또는 신뢰할 수 있는 네트워크를 통해 $0에서 다음을 실행합니다:"
+msgstr ""
+"지문을 확인하려면 물리적인 장치 또는 신뢰할 수 있는 네트워크를 통해 $0에서 다"
+"음을 실행합니다:"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:18
 #: pkg/shell/machines/machine-unknown-hostkey.html:10
 msgid ""
 "To verify a fingerprint, run the following on {{host}} while physically "
 "sitting at the machine or through a trusted network:"
-msgstr "지문을 확인하려면 물리적인 장치 또는 신뢰할 수 있는 네트워크를 통해 {{host}}에서 다음을 실행합니다:"
+msgstr ""
+"지문을 확인하려면 물리적인 장치 또는 신뢰할 수 있는 네트워크를 통해 {{host}}"
+"에서 다음을 실행합니다:"
 
 #: pkg/metrics/metrics.jsx:968
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:40
@@ -7798,8 +7840,8 @@ msgid ""
 "under certain workloads. The core of Tuned are profiles, which tune your "
 "system for different use cases."
 msgstr ""
-"Tuned는 시스템을 모니터링하고 특정 워크로드에 대해 성능을 최적화하는 서비스입니다. Tuned의 핵심은 다른 사용 사례에 맞게 "
-"시스템을 조정하는 프로파일입니다."
+"Tuned는 시스템을 모니터링하고 특정 워크로드에 대해 성능을 최적화하는 서비스입"
+"니다. Tuned의 핵심은 다른 사용 사례에 맞게 시스템을 조정하는 프로파일입니다."
 
 #: pkg/tuned/dialog.js:93
 msgid "Tuned is not available"
@@ -7878,7 +7920,9 @@ msgstr "해당 주소에 연결할 수 없음"
 msgid ""
 "Unable to contact the given host $0. Make sure it has ssh running on port "
 "$1, or specify another port in the address."
-msgstr "지정된 호스트 $0에 연결할 수 없습니다. 포트 $1에서 ssh가 실행되고 있는지 확인하거나 주소에서 다른 포트를 지정합니다."
+msgstr ""
+"지정된 호스트 $0에 연결할 수 없습니다. 포트 $1에서 ssh가 실행되고 있는지 확인"
+"하거나 주소에서 다른 포트를 지정합니다."
 
 #: pkg/shell/machines/machine-change-port.html:9
 msgid "Unable to contact {{#strong}}{{host}}{{/strong}}."
@@ -7899,16 +7943,17 @@ msgid ""
 "authentication. Please provide the password. You may want to set up your SSH "
 "keys for automatic login."
 msgstr ""
-"SSH 키 인증을 사용하여 {{#strong}}{{full_address}}{{/strong}}에 로그인할 수 없습니다. 암호를 "
-"입력하십시오. 자동 로그인을 위해 SSH 키를 설정할 수 있습니다."
+"SSH 키 인증을 사용하여 {{#strong}}{{full_address}}{{/strong}}에 로그인할 수 "
+"없습니다. 암호를 입력하십시오. 자동 로그인을 위해 SSH 키를 설정할 수 있습니"
+"다."
 
 #: pkg/shell/machines/machine-change-auth.html:10
 msgid ""
 "Unable to log in to {{#strong}}{{full_address}}{{/strong}}. The host does "
 "not accept password login or any of your SSH keys."
 msgstr ""
-"{{#strong}}{{full_address}}{{/strong}}에 로그인할 수 없습니다. 호스트는 암호 로그인 또는 SSH 키를 "
-"허용하지 않습니다."
+"{{#strong}}{{full_address}}{{/strong}}에 로그인할 수 없습니다. 호스트는 암호 "
+"로그인 또는 SSH 키를 허용하지 않습니다."
 
 #: pkg/shell/machines/machine-auth-failed.html:15
 msgid ""
@@ -7916,8 +7961,9 @@ msgid ""
 "options and troubleshooting support please upgrade cockpit-ws to a newer "
 "version."
 msgstr ""
-"{{#strong}}{{host}}{{/strong}}에 로그인할 수 없습니다. 다른 인증 옵션 및 문제 해결에 대한 지원이 필요한 경우 "
-"cockpit-ws를 새 버전으로 업그레이드하십시오."
+"{{#strong}}{{host}}{{/strong}}에 로그인할 수 없습니다. 다른 인증 옵션 및 문"
+"제 해결에 대한 지원이 필요한 경우 cockpit-ws를 새 버전으로 업그레이드하십시"
+"오."
 
 #: pkg/shell/machines/machine-auth-failed.html:6
 msgid ""
@@ -7925,8 +7971,9 @@ msgid ""
 "you will need to enable one of the following authentication methods in the "
 "sshd config on {{#strong}}{{host}}{{/strong}}:"
 msgstr ""
-"{{#strong}}{{host}}{{/strong}}에 로그인할 수 없습니다. 이 호스트에 연결하려면 "
-"{{#strong}}{{host}}{{/strong}}의 sshd 구성에서 다음 인증 방법 중 하나를 사용해야 합니다:"
+"{{#strong}}{{host}}{{/strong}}에 로그인할 수 없습니다. 이 호스트에 연결하려"
+"면 {{#strong}}{{host}}{{/strong}}의 sshd 구성에서 다음 인증 방법 중 하나를 사"
+"용해야 합니다:"
 
 #: pkg/storaged/iscsi-panel.jsx:88
 msgid "Unable to reach server"
@@ -8550,8 +8597,9 @@ msgid ""
 "information. However, the update process will continue in the background. "
 "Reconnect to continue watching the update process."
 msgstr ""
-"웹 콘솔이 다시 시작되면 더 이상 진행률 정보가 표시되지 않지만 업데이트 프로세스는 백그라운드에서 계속됩니다. 업데이트 프로세스를 계속 "
-"확인하려면 다시 연결하십시오."
+"웹 콘솔이 다시 시작되면 더 이상 진행률 정보가 표시되지 않지만 업데이트 프로세"
+"스는 백그라운드에서 계속됩니다. 업데이트 프로세스를 계속 확인하려면 다시 연결"
+"하십시오."
 
 #: pkg/systemd/terminal.jsx:110
 msgid "White"
