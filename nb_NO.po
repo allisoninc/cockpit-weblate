@@ -21,15 +21,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:09+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-03-13 15:22+0000\n"
+"Last-Translator: Stein-Aksel Basma <stabasm@gmail.com>\n"
+"Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
+"projects/cockpit/rhel-7/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -112,8 +113,8 @@ msgstr[1] ""
 #: pkg/playground/translate.js:28 pkg/playground/translate.js:31
 msgid "$0 disk is missing"
 msgid_plural "$0 disks are missing"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 disk mangler"
+msgstr[1] "$0 disker mangler"
 
 #: src/base1/test-locale.js:65 src/base1/test-locale.js:67
 #: src/base1/test-locale.js:69 pkg/playground/translate.js:34
@@ -121,8 +122,8 @@ msgstr[1] ""
 msgctxt "disk-non-rotational"
 msgid "$0 disk is missing"
 msgid_plural "$0 disks are missing"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 disk mangler"
+msgstr[1] "$0 disker mangler"
 
 #: src/ws/login.js:326 src/ws/login.js:667
 msgid "$0 error"
@@ -214,7 +215,7 @@ msgstr[1] ""
 
 #: pkg/storaged/vdo-details.jsx:292
 msgid "$0 used of $1 ($2 saved)"
-msgstr ""
+msgstr "$0 brukt av $1 ($2 lagret)"
 
 #: pkg/ovirt/components/vcpuModal.jsx:98
 msgid "$0 vCPU Details"
@@ -265,7 +266,7 @@ msgstr ""
 
 #: pkg/storaged/utils.js:182
 msgid "$name (from $host)"
-msgstr ""
+msgstr "$name (fra $host)"
 
 #: pkg/docker/details.js:151
 msgid "${hip}:${hport} -> $cport"
@@ -618,7 +619,7 @@ msgstr ""
 
 #: pkg/users/index.html:63
 msgid "Account not available or cannot be edited."
-msgstr ""
+msgstr "Kontoen er ikke tilgjengelig eller kan ikke redigeres."
 
 #: pkg/users/index.html:71
 msgid "Accounts"
@@ -650,7 +651,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:838 pkg/networkmanager/interfaces.js:2001
 msgid "Active"
-msgstr ""
+msgstr "Aktiv"
 
 #: pkg/networkmanager/interfaces.js:1975 pkg/networkmanager/interfaces.js:1992
 msgid "Active Backup"
@@ -674,7 +675,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:1980
 msgid "Adaptive load balancing"
-msgstr ""
+msgstr "Adaptiv lastbalansering"
 
 #: pkg/networkmanager/interfaces.js:1979
 msgid "Adaptive transmit load balancing"
@@ -933,7 +934,7 @@ msgstr ""
 
 #: pkg/lib/machine-info.js:90
 msgid "Advanced TCA"
-msgstr ""
+msgstr "Avansert TCA"
 
 #: pkg/systemd/services.html:455 pkg/systemd/init.js:730
 msgid "After"
@@ -949,7 +950,7 @@ msgstr ""
 #: pkg/systemd/services.html:446 pkg/systemd/services.html:450
 #: pkg/systemd/init.js:1073
 msgid "After system boot"
-msgstr ""
+msgstr "Etter systemstart"
 
 #: pkg/systemd/logs.html:57
 msgid "Alert and above"
@@ -1030,7 +1031,7 @@ msgstr ""
 #: pkg/apps/index.html:23 pkg/apps/application.jsx:143
 #: pkg/apps/application-list.jsx:150
 msgid "Applications"
-msgstr ""
+msgstr "Programmer"
 
 #: pkg/networkmanager/index.html:478 pkg/networkmanager/index.html:502
 #: pkg/networkmanager/index.html:526 pkg/networkmanager/index.html:550
@@ -1054,7 +1055,7 @@ msgstr ""
 
 #: pkg/selinux/setroubleshoot-view.jsx:112
 msgid "Apply this solution"
-msgstr ""
+msgstr "Bruk denne løsningen"
 
 #: pkg/selinux/setroubleshoot-view.jsx:87
 msgid "Applying solution..."
@@ -1084,7 +1085,7 @@ msgstr ""
 #: pkg/storaged/mdraid-details.jsx:51 pkg/storaged/vgroups-panel.jsx:63
 #: pkg/storaged/vgroup-details.jsx:57
 msgid "At least one disk is needed."
-msgstr ""
+msgstr "Minst én disk er nødvendig."
 
 #: pkg/systemd/services.html:451
 msgid "At specific time"
