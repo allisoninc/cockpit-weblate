@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-03-13 23:29+0000\n"
+"PO-Revision-Date: 2021-03-16 19:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -844,7 +844,7 @@ msgstr "추가 주소 $val"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:73
 msgid "Additional packages:"
-msgstr "추가 패키지 :"
+msgstr "추가 꾸러미 :"
 
 #: pkg/lib/machine-add.html:11 pkg/kubernetes/views/node-body.html:5
 #: pkg/kubernetes/views/node-add.html:8
@@ -1746,7 +1746,7 @@ msgid ""
 "Cockpit by pressing refresh in your browser. The javascript console contains "
 "details about this error (<b>Ctrl-Shift-J</b> in most browsers)."
 msgstr ""
-"Cockpit에서 예상치 못한 내부 오류가 발생했습니다. <br/><br/>브라우저에서 업데이트를 눌러 Cockpit 재부팅을 시도할 수 "
+"Cockpit에서 예상치 못한 내부 오류가 발생했습니다. <br/><br/>브라우저에서 업데이트를 눌러 Cockpit 재시작을 시도할 수 "
 "있습니다. javascript 콘솔에는 이러한 오류에 대한 상세 정보가 포함되어 있습니다 (대부분의 브라우저에서 <b>Ctrl-"
 "Shift-J</b>)."
 
@@ -4297,7 +4297,7 @@ msgstr "저널 엔트리를 찾을 수 없습니다 "
 #: pkg/kdump/kdump-view.jsx:459
 msgid ""
 "Kdump service not installed. Please ensure package kexec-tools is installed."
-msgstr "Kdump 서비스가 설치되어 있지 않습니다. kexec-tools 패키지가 설치되어 있는지 확인하십시오."
+msgstr "Kdump 서비스가 설치되어 있지 않습니다. kexec-tools 꾸러미가 설치를 확인하십시오."
 
 #: pkg/networkmanager/index.html:708
 msgid "Keep connection"
@@ -5522,7 +5522,7 @@ msgstr "현재 필터에 일치하는 이미지가 없습니다 "
 
 #: pkg/apps/utils.jsx:96
 msgid "No installation package found for this application."
-msgstr "이 패키지에 대한 설치 패키지를 찾을 수 없습니다."
+msgstr "이 꾸러미에 대한 설치 꾸러미를 찾을 수 없습니다."
 
 #: pkg/subscriptions/subscriptions-view.jsx:251
 msgid "No installed products on the system."
@@ -5977,7 +5977,7 @@ msgstr "PD 이름 "
 
 #: pkg/packagekit/updates.jsx:501
 msgid "Package information"
-msgstr "패키지 정보"
+msgstr "꾸러미 정보"
 
 #: pkg/lib/packagekit.js:115
 msgid "PackageKit crashed"
@@ -6251,7 +6251,7 @@ msgstr "새 볼륨 크기를 입력해 주십시오 "
 
 #: pkg/networkmanager/firewall.jsx:867
 msgid "Please install the $0 package"
-msgstr "$0 패키지를 설치해 주십시오 "
+msgstr "$0 꾸러미를 설치해 주십시오"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/scripts/volumes.js:582
@@ -6912,7 +6912,7 @@ msgstr "이유"
 
 #: pkg/lib/journal.js:246 pkg/lib/cockpit-components-logs-panel.jsx:82
 msgid "Reboot"
-msgstr "다시 시작"
+msgstr "재시작"
 
 #: pkg/networkmanager/index.html:88 pkg/networkmanager/index.html:122
 #: pkg/networkmanager/index.html:140 pkg/networkmanager/index.html:421
@@ -6957,7 +6957,7 @@ msgstr "디스크 재포맷 및 디스크 추가 "
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/packagekit/updates.jsx:41
 msgid "Refreshing package information"
-msgstr "패키지 정보 새로고침 중 "
+msgstr "꾸러미 정보 새로고침 중"
 
 #: src/ws/login.js:653
 msgid "Refusing to connect. Host is unknown"
@@ -8009,7 +8009,7 @@ msgstr "솔루션 "
 #: pkg/packagekit/updates.jsx:40
 msgid ""
 "Some other program is currently using the package manager, please wait..."
-msgstr "다른 프로그램이 패키지 관리자를 사용 중입니다. 잠시만 기다려주십시오..."
+msgstr "다른 프로그램이 꾸러미 관리자를 사용 중입니다. 잠시 기다려주세요..."
 
 #: pkg/kubernetes/scripts/volumes.js:914
 msgid "Sorry, I don't know how to modify this volume"
@@ -8997,12 +8997,12 @@ msgstr "이 옵션은 단일 노드 테스트에만 사용할 수 있습니다 -
 
 #: src/bridge/cockpitpackages.c:506
 msgid "This package is not compatible with this version of Cockpit"
-msgstr "이 패키지는 Cockpit 버전과 호환되지 않습니다"
+msgstr "이 꾸러미는 Cockpit 버전과 호환되지 않습니다"
 
 #: src/bridge/cockpitpackages.c:495
 #, c-format
 msgid "This package requires Cockpit version %s or later"
-msgstr "이 패키지에는 Cockpit 버전 %s 이상이 필요합니다. "
+msgstr "이 꾸러미에는 Cockpit 버전 %s 이상이 필요합니다"
 
 #: pkg/subscriptions/insights.jsx:96
 msgid "This system is not connected to $0."
@@ -9086,7 +9086,7 @@ msgid ""
 "This will test kdump settings by crashing the kernel and thereby the system. "
 "Depending on the settings, the system may not automatically reboot and the "
 "process may take a while."
-msgstr "kdump 설정은 커널을 크래시햐여 테스트합니다. 설정에 따라 재부팅이 자동으로 수행되지 않고 처리 시간이 길어질 수 있습니다."
+msgstr "kdump 설정은 커널을 충돌하여 시험합니다. 설정에 따라 재시작이 자동으로 수행되지 않고 처리 시간이 길어질 수 있습니다."
 
 #: pkg/kdump/kdump-view.jsx:489
 msgid "This will test the kdump configuration by crashing the kernel."
@@ -9715,11 +9715,11 @@ msgstr "VLAN 설정"
 
 #: pkg/machines/hostvmslist.jsx:116
 msgid "VM $0 failed to Reboot"
-msgstr "VM $0 재부팅에 실패했습니다 "
+msgstr "VM $0 재시작에 실패했습니다"
 
 #: pkg/machines/hostvmslist.jsx:122
 msgid "VM $0 failed to force Reboot"
-msgstr "VM $0 강제 재부팅에 실패했습니다 "
+msgstr "VM $0 강제 재시작에 실패했습니다"
 
 #: pkg/machines/hostvmslist.jsx:146
 msgid "VM $0 failed to force shutdown"
@@ -9918,7 +9918,7 @@ msgstr "상세 정보 대기 중..."
 
 #: pkg/apps/utils.jsx:63
 msgid "Waiting for other programs to finish using the package manager..."
-msgstr "패키지 관리자를 사용하여 다른 프로그램을 종료할 때 까지 대기 중 ..."
+msgstr "꾸러미 관리자를 사용해 다른 프로그램이 종료할 때까지 대기 중..."
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:140
 #: pkg/lib/cockpit-components-install-dialog.jsx:175
@@ -10407,7 +10407,7 @@ msgstr "raw"
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/ovirt/rephraseUI.js:36
 msgid "reboot"
-msgstr "재부팅 "
+msgstr "재시작"
 
 #: pkg/tuned/change-profile.jsx:42
 msgid "recommended"
@@ -10563,7 +10563,7 @@ msgstr "vhostuser"
 msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
-msgstr "새로운 가상 머신을 생성하려면 시스템에 virt-install 패키지를 설치해야 합니다 "
+msgstr "새로운 가상 머신을 생성하려면 시스템에 virt-install 꾸러미를 설치해야 합니다"
 
 #: pkg/kubernetes/views/route-body.html:13 pkg/machines/helpers.js:233
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:62
