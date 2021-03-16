@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 14:56+0100\n"
-"PO-Revision-Date: 2021-03-10 14:47+0000\n"
+"PO-Revision-Date: 2021-03-22 08:01+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/tr/>\n"
@@ -273,8 +273,8 @@ msgstr[1] "$0 sayfa"
 #: pkg/packagekit/updates.jsx:719
 msgid "$0 security fix available"
 msgid_plural "$0 security fixes available"
-msgstr[0] "$0 güvenlik düzeltmesi var"
-msgstr[1] "$0 güvenlik düzeltmesi var"
+msgstr[0] "$0 güvenlik düzeltmesi mevcut"
+msgstr[1] "$0 güvenlik düzeltmesi mevcut"
 
 #: pkg/systemd/services/services.jsx:654
 msgid "$0 service has failed"
@@ -301,8 +301,8 @@ msgstr "$0 toplam"
 #: pkg/packagekit/updates.jsx:727
 msgid "$0 update available"
 msgid_plural "$0 updates available"
-msgstr[0] "$0 güncelleme var"
-msgstr[1] "$0 güncelleme var"
+msgstr[0] "$0 güncelleme mevcut"
+msgstr[1] "$0 güncelleme mevcut"
 
 #: pkg/storaged/vdo-details.jsx:301
 msgid "$0 used of $1 ($2 saved)"
@@ -625,10 +625,10 @@ msgid "A package needs a system reboot for the updates to take effect:"
 msgid_plural ""
 "Some packages need a system reboot for the updates to take effect:"
 msgstr[0] ""
-"Güncellemelerin etkili olması için bir paket sistemin yeniden başlatılmasını "
-"gerektiriyor:"
+"Güncellemelerin etkili olması için bir paket, sistemin yeniden "
+"başlatılmasını gerektiriyor:"
 msgstr[1] ""
-"Güncellemelerin etkili olması için bazı paketler sistemin yeniden "
+"Güncellemelerin etkili olması için bazı paketler, sistemin yeniden "
 "başlatılmasını gerektiriyor:"
 
 #: pkg/packagekit/updates.jsx:1368
@@ -2982,7 +2982,7 @@ msgstr "Yetkilendirilmiş anahtarları yükleme başarısız oldu."
 
 #: pkg/packagekit/updates.jsx:420
 msgid "Failed to restart service"
-msgstr "Hizmet yeniden başlatma başarısız oldu"
+msgstr "Hizmeti yeniden başlatma başarısız oldu"
 
 #: pkg/systemd/overview-cards/motdCard.jsx:97
 msgid "Failed to save changes in /etc/motd"
@@ -4679,7 +4679,7 @@ msgstr "Ağ kullanımı"
 
 #: pkg/networkmanager/app.jsx:87
 msgid "NetworkManager is not installed"
-msgstr "NetworkManager kurulu değil"
+msgstr "NetworkManager yüklü değil"
 
 #: pkg/networkmanager/app.jsx:71
 msgid "NetworkManager is not running"
@@ -4932,7 +4932,7 @@ msgstr "Kural sonuçları yok"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:244
 msgid "No snapshots defined for this VM"
-msgstr "Bu sanal makine için tanımlanan diskler yok"
+msgstr "Bu sanal makine için tanımlanan anlık görüntüler yok"
 
 #: pkg/machines/helpers.js:220
 msgid "No state"
