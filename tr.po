@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:09+0200\n"
-"PO-Revision-Date: 2021-03-06 22:01+0000\n"
+"PO-Revision-Date: 2021-03-19 19:01+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/tr/>\n"
@@ -604,7 +604,7 @@ msgstr "Erişim"
 #: pkg/kubernetes/views/pvc-body.html:18 pkg/kubernetes/views/pv-body.html:9
 #: pkg/kubernetes/views/pv-claim.html:9 pkg/kubernetes/views/pv-modify.html:69
 msgid "Access Modes"
-msgstr "Erişim Modları"
+msgstr "Erişim Kipleri"
 
 #: pkg/kubernetes/views/project-modify.html:49
 #: node_modules/registry-image-widgets/views/imagestream-body.html:12
@@ -9461,7 +9461,7 @@ msgstr "$0'dan beri çalışıyor"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:316
 msgid "Up to $0 $1 available on the host"
-msgstr "Ana makinede $0 $1'a kadar kullanılabilir"
+msgstr "Anamakinede $0 $1'a kadar kullanılabilir"
 
 #: pkg/lib/machine-change-port.html:41
 msgid "Update"
