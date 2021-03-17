@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-02-23 00:40+0000\n"
+"PO-Revision-Date: 2021-03-18 07:19+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel-7/pt_BR/>\n"
@@ -25,15 +25,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
-msgstr "(compartilhado com o SO)"
+msgstr " (compartilhado com o SO)"
 
 #: pkg/kubernetes/views/node-delete.html:8
 msgid " 1\"Do you want to delete the following Nodes?"
-msgstr "1 \"Deseja excluir os seguintes nós?"
+msgstr " 1 \"Deseja excluir os seguintes nós?"
 
 #: pkg/storaged/others-panel.jsx:57
 msgid "$0 Block Device"
@@ -1587,7 +1587,7 @@ msgstr "Checando chaves públicas"
 
 #: pkg/systemd/host.js:517
 msgid "Checking for updates…"
-msgstr "Verificando atualizações ..."
+msgstr "Verificando atualizações…"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:142
 msgid "Checking installed software"
@@ -3035,7 +3035,7 @@ msgstr "Ativar serviço"
 
 #: pkg/systemd/index.html:168
 msgid "Enable stored metrics…"
-msgstr "Ativar métricas armazenadas ..."
+msgstr "Ativar métricas armazenadas…"
 
 #: pkg/systemd/services.html:72 pkg/systemd/init.js:210
 msgid "Enabled"
@@ -3618,9 +3618,10 @@ msgid "Hard Disk"
 msgstr "Disco Rígido"
 
 #: pkg/storaged/drives-panel.jsx:85
+#, fuzzy
 msgctxt "storage"
 msgid "Hard Disk"
-msgstr "Hard Disk"
+msgstr "Disco Rígido"
 
 #: pkg/systemd/index.html:87
 msgid "Hardware"
@@ -4255,8 +4256,9 @@ msgid "Kubelet Version"
 msgstr "Versão Kubelet"
 
 #: pkg/kubernetes/index.html:23
+#, fuzzy
 msgid "Kubernetes Cluster"
-msgstr "Kubernetes Cluster"
+msgstr "Cluster Kubernetes"
 
 #: pkg/networkmanager/index.html:377
 msgid "LACP Key"
@@ -5779,9 +5781,10 @@ msgid "Operation '$operation' on $target"
 msgstr "Operação '$operation' em $target"
 
 #: pkg/storaged/drives-panel.jsx:94
+#, fuzzy
 msgctxt "storage"
 msgid "Optical Drive"
-msgstr "Optical Drive"
+msgstr "Drive Ótico"
 
 #: pkg/ovirt/components/OVirtTab.jsx:157
 msgid "Optimized for:"
@@ -6618,8 +6621,9 @@ msgid "RAID 6 (Double Distributed Parity)"
 msgstr "RAID 6 (Paridade Duplamente Distribuída)"
 
 #: pkg/lib/machine-info.js:85
+#, fuzzy
 msgid "RAID Chassis"
-msgstr "RAID Chassis"
+msgstr "Chassis do RAID"
 
 #: pkg/storaged/pvol-tabs.jsx:59
 msgid "RAID Device"
@@ -6650,8 +6654,9 @@ msgid "REBOOT_VM action failed: %s0"
 msgstr ""
 
 #: pkg/lib/machine-info.js:86
+#, fuzzy
 msgid "Rack Mount Chassis"
-msgstr "Rack Mount Chassis"
+msgstr "Chassis de montagem do Rack"
 
 #: pkg/kubernetes/scripts/volumes.js:200
 msgid "Rados Block Device"
@@ -6873,7 +6878,7 @@ msgstr "Registro remoto é inseguro"
 #: pkg/storaged/drives-panel.jsx:90 pkg/storaged/drives-panel.jsx:92
 msgctxt "storage"
 msgid "Removable Drive"
-msgstr "Removable Drive"
+msgstr "Drive Removível"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:81
 msgid "Removals:"
@@ -7055,8 +7060,7 @@ msgstr "Repórter 'reporter-ureport' não encontrado."
 
 #: pkg/systemd/logs.js:531
 msgid "Reporting was unsucessful. Try running `reporter-ureport -d "
-msgstr ""
-"Os relatórios não tiveram sucesso. Tente executar `reporter-ureport -d"
+msgstr "Os relatórios não tiveram sucesso. Tente executar `reporter-ureport -d "
 
 #: pkg/docker/index.html:688
 #: node_modules/registry-image-widgets/views/imagestream-listing.html:7
@@ -7888,8 +7892,9 @@ msgid "Spanning Tree Protocol"
 msgstr "Spanning Tree Protocol (STP)"
 
 #: pkg/networkmanager/index.html:218
+#, fuzzy
 msgid "Spanning Tree Protocol (STP)"
-msgstr "Spanning Tree Protocol (STP)"
+msgstr "Protocolo Spanning Tree (STP)"
 
 #: pkg/storaged/mdraid-details.jsx:101
 msgid "Spare"
@@ -8167,7 +8172,7 @@ msgstr "Ligar $0"
 
 #: pkg/ovirt/provider.js:414
 msgid "Switching host to maintenance mode failed. Received error: "
-msgstr "A comutação do host para o modo de manutenção falhou. Erro recebido:"
+msgstr "A comutação do host para o modo de manutenção falhou. Erro recebido: "
 
 #: pkg/ovirt/provider.js:408
 msgid "Switching host to maintenance mode in progress ..."
@@ -8617,7 +8622,7 @@ msgstr "A rota '{{ target }}' não existe."
 
 #: pkg/docker/containers-view.jsx:434
 msgid "The scan from $time ($type) found no vulnerabilities."
-msgstr "O scanner de  $time ($type) não detectou vulnerabilidades."
+msgstr "O scanner de $time ($type) não detectou vulnerabilidades."
 
 #: pkg/docker/containers-view.jsx:432
 msgid "The scan from $time ($type) was not successful."
@@ -8664,7 +8669,7 @@ msgstr "O usuário <b>$0</b> não tem permissões para criar temporizadores"
 
 #: pkg/tuned/dialog.js:98
 msgid "The user <b>$0</b> is not permitted to change profiles"
-msgstr "Ao usuário <b>$0</b>  não é permitido alterar perfis"
+msgstr "Ao usuário <b>$0</b> não é permitido alterar perfis"
 
 #: pkg/systemd/host.js:70
 msgid "The user <b>$0</b> is not permitted to change the system time"
