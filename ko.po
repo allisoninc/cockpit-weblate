@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-03-18 06:50+0000\n"
+"PO-Revision-Date: 2021-03-19 19:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -2699,7 +2699,7 @@ msgstr "배포"
 
 #: pkg/kubernetes/views/deploy.html:3
 msgid "Deploy Application"
-msgstr "어플리케이션 사용"
+msgstr "응용프로그램 사용"
 
 #: pkg/kubernetes/views/deploymentconfig-body.html:22
 msgid "Deployment Causes"
@@ -7971,7 +7971,7 @@ msgstr "소켓 "
 
 #: pkg/packagekit/index.html:23
 msgid "Software Updates"
-msgstr "소프트웨어 업데이트"
+msgstr "소프트웨어 최신화"
 
 #: pkg/systemd/hwinfo.jsx:208
 msgid ""
@@ -9331,7 +9331,7 @@ msgstr "서버에 연결할 수 없습니다 "
 
 #: pkg/kubernetes/scripts/dashboard.js:400
 msgid "Unable to read the Kubernetes application manifest. Code $0."
-msgstr "Kubernetes 어플리케이션 manifest를 읽을 수 없습니다. 코드 $0."
+msgstr "Kubernetes 응용프로그램 manifest를 읽을 수 없습니다. 코드 $0."
 
 #: pkg/storaged/nfs-details.jsx:282
 msgid "Unable to remove mount"
