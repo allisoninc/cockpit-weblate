@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-03-19 19:01+0000\n"
+"PO-Revision-Date: 2021-03-22 08:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -1843,7 +1843,7 @@ msgstr[0] "$0 CPU 코어의 총 사용량"
 
 #: pkg/networkmanager/firewall.jsx:527
 msgid "Comma-separated ports, ranges, and aliases are accepted"
-msgstr "콤마로 구분하여 포트, 범위, 별칭을 사용할 수 있습니다"
+msgstr "쉼표로 구분하여 포트, 범위, 별칭을 사용 할 수 있습니다"
 
 #: pkg/systemd/services.html:427 pkg/docker/index.html:269
 #: pkg/docker/index.html:445 pkg/docker/index.html:706
@@ -2445,7 +2445,7 @@ msgstr "Ctrl+Insert"
 
 #: pkg/machines/components/vm/memoryModal.jsx:130
 msgid "Current Allocation"
-msgstr "현재 할당 "
+msgstr "현재 할당"
 
 #: pkg/systemd/logs.html:42
 msgid "Current boot"
@@ -2863,7 +2863,7 @@ msgstr "디스크"
 
 #: pkg/machines/components/diskRemove.jsx:57
 msgid "Disks cannot be removed from $0 VMs"
-msgstr "$0 VM에서 디스크를 제거할 수 없습니다 "
+msgstr "$0 VM에서 디스크를 제거 할 수 없습니다"
 
 #: pkg/shell/stub.html:42 pkg/shell/stub.html:97 pkg/shell/index.html:52
 #: pkg/shell/index.html:114 pkg/shell/simple.html:38 pkg/shell/simple.html:82
@@ -2872,7 +2872,7 @@ msgstr "표시 언어"
 
 #: pkg/kubernetes/views/project-modify.html:31
 msgid "Display name"
-msgstr "이름 표시 "
+msgstr "이름 표시"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/add-role-dialog.html:5
@@ -2927,7 +2927,7 @@ msgstr ""
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: node_modules/registry-image-widgets/views/image-meta.html:10
 msgid "Docker Version"
-msgstr "Docker 버전 "
+msgstr "Docker 버전"
 
 #: pkg/docker/index.html:60
 msgid "Docker is not installed or activated on the system"
@@ -2935,7 +2935,7 @@ msgstr "본 시스템에 Docker가 설치되어 있지 않거나 활성화되어
 
 #: pkg/lib/machine-info.js:75
 msgid "Docking Station"
-msgstr "도킹 스테이션 "
+msgstr "도킹 스테이션"
 
 #: pkg/systemd/index.html:125 pkg/realmd/operation.html:11
 #: pkg/realmd/operation.js:123
@@ -2952,20 +2952,20 @@ msgstr "도메인 $0가 지원되지 않습니다"
 
 #: pkg/realmd/operation.html:33
 msgid "Domain Address"
-msgstr "도메인 주소 "
+msgstr "도메인 주소"
 
 #: pkg/realmd/operation.html:62
 msgid "Domain Administrator Name"
-msgstr "도메인 관리자 이름 "
+msgstr "도메인 관리자 이름"
 
 #: pkg/realmd/operation.html:65
 msgid "Domain Administrator Password"
-msgstr "도메인 관리자 암호 "
+msgstr "도메인 관리자 비밀번호"
 
 #: pkg/systemd/services.html:483 pkg/systemd/services.html:487
 #: pkg/systemd/init.js:1256
 msgid "Don't Repeat"
-msgstr "반복 실행하지 않습니다 "
+msgstr "반복 실행하지 않습니다"
 
 #: pkg/storaged/format-dialog.jsx:280 pkg/storaged/content-views.jsx:516
 msgid "Don't overwrite existing data"
@@ -2973,7 +2973,7 @@ msgstr "기존 자료를 덮어쓰지 않습니다"
 
 #: pkg/kubernetes/scripts/images.js:633
 msgid "Don't pull images automatically"
-msgstr "자동으로 이미지를 풀하지 마십시오 "
+msgstr "자동으로 이미지를 풀하지 마십시오"
 
 #: pkg/sosreport/index.html:63
 msgid "Done!"
@@ -2982,7 +2982,7 @@ msgstr "완료!"
 # translation auto-copied from project CFSE, version sam-1.2, document app, author eukim
 #: pkg/docker/index.html:598
 msgid "Download"
-msgstr "다운로드 "
+msgstr "내려받기"
 
 #: src/ws/login.html:118
 msgid "Download a new browser for free"
@@ -3042,29 +3042,29 @@ msgstr "편집"
 
 #: pkg/dashboard/index.html:130
 msgid "Edit Server"
-msgstr "서버 편집 "
+msgstr "서버 편집"
 
 #: pkg/storaged/crypto-keyslots.jsx:270
 msgid "Edit Tang keyserver"
-msgstr "Tang 키 서버 편집 "
+msgstr "Tang 키 서버 편집"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: node_modules/registry-image-widgets/views/imagestream-body.html:7
 msgid "Edit image stream"
-msgstr "이미지 스트림 편집 "
+msgstr "이미지 스트림 편집"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/ovirt/components/VdsmView.jsx:125
 msgid "Edit the vdsm.conf"
-msgstr "vdsm.conf 편집 "
+msgstr "vdsm.conf 편집"
 
 #: pkg/storaged/crypto-keyslots.jsx:535
 msgid "Editing a key requires a free slot"
-msgstr "키 편집에 빈 슬롯이 필요합니다 "
+msgstr "키 편집에 빈 슬롯이 필요합니다"
 
 #: pkg/storaged/jobs-panel.jsx:36
 msgid "Ejecting $target"
-msgstr "$target 꺼내는 중 "
+msgstr "$target 꺼내는 중"
 
 #: pkg/lib/machine-info.js:97
 msgid "Embedded PC"
@@ -3083,15 +3083,15 @@ msgstr "비었음"
 
 #: pkg/kubernetes/scripts/volumes.js:196
 msgid "Empty Directory"
-msgstr "빈 디렉토리 "
+msgstr "빈 디렉토리"
 
 #: pkg/storaged/jobs-panel.jsx:75
 msgid "Emptying $target"
-msgstr "$target 비우는 중 "
+msgstr "$target 비우는 중"
 
 #: pkg/machines/components/vmOverviewTabLibvirt.jsx:162
 msgid "Emulated Machine"
-msgstr "에뮬레이트된 기기 "
+msgstr "에뮬레이트된 기기"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/init.js:569
@@ -3101,11 +3101,11 @@ msgstr "사용"
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/systemd/init.js:570
 msgid "Enable Forcefully"
-msgstr "강제로 활성화 "
+msgstr "강제로 활성화"
 
 #: pkg/networkmanager/index.html:50
 msgid "Enable Service"
-msgstr "서비스 활성화 "
+msgstr "서비스 활성화"
 
 #: pkg/systemd/index.html:168
 msgid "Enable stored metrics…"
@@ -3134,7 +3134,7 @@ msgstr "암호화된 $0의 파티션"
 #: pkg/storaged/content-views.jsx:348
 msgctxt "storage-id-desc"
 msgid "Encrypted data"
-msgstr "암호화된 데이터 "
+msgstr "암호화된 자료"
 
 #: pkg/storaged/lvol-tabs.jsx:140
 msgid "Encrypted volumes can not be resized here."
@@ -3150,7 +3150,7 @@ msgstr "암호화"
 
 #: pkg/storaged/crypto-tab.jsx:102
 msgid "Encryption Options"
-msgstr "암호화 옵션 "
+msgstr "암호화 선택"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/pv-modify.html:93
@@ -3160,13 +3160,13 @@ msgstr "엔드포인트"
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/volume-body.html:40
 msgid "Endpoint Name"
-msgstr "엔드포인트 이름 "
+msgstr "종점 이름"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/service-page.html:14
 #: pkg/kubernetes/views/service-panel.html:9
 msgid "Endpoints"
-msgstr "엔드포인트 "
+msgstr "종점"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/subscriptions/subscriptions-view.jsx:40
@@ -3180,7 +3180,7 @@ msgstr "정책 적용:"
 
 #: pkg/systemd/host.js:500
 msgid "Enhancement Updates Available"
-msgstr "기능 업데이트를 사용할 수 있습니다 "
+msgstr "기능 최신화를 사용 할 수 있습니다"
 
 #: pkg/lib/machine-dialogs.js:445
 msgid "Enter IP address or host name"
@@ -3189,7 +3189,7 @@ msgstr "IP 주소 또는 호스트 명을 입력하세요"
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/ovirt/components/ClusterTemplates.jsx:74
 msgid "Enter New VM name"
-msgstr "새 VM 이름 입력 "
+msgstr "새 VM 이름 입력"
 
 #: pkg/lib/machine-change-auth.html:57
 msgid ""
@@ -3199,7 +3199,7 @@ msgstr "여기에 다른 암호를 입력하면 이 컴퓨터에 연결할 때 �
 
 #: pkg/networkmanager/firewall.jsx:757
 msgid "Entire subnet"
-msgstr "전체 서브넷 "
+msgstr "전체 서브넷"
 
 #: pkg/systemd/logs.html:83
 msgid "Entry"
@@ -3222,7 +3222,7 @@ msgstr "제거"
 
 #: pkg/docker/storage.jsx:447
 msgid "Erase containers and reset storage pool"
-msgstr "컨테이너 제거 및 스토리지 풀 재설정 "
+msgstr "컨테이너 제거 및 저장소 풀 재설정"
 
 #: pkg/storaged/jobs-panel.jsx:49
 msgid "Erasing $target"
@@ -3241,7 +3241,7 @@ msgstr "오류"
 
 #: pkg/systemd/logs.html:59
 msgid "Error and above"
-msgstr "오류 이상의 수준 "
+msgstr "오류 이상의 수준"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/scripts/connection.js:646
@@ -5757,7 +5757,7 @@ msgstr "이 작업을 실행할 수 있는 권한이 없습니다."
 
 #: pkg/storaged/mdraid-details.jsx:343
 msgid "Not running"
-msgstr "실행되고 있지 않습니다 "
+msgstr "동작하지 않음"
 
 #: pkg/systemd/index.html:63
 msgid "Not synchronized"
@@ -8224,7 +8224,7 @@ msgstr "스토리지"
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/storaged/logs-panel.jsx:37
 msgid "Storage Logs"
-msgstr "스토리지 로그 "
+msgstr "저장소 기록"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:137
 msgid "Storage Pool $0 failed to get activated"
@@ -8888,7 +8888,7 @@ msgstr "현재 활성화된 페이지가 없습니다 "
 msgid ""
 "There are devices with multiple paths on the system, but the multipath "
 "service is not running."
-msgstr "시스템에 여러 경로를 갖는 장치가 있지만 멀티패스 서비스가 실행되고 있지 않습니다."
+msgstr "시스템에 여러 경로를 갖는 장치가 있지만 멀티패스 서비스가 동작되고 있지 않습니다."
 
 #: pkg/users/index.html:387
 msgid "There are no authorized public keys for this account."
@@ -9236,7 +9236,7 @@ msgstr "Tuned를 사용할 수 없습니다 "
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/tuned/dialog.js:93
 msgid "Tuned is not running"
-msgstr "Tuned가 실행되고 있지 않습니다 "
+msgstr "Tuned가 동작되지 않음"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/tuned/dialog.js:95
