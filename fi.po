@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-03-19 19:01+0000\n"
-"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"PO-Revision-Date: 2021-03-25 04:01+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/fi/>\n"
 "Language: fi\n"
@@ -10040,7 +10040,7 @@ msgstr ""
 
 #: pkg/machines/helpers.js:216
 msgid "mcast"
-msgstr "mcast"
+msgstr "monilähetys"
 
 #: pkg/machines/helpers.js:200 pkg/machines/helpers.js:211
 msgid "network"
@@ -10276,7 +10276,7 @@ msgstr "Arvo"
 
 #: pkg/machines/helpers.js:219
 msgid "vhostuser"
-msgstr "vhostuser"
+msgstr "virtuaali-isännän käyttäjä"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:699
 msgid ""
