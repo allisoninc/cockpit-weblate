@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-03-18 07:19+0000\n"
+"PO-Revision-Date: 2021-03-25 04:01+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel-7/pt_BR/>\n"
@@ -7821,9 +7821,10 @@ msgid "Solid-State Disk"
 msgstr "Disco de Estado Sólido"
 
 #: pkg/storaged/drives-panel.jsx:87
+#, fuzzy
 msgctxt "storage"
 msgid "Solid-State Disk"
-msgstr "Solid-State Disk"
+msgstr "Disco de estado sólido"
 
 #: pkg/selinux/setroubleshoot-view.jsx:95
 msgid "Solution applied successfully"
@@ -8754,8 +8755,9 @@ msgstr ""
 "físico. Pelo menos mais $0 de espaço livre é necessário."
 
 #: pkg/storaged/utils.js:193
+#, fuzzy
 msgid "Thin Logical Volume"
-msgstr "Thin Logical Volume"
+msgstr "Volume Lógico Thin"
 
 #: pkg/storaged/nfs-details.jsx:118
 msgid "This NFS mount is in use and only its options can be changed."
@@ -9559,8 +9561,9 @@ msgid "VLAN"
 msgstr "VLAN"
 
 #: pkg/networkmanager/index.html:161
+#, fuzzy
 msgid "VLAN Id"
-msgstr "VLAN Id"
+msgstr "Id VLAN"
 
 #: pkg/networkmanager/index.html:610
 msgid "VLAN Settings"
@@ -10289,8 +10292,9 @@ msgid "shutdown"
 msgstr "desligar"
 
 #: pkg/ovirt/components/ClusterVms.jsx:46
+#, fuzzy
 msgid "sockets"
-msgstr "sockets"
+msgstr "soquetes"
 
 #: pkg/selinux/setroubleshoot-view.jsx:123
 msgid "solution details"
@@ -10403,9 +10407,10 @@ msgid "yes"
 msgstr "sim"
 
 #: node_modules/registry-image-widgets/views/imagestream-body.html:6
+#, fuzzy
 msgid ""
 "{{ condition.message }}. Timestamp: {{ condition.lastTransitionTime }} Error "
 "count: {{ condition.generation }}"
 msgstr ""
-"{{ condition.message }}. Timestamp: {{ condition.lastTransitionTime }} Error "
-"count: {{ condition.generation }}"
+"{{ condition.message }}. Timestamp: {{ condition.lastTransitionTime }} "
+"Contagem de erros: {{ condition.generation }}"
