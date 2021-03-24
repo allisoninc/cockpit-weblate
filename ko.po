@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-03-22 08:01+0000\n"
+"PO-Revision-Date: 2021-03-25 04:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -931,7 +931,7 @@ msgid ""
 "settings and the list of trusted CAs may change."
 msgstr ""
 "도메인 종료 후 로컬 인증 정보가 있는 사용자만 시스템에 로그인 할 수 있습니다. 이 경우 DNS 확인 설정 및 신뢰할 수 있는 CA "
-"목록이 변경될 수 있으므로 다른 서비스에도 영향을 미칠 수 있습니다."
+"목록이 변경 될 수 있으므로 다른 서비스에도 영향을 미칠 수 있습니다."
 
 #: pkg/systemd/services.html:446 pkg/systemd/services.html:450
 #: pkg/systemd/init.js:1073
@@ -2986,7 +2986,7 @@ msgstr "내려받기"
 
 #: src/ws/login.html:118
 msgid "Download a new browser for free"
-msgstr "새 브라우저를 다운로드합니다 (무료)"
+msgstr "새 브라우저를 내려받기합니다 (무료)"
 
 #: pkg/sosreport/index.html:64
 msgid "Download report"
@@ -2994,7 +2994,7 @@ msgstr "보고 내려받기"
 
 #: pkg/machines/components/desktopConsole.jsx:47
 msgid "Download the MSI from $0"
-msgstr "$0에서 MSI를 다운로드합니다"
+msgstr "$0에서 MSI를 내려받기 합니다"
 
 #: pkg/packagekit/updates.jsx:58
 msgid "Downloaded"
@@ -3002,11 +3002,11 @@ msgstr "내려받기 되었습니다"
 
 #: pkg/packagekit/updates.jsx:50
 msgid "Downloading"
-msgstr "다운로드 중"
+msgstr "내려받기 중"
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:179
 msgid "Downloading $0"
-msgstr "$0 다운로드 중"
+msgstr "$0 내려받기 중"
 
 #: pkg/storaged/drive-details.jsx:68 pkg/docker/storage.jsx:167
 msgid "Drive"
@@ -9548,7 +9548,7 @@ msgstr "최신화됩니다"
 
 #: pkg/packagekit/updates.jsx:494
 msgid "Updated packages may require a restart to take effect."
-msgstr "업데이트된 패키지를 적용하려면 시스템을 다시 시작해야 합니다."
+msgstr "최신화된 꾸러미를 적용하려면 시스템을 다시 시작해야 합니다."
 
 #: pkg/systemd/host.js:502
 msgid "Updates Available"
@@ -9959,7 +9959,7 @@ msgstr "주 "
 
 #: pkg/kubernetes/views/registry-dashboard-page.html:5
 msgid "Welcome to the Image Registry"
-msgstr "이미지 레지스트리에 오신 것을 환영합니다 "
+msgstr "이미지 레지스트리에 오신 것을 환영합니다"
 
 #: pkg/storaged/crypto-keyslots.jsx:324
 msgid "What if tang-show-keys is not available?"
