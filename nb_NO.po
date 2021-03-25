@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-23 09:11+0100\n"
-"PO-Revision-Date: 2021-03-25 04:01+0000\n"
+"PO-Revision-Date: 2021-03-26 21:01+0000\n"
 "Last-Translator: Stein-Aksel Basma <stabasm@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
 "projects/cockpit/rhel8/nb_NO/>\n"
@@ -92,7 +92,7 @@ msgstr[1] "$0 treff, inkludert kritiske"
 
 #: pkg/storaged/vdo-details.jsx:287
 msgid "$0 data + $1 overhead used of $2 ($3)"
-msgstr ""
+msgstr "$0 data + $1 overhead brukt av $2 ($3)"
 
 #: pkg/lib/cockpit-components-plot.jsx:232
 msgid "$0 day"
@@ -149,7 +149,7 @@ msgstr "$0 filsystemer kan ikke gjøres mindre."
 
 #: pkg/storaged/lvol-tabs.jsx:160
 msgid "$0 filesystems can not be resized here."
-msgstr ""
+msgstr "$0 filsystemer kan ikke endres størrelse på her."
 
 #: pkg/metrics/metrics.jsx:515
 msgid "$0 free"
@@ -203,7 +203,7 @@ msgstr "$0 nøkkel endret"
 
 #: pkg/base1/cockpit.js:2798
 msgid "$0 killed with signal $1"
-msgstr ""
+msgstr "$0 drept med signal $1"
 
 #: pkg/systemd/overview-cards/insights.jsx:171
 msgid "$0 low severity hit"
@@ -320,7 +320,7 @@ msgstr "$0 vCPU detaljer"
 
 #: pkg/machines/components/vm/nics/nicEdit.jsx:160
 msgid "$0 virtual network interface settings"
-msgstr ""
+msgstr "$0 innstillinger for virtuelt nettverksgrensesnitt"
 
 #: pkg/lib/cockpit-components-plot.jsx:229
 msgid "$0 week"
@@ -607,6 +607,8 @@ msgid ""
 "A network bond combines multiple network interfaces into one logical "
 "interface with higher throughput or redundancy."
 msgstr ""
+"En nettverksbinding kombinerer flere nettverksgrensesnitt til ett logisk "
+"grensesnitt med høyere gjennomstrømning eller redundans."
 
 #: pkg/shell/machines/machine-dialogs.js:733
 msgid ""
@@ -759,7 +761,7 @@ msgstr "Legg til en ny sone"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:211
 msgid "Add bond"
-msgstr ""
+msgstr "Legg til binding"
 
 #: pkg/networkmanager/network-main-dialogs.jsx:219
 msgid "Add bridge"
@@ -837,8 +839,8 @@ msgid ""
 "Adding <b>$0</b> will break the connection to the server, and will make the "
 "administration UI unavailable."
 msgstr ""
-"Hvis du legger til <b>$ 0</b> , brytes forbindelsen til serveren, og "
-"administrasjonsgrensesnittet blir utilgjengelig."
+"Hvis du legger til <b>$0</b>, brytes forbindelsen til serveren, og "
+"administrasjonsgrensesnittet gjøres utilgjengelig."
 
 #: pkg/networkmanager/firewall.jsx:521
 msgid ""
@@ -858,7 +860,7 @@ msgstr "Legger til fysisk volum til $target"
 
 #: pkg/machines/components/vm/disks/vmDisksCard.jsx:231
 msgid "Additional"
-msgstr ""
+msgstr "Ekstra"
 
 #: pkg/networkmanager/network-interface.jsx:321
 msgid "Additional DNS $val"
@@ -991,7 +993,7 @@ msgstr "Alt i ett"
 
 #: pkg/systemd/services/service-details.jsx:118
 msgid "Allow running (unmask)"
-msgstr ""
+msgstr "Tillat å kjøre (umaskert)"
 
 #: pkg/networkmanager/firewall.jsx:756
 msgid "Allowed addresses"
@@ -1050,7 +1052,7 @@ msgstr "Tar i bruk oppdateringer"
 
 #: pkg/packagekit/updates.jsx:77
 msgid "Applying updates failed"
-msgstr ""
+msgstr "Å ta i bruk oppdateringer feilet"
 
 #: pkg/shell/indexes.js:331
 msgid "Apps"
@@ -1237,11 +1239,11 @@ msgstr "Svart"
 
 #: pkg/lib/machine-info.js:94
 msgid "Blade"
-msgstr ""
+msgstr "Blad"
 
 #: pkg/lib/machine-info.js:95
 msgid "Blade enclosure"
-msgstr ""
+msgstr "Blad-kabinett"
 
 #: pkg/storaged/block-details.jsx:44
 msgid "Block"
@@ -1259,11 +1261,11 @@ msgstr "Blokkert"
 #: pkg/networkmanager/network-interface.jsx:189
 #: pkg/networkmanager/network-interface.jsx:475
 msgid "Bond"
-msgstr ""
+msgstr "Binding"
 
 #: pkg/networkmanager/index.html:310
 msgid "Bond settings"
-msgstr ""
+msgstr "Binding-innstillinger"
 
 #: pkg/machines/components/vm/overview/vmOverviewCard.jsx:235
 #: pkg/machines/components/vm/overview/bootOrder.jsx:279
@@ -1290,11 +1292,11 @@ msgstr "Bro port"
 
 #: pkg/networkmanager/index.html:431
 msgid "Bridge port settings"
-msgstr "Bridge port innstillinger"
+msgstr "Bro port innstillinger"
 
 #: pkg/networkmanager/index.html:402
 msgid "Bridge settings"
-msgstr "Bridge-innstillinger"
+msgstr "Bro-innstillinger"
 
 #: pkg/networkmanager/interfaces.js:1467 pkg/networkmanager/interfaces.js:1484
 msgid "Broadcast"
@@ -1303,7 +1305,7 @@ msgstr "Broadcast"
 #: pkg/networkmanager/network-interface.jsx:488
 #: pkg/networkmanager/network-interface.jsx:522
 msgid "Broken configuration"
-msgstr ""
+msgstr "Ødelagt konfigurasjon"
 
 #: pkg/packagekit/updates.jsx:1283
 msgid "Bug fix updates available"
@@ -1450,7 +1452,7 @@ msgstr "Kan ikke videresende påloggingsinformasjonen"
 #: pkg/systemd/overview-cards/realmd-operation.js:639
 msgid "Cannot join a domain because realmd is not available on this system"
 msgstr ""
-"Kan ikke bli med på et domene fordi realmd ikke er tilgjengelig på dette "
+"Kan ikke bli med i et domene fordi realmd ikke er tilgjengelig på dette "
 "systemet"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:136
@@ -1487,7 +1489,7 @@ msgstr "Endre vertsnavn"
 
 #: pkg/storaged/iscsi-panel.jsx:183
 msgid "Change iSCSI initiator name"
-msgstr "Endre navnet på iSCSI Initiator"
+msgstr "Endre navn på iSCSI Initiator"
 
 #: pkg/storaged/crypto-keyslots.jsx:258
 msgid "Change passphrase"
@@ -1743,7 +1745,7 @@ msgstr "Kompatibel med moderne system og harddisker> 2TB (GPT)"
 
 #: pkg/kdump/kdump-view.jsx:168
 msgid "Compress crash dumps to save space"
-msgstr ""
+msgstr "Komprimer krasjdumper for å spare plass"
 
 #: pkg/storaged/vdo-details.jsx:317 pkg/storaged/vdos-panel.jsx:120
 #: pkg/kdump/kdump-view.jsx:162
@@ -1805,7 +1807,7 @@ msgstr "Bekreft fjerning av $0"
 
 #: pkg/storaged/crypto-keyslots.jsx:375
 msgid "Confirm removal with passphrase"
-msgstr "Bekreft fjerning med passordfrase"
+msgstr "Bekreft fjerning med passfrase"
 
 #: pkg/machines/components/common/deleteResource.jsx:72
 msgid "Confirm this action"
@@ -1838,7 +1840,7 @@ msgstr "Koble til et hvilket som helst visningsprogram for følgende protokoller
 #: pkg/shell/machines/machine-add.html:46
 msgid ""
 "Connecting simultaneously to more than {{ limit }} machines is unsupported."
-msgstr "Tilkobling samtidig til mer enn {{limit}} maskiner støttes ikke."
+msgstr "Tilkobling samtidig til mer enn {{ limit }} maskiner støttes ikke."
 
 #: pkg/selinux/setroubleshoot-view.jsx:369
 msgid "Connecting to SETroubleshoot daemon..."
@@ -1921,7 +1923,7 @@ msgstr "Kontroll"
 
 #: pkg/lib/machine-info.js:97
 msgid "Convertible"
-msgstr ""
+msgstr "Konverterbar"
 
 #: pkg/lib/cockpit-components-context-menu.jsx:103
 msgid "Copy"
@@ -1957,7 +1959,7 @@ msgstr "Krasjrapportering"
 
 #: pkg/kdump/kdump-view.jsx:308
 msgid "Crash system"
-msgstr ""
+msgstr "Krasj system"
 
 #: pkg/machines/helpers.js:216
 msgid "Crashed"
@@ -2063,7 +2065,7 @@ msgstr "Opprett øyeblikksbilde"
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:429
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:473
 msgid "Create storage pool"
-msgstr "Lag lagrings-pool"
+msgstr "Opprett lagrings-pool"
 
 #: pkg/machines/components/storagePools/storageVolumeCreate.jsx:97
 msgid "Create storage volume"
@@ -2136,6 +2138,8 @@ msgid ""
 "Creating this bond will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
+"Hvis du oppretter denne bindingen, brytes forbindelsen til serveren og "
+"administrasjonsgrensesnittet blir utilgjengelig."
 
 #: pkg/networkmanager/interfaces.js:2864
 msgid ""
@@ -2209,7 +2213,7 @@ msgstr "Tilpassede monteringsalternativer"
 #: pkg/machines/components/vm/disks/diskAdd.jsx:248
 #: pkg/machines/components/vm/disks/diskAdd.jsx:576
 msgid "Custom path"
-msgstr ""
+msgstr "Egendefinert sti"
 
 #: pkg/networkmanager/firewall.jsx:545
 msgid "Custom ports"
@@ -2276,7 +2280,7 @@ msgstr "Debug og over"
 
 #: pkg/storaged/vdo-details.jsx:326 pkg/storaged/vdos-panel.jsx:124
 msgid "Deduplication"
-msgstr ""
+msgstr "Deduplisering"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:196
 msgid "Delay"
@@ -2312,7 +2316,7 @@ msgstr "Slett $0"
 msgid "Delete $0 volume"
 msgid_plural "Delete $0 volumes"
 msgstr[0] "Slett $0 volum"
-msgstr[1] "Slett $0 volum"
+msgstr[1] "Slett $0 volumer"
 
 #: pkg/machines/components/vm/deleteDialog.jsx:70
 msgid "Delete associated storage files:"
@@ -2371,12 +2375,12 @@ msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
 msgstr ""
-"Slette en inaktivt lagrings-pool vil bare avdefinere poolen. Innholdet vil "
+"Slette en inaktiv lagrings-pool vil bare avdefinere poolen. Innholdet vil "
 "ikke bli slettet."
 
 #: pkg/storaged/jobs-panel.jsx:75
 msgid "Deleting volume group $target"
-msgstr "Slette volumgruppe $target"
+msgstr "Sletter volumgruppe $target"
 
 #: pkg/systemd/services.html:171 pkg/networkmanager/firewall.jsx:726
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCreateModal.jsx:54
@@ -2453,7 +2457,7 @@ msgstr "Diagnose rapporter"
 
 #: pkg/sosreport/index.html:22
 msgid "Diagnostic reports"
-msgstr "Diagnostiske rapporter"
+msgstr "Diagnose rapporter"
 
 #: pkg/kdump/kdump-view.jsx:90 pkg/kdump/kdump-view.jsx:130
 msgid "Directory"
@@ -2483,7 +2487,7 @@ msgstr "Deaktivert"
 
 #: pkg/systemd/services/service-details.jsx:151
 msgid "Disallow running (mask)"
-msgstr ""
+msgstr "Ikke tillat å kjøre (masker)"
 
 #: pkg/machines/components/vm/consoles/serialConsole.jsx:83
 msgid "Disconnect"
@@ -2503,11 +2507,11 @@ msgstr "Disk"
 
 #: pkg/machines/components/vm/disks/vmDisksCard.jsx:272
 msgid "Disk $0 fail to get detached from VM $1"
-msgstr "Disk $0 kan ikke kobles fra VM $1"
+msgstr "Disk $0 kan ikke løsnes fra VM $1"
 
 #: pkg/metrics/metrics.jsx:109
 msgid "Disk I/O"
-msgstr "Disk I/O"
+msgstr "Disk I/U"
 
 #: pkg/metrics/metrics.jsx:110
 msgid "Disk I/O spike"
@@ -2565,7 +2569,7 @@ msgstr "Ikke monter automatisk ved oppstart"
 
 #: pkg/lib/machine-info.js:78
 msgid "Docking station"
-msgstr ""
+msgstr "Dokkingstasjon"
 
 #: pkg/systemd/services/services-list.jsx:70
 msgid "Does not automatically start"
@@ -2591,7 +2595,7 @@ msgstr "Domene adresse"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:63
 msgid "Domain administrator name"
-msgstr "Domene administrator navn"
+msgstr "Domene administratornavn"
 
 #: pkg/systemd/overview-cards/realmd-operation.html:66
 msgid "Domain administrator password"
@@ -2652,11 +2656,11 @@ msgstr "Disker"
 
 #: pkg/lib/machine-info.js:248
 msgid "Dual rank"
-msgstr ""
+msgstr "Dobbel rangering"
 
 #: pkg/machines/helpers.js:217
 msgid "Dying"
-msgstr ""
+msgstr "Døende"
 
 #: pkg/storaged/crypto-tab.jsx:136 pkg/storaged/nfs-details.jsx:318
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:287
@@ -2699,11 +2703,11 @@ msgstr "Redigering av en nøkkel krever en ledig slot"
 
 #: pkg/storaged/jobs-panel.jsx:39
 msgid "Ejecting $target"
-msgstr ""
+msgstr "Løser ut $target"
 
 #: pkg/lib/machine-info.js:100
 msgid "Embedded PC"
-msgstr ""
+msgstr "Innebygd PC"
 
 #: pkg/playground/translate.html:57 pkg/playground/translate.js:13
 msgid "Empty"
@@ -2733,7 +2737,7 @@ msgstr "Aktiver tjeneste"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:224
 msgid "Enable stored metrics"
-msgstr ""
+msgstr "Aktiver lagret metrikk"
 
 #: pkg/networkmanager/firewall-switch.jsx:72
 msgid "Enable the firewall"
@@ -2782,12 +2786,12 @@ msgstr "Krypteringsalternativer"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:218
 msgid "End"
-msgstr ""
+msgstr "Slutt"
 
 #: pkg/machines/components/networks/createNetworkDialog.jsx:76
 #: pkg/machines/components/networks/createNetworkDialog.jsx:104
 msgid "End should not be empty"
-msgstr ""
+msgstr "Slutten skal ikke være tom"
 
 #: pkg/selinux/setroubleshoot-view.jsx:295
 msgid "Enforcing"
@@ -2848,7 +2852,7 @@ msgstr "Feil ved lagring av autoriserte nøkler: "
 
 #: pkg/selinux/setroubleshoot-client.js:193
 msgid "Error while deleting alert: $0"
-msgstr "Feil under sletting av varsel: $ 0"
+msgstr "Feil under sletting av varsel: $0"
 
 #: pkg/selinux/setroubleshoot.js:72
 msgid "Error while setting SELinux mode: '$0'"
@@ -3068,7 +3072,7 @@ msgstr "Tving omstart"
 
 #: pkg/storaged/crypto-keyslots.jsx:384
 msgid "Force remove passphrase in $0"
-msgstr "Tving fjerning av passfrase i $ 0"
+msgstr "Tving fjerning av passfrase i $0"
 
 #: pkg/machines/components/vm/vmActions.jsx:228
 msgid "Force shut down"
@@ -3194,15 +3198,15 @@ msgstr ""
 
 #: pkg/storaged/vdo-details.jsx:219
 msgid "Grow logical size of $0"
-msgstr ""
+msgstr "Øk logisk størrelse på $0"
 
 #: pkg/storaged/lvol-tabs.jsx:242
 msgid "Grow logical volume"
-msgstr ""
+msgstr "Øk logisk volum"
 
 #: pkg/storaged/vdo-details.jsx:118
 msgid "Grow to take all space"
-msgstr ""
+msgstr "Voks for å ta all plass"
 
 #: pkg/networkmanager/index.html:141
 msgid "Hair pin mode"
@@ -3395,7 +3399,7 @@ msgstr "Ledig"
 
 #: pkg/storaged/crypto-keyslots.jsx:336
 msgid "If tang-show-keys is not available, run the following:"
-msgstr ""
+msgstr "Hvis tang-show-keys ikke er tilgjengelig, kjører du følgende:"
 
 #: pkg/shell/machines/machine-invalid-hostkey.html:21
 #: pkg/shell/machines/machine-unknown-hostkey.html:13
@@ -3441,7 +3445,7 @@ msgstr "Importer en virtuell maskin"
 
 #: pkg/metrics/metrics.jsx:544
 msgid "In"
-msgstr ""
+msgstr "Inn"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:246
 msgid ""
@@ -3509,7 +3513,7 @@ msgstr "Initiator IQN kan ikke være tom"
 
 #: pkg/systemd/overview-cards/insights.jsx:185
 msgid "Insights: "
-msgstr "Insights: "
+msgstr "Innsikt: "
 
 #: pkg/apps/application.jsx:117 pkg/apps/application-list.jsx:90
 #: pkg/machines/components/vm/vmActions.jsx:280
@@ -3577,7 +3581,7 @@ msgstr "Grensesnitt"
 #: pkg/networkmanager/network-interface-members.jsx:208
 #: pkg/networkmanager/network-interface-members.jsx:213
 msgid "Interface members"
-msgstr "Grensesnitt medlemmer"
+msgstr "Grensesnittmedlemmer"
 
 #: pkg/machines/components/vm/nics/nicBody.jsx:122
 msgid "Interface type"
@@ -3716,7 +3720,7 @@ msgstr "Bli med"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:117
 msgid "Join a domain"
-msgstr "Bli med på et domene"
+msgstr "Bli med i et domene"
 
 #: pkg/systemd/overview-cards/realmd-operation.js:610
 msgid "Join domain"
@@ -3781,11 +3785,11 @@ msgstr "Nøkkel-passord"
 
 #: pkg/storaged/crypto-keyslots.jsx:579
 msgid "Key slots with unknown types can not be edited here"
-msgstr ""
+msgstr "Nøkkel-slots med ukjente typer kan ikke redigeres her"
 
 #: pkg/storaged/crypto-keyslots.jsx:207
 msgid "Key source"
-msgstr ""
+msgstr "Nøkkelkilde"
 
 #: pkg/storaged/crypto-keyslots.jsx:601
 msgid "Keys"
@@ -3801,7 +3805,7 @@ msgstr "Nøkkelserver adresse"
 
 #: pkg/storaged/crypto-keyslots.jsx:427
 msgid "Keyserver removal may prevent unlocking $0."
-msgstr ""
+msgstr "Fjerning av nøkkelserver kan forhindre opplåsing av $0."
 
 #: pkg/networkmanager/index.html:266
 msgid "LACP key"
@@ -3852,7 +3856,7 @@ msgstr "Lær mer"
 #: pkg/systemd/overview-cards/realmd-operation.html:25
 #: pkg/systemd/overview-cards/realmd-operation.html:29
 msgid "Leave domain"
-msgstr "Forlat domenet"
+msgstr "Forlat domene"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:468
 msgid ""
@@ -3862,8 +3866,7 @@ msgstr "La passordet være tomt hvis du ikke ønsker å opprette en rotkonto"
 #: pkg/machines/components/vm/overview/firmware.jsx:157
 msgid ""
 "Libvirt did not detect any UEFI/OVMF firmware image installed on the host"
-msgstr ""
-"Libvirt oppdaget ikke noe UEFI / OVMF firmwarebilde installert på verten"
+msgstr "Libvirt oppdaget ikke noe UEFI/OVMF firmwarebilde installert på verten"
 
 #: pkg/machines/components/vm/overview/firmware.jsx:151
 msgid "Libvirt or hypervisor does not support UEFI"
@@ -3891,7 +3894,7 @@ msgid ""
 "web console will have reduced functionality."
 msgstr ""
 "Begrenset tilgangsmodus begrenser administrative rettigheter. Noen deler av "
-"web konsollet har redusert funksjonalitet."
+"webkonsollet har redusert funksjonalitet."
 
 #: pkg/networkmanager/index.html:200 pkg/networkmanager/index.html:244
 msgid "Link down delay"
@@ -3924,15 +3927,15 @@ msgstr "Lastbalansering"
 
 #: pkg/metrics/metrics.jsx:1023
 msgid "Load earlier data"
-msgstr ""
+msgstr "Last tidligere data"
 
 #: pkg/systemd/logs.js:115
 msgid "Load earlier entries"
-msgstr ""
+msgstr "Last tidligere oppføringer"
 
 #: pkg/metrics/metrics.jsx:88
 msgid "Load spike"
-msgstr ""
+msgstr "Last-topp"
 
 #: pkg/packagekit/updates.jsx:78
 msgid "Loading available updates failed"
@@ -4113,7 +4116,7 @@ msgstr "Maskin ID"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:337
 msgid "Machine SSH key fingerprints"
-msgstr ""
+msgstr "Fingeravtrykk for maskinens SSH-nøkler"
 
 #: pkg/machines/components/vm/disks/diskEdit.jsx:62
 msgid "Machine must be shut off before changing bus type"
@@ -4125,7 +4128,7 @@ msgstr ""
 
 #: pkg/storaged/crypto-keyslots.jsx:330
 msgid "Make sure the key hash from the Tang server matches:"
-msgstr ""
+msgstr "Forsikre deg om at nøkkelhash fra Tang-serveren samsvarer med:"
 
 #: pkg/networkmanager/network-main.jsx:176
 msgid "Managed interfaces"
@@ -4153,11 +4156,11 @@ msgstr "Administrere VLAN"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "Managing firewall"
-msgstr "Administrerer brannmur"
+msgstr "Administrere brannmur"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "Managing networking bonds"
-msgstr ""
+msgstr "Administrere nettverksbindinger"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "Managing networking bridges"
@@ -4181,7 +4184,7 @@ msgstr "Administrere tjenester"
 
 #: pkg/packagekit/manifest.json.in:0
 msgid "Managing software updates"
-msgstr "Administrere programvar eoppdateringer"
+msgstr "Administrere programvareoppdateringer"
 
 #: pkg/users/manifest.json.in:0
 msgid "Managing user accounts"
@@ -4222,7 +4225,7 @@ msgstr "Masken eller prefikslengden kan ikke være tom"
 #: pkg/systemd/services/service-details.jsx:158
 #: pkg/systemd/services/service-details.jsx:161
 msgid "Mask service"
-msgstr ""
+msgstr "Masker tjeneste"
 
 #: pkg/systemd/services/service-details.jsx:286
 msgid "Masked"
@@ -4234,18 +4237,21 @@ msgid ""
 "bigger impact than anticipated. Please confirm that you want to mask this "
 "unit."
 msgstr ""
+"Maskering av en tjeneste forhindrer alle avhengige enheter fra å kjøre. "
+"Dette kan ha større innvirkning enn forventet. Vennligst bekreft at du vil "
+"maskere denne enheten."
 
 #: pkg/machines/components/vm/overview/memoryModal.jsx:118
 msgid "Maximum allocation"
-msgstr ""
+msgstr "Maksimal tildeling"
 
 #: pkg/machines/components/vm/overview/memoryModal.jsx:78
 msgid "Maximum memory could not be saved"
-msgstr ""
+msgstr "Maksimalt minne kunne ikke lagres"
 
 #: pkg/networkmanager/network-interface.jsx:549
 msgid "Maximum message age $max_age"
-msgstr ""
+msgstr "Maksimal meldingsalder $ max_age"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:199
 msgid "Maximum number of virtual CPUs allocated for the guest OS"
@@ -4257,7 +4263,7 @@ msgid ""
 "between 1 and $0"
 msgstr ""
 "Maksimalt antall virtuelle CPUer som er tildelt for gjeste-OS, som må være "
-"mellom 1 og $ 0"
+"mellom 1 og $0"
 
 #: pkg/machines/components/networks/networkOverviewTab.jsx:107
 msgid "Maximum transmission unit"
@@ -4299,7 +4305,7 @@ msgstr "Minneteknologi"
 
 #: pkg/metrics/metrics.jsx:94
 msgid "Memory usage"
-msgstr "Minneforbruk"
+msgstr "Minnebruk"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:193
 msgid "Message to logged in users"
@@ -4307,7 +4313,7 @@ msgstr "Melding til innloggede brukere"
 
 #: pkg/shell/index.html:320
 msgid "Messages related to the failure might be found in the journal:"
-msgstr "Meldinger relatert til feilen kan bli funnet i journalen:"
+msgstr "Meldinger relatert til feilen kan finnes i journalen:"
 
 #: pkg/storaged/lvol-tabs.jsx:467
 msgid "Metadata used"
@@ -4328,7 +4334,7 @@ msgstr "MiB"
 
 #: pkg/lib/machine-info.js:101
 msgid "Mini PC"
-msgstr "Mini PC"
+msgstr "Mini-PC"
 
 #: pkg/lib/machine-info.js:72
 msgid "Mini tower"
@@ -4424,7 +4430,7 @@ msgstr "Monter automatisk på $0 ved oppstart"
 
 #: pkg/storaged/fsys-tab.jsx:285
 msgid "Mount configuration"
-msgstr ""
+msgstr "Monterings-konfigurasjon"
 
 #: pkg/storaged/fsys-tab.jsx:283
 msgid "Mount filesystem"
@@ -4441,7 +4447,7 @@ msgstr "Monter på $0 nå"
 #: pkg/storaged/fsys-tab.jsx:254 pkg/storaged/format-dialog.jsx:237
 #: pkg/storaged/nfs-details.jsx:179
 msgid "Mount options"
-msgstr "Monteringsalternativer"
+msgstr "Innstillinger for montering"
 
 #: pkg/storaged/fsys-tab.jsx:249 pkg/storaged/fsys-tab.jsx:526
 #: pkg/storaged/format-dialog.jsx:231 pkg/storaged/nfs-panel.jsx:103
@@ -4676,7 +4682,7 @@ msgstr "Aldri"
 
 #: pkg/users/account-details.js:93 pkg/users/expiration-dialogs.js:142
 msgid "Never expire password"
-msgstr "Utløp aldri passord"
+msgstr "Passordet utløper aldri"
 
 #: pkg/users/account-details.js:101 pkg/users/expiration-dialogs.js:36
 msgid "Never lock account"
@@ -5038,7 +5044,7 @@ msgstr "Ikke synkronisert"
 
 #: pkg/systemd/services/service-details.jsx:415
 msgid "Note"
-msgstr ""
+msgstr "Notat"
 
 #: pkg/lib/machine-info.js:76
 msgid "Notebook"
@@ -5128,7 +5134,7 @@ msgstr ""
 
 #: pkg/machines/helpers.js:248
 msgid "Open"
-msgstr ""
+msgstr "Åpen"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:363
 msgid "Operating system"
@@ -5141,7 +5147,7 @@ msgstr "Operasjon '$operation' på $target"
 #: pkg/machines/components/storagePools/storagePool.jsx:170
 #: pkg/machines/components/storagePools/storagePool.jsx:177
 msgid "Operation is in progress"
-msgstr ""
+msgstr "Operasjon pågår"
 
 #: pkg/storaged/drives-panel.jsx:76
 msgctxt "storage"
@@ -5199,7 +5205,7 @@ msgstr "PCP"
 
 #: pkg/metrics/metrics.jsx:936
 msgid "Package cockpit-pcp is missing for metrics history"
-msgstr ""
+msgstr "Pakke cockpit-pcp mangler i metrikk-historikken"
 
 #: pkg/packagekit/updates.jsx:622 pkg/packagekit/updates.jsx:699
 msgid "Package information"
@@ -5327,11 +5333,11 @@ msgstr "Sti"
 
 #: pkg/networkmanager/index.html:137
 msgid "Path cost"
-msgstr ""
+msgstr "Sti kostnad"
 
 #: pkg/networkmanager/network-interface.jsx:569
 msgid "Path cost $path_cost"
-msgstr ""
+msgstr "Sti kostnad $path_cost"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:107
 msgid "Path on host's filesystem"
@@ -5376,7 +5382,7 @@ msgstr "Pauset"
 
 #: pkg/metrics/index.html:20 pkg/metrics/metrics.jsx:1036
 msgid "Performance Metrics"
-msgstr ""
+msgstr "Ytelsesmålinger"
 
 #: pkg/systemd/overview-cards/configurationCard.jsx:192
 msgid "Performance profile"
@@ -5384,7 +5390,7 @@ msgstr "Ytelsesprofil"
 
 #: pkg/lib/machine-info.js:87
 msgid "Peripheral chassis"
-msgstr ""
+msgstr "Perifert chassis"
 
 #: pkg/networkmanager/interfaces.js:2209
 msgid "Permanent"
@@ -5503,7 +5509,7 @@ msgstr "Vennligst angi verten du vil koble til"
 
 #: pkg/machines/components/vm/consoles/consoles.jsx:38
 msgid "Please start the virtual machine to access its console."
-msgstr "Start den virtuelle maskinen for å få tilgang til konsollet."
+msgstr "Start den virtuelle maskinen for å få tilgang til konsollen."
 
 #: pkg/machines/components/vm/nics/vmNicsCard.jsx:309
 msgid "Plug"
@@ -5540,7 +5546,7 @@ msgstr "Bassengtype støtter ikke volumoppretting"
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:150
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:177
 msgid "Pool's volumes are used by VMs "
-msgstr ""
+msgstr "Pool-ets volumer brukes av virtuelle maskiner "
 
 #: pkg/shell/machines/machine-change-port.html:14
 #: pkg/storaged/iscsi-panel.jsx:128
@@ -5557,7 +5563,7 @@ msgstr "Portnummer og type samsvarer ikke"
 
 #: pkg/lib/machine-info.js:74
 msgid "Portable"
-msgstr ""
+msgstr "Bærbar"
 
 #: pkg/networkmanager/index.html:102 pkg/networkmanager/index.html:212
 #: pkg/networkmanager/network-interface-members.jsx:216
@@ -5670,7 +5676,7 @@ msgstr "Spørring via ssh-keygen ble tidsavbrutt"
 
 #: pkg/systemd/services/service-details.jsx:399
 msgid "Propagates reload to"
-msgstr ""
+msgstr "Videreformidler omlasting til"
 
 #: pkg/machines/components/vm/overview/bootOrder.jsx:93
 #: pkg/machines/components/vm/overview/bootOrder.jsx:142
@@ -5773,7 +5779,7 @@ msgstr ""
 
 #: pkg/networkmanager/interfaces.js:2211
 msgid "Random"
-msgstr ""
+msgstr "Tilfeldig"
 
 #: pkg/networkmanager/firewall.jsx:768
 msgid "Range"
@@ -5871,7 +5877,7 @@ msgstr "Gjenoppretter"
 
 #: pkg/storaged/jobs-panel.jsx:68
 msgid "Recovering RAID device $target"
-msgstr ""
+msgstr "Gjenoppretter RAID enhet $target"
 
 #: pkg/packagekit/updates.jsx:74
 msgid "Refreshing package information"
@@ -5899,7 +5905,7 @@ msgstr "Last på nytt"
 
 #: pkg/systemd/services/service-details.jsx:400
 msgid "Reload propagated from"
-msgstr ""
+msgstr "Last videreformidlet fra"
 
 #: pkg/packagekit/updates.jsx:431
 msgid "Reloading the state of remaining services"
@@ -5953,7 +5959,7 @@ msgstr "Fjern $0?"
 
 #: pkg/storaged/crypto-keyslots.jsx:436
 msgid "Remove Tang keyserver"
-msgstr ""
+msgstr "Fjern Tang nøkkelserver"
 
 #: pkg/storaged/vdo-details.jsx:107
 msgid "Remove device"
@@ -6109,7 +6115,7 @@ msgstr "Krever administrasjonstilgang for å redigere"
 
 #: pkg/systemd/services/service-details.jsx:383
 msgid "Requisite"
-msgstr ""
+msgstr "Nødvendig"
 
 #: pkg/systemd/services/service-details.jsx:388
 msgid "Requisite of"
@@ -6137,6 +6143,8 @@ msgid ""
 "Resizing an encrypted filesystem requires unlocking the disk. Please provide "
 "a current disk passphrase."
 msgstr ""
+"Å endre størrelse på et kryptert filsystem krever at du låser opp disken. "
+"Oppgi en aktuell passfrase."
 
 #: pkg/systemd/services/service-details.jsx:128
 msgid "Restart"
@@ -6166,7 +6174,7 @@ msgstr "Gjenoppta"
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:68
 #: pkg/machines/components/vm/snapshots/vmSnapshotsCard.jsx:192
 msgid "Revert"
-msgstr ""
+msgstr "Gå tilbake"
 
 #: pkg/machines/components/vm/snapshots/vmSnapshotsRevertModal.jsx:63
 msgid "Revert to snapshot $0"
@@ -6178,6 +6186,9 @@ msgid ""
 "and the current state will be lost, along with any data not captured in a "
 "snapshot"
 msgstr ""
+"Å gå tilbake til dette øyeblikksbildet vil føre VM tilbake til tidspunktet "
+"for øyeblikksbildet, og den nåværende tilstanden vil gå tapt, sammen med "
+"data som ikke blir tatt i et øyeblikksbilde"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "Reviewing logs"
@@ -6260,7 +6271,7 @@ msgstr "Feilsøking av SELinux"
 
 #: pkg/storaged/jobs-panel.jsx:38
 msgid "SMART self-test of $target"
-msgstr "SMART selvtest av $ target"
+msgstr "SMART selvtest av $target"
 
 #: pkg/machines/components/vm/consoles/desktopConsole.jsx:52
 msgid "SPICE TLS port"
@@ -6292,7 +6303,7 @@ msgstr ""
 
 #: pkg/networkmanager/index.html:125
 msgid "STP maximum message age"
-msgstr ""
+msgstr "STP maksimal meldingsalder"
 
 #: pkg/networkmanager/index.html:113
 msgid "STP priority"
@@ -6346,7 +6357,7 @@ msgid ""
 "current disk passphrase."
 msgstr ""
 "For å lagre en ny passfrase, må du låse opp disken. Oppgi en aktuell "
-"passordfrase."
+"passfrase."
 
 #: pkg/lib/machine-info.js:90
 msgid "Sealed-case PC"
@@ -6403,11 +6414,11 @@ msgstr "Send"
 
 #: pkg/machines/components/vm/consoles/vnc.jsx:149
 msgid "Send key"
-msgstr "Send nøkkel"
+msgstr "Send tast"
 
 #: pkg/machines/components/vm/vmActions.jsx:236
 msgid "Send non-maskable interrupt"
-msgstr ""
+msgstr "Send avbrudd som ikke kan maskeres"
 
 #: pkg/networkmanager/network-interface-members.jsx:217
 #: pkg/networkmanager/network-main.jsx:181
@@ -6431,7 +6442,7 @@ msgstr "Server"
 
 #: pkg/storaged/iscsi-panel.jsx:44 pkg/storaged/nfs-details.jsx:147
 msgid "Server address"
-msgstr "Server adresse"
+msgstr "Serveradresse"
 
 #: pkg/storaged/iscsi-panel.jsx:45
 msgid "Server address cannot be empty."
@@ -6558,7 +6569,7 @@ msgstr "Setter opp loop-enhet $target"
 
 #: pkg/packagekit/updates.jsx:303 pkg/packagekit/updates.jsx:372
 msgid "Severity"
-msgstr "Alvorlighet"
+msgstr "Alvorlighetsgrad"
 
 #: pkg/networkmanager/interfaces.js:1449
 msgid "Shared"
@@ -6576,7 +6587,7 @@ msgstr "Shift+Insert"
 msgid "Show $0 device"
 msgid_plural "Show all $0 devices"
 msgstr[0] "Vis $0 enhet"
-msgstr[1] "Vis $0 enheter"
+msgstr[1] "Vis alle $0 enheter"
 
 #: pkg/storaged/drives-panel.jsx:104
 msgid "Show $0 drive"
@@ -6793,15 +6804,15 @@ msgstr "Plassbesparende datamaskin"
 
 #: pkg/networkmanager/network-interface.jsx:541
 msgid "Spanning tree protocol"
-msgstr "Spanning tree protocol"
+msgstr "Spanning tree protokoll"
 
 #: pkg/networkmanager/index.html:107
 msgid "Spanning tree protocol (STP)"
-msgstr "Spanning tree protocol (STP)"
+msgstr "Spanning tree protokoll (STP)"
 
 #: pkg/storaged/mdraid-details.jsx:109
 msgid "Spare"
-msgstr ""
+msgstr "Reserve"
 
 #: pkg/lib/cockpit-components-shutdown.jsx:174
 msgid "Specific time"
@@ -6946,7 +6957,7 @@ msgstr "Lagrinrgspool $0 kunne ikke aktiveres"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:138
 msgid "Storage pool $0 failed to get deactivated"
-msgstr "Lagrinrgspool $0 kunne ikke deaktiveres"
+msgstr "Lagringspool $0 kunne ikke deaktiveres"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:393
 msgid "Storage pool failed to be created"
@@ -7017,7 +7028,7 @@ msgstr "Søndager"
 
 #: pkg/storaged/optional-panel.jsx:100
 msgid "Support is installed."
-msgstr "Støtte er installert."
+msgstr "Support er installert."
 
 #: pkg/machines/helpers.js:218
 msgid "Suspended (PM)"
@@ -7026,11 +7037,11 @@ msgstr ""
 #: pkg/storaged/content-views.jsx:168 pkg/metrics/metrics.jsx:102
 #: pkg/metrics/metrics.jsx:397 pkg/metrics/metrics.jsx:1008
 msgid "Swap"
-msgstr ""
+msgstr "Swap"
 
 #: pkg/metrics/metrics.jsx:101
 msgid "Swap out"
-msgstr ""
+msgstr "Swap ut"
 
 #: pkg/storaged/content-views.jsx:411
 msgctxt "storage-id-desc"
@@ -7137,7 +7148,7 @@ msgstr "Nettbrett"
 
 #: pkg/storaged/crypto-keyslots.jsx:213
 msgid "Tang keyserver"
-msgstr ""
+msgstr "Tang nøkkelserver"
 
 #: pkg/machines/components/vm/overview/bootOrder.jsx:136
 msgid "Target"
@@ -7216,7 +7227,7 @@ msgstr "IP-adressen eller vertsnavnet kan ikke inneholde mellomrom."
 
 #: pkg/storaged/mdraid-details.jsx:218
 msgid "The RAID array is in a degraded state"
-msgstr ""
+msgstr "RAID-matrisen er i degradert tilstand"
 
 #: pkg/storaged/mdraid-details.jsx:155
 msgid "The RAID device must be running in order to add spare disks."
@@ -7347,17 +7358,21 @@ msgid ""
 "The filesystem is in use by login sessions and system services. Proceeding "
 "will stop these."
 msgstr ""
-"Filsystemet er i bruk av påloggingsøkter og systemtjenester. Å fortsette vil "
-"stoppe disse."
+"Filsystemet er i bruk av påloggingsøkter og systemtjenester. Dersom du "
+"fortsetter vil disse stoppes."
 
 #: pkg/storaged/dialog.jsx:1016
 msgid "The filesystem is in use by login sessions. Proceeding will stop these."
-msgstr "Filsystemet er i bruk av påloggingsøkter. Å fortsette vil stoppe disse."
+msgstr ""
+"Filsystemet er i bruk av påloggingsøkter. Dersom du fortsetter vil disse "
+"stoppes."
 
 #: pkg/storaged/dialog.jsx:1018
 msgid ""
 "The filesystem is in use by system services. Proceeding will stop these."
-msgstr "Filsystemet er i bruk av systemtjenester. Å fortsette vil stoppe disse."
+msgstr ""
+"Filsystemet er i bruk av systemtjenester. Dersom du fortsetter vil disse "
+"stoppes."
 
 #: pkg/storaged/fsys-tab.jsx:415
 msgid "The filesystem is not mounted."
@@ -7397,7 +7412,7 @@ msgstr "Den siste disken til en RAID-enhet kan ikke fjernes."
 
 #: pkg/storaged/crypto-keyslots.jsx:557
 msgid "The last key slot can not be removed"
-msgstr ""
+msgstr "Den siste nøkkel-sloten kan ikke fjernes"
 
 #: pkg/storaged/vgroup-details.jsx:101
 msgid "The last physical volume of a volume group cannot be removed."
@@ -7650,7 +7665,7 @@ msgid ""
 "This tool will collect system configuration and diagnostic information from "
 "this system for use with diagnosing problems with the system."
 msgstr ""
-"Dette verktøyet vil samle systemkonfigurasjon og diagnostisk informasjon fra "
+"Dette verktøyet vil samle systemkonfigurasjon og diagnose-informasjon fra "
 "dette systemet for bruk ved diagnostisering av problemer med systemet."
 
 #: pkg/systemd/services/service-details.jsx:258
@@ -7659,7 +7674,7 @@ msgstr ""
 
 #: pkg/users/account-create-dialog.js:96
 msgid "This user name already exists"
-msgstr "Dette brukernavnet eksisterer allerede"
+msgstr "Dette brukernavnet finnes allerede"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:530
 msgid "This volume is already used by another VM."
@@ -7675,7 +7690,7 @@ msgstr "Dette volumet må aktiveres før det kan endres."
 
 #: pkg/static/login.js:163
 msgid "This web browser is too old to run the Web Console (missing $0)"
-msgstr "Denne nettleseren er for gammel til å kjøre web konsollet (mangler $ 0)"
+msgstr "Denne nettleseren er for gammel til å kjøre web konsollet (mangler $0)"
 
 #: pkg/shell/machines/machine-dialogs.js:757
 msgid "This will allow you to log in without password in the future."
@@ -7687,6 +7702,9 @@ msgid ""
 "Depending on the settings, the system may not automatically reboot and the "
 "process may take a while."
 msgstr ""
+"Dette vil teste kdump-innstillinger ved å krasje kjernen og derved systemet. "
+"Avhengig av innstillingene, kan det hende at systemet ikke starter på nytt "
+"automatisk, og prosessen kan ta en stund."
 
 #: pkg/kdump/kdump-view.jsx:495
 msgid "This will test the kdump configuration by crashing the kernel."
@@ -8094,7 +8112,7 @@ msgstr "Lås opp nøkkel"
 
 #: pkg/storaged/format-dialog.jsx:65
 msgid "Unlock read only"
-msgstr ""
+msgstr "Lås opp skrivebeskyttet"
 
 #: pkg/storaged/jobs-panel.jsx:40
 msgid "Unlocking $target"
@@ -8173,7 +8191,7 @@ msgstr "Oppdateringslogg"
 
 #: pkg/apps/application-list.jsx:149
 msgid "Update package information"
-msgstr "Oppdater informasjon om pakken"
+msgstr "Oppdater pakkeinformasjon"
 
 #: pkg/packagekit/updates.jsx:611 pkg/packagekit/updates.jsx:679
 msgid "Update was successful"
@@ -8233,7 +8251,7 @@ msgstr "Bruk komprimering"
 
 #: pkg/storaged/vdo-details.jsx:329
 msgid "Use deduplication"
-msgstr ""
+msgstr "Bruk deduplisering"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:571
 msgid "Use existing"
@@ -8445,7 +8463,7 @@ msgstr "Vis detaljer og historikk"
 
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:138
 msgid "View hardware details"
-msgstr "Vis maskinvaredetaljer"
+msgstr "Se maskinvaredetaljer"
 
 #: pkg/apps/application.jsx:71
 msgid "View project website"
@@ -8591,7 +8609,7 @@ msgstr "Uker"
 
 #: pkg/storaged/crypto-keyslots.jsx:335
 msgid "What if tang-show-keys is not available?"
-msgstr ""
+msgstr "Hva om tang-show-keys ikke er tilgjengelig?"
 
 #: pkg/packagekit/autoupdates.jsx:373
 msgid "When"
@@ -8810,7 +8828,7 @@ msgstr "bios"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "bond"
-msgstr ""
+msgstr "binding"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "boot"
@@ -8818,7 +8836,7 @@ msgstr "oppstart"
 
 #: pkg/machines/helpers.js:238 pkg/networkmanager/manifest.json.in:0
 msgid "bridge"
-msgstr "bridge"
+msgstr "bro"
 
 #: pkg/packagekit/updates.jsx:259
 msgid "bug fix"
@@ -9003,7 +9021,7 @@ msgstr "vert"
 
 #: pkg/machines/helpers.js:228
 msgid "host device"
-msgstr "Vertsenhet"
+msgstr "vertsenhet"
 
 #: pkg/machines/helpers.js:233
 msgid "host passthrough"
@@ -9047,7 +9065,7 @@ msgstr "grensesnitt"
 
 #: pkg/kdump/kdump-view.jsx:382
 msgid "invalid: multiple targets defined"
-msgstr ""
+msgstr "ugyldig: flere mål er definert"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "ipv4"
@@ -9083,7 +9101,7 @@ msgstr "kdump status"
 
 #: pkg/storaged/crypto-keyslots.jsx:361
 msgid "key slot $0"
-msgstr ""
+msgstr "nøkkel-slot $0"
 
 #: pkg/users/manifest.json.in:0
 msgid "keys"
@@ -9099,7 +9117,7 @@ msgstr "lokalt i $0"
 
 #: pkg/systemd/logs.html:82
 msgid "log fields"
-msgstr ""
+msgstr "logg-felt"
 
 #: pkg/users/manifest.json.in:0
 msgid "login"
@@ -9147,7 +9165,7 @@ msgstr "mkfs"
 
 #: pkg/storaged/manifest.json.in:0
 msgid "mount"
-msgstr "montere"
+msgstr "monter"
 
 #: pkg/storaged/manifest.json.in:0
 msgid "nbde"
@@ -9164,7 +9182,7 @@ msgstr "nfs"
 
 #: pkg/kdump/kdump-client.js:117
 msgid "nfs dump target isn't formatted as server:path"
-msgstr "nfs dump-mål er ikke formatert som server:sti"
+msgstr "nfs dump mål er ikke formatert som server:sti"
 
 #: pkg/metrics/metrics.jsx:84
 msgid "nice"
@@ -9233,7 +9251,7 @@ msgstr "pcp"
 
 #: pkg/apps/manifest.json.in:0
 msgid "plugin"
-msgstr "tillegg"
+msgstr "utvidelse"
 
 #: pkg/networkmanager/manifest.json.in:0
 msgid "port"
@@ -9257,7 +9275,7 @@ msgstr "qemu"
 
 #: pkg/systemd/logs.html:81
 msgid "qualifiers"
-msgstr ""
+msgstr "kvalifikatorer"
 
 #: pkg/storaged/manifest.json.in:0
 msgid "raid"
@@ -9317,7 +9335,7 @@ msgstr "setroubleshoot"
 
 #: pkg/systemd/manifest.json.in:0
 msgid "shell"
-msgstr "shell"
+msgstr "skall"
 
 #: pkg/lib/cockpit-components-inline-notification.jsx:60
 msgid "show less"
@@ -9426,11 +9444,11 @@ msgstr "unmount"
 
 #: pkg/storaged/utils.js:431
 msgid "unpartitioned space on $0"
-msgstr "upartisjonert plass på $ 0"
+msgstr "upartisjonert plass på $0"
 
 #: pkg/machines/helpers.js:263
 msgid "up"
-msgstr "opp"
+msgstr "oppe"
 
 #: pkg/metrics/metrics.jsx:84 pkg/machines/helpers.js:239
 #: pkg/users/manifest.json.in:0
@@ -9447,7 +9465,7 @@ msgstr "brukernavn"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:182
 msgid "vCPU count"
-msgstr "vCPU-antall"
+msgstr "vCPU antall"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:195
 msgid "vCPU maximum"
