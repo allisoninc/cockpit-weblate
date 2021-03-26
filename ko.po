@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-03-25 04:01+0000\n"
+"PO-Revision-Date: 2021-03-27 04:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -8649,7 +8649,7 @@ msgstr "현재 로그인한 사용자는 키에 대한 정보를 볼 수 없습�
 
 #: pkg/kubernetes/views/deploymentconfig-page.html:25
 msgid "The deployment config '{{ target }}' does not exist."
-msgstr "배포 설정 '{{ target }}'이/가 존재하지 않습니다."
+msgstr "배포 설정 '{{ target }}'이 존재하지 않습니다."
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:204
 msgid "The directory on the server being exported"
@@ -8758,7 +8758,7 @@ msgstr "영구 볼륨 '{{ target }}'은/는 존재하지 않습니다."
 
 #: pkg/kubernetes/views/pod-page.html:40
 msgid "The pod '{{ target }}' does not exist."
-msgstr "포드 '{{ target }}'이/가 존재하지 않습니다."
+msgstr "포드 '{{ target }}'이 존재하지 않습니다."
 
 #: pkg/machines/components/diskAdd.jsx:80
 msgid "The pool is empty"
@@ -8766,15 +8766,15 @@ msgstr "풀이 비어 있습니다 "
 
 #: pkg/kubernetes/views/project-page.html:34
 msgid "The project '{{ projName }}' does not exist."
-msgstr "프로젝트 '{{ projName }}'이/가 존재하지 않습니다."
+msgstr "프로젝트 '{{ projName }}'가 존재하지 않습니다."
 
 #: pkg/kubernetes/views/replicationcontroller-page.html:30
 msgid "The replication controller '{{ target }}' does not exist."
-msgstr "복제 컨트롤러 '{{ target }}'이/가 존재하지 않습니다."
+msgstr "복제 제어기(controller) '{{ target }}'가 존재하지 않습니다."
 
 #: pkg/kubernetes/views/route-page.html:19
 msgid "The route '{{ target }}' does not exist."
-msgstr "라우트 '{{ target }}'이/가 존재하지 않습니다."
+msgstr "라우트 '{{ target }}'가 존재하지 않습니다."
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/docker/containers-view.jsx:434
