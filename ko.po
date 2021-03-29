@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-03-27 04:01+0000\n"
+"PO-Revision-Date: 2021-03-30 06:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.5.2\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -667,7 +667,7 @@ msgstr "$0 추가"
 
 #: pkg/docker/storage.jsx:378
 msgid "Add Additional Storage"
-msgstr "스토리지 추가"
+msgstr "부가 저장소 추가"
 
 #: pkg/networkmanager/index.html:110
 msgid "Add Bond"
@@ -1931,7 +1931,7 @@ msgstr "Kubelet 과 프록시 설정"
 
 #: pkg/docker/storage.jsx:331
 msgid "Configure storage..."
-msgstr "스토리지 설정..."
+msgstr "저장소 설정..."
 
 #: pkg/networkmanager/interfaces.js:828
 msgid "Configuring"
@@ -2619,7 +2619,7 @@ msgstr "선택 항목 삭제"
 
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:120
 msgid "Delete Storage Pool $0"
-msgstr "스토리지 풀 $0 삭제"
+msgstr "저장소 풀 $0 삭제"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/machines/components/deleteDialog.jsx:70
@@ -2685,7 +2685,7 @@ msgstr "볼륨 그룹을 삭제하면 내부의 모든 자료도 함께 삭제�
 msgid ""
 "Deleting an inactive Storage Pool will only undefine the Pool. Its content "
 "will not be deleted."
-msgstr "비활성화된 스토리지 풀을 삭제하려면 풀 정의를 해제하면 됩니다. 내용는 삭제되지 않습니다."
+msgstr "비활성화된 저장소 풀을 삭제하려면 풀 정의를 해제하면 됩니다. 내용이 삭제되지 않습니다."
 
 #: pkg/storaged/jobs-panel.jsx:72
 msgid "Deleting volume group $target"
@@ -2818,7 +2818,7 @@ msgstr "연결 해제됩니다"
 
 #: pkg/machines/components/serialConsole.jsx:137
 msgid "Disconnected from serial console. Click the Reconnect button."
-msgstr "직렬 콘솔 연결이 끊어졌습니다. '다시 연결' 버튼을 클릭합니다."
+msgstr "직렬 콘솔 연결이 끊어졌습니다. '다시 연결' 버튼을 눌러주세요."
 
 #: pkg/storaged/vdos-panel.jsx:55 pkg/kubernetes/scripts/nodes.js:719
 #: pkg/kubernetes/scripts/nodes.js:836
@@ -4055,7 +4055,7 @@ msgstr "정보 이상의 수준 "
 
 #: pkg/docker/storage.jsx:309
 msgid "Information about the Docker storage pool is not available."
-msgstr "Docker 스토리지 풀에 관한 정보를 사용할 수 없습니다."
+msgstr "Docker 저장소 풀에 관한 정보를 사용 할 수 없습니다."
 
 #: pkg/packagekit/updates.jsx:453
 msgid "Initializing..."
@@ -5384,11 +5384,11 @@ msgstr "SELinux 알림이 없습니다."
 #: pkg/machines/components/diskAdd.jsx:204
 #: pkg/machines/components/diskAdd.jsx:216
 msgid "No Storage Pools available"
-msgstr "스토리지 풀을 사용할 수 없음 "
+msgstr "저장소 풀을 사용 할 수 없음"
 
 #: pkg/machines/components/storagePools/storagePoolVolumesTab.jsx:69
 msgid "No Storage Volumes defined for this Storage Pool"
-msgstr "이 스토리지 풀에 대해 정의된 스토리지 볼륨이 없습니다 "
+msgstr "이 저장소 풀에 대해 정의된 저장소 볼륨이 없습니다"
 
 #: pkg/ovirt/components/ClusterTemplates.jsx:29
 #: pkg/ovirt/components/ClusterVms.jsx:36
@@ -5413,7 +5413,7 @@ msgstr "활성 영역이 아닙니다 "
 
 #: pkg/docker/storage.jsx:206
 msgid "No additional local storage found."
-msgstr "추가 로컬 스토리지를 찾을 수 없습니다."
+msgstr "추가 로컬 저장소를 찾을 수 없습니다."
 
 #: pkg/docker/run.js:338
 msgid "No alias specified"
@@ -5624,11 +5624,11 @@ msgstr "이 호스트에 지정된 저장소 풀이 없습니다"
 
 #: pkg/storaged/mdraids-panel.jsx:130
 msgid "No storage set up as RAID"
-msgstr "RAID로 설정된 스토리지가 없습니다 "
+msgstr "레이드로 설정된 저장소가 없습니다"
 
 #: pkg/storaged/vdos-panel.jsx:167
 msgid "No storage set up as VDO"
-msgstr "VDO로 설정된 스토리지가 없습니다 "
+msgstr "VDO로 설정된 저장소가 없습니다"
 
 #: pkg/lib/credentials.js:186
 msgid "No such file or directory"
@@ -6304,7 +6304,7 @@ msgstr "유효한 정규화된 이름을 입력하세요"
 
 #: pkg/kubernetes/scripts/volumes.js:491
 msgid "Please provide a valid storage capacity."
-msgstr "유효한 스토리지 용량을 입력하세요."
+msgstr "유효한 저장소 용량을 입력하세요."
 
 #: pkg/kubernetes/scripts/volumes.js:786
 msgid "Please provide a valid target"
@@ -7274,13 +7274,13 @@ msgstr "초기화"
 
 #: pkg/docker/storage.jsx:441
 msgid "Reset Storage Pool"
-msgstr "스토리지 풀 재설정 "
+msgstr "저장소 풀 재설정"
 
 #: pkg/docker/storage.jsx:444
 msgid ""
 "Resetting the storage pool will erase all containers and release disks in "
 "the pool."
-msgstr "스토리지 풀을 재설정하면 풀의 모든 컨테이너와 릴리스 디스크가 삭제됩니다."
+msgstr "저장소 풀을 재설정하면 풀의 모든 컨테이너와 출시 디스크가 삭제됩니다."
 
 #: pkg/storaged/jobs-panel.jsx:40 pkg/storaged/jobs-panel.jsx:46
 #: pkg/storaged/jobs-panel.jsx:78
@@ -7343,7 +7343,7 @@ msgstr "재시도:"
 
 #: pkg/subscriptions/subscriptions-view.jsx:215
 msgid "Retrieving subscription status..."
-msgstr "서브스크립션 상태를 가져 오는 중..."
+msgstr "구독(subscription) 상태를 가져 오는 중..."
 
 #: src/ws/login.html:57
 msgid "Reuse my password for privileged tasks"
@@ -8219,7 +8219,7 @@ msgstr "스왑공간 $target 중지 "
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:342
 #: pkg/storaged/details.jsx:127
 msgid "Storage"
-msgstr "스토리지"
+msgstr "저장소"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/storaged/logs-panel.jsx:37
@@ -8228,40 +8228,40 @@ msgstr "저장소 기록"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:137
 msgid "Storage Pool $0 failed to get activated"
-msgstr "스토리지 풀 $0의 활성화에 실패했습니다 "
+msgstr "저장소 풀 $0의 활성화에 실패했습니다"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:149
 msgid "Storage Pool $0 failed to get deactivated"
-msgstr "스토리지 풀 $0의 비활성화에 실패했습니다 "
+msgstr "저장소 풀 $0의 비활성화에 실패했습니다"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:61
 msgid "Storage Pool Name"
-msgstr "스토리지 풀 이름 "
+msgstr "저장소 풀 이름"
 
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:437
 msgid "Storage Pool failed to be created"
-msgstr "스토리지 풀 생성에 실패했습니다 "
+msgstr "저장소 풀 생성에 실패했습니다"
 
 #: pkg/machines/components/storagePools/storagePoolList.jsx:44
 #: pkg/machines/components/storagePools/storagePoolList.jsx:48
 msgid "Storage Pools"
-msgstr "스토리지 풀 "
+msgstr "저장소 풀"
 
 #: pkg/machines/components/storagePools/storagePool.jsx:88
 msgid "Storage Volumes"
-msgstr "스토리지 볼륨 "
+msgstr "저장소 볼륨"
 
 #: pkg/machines/components/storagePools/storageVolumeDelete.jsx:48
 msgid "Storage Volumes could not be deleted"
-msgstr "스토리지 볼륨은 삭제할 수 없습니다 "
+msgstr "저장소 볼륨은 삭제 할 수 없습니다"
 
 #: pkg/storaged/devices.jsx:76
 msgid "Storage can not be managed on this system."
-msgstr "스토리지는 이 시스템에서 관리할 수 없습니다."
+msgstr "저장소는 이 시스템에서 관리 할 수 없습니다."
 
 #: pkg/docker/index.html:302
 msgid "Storage pool"
-msgstr "스토리지 풀 "
+msgstr "저장소 풀"
 
 #: pkg/systemd/index.html:162
 msgid "Store Metrics"
@@ -8294,7 +8294,7 @@ msgstr "서브 노트북 "
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/subscriptions/index.html:22 pkg/subscriptions/subscriptions-view.jsx:181
 msgid "Subscriptions"
-msgstr "서브스크립션 "
+msgstr "구독(subscriptions)"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: node_modules/registry-image-widgets/views/image-body.html:4
@@ -8545,7 +8545,7 @@ msgstr "연결 테스트 중 "
 
 #: pkg/docker/storage.jsx:507
 msgid "The Docker storage pool cannot be managed on this system."
-msgstr "Docker 스토리지 풀은 이 시스템에서 관리할 수 없습니다."
+msgstr "도커 저장소 풀은 이 시스템에서 관리 할 수 없습니다."
 
 #: pkg/lib/machine-dialogs.js:384
 msgid "The IP address or host name cannot contain whitespace."
@@ -8566,7 +8566,7 @@ msgstr "디스크를 제거하려면 RAID 장치가 실행되고 있어야 합�
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:80
 #: pkg/machines/components/storagePools/storagePoolDelete.jsx:84
 msgid "The Storage Pool could not be deleted"
-msgstr "스토리지 풀을 삭제할 수 없습니다 "
+msgstr "저장소 풀을 삭제 할 수 없습니다"
 
 #: pkg/machines/components/vm/stateIcon.jsx:40
 msgid "The VM crashed."
@@ -8640,7 +8640,7 @@ msgstr "VDO 장치 생성이 완료되지 않았기 때문에 장치를 사용�
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/subscriptions/subscriptions-view.jsx:219
 msgid "The current user isn't allowed to access system subscription status."
-msgstr "현재 사용자는 시스템 서브스크립션 상태에 액세스할 수 없습니다."
+msgstr "현재 사용자는 시스템 구독(subscription) 상태에 액세스할 수 없습니다."
 
 #: pkg/storaged/crypto-keyslots.jsx:516
 msgid ""
@@ -8841,7 +8841,7 @@ msgstr "사용자 <b>$0</b> 는 서버 관리 권한이 없습니다"
 
 #: pkg/storaged/storage-controls.jsx:73
 msgid "The user <b>$0</b> is not permitted to manage storage"
-msgstr "사용자 <b>$0</b>는 스토리지를 관리할 수 없습니다. "
+msgstr "사용자 <b>$0</b>는 저장소를 관리 할 수 없습니다"
 
 #: pkg/users/local.js:43
 msgid "The user <b>$0</b> is not permitted to modify accounts"
@@ -8992,7 +8992,7 @@ msgstr "시간이 걸릴 수 있습니다"
 msgid ""
 "This option is for single node testing only – local storage will not work in "
 "a multi-node cluster"
-msgstr "이 옵션은 단일 노드 테스트에만 사용할 수 있습니다 - 로컬 스토리지는 멀티노드 클러스터에서 작동하지 않습니다. "
+msgstr "이 옵션은 단일 노드 시험에만 사용 할 수 있습니다 - 로컬 저장소 다중 노드 클러스터에서 작동하지 않습니다"
 
 #: src/bridge/cockpitpackages.c:506
 msgid "This package is not compatible with this version of Cockpit"
@@ -9124,7 +9124,8 @@ msgid ""
 "To get software updates, this system needs to be registered with Red Hat, "
 "either using the Red Hat Customer Portal or a local subscription server."
 msgstr ""
-"소프트웨어 업데이트를 받으려면 Red Hat 고객 포털이나 로컬 서브스크립션 서버를 사용하여 시스템을 Red Hat에 등록해야 합니다."
+"소프트웨어 업데이트를 받으려면 Red Hat 고객 포털이나 로컬 구독(subscription) 서버를 사용하여 시스템을 Red Hat에 "
+"등록해야 합니다."
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: node_modules/registry-image-widgets/views/image-pull.html:4
@@ -10034,7 +10035,7 @@ msgstr "이 계정에 승인된 공개 키를 표시할 수 있는 권한이 없
 
 #: pkg/docker/storage.jsx:504
 msgid "You don't have permission to manage the Docker storage pool."
-msgstr "Docker 스토리지 풀을 관리할 수 있는 권한이 없습니다."
+msgstr "도커 저장소 풀을 관리 할 수 있는 권한이 없습니다."
 
 #: pkg/users/local.js:120
 msgid "You must wait longer to change your password"
