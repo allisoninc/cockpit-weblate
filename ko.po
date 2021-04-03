@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-04-02 09:01+0000\n"
+"PO-Revision-Date: 2021-04-04 16:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -1067,7 +1067,7 @@ msgstr "업데이트 적용 실패"
 #: node_modules/registry-image-widgets/views/image-config.html:16
 #: pkg/subscriptions/subscriptions-view.jsx:37
 msgid "Architecture"
-msgstr "아키텍처"
+msgstr "구조"
 
 # ctx::sourcefile::/systems/Search
 #: pkg/systemd/index.html:92
@@ -3259,7 +3259,7 @@ msgstr "Docker로 부터의 오류 메세지:"
 
 #: pkg/users/authorized-keys.js:121
 msgid "Error saving authorized keys: "
-msgstr "승인된 키를 저장 오류: "
+msgstr "승인된 키를 저장하는 동안 오류가 발생했습니다: "
 
 #: pkg/selinux/setroubleshoot-client.js:193
 msgid "Error while deleting alert: $0"
@@ -5242,7 +5242,7 @@ msgstr "네트워크 인터페이스 설정을 저장하지 못했습니다. "
 
 #: pkg/networkmanager/index.html:46
 msgid "NetworkManager is not running."
-msgstr "NetworkManager가 실행되고 있지 않습니다."
+msgstr "NetworkManager가 실행되지 않음."
 
 #: pkg/networkmanager/index.html:23 pkg/networkmanager/index.html:385
 #: pkg/networkmanager/firewall.jsx:917
