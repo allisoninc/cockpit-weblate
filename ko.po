@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-04-04 16:01+0000\n"
+"PO-Revision-Date: 2021-04-07 07:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -511,7 +511,7 @@ msgstr "9일"
 msgid ""
 "A compatible version of Cockpit is not installed on {{#strong}}{{host}}{{/"
 "strong}}."
-msgstr "Cockpit 호환 버전이 {{#strong}}{{host}}{{/strong}} 에 설치되어 있지 않습니다."
+msgstr "Cockpit 호환 상태번호가 {{#strong}}{{host}}{{/strong}}에 설치되어 있지 않습니다."
 
 #: pkg/storaged/vdos-panel.jsx:59
 msgid "A disk is needed."
@@ -1213,7 +1213,7 @@ msgstr "BIOS 날짜"
 
 #: pkg/systemd/hwinfo.jsx:96
 msgid "BIOS version"
-msgstr "BIOS 버전"
+msgstr "바이오스 상태번호"
 
 #: pkg/users/index.html:65
 msgid "Back to Accounts"
@@ -1801,9 +1801,9 @@ msgid ""
 "sync_link}}.{{/can_sync}} For more authentication options and "
 "troubleshooting support please upgrade cockpit-ws to a newer version."
 msgstr ""
-"Cockpit은 {{#strong}}{{host}}{{/strong}}에 로그인할 수 없습니다. {{#can_sync}} "
-"{{#sync_link}}사용자 동기화{{/sync_link}}를 수행하십시오.{{/can_sync}} 다른 인증 옵션 및 문제 해결에 "
-"대한 지원이 필요한 경우 cockpit-ws를 새 버전으로 업그레이드하십시오."
+"Cockpit은 {{#strong}}{{host}}{{/strong}}에 로그인 할 수 없습니다. {{#can_sync}} "
+"{{#sync_link}}사용자 동기화{{/sync_link}}를 수행하십시오.{{/can_sync}} 다른 인증 선택 및 문제 해결에 "
+"대한 지원이 필요한 경우 cockpit-ws를 새로운 상태번호으로 향상하세요."
 
 #: pkg/lib/machine-change-auth.html:9
 msgid "Cockpit was unable to log into {{#strong}}{{host}}{{/strong}}."
@@ -2123,7 +2123,7 @@ msgstr "컨테이너 이름"
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/views/node-body.html:21
 msgid "Container Runtime Version"
-msgstr "컨테이너 런타임 버전"
+msgstr "컨테이너 동작시간 상태번호"
 
 #: pkg/docker/util.js:506
 msgid ""
@@ -2648,7 +2648,7 @@ msgstr "$target 삭제 중"
 msgid ""
 "Deleting <b>$0</b> will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "<b>$0</b>을/를 삭제하면 서버와의 연결이 끊어지고, 관리 UI를 사용 할 수 없게 됩니다."
+msgstr "<b>$0</b>을 삭제하면 서버와의 연결이 끊어지고, 관리 UI를 사용 할 수 없게 됩니다."
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/item-delete.html:7
@@ -2890,17 +2890,17 @@ msgstr ""
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/pv-delete.html:6
 msgid "Do you want to delete the Persistent Volume '{{item.metadata.name}}'?"
-msgstr "영구 볼륨 '{{item.metadata.name}}'을/를 삭제하시겠습니까?"
+msgstr "영구 볼륨 '{{item.metadata.name}}'를 삭제하시겠습니까?"
 
 #: pkg/kubernetes/views/pvc-delete.html:6
 msgid ""
 "Do you want to delete the Persistent Volume Claim '{{item.metadata.name}}'?"
-msgstr "영구 볼륨 클레임 '{{item.metadata.name}}'을/를 삭제하시겠습니까?"
+msgstr "영구 볼륨 클레임 '{{item.metadata.name}}'를 삭제하시겠습니까?"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/item-delete.html:6
 msgid "Do you want to delete the {{ item.kind }} '{{item.metadata.name}}'?"
-msgstr "{{ item.kind }} '{{item.metadata.name}}'을/를 삭제하시겠습니까?"
+msgstr "{{ item.kind }} '{{item.metadata.name}}'를 삭제하시겠습니까?"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/node-delete.html:7
@@ -2927,7 +2927,7 @@ msgstr ""
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: node_modules/registry-image-widgets/views/image-meta.html:10
 msgid "Docker Version"
-msgstr "Docker 버전"
+msgstr "도커 상태번호"
 
 #: pkg/docker/index.html:60
 msgid "Docker is not installed or activated on the system"
@@ -4322,7 +4322,7 @@ msgstr "커널 덤프 "
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/node-body.html:19
 msgid "Kernel Version"
-msgstr "커널 버전 "
+msgstr "커널 상태번호"
 
 #: pkg/kubernetes/views/volume-body.html:67
 msgid "Key Ring Path"
@@ -4355,7 +4355,7 @@ msgstr "키 서버를 제거하면 $0 잠금 해제가 되지 않을 수 있습�
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/node-body.html:23
 msgid "Kubelet Version"
-msgstr "Kubelet 버전 "
+msgstr "Kubelet 상태번호"
 
 #: pkg/kubernetes/index.html:23
 msgid "Kubernetes Cluster"
@@ -4421,7 +4421,7 @@ msgstr "마지막 접속 날짜: $0 이전"
 #: pkg/kubernetes/views/deploymentconfig-body.html:15
 #: pkg/kubernetes/views/details-page.html:107
 msgid "Latest Version"
-msgstr "최신 버전 "
+msgstr "최신 상태번호"
 
 #: pkg/machines/components/desktopConsole.jsx:128
 msgid "Launch Remote Viewer"
@@ -5810,7 +5810,7 @@ msgstr "OS 벤더 "
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/nodes-page.html:19
 msgid "OS Versions"
-msgstr "OS 버전 "
+msgstr "OS 상태번호"
 
 #: pkg/selinux/setroubleshoot-view.jsx:394
 msgid "Occurred $0"
@@ -5989,7 +5989,7 @@ msgstr "PackageKit이 설치되어 있지 않습니다 "
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/packagekit/updates.jsx:718
 msgid "PackageKit reported error code $0"
-msgstr "PackageKit가 오류 코드 $0을/를 보고했습니다 "
+msgstr "PackageKit가 오류 코드 $0를 보고했습니다"
 
 #: pkg/networkmanager/index.html:156
 msgid "Parent"
@@ -6663,7 +6663,7 @@ msgstr "프록시 "
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/views/node-body.html:25
 msgid "Proxy Version"
-msgstr "프록시 버전 "
+msgstr "프락시 상태번호"
 
 #: pkg/lib/machine-auth-failed.html:9 pkg/shell/index.html:230
 msgid "Public Key"
@@ -7050,7 +7050,7 @@ msgstr "$0 삭제 "
 
 #: pkg/storaged/crypto-keyslots.jsx:414
 msgid "Remove $0?"
-msgstr "$0을/를 삭제하시겠습니까?"
+msgstr "$0를 삭제하시겠습니까?"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/views/group-delete.html:3
@@ -7123,7 +7123,7 @@ msgstr "RAID 장치에서 $target 삭제 중 "
 msgid ""
 "Removing <b>$0</b> will break the connection to the server, and will make "
 "the administration UI unavailable."
-msgstr "<b>$0</b>을/를 삭제하면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
+msgstr "<b>$0</b>를 삭제하면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/storaged/jobs-panel.jsx:74
 msgid "Removing physical volume from $target"
@@ -7356,7 +7356,7 @@ msgstr "권한 작업 실행 또는 다른 컴퓨터에 연결을 위해 암호�
 
 #: pkg/kubernetes/views/volume-body.html:26
 msgid "Revision"
-msgstr "버전"
+msgstr "리비전"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/user-body.html:5
@@ -8355,19 +8355,19 @@ msgstr "호스트를 유지 관리 모드로 전환 중 ..."
 msgid ""
 "Switching off <b>$0</b>  will break the connection to the server, and will "
 "make the administration UI unavailable."
-msgstr "<b>$0</b>을/를 끄면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
+msgstr "<b>$0</b>를 끄면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/networkmanager/interfaces.js:3038
 msgid ""
 "Switching off <b>$0</b> will break the connection to the server, and will "
 "make the administration UI unavailable."
-msgstr "<b>$0</b>을/를 끄면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
+msgstr "<b>$0</b>를 끄면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/networkmanager/interfaces.js:2466 pkg/networkmanager/interfaces.js:3026
 msgid ""
 "Switching on <b>$0</b> will break the connection to the server, and will "
 "make the administration UI unavailable."
-msgstr "<b>$0</b>을/를 켜면 서버와의 연결이 끊어지고 관리 UI를 사용할 수 없게 됩니다."
+msgstr "<b>$0</b>를 켜면 서버와의 연결이 끊어지고 관리 UI를 사용 할 수 없게 됩니다."
 
 #: pkg/kubernetes/scripts/images.js:634
 msgid "Sync all tags from a remote image repository"
@@ -8996,12 +8996,12 @@ msgstr "이 옵션은 단일 노드 시험에만 사용 할 수 있습니다 - �
 
 #: src/bridge/cockpitpackages.c:506
 msgid "This package is not compatible with this version of Cockpit"
-msgstr "이 꾸러미는 Cockpit 버전과 호환되지 않습니다"
+msgstr "이 꾸러미는 Cockpit 상태번호와 호환되지 않습니다"
 
 #: src/bridge/cockpitpackages.c:495
 #, c-format
 msgid "This package requires Cockpit version %s or later"
-msgstr "이 꾸러미에는 Cockpit 버전 %s 이상이 필요합니다"
+msgstr "이 꾸러미에는 Cockpit 상태번호 %s 이상이 필요합니다"
 
 #: pkg/subscriptions/insights.jsx:96
 msgid "This system is not connected to $0."
@@ -9044,7 +9044,7 @@ msgstr "이 사용자 이름이 이미 존재합니다. "
 msgid ""
 "This version of cockpit-ws does not support connecting to a host with an "
 "alternate user or port"
-msgstr "cockpit-ws 버전에서는 다른 사용자 또는 포트가 있는 호스트 연결이 지원되지 않습니다"
+msgstr "cockpit-ws 상태번호에서는 다른 사용자 또는 포트가 있는 호스트 연결이 지원되지 않습니다"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/ovirt/components/OVirtTab.jsx:134
@@ -9142,7 +9142,7 @@ msgstr "이 이미지 스트림에 이미지를 푸시하려면 다음을 수행
 msgid ""
 "To try a different port you will need to upgrade cockpit-ws to a newer "
 "version."
-msgstr "다른 포트를 사용하려면 cockpit-ws를 최신 버전으로 업그레이드해야 합니다."
+msgstr "다른 포트를 사용하려면 cockpit-ws를 최신 상태번호로 향상해야 합니다."
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/auth-form.html:116
@@ -9815,12 +9815,12 @@ msgstr "확인 중"
 #: pkg/ovirt/components/ClusterVms.jsx:83
 #: pkg/subscriptions/subscriptions-view.jsx:36
 msgid "Version"
-msgstr "버전"
+msgstr "상태번호"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/ovirt/components/ClusterVms.jsx:83
 msgid "Version num"
-msgstr "버전 번호 "
+msgstr "상태번호 번호"
 
 #: pkg/storaged/jobs-panel.jsx:57
 msgid "Very securely erasing $target"
