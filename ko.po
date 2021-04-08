@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-04-07 07:02+0000\n"
+"PO-Revision-Date: 2021-04-09 08:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -1025,7 +1025,7 @@ msgstr "외관:"
 #: pkg/apps/index.html:23 pkg/apps/application-list.jsx:152
 #: pkg/apps/application.jsx:143
 msgid "Applications"
-msgstr "애플리케이션"
+msgstr "응용프로그램"
 
 #: pkg/networkmanager/index.html:478 pkg/networkmanager/index.html:502
 #: pkg/networkmanager/index.html:526 pkg/networkmanager/index.html:550
@@ -1621,7 +1621,7 @@ msgstr "RAID 장치 $target 확인 및 복구 중"
 
 #: pkg/apps/application-list.jsx:127
 msgid "Checking for new applications"
-msgstr "새 애플리케이션 확인 중"
+msgstr "새로운 응용프로그램 확인 중"
 
 #: pkg/lib/machine-change-auth.html:71
 msgid "Checking for public keys"
@@ -1661,7 +1661,7 @@ msgstr "클레임 이름"
 
 #: pkg/systemd/hwinfo.jsx:249
 msgid "Class"
-msgstr "클래스"
+msgstr "등급"
 
 #: pkg/storaged/jobs-panel.jsx:55
 msgid "Cleaning up for $target"
@@ -3487,7 +3487,7 @@ msgstr "docker 리포지터리에 준수 "
 
 #: pkg/storaged/vdos-panel.jsx:88
 msgid "For legacy applications only. Reduces performance."
-msgstr "레거시 애플리케이션 전용입니다. 성능이 저하됩니다."
+msgstr "기존 응용프로그램 전용입니다. 성능이 저하됩니다."
 
 #: pkg/users/index.html:122
 msgid "Force Change"
@@ -4939,7 +4939,7 @@ msgstr "모드"
 
 #: pkg/machines/components/nicEdit.jsx:54 pkg/systemd/hwinfo.jsx:249
 msgid "Model"
-msgstr "모형"
+msgstr "방식"
 
 #: pkg/machines/components/vmnetworktab.jsx:93
 msgid "Model type"
@@ -5060,11 +5060,11 @@ msgstr "NFS"
 
 #: pkg/storaged/nfs-details.jsx:140 pkg/kubernetes/scripts/volumes.js:199
 msgid "NFS Mount"
-msgstr "NFS 마운트 "
+msgstr "NFS 적재"
 
 #: pkg/storaged/nfs-panel.jsx:92
 msgid "NFS Mounts"
-msgstr "NFS 마운트 "
+msgstr "NFS 적재"
 
 #: pkg/storaged/nfs-panel.jsx:95
 msgid "NFS Support not installed"
@@ -5282,7 +5282,7 @@ msgstr "새 그룹 "
 
 #: pkg/storaged/nfs-details.jsx:140
 msgid "New NFS Mount"
-msgstr "새 NFS 마운트 "
+msgstr "새로운 NFS 적재"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/shell/index.html:289 pkg/users/index.html:218
@@ -5805,7 +5805,7 @@ msgstr "OS 유형:"
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:274
 msgid "OS Vendor"
-msgstr "OS 벤더 "
+msgstr "OS 제조사"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/nodes-page.html:19
@@ -6511,7 +6511,7 @@ msgstr "강제로 사전 설정 "
 
 #: pkg/systemd/index.html:302
 msgid "Pretty Host Name"
-msgstr "모양새를 갖춘 호스트 이름 "
+msgstr "지정 호스트 이름"
 
 #: pkg/systemd/logs.html:43
 msgid "Previous boot"
@@ -8906,7 +8906,7 @@ msgstr "Thin 논리 볼륨"
 
 #: pkg/storaged/nfs-details.jsx:118
 msgid "This NFS mount is in use and only its options can be changed."
-msgstr "NFS 마운트는 사용되고 있으며 옵션만 변경할 수 있습니다."
+msgstr "NFS 적재는 사용되고 있으며 선택만 변경 할 수 있습니다."
 
 #: pkg/storaged/vdo-details.jsx:133
 msgid "This VDO device does not use all of its backing device."
@@ -9794,7 +9794,7 @@ msgstr "키 확인 "
 #: pkg/machines/components/vm/bootOrderModal.jsx:120
 #: pkg/machines/components/vm/bootOrderModal.jsx:126 pkg/systemd/hwinfo.jsx:249
 msgid "Vendor"
-msgstr "벤더"
+msgstr "제조사"
 
 #: pkg/packagekit/updates.jsx:62
 msgid "Verified"
@@ -10045,7 +10045,7 @@ msgstr "비밀번호 변경을 위해 조금 더 기다려 주십시오"
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:89
 msgid ""
 "You need to select the most closely matching OS vendor and Operating System"
-msgstr "가장 적합한 OS 벤더 및 운영 체제를 선택해야 합니다. "
+msgstr "가장 적합한 OS 제조사 및 운영 체제를 선택해야 합니다."
 
 #: pkg/packagekit/updates.jsx:834
 msgid ""
