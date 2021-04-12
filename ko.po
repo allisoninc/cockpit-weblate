@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-04-12 06:02+0000\n"
+"PO-Revision-Date: 2021-04-13 14:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -511,7 +511,7 @@ msgstr "9일"
 msgid ""
 "A compatible version of Cockpit is not installed on {{#strong}}{{host}}{{/"
 "strong}}."
-msgstr "Cockpit 호환 상태번호가 {{#strong}}{{host}}{{/strong}}에 설치되어 있지 않습니다."
+msgstr "Cockpit 호환 버전이 {{#strong}}{{host}}{{/strong}}에 설치되어 있지 않습니다."
 
 #: pkg/storaged/vdos-panel.jsx:59
 msgid "A disk is needed."
@@ -1213,7 +1213,7 @@ msgstr "BIOS 날짜"
 
 #: pkg/systemd/hwinfo.jsx:96
 msgid "BIOS version"
-msgstr "바이오스 상태번호"
+msgstr "바이오스 버전"
 
 #: pkg/users/index.html:65
 msgid "Back to Accounts"
@@ -1803,7 +1803,7 @@ msgid ""
 msgstr ""
 "Cockpit은 {{#strong}}{{host}}{{/strong}}에 로그인 할 수 없습니다. {{#can_sync}} "
 "{{#sync_link}}사용자 동기화{{/sync_link}}를 수행하십시오.{{/can_sync}} 다른 인증 선택 및 문제 해결에 "
-"대한 지원이 필요한 경우 cockpit-ws를 새로운 상태번호으로 향상하세요."
+"대한 지원이 필요한 경우 cockpit-ws를 새로운 버전으로 업그레이드하세요."
 
 #: pkg/lib/machine-change-auth.html:9
 msgid "Cockpit was unable to log into {{#strong}}{{host}}{{/strong}}."
@@ -2123,7 +2123,7 @@ msgstr "컨테이너 이름"
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/views/node-body.html:21
 msgid "Container Runtime Version"
-msgstr "컨테이너 동작시간 상태번호"
+msgstr "컨테이너 런타임 버전"
 
 #: pkg/docker/util.js:506
 msgid ""
@@ -2927,7 +2927,7 @@ msgstr ""
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: node_modules/registry-image-widgets/views/image-meta.html:10
 msgid "Docker Version"
-msgstr "도커 상태번호"
+msgstr "도커 버전"
 
 #: pkg/docker/index.html:60
 msgid "Docker is not installed or activated on the system"
@@ -4322,7 +4322,7 @@ msgstr "커널 덤프"
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/node-body.html:19
 msgid "Kernel Version"
-msgstr "커널 상태번호"
+msgstr "커널 버전"
 
 #: pkg/kubernetes/views/volume-body.html:67
 msgid "Key Ring Path"
@@ -4355,7 +4355,7 @@ msgstr "키 서버를 제거하면 $0 잠금 해제가 되지 않을 수 있습�
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/node-body.html:23
 msgid "Kubelet Version"
-msgstr "Kubelet 상태번호"
+msgstr "Kubelet 버전"
 
 #: pkg/kubernetes/index.html:23
 msgid "Kubernetes Cluster"
@@ -4421,7 +4421,7 @@ msgstr "마지막 접속 날짜: $0 이전"
 #: pkg/kubernetes/views/deploymentconfig-body.html:15
 #: pkg/kubernetes/views/details-page.html:107
 msgid "Latest Version"
-msgstr "최신 상태번호"
+msgstr "최신 버전"
 
 #: pkg/machines/components/desktopConsole.jsx:128
 msgid "Launch Remote Viewer"
@@ -4520,7 +4520,7 @@ msgstr "데이터 로딩 중 ..."
 #: pkg/kdump/kdump-view.jsx:367 pkg/systemd/logs.js:144 pkg/systemd/logs.js:159
 #: pkg/systemd/logs.js:206 pkg/systemd/logs.js:255 pkg/systemd/logs.js:317
 msgid "Loading..."
-msgstr "로딩..."
+msgstr "적재 중..."
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/users/index.html:23
@@ -5810,7 +5810,7 @@ msgstr "OS 제조사"
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/nodes-page.html:19
 msgid "OS Versions"
-msgstr "OS 상태번호"
+msgstr "OS 버전"
 
 #: pkg/selinux/setroubleshoot-view.jsx:394
 msgid "Occurred $0"
@@ -6663,7 +6663,7 @@ msgstr "프락시"
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/views/node-body.html:25
 msgid "Proxy Version"
-msgstr "프락시 상태번호"
+msgstr "프락시 버전"
 
 #: pkg/lib/machine-auth-failed.html:9 pkg/shell/index.html:230
 msgid "Public Key"
@@ -7343,7 +7343,7 @@ msgstr "재시도:"
 
 #: pkg/subscriptions/subscriptions-view.jsx:215
 msgid "Retrieving subscription status..."
-msgstr "구독(subscription) 상태를 가져 오는 중..."
+msgstr "서브스크립션 상태를 가져 오는 중..."
 
 #: src/ws/login.html:57
 msgid "Reuse my password for privileged tasks"
@@ -8294,7 +8294,7 @@ msgstr "서브 노트북"
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/subscriptions/index.html:22 pkg/subscriptions/subscriptions-view.jsx:181
 msgid "Subscriptions"
-msgstr "구독(subscriptions)"
+msgstr "서브스크립션"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: node_modules/registry-image-widgets/views/image-body.html:4
@@ -8640,7 +8640,7 @@ msgstr "VDO 장치 생성이 완료되지 않았기 때문에 장치를 사용�
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/subscriptions/subscriptions-view.jsx:219
 msgid "The current user isn't allowed to access system subscription status."
-msgstr "현재 사용자는 시스템 구독(subscription) 상태에 액세스할 수 없습니다."
+msgstr "현재 사용자는 시스템 서브스크립션 상태에 접근 할 수 없습니다."
 
 #: pkg/storaged/crypto-keyslots.jsx:516
 msgid ""
@@ -8995,12 +8995,12 @@ msgstr "이 옵션은 단일 노드 시험에만 사용 할 수 있습니다 - �
 
 #: src/bridge/cockpitpackages.c:506
 msgid "This package is not compatible with this version of Cockpit"
-msgstr "이 꾸러미는 Cockpit 상태번호와 호환되지 않습니다"
+msgstr "이 꾸러미는 Cockpit 버전과 호환되지 않습니다"
 
 #: src/bridge/cockpitpackages.c:495
 #, c-format
 msgid "This package requires Cockpit version %s or later"
-msgstr "이 꾸러미에는 Cockpit 상태번호 %s 이상이 필요합니다"
+msgstr "이 꾸러미에는 Cockpit 버전 %s 이상이 필요합니다"
 
 #: pkg/subscriptions/insights.jsx:96
 msgid "This system is not connected to $0."
@@ -9043,7 +9043,7 @@ msgstr "이 사용자 이름이 이미 존재합니다"
 msgid ""
 "This version of cockpit-ws does not support connecting to a host with an "
 "alternate user or port"
-msgstr "cockpit-ws 상태번호에서는 다른 사용자 또는 포트가 있는 호스트 연결이 지원되지 않습니다"
+msgstr "cockpit-ws 버전에서는 다른 사용자 또는 포트가 있는 호스트 연결이 지원되지 않습니다"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/ovirt/components/OVirtTab.jsx:134
@@ -9123,8 +9123,7 @@ msgid ""
 "To get software updates, this system needs to be registered with Red Hat, "
 "either using the Red Hat Customer Portal or a local subscription server."
 msgstr ""
-"소프트웨어 업데이트를 받으려면 Red Hat 고객 포털이나 로컬 구독(subscription) 서버를 사용하여 시스템을 Red Hat에 "
-"등록해야 합니다."
+"소프트웨어 업데이트를 받으려면 Red Hat 고객 포털이나 로컬 서브스크립션 서버를 사용하여 시스템을 Red Hat에 등록해야 합니다."
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: node_modules/registry-image-widgets/views/image-pull.html:4
@@ -9141,7 +9140,7 @@ msgstr "이 이미지 스트림에 이미지를 푸시하려면 다음을 수행
 msgid ""
 "To try a different port you will need to upgrade cockpit-ws to a newer "
 "version."
-msgstr "다른 포트를 사용하려면 cockpit-ws를 최신 상태번호로 향상해야 합니다."
+msgstr "다른 포트를 사용하려면 cockpit-ws를 최신 버전으로 업그레이드해야 합니다."
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/kubernetes/views/auth-form.html:116
@@ -9814,12 +9813,12 @@ msgstr "확인 중"
 #: pkg/ovirt/components/ClusterVms.jsx:83
 #: pkg/subscriptions/subscriptions-view.jsx:36
 msgid "Version"
-msgstr "상태번호"
+msgstr "버전"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/ovirt/components/ClusterVms.jsx:83
 msgid "Version num"
-msgstr "상태번호 번호"
+msgstr "버전 번호"
 
 #: pkg/storaged/jobs-panel.jsx:57
 msgid "Very securely erasing $target"
