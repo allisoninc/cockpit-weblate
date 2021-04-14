@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-04-13 14:02+0000\n"
+"PO-Revision-Date: 2021-04-15 13:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -2238,7 +2238,7 @@ msgstr "실행 중인 API 서버를 찾을 수 없습니다"
 msgid ""
 "Couldn't get system subscription status. Please ensure subscription-manager "
 "is installed."
-msgstr "시스템 구독 상태를 가져 올 수 없습니다. subscription-manager가 설치되어 있는지 확인하십시오."
+msgstr "시스템 서브스크립션 상태를 가져 올 수 없습니다. subscription-manager가 설치되어 있는지 확인하십시오."
 
 #: src/bridge/cockpitdbussetup.c:642
 msgid "Couldn't list local users"
@@ -4109,11 +4109,11 @@ msgstr "설치 소스"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:212
 msgid "Installation Source Type"
-msgstr "설치 원천 유형"
+msgstr "설치 소스 유형"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:113
 msgid "Installation Source should not be empty"
-msgstr "설치 원천을 비워둘 수 없습니다"
+msgstr "설치 소스을 비워둘 수 없습니다"
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
 #: pkg/packagekit/updates.jsx:59
@@ -4334,7 +4334,7 @@ msgstr "알 수 없는 유형의 키 슬롯은 여기에서 수정할 수 없습
 
 #: pkg/storaged/crypto-keyslots.jsx:202
 msgid "Key source"
-msgstr "키 원천"
+msgstr "키 소스"
 
 #: pkg/storaged/crypto-keyslots.jsx:586
 msgid "Keys"
@@ -8023,18 +8023,18 @@ msgstr "신뢰성이 가장 낮은 순서에서 가장 높은 순으로 정렬"
 #: pkg/machines/components/diskAdd.jsx:504
 #: pkg/machines/components/nicEdit.jsx:141
 msgid "Source"
-msgstr "원천"
+msgstr "소스"
 
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:52
 msgid "Source Format"
-msgstr "원천 형식"
+msgstr "소스 형식"
 
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:42
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:47
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:217
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:244
 msgid "Source Path"
-msgstr "원천 경로"
+msgstr "소스 경로"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: node_modules/registry-image-widgets/views/image-body.html:8
@@ -8044,11 +8044,11 @@ msgstr "소스 URL"
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:234
 #: pkg/machines/components/storagePools/createStoragePoolDialog.jsx:254
 msgid "Source path should not be empty"
-msgstr "원천 경로를 비워둘 수 없습니다"
+msgstr "소스 경로를 비워둘 수 없습니다"
 
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:108
 msgid "Source should start with http, ftp or nfs protocol"
-msgstr "원천은 http, ftp, nfs 통신규약으로 시작해야 합니다"
+msgstr "소스은 http, ftp, nfs 통신규약으로 시작해야 합니다"
 
 #: pkg/lib/machine-info.js:78
 msgid "Space-saving Computer"
