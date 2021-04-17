@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 14:56+0100\n"
-"PO-Revision-Date: 2021-04-15 13:02+0000\n"
+"PO-Revision-Date: 2021-04-18 15:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/ko/>\n"
@@ -1102,7 +1102,7 @@ msgstr "자동 업데이트"
 
 #: pkg/packagekit/autoupdates.jsx:272
 msgid "Automatic updates are not set up"
-msgstr "자동 업데이트가 설정되어 있지 않습니다"
+msgstr "자동 최신화가 설정되어 있지 않습니다"
 
 #: pkg/machines/components/libvirtSlate.jsx:94
 msgid "Automatically start libvirt on boot"
