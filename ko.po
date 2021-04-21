@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-04-15 13:02+0000\n"
+"PO-Revision-Date: 2021-04-22 05:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 4.6\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -1154,7 +1154,7 @@ msgstr "자동 시작"
 
 #: pkg/packagekit/autoupdates.jsx:346
 msgid "Automatic Updates"
-msgstr "자동 업데이트"
+msgstr "자동 최신화"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/ovirt/components/OVirtTab.jsx:81
@@ -1621,7 +1621,7 @@ msgstr "RAID 장치 $target 확인 및 복구 중"
 
 #: pkg/apps/application-list.jsx:127
 msgid "Checking for new applications"
-msgstr "새로운 응용프로그램 확인 중"
+msgstr "신규 응용프로그램 확인 중"
 
 #: pkg/lib/machine-change-auth.html:71
 msgid "Checking for public keys"
@@ -3556,7 +3556,7 @@ msgstr "여유공간"
 msgid ""
 "Free up space in this group: Shrink or delete other logical volumes or add "
 "another physical volume."
-msgstr "이 그룹에서 여유 공간을 확보합니다: 다른 논리 볼륨을 축소 또는 제거하거나 새로운 물리 볼륨을 추가하십시오."
+msgstr "이 그룹에서 여유 공간을 확보합니다: 다른 논리 볼륨을 축소 또는 제거하거나 신규 물리 볼륨을 추가하십시오."
 
 #: pkg/systemd/services.html:239
 msgid "Friday"
@@ -4151,7 +4151,7 @@ msgstr "인터페이스 유형"
 #: pkg/networkmanager/index.html:108 pkg/networkmanager/firewall.jsx:740
 #: pkg/networkmanager/firewall.jsx:928
 msgid "Interfaces"
-msgstr "인터페이스"
+msgstr "연결장치"
 
 #: src/ws/login.js:639
 msgid "Internal Error: Invalid challenge header"
@@ -5238,7 +5238,7 @@ msgstr "네트워크 장치 및 그래프에는 NetworkManager가 필요합니�
 
 #: pkg/machines/components/nicEdit.jsx:232
 msgid "Network interface settings could not be saved"
-msgstr "네트워크 인터페이스 설정을 저장하지 못했습니다"
+msgstr "네트워크 연결장치 설정을 저장하지 못했습니다"
 
 #: pkg/networkmanager/index.html:46
 msgid "NetworkManager is not running."
@@ -5438,7 +5438,7 @@ msgstr "부팅 장치를 찾을 수 없습니다"
 
 #: pkg/networkmanager/interfaces.js:1419
 msgid "No carrier"
-msgstr "캐리어가 없습니다"
+msgstr "캐리어 없음"
 
 #: pkg/kdump/kdump-view.jsx:396
 msgid "No configuration found"
@@ -5724,7 +5724,7 @@ msgstr "upload-report 권한이 없습니다"
 
 #: pkg/networkmanager/interfaces.js:822
 msgid "Not available"
-msgstr "사용할 수 없습니다"
+msgstr "사용 불가"
 
 #: pkg/selinux/setroubleshoot.js:240 pkg/subscriptions/insights.jsx:329
 msgid "Not connected"
@@ -5757,7 +5757,7 @@ msgstr "이 작업을 실행할 수 있는 권한이 없습니다."
 
 #: pkg/storaged/mdraid-details.jsx:343
 msgid "Not running"
-msgstr "동작하지 않음"
+msgstr "미동작"
 
 #: pkg/systemd/index.html:63
 msgid "Not synchronized"
@@ -6917,7 +6917,7 @@ msgstr "재시작"
 #: pkg/networkmanager/index.html:140 pkg/networkmanager/index.html:421
 #: pkg/networkmanager/index.html:449
 msgid "Receiving"
-msgstr "수신 중입니다"
+msgstr "수신중"
 
 #: pkg/systemd/logs.html:41
 msgid "Recent"
@@ -7647,7 +7647,7 @@ msgstr "키 전송"
 #: pkg/networkmanager/index.html:139 pkg/networkmanager/index.html:415
 #: pkg/networkmanager/index.html:448
 msgid "Sending"
-msgstr "전송 중입니다"
+msgstr "전송중"
 
 #: pkg/machines/components/consoles.jsx:69
 msgid "Serial Console"
@@ -8419,12 +8419,12 @@ msgstr "시스템 시간"
 
 #: pkg/systemd/host.js:486
 msgid "System Up To Date"
-msgstr "시스템이 최신화되어 있음"
+msgstr "시스템이 최신 상태입니다"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/packagekit/updates.jsx:876
 msgid "System is up to date"
-msgstr "시스템이 업데이트되었음"
+msgstr "시스템이 최신 상태입니다"
 
 #: pkg/docker/index.html:327 pkg/docker/index.html:331
 #: pkg/networkmanager/firewall.jsx:941
@@ -8635,7 +8635,7 @@ msgstr "컨테이너 '{{ target }}'은/는 존재하지 않습니다."
 #: pkg/storaged/vdo-details.jsx:119
 msgid ""
 "The creation of this VDO device did not finish and the device can't be used."
-msgstr "VDO 장치 생성이 완료되지 않았기 때문에 장치를 사용할 수 없습니다."
+msgstr "VDO 장치 생성이 완료되지 않았기 때문에 장치를 사용 할 수 없습니다."
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/subscriptions/subscriptions-view.jsx:219
@@ -8793,7 +8793,7 @@ msgstr "선택한 파일은 올바른 Kubernetes 메타데이터 파일이 아�
 msgid ""
 "The server refused to authenticate '$0' using password authentication, and "
 "no other supported authentication methods are available."
-msgstr "서버가 암호 인증을 사용하여 '$0' 인증을 거부했습니다. 지원되는 다른 인증 방법을 사용할 수 없습니다."
+msgstr "서버가 암호 인증을 사용하여 '$0' 인증을 거부했습니다. 지원되는 다른 인증 방법을 사용 할 수 없습니다."
 
 #: src/base1/cockpit.js:4017
 msgid "The server refused to authenticate using any supported methods."
@@ -9916,7 +9916,7 @@ msgstr "상세 정보 대기 중..."
 
 #: pkg/apps/utils.jsx:63
 msgid "Waiting for other programs to finish using the package manager..."
-msgstr "꾸러미 관리자를 사용해 다른 프로그램이 종료할 때까지 대기 중..."
+msgstr "꾸러미 관리자를 사용 중이어서 다른 프로그램이 종료 할 때까지 대기 중..."
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:140
 #: pkg/lib/cockpit-components-install-dialog.jsx:175
@@ -10561,7 +10561,7 @@ msgstr "vhostuser"
 msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
-msgstr "새로운 가상 머신을 생성하려면 시스템에 virt-install 꾸러미를 설치해야 합니다"
+msgstr "신규 가상 머신을 생성하려면 시스템에 virt-install 꾸러미를 설치해야 합니다"
 
 #: pkg/kubernetes/views/route-body.html:13 pkg/machines/helpers.js:233
 #: pkg/machines/components/storagePools/storagePoolOverviewTab.jsx:62
