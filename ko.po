@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-04-22 05:02+0000\n"
+"PO-Revision-Date: 2021-04-25 05:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -4541,7 +4541,7 @@ msgstr "로컬 설치 미디어"
 
 #: pkg/storaged/nfs-details.jsx:162
 msgid "Local Mount Point"
-msgstr "로컬 마운트 지점"
+msgstr "로컬 적재 지점"
 
 #: pkg/kdump/kdump-view.jsx:145
 msgid "Location"
@@ -5019,15 +5019,15 @@ msgstr "컨테이너 볼륨 적재"
 
 #: pkg/storaged/format-dialog.jsx:78
 msgid "Mount point can not be empty"
-msgstr "마운트 지점을 비워둘 수 없습니다"
+msgstr "적재 지점을 비워둘 수 없습니다"
 
 #: pkg/storaged/nfs-details.jsx:166
 msgid "Mount point cannot be empty."
-msgstr "마운트 지점을 비워둘 수 없습니다."
+msgstr "적재 지점을 비워둘 수 없습니다."
 
 #: pkg/storaged/nfs-details.jsx:168
 msgid "Mount point must start with \"/\"."
-msgstr "마운트 지점은 \"/\"로 시작해야 합니다."
+msgstr "적재 지점은 \"/\"로 시작해야 합니다."
 
 #: pkg/storaged/format-dialog.jsx:90 pkg/storaged/nfs-details.jsx:175
 msgid "Mount read only"
