@@ -10,63 +10,52 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 14:56+0100\n"
-"PO-Revision-Date: 2020-06-11 12:40+0000\n"
-"Last-Translator: Martin Pitt <mpitt@redhat.com>\n"
+"PO-Revision-Date: 2021-05-24 20:02+0000\n"
+"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit/"
-"master/ru/>\n"
+"rhel8/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: pkg/metrics/metrics.jsx:379
-#, fuzzy
-#| msgid "of $0 CPU"
-#| msgid_plural "of $0 CPUs"
 msgid "$0 CPU"
 msgid_plural "$0 CPUs"
-msgstr[0] "из $0 процессора"
-msgstr[1] "из $0 процессоров"
-msgstr[2] "из $0 процессоров"
+msgstr[0] "$0 процессор"
+msgstr[1] "$0 процессора"
+msgstr[2] "$0 процессоров"
 
 # translation auto-copied from project libreport, version master, document
 # libreport
 #: pkg/machines/components/vm/overview/cpuTypeModal.jsx:60
-#, fuzzy
-#| msgid "Configuration"
 msgid "$0 CPU configuration"
-msgstr "Настройка"
+msgstr "Настройка $0 CPU"
 
 #: pkg/metrics/metrics.jsx:402 pkg/metrics/metrics.jsx:473
-#, fuzzy
-#| msgid "Not available"
 msgid "$0 GiB available"
-msgstr "Недоступно"
+msgstr "Доступно $0 ГиБ"
 
 #: pkg/metrics/metrics.jsx:394 pkg/metrics/metrics.jsx:464
 msgid "$0 GiB total"
-msgstr ""
+msgstr "Всего $0 ГиБ"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:77
-#, fuzzy
-#| msgid "$0 Network"
 msgid "$0 Network"
 msgid_plural "$0 Networks"
 msgstr[0] "$0 сеть"
-msgstr[1] "$0 сеть"
-msgstr[2] "$0 сеть"
+msgstr[1] "$0 сети"
+msgstr[2] "$0 сетей"
 
 #: pkg/machines/components/aggregateStatusCards.jsx:52
-#, fuzzy
-#| msgid "Storage pool"
 msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
-msgstr[0] "Пул носителей"
-msgstr[1] "Пул носителей"
-msgstr[2] "Пул носителей"
+msgstr[0] "$0 буфер устройств хранения"
+msgstr[1] "$0 буфера устройств хранения"
+msgstr[2] "$0 буферов устройств хранения"
 
 #: pkg/networkmanager/network-main.jsx:167
 #, fuzzy
@@ -169,10 +158,8 @@ msgid "$0 filesystems can not be resized here."
 msgstr "Размер файловых систем $0 невозможно изменить здесь."
 
 #: pkg/metrics/metrics.jsx:515
-#, fuzzy
-#| msgid "$0, $1 free"
 msgid "$0 free"
-msgstr "$0, свободно $1"
+msgstr "Свободно $0"
 
 #: pkg/systemd/overview.jsx:98
 msgctxt "<date> from <host>"
@@ -221,7 +208,7 @@ msgstr "Компонент $0 недоступен в репозиториях."
 
 #: pkg/static/login.js:642
 msgid "$0 key changed"
-msgstr ""
+msgstr "Изменен $0 ключ"
 
 #: pkg/base1/cockpit.js:2798
 msgid "$0 killed with signal $1"
@@ -236,7 +223,7 @@ msgstr[2] "$0 попаданий с низким уровнем серьезно
 
 #: pkg/machines/components/vm/overview/memoryModal.jsx:134
 msgid "$0 memory adjustment"
-msgstr ""
+msgstr "Корректирование памяти $0"
 
 #: pkg/lib/cockpit-components-plot.jsx:238
 msgid "$0 minute"
@@ -266,14 +253,11 @@ msgid "$0 network"
 msgstr "$0 сеть"
 
 #: pkg/selinux/setroubleshoot-view.jsx:430
-#, fuzzy
-#| msgid "$0 occurrence"
-#| msgid_plural "$1 occurrences"
 msgid "$0 occurrence"
 msgid_plural "$0 occurrences"
 msgstr[0] "$0 событие"
-msgstr[1] "$1 события"
-msgstr[2] "$1 событий"
+msgstr[1] "$0 события"
+msgstr[2] "$0 событий"
 
 #: pkg/storaged/fsys-tab.jsx:386
 msgid "$0 of $1"
@@ -285,9 +269,6 @@ msgid "$0 on $1"
 msgstr "$0 на $1"
 
 #: pkg/packagekit/history.jsx:87
-#, fuzzy
-#| msgid "$0 Package"
-#| msgid_plural "$0 Packages"
 msgid "$0 package"
 msgid_plural "$0 packages"
 msgstr[0] "$0 пакет"
@@ -297,26 +278,23 @@ msgstr[2] "$0 пакетов"
 #: pkg/packagekit/updates.jsx:635 pkg/packagekit/updates.jsx:747
 msgid "$0 package needs a system reboot"
 msgid_plural "$0 packages need a system reboot"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 пакет требует перезагрузки системы"
+msgstr[1] "$0 пакета требуют перезагрузки системы"
+msgstr[2] "$0 пакетов требуют перезагрузки системы"
 
 #: pkg/metrics/metrics.jsx:106
 msgid "$0 page"
 msgid_plural "$0 pages"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$0 пакет"
+msgstr[1] "$0 пакета"
+msgstr[2] "$0 пакетов"
 
 #: pkg/packagekit/updates.jsx:719
-#, fuzzy
-#| msgid "$1 security fix"
-#| msgid_plural "$1 security fixes"
 msgid "$0 security fix available"
 msgid_plural "$0 security fixes available"
-msgstr[0] "$1 исправление безопасности"
-msgstr[1] "$1 исправления безопасности"
-msgstr[2] "$1 исправлений безопасности"
+msgstr[0] "Доступно $0 обновление безопасности"
+msgstr[1] "Доступно $0 обновления безопасности"
+msgstr[2] "Доступно $0 обновлений безопасности"
 
 #: pkg/systemd/services/services.jsx:654
 msgid "$0 service has failed"
@@ -326,38 +304,29 @@ msgstr[1] "Сбой $0 служб"
 msgstr[2] "Сбой $0 служб"
 
 #: pkg/packagekit/updates.jsx:652 pkg/packagekit/updates.jsx:759
-#, fuzzy
-#| msgid "$0 service has failed"
-#| msgid_plural "$0 services have failed"
 msgid "$0 service needs to be restarted"
 msgid_plural "$0 services need to be restarted"
-msgstr[0] "Сбой $0 службы"
-msgstr[1] "Сбой $0 служб"
-msgstr[2] "Сбой $0 служб"
+msgstr[0] "$0 служба требует перезапуска"
+msgstr[1] "$0 службы требуют перезапуска"
+msgstr[2] "$0 служб требуют перезапуска"
 
 #: pkg/storaged/crypto-keyslots.jsx:592
-#, fuzzy
-#| msgid "$0 slots remain"
 msgid "$0 slot remains"
 msgid_plural "$0 slots remain"
-msgstr[0] "Осталось слотов: $0"
-msgstr[1] "Осталось слотов: $0"
-msgstr[2] "Осталось слотов: $0"
+msgstr[0] "Остался $0 слот"
+msgstr[1] "Осталось $0 слота"
+msgstr[2] "Осталось $0 слотов"
 
 #: pkg/metrics/metrics.jsx:523
-#, fuzzy
-#| msgid "Total"
 msgid "$0 total"
-msgstr "Всего"
+msgstr "Всего $0"
 
 #: pkg/packagekit/updates.jsx:727
-#, fuzzy
-#| msgid "Updates Available"
 msgid "$0 update available"
 msgid_plural "$0 updates available"
-msgstr[0] "Доступны обновления"
-msgstr[1] "Доступны обновления"
-msgstr[2] "Доступны обновления"
+msgstr[0] "Доступно $0 обновление"
+msgstr[1] "Доступно $0 обновления"
+msgstr[2] "Доступно $0 обновлений"
 
 #: pkg/storaged/vdo-details.jsx:301
 msgid "$0 used of $1 ($2 saved)"
@@ -365,25 +334,19 @@ msgstr "$0 использовано из $1 ($2 сэкономлено)"
 
 # ctx::sourcefile::/rhn/systems/details/virtualization/VirtualGuestsList.do
 #: pkg/machines/components/vm/vmUsageCard.jsx:49
-#, fuzzy
-#| msgid "vCPUs"
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
-msgstr[0] "Виртуальные ЦП"
-msgstr[1] "Виртуальные ЦП"
-msgstr[2] "Виртуальные ЦП"
+msgstr[0] "$0 вирт. процессор"
+msgstr[1] "$0 вирт. процессора"
+msgstr[2] "$0 вирт. процессоров"
 
 #: pkg/machines/components/vm/overview/vcpuModal.jsx:246
-#, fuzzy
-#| msgid "Problem details"
 msgid "$0 vCPU details"
-msgstr "Подробности проблемы"
+msgstr "Сведения о VCPU $0"
 
 #: pkg/machines/components/vm/nics/nicEdit.jsx:160
-#, fuzzy
-#| msgid "Add Virtual Network Interface"
 msgid "$0 virtual network interface settings"
-msgstr "Добавление виртуального сетевого интерфейса"
+msgstr "Параметры виртуального сетевого интерфейса $0"
 
 #: pkg/lib/cockpit-components-plot.jsx:229
 msgid "$0 week"
@@ -485,10 +448,8 @@ msgid "14th"
 msgstr "14-го числа"
 
 #: pkg/metrics/metrics.jsx:285
-#, fuzzy
-#| msgid "5 min"
 msgid "15 min"
-msgstr "5 мин"
+msgstr "15 мин"
 
 #: pkg/systemd/services.html:95
 msgid "15th"
@@ -692,24 +653,31 @@ msgid ""
 "A new SSH key at ${key} will be created for ${luser} on ${lhost} and it will "
 "be added to the ${afile} file of ${ruser} on ${rhost}."
 msgstr ""
+"Будет создан новый ключ SSH в ${key} для ${luser} на ${lhost} и добавлен в "
+"файл ${afile} пользователя ${ruser} на ${rhost}."
 
 #: pkg/packagekit/updates.jsx:1364
-#, fuzzy
-#| msgid "Updated packages may require a restart to take effect."
 msgid "A package needs a system reboot for the updates to take effect:"
 msgid_plural ""
 "Some packages need a system reboot for the updates to take effect:"
-msgstr[0] "После обновления пакетов может потребоваться их перезагрузка."
-msgstr[1] "После обновления пакетов может потребоваться их перезагрузка."
-msgstr[2] "После обновления пакетов может потребоваться их перезагрузка."
+msgstr[0] ""
+"Чтобы обновления вступили в силу, пакету требуется перезагрузка системы:"
+msgstr[1] ""
+"Чтобы обновления вступили в силу, некоторым пакетам требуется перезагрузка "
+"системы:"
+msgstr[2] ""
+"Чтобы обновления вступили в силу, некоторым пакетам требуется перезагрузка "
+"системы:"
 
 #: pkg/packagekit/updates.jsx:1368
 msgid "A service needs to be restarted for the updates to take effect:"
 msgid_plural ""
 "Some services need to be restarted for the updates to take effect:"
-msgstr[0] ""
+msgstr[0] "Чтобы изменения вступили в силу, необходимо перезапустить службу:"
 msgstr[1] ""
+"Чтобы изменения вступили в силу, необходимо перезапустить некоторые службы:"
 msgstr[2] ""
+"Чтобы изменения вступили в силу, необходимо перезапустить некоторые службы:"
 
 #: pkg/storaged/mdraid-details.jsx:130
 msgid "A spare disk needs to be added first before this disk can be removed."
@@ -744,11 +712,11 @@ msgstr "Отсутствует"
 #: pkg/shell/machines/machine-invalid-hostkey.html:27
 #: pkg/shell/machines/machine-unknown-hostkey.html:19
 msgid "Accept key and connect"
-msgstr ""
+msgstr "Принять ключ и подключиться"
 
 #: pkg/static/login.js:563
 msgid "Accept key and log in"
-msgstr ""
+msgstr "Принять ключ и войти в систему"
 
 #: pkg/machines/components/vm/disks/vmDisksCard.jsx:227
 #: pkg/machines/components/vm/disks/diskEdit.jsx:84
@@ -773,10 +741,8 @@ msgstr "Учётные записи"
 
 #: pkg/storaged/content-views.jsx:647 pkg/storaged/content-views.jsx:816
 #: pkg/apps/application-list.jsx:110
-#, fuzzy
-#| msgid "Applications"
 msgid "Actions"
-msgstr "Приложения"
+msgstr "Действия"
 
 #: pkg/storaged/content-views.jsx:290
 #: pkg/machines/components/storagePools/storagePool.jsx:165
