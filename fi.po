@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-03-25 04:01+0000\n"
+"PO-Revision-Date: 2021-05-29 14:02+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/fi/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -2142,7 +2142,7 @@ msgstr "Ei voitu jäsentää PEM-koodattua salaista avainta"
 
 #: pkg/docker/storage.jsx:468
 msgid "Could not reset the storage pool"
-msgstr "Ei voitu resetoida tallennusvarantoa"
+msgstr "Ei voitu nollata tallennusvarantoa"
 
 #: src/bridge/cockpitdbussetup.c:467
 msgid "Couldn't change user groups"
@@ -2875,11 +2875,11 @@ msgstr "Toimialueen osoite"
 
 #: pkg/realmd/operation.html:62
 msgid "Domain Administrator Name"
-msgstr "Domain-ylläpitäjän nimi"
+msgstr "Toimialueen ylläpitäjän nimi"
 
 #: pkg/realmd/operation.html:65
 msgid "Domain Administrator Password"
-msgstr "Domain-ylläpitäjän salasana"
+msgstr "Toimialueen ylläpitäjän salasana"
 
 #: pkg/systemd/services.html:483 pkg/systemd/services.html:487
 #: pkg/systemd/init.js:1256
@@ -3130,7 +3130,7 @@ msgstr "Poisto"
 
 #: pkg/docker/storage.jsx:447
 msgid "Erase containers and reset storage pool"
-msgstr "Tyhjennä kontit ja resetoi tallennusvaranto"
+msgstr "Tyhjennä kontit ja nollaa tallennusvaranto"
 
 #: pkg/storaged/jobs-panel.jsx:49
 msgid "Erasing $target"
@@ -3502,7 +3502,7 @@ msgstr "Hae uusi levykuva"
 #: pkg/machines/components/vmDisksTab.jsx:44
 #: pkg/machines/components/diskAdd.jsx:186
 msgid "GiB"
-msgstr "GiB"
+msgstr "Git"
 
 #: pkg/kubernetes/scripts/volumes.js:194
 msgid "Git Repository"
@@ -4140,11 +4140,11 @@ msgstr "Liity"
 
 #: pkg/realmd/operation.js:597
 msgid "Join Domain"
-msgstr "Liity domainiin"
+msgstr "Liity toimialueeseen"
 
 #: pkg/realmd/operation.js:116
 msgid "Join a Domain"
-msgstr "Liity domainiin"
+msgstr "Liity johonkin toimialueeseen"
 
 #: pkg/realmd/operation.js:506
 msgid "Joining this domain is not supported"
@@ -4297,7 +4297,7 @@ msgstr "Käynnistä etäkatselin"
 
 #: pkg/realmd/operation.html:24 pkg/realmd/operation.html:28
 msgid "Leave Domain"
-msgstr "Jätä domain"
+msgstr "Jätä toimialue"
 
 #: pkg/dashboard/index.html:149
 msgid ""
@@ -4756,7 +4756,7 @@ msgstr ""
 #: pkg/machines/components/memorySelectRow.jsx:43
 #: pkg/machines/components/diskAdd.jsx:183
 msgid "MiB"
-msgstr "MiB"
+msgstr "Mit"
 
 #: pkg/ovirt/components/OVirtTab.jsx:70
 msgid "Migrate To:"
