@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 14:56+0100\n"
-"PO-Revision-Date: 2021-03-25 04:01+0000\n"
+"PO-Revision-Date: 2021-05-29 14:02+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/fi/>\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: pkg/metrics/metrics.jsx:379
 msgid "$0 CPU"
@@ -3182,7 +3182,7 @@ msgstr "Luodaan raporttia"
 #: pkg/machines/components/vm/disks/vmDisksCard.jsx:51
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:104
 msgid "GiB"
-msgstr "GiB"
+msgstr "Git"
 
 #: pkg/machines/app.jsx:150
 msgid "Go to VMs list"
@@ -4347,7 +4347,7 @@ msgstr "Muuttujien historiaa ei voitu ladata"
 #: pkg/machines/components/vm/overview/memorySelectRow.jsx:85
 #: pkg/machines/components/storagePools/storageVolumeCreateBody.jsx:102
 msgid "MiB"
-msgstr "MiB"
+msgstr "Mit"
 
 #: pkg/lib/machine-info.js:101
 msgid "Mini PC"
