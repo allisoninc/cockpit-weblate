@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 14:56+0100\n"
-"PO-Revision-Date: 2021-03-10 14:47+0000\n"
+"PO-Revision-Date: 2021-06-05 10:03+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/fr/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: pkg/metrics/metrics.jsx:379
 msgid "$0 CPU"
@@ -1502,7 +1502,7 @@ msgstr "Modifier le nom de l’initiateur iSCSI"
 
 #: pkg/storaged/crypto-keyslots.jsx:258
 msgid "Change passphrase"
-msgstr "Modifier la phrase secrète"
+msgstr "Modifier la phrase de passe"
 
 #: pkg/shell/index.html:276
 msgid "Change password"
@@ -2559,7 +2559,7 @@ msgstr "Le disque est OK"
 
 #: pkg/storaged/crypto-keyslots.jsx:158
 msgid "Disk passphrase"
-msgstr "Phrase secrète du disque"
+msgstr "Phrase de passe du disque"
 
 #: pkg/machines/components/vm/disks/diskAdd.jsx:322
 #: pkg/machines/components/vm/disks/diskAdd.jsx:537
@@ -4742,7 +4742,7 @@ msgstr "Nouveau mot de passe clé"
 
 #: pkg/storaged/crypto-keyslots.jsx:217 pkg/storaged/crypto-keyslots.jsx:263
 msgid "New passphrase"
-msgstr "Nouvelle phrase secrète"
+msgstr "Nouvelle phrase de passe"
 
 #: pkg/shell/index.html:251 pkg/users/password-dialogs.js:150
 msgid "New password"
@@ -5120,7 +5120,7 @@ msgstr "Ok"
 
 #: pkg/storaged/crypto-keyslots.jsx:260
 msgid "Old passphrase"
-msgstr "Ancienne phrase secrète"
+msgstr "Ancienne phrase de passe"
 
 #: pkg/shell/index.html:242 pkg/users/password-dialogs.js:141
 msgid "Old password"
@@ -5320,23 +5320,23 @@ msgstr "Passif"
 #: pkg/storaged/format-dialog.jsx:214 pkg/storaged/content-views.jsx:242
 #: pkg/storaged/crypto-keyslots.jsx:212 pkg/storaged/crypto-keyslots.jsx:568
 msgid "Passphrase"
-msgstr "Phrase secrète"
+msgstr "Phrase de passe"
 
 #: pkg/storaged/format-dialog.jsx:218 pkg/storaged/crypto-keyslots.jsx:161
 #: pkg/storaged/crypto-keyslots.jsx:220 pkg/storaged/crypto-keyslots.jsx:261
 #: pkg/storaged/crypto-keyslots.jsx:264
 msgid "Passphrase cannot be empty"
-msgstr "La phrase secrète ne peut pas être vide"
+msgstr "La phrase de passe ne peut pas être vide"
 
 #: pkg/storaged/crypto-keyslots.jsx:367
 msgid "Passphrase removal may prevent unlocking $0."
 msgstr ""
-"La suppression de la phrase secrète peut empêcher le déverrouillage de $0."
+"La suppression de la phrase de passe peut empêcher le déverrouillage de $0."
 
 #: pkg/storaged/format-dialog.jsx:226 pkg/storaged/crypto-keyslots.jsx:228
 #: pkg/storaged/crypto-keyslots.jsx:266
 msgid "Passphrases do not match"
-msgstr "Les phrases secrète ne correspondent pas"
+msgstr "Les phrases de passe ne correspondent pas"
 
 #: pkg/static/login.html:76 pkg/shell/index.html:160 pkg/shell/index.html:189
 #: pkg/shell/index.html:204 pkg/shell/machines/machine-auth-failed.html:8
@@ -6049,7 +6049,7 @@ msgid ""
 "Removing <b>$0</b> will break the connection to the server, and will make "
 "the administration UI unavailable."
 msgstr ""
-"Supprimer <b>$0</b> aura pour effet d’interrompra la connexion au serveur et "
+"Supprimer <b>$0</b> aura pour effet d’interrompre la connexion au serveur et "
 "rendra l’interface utilisateur d’administration indisponible."
 
 #: pkg/storaged/jobs-panel.jsx:77
@@ -6106,7 +6106,7 @@ msgstr "Répéter chaque mois"
 #: pkg/storaged/crypto-keyslots.jsx:210 pkg/storaged/crypto-keyslots.jsx:222
 #: pkg/storaged/crypto-keyslots.jsx:265
 msgid "Repeat passphrase"
-msgstr "Répéter la phrase secrète"
+msgstr "Répéter la phrase de passe"
 
 #: pkg/systemd/services.html:248
 msgid "Repeat weekly"
@@ -6195,7 +6195,7 @@ msgid ""
 "a current disk passphrase."
 msgstr ""
 "Il faut déverrouiller le disque pour pouvoir redimensionner un système de "
-"fichier chiffré. Veuillez fournir une phrase secrète courante."
+"fichier chiffré. Veuillez fournir une phrase de passe courante."
 
 #: pkg/systemd/services/service-details.jsx:128
 msgid "Restart"
@@ -6409,8 +6409,8 @@ msgid ""
 "Saving a new passphrase requires unlocking the disk. Please provide a "
 "current disk passphrase."
 msgstr ""
-"Pour enregistrer une nouvelle phrase secrète, il faut déverrouiller le "
-"disque. Veuillez fournir une phrase secrète courante."
+"Pour enregistrer une nouvelle phrase de passe, il faut déverrouiller le "
+"disque. Veuillez fournir une phrase de passe courante."
 
 #: pkg/lib/machine-info.js:90
 msgid "Sealed-case PC"
@@ -7058,12 +7058,12 @@ msgstr "Stocker les métriques"
 
 #: pkg/storaged/format-dialog.jsx:70
 msgid "Store passphrase"
-msgstr "Stocker la phrase secrète"
+msgstr "Stocker la phrase de passe"
 
 #: pkg/storaged/crypto-tab.jsx:74 pkg/storaged/crypto-tab.jsx:76
 #: pkg/storaged/crypto-tab.jsx:134
 msgid "Stored passphrase"
-msgstr "Phrase secrète stockée"
+msgstr "Phrase de passe stockée"
 
 #: pkg/lib/machine-info.js:85
 msgid "Sub-Chassis"
