@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 14:56+0100\n"
-"PO-Revision-Date: 2021-04-25 05:02+0000\n"
-"Last-Translator: simmon <simmon@nplob.com>\n"
+"PO-Revision-Date: 2021-06-05 10:03+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/ko/>\n"
 "Language: ko\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: pkg/metrics/metrics.jsx:379
 msgid "$0 CPU"
@@ -4607,7 +4607,7 @@ msgstr "하지 않기"
 
 #: pkg/users/account-details.js:93 pkg/users/expiration-dialogs.js:142
 msgid "Never expire password"
-msgstr "비밀번호가 만료되어서는 안됩니다"
+msgstr "암호가 만료되어서는 안됩니다"
 
 #: pkg/users/account-details.js:101 pkg/users/expiration-dialogs.js:36
 msgid "Never lock account"
@@ -5208,7 +5208,7 @@ msgstr "암호문"
 #: pkg/storaged/crypto-keyslots.jsx:220 pkg/storaged/crypto-keyslots.jsx:261
 #: pkg/storaged/crypto-keyslots.jsx:264
 msgid "Passphrase cannot be empty"
-msgstr "비밀번호는 비워 둘 수 없습니다"
+msgstr "암호는 비워 둘 수 없습니다"
 
 #: pkg/storaged/crypto-keyslots.jsx:367
 msgid "Passphrase removal may prevent unlocking $0."
