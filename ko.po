@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 14:56+0100\n"
-"PO-Revision-Date: 2021-06-05 10:03+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2021-06-11 21:04+0000\n"
+"Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel8/ko/>\n"
 "Language: ko\n"
@@ -4607,7 +4607,7 @@ msgstr "하지 않기"
 
 #: pkg/users/account-details.js:93 pkg/users/expiration-dialogs.js:142
 msgid "Never expire password"
-msgstr "암호가 만료되어서는 안됩니다"
+msgstr "비밀번호가 만료되어서는 안됩니다"
 
 #: pkg/users/account-details.js:101 pkg/users/expiration-dialogs.js:36
 msgid "Never lock account"
