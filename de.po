@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-01-09 06:36+0000\n"
+"PO-Revision-Date: 2021-07-03 06:04+0000\n"
 "Last-Translator: Martin Pitt <mpitt@redhat.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/de/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -9504,7 +9504,7 @@ msgstr "Aktualisiere $0..."
 # translation auto-copied from project subscription-manager, version 1.9.X, document keys
 #: pkg/machines/components/vm/vm.jsx:48 pkg/storaged/unrecognized-tab.jsx:30
 msgid "Usage"
-msgstr "Auslastung"
+msgstr "Nutzung"
 
 #: pkg/systemd/host.js:1629
 msgid "Usage of $0 CPU core"
