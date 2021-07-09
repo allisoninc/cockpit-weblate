@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-14 13:20+0200\n"
-"PO-Revision-Date: 2021-06-29 11:04+0000\n"
+"PO-Revision-Date: 2021-07-10 19:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "rhel-7/ko/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: pkg/docker/storage.jsx:259
 msgid " (shared with the OS)"
@@ -1057,11 +1057,11 @@ msgstr "솔루션 적용 중 ..."
 
 #: pkg/packagekit/updates.jsx:43
 msgid "Applying updates"
-msgstr "업데이트 적용 중"
+msgstr "최신화 적용 중"
 
 #: pkg/packagekit/updates.jsx:45
 msgid "Applying updates failed"
-msgstr "업데이트 적용 실패"
+msgstr "최신화 적용 실패"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: node_modules/registry-image-widgets/views/image-config.html:16
@@ -1117,7 +1117,7 @@ msgstr "인증 실패"
 msgid ""
 "Authentication is required to perform privileged tasks with the Cockpit Web "
 "Console"
-msgstr "Cockpit Web 콘솔의 권한 작업을 수행하려면 인증이 필요합니다"
+msgstr "Cockpit 웹 콘솔의 권한 작업을 수행하려면 인증이 필요합니다"
 
 #: pkg/storaged/iscsi-panel.jsx:147
 msgid "Authentication required"
@@ -1205,11 +1205,11 @@ msgstr "Azure"
 
 #: pkg/systemd/hwinfo.jsx:92
 msgid "BIOS"
-msgstr "BIOS"
+msgstr "바이오스"
 
 #: pkg/systemd/hwinfo.jsx:100
 msgid "BIOS date"
-msgstr "BIOS 날짜"
+msgstr "바이오스 날짜"
 
 #: pkg/systemd/hwinfo.jsx:96
 msgid "BIOS version"
@@ -1276,7 +1276,7 @@ msgstr "파일 시스템의 블록 장치"
 
 #: pkg/storaged/mdraid-details.jsx:103
 msgid "Blocked"
-msgstr "차단됩니다"
+msgstr "차단됨"
 
 #: pkg/networkmanager/interfaces.js:2510 pkg/networkmanager/interfaces.js:2522
 #: pkg/networkmanager/interfaces.js:2791
@@ -1359,7 +1359,7 @@ msgstr "버스 확장 섀시"
 #: pkg/kubernetes/scripts/nodes.js:711 pkg/kubernetes/scripts/nodes.js:818
 #: pkg/kubernetes/scripts/graphs.js:603
 msgid "CPU"
-msgstr "CPU"
+msgstr "중앙처리장치"
 
 #: pkg/systemd/hwinfo.jsx:113
 msgid "CPU Security"
@@ -3299,7 +3299,7 @@ msgstr "예: 88,2019,nfs,rsync"
 
 #: pkg/users/local.js:473 pkg/users/local.js:1417
 msgid "Excellent password"
-msgstr "우수한 암호"
+msgstr "우수한 비밀번호"
 
 # auto translated by TM merge from project: Cockpit, version: master, DocId: cockpit
 #: pkg/machines/components/create-vm-dialog/createVmDialog.jsx:222
@@ -4468,11 +4468,11 @@ msgstr "링크 보기"
 
 #: pkg/networkmanager/index.html:311 pkg/networkmanager/index.html:355
 msgid "Link down delay"
-msgstr "링크 다운 딜레이"
+msgstr "연결 종료 지연"
 
 #: pkg/networkmanager/interfaces.js:1957 pkg/networkmanager/interfaces.js:1967
 msgid "Link local"
-msgstr "로컬 링크"
+msgstr "로컬 연결"
 
 #: pkg/docker/index.html:497
 msgid "Link to another container"
@@ -4480,7 +4480,7 @@ msgstr "다른 컨테이너로의 연결"
 
 #: pkg/networkmanager/index.html:307 pkg/networkmanager/index.html:351
 msgid "Link up delay"
-msgstr "링크 업 딜레이"
+msgstr "연결 동작 지연"
 
 #: pkg/docker/index.html:493
 msgid "Links"
@@ -4601,7 +4601,7 @@ msgstr "로그 메세지"
 
 #: pkg/users/local.js:961
 msgid "Logged In"
-msgstr "로그인되었습니다"
+msgstr "로그인 상태"
 
 #: pkg/storaged/vdo-details.jsx:289
 msgid "Logical"
@@ -6054,7 +6054,7 @@ msgstr "암호가 일치하지 않습니다"
 #: pkg/subscriptions/subscriptions-register.jsx:93
 #: pkg/subscriptions/subscriptions-register.jsx:182
 msgid "Password"
-msgstr "암호"
+msgstr "비밀번호"
 
 #: pkg/users/index.html:288
 msgid "Password Expiration"
@@ -7549,7 +7549,7 @@ msgstr "동일한 데이터 블록을 한 번만 저장하여 공간을 절약�
 msgid ""
 "Saving a new passphrase requires unlocking the disk. Please provide a "
 "current disk passphrase."
-msgstr "새 암호를 저장하려면 디스크 잠금 해제가 필요합니다. 현재 디스크의 암호를 제공하십시오."
+msgstr "신규 암호를 저장하려면 디스크 잠금 해제가 필요합니다. 현재 디스크의 암호를 제공하십시오."
 
 #: pkg/kubernetes/views/node-capacity.html:9
 msgid "Scheduled Pods"
@@ -8748,7 +8748,7 @@ msgstr "비밀본호가 일치하지 않습니다"
 
 #: pkg/lib/credentials.js:190
 msgid "The passwords do not match."
-msgstr "암호가 일치하지 않습니다."
+msgstr "비밀번호가 일치하지 않습니다."
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId: cockpit
 #: pkg/kubernetes/views/pv-page.html:21
@@ -8793,7 +8793,7 @@ msgstr "선택한 파일은 올바른 Kubernetes 메타데이터 파일이 아�
 msgid ""
 "The server refused to authenticate '$0' using password authentication, and "
 "no other supported authentication methods are available."
-msgstr "서버가 암호 인증을 사용하여 '$0' 인증을 거부했습니다. 지원되는 다른 인증 방법을 사용 할 수 없습니다."
+msgstr "서버가 비밀번호 인증을 사용하여 '$0' 인증을 거부했습니다. 지원되는 다른 인증 방법을 사용 할 수 없습니다."
 
 #: src/base1/cockpit.js:4017
 msgid "The server refused to authenticate using any supported methods."
@@ -9116,7 +9116,7 @@ msgstr "타이머"
 msgid ""
 "Tip: Make your key password match your login password to automatically "
 "authenticate against other systems."
-msgstr "도움말: 다른 시스템에 자동으로 인증하려면 키 암호가 로그인 암호화 일치해야 합니다."
+msgstr "도움말: 다른 시스템에 자동으로 인증하려면 키 비밀번호가 로그인 비밀번호와 일치해야 합니다."
 
 #: pkg/packagekit/updates.jsx:773
 msgid ""
@@ -9544,7 +9544,7 @@ msgstr "기록 최신화"
 
 #: pkg/packagekit/updates.jsx:60
 msgid "Updated"
-msgstr "최신화됩니다"
+msgstr "최신화됨"
 
 #: pkg/packagekit/updates.jsx:494
 msgid "Updated packages may require a restart to take effect."
