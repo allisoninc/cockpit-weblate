@@ -1,0 +1,35 @@
+name: sync-pot
+on:
+  schedule:
+    # Once a week, on Tuesday evening
+    - cron: '0 18 * * 2'
+  workflow_dispatch:
+jobs:
+  po-refresh:
+    runs-on: ubuntu-20.04
+    permissions:
+      content: write
+    steps:
+      - name: Set up dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y --no-install-recommends xgettext
+
+      - name: Clone weblate repository
+        uses: actions/checkout@v2
+        with:
+          path: weblate
+
+      - name: Clone source repository
+        uses: actions/checkout@v2
+        with:
+          path: src
+          repository: cockpit-project/cockpit
+          ref: clean-pot
+
+      - name: Update .pot
+        run: |
+          make -C src po/Makefile.am po/cockpit.pot
+          cp src/po/cockpit.pot weblate/cockpit.pot
+          git -C weblate commit -m "Update source file" -- cockpit.pot
+          git -C weblate push
