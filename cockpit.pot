@@ -28,7 +28,7 @@ msgstr ""
 "#-#-#-#-#  cockpit.c.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 09:56+0000\n"
+"POT-Creation-Date: 2021-07-12 16:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgstr ""
 "#-#-#-#-#  cockpit.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 09:56+0000\n"
+"POT-Creation-Date: 2021-07-12 16:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,7 +63,7 @@ msgstr ""
 "#-#-#-#-#  cockpit.appstream.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 09:56+0000\n"
+"POT-Creation-Date: 2021-07-12 16:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,7 +74,7 @@ msgstr ""
 "#-#-#-#-#  cockpit.polkit.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 09:56+0000\n"
+"POT-Creation-Date: 2021-07-12 16:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -387,7 +387,7 @@ msgstr ""
 msgid "1 min"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:153
+#: pkg/lib/cockpit-components-shutdown.jsx:156
 msgid "1 minute"
 msgstr ""
 
@@ -455,7 +455,7 @@ msgstr ""
 msgid "2 MiB"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:155
+#: pkg/lib/cockpit-components-shutdown.jsx:158
 msgid "20 minutes"
 msgstr ""
 
@@ -523,7 +523,7 @@ msgstr ""
 msgid "4 KiB"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:156
+#: pkg/lib/cockpit-components-shutdown.jsx:159
 msgid "40 minutes"
 msgstr ""
 
@@ -535,7 +535,7 @@ msgstr ""
 msgid "5 min"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:154
+#: pkg/lib/cockpit-components-shutdown.jsx:157
 #: pkg/lib/cockpit-components-plot.jsx:271
 msgid "5 minutes"
 msgstr ""
@@ -552,7 +552,7 @@ msgstr ""
 msgid "6 hours"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:157
+#: pkg/lib/cockpit-components-shutdown.jsx:160
 msgid "60 minutes"
 msgstr ""
 
@@ -928,7 +928,7 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:298
+#: pkg/packagekit/autoupdates.jsx:297
 msgid "All updates"
 msgstr ""
 
@@ -1088,7 +1088,7 @@ msgstr ""
 msgid "Automatic login"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:373 pkg/packagekit/autoupdates.jsx:409
+#: pkg/packagekit/autoupdates.jsx:372 pkg/packagekit/autoupdates.jsx:408
 msgid "Automatic updates"
 msgstr ""
 
@@ -1294,12 +1294,12 @@ msgstr ""
 #: pkg/networkmanager/firewall.jsx:535 pkg/networkmanager/firewall.jsx:709
 #: pkg/networkmanager/firewall.jsx:801 pkg/sosreport/index.js:52
 #: pkg/apps/utils.jsx:75 pkg/lib/cockpit-components-dialog.jsx:132
-#: pkg/lib/cockpit-components-shutdown.jsx:169
+#: pkg/lib/cockpit-components-shutdown.jsx:172
 #: pkg/systemd/services/timer-dialog.jsx:135
 #: pkg/systemd/services/service-details.jsx:71
 #: pkg/systemd/overview-cards/configurationCard.jsx:332
 #: pkg/systemd/overview-cards/motdCard.jsx:102 pkg/systemd/hwinfo.jsx:245
-#: pkg/systemd/reporting.jsx:421 pkg/packagekit/autoupdates.jsx:422
+#: pkg/systemd/reporting.jsx:421 pkg/packagekit/autoupdates.jsx:421
 #: pkg/packagekit/updates.jsx:462 pkg/packagekit/updates.jsx:533
 #: pkg/shell/shell-modals.jsx:96 pkg/shell/superuser.jsx:80
 #: pkg/shell/superuser.jsx:154 pkg/storaged/jobs-panel.jsx:139
@@ -1323,7 +1323,7 @@ msgstr ""
 msgid "Cannot join a domain because realmd is not available on this system"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:118
+#: pkg/lib/cockpit-components-shutdown.jsx:121
 msgid "Cannot schedule event in the past"
 msgstr ""
 
@@ -1981,7 +1981,7 @@ msgstr ""
 msgid "Deduplication"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:177
+#: pkg/lib/cockpit-components-shutdown.jsx:180
 #: pkg/systemd/services/timer-dialog.jsx:184
 #: pkg/systemd/services/timer-dialog.jsx:195
 msgid "Delay"
@@ -2122,7 +2122,7 @@ msgstr ""
 #: pkg/networkmanager/interfaces.js:1450
 #: pkg/systemd/services/service-details.jsx:341
 #: pkg/systemd/services/services.jsx:187 pkg/systemd/services/services.jsx:840
-#: pkg/packagekit/autoupdates.jsx:335
+#: pkg/packagekit/autoupdates.jsx:334
 msgid "Disabled"
 msgstr ""
 
@@ -2250,7 +2250,7 @@ msgstr ""
 msgid "Dual rank"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:402 pkg/shell/indexes.js:343
+#: pkg/packagekit/autoupdates.jsx:401 pkg/shell/indexes.js:343
 #: pkg/storaged/crypto-keyslots.jsx:543 pkg/storaged/nfs-details.jsx:318
 #: pkg/storaged/iscsi-panel.jsx:255 pkg/storaged/crypto-tab.jsx:187
 msgid "Edit"
@@ -2306,7 +2306,7 @@ msgstr ""
 msgid "Emptying $target"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:402
+#: pkg/packagekit/autoupdates.jsx:401
 msgid "Enable"
 msgstr ""
 
@@ -2542,7 +2542,7 @@ msgstr ""
 msgid "Failed to load authorized keys."
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:365
+#: pkg/packagekit/autoupdates.jsx:364
 msgid ""
 "Failed to parse unit files for dnf-automatic.timer or dnf-automatic-install."
 "timer. Please remove custom overrides to configure automatic updates."
@@ -2676,7 +2676,7 @@ msgid ""
 "another physical volume."
 msgstr ""
 
-#: pkg/systemd/services/timer-dialog.jsx:286 pkg/packagekit/autoupdates.jsx:313
+#: pkg/systemd/services/timer-dialog.jsx:286 pkg/packagekit/autoupdates.jsx:312
 msgid "Fridays"
 msgstr ""
 
@@ -3010,11 +3010,11 @@ msgstr ""
 msgid "Invalid address $0"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:103 pkg/lib/serverTime.js:609
+#: pkg/lib/cockpit-components-shutdown.jsx:106 pkg/lib/serverTime.js:609
 msgid "Invalid date format"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:97
+#: pkg/lib/cockpit-components-shutdown.jsx:100
 msgid "Invalid date format and invalid time format"
 msgstr ""
 
@@ -3054,8 +3054,8 @@ msgstr ""
 msgid "Invalid range"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:100
-#: pkg/packagekit/autoupdates.jsx:323
+#: pkg/lib/cockpit-components-shutdown.jsx:103
+#: pkg/packagekit/autoupdates.jsx:322
 msgid "Invalid time format"
 msgstr ""
 
@@ -3590,7 +3590,7 @@ msgstr ""
 msgid "Merged"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:174
+#: pkg/lib/cockpit-components-shutdown.jsx:177
 msgid "Message to logged in users"
 msgstr ""
 
@@ -3653,7 +3653,7 @@ msgstr ""
 msgid "Modifying $target"
 msgstr ""
 
-#: pkg/systemd/services/timer-dialog.jsx:282 pkg/packagekit/autoupdates.jsx:309
+#: pkg/systemd/services/timer-dialog.jsx:282 pkg/packagekit/autoupdates.jsx:308
 msgid "Mondays"
 msgstr ""
 
@@ -3949,7 +3949,7 @@ msgstr ""
 msgid "No data available between $0 and $1"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:151
+#: pkg/lib/cockpit-components-shutdown.jsx:154
 msgid "No delay"
 msgstr ""
 
@@ -4065,7 +4065,7 @@ msgstr ""
 msgid "No system modifications"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:286
+#: pkg/packagekit/autoupdates.jsx:285
 msgid "No updates"
 msgstr ""
 
@@ -4144,7 +4144,7 @@ msgstr ""
 msgid "Not running"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:337
+#: pkg/packagekit/autoupdates.jsx:336
 msgid "Not set up"
 msgstr ""
 
@@ -4502,7 +4502,7 @@ msgstr ""
 msgid "Physical volumes can not be resized here."
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:188
+#: pkg/lib/cockpit-components-shutdown.jsx:192
 msgid "Pick date"
 msgstr ""
 
@@ -4815,8 +4815,8 @@ msgstr ""
 msgid "Real host name must be 64 characters or less"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:166
-#: pkg/lib/cockpit-components-shutdown.jsx:168
+#: pkg/lib/cockpit-components-shutdown.jsx:169
+#: pkg/lib/cockpit-components-shutdown.jsx:171
 #: pkg/lib/cockpit-components-logs-panel.jsx:102 pkg/systemd/overview.jsx:209
 #: pkg/systemd/overview.jsx:226
 msgid "Reboot"
@@ -5232,7 +5232,7 @@ msgid ""
 "Safari users need to import and trust the certificate of the self-signing CA:"
 msgstr ""
 
-#: pkg/systemd/services/timer-dialog.jsx:287 pkg/packagekit/autoupdates.jsx:314
+#: pkg/systemd/services/timer-dialog.jsx:287 pkg/packagekit/autoupdates.jsx:313
 msgid "Saturdays"
 msgstr ""
 
@@ -5247,7 +5247,7 @@ msgid "Save and reboot"
 msgstr ""
 
 #: pkg/systemd/overview-cards/motdCard.jsx:98
-#: pkg/packagekit/autoupdates.jsx:417
+#: pkg/packagekit/autoupdates.jsx:416
 msgid "Save changes"
 msgstr ""
 
@@ -5290,7 +5290,7 @@ msgstr ""
 msgid "Securely erasing $target"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:353
+#: pkg/packagekit/autoupdates.jsx:352
 msgid "Security updates "
 msgstr ""
 
@@ -5298,7 +5298,7 @@ msgstr ""
 msgid "Security updates available"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:292
+#: pkg/packagekit/autoupdates.jsx:291
 msgid "Security updates only"
 msgstr ""
 
@@ -5498,8 +5498,8 @@ msgstr ""
 msgid "Shrink volume"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:166
-#: pkg/lib/cockpit-components-shutdown.jsx:168
+#: pkg/lib/cockpit-components-shutdown.jsx:169
+#: pkg/lib/cockpit-components-shutdown.jsx:171
 msgid "Shut down"
 msgstr ""
 
@@ -5617,7 +5617,7 @@ msgstr ""
 msgid "Spare"
 msgstr ""
 
-#: pkg/lib/cockpit-components-shutdown.jsx:159
+#: pkg/lib/cockpit-components-shutdown.jsx:162
 msgid "Specific time"
 msgstr ""
 
@@ -5751,7 +5751,7 @@ msgstr ""
 msgid "Sub-Notebook"
 msgstr ""
 
-#: pkg/systemd/services/timer-dialog.jsx:288 pkg/packagekit/autoupdates.jsx:315
+#: pkg/systemd/services/timer-dialog.jsx:288 pkg/packagekit/autoupdates.jsx:314
 msgid "Sundays"
 msgstr ""
 
@@ -6231,7 +6231,7 @@ msgstr ""
 msgid "This field cannot be empty"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:328
+#: pkg/packagekit/autoupdates.jsx:327
 msgid "This host will reboot after updates are installed."
 msgstr ""
 
@@ -6311,7 +6311,7 @@ msgid ""
 "apply to your current web console connection."
 msgstr ""
 
-#: pkg/systemd/services/timer-dialog.jsx:285 pkg/packagekit/autoupdates.jsx:312
+#: pkg/systemd/services/timer-dialog.jsx:285 pkg/packagekit/autoupdates.jsx:311
 msgid "Thursdays"
 msgstr ""
 
@@ -6373,6 +6373,10 @@ msgstr ""
 
 #: pkg/storaged/mdraid-details.jsx:206
 msgid "Toggle bitmap"
+msgstr ""
+
+#: pkg/lib/cockpit-components-shutdown.jsx:193
+msgid "Toggle date picker"
 msgstr ""
 
 #: pkg/shell/index.html:63
@@ -6444,7 +6448,7 @@ msgstr ""
 msgid "Trying to synchronize with $0"
 msgstr ""
 
-#: pkg/systemd/services/timer-dialog.jsx:283 pkg/packagekit/autoupdates.jsx:310
+#: pkg/systemd/services/timer-dialog.jsx:283 pkg/packagekit/autoupdates.jsx:309
 msgid "Tuesdays"
 msgstr ""
 
@@ -6476,7 +6480,7 @@ msgid "Turn on administrative access"
 msgstr ""
 
 #: pkg/shell/index.html:226 pkg/systemd/hwinfo.jsx:86
-#: pkg/systemd/hwinfo.jsx:311 pkg/packagekit/autoupdates.jsx:282
+#: pkg/systemd/hwinfo.jsx:311 pkg/packagekit/autoupdates.jsx:281
 #: pkg/storaged/part-tab.jsx:55 pkg/storaged/format-dialog.jsx:220
 #: pkg/storaged/unrecognized-tab.jsx:41
 msgid "Type"
@@ -6747,7 +6751,7 @@ msgstr ""
 msgid "Updated packages may require a reboot to take effect."
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:353
+#: pkg/packagekit/autoupdates.jsx:352
 msgid "Updates "
 msgstr ""
 
@@ -7009,7 +7013,7 @@ msgstr ""
 msgid "Web console is running in limited access mode."
 msgstr ""
 
-#: pkg/systemd/services/timer-dialog.jsx:284 pkg/packagekit/autoupdates.jsx:311
+#: pkg/systemd/services/timer-dialog.jsx:284 pkg/packagekit/autoupdates.jsx:310
 msgid "Wednesdays"
 msgstr ""
 
@@ -7021,7 +7025,7 @@ msgstr ""
 msgid "Weeks"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:304
+#: pkg/packagekit/autoupdates.jsx:303
 msgid "When"
 msgstr ""
 
@@ -7203,7 +7207,7 @@ msgstr ""
 msgid "asset tag"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:318
+#: pkg/packagekit/autoupdates.jsx:317
 msgid "at"
 msgstr ""
 
@@ -7331,35 +7335,35 @@ msgstr ""
 msgid "error"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:345
+#: pkg/packagekit/autoupdates.jsx:344
 msgid "every Friday"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:341
+#: pkg/packagekit/autoupdates.jsx:340
 msgid "every Monday"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:346
+#: pkg/packagekit/autoupdates.jsx:345
 msgid "every Saturday"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:347
+#: pkg/packagekit/autoupdates.jsx:346
 msgid "every Sunday"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:344
+#: pkg/packagekit/autoupdates.jsx:343
 msgid "every Thursday"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:342
+#: pkg/packagekit/autoupdates.jsx:341
 msgid "every Tuesday"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:343
+#: pkg/packagekit/autoupdates.jsx:342
 msgid "every Wednesday"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:308 pkg/packagekit/autoupdates.jsx:340
+#: pkg/packagekit/autoupdates.jsx:307 pkg/packagekit/autoupdates.jsx:339
 msgid "every day"
 msgstr ""
 
@@ -7816,7 +7820,7 @@ msgstr ""
 msgid "warning"
 msgstr ""
 
-#: pkg/packagekit/autoupdates.jsx:354
+#: pkg/packagekit/autoupdates.jsx:353
 msgid "will be applied $0 at $1"
 msgstr ""
 
